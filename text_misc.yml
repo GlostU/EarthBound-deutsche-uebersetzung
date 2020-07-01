@@ -1,0 +1,128 @@
+Ailments:
+  Ailment 01: Bewusstlos
+  Ailment 02: Diamantisiert
+  Ailment 03: Paralysiert
+  Ailment 04: "[bb]bel"
+  Ailment 05: Vergiftet
+  Ailment 06: Sonnenstich
+  Ailment 07: Schnupfen
+  Ailment 08: Gepilzt
+  Ailment 09: Besessen
+  Ailment 10: Heimweh
+Battle Menu:
+  Auto Fight: Auto Kampf
+  Bash: Schlagen
+  Defend: Blocken
+  Do Nothing: Nichts Machen
+  Goods: Sachen
+  Mirror: 'Verwand[c5]'
+  PSI: PSI
+  Pray: Beten
+  Run Away: Weglaufen
+  Shoot: Schie[b8]en
+  Spy: Spitzeln
+Equip Menu:
+  Arms: '    Arme'
+  Arms Window Title: Arme
+  Body: '   K[c9]rper'
+  Body Window Title: K[c9]rper
+  Defense: 'Abwehr[cf]'
+  No Equip: ' (Nichts)'
+  Offense: Angriff
+  Other: '   Extras'
+  Other Window Title: Extras
+  To: 'Zu:'
+  Unequip: Nichts
+  Weapon: '  Waffen'
+  Weapon Window Title: Waffen
+Item Menu:
+  Drop: Ableg
+  Give: Geben
+  Help: Hilfe
+  Use: Nutze
+Menu Action Targets:
+  Where: Wo?
+  Where 2: Wo?
+  Which: Was?
+  Who: Wer?
+  Whom: We[c1][c2]
+Other:
+  Lumine Hall Text: '... , das bin ich.  Es war ein langer Weg bis hierher...  Bald, werde ich...  Bald,
+    werde ich...  Was wird mit uns passieren?  W...was passiert hier?  Werden
+    meine Gedanken etwa gerade an die Wand geschrieben? ...'
+  Player Name Prompt: Bitte gib deinen Namen ein.
+Out of Battle Menu:
+  Check: Pr[cb]fen
+  Equip: Ausr[cb]sten
+  Goods: Sachen
+  PSI: PSI
+  Status: Status
+  Talk to: Reden
+PSI Menu:
+  PP Cost: Kosten
+  Row Back: Reihe hinten
+  Row Front: Reihe vorne
+  Row To: ''
+  To all enemies: Auf alle Feinde
+  To all of us: Auf alle Freunde
+  To all of us 2: Auf alle Freunde
+  To enemy: Auf Feind
+  To one enemy: Auf einen Feind
+  To one enemy 2: Auf einen Feind
+  To one of us: Auf einen Freund
+  To one of us 2: Auf einen Freund
+  To row of foes: Auf Reihe Feinde
+  himself: "sich selbst"
+PSI Types:
+  Assist: Helfen
+  Offense: Angriff
+  Other: Anderes
+  Recover: Heilung
+Starting Text:
+  Ask Name 1: Bitte gib ihm einen Namen.
+  Ask Name 2: Ihr auch, bitte.
+  Ask Name 3: Wie hei[b8]t dein Freund?
+  Ask Name 4: Und dein anderer Freund?
+  Ask Name Food: Was ist dein Lieblingsessen?
+  Ask Name PSI: Was magst du am meisten?
+  Ask Name Pet: Wie soll dein Hund hei[b8]en?
+  Confirm All: Korrekt so?
+  Confirm All No: Ne
+  Confirm All Yes: Klar
+  Confirm Delete: Wirklich l[c9]schen?
+  Confirm Delete No: 'Nein'
+  Confirm Delete Yes: 'Ja'
+  Confirm Food: 'Lieblingsessen'
+  Confirm PSI: 'Das Beste ist'
+  Continue: Weiter
+  Copy: Kopieren
+  Copy to where?: Wohin?
+  Delete: L[c9]schen
+  Select Sound: W[c0]hle Soundeinstellung.
+  Select Sound Mono: Mono
+  Select Sound Stereo: Stereo
+  Select Speed: Bitte w[c0]hle Texttempo.
+  Select Style: Welchen Geschmack f[cb]r die Fenster?
+  Set Up: Einstellungen
+  Start New Game: Neues Spiel
+  Text Speed: 'Texttempo: '
+  Text Speed Fast: Flott
+  Text Speed Medium: Mittel
+  Text Speed Slow: Lahm
+Status Window:
+  Defense: ''
+  Exp. for next level: ''
+  Experience Points: ''
+  Guts: ''
+  Hit Points: ''
+  IQ: ''
+  Level: ''
+  Luck: ''
+  Offense: ''
+  PSI Prompt: '@Dr[cb]cke -A- f[cb]r PSI Info.'
+  Psychic Points: ''
+  Speed: ''
+  Vitality: ''
+Window Titles:
+  Escargo Express Window Title: Lagerbestand
+  Phone Window Title: 'Wahl:'

@@ -1,0 +1,6 @@
+# List all ranges which CoilSnake should not touch
+# Example:
+# - (0x350000, 0x350100)
+# - (0x00F8C2, 0x00F95D)
+# - (0x1F0000, 0x1F0030) # Reserved for the Kirby sprite assembly - Originally (0x1EFFD0, 0x1EFFFF)
+ - (0x00F8C2, 0x00F95D) # EBPP Disassembly

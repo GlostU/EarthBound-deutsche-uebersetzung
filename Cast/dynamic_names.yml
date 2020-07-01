@@ -1,0 +1,9 @@
+Paula's dad:
+  mode: prefix
+  text: 'Papa von '
+Paula's mom:
+  mode: prefix
+  text: 'Mama von '
+Poo's master:
+  mode: none
+  text: 'Yi-Si-Qi'

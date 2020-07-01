@@ -1,0 +1,166 @@
+// GENERAL ASM CODE FOR FIXES TO SEVERAL OF THE KIRBY DEBUG MENU OPTIONS
+import asm65816
+
+/* NOTE: All of the options in this Debug menu utilize 10 bytes as a maximum */
+
+/* Change Kirby debug menu text
+2F = /	| 30 = 0	| 31 = 1	| 32 = 2	| 39 = 9			
+40 = @	| 41 = A	| 42 = B	| 43 = C ...	| 5A = Z */
+//				  M  O  T  H  E  R  2  _  G  E  R  _  _  2  0  2  0  /  0  2  /  2  8  _  _  G  L  O  S  T  U  _
+ROM[0xEFD8B5] = "[4D 4F 54 48 45 52 32 20 47 45 52 20 20 32 30 32 30 2F 30 32 2F 32 38 20 20 47 4C 4F 53 54 55 20]"
+// Original -    [4D 4F 54 48 45 52 32 20 52 4F 4D 20 20 31 39 39 34 2F 30 37 2F 30 39 20 20 56 45 52 53 49 4F 4E]
+// MOTHER2 ROM  1994/07/09  VERSION
+
+/* Debug menu text fixes */
+ROM[0xC454BF] = ASMLoadAddress0E(tx6)
+
+tx6:	// ROM[0xC3E44C]
+    "Weiter[00]"
+
+
+ROM[0xC12EBA] = ASMLoadAddress0A(debug_text)
+
+/*
+ROM[0xC3E874]	// Flag
+ROM[0xC3E87E]	// Goods
+ROM[0xC3E888]	// Save
+ROM[0xC3E892]	// Apple
+ROM[0xC3E89C]	// Banana
+
+ROM[0xC3E8A6]	// TV
+ROM[0xC3E8B0]	// Event
+ROM[0xC3E8BA]	// Warp
+ROM[0xC3E8C4]	// Tea
+ROM[0xC3E8CE]	// 6?K ---> E6 EF FB
+
+ROM[0xC3E8D8]	// $uz ---> +?u456789 ---> D4 B6 25 2B 
+ROM[0xC3E8E2]	// $u[ --> ??? --> D4 B6 25 @B
+ROM[0xC3E8EC]	// +?uu --> ??? --> DB EF 25 BD 25 30
+ROM[0xC3E8F6]	// +?uu --> ??? --> 
+ROM[0xC3E900]	// GUIDE
+
+ROM[0xC3E90A]	// TRACK
+ROM[0xC3E914]	// CAST
+ROM[0xC3E91E]	// STONE
+ROM[0xC3E928]	// STAFF
+ROM[0xC3E932]	// "uu ---> "ue' ()**,-./0123456789:; ---> EC 25 B6 25
+
+ROM[0xC3E93C]	// REPLAY
+ROM[0xC3E946]	// TEST1
+ROM[0xC3E950]	// TEST2
+*/
+
+debug_text: {	// ROM[0xC3E874]
+
+	"Flags[00 00 00 00 00]"
+	"Sachen[00 00 00 00]"
+	"Speichern[00]"
+	"Apfel[00 00 00 00 00]"
+	"Banane[00 00 00 00]"
+
+	"TV[00 00 00 00 00 00 00 00]"
+	"Event[00 00 00 00 00]"
+	"Port[00 00 00 00 00 00]"
+	"Tee[00 00 00 00 00 00 00]"
+	"Zur[cb]ck[00 00 00 00]"
+
+	"Zur[cb]ck[00 00 00 00]"
+	"Zur[cb]ck[00 00 00 00]"
+	"Name[00 00 00 00 00 00]"
+	"Name[00 00 00 00 00 00]"
+	"Karte[00 00 00 00 00]"
+
+	"Track[00 00 00 00 00]"
+	"Cast[00 00 00 00 00 00]"
+	"Stein[00 00 00 00 00]"
+	"Staff[00 00 00 00 00]"
+	"Rollen[00 00 00 00]"
+
+	"Replay[00 00 00 00]"
+	"Test 1[00 00 00 00]"
+	"Test 2[00 00 00 00]"
+
+	"[00 00 00 00 00 00 00 00 00 00 00 06 00 00 01 06 01 00 02 06 02]"
+}
+
+
+/* Fix Palette for the Window colors */
+ROM[0xC47FD9] = {
+	LDA_a	(0x99CD)
+	JSL	(colorfix)
+}
+
+colorfix: {
+	AND_i	(0x00FF)
+	BNE	(0x06)		// Check if palette index has been set
+	LDA_i	(0x0001)	// Default palette index (01=Plain Flavor, 02=Mint, 03=Strawberry, 04=Banana, 05=Peanut)
+	STA_a	(0x99CD)
+	DEC
+	RTL
+}
+
+/* Load original Debug window palette from EarthBound */
+/* UNCOMMENT (AND COMMENT ABOVE CODE) IF YOU WANT THE ORIGINAL PINK PALETTE FOR THE DEBUG WINDOW MENU
+
+ROM[0xC47FE6] = {
+    JSL (pinkwindow)
+}
+       
+pinkwindow: {
+	LDA_a	(0x99CD)
+	BNE	(0x04)		// Check if palette index has been set
+	LDA_i	(0xFFFF)	// Incorrect data loaded in EarthBound
+	RTL
+	LDA_xl	(0xE01FB9)
+	RTL
+}*/
+
+
+/* Change button input layout for the Debug menu only */
+	
+ROM[0xEFE52F] = AND_i	(0x0040)	// Opens Main (Talk) menu when pressed (B button by default)
+
+ROM[0xEFE2F5] = {
+	JMP_l	(buttontalk)
+	NOP
+	NOP
+	NOP
+	NOP
+	NOP
+	NOP
+	NOP
+}
+
+buttontalk: {
+	JSL	(buttoncheck)
+	LDA_a	(0x006D)
+	AND_i	(0x8000)		// Fades screen to black / Reloads (A button by default)
+	BNE	(0x04)
+	JMP_l	(0xEFE387)
+	JMP_l	(0xEFE300)
+}
+
+buttoncheck: {
+	LDA_a	(0x006D)
+	AND_i	(0x00A0)		// AND operand check for A+L buttons. Talks to NPCs / Confirm selections at the Menus
+	BEQ	(0x04)
+	JSL	(0xC13C32)
+	RTL
+}
+
+
+
+/* Fix "Show battle" Battle debug menu to work properly */
+ROM[0xC1E21A] =	LDA_i (0x0060)	// Next 4 lines fix the garbled characters in Enemy Selection Menu for proper numbers (000, 001, etc)
+ROM[0xC1E21F] = LDA_i (0x0060)
+ROM[0xC1E237] =	LDA_i (0x0060)
+ROM[0xC1E23C] = LDA_i (0x0060)
+
+ROM[0xEFE64E] = JSL (Init_Debug_Party)	// Fixes the "Show battle" option crashing when starting a battle from a fresh boot
+
+Init_Debug_Party: {
+	LDA_i	(0x0004)	// Load 4 into A register
+	STA_a	(0x98A3)	// Store it in 0x7E98A3
+	JSL	(0xC24821)	// Go to battle routine
+	RTL
+}

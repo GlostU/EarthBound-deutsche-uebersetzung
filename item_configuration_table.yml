@@ -1,0 +1,3987 @@
+0:
+  Action: 1
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 2
+  Help Text Pointer: data_02.l_0xc539c4
+  Misc Flags: []
+  Name: 'Null'
+  Type: 255
+1:
+  Action: 1
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_02.l_0xc53711
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Franklin Orden
+  Type: 0
+2:
+  Action: 1
+  Argument:
+  - 16
+  - 1
+  - 2
+  - 0
+  Cost: 178
+  Help Text Pointer: data_02.l_0xc53750
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Teddyb[c0]r
+  Type: 4
+3:
+  Action: 1
+  Argument:
+  - 17
+  - 1
+  - 1
+  - 0
+  Cost: 1198
+  Help Text Pointer: data_02.l_0xc53761
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Super Flausch B[c0]r
+  Type: 4
+4:
+  Action: 1
+  Argument:
+  - 0
+  - 1
+  - 131
+  - 0
+  Cost: 0
+  Help Text Pointer: data_02.l_0xc53772
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Kaputte Maschine
+  Type: 8
+5:
+  Action: 1
+  Argument:
+  - 0
+  - 34
+  - 215
+  - 0
+  Cost: 109
+  Help Text Pointer: data_02.l_0xc537bc
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Zerbrochenes Ding
+  Type: 8
+6:
+  Action: 1
+  Argument:
+  - 0
+  - 12
+  - 39
+  - 0
+  Cost: 0
+  Help Text Pointer: data_02.l_0xc53809
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Kaputte Luftpistole
+  Type: 8
+7:
+  Action: 1
+  Argument:
+  - 0
+  - 1
+  - 161
+  - 0
+  Cost: 189
+  Help Text Pointer: data_02.l_0xc5382a
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Kaputte Spraydose
+  Type: 8
+8:
+  Action: 1
+  Argument:
+  - 0
+  - 24
+  - 41
+  - 0
+  Cost: 0
+  Help Text Pointer: data_02.l_0xc5384d
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Kaputter Laser
+  Type: 8
+9:
+  Action: 1
+  Argument:
+  - 0
+  - 10
+  - 138
+  - 0
+  Cost: 149
+  Help Text Pointer: data_02.l_0xc53870
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Zerbrochenes Eisen
+  Type: 8
+10:
+  Action: 1
+  Argument:
+  - 0
+  - 30
+  - 132
+  - 0
+  Cost: 0
+  Help Text Pointer: data_02.l_0xc53897
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Zerbrochenes Rohr
+  Type: 8
+11:
+  Action: 1
+  Argument:
+  - 0
+  - 32
+  - 44
+  - 0
+  Cost: 218
+  Help Text Pointer: data_02.l_0xc538bc
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Kaputte Kanone
+  Type: 8
+12:
+  Action: 1
+  Argument:
+  - 0
+  - 36
+  - 136
+  - 0
+  Cost: 0
+  Help Text Pointer: data_02.l_0xc538e0
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Kaputte Dose
+  Type: 8
+13:
+  Action: 1
+  Argument:
+  - 0
+  - 45
+  - 134
+  - 0
+  Cost: 0
+  Help Text Pointer: data_02.l_0xc53908
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Kaputte Bazooka
+  Type: 8
+14:
+  Action: 1
+  Argument:
+  - 0
+  - 40
+  - 157
+  - 0
+  Cost: 0
+  Help Text Pointer: data_02.l_0xc53929
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Kaputte Trompete
+  Type: 8
+15:
+  Action: 1
+  Argument:
+  - 0
+  - 55
+  - 46
+  - 0
+  Cost: 0
+  Help Text Pointer: data_02.l_0xc53960
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Kaputte Harmonika
+  Type: 8
+16:
+  Action: 1
+  Argument:
+  - 0
+  - 65
+  - 48
+  - 0
+  Cost: 0
+  Help Text Pointer: data_02.l_0xc5398e
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Kaputte Antenne
+  Type: 8
+17:
+  Action: 239
+  Argument:
+  - 4
+  - 0
+  - 0
+  - 1
+  Cost: 18
+  Help Text Pointer: data_02.l_0xc539c4
+  Misc Flags:
+  - ness can use
+  Name: Br[cb]chiger Schl[c0]ger
+  Type: 16
+18:
+  Action: 239
+  Argument:
+  - 8
+  - 0
+  - 0
+  - 1
+  Cost: 48
+  Help Text Pointer: data_02.l_0xc539d4
+  Misc Flags:
+  - ness can use
+  Name: 7er Eisen
+  Type: 16
+19:
+  Action: 239
+  Argument:
+  - 15
+  - 0
+  - 0
+  - 1
+  Cost: 98
+  Help Text Pointer: data_02.l_0xc539e4
+  Misc Flags:
+  - ness can use
+  Name: 3er Holz
+  Type: 16
+20:
+  Action: 239
+  Argument:
+  - 26
+  - 0
+  - 0
+  - 1
+  Cost: 399
+  Help Text Pointer: data_02.l_0xc539f4
+  Misc Flags:
+  - ness can use
+  Name: Unterliga Schl[c0]ger
+  Type: 16
+21:
+  Action: 239
+  Argument:
+  - 38
+  - 0
+  - 0
+  - 1
+  Cost: 498
+  Help Text Pointer: data_02.l_0xc53a04
+  Misc Flags:
+  - ness can use
+  Name: M[c4]BaseballSchl[c0]ger
+  Type: 16
+22:
+  Action: 239
+  Argument:
+  - 54
+  - 0
+  - 0
+  - 1
+  Cost: 3080
+  Help Text Pointer: data_02.l_0xc53a14
+  Misc Flags:
+  - ness can use
+  Name: Oberliga Schl[c0]ger
+  Type: 16
+23:
+  Action: 239
+  Argument:
+  - 62
+  - 0
+  - 0
+  - 1
+  Cost: 1880
+  Help Text Pointer: data_02.l_0xc53a47
+  Misc Flags:
+  - ness can use
+  Name: Ruhmeshallen[c3]
+  Type: 16
+24:
+  Action: 239
+  Argument:
+  - 80
+  - 0
+  - 0
+  - 1
+  Cost: 0
+  Help Text Pointer: data_02.l_0xc53a57
+  Misc Flags:
+  - ness can use
+  Name: Magicant Schl[c0]ger
+  Type: 16
+25:
+  Action: 239
+  Argument:
+  - 110
+  - 0
+  - 0
+  - 1
+  Cost: 0
+  Help Text Pointer: data_02.l_0xc53a67
+  Misc Flags:
+  - ness can use
+  Name: Legenden Schl[c0]ger
+  Type: 16
+26:
+  Action: 239
+  Argument:
+  - 100
+  - 0
+  - 127
+  - 1
+  Cost: 2980
+  Help Text Pointer: data_02.l_0xc53a77
+  Misc Flags:
+  - ness can use
+  Name: Mutiger Schl[c0]ger
+  Type: 16
+27:
+  Action: 239
+  Argument:
+  - 125
+  - 0
+  - 0
+  - 12
+  Cost: 38
+  Help Text Pointer: data_02.l_0xc53a9f
+  Misc Flags:
+  - ness can use
+  Name: M[c0]chtigerSchl[c0]ger
+  Type: 16
+28:
+  Action: 239
+  Argument:
+  - 10
+  - 0
+  - 0
+  - 1
+  Cost: 56
+  Help Text Pointer: data_02.l_0xc53ae6
+  Misc Flags:
+  - paula can use
+  Name: Bratpfanne
+  Type: 16
+29:
+  Action: 239
+  Argument:
+  - 20
+  - 0
+  - 0
+  - 1
+  Cost: 198
+  Help Text Pointer: data_02.l_0xc53af6
+  Misc Flags:
+  - paula can use
+  Name: Dicke Bratpfanne
+  Type: 16
+30:
+  Action: 239
+  Argument:
+  - 30
+  - 0
+  - 0
+  - 1
+  Cost: 598
+  Help Text Pointer: data_02.l_0xc53b06
+  Misc Flags:
+  - paula can use
+  Name: Deluxe Bratpfanne
+  Type: 16
+31:
+  Action: 239
+  Argument:
+  - 40
+  - 0
+  - 0
+  - 1
+  Cost: 1198
+  Help Text Pointer: data_02.l_0xc53b16
+  Misc Flags:
+  - paula can use
+  Name: Chefkoch Pfanne
+  Type: 16
+32:
+  Action: 239
+  Argument:
+  - 60
+  - 0
+  - 0
+  - 1
+  Cost: 1790
+  Help Text Pointer: data_02.l_0xc53b26
+  Misc Flags:
+  - paula can use
+  Name: Pommes Pfanne
+  Type: 16
+33:
+  Action: 239
+  Argument:
+  - 50
+  - 0
+  - 100
+  - 4
+  Cost: 4790
+  Help Text Pointer: data_02.l_0xc53b36
+  Misc Flags:
+  - paula can use
+  Name: Magische Pfanne
+  Type: 16
+34:
+  Action: 239
+  Argument:
+  - 80
+  - 0
+  - 10
+  - 1
+  Cost: 3480
+  Help Text Pointer: data_02.l_0xc53b46
+  Misc Flags:
+  - paula can use
+  Name: Heilige Pfanne
+  Type: 16
+35:
+  Action: 239
+  Argument:
+  - 10
+  - 30
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_02.l_0xc53b56
+  Misc Flags:
+  - poo can use
+  Name: Schwert der K[c9]nige
+  Type: 16
+36:
+  Action: 239
+  Argument:
+  - 16
+  - 0
+  - 0
+  - 0
+  Cost: 110
+  Help Text Pointer: data_02.l_0xc53b76
+  Misc Flags:
+  - jeff can use
+  Name: Gummipistole
+  Type: 17
+37:
+  Action: 239
+  Argument:
+  - 24
+  - 0
+  - 0
+  - 0
+  Cost: 150
+  Help Text Pointer: data_03.l_0xc53b86
+  Misc Flags:
+  - jeff can use
+  Name: Bet[c0]ubungspistole
+  Type: 17
+38:
+  Action: 239
+  Argument:
+  - 32
+  - 0
+  - 0
+  - 0
+  Cost: 215
+  Help Text Pointer: data_03.l_0xc53b96
+  Misc Flags:
+  - jeff can use
+  Name: Spielzeugpistole
+  Type: 17
+39:
+  Action: 239
+  Argument:
+  - 36
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_03.l_0xc53ba6
+  Misc Flags:
+  - jeff can use
+  Name: Magnum Luftgew.
+  Type: 17
+40:
+  Action: 239
+  Argument:
+  - 40
+  - 0
+  - 0
+  - 0
+  Cost: 425
+  Help Text Pointer: data_03.l_0xc53bb6
+  Misc Flags:
+  - jeff can use
+  Name: Schockerpistole
+  Type: 17
+41:
+  Action: 239
+  Argument:
+  - 48
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_03.l_0xc53bc6
+  Misc Flags:
+  - jeff can use
+  Name: Laser Pistole
+  Type: 17
+42:
+  Action: 239
+  Argument:
+  - 58
+  - 0
+  - 0
+  - 0
+  Cost: 850
+  Help Text Pointer: data_03.l_0xc53bd6
+  Misc Flags:
+  - jeff can use
+  Name: Hyperstrahler
+  Type: 17
+43:
+  Action: 239
+  Argument:
+  - 72
+  - 0
+  - 0
+  - 0
+  Cost: 1150
+  Help Text Pointer: data_03.l_0xc53be6
+  Misc Flags:
+  - jeff can use
+  Name: Annihilator
+  Type: 17
+44:
+  Action: 239
+  Argument:
+  - 78
+  - 0
+  - 0
+  - 0
+  Cost: 1650
+  Help Text Pointer: data_03.l_0xc53bf6
+  Misc Flags:
+  - jeff can use
+  Name: Spektralstrahler
+  Type: 17
+45:
+  Action: 239
+  Argument:
+  - 90
+  - 0
+  - 0
+  - 0
+  Cost: 2300
+  Help Text Pointer: data_03.l_0xc53c06
+  Misc Flags:
+  - jeff can use
+  Name: Todesstrahler
+  Type: 17
+46:
+  Action: 239
+  Argument:
+  - 98
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_03.l_0xc53c16
+  Misc Flags:
+  - jeff can use
+  Name: B[c9]ser Strahler
+  Type: 17
+47:
+  Action: 239
+  Argument:
+  - 110
+  - 0
+  - 0
+  - 0
+  Cost: 4450
+  Help Text Pointer: data_03.l_0xc53c26
+  Misc Flags:
+  - jeff can use
+  Name: Mondlicht Pistole
+  Type: 17
+48:
+  Action: 239
+  Argument:
+  - 125
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_03.l_0xc53c36
+  Misc Flags:
+  - jeff can use
+  Name: Gaiastrahler
+  Type: 17
+49:
+  Action: 239
+  Argument:
+  - 6
+  - 250
+  - 0
+  - 3
+  Cost: 29
+  Help Text Pointer: data_03.l_0xc53c46
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Jo-Jo
+  Type: 17
+50:
+  Action: 239
+  Argument:
+  - 12
+  - 244
+  - 0
+  - 3
+  Cost: 89
+  Help Text Pointer: data_03.l_0xc53c5f
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Steinschleuder
+  Type: 17
+51:
+  Action: 239
+  Argument:
+  - 32
+  - 224
+  - 0
+  - 3
+  Cost: 449
+  Help Text Pointer: data_03.l_0xc53c7a
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Bionische Schleuder
+  Type: 17
+52:
+  Action: 239
+  Argument:
+  - 46
+  - 210
+  - 0
+  - 3
+  Cost: 998
+  Help Text Pointer: data_03.l_0xc53c95
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Trick Jo-Jo
+  Type: 17
+53:
+  Action: 239
+  Argument:
+  - 54
+  - 202
+  - 0
+  - 3
+  Cost: 1148
+  Help Text Pointer: data_03.l_0xc53caf
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Kampf Jo-Jo
+  Type: 17
+54:
+  Action: 240
+  Argument:
+  - 0
+  - 216
+  - 0
+  - 64
+  Cost: 60
+  Help Text Pointer: data_03.l_0xc53cc8
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Reiseamulett
+  Type: 20
+55:
+  Action: 240
+  Argument:
+  - 1
+  - 216
+  - 5
+  - 128
+  Cost: 400
+  Help Text Pointer: data_03.l_0xc53cd8
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Tolles Amulett
+  Type: 20
+56:
+  Action: 240
+  Argument:
+  - 2
+  - 216
+  - 15
+  - 192
+  Cost: 600
+  Help Text Pointer: data_03.l_0xc53d00
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Kristall Armulett
+  Type: 20
+57:
+  Action: 240
+  Argument:
+  - 3
+  - 216
+  - 40
+  - 192
+  Cost: 1800
+  Help Text Pointer: data_03.l_0xc53d21
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Hasenpfote
+  Type: 20
+58:
+  Action: 240
+  Argument:
+  - 15
+  - 216
+  - 0
+  - 3
+  Cost: 3000
+  Help Text Pointer: data_03.l_0xc53d46
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Flammen Anh[c0]nger
+  Type: 20
+59:
+  Action: 240
+  Argument:
+  - 15
+  - 216
+  - 0
+  - 12
+  Cost: 3000
+  Help Text Pointer: data_03.l_0xc53d6a
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Regen Anh[c0]nger
+  Type: 20
+60:
+  Action: 240
+  Argument:
+  - 15
+  - 216
+  - 0
+  - 48
+  Cost: 3000
+  Help Text Pointer: data_03.l_0xc53d8f
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Nacht Anh[c0]nger
+  Type: 20
+61:
+  Action: 240
+  Argument:
+  - 20
+  - 216
+  - 0
+  - 63
+  Cost: 5000
+  Help Text Pointer: data_03.l_0xc53db8
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Meeres Anh[c0]nger
+  Type: 20
+62:
+  Action: 240
+  Argument:
+  - 30
+  - 216
+  - 0
+  - 255
+  Cost: 7000
+  Help Text Pointer: data_03.l_0xc53de8
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Sternenkette
+  Type: 20
+63:
+  Action: 240
+  Argument:
+  - 176
+  - 20
+  - 40
+  - 0
+  Cost: 0
+  Help Text Pointer: data_03.l_0xc53e23
+  Misc Flags:
+  - poo can use
+  Name: Mantel der K[c9]nige
+  Type: 20
+64:
+  Action: 240
+  Argument:
+  - 5
+  - 216
+  - 0
+  - 0
+  Cost: 98
+  Help Text Pointer: data_03.l_0xc53e4f
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Billigarmband
+  Type: 24
+65:
+  Action: 240
+  Argument:
+  - 10
+  - 216
+  - 0
+  - 0
+  Cost: 349
+  Help Text Pointer: data_03.l_0xc53e5f
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Kupferarmband
+  Type: 24
+66:
+  Action: 240
+  Argument:
+  - 15
+  - 216
+  - 0
+  - 0
+  Cost: 599
+  Help Text Pointer: data_03.l_0xc53e6f
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Silberarmband
+  Type: 24
+67:
+  Action: 240
+  Argument:
+  - 30
+  - 216
+  - 0
+  - 0
+  Cost: 2799
+  Help Text Pointer: data_03.l_0xc53e7f
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Goldarmband
+  Type: 24
+68:
+  Action: 240
+  Argument:
+  - 40
+  - 216
+  - 0
+  - 0
+  Cost: 6899
+  Help Text Pointer: data_03.l_0xc53e8f
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Platinarmband
+  Type: 24
+69:
+  Action: 240
+  Argument:
+  - 50
+  - 216
+  - 0
+  - 0
+  Cost: 9998
+  Help Text Pointer: data_03.l_0xc53e9f
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Diamantarmband
+  Type: 24
+70:
+  Action: 240
+  Argument:
+  - 60
+  - 216
+  - 10
+  - 1
+  Cost: 1590
+  Help Text Pointer: data_03.l_0xc53eaf
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Pixie's Armband
+  Type: 24
+71:
+  Action: 240
+  Argument:
+  - 70
+  - 216
+  - 20
+  - 2
+  Cost: 1790
+  Help Text Pointer: data_03.l_0xc53ec6
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Engelsband
+  Type: 24
+72:
+  Action: 240
+  Argument:
+  - 80
+  - 216
+  - 30
+  - 2
+  Cost: 1980
+  Help Text Pointer: data_03.l_0xc53edd
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: G[c9]ttinen Band
+  Type: 24
+73:
+  Action: 240
+  Argument:
+  - 216
+  - 30
+  - 35
+  - 2
+  Cost: 0
+  Help Text Pointer: data_03.l_0xc53ef4
+  Misc Flags:
+  - poo can use
+  Name: Armschutz der K.
+  Type: 24
+74:
+  Action: 240
+  Argument:
+  - 5
+  - 216
+  - 0
+  - 0
+  Cost: 19
+  Help Text Pointer: data_03.l_0xc53f58
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Baseballkappe
+  Type: 28
+75:
+  Action: 240
+  Argument:
+  - 10
+  - 216
+  - 0
+  - 0
+  Cost: 59
+  Help Text Pointer: data_03.l_0xc53f89
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Holmes Hut
+  Type: 28
+76:
+  Action: 240
+  Argument:
+  - 6
+  - 216
+  - 0
+  - 0
+  Cost: 199
+  Help Text Pointer: data_03.l_0xc53fc9
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Mr. Baseball Kappe
+  Type: 28
+77:
+  Action: 240
+  Argument:
+  - 15
+  - 216
+  - 0
+  - 0
+  Cost: 298
+  Help Text Pointer: data_03.l_0xc5400a
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Schutzhelm
+  Type: 28
+78:
+  Action: 240
+  Argument:
+  - 20
+  - 216
+  - 0
+  - 0
+  Cost: 89
+  Help Text Pointer: data_03.l_0xc54055
+  Misc Flags:
+  - paula can use
+  Name: Schleife
+  Type: 28
+79:
+  Action: 240
+  Argument:
+  - 25
+  - 216
+  - 0
+  - 0
+  Cost: 179
+  Help Text Pointer: data_03.l_0xc54065
+  Misc Flags:
+  - paula can use
+  Name: Rote Schleife
+  Type: 28
+80:
+  Action: 240
+  Argument:
+  - 110
+  - 216
+  - 0
+  - 0
+  Cost: 6980
+  Help Text Pointer: data_03.l_0xc54075
+  Misc Flags:
+  - paula can use
+  Name: G[c9]ttinen Schleife
+  Type: 28
+81:
+  Action: 240
+  Argument:
+  - 30
+  - 216
+  - 10
+  - 0
+  Cost: 1500
+  Help Text Pointer: data_03.l_0xc54085
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Schlummer M[cb]nze
+  Type: 28
+82:
+  Action: 240
+  Argument:
+  - 40
+  - 216
+  - 13
+  - 0
+  Cost: 2000
+  Help Text Pointer: data_03.l_0xc54095
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Verteid. M[cb]nze
+  Type: 28
+83:
+  Action: 240
+  Argument:
+  - 50
+  - 216
+  - 20
+  - 0
+  Cost: 6000
+  Help Text Pointer: data_03.l_0xc540a5
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Gl[cb]ck M[cb]nze
+  Type: 28
+84:
+  Action: 240
+  Argument:
+  - 60
+  - 216
+  - 25
+  - 0
+  Cost: 3500
+  Help Text Pointer: data_03.l_0xc540b5
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Talisman M[cb]nze
+  Type: 28
+85:
+  Action: 240
+  Argument:
+  - 70
+  - 216
+  - 30
+  - 0
+  Cost: 4000
+  Help Text Pointer: data_03.l_0xc540c5
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Gl[c0]nzende M[cb]nze
+  Type: 28
+86:
+  Action: 240
+  Argument:
+  - 80
+  - 216
+  - 35
+  - 0
+  Cost: 6000
+  Help Text Pointer: data_03.l_0xc540d5
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Souvenir M[cb]nze
+  Type: 28
+87:
+  Action: 240
+  Argument:
+  - 216
+  - 20
+  - 30
+  - 85
+  Cost: 0
+  Help Text Pointer: data_03.l_0xc540e5
+  Misc Flags:
+  - poo can use
+  Name: Diadem der K[c9]nige
+  Type: 28
+88:
+  Action: 249
+  Argument:
+  - 0
+  - 1
+  - 1
+  - 0
+  Cost: 7
+  Help Text Pointer: data_03.l_0xc54106
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Keks
+  Type: 32
+89:
+  Action: 249
+  Argument:
+  - 0
+  - 4
+  - 1
+  - 0
+  Cost: 8
+  Help Text Pointer: data_03.l_0xc5411c
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Pommes Frites
+  Type: 32
+90:
+  Action: 249
+  Argument:
+  - 0
+  - 8
+  - 1
+  - 0
+  Cost: 14
+  Help Text Pointer: data_03.l_0xc54133
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Hamburger
+  Type: 32
+91:
+  Action: 249
+  Argument:
+  - 0
+  - 7
+  - 1
+  - 0
+  Cost: 9
+  Help Text Pointer: data_03.l_0xc54156
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Gekochtes Ei
+  Type: 32
+92:
+  Action: 249
+  Argument:
+  - 0
+  - 14
+  - 1
+  - 0
+  Cost: 12
+  Help Text Pointer: data_03.l_0xc5416d
+  Misc Flags:
+  - item can change
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Frisches Ei
+  Type: 32
+93:
+  Action: 249
+  Argument:
+  - 0
+  - 14
+  - 1
+  - 0
+  Cost: 24
+  Help Text Pointer: data_03.l_0xc54197
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Picknick Snack
+  Type: 32
+94:
+  Action: 249
+  Argument:
+  - 0
+  - 18
+  - 1
+  - 0
+  Cost: 128
+  Help Text Pointer: data_03.l_0xc541cb
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Pasta di Summers
+  Type: 32
+95:
+  Action: 249
+  Argument:
+  - 0
+  - 20
+  - 1
+  - 0
+  Cost: 48
+  Help Text Pointer: data_03.l_0xc54321
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Pizza
+  Type: 32
+96:
+  Action: 249
+  Argument:
+  - 0
+  - 36
+  - 1
+  - 0
+  Cost: 298
+  Help Text Pointer: data_03.l_0xc54339
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Chefkoch Spezial
+  Type: 32
+97:
+  Action: 250
+  Argument:
+  - 0
+  - 40
+  - 1
+  - 0
+  Cost: 238
+  Help Text Pointer: data_03.l_0xc543a4
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Gro[b8]e Pizza
+  Type: 44
+98:
+  Action: 249
+  Argument:
+  - 1
+  - 20
+  - 20
+  - 0
+  Cost: 100
+  Help Text Pointer: data_03.l_0xc543da
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: PSI Karamel
+  Type: 32
+99:
+  Action: 249
+  Argument:
+  - 1
+  - 80
+  - 80
+  - 0
+  Cost: 298
+  Help Text Pointer: data_03.l_0xc543f5
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Magischer Tr[cb]ffel
+  Type: 32
+100:
+  Action: 249
+  Argument:
+  - 2
+  - 50
+  - 0
+  - 0
+  Cost: 800
+  Help Text Pointer: data_03.l_0xc54451
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Hirnnahrung
+  Type: 32
+101:
+  Action: 249
+  Argument:
+  - 3
+  - 1
+  - 1
+  - 0
+  Cost: 38
+  Help Text Pointer: data_03.l_0xc54471
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Steinbonbon
+  Type: 32
+102:
+  Action: 249
+  Argument:
+  - 0
+  - 10
+  - 1
+  - 0
+  Cost: 18
+  Help Text Pointer: data_03.l_0xc544af
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Croissant
+  Type: 32
+103:
+  Action: 249
+  Argument:
+  - 0
+  - 5
+  - 1
+  - 0
+  Cost: 12
+  Help Text Pointer: data_03.l_0xc544c6
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Brotlaib
+  Type: 32
+104:
+  Action: 188
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_03.l_0xc544dd
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Kaugummipackung
+  Type: 56
+105:
+  Action: 189
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_03.l_0xc5453e
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Fliegenhonig
+  Type: 53
+106:
+  Action: 249
+  Argument:
+  - 0
+  - 1
+  - 1
+  - 0
+  Cost: 4
+  Help Text Pointer: data_03.l_0xc545a1
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Fruchtsaft
+  Type: 36
+107:
+  Action: 249
+  Argument:
+  - 0
+  - 10
+  - 1
+  - 0
+  Cost: 78
+  Help Text Pointer: data_03.l_0xc545b7
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: K[c9]niglicher Eistee
+  Type: 36
+108:
+  Action: 249
+  Argument:
+  - 0
+  - 14
+  - 1
+  - 0
+  Cost: 38
+  Help Text Pointer: data_03.l_0xc54660
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Proteingetr[c0]nk
+  Type: 36
+109:
+  Action: 249
+  Argument:
+  - 0
+  - 0
+  - 1
+  - 0
+  Cost: 648
+  Help Text Pointer: data_03.l_0xc546bc
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Krakensuppe
+  Type: 36
+110:
+  Action: 249
+  Argument:
+  - 1
+  - 1
+  - 10
+  - 0
+  Cost: 4
+  Help Text Pointer: data_03.l_0xc54733
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Wasserflasche
+  Type: 36
+111:
+  Action: 249
+  Argument:
+  - 9
+  - 0
+  - 0
+  - 0
+  Cost: 22
+  Help Text Pointer: data_03.l_0xc5475a
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Hustensaft
+  Type: 36
+112:
+  Action: 249
+  Argument:
+  - 10
+  - 0
+  - 0
+  - 0
+  Cost: 58
+  Help Text Pointer: data_03.l_0xc54789
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Gegengift
+  Type: 36
+113:
+  Action: 249
+  Argument:
+  - 4
+  - 1
+  - 1
+  - 0
+  Cost: 38
+  Help Text Pointer: data_03.l_0xc547b0
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: IQ Kapsel
+  Type: 36
+114:
+  Action: 249
+  Argument:
+  - 5
+  - 1
+  - 1
+  - 0
+  Cost: 38
+  Help Text Pointer: data_03.l_0xc547cb
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Mut Kapsel
+  Type: 36
+115:
+  Action: 249
+  Argument:
+  - 6
+  - 1
+  - 1
+  - 0
+  Cost: 38
+  Help Text Pointer: data_03.l_0xc547e8
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Tempo Kapsel
+  Type: 36
+116:
+  Action: 249
+  Argument:
+  - 7
+  - 1
+  - 1
+  - 0
+  Cost: 38
+  Help Text Pointer: data_03.l_0xc54806
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Vital Kapsel
+  Type: 36
+117:
+  Action: 249
+  Argument:
+  - 8
+  - 1
+  - 1
+  - 0
+  Cost: 38
+  Help Text Pointer: data_03.l_0xc54826
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Gl[cb]ck Kapsel
+  Type: 36
+118:
+  Action: 249
+  Argument:
+  - 0
+  - 1
+  - 1
+  - 0
+  Cost: 2
+  Help Text Pointer: data_03.l_0xc54842
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Ketchup Packung
+  Type: 40
+119:
+  Action: 249
+  Argument:
+  - 0
+  - 1
+  - 1
+  - 0
+  Cost: 3
+  Help Text Pointer: data_03.l_0xc54852
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Zucker Packung
+  Type: 40
+120:
+  Action: 249
+  Argument:
+  - 0
+  - 1
+  - 1
+  - 0
+  Cost: 4
+  Help Text Pointer: data_03.l_0xc54862
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Kakao Dose
+  Type: 40
+121:
+  Action: 249
+  Argument:
+  - 0
+  - 1
+  - 1
+  - 0
+  Cost: 4
+  Help Text Pointer: data_03.l_0xc54872
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Sahne Packung 
+  Type: 40
+122:
+  Action: 249
+  Argument:
+  - 0
+  - 1
+  - 1
+  - 0
+  Cost: 2
+  Help Text Pointer: data_03.l_0xc54882
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Petersilie
+  Type: 40
+123:
+  Action: 249
+  Argument:
+  - 0
+  - 1
+  - 1
+  - 0
+  Cost: 3
+  Help Text Pointer: data_03.l_0xc54892
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Scharfe So[b8]e
+  Type: 40
+124:
+  Action: 249
+  Argument:
+  - 0
+  - 1
+  - 1
+  - 0
+  Cost: 2
+  Help Text Pointer: data_03.l_0xc548a2
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Salz Packung
+  Type: 40
+125:
+  Action: 1
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_03.l_0xc548b2
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Backstage-Pass
+  Type: 59
+126:
+  Action: 249
+  Argument:
+  - 0
+  - 1
+  - 1
+  - 0
+  Cost: 300
+  Help Text Pointer: data_03.l_0xc548fc
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Deliso[b8]e
+  Type: 40
+127:
+  Action: 149
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 24
+  Help Text Pointer: data_03.l_0xc54952
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Nasses Handtuch
+  Type: 48
+128:
+  Action: 150
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 80
+  Help Text Pointer: data_03.l_0xc54979
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Erfrischendes Kraut
+  Type: 48
+129:
+  Action: 151
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 380
+  Help Text Pointer: data_03.l_0xc549c3
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Geheimes Kraut
+  Type: 48
+130:
+  Action: 152
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 1780
+  Help Text Pointer: data_03.l_0xc549ff
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Horn des Lebens
+  Type: 48
+131:
+  Action: 159
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_03.l_0xc54a3a
+  Misc Flags:
+  - jeff can use
+  Name: Konter-PSI Einheit
+  Type: 52
+132:
+  Action: 160
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_03.l_0xc54a6c
+  Misc Flags:
+  - jeff can use
+  Name: Schild T[c9]ter
+  Type: 52
+133:
+  Action: 310
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 950
+  Help Text Pointer: data_03.l_0xc54aa1
+  Misc Flags:
+  - jeff can use
+  Name: Bazooka
+  Type: 52
+134:
+  Action: 311
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_03.l_0xc54af5
+  Misc Flags:
+  - jeff can use
+  Name: Schwere Bazooka
+  Type: 52
+135:
+  Action: 161
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 800
+  Help Text Pointer: data_03.l_0xc54b67
+  Misc Flags:
+  - jeff can use
+  Name: LP-Sauger
+  Type: 52
+136:
+  Action: 176
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc54bb0
+  Misc Flags:
+  - jeff can use
+  Name: Hungriger LP-Sauger
+  Type: 52
+137:
+  Action: 179
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 630
+  Help Text Pointer: data_04.l_0xc54bfa
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Xterminator Spray
+  Type: 52
+138:
+  Action: 169
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 420
+  Help Text Pointer: data_04.l_0xc54c32
+  Misc Flags:
+  - jeff can use
+  Name: Schleimgenerator
+  Type: 52
+139:
+  Action: 170
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc54c6d
+  Misc Flags:
+  - jeff can use
+  Name: Joghurtspender
+  Type: 52
+140:
+  Action: 186
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 2
+  Help Text Pointer: data_04.l_0xc54ceb
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Lineal
+  Type: 48
+141:
+  Action: 171
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 98
+  Help Text Pointer: data_04.l_0xc54d10
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Schlangenbeutel
+  Type: 52
+142:
+  Action: 162
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 128
+  Help Text Pointer: data_04.l_0xc54d99
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Mumienwickel
+  Type: 52
+143:
+  Action: 187
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 2
+  Help Text Pointer: data_04.l_0xc54ddc
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Geodreieck
+  Type: 48
+144:
+  Action: 163
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 29
+  Help Text Pointer: data_04.l_0xc54e01
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  Name: Flaschenrakete
+  Type: 52
+145:
+  Action: 164
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 139
+  Help Text Pointer: data_04.l_0xc54e20
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  Name: Gro[b8]e Flaschenrakete
+  Type: 52
+146:
+  Action: 165
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 2139
+  Help Text Pointer: data_04.l_0xc54e54
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  Name: Multi Flaschenrakete
+  Type: 52
+147:
+  Action: 167
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 149
+  Help Text Pointer: data_04.l_0xc54ea7
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Bombe
+  Type: 52
+148:
+  Action: 168
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 399
+  Help Text Pointer: data_04.l_0xc54ef7
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Superbombe
+  Type: 52
+149:
+  Action: 178
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 19
+  Help Text Pointer: data_04.l_0xc54f6a
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Insektenspray
+  Type: 52
+150:
+  Action: 180
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 89
+  Help Text Pointer: data_04.l_0xc54fa2
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Insta-Roster
+  Type: 52
+151:
+  Action: 181
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 289
+  Help Text Pointer: data_04.l_0xc54ff0
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Insta-Roster DX
+  Type: 52
+152:
+  Action: 172
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 2
+  Help Text Pointer: data_04.l_0xc55057
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Dreckige Socken
+  Type: 52
+153:
+  Action: 173
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 8
+  Help Text Pointer: data_04.l_0xc5509e
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Hirschk[c0]fer
+  Type: 52
+154:
+  Action: 174
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 3
+  Help Text Pointer: data_04.l_0xc550e3
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Zahnb[cb]rste
+  Type: 52
+155:
+  Action: 166
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 39
+  Help Text Pointer: data_04.l_0xc55105
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Handtaschengurt
+  Type: 52
+156:
+  Action: 175
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 290
+  Help Text Pointer: data_04.l_0xc5514f
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Pharaohs Fluch
+  Type: 52
+157:
+  Action: 184
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc5519f
+  Misc Flags:
+  - jeff can use
+  Name: Verteidigungsdusche
+  Type: 53
+158:
+  Action: 287
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc551cd
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Brief von Mama
+  Type: 59
+159:
+  Action: 182
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 500
+  Help Text Pointer: data_04.l_0xc551ea
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Insta-Mut Pille
+  Type: 53
+160:
+  Action: 177
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 1000
+  Help Text Pointer: data_04.l_0xc55230
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Dragonitpulver
+  Type: 53
+161:
+  Action: 183
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 500
+  Help Text Pointer: data_04.l_0xc5528d
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Verteidigungsspray
+  Type: 53
+162:
+  Action: 190
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 300
+  Help Text Pointer: data_04.l_0xc552c4
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Schweinenase
+  Type: 56
+163:
+  Action: 191
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc553d7
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Zum Verkauf-Schild
+  Type: 56
+164:
+  Action: 192
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc55409
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Sch[cb]chternheit Buch
+  Type: 59
+165:
+  Action: 193
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 2
+  Help Text Pointer: data_04.l_0xc55433
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Postkarte
+  Type: 56
+166:
+  Action: 285
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc5546c
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: K[c9]nig Banane
+  Type: 56
+167:
+  Action: 288
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc55496
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Brief von Tony
+  Type: 59
+168:
+  Action: 195
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 25
+  Help Text Pointer: data_04.l_0xc554b3
+  Misc Flags:
+  - item can change
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: K[cb]ken
+  Type: 56
+169:
+  Action: 196
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 220
+  Help Text Pointer: data_04.l_0xc554cf
+  Misc Flags:
+  - item can change
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Huhn
+  Type: 56
+170:
+  Action: 1
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc554f6
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: H[cb]ttenschl[cb]ssel
+  Type: 59
+171:
+  Action: 1
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc5551d
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Zellenschl[cb]ssel
+  Type: 59
+172:
+  Action: 1
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc55546
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Schl[cb]sselmaschine
+  Type: 59
+173:
+  Action: 1
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc5558a
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Fahrstuhlschl[cb]ssel
+  Type: 56
+174:
+  Action: 198
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc555b8
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Zombie Papier
+  Type: 58
+175:
+  Action: 199
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc55602
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Falkenauge
+  Type: 58
+176:
+  Action: 200
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc55627
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Fahrrad
+  Type: 58
+177:
+  Action: 197
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc5566b
+  Misc Flags:
+  - cannot be given away
+  - cannot be stored with escargo express
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Bankkarte
+  Type: 59
+178:
+  Action: 1
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 12
+  Help Text Pointer: data_04.l_0xc5569c
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Show Ticket
+  Type: 59
+179:
+  Action: 289
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc556c1
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Brief von den Kindern
+  Type: 59
+180:
+  Action: 1
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc556e3
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Geldkoffer
+  Type: 59
+181:
+  Action: 286
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc5570b
+  Misc Flags:
+  - cannot be given away
+  - cannot be stored with escargo express
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Empfang-O-phon
+  Type: 59
+182:
+  Action: 1
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc55740
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Diamant
+  Type: 59
+183:
+  Action: 1
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc5576a
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Bananogramm
+  Type: 59
+184:
+  Action: 1
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc55794
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Bleistift Radierer
+  Type: 59
+185:
+  Action: 270
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc557e7
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Hieroglyphen Kopie
+  Type: 59
+186:
+  Action: 1
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 4000
+  Help Text Pointer: data_04.l_0xc55831
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Meteotium
+  Type: 56
+187:
+  Action: 1
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc5587e
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Kontaktlinsen
+  Type: 59
+188:
+  Action: 140
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 19
+  Help Text Pointer: data_04.l_0xc55897
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Wundpflaster
+  Type: 48
+189:
+  Action: 249
+  Argument:
+  - 0
+  - 5
+  - 1
+  - 0
+  Cost: 48
+  Help Text Pointer: data_04.l_0xc558ca
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Forellen Joghurt
+  Type: 32
+190:
+  Action: 249
+  Argument:
+  - 0
+  - 4
+  - 1
+  - 0
+  Cost: 5
+  Help Text Pointer: data_04.l_0xc55915
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Banane
+  Type: 32
+191:
+  Action: 249
+  Argument:
+  - 0
+  - 10
+  - 1
+  - 0
+  Cost: 18
+  Help Text Pointer: data_04.l_0xc5592c
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Kalorienstange
+  Type: 32
+192:
+  Action: 1
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc55943
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Turmschl[cb]ssel
+  Type: 59
+193:
+  Action: 1
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc55957
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Meteoritensplitter
+  Type: 59
+194:
+  Action: 240
+  Argument:
+  - 16
+  - 216
+  - 0
+  - 42
+  Cost: 4000
+  Help Text Pointer: data_04.l_0xc559a8
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Erdanh[c0]nger
+  Type: 20
+195:
+  Action: 247
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc559d9
+  Misc Flags:
+  - jeff can use
+  Name: Neutralisator
+  Type: 52
+196:
+  Action: 258
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc55ad5
+  Misc Flags:
+  - cannot be given away
+  - cannot be stored with escargo express
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Melodiestein
+  Type: 56
+197:
+  Action: 259
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc55b21
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Ausgang Maus
+  Type: 56
+198:
+  Action: 249
+  Argument:
+  - 0
+  - 5
+  - 1
+  - 0
+  Cost: 49
+  Help Text Pointer: data_04.l_0xc55b79
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Gelato de Resort
+  Type: 32
+199:
+  Action: 268
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 220
+  Help Text Pointer: data_04.l_0xc55bc1
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Schlange
+  Type: 52
+200:
+  Action: 269
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 550
+  Help Text Pointer: data_04.l_0xc55c03
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Viper
+  Type: 52
+201:
+  Action: 1
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc55c46
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Hirnstein
+  Type: 56
+202:
+  Action: 271
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc55cce
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Stadtkarte
+  Type: 56
+203:
+  Action: 272
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc55d2e
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Video Droge
+  Type: 56
+204:
+  Action: 281
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 50
+  Help Text Pointer: data_04.l_0xc55d46
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Suporma
+  Type: 56
+205:
+  Action: 1
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc55d82
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Spindschl[cb]ssel
+  Type: 59
+206:
+  Action: 282
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 2
+  Help Text Pointer: data_04.l_0xc55da1
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Bedeutungsloses Ding
+  Type: 59
+207:
+  Action: 249
+  Argument:
+  - 1
+  - 20
+  - 20
+  - 0
+  Cost: 480
+  Help Text Pointer: data_04.l_0xc55dc8
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Magische Torte
+  Type: 32
+208:
+  Action: 1
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc55de0
+  Misc Flags:
+  - cannot be given away
+  - cannot be stored with escargo express
+  - poo can use
+  Name: Winziger Rubin
+  Type: 59
+209:
+  Action: 283
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc55dfe
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Affenliebe
+  Type: 52
+210:
+  Action: 1
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc55e28
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Radierer Radierer
+  Type: 59
+211:
+  Action: 284
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_04.l_0xc55e77
+  Misc Flags:
+  - cannot be stored with escargo express
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Gummikraut
+  Type: 59
+212:
+  Action: 239
+  Argument:
+  - 48
+  - 0
+  - 0
+  - 1
+  Cost: 698
+  Help Text Pointer: data_04.l_0xc55eab
+  Misc Flags:
+  - ness can use
+  Name: Godzillas Schl[c0]ger
+  Type: 16
+213:
+  Action: 239
+  Argument:
+  - 54
+  - 0
+  - 0
+  - 1
+  Cost: 1380
+  Help Text Pointer: data_04.l_0xc55ebb
+  Misc Flags:
+  - ness can use
+  Name: Oberliga Schl[c0]ger
+  Type: 16
+214:
+  Action: 239
+  Argument:
+  - 68
+  - 0
+  - 0
+  - 1
+  Cost: 2298
+  Help Text Pointer: data_04.l_0xc55ef6
+  Misc Flags:
+  - ness can use
+  Name: Ulti. Schl[c0]ger
+  Type: 16
+215:
+  Action: 239
+  Argument:
+  - 66
+  - 0
+  - 0
+  - 0
+  Cost: 1000
+  Help Text Pointer: data_04.l_0xc55f06
+  Misc Flags:
+  - jeff can use
+  Name: Doppellaser
+  Type: 17
+216:
+  Action: 240
+  Argument:
+  - 40
+  - 216
+  - 0
+  - 0
+  Cost: 3899
+  Help Text Pointer: data_04.l_0xc55f16
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Platinarmband
+  Type: 24
+217:
+  Action: 240
+  Argument:
+  - 50
+  - 216
+  - 0
+  - 0
+  Cost: 5198
+  Help Text Pointer: data_03.l_0xc53e9f
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Diamantarmband
+  Type: 24
+218:
+  Action: 240
+  Argument:
+  - 40
+  - 216
+  - 15
+  - 0
+  Cost: 389
+  Help Text Pointer: data_04.l_0xc55f36
+  Misc Flags:
+  - paula can use
+  Name: Verteid.Schleife
+  Type: 28
+219:
+  Action: 240
+  Argument:
+  - 60
+  - 216
+  - 25
+  - 0
+  Cost: 3500
+  Help Text Pointer: data_04.l_0xc55f5d
+  Misc Flags:
+  - paula can use
+  Name: Talisman Schleife
+  Type: 28
+220:
+  Action: 240
+  Argument:
+  - 90
+  - 216
+  - 40
+  - 0
+  Cost: 3980
+  Help Text Pointer: data_04.l_0xc55f84
+  Misc Flags:
+  - paula can use
+  Name: Saturn Schleife
+  Type: 28
+221:
+  Action: 240
+  Argument:
+  - 45
+  - 216
+  - 16
+  - 0
+  Cost: 2500
+  Help Text Pointer: data_04.l_0xc55fcc
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: M[cb]n. d. Schweigens
+  Type: 28
+222:
+  Action: 240
+  Argument:
+  - 50
+  - 216
+  - 20
+  - 0
+  Cost: 3000
+  Help Text Pointer: data_04.l_0xc55fdc
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Amulett M[cb]nze
+  Type: 28
+223:
+  Action: 249
+  Argument:
+  - 0
+  - 7
+  - 1
+  - 0
+  Cost: 98
+  Help Text Pointer: data_04.l_0xc55fec
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Eimer Nudeln
+  Type: 32
+224:
+  Action: 249
+  Argument:
+  - 0
+  - 1
+  - 1
+  - 100
+  Cost: 38
+  Help Text Pointer: data_04.l_0xc56011
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Hopsandwich
+  Type: 32
+225:
+  Action: 249
+  Argument:
+  - 0
+  - 1
+  - 1
+  - 200
+  Cost: 98
+  Help Text Pointer: data_04.l_0xc56054
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Hopsandwich DX
+  Type: 32
+226:
+  Action: 249
+  Argument:
+  - 0
+  - 10
+  - 1
+  - 0
+  Cost: 128
+  Help Text Pointer: data_04.l_0xc56097
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Gl[cb]ckssandwich
+  Type: 32
+227:
+  Action: 249
+  Argument:
+  - 0
+  - 40
+  - 1
+  - 0
+  Cost: 128
+  Help Text Pointer: data_04.l_0xc560d3
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Gl[cb]ckssandwich
+  Type: 32
+228:
+  Action: 249
+  Argument:
+  - 0
+  - 0
+  - 1
+  - 0
+  Cost: 128
+  Help Text Pointer: data_04.l_0xc5610f
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Gl[cb]ckssandwich
+  Type: 32
+229:
+  Action: 249
+  Argument:
+  - 1
+  - 5
+  - 1
+  - 0
+  Cost: 128
+  Help Text Pointer: data_04.l_0xc5614b
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Gl[cb]ckssandwich
+  Type: 32
+230:
+  Action: 249
+  Argument:
+  - 1
+  - 20
+  - 1
+  - 0
+  Cost: 128
+  Help Text Pointer: data_04.l_0xc56187
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Gl[cb]ckssandwich
+  Type: 32
+231:
+  Action: 249
+  Argument:
+  - 2
+  - 0
+  - 1
+  - 0
+  Cost: 128
+  Help Text Pointer: data_04.l_0xc561c3
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Gl[cb]ckssandwich
+  Type: 32
+232:
+  Action: 249
+  Argument:
+  - 0
+  - 2
+  - 1
+  - 0
+  Cost: 6
+  Help Text Pointer: data_04.l_0xc561ff
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Tasse Kaffee
+  Type: 36
+233:
+  Action: 249
+  Argument:
+  - 0
+  - 16
+  - 1
+  - 0
+  Cost: 24
+  Help Text Pointer: data_04.l_0xc56230
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Doppelter Burger
+  Type: 32
+234:
+  Action: 249
+  Argument:
+  - 0
+  - 18
+  - 1
+  - 0
+  Cost: 22
+  Help Text Pointer: data_04.l_0xc56253
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Erdnuss K[c0]se Riegel
+  Type: 32
+235:
+  Action: 249
+  Argument:
+  - 0
+  - 50
+  - 1
+  - 0
+  Cost: 222
+  Help Text Pointer: data_05.l_0xc5629b
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Schweinefett
+  Type: 32
+236:
+  Action: 249
+  Argument:
+  - 0
+  - 36
+  - 1
+  - 0
+  Cost: 88
+  Help Text Pointer: data_05.l_0xc562dd
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Reismehlsuppe
+  Type: 32
+237:
+  Action: 249
+  Argument:
+  - 0
+  - 7
+  - 1
+  - 0
+  Cost: 12
+  Help Text Pointer: data_05.l_0xc5630a
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Bohnenkrokette
+  Type: 32
+238:
+  Action: 249
+  Argument:
+  - 0
+  - 14
+  - 1
+  - 0
+  Cost: 20
+  Help Text Pointer: data_05.l_0xc563a9
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Muluchiyasuppe
+  Type: 36
+239:
+  Action: 249
+  Argument:
+  - 0
+  - 14
+  - 1
+  - 0
+  Cost: 38
+  Help Text Pointer: data_05.l_0xc56417
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Trockenes Br[c9]tchen
+  Type: 32
+240:
+  Action: 249
+  Argument:
+  - 0
+  - 21
+  - 1
+  - 0
+  Cost: 54
+  Help Text Pointer: data_05.l_0xc5645d
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Kebab
+  Type: 32
+241:
+  Action: 249
+  Argument:
+  - 0
+  - 28
+  - 1
+  - 0
+  Cost: 78
+  Help Text Pointer: data_05.l_0xc564d1
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Schlichter Joghurt
+  Type: 32
+242:
+  Action: 249
+  Argument:
+  - 0
+  - 25
+  - 1
+  - 0
+  Cost: 70
+  Help Text Pointer: data_05.l_0xc564ff
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Trockenfleisch
+  Type: 32
+243:
+  Action: 249
+  Argument:
+  - 0
+  - 34
+  - 1
+  - 0
+  Cost: 98
+  Help Text Pointer: data_05.l_0xc565bc
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Mammutburger
+  Type: 32
+244:
+  Action: 249
+  Argument:
+  - 0
+  - 42
+  - 1
+  - 0
+  Cost: 140
+  Help Text Pointer: data_05.l_0xc565d4
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Scharfes Tr.fleisch
+  Type: 32
+245:
+  Action: 249
+  Argument:
+  - 0
+  - 50
+  - 1
+  - 0
+  Cost: 210
+  Help Text Pointer: data_05.l_0xc566b7
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Luxus Tr.fleisch
+  Type: 32
+246:
+  Action: 249
+  Argument:
+  - 1
+  - 1
+  - 40
+  - 0
+  Cost: 198
+  Help Text Pointer: data_05.l_0xc5678d
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Wasserflasche DX
+  Type: 36
+247:
+  Action: 249
+  Argument:
+  - 1
+  - 40
+  - 40
+  - 0
+  Cost: 680
+  Help Text Pointer: data_05.l_0xc567dc
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Magischer Pudding
+  Type: 32
+248:
+  Action: 239
+  Argument:
+  - 50
+  - 0
+  - 0
+  - 1
+  Cost: 1490
+  Help Text Pointer: data_05.l_0xc567f4
+  Misc Flags:
+  - paula can use
+  Name: Grifflose Bratpf.
+  Type: 16
+249:
+  Action: 240
+  Argument:
+  - 47
+  - 216
+  - 18
+  - 0
+  Cost: 1000
+  Help Text Pointer: data_05.l_0xc56804
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Mr. Saturn M[cb]nze
+  Type: 28
+250:
+  Action: 1
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 2000
+  Help Text Pointer: data_05.l_0xc5682e
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Meteornium
+  Type: 56
+251:
+  Action: 249
+  Argument:
+  - 0
+  - 3
+  - 1
+  - 0
+  Cost: 7
+  Help Text Pointer: data_05.l_0xc5687b
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Eis am Stiel
+  Type: 32
+252:
+  Action: 152
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 178
+  Help Text Pointer: data_05.l_0xc56892
+  Misc Flags:
+  - item disappears when used
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Lebensnudeln
+  Type: 48
+253:
+  Action: 1
+  Argument:
+  - 0
+  - 0
+  - 0
+  - 0
+  Cost: 0
+  Help Text Pointer: data_05.l_0xc5689f
+  Misc Flags:
+  - jeff can use
+  - ness can use
+  - paula can use
+  - poo can use
+  Name: Karottenschl[cb]ssel
+  Type: 59
