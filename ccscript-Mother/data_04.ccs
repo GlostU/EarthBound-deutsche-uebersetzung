@@ -1,0 +1,630 @@
+/*
+ * EarthBound Text Dump
+ * Time: 22:14:19 - 03/04/2018
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+command e(label) "{long label}"
+
+// Text Data
+l_0xc54bb0:
+    newline
+    " <[1C 05 88]>" next
+    call(data_05.l_0xc56db7) "@Saugt ein paar LP von allen Gegnern." next
+    "@Je mehr LP die Ziele haben, desto mehr bekommst du." next
+    call(data_05.l_0xc56d9b) end
+
+l_0xc54bfa:
+    newline
+    " <[1C 05 89]>" next
+    "@W[c0]hrend eines Kampfes f[cb]gt es Insekten 200 Schadenspunkte zu." next
+    call(data_05.l_0xc56d9b) end
+
+l_0xc54c32:
+    newline
+    " <[1C 05 8A]>" next
+    call(data_05.l_0xc56db7) "@Verspr[cb]ht eine klebrige Substanz, die die Bewegungen der Gegner stoppt." next
+    call(data_05.l_0xc56d9b) end
+
+l_0xc54c6d:
+    newline
+    " <[1C 05 8B]>" next
+    call(data_05.l_0xc56db7) "@Erfunden vom Apfel Kind." next
+    "@Wenn es im Kapf benutzt wird, erleiden die Gegner Schaden," next
+    "@jedoch ist nicht genau bekannt, warum dies passiert... es ist ja immerhin nur Joghurt..." next
+    call(data_05.l_0xc56d9b) end
+
+l_0xc54ceb:
+    newline
+    " <[1C 05 8C]>" next
+    "@Du kannst es w[c0]hrend eines Kampfes benutzen!" next
+    call(data_05.l_0xc56d9b) end
+
+l_0xc54d10:
+    newline
+    " <[1C 05 8D]>" next
+    "@W[c0]hrend eines Kampfes schl[cb]pft eine Schlange aus dem Beutel und bei[b8]t den Gegner." next
+    "@Es leben tausende kleine Schlangen im Beutel," next
+    "@deshalb solltest du ihn auch mehrmals benutzen k[c9]nnen." next
+    "@Es besteht auch die M[c9]glichkeit, dass der Gegner vergiftet wird." end
+
+l_0xc54d99:
+    newline
+    " <[1C 05 8E]>" next
+    "@Wenn du es w[c0]hrend eines Kampfes als Peitsche benutzt," next
+	"@wird der Gegner etwas Schaden nehmen," next
+    "@und f[cb]r eine Weile aufh[c9]ren sich zu bewegen." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc54ddc:
+    newline
+    " <[1C 05 8F]>" next
+    "@Du kannst es sogar w[c0]hrend eines Kampfes benutzen!" next
+    call(data_05.l_0xc56d9b) end
+
+l_0xc54e01:
+    newline
+    " <[1C 05 90]>" next
+    call(data_05.l_0xc56db7) call(data_05.l_0xc56dc5) next
+    call(data_05.l_0xc56dab) end
+
+l_0xc54e1d:
+    "akm" goto(l_0xc54e20)	//???? Unbenutzt?
+
+l_0xc54e20:
+    newline
+    " <[1C 05 91]>" next
+    call(data_05.l_0xc56db7) "@Feuert eine schnelle, m[c0]chtige Flaschenrakete." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc54e54:
+    newline
+    " <[1C 05 92]>" next
+    call(data_05.l_0xc56db7) "@M[c9]glicherweise die st[c0]rkste Waffe in der Gegend." next
+    "@Sie verursacht gewaltigen Schaden, wegen ihrem riesigen Sprengkopf." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc54ea7:
+    newline
+    " <[1C 05 93]>" next
+    call(data_05.l_0xc56dc5) next
+    "@Wegen ihrer Sprengkraft," next
+    "@k[c9]nnte sie auch andere Ziele treffen." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc54ef7:
+    newline
+    " <[1C 05 94]>" next
+    "@W[c0]hrend eines Kampfes verursacht sie ernsthafte Zerst[c9]rung." next
+    "@Wegen ihrer Sprengkraft," next
+    "@k[c9]nnte sie auch andere Ziele treffen." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc54f6a:
+    newline
+    " <[1C 05 95]>" next
+    "@W[c0]hrend eines Kampfes f[cb]gt es Insekten 100 Schadenspunkte zu." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc54fa2:
+    newline
+    " <[1C 05 96]>" next
+    "@L[c0]sst metallische Gegner w[c0]hrend eines Kampfes sofort rosten." next
+    "@Dem Gegner werden ungef[c0]hr 200 Schadenspunkte hinzugef[cb]gt." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc54ff0:
+    newline
+    " <[1C 05 97]>" next
+    "@L[c0]sst metallische Gegner w[c0]hrend eines Kampfes augenblicklich rosten." next
+    "@Dem Gegner werden ungef[c0]hr 400 Schadenspunkte hinzugef[cb]gt." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc55057:
+    newline
+    " <[1C 05 98]>" next
+    "@Wenn sie w[c0]hrend eines Kampfes benutzt werden, wird den Gegnern," next
+    "@wegen dem starken Gestank [cb]bel und sie k[c9]nnen nicht mehr k[c0]mpfen." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc5509e:
+    newline
+    " <[1C 05 99]>" next
+    "@Wenn du ihn im Kampf auf einen Gegner wirfst," next
+    "@wird er so schockiert sein, dass er aufh[c9]rt sich zu bewegen." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc550e3:
+    newline
+    " <[1C 05 9A]>" next
+    "@Es kann w[c0]hrend eines Kampfes benutzt werden." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc55105:
+    newline
+    " <[1C 05 9B]>" next
+    "@Wenn er w[c0]hrend eines Kampfes als Peitsche benutzt wird," next
+    "@erh[c0]lt der Gegner genug Schaden, dass er sich kurzzeitig nicht mehr bewegt." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc5514f:
+    newline
+    " <[1C 05 9C]>" next
+    "@Etwas ektoplasmischer Schlamm sickert aus dem Boden von diesem gr[c0]sslichen Kasten." next
+    "@Die Gegner k[c9]nnten im Kampf dadurch vergiftet werden." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc5519f:
+    newline
+    " <[1C 05 9D]>" next
+    "@Erh[c9]ht die Verteidigung von deiner gesamten Gruppe." next
+    call(data_05.l_0xc56b0dWithNext) next
+    call(data_05.l_0xc56d9b) end
+
+l_0xc551cd:
+    newline
+    " <[1C 05 9E]>" next
+    "@Ein Brief adressiert an [1C 02 01], von Mama." end
+
+l_0xc551ea:
+    newline
+    " <[1C 05 9F]>" next
+    "@Verdoppelt w[c0]hrend eines Kampfes deinen Mut." next
+    "@Nach dem Kampf normalisiert sich dein Mut wieder. " next
+    call(data_05.l_0xc56dab) end
+
+l_0xc55230:
+    newline
+    " <[1C 05 A0]>" next
+    "@Wenn du dieses Pulver im Kampf auf einen deiner Freunde streust," next
+    "@verwandelt er sich in einen Drachen und greift alle Gegner an." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc5528d:
+    newline
+    " <[1C 05 A1]>" next
+    "@Erh[c9]ht die Verteidigung eines Freundes im Kampf." next
+    call(data_05.l_0xc56b0dWithNext) next
+    call(data_05.l_0xc56dab) end
+
+l_0xc552c4:
+    newline
+    " <[1C 05 A2]>" next //162:
+    "@Wenn du sie [cb]ber deine Nase tr[c0]gst, kannst du Magische Tr[cb]ffel finden." next
+    call(data_05.l_0xc56d9b) next
+    "@...lass mich dir die Magischen Tr[cb]ffel etwas genauer erkl[c0]ren." next
+    "@Sie sind eine Pilzart, die an feuchten Orten wachsen." next
+    "@Dort wachsen sie meist am Boden von gro[b8]en B[c0]umen." next
+    "@Sie sind so gut wie immer vergraben," next
+    "@also k[c9]nnen sie auch nicht gesehen werden." next
+    "@Wenn du einen findest, kannst du ihn essen." next
+	"@Es wird gesagt, dass sie au[b8]erordentlich viele PP wiederherstellen!" next
+    "@Du kannst mehr Informationen [cb]ber die wunderbaren " next
+	"@Magischen Tr[cb]ffel bekommen, wenn du einen erhalten hast." end
+
+l_0xc553d7:
+    newline
+    " <[1C 05 A3]>" next
+    "@Es l[c0]dt Leute dazu ein zu dir zu kommen und deine [cb]berfl[cb]s-" linebreak
+	"  sige Gegenst[c0]nde abzukaufen." next
+    call(data_05.l_0xc56d9b) end
+
+l_0xc55409:
+    newline
+    " <[1C 05 A4]>" next
+    "@Der Titel lautet <Sch[cb]chternheit [bb]berwinden>." next
+	"@Wie du sicherlich schon vermutet hast," next
+	"@hilft dieses Buch Leuten ihre Sch[cb]chternheit hinter sich zu lassen." end
+
+l_0xc55433:
+    newline
+    " <[1C 05 A5]>" next
+    "@Es sieht nicht besonders schlimm aus, aber das Bild ist nicht wirklich einladend." end
+
+l_0xc5546c:
+    newline
+    " <[1C 05 A6]>" next
+    "@Eine extragro[b8]e Banane." linebreak
+    "  Nicht essbar." end
+
+l_0xc55496:
+    newline
+    " <[1C 05 A7]>" next
+    "@Ein Brief adressiert an [1C 02 03], von Tony." end
+
+l_0xc554b3:
+    newline
+    " <[1C 05 A8]>" next
+    "@Ein K[cb]ken, das gerade geschl[cb]pft ist." end
+
+l_0xc554cf:
+    newline
+    " <[1C 05 A9]>" next
+    "@Ein echtes, lebendiges Huhn." next
+    "@Iss es nicht auf, bitte." end
+
+l_0xc554f6:
+    newline
+    " <[1C 05 AA]>" next
+    "@Ein Schl[cb]ssel zu der H[cb]tte von den Animateuren." end
+
+l_0xc5551d:
+    newline
+    " <[1C 05 AB]>" next
+    "@Ein Schl[cb]ssel, der die T[cb]r zur Gef[c0]ngniszelle von [1C 02 02] [c9]ffnen kann." end
+
+l_0xc55546:
+    newline
+    " <[1C 05 AC]>" next
+    "@Die <Maschine, die T[cb]ren [c9]ffnet," next
+	"@besonders wenn du einen etwas verbogenen Schl[cb]ssel hast> Maschine." end
+
+l_0xc5558a:
+    newline
+    " <[1C 05 AD]>" next
+    "@Ein Schl[cb]ssel, der dir vom Dienstm[c0]dchen beim Monotoly Geb[c0]ude gegeben wurde." next
+	"@Er [c9]ffnet den Fahrstuhl zum 48. Stockwerk." end
+
+l_0xc555b8:
+    newline
+    " <[1C 05 AE]>" next
+    "@Erfunden vom Apfel Kind." next
+    "@Leg es in das Zelt und am n[c0]chsten Tag k[c9]nnten viele Zombies daran festkleben." end
+
+l_0xc55602:
+    newline
+    " <[1C 05 AF]>" next
+    "@Was f[cb]r ein Wunder!" linebreak
+	"  Jetzt kannst du im Dunkeln sehen!" end
+
+l_0xc55627:
+    newline
+    " <[1C 05 B0]>" next
+    "@Damit zu fahren f[cb]hlt sich an, als w[cb]rdest du durch den Wind sausen!" next
+    "@Du kannst sogar klingeln, indem du den R Knopf dr[cb]ckst." end
+
+l_0xc5566b:
+    newline
+    " <[1C 05 B1]>" next
+    "@Du solltest dein Haus nicht ohne sie verlassen..." next
+    "@Sie funktioniert sogar im Ausland!" end
+
+l_0xc5569c:
+    newline
+	//https://legendsoflocalization.com/earthbound/fourside/#show-me-your-tickets
+    " <[1C 05 B2]>" next
+    "@Darauf steht: <Bereich B, Sitzplatz 3D>." end
+
+l_0xc556c1:
+    newline
+    " <[1C 05 B3]>" next
+    "@Ein Brief adressiert an [1C 02 02], von den Vorschulkindern." end
+
+l_0xc556e3:
+    newline
+    " <[1C 05 B4]>" next
+    "@Ein Koffer vollgestopft mit brandneuen, knackigen Geldscheinen." end
+
+l_0xc5570b:
+    newline
+    " <[1C 05 B5]>" next
+    "@Erfunden vom Apfel Kind." next
+    "@Damit kannst du jetzt wichtige Anrufe entgegennehmen." end
+
+l_0xc55740:
+    newline
+    " <[1C 05 B6]>" next
+    "@Ein gro[b8]er, h[cb]bscher und teuer aussehender Edelstein." end
+
+l_0xc5576a:
+    newline
+    " <[1C 05 B7]>" next
+    "@Eine Bananenschale die von Venus signiert wurde." end
+
+l_0xc55794:
+    newline
+    " <[1C 05 B8]>" next
+    "@Erfunden vom Apfel Kind." next
+    "@Es l[c0]sst Dinge, die wie ein Bleistift aussehen" next
+    "@in nur wenigen Sekunden verschwinden." end
+
+l_0xc557e7:
+    newline
+    " <[1C 05 B9]>" next
+    "@Eine Kopie einer Hieroglyphe." next
+    "@Etwas wichtiges wurde mit antiken Buchstaben auf ihr aufgezeichnet." end
+
+l_0xc55831:
+    newline
+    " <[1C 05 BA]>" next
+    "@Es kann f[cb]r einen sehr hohen Preis vekauft werden." next
+    "@Nichts wird passieren, wenn du es benutzt." next
+    "@Eine gute Erkl[c0]rung ist irgendwie schwierig..." end
+
+l_0xc5587e:
+    newline
+    " <[1C 05 BB]>" next
+    "@Sie m[cb]ssen irgendwem geh[c9]ren." end
+
+l_0xc55897:
+    newline
+    " <[1C 05 BC]>" next
+    "@Ein handgemachter <Wunden-Pflaster>." next
+    "@Er heilt deinen verwundeten K[c9]rper." next
+    call(data_05.l_0xc56dab) end
+
+l_0xc558ca:
+    newline
+    " <[1C 05 BD]>" next
+    "@Ein moderner Leckerbissen f[cb]r eingebildete, gehobene Feinschmecker." next
+	"@Besonders beliebt in Gro[b8]st[c0]dten." next
+    call(data_05.l_0xc56cb5) "30" call(data_05.l_0xc56cd6) end
+
+l_0xc55915:
+    newline
+    " <[1C 05 BE]>" next
+    call(data_05.l_0xc56cb5) "25" call(data_05.l_0xc56cd6) end
+
+l_0xc5592c:
+    newline
+    " <[1C 05 BF]>" next
+    call(data_05.l_0xc56cb5) "60" call(data_05.l_0xc56cd6) end
+
+l_0xc55943:
+    newline
+    " <[1C 05 C0]>" next
+    "@Ein alter Schl[cb]ssel." end
+
+l_0xc55957:
+    newline
+    " <[1C 05 C1]>" next
+    "@Er sieht wie ein stinknormaler Stein aus, aber es gibt jemanden," next
+    "@f[cb]r den es ein sehr wertvolles, ungew[c9]hnliches Bestandteil ist." end
+
+l_0xc559a8:
+    newline
+    " <[1C 05 C2]>" next
+    call(data_05.l_0xc56bdf) "@Er besch[cb]tzt dich vor Feuer-, Frost- und Blitzangriffen." end
+
+l_0xc559d9:
+    newline
+    " <[1C 05 C3]>" next
+    call(data_05.l_0xc56db7) "@Wenn er im Kampf benutzt wird," next
+    "@setzt dieser Gegenstand alle F[c0]higkeiten deiner" next
+    "@Freunde und Feinde zur[cb]ck auf die normale Stufe." next
+    "@Alle [b0]nderungen, die durch PSI-Kr[c0]fte stattfanden, werden neutralisiert." next
+    "@Auch alle Schilde von Freund und Feind werden neutralisiert." next
+    "@(Vergiss nicht, die F[c0]higkeiten die ich meine" next
+    "@sind Angriff, Verteidigung, Mut, usw.)" end
+
+l_0xc55ad5:
+    newline
+    " <[1C 05 C4]>" next
+    "@Wenn du ihn an deine Stirn h[c0]ltst und dich ganz auf deine Gedanken konzentrierst," next
+    "@kannst du die Melodien deiner Heiligt[cb]mer h[c9]ren." end
+
+l_0xc55b21:
+    newline
+    " <[1C 05 C5]>" next
+    "@Wenn du sie in einem Dungeon, oder an [c0]hnlichen Orten benutzt," next
+    "@bringt dich die Maus wieder zum Eingang, wo du hineingekommen bist." next
+    "@Sie ist eine sehr schlaue Maus." end
+
+l_0xc55b79:
+    newline
+    " <[1C 05 C6]>" next
+    "@Diese Eiscreme ist der letzte Schrei unter modebewussten, jungen Frauen." next
+    call(data_05.l_0xc56cb5) "30" call(data_05.l_0xc56cd6) end
+
+l_0xc55bc1:
+    newline
+    " <[1C 05 C7]>" next
+    "@Wird sie w[c0]hrend eines Kampfes benutzt bei[b8]t sie den Gegner und verschwindet." next
+    "@Der Gegner k[c9]nnte dadurch vergiftet werden." end
+
+l_0xc55c03:
+    newline
+    " <[1C 05 C8]>" next
+    "@Wird sie w[c0]hrend eines Kampfes benutzt bei[b8]t sie den Gegner und verschwindet." next
+    "@Der Gegner wird dadurch immer vergiftet." end
+
+l_0xc55c46:
+    newline
+    " <[1C 05 C9]>" next
+    "@Ein [cb]bernat[cb]rlicher Stein, der dir das <Konzentrieren> erm[c9]glicht," next
+    "@ohne dabei dein eigenes Gehirn zu verwenden." next
+    "@Dies wird vollbracht, indem du den Gegenstand einfach bei dir tr[c0]gst." next
+    "@Das ist toll, weil wenn du dich nicht <konzentrieren> kannst," next
+	"@kannst du keine PSI-Kr[c0]fte einsetzen." end
+
+l_0xc55cce:
+    newline
+    " <[1C 05 CA]>" next
+    "@Eine handliche Stadtkarte. Sie kann in Onett, oder in anderen St[c0]dten benutzt werden." next
+    "@Du kannst dir die Karte schnell ansehen, indem du den X Knopf dr[cb]ckst." end
+
+l_0xc55d2e:
+    newline
+    " <[1C 05 CB]>" next
+    "@Was zur H[c9]lle ist das?" end
+
+l_0xc55d46:
+    newline
+    " <[1C 05 CC]>" next
+    "@Erfunden vom Orangen Kind." next
+    "@Der ganze Name ist: <Super Orangen Maschine>." end
+
+l_0xc55d82:
+    newline
+    " <[1C 05 CD]>" next
+    "@Ein Schl[cb]ssel f[cb]r einen Spind." end
+
+l_0xc55da1:
+    newline
+    " <[1C 05 CE]>" next
+    "@Es sieht nicht so aus, als w[cb]rde es etwas machen, aber..." end
+
+l_0xc55dc8:
+    newline
+    " <[1C 05 CF]>" next
+    "@F[cb]llt ungef[c0]hr 20 PP auf." end
+
+l_0xc55de0:
+    newline
+    " <[1C 05 D0]>" next
+    "@Ein alter Schatz aus Dalaam." end
+
+l_0xc55dfe:
+    newline
+    " <[1C 05 D1]>" next
+    "@Ein Geschenk von einem Affen." next
+    "@Es kann im Kampf benutzt werden." end
+
+l_0xc55e28:
+    newline
+    " <[1C 05 D2]>" next
+    "@Erfunden vom Apfel Kind." next
+    "@Es l[c0]sst Dinge, die wie ein Radierer aussehen" next
+    "@in nur wenigen Sekunden verschwinden." end
+
+l_0xc55e77:
+    newline
+    " <[1C 05 D3]>" next
+    "@Ein stark riechendes Gericht." next
+    "@Diejenigen, die es m[c9]gen sind ganz verr[cb]ckt danach..." end
+
+l_0xc55eab:
+    newline
+    " <[1C 05 D4]>" next
+    call(data_05.l_0xc56b8e) end
+
+l_0xc55ebb:
+    newline
+    " <[1C 05 D5]>" next
+    call(data_05.l_0xc56b8e) next
+    "@Wow! Sieh dir mal das ganze Holzteer an! Es verl[c0]uft fast bis zur Spitze!" end
+
+l_0xc55ef6:
+    newline
+    " <Ultimativer Schl[c0]ger>" next
+    call(data_05.l_0xc56b8e) end
+
+l_0xc55f06:
+    newline
+    " <[1C 05 D7]>" next
+    call(data_05.l_0xc56ba0) end
+
+l_0xc55f16:
+    newline
+    " <[1C 05 D8]>" next
+    call(data_05.l_0xc56bf4) end
+
+l_0xc55f26:
+    newline
+    " <[1C 05 D9]>" next
+    call(data_05.l_0xc56bf4) end
+
+l_0xc55f36:
+    newline
+    " <Verteidigungsschleife>" next
+    call(data_05.l_0xc56c6d) next
+    "@Wenn sie ausger[cb]stet ist, erh[c9]ht sich dein Gl[cb]ck." end
+
+l_0xc55f5d:
+    newline
+    " <[1C 05 DB]>" next
+    call(data_05.l_0xc56c6d) next
+    "@Wenn sie ausger[cb]stet ist, erh[c9]ht sich dein Gl[cb]ck." end
+
+l_0xc55f84:
+    newline
+    " <[1C 05 DC]>" next
+    call(data_05.l_0xc56c6d) next
+    "@Wenn sie ausger[cb]stet ist, erh[c9]ht sich dein Gl[cb]ck." end
+    "@Die gleiche Schleife, die auch die Mr. Saturns tragen.{wait}" linebreak
+    eob
+
+l_0xc55fcc:
+    newline
+    " <M[cb]nze des Schweigens>" next
+    call(data_05.l_0xc56c54) end
+
+l_0xc55fdc:
+    newline
+    " <[1C 05 DE]>" next
+    call(data_05.l_0xc56c54) end
+
+l_0xc55fec:
+    newline
+    " <[1C 05 DF]>" next
+    "@Du wei[b8]t was das ist..." next
+    call(data_05.l_0xc56cb5) "40" call(data_05.l_0xc56cd6) end
+
+l_0xc56011:
+    newline
+    " <[1C 05 E0]>" next
+    "@Hilft deinen Schritten f[cb]r circa 10 Sekunden auf die Spr[cb]nge." next
+    "@Au[b8]erdem hilft es dir wieder etwas zur Kr[c0]ften." end
+
+l_0xc56054:
+    newline
+    " <[1C 05 E1]>" next
+    "@Hilft deinen Schritten f[cb]r circa 20 Sekunden auf die Spr[cb]nge." next
+    "@Au[b8]erdem hilft es dir wieder etwas zur Kr[c0]ften." end
+
+l_0xc56097:
+    newline
+    " <[1C 05 E2]>" next
+    "@Es hilft dir zu regenerieren..." next
+    "@Wie viel und was genau du regenerierst h[c0]ngt von deinem Gl[cb]ck ab!" end
+
+l_0xc560d3:
+    newline
+    " <[1C 05 E3]>" next
+    "@Es hilft dir zu regenerieren..." next
+    "@Wie viel und was genau du regenerierst h[c0]ngt von deinem Gl[cb]ck ab!" end
+
+l_0xc5610f:
+    newline
+    " <[1C 05 E4]>" next
+    "@Es hilft dir zu regenerieren..." next
+    "@Wie viel und was genau du regenerierst h[c0]ngt von deinem Gl[cb]ck ab!" end
+
+l_0xc5614b:
+    newline
+    " <[1C 05 E5]>" next
+	"@Es hilft dir zu regenerieren..." next
+    "@Wie viel und was genau du regenerierst h[c0]ngt von deinem Gl[cb]ck ab!" end
+
+l_0xc56187:
+    newline
+    " <[1C 05 E6]>" next
+	"@Es hilft dir zu regenerieren..." next
+    "@Wie viel und was genau du regenerierst h[c0]ngt von deinem Gl[cb]ck ab!" end
+
+l_0xc561c3:
+    newline
+    " <[1C 05 E7]>" next
+    "@Es hilft dir zu regenerieren..." next
+    "@Wie viel und was genau du regenerierst h[c0]ngt von deinem Gl[cb]ck ab!" end
+
+l_0xc561ff:
+    newline
+    " <[1C 05 E8]>" next
+    call(data_05.l_0xc56cc5) "12" call(data_05.l_0xc56cd6) next
+    "@Ich sch[c0]tze Erwachsene m[c9]gen den Geschmack." end
+
+l_0xc56230:
+    newline
+    " <[1C 05 E9]>" next
+    call(data_05.l_0xc56cb5) "90" call(data_05.l_0xc56cd6) next
+    "@100% Rindfleisch." end
+
+l_0xc56253:
+    newline
+    " <[1C 05 EA]>" next
+    "@Eines der Lieblingsspeisen der Mr. Saturns." next
+    "@Es schmeck ziemlich lecker." next
+    call(data_05.l_0xc56cb5) "100" call(data_05.l_0xc56cd6) end
+

@@ -1,0 +1,60 @@
+//data_29.l_0xc77df0 || call(data_33.l_0xc7e66e)
+//call(objekte.Waffe)
+Waffe:
+    "[1C 14 01][09 03 {(his)} {(her)} {(its)}]" goto(his)
+	
+	
+his:
+    "seiner" eob
+
+her:
+    "ihrer" eob
+
+its:
+    "seiner" eob
+	
+//data_32.l_0xc7c7af
+//call(objekte.SeinIhr)
+SeinIhr:
+	"[1C 14 01][09 03 {(SeinIhrhis)} {(SeinIhrher)} {(SeinIhrits)}]" goto(SeinIhrhis)
+	
+SeinIhrhis:
+    "sein" eob
+
+SeinIhrher:
+    "ihr" eob
+
+SeinIhrits:
+    "ihr" eob
+
+//---------------
+
+SeinenIhren:
+	"[1C 14 01][09 03 {(SeinenIhrenhis)} {(SeinenIhrenher)} {(SeinenIhrenits)}]" goto(SeinenIhrenhis)
+	
+SeinenIhrenhis:
+    "seinen" eob
+
+SeinenIhrenher:
+    "ihren" eob
+
+SeinenIhrenits:
+    "ihren" eob
+	
+//---------------
+
+SeinemIhrem:
+	"[1C 14 01][09 03 {(SeinemIhremhis)} {(SeinemIhremher)} {(SeinemIhremits)}]" goto(SeinemIhremhis)
+	
+SeinemIhremhis:
+    "seinem" eob
+
+SeinemIhremher:
+    "ihrem" eob
+
+SeinemIhremits:
+    "ihrem" eob
+	
+KampfSI:
+//[19 10 00] -> Charakter Nummer (bei 2 -> Weiblich)
+	"[19 10 00]" goto(data_33.l_0xc7e660)

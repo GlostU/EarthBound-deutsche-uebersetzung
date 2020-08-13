@@ -1,0 +1,461 @@
+/*
+ * EarthBound Text Dump
+ * Time: 22:14:19 - 03/04/2018
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+command e(label) "{long label}"
+
+// Text Data
+l_0xc5223c:
+    "@[1C 05 00]?" next
+    "@Ich gebe Ihnen {swap}$[1C 0A 00 00 00 00] daf[cb]r." next
+    "@Ist das okay?" linebreak
+    eob
+
+l_0xc52261:
+    "@Hummm.  Ist das so?" next
+    eob
+
+l_0xc52272:
+    "@Oh, also Sie in Wirklichkeit nichts zu verkaufen?" next
+    eob
+
+l_0xc52288:
+    "@Es tut mir leid, aber ich kann das nicht kaufen." next
+    eob
+
+l_0xc52299:
+    "@Vielen Dank." next
+    eob
+
+l_0xc522a3:
+    "Danke." next
+    eob
+
+l_0xc522aa:
+    "@Kann ich was f[cb]r Sie tun?" linebreak
+    eob
+
+l_0xc522ba:
+    "@Was kann ich jetzt f[cb]r Sie tun?" linebreak
+    eob
+
+l_0xc522ca:
+    "@[1C 02 00] kann nichts mehr tragen." next
+    "@Soll jemand anderes den Gegenstand tragen?" linebreak
+    eob
+
+l_0xc522ef:
+    "@Hi!  Wilkommen in meinem Laden." next
+    "@Was brauchen Sie?" linebreak
+    eob
+
+l_0xc5230c:
+    "@Danke!" end
+
+l_0xc52312:
+    "@Wir wollen hier keine Verluste machen." next
+	"@Verschwinde, wenn du nichts kaufen m[c9]chtest!" end
+
+l_0xc52339:
+    "@Also, du willst etwas kaufen, hm?[03]" eob
+
+l_0xc5234d:
+    "@[1C 05 00]?" next
+    eob
+
+l_0xc52355:
+    "@Wer soll den Gegenstand tragen?[03]" eob
+
+l_0xc52361:
+    "@Willst du den Gegenstand hier ausr[cb]sten?" linebreak
+    eob
+
+l_0xc52371:
+    "@[1C 05 00]?" linebreak
+    "  Ich kaufe den Gegenstand f[cb]r" linebreak
+	"  {swap}$[1C 0A 00 00 00 00]." next
+    eob
+
+l_0xc5238f:
+    "@Selbst wenn [1C 02 00] den Gegenstand nicht ausr[cb]sten kann, m[c9]chtest du ihn trotzdem?" next
+    "@Nun ja, es ist ja immerhin dein Geld..." linebreak
+    eob
+
+l_0xc523be: //TODO Kontext
+    "@Jetzt aber schnell raus mit dir." next
+    eob
+
+l_0xc523cb:
+    "@Hey! Was versuchst du hier abzuziehen?! Du hast nicht genug Geld!!" next
+    eob
+
+l_0xc523ef:
+    "@Hey! Du hast schon zu viel M[cb]ll!" next
+    "@Willst du etwas verkaufen?" linebreak
+    eob
+
+l_0xc5241d:
+    "@Was kannst du mir verkaufen?[03]" eob
+
+l_0xc5242b:
+    "@[1C 05 00]?" linebreak
+    "  Ich kaufe den Gegenstand f[cb]r" linebreak
+	"  {swap}$[1C 0A 00 00 00 00]." next
+    "@Wie w[c0]re das?" linebreak
+    eob
+
+l_0xc5244f:
+    "@Hurrm. Haste dir anders [cb]berlegt, hm?" next
+    eob
+
+l_0xc52469:
+    "@Komm schon!" linebreak
+    "  Du hast gar nichts zu Verkaufen, oder?!" next
+    eob
+
+l_0xc52485:
+    "@Sorry, aber ich brauch das nicht." next
+    eob
+
+l_0xc5249a:
+    "@Hey, es war sch[c9]n Gesch[c0]fte mit dir zu machen." next
+    eob
+
+l_0xc524b2:
+    "@Danke." next
+    eob
+
+l_0xc524b8:
+    "@Noch etwas anderes?" linebreak
+    eob
+
+l_0xc524c5:
+    "@Was m[c9]chtest du sonst noch?" linebreak
+    eob
+
+l_0xc524d2:
+    "@[1C 02 00] kann nichts weiteres mehr tragen." next
+    "@Soll wer anderes den Gegenstand tragen?" linebreak
+    eob
+
+//Summers Laden
+l_0xc524f7:
+    "@Wende r[cb]ber nach Scaraba willst, musste hier kaufen." next
+    "@Dort is allet nen Zacken teurer..." next
+    "@So, wat willste habe?" linebreak
+    eob
+
+l_0xc52546:
+    "@Danke." next
+    "@Pass auf dich auf, wennde nach Scaraba gehst." end
+
+l_0xc5256c:
+    "@Komm mal wieder!" end
+
+l_0xc52574:
+    "@Wat interessiert dich?[03]" eob
+
+l_0xc52583:
+    "@[1C 05 00]?" next
+    eob
+
+l_0xc5258b:
+    "@Wer nimmt das Zeugs mit?[03]" eob
+
+l_0xc525a4:
+    "@Willste den Gegenstand ausr[cb]sten?" linebreak
+    eob
+
+l_0xc525bb:
+    "@[1C 05 00]?" linebreak
+    "  Willste, dass ich den Gegenstand f[cb]r {swap}$[1C 0A 00 00 00 00] kaufe?" next
+    eob
+
+l_0xc525e6:
+    "@[1C 02 00] kann das nicht ausr[cb]sten." next
+    "@Willste das Zeug trotzdem kaufen?" linebreak
+    eob
+
+l_0xc52603:
+    "@Willste doch nicht? Najut." next
+    eob
+
+l_0xc52622:
+    "@'Tschuldigug, aber dir fehlen die Moneten..." next
+    eob
+
+l_0xc5264b:
+    "@Du hast zu viel Zeugs." next
+    "@Willste etwas loswerden?" next
+    "@Wennde willst kann ich Zeugs kaufen, das du nicht mehr brauchst." linebreak
+    eob
+
+l_0xc526a2:
+    "@Na dann, was willste loswerden?[03]" eob
+
+l_0xc526b8:
+    "@[1C 05 00]?" linebreak
+    "  Ich w[cb]rde {swap}$[1C 0A 00 00 00 00] blechen." next
+    "@Biste damit zufrieden?" linebreak
+    eob
+
+l_0xc526e5:
+    "@Oh, nicht waste erwartet hattest? Najut." next
+    eob
+
+l_0xc5270f:
+    "@Oh? Du hast aber kein Zeugs zum Verkaufen." next
+    eob
+
+l_0xc52732:
+    "@'Tschuldigug, aber ich kann dat nicht kaufen." next
+    eob
+
+l_0xc52750:
+    "@Hier haste dein Zeugs. Viel Spa[b8] damit." next
+    eob
+
+l_0xc52764:
+    "@Danke." next
+    eob
+
+l_0xc52776:
+    "@Brauchste noch etwas anderes?" linebreak
+    eob
+
+l_0xc52788:
+    "@Was willste haben?" linebreak
+    eob
+
+l_0xc52796:
+    "@Schaut aus, als h[c0]tte [1C 02 00] zu viel Zeugs." next
+    "@Soll wer anderes das Zeugs tragen?" linebreak
+    eob
+//Scaraba Laden Ende
+l_0xc527c7:
+	title(1, Hassan)
+    "@Willkommen, willkommen! Ach, die Hitze! Geht es Ihnen gut?" next
+    "@Kann ich Sie f[cb]r einige meiner Waren interessieren?" linebreak
+    eob
+
+l_0xc52809:
+	title(1, Hassan)
+    "@Ohh, vielen Dank. Auf dass sie niemals Steine in Ihren Sandalen finden werden." end
+
+l_0xc52836:
+	title(1, Hassan)
+    "@Warum kaufen Sie nichts? Ich habe eine Familie zu ern[c0]hren!" end
+
+l_0xc52855:
+	title(1, Hassan)
+    "@Was wollen Sie haben?[03]" eob
+
+l_0xc52860:
+	title(1, Hassan)
+    "@[1C 05 00]?" next
+    eob
+
+l_0xc52868:
+	title(1, Hassan)
+    "@So, wer von Ihnen m[c9]chte diesen wundervollen Gegenstand tragen?[03]" eob
+
+l_0xc52885:
+	title(1, Hassan)
+    "@Wollen Sie ihn hier ausr[cb]sten?" linebreak
+    eob
+
+l_0xc52893:
+	title(1, Hassan)
+    "@[1C 05 00]?" linebreak
+    "  W[c0]ren Sie daran interessiert den Gegenstand f[cb]r {swap}$[1C 0A 00 00 00 00] zu verkaufen?." next
+    eob
+
+l_0xc528bf:
+	title(1, Hassan)
+    "@[1C 02 00] wird daf[cb]r keinen Nutzen haben." next
+    "@Wollen Sie diesen fabelhaften Gegenstand trotzdem erwerben?" linebreak
+    eob
+
+l_0xc528eb:
+	title(1, Hassan)
+    "@Nun gut." next
+    eob
+
+l_0xc528f9:
+	title(1, Hassan)
+    "@Ich bitte tausendfach um Ver-" linebreak
+	"  zeihung, aber Sie haben nicht gen[cb]gend Geld f[cb]r diesen Kauf." next
+    eob
+
+l_0xc52938:
+	title(1, Hassan)
+    "@Ahh, es scheint, als w[c0]re ihre Karawane [cb]berladen." next
+    "@Wollen Sie mir einige Gegenst[c0]nde verkaufen?" linebreak
+    eob
+
+l_0xc52972:
+	title(1, Hassan)
+    "@Nun gut, was wollen Sie verkaufen?[03]" eob
+
+l_0xc52989:
+	title(1, Hassan)
+    "@[1C 05 00]?" linebreak
+    "  Ahhh, ich bezahle daf[cb]r... {swap}$[1C 0A 00 00 00 00]." next
+    "@Ich wei[b8], eine Kleinigkeit, aber akzeptieren Sie den Tausch?" linebreak
+    eob
+
+l_0xc529d2:
+	title(1, Hassan)
+    "@Nun gut." next
+    eob
+
+l_0xc529e0:
+	title(1, Hassan)
+    "@Von meinem bescheidenen Blickwinkel gesehen, haben Sie nichts zu verkaufen." next
+    eob
+
+l_0xc52a09:
+	title(1, Hassan)
+    "@Ich bitte tausendfach um Verzeihung. Wir nehmen diesen Gegenstand hier nicht an." next
+    eob
+
+l_0xc52a2a:
+	title(1, Hassan)
+    "@Ahh, Sie sind der g[cb]tigste und netteste Kunde." next
+    eob
+
+l_0xc52a45:
+	title(1, Hassan)
+    "@Ich danke, dass sie meinen kleinen Laden besucht haben." next
+    eob
+
+l_0xc52a5c:
+	title(1, Hassan)
+    "@Wenn ich etwas weiteres f[cb]r Sie tun kann, z[c9]gern Sie nicht und fragen." next
+    eob
+
+l_0xc52a82:
+	title(1, Hassan)
+    "@Was kann ich noch f[cb]r Sie tun?" linebreak
+    eob
+
+l_0xc52a92:
+	title(1, Hassan)
+    "@[1C 02 00] kann einfach keine weiteren G[cb]ter mehr tragen." next
+    "@M[c9]glicherweise kann ein Begleiter von Ihnen die Last tragen?" linebreak
+    eob
+
+//Scaraba Blauer Anzug
+l_0xc52acc:
+    "@Toll, wenn Sie schon haben, was sie brauchen!" next
+    "@Aber sollte dies nicht der Fall sein, w[c0]re es eine Schande." next
+    "@Schauen Sie meine Waren genau an, und entscheiden Sie." next
+    "@Ist dort etwas, was Sie interessiert?" linebreak
+    eob
+
+l_0xc52b37:
+    "@Wenn Sie einige meine Waren brauchen, kommen Sie schnell zur[cb]ck, h[c9]ren Sie?" end
+
+l_0xc52b67:
+    "@Wenn Sie meine Ware brauchen, kommen Sie bitte wieder." end
+
+l_0xc52b82:
+    "@Was soll es sein?[03]" eob
+
+l_0xc52b8d:
+    "@[1C 05 00]?" next
+    eob
+
+l_0xc52b9b:
+    "@Wer soll den Gegenstand tragen?[03]" eob
+
+l_0xc52baa:
+    "@Wollen Sie ihn hier ausr[cb]sten?" linebreak
+    eob
+
+l_0xc52bbd:
+    "@[1C 05 00]?" linebreak
+    "  Ich kaufe den Gegenstand f[cb]r" linebreak
+	"  {swap}$[1C 0A 00 00 00 00]." next
+    eob
+
+l_0xc52bdd:
+    "@[1C 02 00] wird den Gegenstand nicht ausr[cb]sten k[c9]nnen." next
+    "@Sind Sie sich sicher, dass Sie ihn brauchen?" linebreak
+    eob
+
+l_0xc52c00:
+    "@Oh? Sie wollen den Gegenstand doch nicht kaufen, hm?" next
+    eob
+
+l_0xc52c1c:
+    "@Hmmm... Ich hasse es, es Ihnen zu sagen, aber Sie haben nicht genug Geld." next
+    eob
+
+l_0xc52c3d:
+    "@Oh... [c0]h... sieht aus, als w[cb]rden Sie schon zu viel Tragen." next
+    "@Sind sie bereit, enige Gegenst[c0]nde zu verkaufen?" next
+    eob
+
+l_0xc52c81:
+    "@Fantastisch! Was wollen Sie verkaufen?[03]" eob
+
+l_0xc52c9b:
+    "@[1C 05 00]?" next
+    "@Ich w[cb]rde sagen der Gegenstand" linebreak
+    "  ist ungef[c0]hr... {swap}$[1C 0A 00 00 00 00] wert." next
+    "@Wie finden Sie das?" linebreak
+    eob
+
+l_0xc52cd4:
+    "@OK, ich verstehe. Ihr werdet wiederkommen, h[c9]rt ihr?" next
+    eob
+
+l_0xc52ced:
+    "@Was ist los? Sie habe nichts zu verkaufen.[03]" eob
+
+l_0xc52d03:
+    "@Schauen Sie, es tut mir wirklich leid, aber ich kann das nicht kaufen." next
+    eob
+
+l_0xc52d1e:
+    "@Ich bedanke mich millionenfach!" next
+    eob
+
+l_0xc52d2c:
+    "@Vielen Dank!" next
+    eob
+
+l_0xc52d38:
+    "@Gibt es sonst noch etwas, was ich f[cb]r Sie tun kann, solange Sie noch hier sind?" next
+    eob
+
+l_0xc52d54:
+    "@Was soll es sein?" linebreak
+    eob
+
+l_0xc52d5f:
+    "@Bei den lebendigen Schlangen! [1C 02 00] kann nichts mehr tragen." next
+    "@Vielleicht kann wer anderes den Gegenstand tragen." linebreak
+    eob
+
+l_0xc52d8c:
+    "@Bitte kommen Sie wieder." end
+	
+//Scaraba Blauer Anzug ende
+
+//Threed Waffen Typ
+l_0xc52d94:
+    "@Pschhhhh!" linebreak
+    "  Rede doch nicht so laut!" next
+    "@Was willst du?" linebreak
+    eob
+
+l_0xc52db6:
+    "@...du schon wieder?!" linebreak
+    "  Was willst du?" linebreak
+    eob
+

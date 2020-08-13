@@ -1,0 +1,885 @@
+import asm65816
+
+import ebpp
+import ebpp_std
+import ebpp_mem
+
+
+o_Text:
+	"o[00]"
+a_Text:
+	"a[00]"
+da_Text:
+	"da [00]"
+dal_Text:
+	"dal [00]"
+dallo_Text:
+	"dallo [00]"
+dalla_Text:
+	"dalla [00]"
+dallApost_Text:
+	"dall'[00]"
+su_Text:
+	"su [00]"
+sul_Text:
+	"sul [00]"
+sullo_Text:
+	"sullo [00]"
+sulla_Text:
+	"sulla [00]"
+sullApost_Text:
+	"sull'[00]"
+di_Text:
+	"di [00]"
+dellApost_Text:
+	"dell'[00]"
+	
+	
+//---------------------------
+Dei_Text:
+	"Unos [00]"
+Del_Text:
+	"Del [00]"
+Della_Text:
+	"Della [00]"
+Delle_Text:
+	"Unas [00]"
+Dello_Text:
+	"Dello [00]"
+I_Text:
+	"Los [00]"
+Il_Text:
+	"Der [00]"
+LApost_Text:
+	"Der [00]"
+La_Text:
+	"Die [00]"
+Le_Text:
+	"Las [00]"
+Li_Text:
+	"Li [00]"
+Lo_Text:
+	"Lo [00]"
+Un_Text:
+	"Un [00]"
+UnApost_Text:
+	"El [00]"
+Una_Text:
+	"Una [00]"
+Uno_Text:
+	"Uno [00]"
+
+dei_Text:
+	"unos [00]"
+del_Text:
+	"del [00]"
+della_Text:
+	"della [00]"
+delle_Text:
+	"unas [00]"
+dello_Text:
+	"dello [00]"
+i_Text:
+	"los [00]"
+il_Text:
+	"el [00]"
+lApost_Text:
+	"el [00]"
+la_Text:
+	"la [00]"
+le_Text:
+	"las [00]"
+li_Text:
+	"li [00]"
+lo_Text:
+	"lo [00]"
+un_Text:
+	"un [00]"
+unApost_Text:
+	"el [00]"
+una_Text:
+	"una [00]"
+uno_Text:
+	"uno [00]"
+//---------------------------
+
+PrintCapIndefArticleAttacker:
+	LDX_a(0xA970)
+	JSL(PrintCapIndefArticleEnemy_ASM)
+	RTL
+//
+PrintCapIndefArticleTarget:
+	LDX_a(0xA972)
+	JSL(PrintCapIndefArticleEnemy_ASM)
+	RTL
+//
+PrintLowIndefArticleAttacker:
+	LDX_a(0xA970)
+	JSL(PrintLowIndefArticleEnemy_ASM)
+	RTL
+//
+PrintLowIndefArticleTarget:
+	LDX_a(0xA972)
+	JSL(PrintLowIndefArticleEnemy_ASM)
+	RTL
+//
+PrintCapIndefArticleEnemy_ASM:
+	REP(0x31)
+	PHD
+	TDC
+	ADC_i(0xFFEC)
+	TCD
+	LDA_x(0x0000)//Load enemy number.
+	AND_i(0x00FF)//Clear high byte.
+	ASL
+	TAY
+	LDA_x(0x000F)//Load NPC number.
+	AND_i(0x00FF)//Clear high byte.
+	BNE_a(PrintCapIndefArticleEnemy_EnemyTable)
+	LDA_x(0x000E)//Load target's "Party" value.
+	AND_i(0x00FF)//Clear high byte.
+	BNE_a(PrintCapIndefArticleEnemy_EnemyTable)
+	TYX
+	LDA_xl(PartyArticles_Table)
+	BRA(5)
+//
+PrintCapIndefArticleEnemy_EnemyTable:
+	TYX
+	LDA_xl(EnemyArticles_Table)
+	AND_i(0x0007)
+	//
+	BEQ_a(PrintCapIndefArticle_End)
+	//
+	CMP_i(0x0001)
+	BNE(13)
+	ASMLoadAddress0E(Un_Text)
+	BRA_a(PrintCapIndefArticle_PrintText)
+	//
+	CMP_i(0x0002)
+	BNE(13)
+	ASMLoadAddress0E(Uno_Text)
+	BRA_a(PrintCapIndefArticle_PrintText)
+	//
+	CMP_i(0x0003)
+	BNE(13)
+	ASMLoadAddress0E(Una_Text)
+	BRA_a(PrintCapIndefArticle_PrintText)
+	//
+	ASMLoadAddress0E(UnApost_Text)
+//
+PrintCapIndefArticle_PrintText:
+	LDA_i(0)//Size?
+	JSL(0xC4487C)//$C4/487C is a truncating text-printer
+//
+PrintCapIndefArticle_End:
+	PLD
+	RTL
+//
+PrintLowIndefArticleEnemy_ASM:
+	REP(0x31)
+	PHD
+	TDC
+	ADC_i(0xFFEC)
+	TCD
+	LDA_x(0x0000)//Load enemy number.
+	AND_i(0x00FF)//Clear high byte.
+	ASL
+	TAY
+	LDA_x(0x000F)//Load NPC number.
+	AND_i(0x00FF)//Clear high byte.
+	BNE_a(PrintLowIndefArticleEnemy_EnemyTable)
+	LDA_x(0x000E)//Load target's "Party" value.
+	AND_i(0x00FF)//Clear high byte.
+	BNE_a(PrintLowIndefArticleEnemy_EnemyTable)
+	TYX
+	LDA_xl(PartyArticles_Table)
+	BRA(5)
+//
+PrintLowIndefArticleEnemy_EnemyTable:
+	TYX
+	LDA_xl(EnemyArticles_Table)
+	AND_i(0x0007)
+	//
+	BEQ_a(PrintLowIndefArticle_End)
+	//
+	CMP_i(0x0001)
+	BNE(13)
+	ASMLoadAddress0E(un_Text)
+	BRA_a(PrintLowIndefArticle_PrintText)
+	//
+	CMP_i(0x0002)
+	BNE(13)
+	ASMLoadAddress0E(uno_Text)
+	BRA_a(PrintLowIndefArticle_PrintText)
+	//
+	CMP_i(0x0003)
+	BNE(13)
+	ASMLoadAddress0E(una_Text)
+	BRA_a(PrintLowIndefArticle_PrintText)
+	//
+	ASMLoadAddress0E(unApost_Text)
+//
+PrintLowIndefArticle_PrintText:
+	LDA_i(0)//Size?
+	JSL(0xC4487C)//$C4/487C is a truncating text-printer
+	PrintLowIndefArticle_End:
+	PLD
+	RTL
+//
+PrintCapDefArticleAttacker:
+	LDX_a(0xA970)
+	JSL(PrintCapDefArticleEnemy_ASM)
+	RTL
+//
+PrintCapDefArticleTarget:
+	LDX_a(0xA972)
+	JSL(PrintCapDefArticleEnemy_ASM)
+	RTL
+//
+PrintLowDefArticleAttacker:
+	LDX_a(0xA970)
+	JSL(PrintLowDefArticleEnemy_ASM)
+	RTL
+//
+PrintLowDefArticleTarget:
+	LDX_a(0xA972)
+	JSL(PrintLowDefArticleEnemy_ASM)
+	RTL
+//
+PrintCapDefArticleEnemy_ASM:
+	REP(0x31)
+	PHD
+	TDC
+	ADC_i(0xFFEC)
+	TCD
+	LDA_x(0x0000)//Load enemy number.
+	AND_i(0x00FF)//Clear high byte.
+	ASL
+	TAY
+	LDA_x(0x000F)//Load NPC number.
+	AND_i(0x00FF)//Clear high byte.
+	BNE_a(PrintCapDefArticleEnemy_EnemyTable)
+	LDA_x(0x000E)//Load target's "Party" value.
+	AND_i(0x00FF)//Clear high byte.
+	BNE_a(PrintCapDefArticleEnemy_EnemyTable)
+	TYX
+	LDA_xl(PartyArticles_Table)
+	BRA(5)
+//
+PrintCapDefArticleEnemy_EnemyTable:
+	TYX
+	LDA_xl(EnemyArticles_Table)
+	AND_i(0x0038)
+//
+BEQ_a(PrintCapDefArticle_End)
+	//
+	CMP_i(0x0008)
+	BNE(13)
+	ASMLoadAddress0E(Il_Text)
+	BRA_a(PrintCapDefArticle_PrintText)
+	//
+	CMP_i(0x0010)
+	BNE(13)
+	ASMLoadAddress0E(Lo_Text)
+	BRA_a(PrintCapDefArticle_PrintText)
+	//
+	CMP_i(0x0018)
+	BNE(13)
+	ASMLoadAddress0E(La_Text)
+	BRA_a(PrintCapDefArticle_PrintText)
+	//
+	ASMLoadAddress0E(LApost_Text)
+//
+PrintCapDefArticle_PrintText:
+	LDA_i(0)//Size?
+	JSL(0xC4487C)//$C4/487C is a truncating text-printer
+//
+PrintCapDefArticle_End:
+	PLD
+	RTL
+//
+PrintLowDefArticleEnemy_ASM:
+	REP(0x31)
+	PHD
+	TDC
+	ADC_i(0xFFEC)
+	TCD
+	LDA_x(0x0000)//Load enemy number.
+	AND_i(0x00FF)//Clear high byte.
+	ASL
+	TAY
+	LDA_x(0x000F)//Load NPC number.
+	AND_i(0x00FF)//Clear high byte.
+	BNE_a(PrintLowDefArticleEnemy_EnemyTable)
+	LDA_x(0x000E)//Load target's "Party" value.
+	AND_i(0x00FF)//Clear high byte.
+	BNE_a(PrintLowDefArticleEnemy_EnemyTable)
+	TYX
+	LDA_xl(PartyArticles_Table)
+	BRA(5)
+//
+PrintLowDefArticleEnemy_EnemyTable:
+	TYX
+	LDA_xl(EnemyArticles_Table)
+	AND_i(0x0038)
+	//
+	BEQ_a(PrintLowDefArticle_End)
+	//
+	CMP_i(0x0008)
+	BNE(13)
+	ASMLoadAddress0E(il_Text)
+	BRA_a(PrintLowDefArticle_PrintText)
+	//
+	CMP_i(0x0010)
+	BNE(13)
+	ASMLoadAddress0E(lo_Text)
+	BRA_a(PrintLowDefArticle_PrintText)
+	//
+	CMP_i(0x0018)
+	BNE(13)
+	ASMLoadAddress0E(la_Text)
+	BRA_a(PrintLowDefArticle_PrintText)
+	//
+	ASMLoadAddress0E(lApost_Text)
+//
+PrintLowDefArticle_PrintText:
+	LDA_i(0)//Size?
+	JSL(0xC4487C)//$C4/487C is a truncating text-printer
+//
+PrintLowDefArticle_End:
+	PLD
+	RTL
+//
+PrintGenderedVerbAttacker:
+	LDX_a(0xA970)
+	JSL(PrintGenderedVerb_ASM)
+	RTL
+//
+PrintGenderedVerbTarget:
+	LDX_a(0xA972)
+	JSL(PrintGenderedVerb_ASM)
+	RTL
+//
+PrintGenderedVerb_ASM:
+	REP(0x31)
+	PHD
+	TDC
+	ADC_i(0xFFEC)
+	TCD
+	LDA_x(0x0000)//Load enemy number.
+	AND_i(0x00FF)//Clear high byte.
+	ASL
+	TAY
+	LDA_x(0x000F)//Load NPC number.
+	AND_i(0x00FF)//Clear high byte.
+	BNE_a(PrintGenderedVerb_EnemyTable)
+	LDA_x(0x000E)//Load target's "Party" value.
+	AND_i(0x00FF)//Clear high byte.
+	BNE_a(PrintGenderedVerb_EnemyTable)
+	TYX
+	LDA_xl(PartyArticles_Table)
+	BRA(5)
+//
+PrintGenderedVerb_EnemyTable:
+	TYX
+	LDA_xl(EnemyArticles_Table)
+	AND_i(0x0040)
+	//
+	BNE(13)
+	ASMLoadAddress0E(o_Text)
+	BRA_a(PrintGenderedVerb_PrintText)
+	//
+	ASMLoadAddress0E(a_Text)
+//
+PrintGenderedVerb_PrintText:
+	LDA_i(0)//Size?
+	JSL(0xC4487C)//$C4/487C is a truncating text-printer
+	PLD
+	RTL
+//
+PrintUnknown1Attacker:
+	LDX_a(0xA970)
+	JSL(PrintUnknown1_ASM)
+	RTL
+//
+PrintUnknown1Target:
+	LDX_a(0xA972)
+	JSL(PrintUnknown1_ASM)
+	RTL
+//
+PrintUnknown1_ASM:
+	REP(0x31)
+	PHD
+	TDC
+	ADC_i(0xFFEC)
+	TCD
+	LDA_x(0x0000)//Load enemy number.
+	AND_i(0x00FF)//Clear high byte.
+	ASL
+	TAY
+	LDA_x(0x000F)//Load NPC number.
+	AND_i(0x00FF)//Clear high byte.
+	BNE_a(PrintUnknown1_EnemyTable)
+	LDA_x(0x000E)//Load target's "Party" value.
+	AND_i(0x00FF)//Clear high byte.
+	BNE_a(PrintUnknown1_EnemyTable)
+	TYX
+	LDA_xl(PartyArticles_Table)
+	BRA(5)
+//
+PrintUnknown1_EnemyTable:
+	TYX
+	LDA_xl(EnemyArticles_Table)
+	AND_i(0x0380)
+	//
+	BNE(13)
+	ASMLoadAddress0E(da_Text)
+	BRA_a(Unknown1_PrintText)
+	//
+	CMP_i(0x0080)
+	BNE(13)
+	ASMLoadAddress0E(dal_Text)
+	BRA_a(Unknown1_PrintText)
+	//
+	CMP_i(0x0100)
+	BNE(13)
+	ASMLoadAddress0E(dallo_Text)
+	BRA_a(Unknown1_PrintText)
+	//
+	CMP_i(0x0180)
+	BNE(13)
+	ASMLoadAddress0E(dalla_Text)
+	BRA_a(Unknown1_PrintText)
+	//
+	ASMLoadAddress0E(dallApost_Text)
+//
+Unknown1_PrintText:
+	LDA_i(0)//Size?
+	JSL(0xC4487C)//$C4/487C is a truncating text-printer
+	PLD
+	RTL
+//
+PrintUnknown2Attacker:
+	LDX_a(0xA970)
+	JSL(PrintUnknown2_ASM)
+	RTL
+//
+PrintUnknown2Target:
+	LDX_a(0xA972)
+	JSL(PrintUnknown2_ASM)
+	RTL
+//
+PrintUnknown2_ASM:
+	REP(0x31)
+	PHD
+	TDC
+	ADC_i(0xFFEC)
+	TCD
+	LDA_x(0x0000)//Load enemy number.
+	AND_i(0x00FF)//Clear high byte.
+	ASL
+	TAY
+	LDA_x(0x000F)//Load NPC number.
+	AND_i(0x00FF)//Clear high byte.
+	BNE_a(PrintUnknown2_EnemyTable)
+	LDA_x(0x000E)//Load target's "Party" value.
+	AND_i(0x00FF)//Clear high byte.
+	BNE_a(PrintUnknown2_EnemyTable)
+	TYX
+	LDA_xl(PartyArticles_Table)
+	BRA(5)
+//
+PrintUnknown2_EnemyTable:
+	TYX
+	LDA_xl(EnemyArticles_Table)
+	AND_i(0x1C00)
+	//
+	BNE(13)
+	ASMLoadAddress0E(su_Text)
+	BRA_a(Unknown2_PrintText)
+	//
+	CMP_i(0x0400)
+	BNE(13)
+	ASMLoadAddress0E(sul_Text)
+	BRA_a(Unknown2_PrintText)
+	//
+	CMP_i(0x0800)
+	BNE(13)
+	ASMLoadAddress0E(sullo_Text)
+	BRA_a(Unknown2_PrintText)
+	//
+	CMP_i(0x0C00)
+	BNE(13)
+	ASMLoadAddress0E(sulla_Text)
+	BRA_a(Unknown2_PrintText)
+	//
+	ASMLoadAddress0E(sullApost_Text)
+//
+Unknown2_PrintText:
+	LDA_i(0)//Size?
+	JSL(0xC4487C)//$C4/487C is a truncating text-printer
+	PLD
+	RTL
+
+PrintUnknown3Attacker:
+	LDX_a(0xA970)
+	JSL(PrintUnknown3_ASM)
+	RTL
+//
+PrintUnknown3Target:
+	LDX_a(0xA972)
+	JSL(PrintUnknown3_ASM)
+	RTL
+//
+PrintUnknown3_ASM:
+	REP(0x31)
+	PHD
+	TDC
+	ADC_i(0xFFEC)
+	TCD
+	LDA_x(0x0000)//Load enemy number.
+	AND_i(0x00FF)//Clear high byte.
+	ASL
+	TAY
+	LDA_x(0x000F)//Load NPC number.
+	AND_i(0x00FF)//Clear high byte.
+	BNE_a(PrintUnknown3_EnemyTable)
+	LDA_x(0x000E)//Load target's "Party" value.
+	AND_i(0x00FF)//Clear high byte.
+	BNE_a(PrintUnknown3_EnemyTable)
+	TYX
+	LDA_xl(PartyArticles_Table)
+	BRA(5)
+//
+PrintUnknown3_EnemyTable:
+	TYX
+	LDA_xl(EnemyArticles_Table)
+	AND_i(0xE000)
+	//
+	BNE(13)
+	ASMLoadAddress0E(di_Text)
+	BRA_a(Unknown3_PrintText)
+	//
+	CMP_i(0x2000)
+	BNE(13)
+	ASMLoadAddress0E(del_Text)
+	BRA_a(Unknown3_PrintText)
+	//
+	CMP_i(0x4000)
+	BNE(13)
+	ASMLoadAddress0E(dello_Text)
+	BRA_a(Unknown3_PrintText)
+	//
+	CMP_i(0x6000)
+	BNE(13)
+	ASMLoadAddress0E(della_Text)
+	BRA_a(Unknown3_PrintText)
+	//
+	ASMLoadAddress0E(dellApost_Text)
+//
+Unknown3_PrintText:
+	LDA_i(0)//Size?
+	JSL(0xC4487C)//$C4/487C is a truncating text-printer
+	PLD
+	RTL
+
+
+/*
+
+// {asmcall_long(PrintCapDefArticleAttacker)}
+// {asmcall_long(PrintCapDefArticleTarget)}
+// {asmcall_long(PrintLowDefArticleAttacker)}
+// {asmcall_long(PrintLowDefArticleTarget)}
+
+-INDEFINITE ARTICLES-
+(3-bits)
++0x0000 = (NO ARTICLE)
++0x0001 = Un	//Un  !!!
++0x0002 = Un	//Uno
++0x0003 = Una	//Una !!!
++0x0004 = El	//Un' !!!
+
+-DEFINITE ARTICLES-
+(3-bits)
++0x0000 = (NO ARTICLE)
++0x0008 = El	//Il
++0x0010 = El	//Lo
++0x0018 = La	//La !!!
++0x0020 = El	//L' !!!
+
+-GENDERED VERBS-
+(1-bit)
++0x0000 = o
++0x0040 = a
+
+-UNKNOWN GROUP 1-
+(3-bits)
++0x0000 = da
++0x0080 = dal
++0x0100 = dallo
++0x0180 = dalla
++0x0200 = dall’
+
+-UNKNOWN GROUP 2-
+(3-bits)
++0x0000 = su
++0x0400 = sul
++0x0800 = sullo
++0x0C00 = sulla
++0x1000 = sull’
+
+-UNKNOWN GROUP 3-
+(3-bits)
++0x0000 = di
++0x2000 = del
++0x4000 = dello
++0x6000 = della
++0x8000 = dell’
+*/
+
+
+PartyArticles_Table:
+short 0x0000//Null
+short 0x0000//Ness
+short 0x0040//Paula
+short 0x0000//Jeff
+short 0x0000//Poo
+
+
+//0x0021 M
+//0x005B
+//0x0024 
+
+
+EnemyArticles_Table:
+short 0x0000//0: 'null'
+short 0x0000//1: Verr[cb]ckter Kultist
+short 0x0000//2: Kaufhaus Spuk
+short 0x0000//3: Gepanzerter Frosch
+short 0x0000//4: B[c9]ser B[cb]ffel
+short 0x0000//5: Schwarze Ameise
+short 0x0000//6: Rote Ameise
+short 0x0000//7: Gemeiner Laufpilz
+short 0x0000//8: Gemeiner Stolzierpilz
+short 0x0000//9: Mobiler Spr[c9]ssling
+short 0x0000//10: Z[c0]her Mobiler Spr[c9]ssling
+short 0x0000//11: W[cb]tender Hydrant
+short 0x0000//12: Mystische Schallplatte
+short 0x0000//13: Atomkraft Roboter
+short 0x0000//14: Kernreaktor Roboter
+short 0x0000//15: W[c0]chterhieroglyphe
+short 0x0000//16: T[c9]dliche Asp Hieroglyphe
+short 0x0000//17: Elektro Rauschen
+short 0x0000//18: Elektro-Schocker
+short 0x0000//19: Elektro-Geist
+short 0x0000//20: B[c9]ses Element
+short 0x0000//21: 'D[c0]mon von |'
+short 0x0000//22: Nerviger Alter Partymann
+short 0x0000//23: Nerviger Partymensch
+short 0x0000//24: Einfacher Typ
+short 0x0000//25: Neuzeit Retro Hippie
+short 0x0000//26: Mr. Carpainter
+short 0x0000//27: Karbonhund
+short 0x0000//28: M[c0]chtiger B[c0]r
+short 0x0000//29: M[c0]chtiger B[c0]r Nr. 7
+short 0x0000//30: Muffeliger-Stinkemann
+short 0x0000//31: Kleiner Donner
+short 0x0000//32: Launenhafte Dame
+short 0x0000//33: Extra Launenhafte Dame
+short 0x0000//34: Giygas
+short 0x0000//35: Grinsaurier
+short 0x0000//36: Hungrisaurus
+short 0x0000//37: Gro[b8]e Ameise
+short 0x0000//38: Noch Gr[c9][b8]ere Ameise
+short 0x0000//39: Piiilz!
+short 0x0000//40: Riesige Ratte
+short 0x0000//41: Gigantischer Maulwurf
+short 0x0000//42: H[c9]hlenmeister
+short 0x0000//43: M[c9]rdertasse
+short 0x0000//44: Zauberw[cb]rfel
+short 0x0000//45: Schleimiges H[c0]ufchen
+short 0x0000//46: Schleimiger Haufen
+short 0x0000//47: Spinne!
+short 0x0000//48: Spinne!!!
+short 0x0000//49: Kraken
+short 0x0000//50: Bionischer Kraken
+short 0x0000//51: Drehboter
+short 0x0000//52: Wirbelboter
+short 0x0000//53: Wirbel-Wirbelboter
+short 0x0000//54: Polizeibeamter
+short 0x0000//55: Spulenschlange
+short 0x0000//56: D[cb]rre Spulenschlange
+short 0x0000//57: Mr. Fleder Maus
+short 0x0000//58: Prof. Fleder Maus
+short 0x0000//59: Brutale Kakerlake
+short 0x0000//60: Versiffte Kakerlake
+short 0x0000//61: Durchgeknalltes Schild
+short 0x0000//62: Wolliges Watschelchen
+short 0x0000//63: Wildes Watschelchen
+short 0x0000//64: Skatepunk
+short 0x0000//65: Skelpion
+short 0x0000//66: T[c9]dlicher Skelpion
+short 0x0000//67: Starman
+short 0x0000//68: Super Starman
+short 0x0000//69: Geist eines Starman
+short 0x0000//70: L[c0]chelkugel
+short 0x0000//71: Unheimliche Kugel
+short 0x0000//72: K[c9]nigliche Steinstatue
+short 0x0000//73: W[c0]chter Anf[cb]hrer
+short 0x0000//74: Starman Deluxe
+short 0x0000//75: Letzter Starman
+short 0x0000//76: Stadtzombie
+short 0x0000//77: Zombie Besitzer
+short 0x0000//78: Zombiehund
+short 0x0000//79: Korrupter Polizist
+short 0x0000//80: '[bb]beraggressiver Polizist'
+short 0x0000//81: Gro[b8]es Holzoh
+short 0x0000//82: Mutiges Holzoh
+short 0x0000//83: Diamantenhund
+short 0x0000//84: Pl[cb]nderer Oktobot
+short 0x0000//85: Milit[c0]r Oktobot
+short 0x0000//86: Mechanischer Oktobot
+short 0x0000//87: Ultimativer Oktobot
+short 0x0000//88: Kriminelle Ente
+short 0x0000//89: Dal[c6]s Uhr
+short 0x0000//90: Billionenalter Spr[c9]ssling
+short 0x0000//91: Musika
+short 0x0000//92: W[cb]stenwolf
+short 0x0000//93: Meister R[cb]lps
+short 0x0000//94: Gro[b8]er Haufen Kotze
+short 0x0000//95: Meister Kotze
+short 0x0000//96: Teufelskuss
+short 0x0000//97: Teufelszungenkuss
+short 0x0000//98: Foppy
+short 0x0000//99: Fobby
+short 0x0000//100: Zittteraalll
+short 0x0000//101: Tengu
+short 0x0000//102: Monsterzelt
+short 0x0000//103: Einsiedler D[c0]mon
+short 0x0000//104: Federbusch Buka
+short 0x0000//105: Gro[b8]er Federbusch Buka
+short 0x0000//106: Unbedeutender Mook
+short 0x0000//107: Senioren Mook
+short 0x0000//108: M[cb]ffelnder Geist
+short 0x0000//109: Stinkender Geist
+short 0x0000//110: Everdred
+short 0x0000//111: Waghalsige Nacktschnecke
+short 0x0000//112: Pitbull Nacktschnecke
+short 0x0000//113: Rauflustige Maus
+short 0x0000//114: T[c9]dliche Maus
+short 0x0000//115: Sorglose Bombe
+short 0x0000//116: Elektro Knister
+short 0x0000//117: Niedlicher Tom
+short 0x0000//118: Schadenfroher Sam
+short 0x0000//119: Fischmann
+short 0x0000//120: Bruder von Fischmann
+short 0x0000//121: Streuner
+short 0x0000//122: Halloween Kind
+short 0x0000//123: Bigfoot
+short 0x0000//124: Abstrakte Kunst
+short 0x0000//125: Zerschlagener Mann
+short 0x0000//126: Wilder Zerschlagener Mann
+short 0x0000//127: Stolze Kugel
+short 0x0000//128: Donner und Sturm
+short 0x0000//129: Ja-Mann Junior
+short 0x0000//130: Frankystein Mark II
+short 0x0000//131: Frank
+short 0x0000//132: S[cb][b8]es kleines UFO
+short 0x0000//133: H[cb]bsches UFO
+short 0x0000//134: Pogo Punk
+short 0x0000//135: Harter Kerl
+short 0x0000//136: Wahnsinniges Taxi
+short 0x0000//137: Mani Mani D[c0]mon
+short 0x0000//138: Mr. Molek[cb]l
+short 0x0000//139: Wertloses Protoplasma
+short 0x0000//140: Wachroboter
+short 0x0000//141: Schwer Gepanzerter Porky
+short 0x0000//142: PK Psycho
+short 0x0000//143: Oberster PK Psycho
+short 0x0000//144: B[c9]se Spielender Maulwurf
+short 0x0000//145: Gewaltt[c0]tige Ziege
+short 0x0000//146: Fahrl[c0]ssiger Roboter
+short 0x0000//147: Seelenfressende Flamme
+short 0x0000//148: D[c0]monische Rafflesia
+short 0x0000//149: Nichidee
+short 0x0000//150: UFOchen
+short 0x0000//151: Erwachsenes UFOchen
+short 0x0000//152: Galgenm[c0]nnchen
+short 0x0000//153: Robo-Pumpe
+short 0x0000//154: Normaler Alligator
+short 0x0000//155: Starker Alligator
+short 0x0000//156: Hartn[c0]ckiger Alligator
+short 0x0000//157: Nichtsnutzige Fliege
+short 0x0000//158: Ziemlich Schlechte Fliege
+short 0x0000//159: Abscheuliche Kr[c0]he
+short 0x0000//160: Mein Haustier
+short 0x0000//161: Porky
+short 0x0000//162: Picky
+short 0x0000//163: Tony
+short 0x0000//164: Blasen Affe
+short 0x0000//165: Dungeon Man
+short 0x0000//166: Fliegender Mann
+short 0x0000//167: Teddyb[c0]r
+short 0x0000//168: Super Flausch B[c0]r
+short 0x0000//169: Meister R[cb]lps
+short 0x0000//170: Verr[cb]ckter Kultist
+short 0x0000//171: Kaufhaus Spuk
+short 0x0000//172: 'D[c0]mon von |'
+short 0x0000//173: Mr. Carpainter
+short 0x0000//174: Karbonhund
+short 0x0000//175: Hungrisaurus
+short 0x0000//176: Gro[b8]e Ameise
+short 0x0000//177: Noch Gr[c9][b8]ere Ameise
+short 0x0000//178: Piiilz!
+short 0x0000//179: Riesige Ratte
+short 0x0000//180: Gigantischer Maulwurf
+short 0x0000//181: H[c9]hlenmeister
+short 0x0000//182: Kraken
+short 0x0000//183: Bionischer Kraken
+short 0x0000//184: Starman
+short 0x0000//185: Starman Super
+short 0x0000//186: Geist eines Starman
+short 0x0000//187: Starman Deluxe
+short 0x0000//188: Letzter Starman
+short 0x0000//189: Stadtzombie
+short 0x0000//190: Diamantenhund
+short 0x0000//191: Billionenalter Spr[c9]ssling
+short 0x0000//192: Meister R[cb]lps
+short 0x0000//193: Gro[b8]er Haufen Kotze
+short 0x0000//194: Meister Kotze
+short 0x0000//195: Zauberw[cb]rfel
+short 0x0000//196: Tengu
+short 0x0000//197: Monsterzelt
+short 0x0000//198: Einsiedler D[c0]mon
+short 0x0000//199: Everdred
+short 0x0000//200: Elektro Knister
+short 0x0000//201: Donner und Sturm
+short 0x0000//202: Frankystein Mark II
+short 0x0000//203: Mani Mani D[c0]mon
+short 0x0000//204: Schwer Gepanzerter Porky
+short 0x0000//205: Fahrl[c0]ssiger Roboter
+short 0x0000//206: Robo-Pumpe
+short 0x0000//207: Foppy
+short 0x0000//208: W[c0]chter Anf[cb]hrer
+short 0x0000//209: Schwarze Ameise
+short 0x0000//210: Gemeiner Stolzierpilz
+short 0x0000//211: Streuner
+short 0x0000//212: Bigfoot
+short 0x0000//213: Winzig Kleiner Geist
+short 0x0000//214: Starman Junior
+short 0x0000//215: Buzz Buzz
+short 0x0000//216: Schwer Gepanzerter Porky
+short 0x0000//217: Schwer Gepanzerter Porky
+short 0x0000//218: Giygas
+short 0x0000//219: Giygas
+short 0x0000//220: Giygas
+short 0x0000//221: Giygas
+short 0x0000//222: Schlammiger Zombie
+short 0x0000//223: Kriminelle Raupe
+short 0x0000//224: B[c9]ses Auge
+short 0x0000//225: Magischer Schmetterling
+short 0x0000//226: Bl[c0]gh
+short 0x0000//227: Schwerkriminelle Raupe
+short 0x0000//228: Hauptmann Stark
+short 0x0000//229: Giygas
+short 0x0000//230: Fahrl[c0]ssiger Roboter

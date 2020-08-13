@@ -1,0 +1,412 @@
+/*
+ * EarthBound Text Dump
+ * Time: 22:14:19 - 03/04/2018
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+command e(label) "{long label}"
+
+// Text Data
+l_0xc5c76f:
+    "@[1C 05 00]?" next
+    eob
+
+l_0xc5c77e:
+    "@Wer soll den Gegenstand tragen?[03]" eob
+
+l_0xc5c78a:
+    "@Oh? Sie haben also Ihre Meinung ge[c0]ndert und wollen doch nichts mehr?" next
+    eob
+
+l_0xc5c7ae:
+    "@Sie haben nicht genug Geld." next
+    eob
+
+l_0xc5c7b9:
+    "@Sie tragen schon zu viel." next
+    "@Verkaufen Sie etwas, oder werfen Sie es weg." end
+
+l_0xc5c7f1:
+    "@Vielen Dank." next
+    eob
+
+l_0xc5c7fb:
+    "@Danke." next
+    eob
+
+l_0xc5c804:
+    "@Brauchen Sie noch etwas ?" linebreak
+    eob
+
+l_0xc5c80d:
+    "@[1C 02 00] tr[c0]gt schon zu viele Gegenst[c0]nde." next
+    "@Ich glaube nicht, dass " swap call(data_33.l_0xc7e5f3) " noch mehr tragen kann." next
+    "@Will jemand anderes den Gegenstand tragen?" linebreak
+    " " eob
+	
+//Scaraba Blaues Tuch Typ ende
+
+l_0xc5c845:
+    "@Wir bieten Wasser, Reismehlsuppe und" linebreak
+	"  derartiges an." next
+    eob
+
+l_0xc5c86c:
+    "@Auf Wiedersehen." end
+
+l_0xc5c876:
+    "@Auf Wiedersehen. Bitte passt auf Euch auf." end
+
+l_0xc5c88a:
+    "@Was m[c9]chten Sie?[03]" eob
+
+l_0xc5c896:
+    "@[1C 05 00]?" next
+    eob
+
+l_0xc5c89e:
+    "@Wer soll den Gegenstand tragen?[03]" eob
+
+l_0xc5c8aa:
+    "@Sie sind nicht an unserem Men[cb] interessiert? Ich verstehe." next
+    eob
+
+l_0xc5c8c8:
+    "@Sie haben nicht genug Geld." next
+    eob
+
+l_0xc5c8d8:
+    "@Sie tragen schon zu viele Gegenst[c0]nde." next
+    "@Verkaufen Sie etwas, oder werfen Sie es einfach weg." end
+
+l_0xc5c916:
+    "@Vielen Dank." next
+    eob
+
+l_0xc5c920:
+    "@Vielen Dank." next
+    eob
+
+l_0xc5c92a:
+    "@Wollen Sie noch etwas kaufen?" linebreak
+    eob
+
+l_0xc5c933:
+    "@[1C 02 00] tr[c0]gt schon zu viel." next
+    "@Ich glaube nicht, dass " swap call(data_33.l_0xc7e5f3) " noch mehr tragen kann." next
+    "@Kann jemand anderes den Gegenstand tragen?" linebreak
+    eob
+
+l_0xc5c96a:
+    "@Hi, wie geht's dir? So wie es aussieht, w[cb]rde ich sagen nicht so gut." next
+    eob
+
+l_0xc5c99a:
+    "@Bis dann!" end
+
+l_0xc5c9a4:
+    "@Bis dann!" end
+
+l_0xc5c9ae:
+    "@Brauchst du etwas?[03]" eob
+
+l_0xc5c9b7:
+    "@[1C 05 00]...?" next
+    eob
+
+l_0xc5c9c2:
+    "@Wer soll den Gegenstand tragen?[03]" eob
+
+l_0xc5c9ce:
+    "@Du sagst als, du willst den Gegenstand doch nicht...?" next
+    eob
+
+l_0xc5c9e7:
+    "@Du hast nicht genug Geld." next
+    eob
+
+l_0xc5c9f2:
+    "@Du tr[c0]gst schon zu viel." end
+
+l_0xc5ca04:
+    "@Danke." next
+    eob
+
+l_0xc5ca0a:
+    "@Danke." next
+    eob
+
+l_0xc5ca10:
+    "@Kaufst du noch etwas?" linebreak
+    eob
+
+l_0xc5ca1e:
+    "@[1C 02 00] scheint schon zu viel zu tragen." next
+    "@Ich glaube nicht, dass " swap call(data_33.l_0xc7e5f3) " noch mehr tragen kann." next
+    "@Kann jemand anderes den Gegenstand tragen?" linebreak
+    eob
+
+l_0xc5ca56:
+    title(1, Gil)
+    "@Ich kann keine magische Kuchen mehr machen..." next
+    "@Aber das ist nicht so schlimm, weil ich jetzt Magische Torten verkaufe." next
+    "@Sie schmecken sogar besser als Magische Kuchen!" next
+    eob
+
+l_0xc5cab4:
+    title(1, Gil)
+    "@Du erinnerst mich daran, wie sehr ich diesen Job liebe!" end
+
+l_0xc5cad0:
+    title(1, Gil)
+    "@Du erinnerst mich daran, wie sehr ich diesen Job liebe!" end
+
+l_0xc5caec:
+    title(1, Gil)
+    "@Ich habe nur das....." next
+    eob
+
+l_0xc5cafe:
+    title(1, Gil)
+    "@Kaufst du" linebreak
+    "  meine [1C 05 00]?" next
+    eob
+
+l_0xc5cb12:
+    title(1, Gil)
+    "@Wer will sie mitnehmen?[03]" eob
+
+l_0xc5cb1e:
+    title(1, Gil)
+    "@Das ist aber schade." end
+
+l_0xc5cb29:
+    title(1, Gil)
+    "@Du hast aber nicht genug Geld." end
+
+l_0xc5cb33:
+    title(1, Gil)
+    "@Du tr[c0]gst schon zu viele Sachen." next
+    "@Komm wieder, wenn du etwas losgeworden bist." end
+
+l_0xc5cb67:
+    title(1, Gil)
+    "@Vielen Dank." next
+    eob
+
+l_0xc5cb71:
+    title(1, Gil)
+    "@Danke, besuch mich mal wieder." next
+    eob
+
+l_0xc5cb7b:
+    title(1, Gil)
+    "@Willst du noch eine kaufen?" linebreak
+    eob
+
+l_0xc5cb88:
+    title(1, Gil)
+    "@[1C 02 00] scheint schon zu viel zu tragen." next
+    "@Will jemand anderes die Torte mitnehmen?" linebreak
+    eob
+
+l_0xc5cbc0:
+    "@Ich verkaufe Wasser an diejenigen, die Durst leiden." next
+    eob
+
+l_0xc5cbdc:
+    "@Der Preis wird von Angebot und Nachfrage bestimmt." next
+    "@Ihr Kinder seid ziemlich schlau, das jetzt schon zu verstehen!" end
+
+l_0xc5cc35:
+    "@Naja, du wirst wegen Dehydration sterben!" linebreak
+	"  Ich warne dich!" end
+
+l_0xc5cc53:
+    "@Es ist aber ein wenig teuer!" next
+    eob
+
+l_0xc5cc63:
+    "@Du m[c9]chtest die" linebreak
+    "  [1C 05 00] kaufen?" next //Wasserflasche DX
+    eob
+
+l_0xc5cc83:
+    "@Wer will sie mitnehmen?[03]" eob
+
+l_0xc5cc8f:
+    "@Du wirst wegen Dehydration sterben! Ich warne dich!" end
+
+l_0xc5ccae:
+    "@Ich glaube, du hast nicht genug Geld." end
+
+l_0xc5ccbd:
+    "@Du kannst nichts mehr tragen." end
+
+l_0xc5ccca:
+    "@Ich glaube, das war eine gute Entscheidung!" next
+    eob
+
+l_0xc5ccda:
+    "@Ich glaube, das war eine gute Entscheidung!" next
+    eob
+
+l_0xc5ccea:
+    "@Brauchst du noch eine?" linebreak
+    eob
+
+l_0xc5ccf5:
+    "@[1C 02 00] tr[c0]gt schon zu viel." next
+    "@Kann jemand anderes die Flasche mitnehmen?" linebreak
+    eob
+
+l_0xc5cd18:
+    "@Willst du ein paar Bananen?" next
+    eob
+
+l_0xc5cd29:
+    "@Danke." end
+
+l_0xc5cd2f:
+    "@Nun, wenn du mal Bananen haben willst, findest du mich hier!" end
+
+l_0xc5cd51:
+    "@Hey [19 10 01]"
+	if (result_is(2)){"kleines"}
+	else{"kleiner"}
+	"!" linebreak
+    "  Willst du etwas kaufen?" next
+    eob
+
+l_0xc5cd64:
+    "@Du willst" linebreak
+    "  eine [1C 05 00]?" next //Banane
+    eob
+
+l_0xc5cd73:
+    "@Wer will sie mitnehmen?[03]" eob
+
+l_0xc5cd7f:
+    "@Du willst keine? Was immer du sagst." end
+
+l_0xc5cd97:
+    "{load_registers}@Du kannst ohne Geld keine Bananen kaufen!" end
+
+l_0xc5cdb3:
+    "@Du kannst nichts mehr tragen." end
+
+l_0xc5cdc0:
+    "@Danke, danke." next
+    eob
+
+l_0xc5cdcc:
+    "@Danke, danke." next
+    eob
+
+l_0xc5cdd8:
+    "@Ich habe noch mehr Bananen... Willst du noch welche?" linebreak
+    eob
+
+l_0xc5cdf2:
+    "@[1C 02 00] hat kein Platz mehr f[cb]r Bananen." next
+    "@Will jemand die Banane f[cb]r {swap}" call(data_33.l_0xc7e6a4) " tragen?" linebreak
+    eob
+
+//Kaufhaus Frau
+l_0xc5ce22:
+    "@Hall[c9]chen!" next
+    "@Wie w[cb]rde es Ihnen gefallen, wenn wir Ihr Essen mit Gew[cb]rzen aufzupeppen?" next
+    "@Das sind aber nicht Ihre normalen Gew[cb]rze!" next
+    "@Wann immer Sie etwas essen, kombinieren sich die Gew[cb]rze automatisch mit Ihrer Speise." next
+    "@Es ist fast schon wie Magie!" next
+    eob
+
+l_0xc5cec0:
+    "@Kommen Sie bald wieder." end
+
+l_0xc5cec8:
+    "@Kommen Sie bald wieder." end
+
+l_0xc5ced0:
+    "@Was m[c9]chten Sie?" next
+    eob
+
+l_0xc5cedc:
+    "@[1C 05 00]?" next
+    eob
+
+l_0xc5cee4:
+    "@Wer soll den Gegenstand tragen?[03]" eob
+
+l_0xc5cef0:
+    "@Bitte kommen Sie bald wieder." next
+    eob
+
+l_0xc5cef9:
+    "@Oh, Sie haben nicht genug Geld." next
+    eob
+
+l_0xc5cf0a:
+    "@Oh, Sie k[c9]nnen nichts mehr tragen." end
+
+l_0xc5cf1c:
+    "@Vielen Dank." next
+    eob
+
+l_0xc5cf26:
+    "@Vielen Dank." next
+    eob
+
+l_0xc5cf30:
+    "@Brauchen Sie noch etwas anderes?" linebreak
+    eob
+
+l_0xc5cf3d:
+    "@[1C 02 00] tr[c0]gt schon zu viele Sachen." next
+    "@Kann wer anderes den Gegenstand tragen?" linebreak
+    eob
+
+l_0xc5cf60:
+    " Resort)" goto(l_0xc5cf67) //Unbenutzt?
+
+//Summers Strand
+l_0xc5cf67:
+    "@Wir haben einige spektakul[c0]re Sachen!" next
+    eob
+
+l_0xc5cf82:
+    "@Besuch uns bald wieder." end
+
+l_0xc5cf8a:
+    "@Sie sollten wirklich bei uns essen!" end
+
+l_0xc5cf9b:
+    "@Was m[c9]chten Sie?[03]" eob
+
+l_0xc5cfa6:
+    "@[1C 05 00]?" next
+    eob
+
+l_0xc5cfae:
+    "@Wer will es mitnehmen?[03]" eob //Gelato de Resort
+
+l_0xc5cfba:
+    "@Wollen Sie mir etwa sagen, dass Sie nichts kaufen wollen...?" end
+
+l_0xc5cfd5:
+    "@Sie haben nicht genug Geld." end
+
+l_0xc5cfdf:
+    "@Sie tragen schon zu viele Sachen." end
+
+l_0xc5d00c:
+    "@Vielen Dank.[03]" eob
+
+l_0xc5d015:
+    "@Vielen Dank.[03]" eob
+
+l_0xc5d01e:
+    "@Wollen Sie noch etwas kaufen?" linebreak
+    eob
+

@@ -1,0 +1,12 @@
+import asm65816// Benutzen               | Geben                 | Ablegen               | Hilfe          |
+ROM[0xC4C170] = "[72 95 9E A5 A4 AA 95 9E 77 95 92 95 9E 00 00 00 71 92 9C 95 97 95 9E 00 78 99 9C 96 95 00 9C 91 A6 9F A2 00 72 99 A4 A4 95 50 97 99 92 50 99 98 9D 50 95 99 9E 95 9E 50 7E 91 9D 95 9E 5E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 79 98 A2 50]"
+ROM[0xC1369D] = "[A9 70 C1 85 06 A9 C4 00 85 08 98 85 04 0A 0A EA 0A 18 65]"
+
+/*ROM[0xC1369D] = ASMLoadAddress06 (use) //0xC1369D
+
+use:
+"Benutzen[00][00]Geben[00][00][00][00][00]Ablegen[00][00][00][00]Hilfe[00][00][00][00][00]"
+/*
+/* "fila[bf]da[bf]frente[ 00 ]" 
+ROM[0xC1219A] = ASMLoadAddress06 (row_front)
+*/

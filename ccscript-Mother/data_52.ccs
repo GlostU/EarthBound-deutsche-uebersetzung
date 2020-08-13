@@ -1,0 +1,421 @@
+/*
+ * EarthBound Text Dump
+ * Time: 22:14:19 - 03/04/2018
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+command e(label) "{long label}"
+
+// Text Data
+l_0xc9abbd:
+    "{sound(111)}{pause(40)}{window_open(1)}@Miau.{wait}{window_closetop}" eob
+
+l_0xc9abcf:
+    "{sound(111)}{pause(40)}{window_open(1)}@*St[c9]hn*...{wait}{window_closetop}" eob
+
+l_0xc9abe5:
+    eob
+
+l_0xc9abe6:
+    "{sound(111)}{pause(40)}{window_open(1)}"
+	"@Hey, ich bin hier drinnen!{pause(10)} Geh und such dir nen anderen Knast!{pause(20)} Ha,{pause(15)} ich habe nur Spa[b8] gemacht!{wait}{window_closetop}" eob
+
+l_0xc9ac22:
+    "{sound(111)}{pause(40)}{window_open(1)}@Das ist ein Gef[c0]ngnis!{pause(20)} Du hast hier nichts verloren.{wait}{window_closetop}" eob
+
+l_0xc9ac4d:
+    "{sound(111)}{pause(40)}{window_open(1)}@Sprich nicht mit mir.{pause(20)}" linebreak
+	"  Ich... denke nach...!{wait}{window_closetop}" eob
+
+l_0xc9ac6f:
+    "{sound(111)}{pause(40)}{window_open(1)}@Oh nein, ich bin hier drinnen." next
+    "@Versuch nicht reinzukommen... ganz besonders, wenn du nicht" next
+	"@die Toilette benutzen musst!{wait}{window_closeall}" eob
+
+l_0xc9acae:
+//https://legendsoflocalization.com/earthbound/dungeon-man/#toilet-philosophy
+    "{sound(111)}{pause(40)}{window_open(1)}"
+	"@Was genau tue ich auf einer Toilette an solch einem Ort?" next
+    "@Und wer genau bin ich eigentlich?{pause(10)} Was ist der Sinn des Lebens?..." next
+    "@Oh, tut mir leid.{pause(20)} Habe ich deine Aufmerksamkeit geweckt?" next
+	"@Ich bin eigentlich nur ein unwichtiger Kerl.{wait}{window_closetop}" eob
+
+l_0xc9ad26:
+	//if (flag 984){
+		if(hasitem(0xff, 173)){
+			take (0xff, 173)
+			sound (119)//121
+			"{window_open(1)}"
+			"@([19 10 01]{rtoarg}[1C 02 00] benutzt den [1C 05 AD].)" next
+			window_closeall
+			unset(flag 984)
+			set(flag 142)
+			goto(l_0xc9ad77)
+		}
+	//}
+	"[06 8E 00 {e(l_0xc9ad77)}]{window_open(1)}@(Privater Aufzug!" next
+    "@Kein Betrieb f[cb]r die Allgemeinheit." next
+    "@Monotoli Geb[c0]udemanager.){wait}{window_closeall}" eob
+
+l_0xc9ad77:
+    "{unset(flag 350)}" eob
+
+l_0xc9ad7b:
+    "{isset(flag 15)}[1B 02 {e(data_50.l_0xc9992f)}]{isset(flag 318)}[1B 02 {e(data_50.l_0xc9992f)}]{isset(flag 672)}[1B 02 {e(data_50.l_0xc9992f)}]" call(data_40.l_0xc899a6) "[1F 63 {e(data_40.l_0xc89a71)}]" eob
+
+l_0xc9ada2:
+    "{isset(flag 317)}[1B 02 {e(data_50.l_0xc9992f)}][1F 63 {e(l_0xc9adb8)}]{set(flag 754)}{set(flag 779)}" eob
+
+l_0xc9adb8:
+    "{unset(flag 536)}[1F 66 01 04 4F 9B C8 00]{set(flag 11)}" eob
+
+l_0xc9adc7:
+    "{isset(flag 317)}[1B 02 {e(data_50.l_0xc9992f)}][1F 67 01]{unset(flag 11)}" eob
+
+l_0xc9add7:
+    "[06 49 00 {e(data_50.l_0xc9992f)}][1F 63 {e(l_0xc9ade5)}]" eob
+
+l_0xc9ade5:
+    "[1F 66 01 28 46 B1 C7 00]" eob
+
+l_0xc9adee:
+    "{unset(flag 768)}" eob
+
+l_0xc9adf2:
+    "[06 2A 01 {e(l_0xc9adfa)}]" eob
+
+l_0xc9adfa:
+    "[1F 63 {e(data_31.l_0xc79d81)}]" eob
+
+l_0xc9ae01:
+    "[06 40 00 {e(data_50.l_0xc9992f)}][1F 63 {e(data_15.l_0xc5f760)}]" eob
+
+l_0xc9ae0f:
+    "{unset(flag 344)}[1F 67 02]" eob
+
+l_0xc9ae16:
+    "[1F 07 08]{unset(flag 383)}{isset(flag 344)}[1B 02 {e(data_50.l_0xc9992f)}][1F 63 {e(l_0xc9ae2c)}]" eob
+
+l_0xc9ae2c:
+    "[1F 15 6F 01 EF 01 01][1F 15 6F 01 F0 01 01][1F 15 6F 01 F0 01 01][1F 15 6F 01 F0 01 01][06 1F 01 {e(data_50.l_0xc9992f)}][1F E1 0D 00 78]{set(flag 287)}" eob
+
+l_0xc9ae58:
+    eob
+
+l_0xc9ae59:
+    "{unset(flag 383)}{isset(flag 273)}[1B 02 {e(data_50.l_0xc9992f)}][06 10 00 {e(data_50.l_0xc9992f)}][1F 63 {e(data_45.l_0xc923b4)}]" eob
+
+l_0xc9ae73:
+    "{set(flag 390)}{set(flag 391)}{set(flag 392)}{set(flag 393)}{set(flag 394)}{set(flag 395)}{set(flag 396)}{set(flag 397)}{set(flag 398)}{set(flag 399)}{set(flag 400)}{set(flag 401)}{set(flag 402)}{set(flag 403)}{set(flag 404)}{set(flag 405)}{set(flag 406)}{set(flag 407)}{set(flag 408)}{set(flag 409)}{set(flag 410)}{set(flag 411)}{set(flag 412)}{set(flag 413)}{set(flag 414)}{set(flag 415)}[06 11 00 {e(data_50.l_0xc9992f)}][1F 66 01 10 58 32 C9 00]{set(flag 754)}{set(flag 779)}" eob
+
+l_0xc9aed7:
+    "{isset(flag 756)}[1B 02 {e(l_0xc9b10b)}]{window_open(1)}"
+	"@(Du passt nicht durch diesen kleinen Eingang mit Dungeon Man." next
+    "@...Wei[b8]t du das denn nicht?!){wait}{window_closeall}" eob
+
+l_0xc9af16:
+    "[06 5C 01 {e(data_50.l_0xc9992f)}]{window_open(1)}@Bist du nicht hierher gekommen, um das" linebreak
+	"  <[1C 05 AF]> zu suchen?{wait}{window_closeall}" eob
+
+l_0xc9af3a:
+    "[06 49 00 {e(data_50.l_0xc9992f)}][1F 66 01 0E 93 C2 C9 00]" eob
+
+l_0xc9af4a:
+    "[06 12 01 {e(l_0xc9af79)}]{isset(flag 24)}[1B 02 {e(l_0xc9af75)}]{set(flag 62)}[1F 11 0A]{set(flag 662)}{set(flag 754)}{set(flag 779)}{set(flag 756)}[1F 21 A3]{pause(1)}[19 26 08]" eob goto(l_0xc9af75)
+
+l_0xc9af75:
+    "[1F 21 A3]" eob
+
+l_0xc9af79:
+    "[1F 21 A4]{pause(1)}[19 26 08]" eob goto(l_0xc9af82)
+
+l_0xc9af82:
+    "[1F 41 06]" call(data_33.l_0xc7de60) eob
+
+l_0xc9af8b:
+    "{isset(flag 190)}[1B 02 {e(data_50.l_0xc9992f)}]{set(flag 524)}[1F 63 {e(data_32.l_0xc7c556)}]{set(flag 754)}{set(flag 779)}[1F 41 05][06 80 01 {e(data_50.l_0xc9992f)}][1F 66 01 18 CF BE C7 00]" eob
+
+l_0xc9afb6:
+    "{isset(flag 191)}[1B 02 {e(data_50.l_0xc9992f)}]{set(flag 524)}[1F 63 {e(data_32.l_0xc7c556)}]{set(flag 754)}{set(flag 779)}[1F 41 05][06 80 01 {e(data_50.l_0xc9992f)}][1F 66 01 19 95 BF C7 00]" eob
+
+l_0xc9afe1:
+    "{isset(flag 192)}[1B 02 {e(data_50.l_0xc9992f)}]{set(flag 524)}[1F 63 {e(data_32.l_0xc7c556)}]{set(flag 754)}{set(flag 779)}[1F 41 05][06 80 01 {e(data_50.l_0xc9992f)}][1F 66 01 1A 6E C0 C7 00]" eob
+
+l_0xc9b00c:
+    "{isset(flag 193)}[1B 02 {e(data_50.l_0xc9992f)}]{set(flag 524)}[1F 63 {e(data_32.l_0xc7c556)}]{set(flag 754)}{set(flag 779)}[1F 41 05][06 80 01 {e(data_50.l_0xc9992f)}][1F 66 01 1B 2A C1 C7 00]" eob
+
+l_0xc9b037:
+    "{isset(flag 194)}[1B 02 {e(data_50.l_0xc9992f)}]{set(flag 524)}[1F 63 {e(data_32.l_0xc7c556)}]{set(flag 754)}{set(flag 779)}[1F 41 05][06 80 01 {e(data_50.l_0xc9992f)}][1F 66 01 1C 08 C2 C7 00]" eob
+
+l_0xc9b062:
+    "{isset(flag 195)}[1B 02 {e(data_50.l_0xc9992f)}]{set(flag 524)}[1F 63 {e(data_32.l_0xc7c556)}]{set(flag 754)}{set(flag 779)}[1F 41 05][06 80 01 {e(data_50.l_0xc9992f)}][1F 66 01 1D C6 C2 C7 00]" eob
+
+l_0xc9b08d:
+    "{isset(flag 196)}[1B 02 {e(data_50.l_0xc9992f)}]{set(flag 524)}[1F 63 {e(data_32.l_0xc7c556)}][1F 41 05][06 80 01 {e(data_50.l_0xc9992f)}][1F 66 01 1E 9B C3 C7 00]" eob
+
+l_0xc9b0b2:
+    "{isset(flag 197)}[1B 02 {e(data_50.l_0xc9992f)}]{set(flag 524)}[1F 63 {e(data_32.l_0xc7c556)}][1F 41 05][06 80 01 {e(data_50.l_0xc9992f)}][1F 66 01 1F 79 C4 C7 00]" eob
+
+l_0xc9b0d7:
+    "[06 5E 01 {e(l_0xc9b0df)}]" eob
+
+l_0xc9b0df:
+    "[1F 21 04]" eob
+
+l_0xc9b0e3:
+    "[06 5E 01 {e(l_0xc9b0eb)}]" eob
+
+l_0xc9b0eb:
+    "[1F 21 03]" eob
+
+l_0xc9b0ef:
+    "[06 5E 01 {e(l_0xc9b0f7)}]" eob
+
+l_0xc9b0f7:
+    "[1F 21 06]" eob
+
+l_0xc9b0fb:
+    "[06 5E 01 {e(l_0xc9b103)}]" eob
+
+l_0xc9b103:
+    "[1F 21 05]" eob
+
+l_0xc9b107:
+    "{unset(flag 350)}" eob
+
+l_0xc9b10b:
+    "[1F 63 {e(l_0xc9b112)}]" eob
+
+l_0xc9b112:
+    "{unset(flag 778)}[1F 68]" eob
+
+l_0xc9b118:
+    "{window_open(1)}{window_closeall}" eob
+
+l_0xc9b11e:
+    "[1F 07 08]{unset(flag 383)}" call(data_51.l_0xc99d92) eob
+
+l_0xc9b12a:
+    "{unset(flag 383)}" eob
+
+l_0xc9b12e:
+    "[1F 07 08][06 1B 02 {e(data_50.l_0xc9992f)}][1F 63 {e(data_22.l_0xc68945)}]" eob
+
+l_0xc9b13f:
+    "[06 49 00 {e(data_50.l_0xc9992f)}]{isset(flag 687)}[1B 03 {e(l_0xc9b158)}][1F 66 01 32 18 B3 C7 00]" eob
+
+l_0xc9b158:
+    "[1F 63 {e(l_0xc9b16f)}]" eob
+
+l_0xc9b15f:
+    "{isset(flag 687)}[1B 02 {e(data_50.l_0xc9992f)}][1F 63 {e(l_0xc9b16f)}]" eob
+
+l_0xc9b16f:
+    "[1F F1 0A 04 29 00]" eob
+
+l_0xc9b176:
+    "[1F F1 0A 04 08 00]" eob
+
+l_0xc9b17d:
+    "[06 49 00 {e(l_0xc9b1b1)}][06 51 01 {e(data_50.l_0xc9992f)}]{window_open(1)}"
+	"@Das ist nicht der Stoisch Klub.{pause(20)} Bitte gehen Sie weiter...{wait}{window_closeall}" eob
+
+l_0xc9b1b1:
+    "{window_open(1)}@(Das ist jetzt eine Bar.{pause(20)} Keine Minderj[c0]hrige zugelassen." next
+    "@Die Gesch[c0]ftsf[cb]hrung der, <Lebenslangen Wahnsinnigen>){wait}{window_closeall}" eob
+
+l_0xc9b20e:
+    "{isset(flag 632)}[1B 02 {e(data_50.l_0xc9992f)}]{sound(111)}{pause(40)}" eob
+
+l_0xc9b21d:
+    "[1F 07 07]" eob
+
+l_0xc9b221:
+    "[1F 07 08]" eob
+
+l_0xc9b225:
+    eob
+
+l_0xc9b226:
+    "{isset(flag 74)}[1B 02 {e(l_0xc9b230)}]" eob
+
+l_0xc9b230:
+    "[06 B6 00 {e(l_0xc9b238)}]" eob
+
+l_0xc9b238:
+    "[06 B7 00 {e(l_0xc9b240)}]" eob
+
+l_0xc9b240:
+    "[06 B9 00 {e(l_0xc9b248)}]" eob
+
+l_0xc9b248:
+    "[06 BA 00 {e(l_0xc9b250)}]" eob
+
+l_0xc9b250:
+    "[06 BB 00 {e(l_0xc9b258)}]" eob
+
+l_0xc9b258:
+    "[06 B8 00 {e(l_0xc9b260)}]" eob
+
+l_0xc9b260:
+    "[06 BC 00 {e(l_0xc9b268)}]" eob
+
+l_0xc9b268:
+    "[06 BD 00 {e(l_0xc9b270)}]" eob
+
+l_0xc9b270:
+    "{set(flag 384)}[1F 41 06][1F 12 02][1F 12 03][1F 12 04]" call(data_22.l_0xc69082) "{set(flag 11)}" call(data_33.l_0xc7de60) "[1F 41 05][1F 07 03][1F 15 6A 00 79 02 01][1F 61][1F EB FF 01][1F 21 51]{pause(30)}[1F 41 10]{pause(30)}[1F 15 B3 01 B7 02 FF][1F 21 23][1F EF B3 01][1F E8 FF][1F 61][1F ED][1F E5 FF][1F 1F B3 01 0A]{pause(180)}[1F 21 24][1F 15 6A 00 B8 02 01]" call(l_0xc9b4b8) "[1F 21 25][1F 15 6A 00 B9 02 01]" call(l_0xc9b4b8) "[1F 21 26][1F 15 6A 00 BA 02 01]" call(l_0xc9b4b8) "{pause(120)}{window_open(1)}"
+	title(1, Dad)
+	"@[1C 02 01]...{pause(30)} Hmmm..." next
+    "@Ich glaube [1C 02 01] ist der richtige Name f[cb]r ihn.[03]{window_closeall}{pause(60)}{window_open(1)}"
+	title(1, Mom)
+	"@[1C 02 01]...{pause(30)} er hat gel[c0]chelt, als er seinen Namen geh[c9]rt hat." next
+    "@Glaubst du sein Name gef[c0]llt ihm?[03]{window_closeall}{pause(60)}{pause(60)}{window_open(1)}"
+	title(1, Dad)
+	"@Setzt ihm mal die rote M[cb]tze auf." next
+    "@Ha ha ha!" linebreak
+    "  Sie ist noch zu gro[b8], aber sie steht ihm...[03]{window_closeall}{pause(60)}{window_open(1)}"
+	title(1, Mom)
+	"@Ich hoffe [1C 01 03] wird nicht eifers[cb]chtig auf unseren Sohn.[03]{window_closeall}{pause(60)}{pause(60)}{window_open(1)}"
+	title(1, Dad)
+	"@Lass uns das mit" linebreak
+    "  etwas [1C 01 04] feiern." next
+    "@Dieses Baby wird zu einem flei[b8]igen jungen Menschen heranwachsen, genau wie du.[03]{window_closeall}{pause(60)}{window_open(1)}"
+	title(1, Mom)
+	"@Ich glaube nicht, dass er reich, oder ber[cb]hmt sein muss..." next
+    "@aber ich m[c9]chte, dass er ein f[cb]rsorglicher, starker Junge wird." next
+    "{window_closeall}{pause(60)}{pause(60)}{pause(60)}{window_open(1)}"
+	title(1, Mom)
+	"@Das ist komisch...{pause(20)} das Fl[c0]schchen, auf das er gezeigt hat, hat sich etwas bewegt..." next
+    "@Hmmm...{wait}{pause(15)}{window_closeall}{pause(60)}" call(data_33.l_0xc7dd6b) "{set(flag 758)}{music_resume}{pause(120)}{pause(120)}{pause(120)}[1F E8 FF][1F 15 06 00 0C 03 FF][1F 21 A1][1F 1F 06 00 06][1F EC FF 01][19 26 01]" call(data_33.l_0xc7dd6b) "{unset(flag 758)}{music_resume}[1F 41 06]{unset(flag 11)}" eob 
+
+l_0xc9b4b8:
+    "{pause(1)}[1F EF 6A 00][1F E8 FF][1F 61][1F ED][1F E5 FF]" eob
+
+l_0xc9b4c9:
+    "[1F 41 05]{set(flag 11)}{pause(60)}" call(data_33.l_0xc7dd6b) "{pause(120)}{window_open(1)}"
+	"@Wach jetzt auf.{pause(20)} Deine Freunde warten auf dich." next
+    "@Es ist Zeit aufzustehen.[03]{window_closeall}{pause(1)}" call(l_0xc9b8dd) call(data_22.l_0xc69082) "{music(143)}[1F F2 01 00 5A 01]     {pause(1)}[1F EF 01 00]                           [1F E8 FF][1F 61][1F 15 6A 00 5F 01 01]   [1F 61][1F ED][1F E5 FF]{set(flag 349)}" call(data_33.l_0xc7dd6b) "[06 24 02 {e(l_0xc9b799)}][06 23 02 {e(l_0xc9b6e3)}][06 22 02 {e(l_0xc9b62d)}][1F 21 C5][1F E5 FF]{pause(60)}" call(data_29.l_0xc77dab) "{pause(60)}[1F F1 C4 01 5B 01]{pause(30)}[1F 1A C5 01 03][1F 1A C6 01 03][1F 1A C7 01 03]{pause(90)}[1F 1E C4 01 06]         [1F EC 01 01]                {pause(30)}[1F 1B C5 01][1F 1B C6 01][1F 1B C7 01]{pause(90)}[1F F1 C5 01 5C 01]" call(l_0xc9b84f) "[1F F1 C6 01 5D 01]" call(l_0xc9b87f) "[1F F1 C7 01 5E 01]" call(l_0xc9b898) "[1F 11 02][1F EB 02 06][1F F1 C5 01 2F 00][1F 61][1F 1E C5 01 06][1F EC 02 01][1F 11 03][1F EB 03 06][1F F1 C6 01 2F 00][1F 61][1F 1E C6 01 06][1F EC 03 01][1F 11 04][1F EB 04 06][1F F1 C7 01 2F 00][1F 61][1F 1E C7 01 06][1F EC 04 01]" goto(l_0xc9b60f)
+
+l_0xc9b60f:
+//Feuer Born PSI-Teleport sequenz [1F 20 04 04] -> [1F 20 06 04]
+    "{pause(120)}[1F 20 06 04]{pause(120)}[19 26 04]{unset(flag 349)}{set(flag 382)}{unset(flag 476)}[1F E8 FF][1F 41 06]{unset(flag 11)}" eob goto(l_0xc9b62d)
+
+l_0xc9b62d:
+    "[1F 21 C6][1F E5 FF]{pause(60)}" call(data_29.l_0xc77dab) "{pause(60)}[1F F1 BC 02 5B 01]{pause(30)}[1F 1A BD 02 03][1F 1A BE 02 03][1F 1A BF 02 03]{pause(90)}[1F 1E BC 02 06]         [1F EC 01 01]                {pause(30)}[1F 1B BD 02][1F 1B BE 02][1F 1B BF 02]{pause(90)}[1F F1 BD 02 5C 01]" call(l_0xc9b84f) "[1F F1 BE 02 5D 01]" call(l_0xc9b87f) "[1F F1 BF 02 5E 01]" call(l_0xc9b898) "[1F 11 02][1F EB 02 06][1F F1 BD 02 2F 00][1F 61][1F 1E BD 02 06][1F EC 02 01][1F 11 03][1F EB 03 06][1F F1 BE 02 2F 00][1F 61][1F 1E BE 02 06][1F EC 03 01][1F 11 04][1F EB 04 06][1F F1 BF 02 2F 00][1F 61][1F 1E BF 02 06][1F EC 04 01]" call(l_0xc9b60f) eob
+
+l_0xc9b6e3:
+    "[1F 21 C7][1F E5 FF]{pause(60)}" call(data_29.l_0xc77dab) "{pause(60)}[1F F1 5F 04 5B 01]{pause(30)}[1F 1A 60 04 03][1F 1A 61 04 03][1F 1A 62 04 03]{pause(90)}[1F 1E 5F 04 06]         [1F EC 01 01]                {pause(30)}[1F 1B 60 04][1F 1B 61 04][1F 1B 62 04]{pause(90)}[1F F1 60 04 5C 01]" call(l_0xc9b84f) "[1F F1 61 04 5D 01]" call(l_0xc9b87f) "[1F F1 62 04 5E 01]" call(l_0xc9b898) "[1F 11 02][1F EB 02 06][1F F1 60 04 2F 00][1F 61][1F 1E 60 04 06][1F EC 02 01][1F 11 03][1F EB 03 06][1F F1 61 04 2F 00][1F 61][1F 1E 61 04 06][1F EC 03 01][1F 11 04][1F EB 04 06][1F F1 62 04 2F 00][1F 61][1F 1E 62 04 06][1F EC 04 01]" call(l_0xc9b60f) eob
+
+l_0xc9b799:
+    "[1F 21 9E][1F E5 FF]{pause(60)}" call(data_29.l_0xc77dab) "{pause(60)}[1F F1 FD 04 5B 01]{pause(30)}[1F 1A FE 04 03][1F 1A FF 04 03][1F 1A 00 05 03]{pause(90)}[1F 1E FD 04 06]         [1F EC 01 01]                {pause(30)}[1F 1B FE 04][1F 1B FF 04][1F 1B 00 05]{pause(90)}[1F F1 FE 04 5C 01]" call(l_0xc9b84f) "[1F F1 FF 04 5D 01]" call(l_0xc9b87f) "[1F F1 00 05 5E 01]" call(l_0xc9b898) "[1F 11 02][1F EB 02 06][1F F1 FE 04 2F 00][1F 61][1F 1E FE 04 06][1F EC 02 01][1F 11 03][1F EB 03 06][1F F1 FF 04 2F 00][1F 61][1F 1E FF 04 06][1F EC 03 01][1F 11 04][1F EB 04 06][1F F1 00 05 2F 00][1F 61][1F 1E 00 05 06][1F EC 04 01]" call(l_0xc9b60f) eob
+
+l_0xc9b84f:
+    "[1F 61]{window_open(1)}"
+	title_paula(1)
+	"@Was ist passiert, [1C 02 01]?{pause(20)} Du lagst ganz lange bewusstlos auf dem Boden...[03]{window_closeall}{pause(30)}" eob
+
+l_0xc9b87f:
+    "[1F 61]{window_open(1)}"
+	title_jeff(1)
+	"@Du hast st[c0]ndig etwas gesagt...[03]{window_closeall}{pause(30)}" eob
+
+l_0xc9b898:
+    "[1F 61]{window_open(1)}"
+	title_poo(1)
+	"@...Saturn Tal?{pause(30)}" linebreak
+    "  Was wartet dort auf uns?" next
+    "@Wir sollten uns teleportieren...[03]{window_closeall}{pause(30)}" eob
+
+l_0xc9b8da:
+    "[1F 21 C5]" goto(l_0xc9b8dd)
+
+l_0xc9b8dd:
+    "[19 10 02][1B 02 {e(l_0xc9b8ff)}]{rtoarg}{store_registers}{result_is(16)}[1B 03 {e(l_0xc9b8ff)}]{load_registers}{result_is(17)}[1B 03 {e(l_0xc9b8ff)}][1F 12 00]" goto(l_0xc9b8ff)
+
+l_0xc9b8ff:
+    eob
+	
+l_0xc9b900:
+    "[1F 15 6A 00 20 01 01]" call(l_0xc9b4b8) "[1F EB FF 06]{music(91)}[1F E9 E5 02][1F 61]{music(126)}{pause(100)}[19 05 01 08 02][1F 15 6A 00 21 01 01][1F EC FF 01]" call(l_0xc9b4b8) "{pause(120)}[1F F1 D8 02 22 01][1F 61]{music_resume}[1F E6 D8 02][19 05 01 08 00]{window_open(1)}"
+    title(1, Andonuts)
+    "@Hmmm... es funktioniert nicht.{pause(20)} Etwas fehlt noch..." next
+    "@Aber dieses Material kann normalerweise nicht auf der Erde gefunden werden." next
+    "@Das Material, an das ich denke, kommt von einem Meteorit," next
+    "@der heruntergefallen ist, als ich noch jung war." next
+    goto(l_0xc9b9d0)
+
+l_0xc9b9d0:
+    "@Hast du in letzter Zeit irgendwo einen Meteorit gesehen?" linebreak
+    "[19 02]Ja[02] [19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc9ba78)} {e(l_0xc9ba0a)}]" goto(l_0xc9ba0a)
+
+l_0xc9ba0a:
+    "@Hmmm...{pause(20)} also sollen wir einfach warten, bis einer herunterf[c0]llt?" next
+    "@Mmm...{pause(30)} Du hast wirklich keinen Meteorit gesehen...{pause(20)} Hm..." linebreak
+	"  denk mal kurz nach..." next
+    goto(l_0xc9b9d0)
+
+l_0xc9ba78:
+    "@Heureka!{pause(15)} Das ist es!" next
+    "@Selbst mit nur einen kleinen St[cb]ckchen vom Meteorit kann ich Zexonyte extraihren." next
+    "@...Ich bezweifle, dass dein Erzfeind Giygas, oder wer auch immer," next
+	"@dir erlaubt nach Onett zu reisen und ein Meteoritensplitter zu besorgen." next
+    "@Onett sollte jetzt schon in seine b[c9]sen H[c0]nde gefallen sein." next
+    "@Du musst los,{pause(5)} triff vorher" linebreak
+	"  jedoch jede m[c9]glichen Vorsichtsma[b8]nahmen." next
+    "@Die Mr. Saturns haben mir einige ihrer neuen Entwick-" linebreak
+	"  lungen in ihrem Laden gezeigt." next
+    "@Bitte schau sie dir auch an, bevor du gehst." next
+    "@...Ich frage mich, wie es gerade in Onett aussehen mag...{wait}{window_closeall}{set(flag 132)}{set(flag 632)}{set(flag 468)}{unset(flag 108)}{unset(flag 633)}{unset(flag 422)}{unset(flag 517)}{isset(flag 99)}[1B 02 {e(data_50.l_0xc9992f)}]{unset(flag 746)}" eob
+
+l_0xc9bbd3:
+    "{set(flag 775)}" call(data_22.l_0xc69082) "[1F 15 6A 00 50 01 01]  " call(l_0xc9b4b8) "[1F EB FF 06]{set(flag 760)}{music_resume}[1F 1E E5 02 09]{pause(180)}[1F 21 5E]            {pause(100)}[1F 17 FA 04 51 01 04]{pause(80)}" call(data_33.l_0xc7dd6b) "{unset(flag 760)}{music_resume}[1F EC FF 01][1F 15 6A 00 52 01 01]" call(l_0xc9b4b8) "[19 26 01][1F 66 01 07 3C BC C9 00][1F 66 02 29 17 59 EF 00]{set(flag 332)}[02][1F 67 01][1F 66 01 08 48 BC C9 00]" eob
+
+l_0xc9bc48:
+    "{music(127)}[1F 17 FB 04 36 01 04]       {pause(120)}{pause(60)}[1F 17 F8 04 37 01 01]        [1F 17 F5 04 38 01 01][1F 17 F7 04 3A 01 01]  [1F 61]{music_resume}[19 23 F5 04 01 FF 00][1F 16 F5 04 00][1F E6 F8 04][1F E6 F5 04][1F E6 F7 04]" call(l_0xc9bca1) "{set(flag 328)}{set(flag 329)}{set(flag 330)}{set(flag 327)}" eob goto(l_0xc9bca1)
+
+l_0xc9bca1:
+    "[06 1D 01 {e(l_0xc9bd69)}]{window_open(1)}"
+	title(1, Andonuts)
+	"@Der <Weltraumtunnel 3> wurde fertiggestellt." next
+    "@Wir konnten ihn so schnell vollenden, wegen dem unglaublichen" next
+	"@wissenschaftlichen K[c9]nnen der Mr. Saturns..." next
+    "@Giygas greift von unserer genauen Position an," next
+    "@aber er tut dies viele Jahre aus der Vergangenheit.[03]{window_closeall}" eob
+
+l_0xc9bd35:
+	title(1, Andonuts)
+    "@Mir f[c0]llt es schwer euch das zu sagen, aber...[03][06 1D 01 {e(l_0xc9bd52)}]" eob
+
+l_0xc9bd52:
+    "{window_closeall}[1F 1E F5 04 06][1F 17 F6 04 39 01 01]{pause(150)}{set(flag 331)}{unset(flag 328)}" eob
+
+l_0xc9bd69:
+	title(1, Andonuts)
+    "@Um Giygas besiegen zu k[c9]nnen,{pause(15)} m[cb]sst ihr euch in die Vergangenheit begeben," next
+    "@weil er auch aus der Vergangenheit aus angreift." next
+    "@Dies kann mit dem <Weltraumtunnel 3> geschafft werden," next
+    "@aber die Maschine kann keine lebendigen Wesen transportieren." next
+    "@Das Leben wird bei der Reise vernichtet." next
+    "@Der einzige Weg eine Zeitreise durchzuf[cb]hren ist," next
+    "@euer Gehirn zu digitalisieren und als <Programm> in einem Roboter zu speichern." next
+    "@Dieser wird dann in die Vergangenheit geschickt." next
+    "@...Dieser Transfer bedeutet, dass eure Seele in den Roboter f[c0]hrt," next
+    "@w[c0]hrend euer K[c9]rper hier zur[cb]ckgelassen wird..." next
+    "@Ich kann aber nicht versprechen, dass die Seele" next
+	"@nach dem Kampf wieder zur[cb]ckkehren wird." next
+    "@Trotzdem, ihr m[cb]sst verstehen, dass ihr vier die Auserw[c0]hlten seid." next
+    "@M[c9]chtet ihr dennoch Giygas gegen[cb]bertreten, indem ihr in die Vergangenheit reist?" next
+    "[19 02]Ja[02] [19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc9bf68)} {e(l_0xc9bf2c)}]" goto(l_0xc9bf2c)
+
+l_0xc9bf2c:
+    "@Ja, es ist nur nat[cb]rlich dies nicht zu wollen." next
+    "@Das einzige, was uns dann noch [cb]brig bleibt ist, die Zerst[c9]rung unsers Planeten..." end
+
+l_0xc9bf68:
+    "@...Hmmm{pause(20)} ...ihr akzeptiert dies, obwohl ihr wisst, dass ihr" next
+    "@vielleicht nie in eure jetzige Form zur[cb]ckkehren k[c9]nnt," next
+    "@richtig?" linebreak
+    "[19 02]Ja[02] [19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(data_53.l_0xc9bfcd)} {e(l_0xc9bf2c)}]" goto(l_0xc9bf2c)
+

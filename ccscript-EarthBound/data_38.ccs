@@ -1,0 +1,438 @@
+/*
+ * EarthBound Text Dump
+ * Time: 22:14:19 - 03/04/2018
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+command e(label) "{long label}"
+
+// Text Data
+l_0xc85291:
+    call(data_37.l_0xc850d8) call(data_37.l_0xc850e6) "@<Tessie existiert, Augenzeugen berichten!" next
+    "@Aber Tessie Beobachtungsgesellschafts Mitglied vergisst" next
+	"@Film in die Kamera zu legen!>" end
+
+l_0xc852f0:
+    call(data_37.l_0xc850d8) call(data_37.l_0xc850e6) "@<Kaufhaus Panik!" next
+    "@Stromausfall im beliebten Kaufhaus am helllichten Tage>" end
+
+l_0xc8533a:
+    call(data_37.l_0xc850d8) call(data_37.l_0xc850e6) "@<Jemand versucht Maschine in der H[c9]hle von Threeds Friedhof zu reparieren>" end
+
+l_0xc85370:
+    call(data_37.l_0xc850d8) call(data_37.l_0xc850e6) "@<[1C 02 01] und Begleitung retten Threed" next
+    "@best[c0]tigt Chef der Zombie Befreiungstruppe>" end
+
+l_0xc853b0:
+    call(data_37.l_0xc850d8) "@In der heutigen Threed Journal steht..." next
+    "@[b0]hh, ich habe versehentlich die Threed Star gekauft..." next
+    "@Tja, lass mich sie trotzdem lesen..." next
+    "@<Zombie geb[c0]rt Falken Baby>" next
+    "@Heh, heh, heh... ja genau..." end
+
+l_0xc8544c:
+    call(data_37.l_0xc850d8) call(data_37.l_0xc850e6) "@<[bb]bernat[cb]rliche Kr[c0]fte existieren nicht" next
+    "@Menschen k[c9]nnen sich nicht teleportieren, sagt Universit[c0]tsprofessor>" end
+
+l_0xc8549d:
+    call(data_37.l_0xc850d8) call(data_37.l_0xc850e6) "@<Prince [1C 02 04] von Dalaam besucht heimlich Threed?>" end
+
+l_0xc854cc:
+    call(data_37.l_0xc850d8) call(data_37.l_0xc850e6) "@<Eingesperrte Zombies in Threed sagen ihre Meinung:" next
+	"@<Wenn man sich einmal daran gew[c9]hnt hat, ist das Leben hier gar nicht so schlimm>.>" end
+
+l_0xc85507:
+    call(data_37.l_0xc850d8) call(data_37.l_0xc850e6) "@<Im fernen Scaraba [c9]ffnet sich Pyramide auf mysteri[c9]se Weise." next
+    "@Ist das ein gutes Omen?>" end
+
+l_0xc85548:
+    call(data_37.l_0xc850d8) "@Hier ist eine interessante Werbeanzeige in der heutigen Threed Journal..." next
+    "@<Morgenzeitungen werden von einem h[cb]bschen, freundlichen Hotelpage gebracht." next
+    "@Threed Sonnenuntergang Hotel>" next
+    "@...[b0]hhh ...hey! ...Das ist unsere Werbung!" end
+
+l_0xc855d4:
+    call(data_37.l_0xc850d8) "@Hier ist die heutige Threed Journal!..." next
+    "@Oh... Hoppla... Heute gibt es keine Ausgabe..." end
+
+l_0xc85610:
+    call(data_37.l_0xc850d8) call(data_37.l_0xc850e6) "@<Die Twoson Today, die Zeitung aus der Nachbarstadt ist auch lesenswert" end
+
+l_0xc85651:
+    call(data_37.l_0xc850d8) call(data_37.l_0xc850e6) "@<[1C 02 01] und Freunde wurden Ehrenb[cb]rger!>" end
+
+l_0xc8567b:
+    call(data_37.l_0xc841de) "{ctoarg}{swap}[1F C0 1D {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85791)} {e(l_0xc857bb)} {e(l_0xc8581b)} {e(l_0xc858ba)} {e(l_0xc858f0)} {e(l_0xc85985)} {e(l_0xc859b5)} {e(l_0xc85a11)} {e(l_0xc85a6c)} {e(l_0xc85ad8)} {e(l_0xc85b55)} {e(l_0xc85bab)}]" eob
+
+l_0xc856fc:
+    "@Guten Morgen!" next
+    "@Dies ist ein einzigartiger Service, exklusiv nur f[cb]r unser Hotel!" next
+    "@Ich lese Ihnen die heutigen Schlagzeilen vor." next
+    eob
+
+l_0xc8574a:
+    "@Auf der Titelseite der Fourside Post steht..." next
+    eob
+
+l_0xc85767:
+    call(l_0xc856fc) call(l_0xc8574a) "@<[bb]ber 70% der B[cb]rger in Fourside unterst[cb]tzen Monotoli>" end
+
+l_0xc85791:
+    call(l_0xc856fc) call(l_0xc8574a) "@<[bb]ber 80% der B[cb]rger in Fourside unterst[cb]tzen Monotoli>" end
+
+l_0xc857bb:
+    call(l_0xc856fc) call(l_0xc8574a) "@<[bb]ber 90% der B[cb]rger in Fourside unterst[cb]tzen Monotoli>" next
+    "@Dann auf Seite 17, " next
+    "@<Mysteri[c9]ser Stromausfall im Kaufhaus von einer Maus ausgel[c9]st>" end
+
+l_0xc8581b:
+    call(l_0xc856fc) call(l_0xc8574a) "@<[bb]ber 50% der B[cb]rger in Fourside unterst[cb]tzen jetzt die Anti-Monotoli Kampagne>" next
+    "@Und auf Seite 23 der Fourside Post." next
+    "@<Einsamer Tod in der Stadt. Mann mit langen Haaren, Bart," next
+    "@Sonnenbrille und Aloha Shirt auf der Stra[b8]e gefunden>" end
+
+l_0xc858ba:
+    call(l_0xc856fc) call(l_0xc8574a) "@<Ber[cb]hmter Mr. Monotoli verl[c0]sst Fourside. Behauptet, er mache eine Reise>" end
+
+l_0xc858f0:
+    call(l_0xc856fc) "  Die Fourside Post sagt..." next
+    "@Mist! Ich habe einen Fehler gemacht, und die Zeitung namens Fourside Star gekauft." next
+    "@Lassen Sie mich sie trotzdem vorlesen..." next
+    "@<Lucky von den Runaway Br[cb]dern war ein ein Mitglied im Studentenrat>" next
+    "@...Das muss eine L[cb]ge sein..." end
+
+l_0xc85985:
+    call(l_0xc856fc) call(l_0xc8574a) "@<Prinz [1C 02 04] von Dalaam besucht heimlich Fourside?>" end
+
+l_0xc859b5:
+    call(l_0xc856fc) "  Auf Seite 25 der Fourside Post..." next
+    "@<Venus wird zur Ber[cb]hmtheit unter Fourside Autogrammj[c0]ger," next
+	"  dies f[cb]hrt zu Problemen f[cb]r die bekannte S[c0]ngerin>" end
+
+l_0xc85a11:
+    call(l_0xc856fc) "  Auf Seite 3 der Fourside Post..." next
+    "@<Kriminalit[c0]t in Scaraba?" next
+    "@Der heilige Schatz der Pyramide, das [1C 05 AF] wurde gestohlen>" end
+
+l_0xc85a6c:
+    call(l_0xc856fc) "  In der heutigen Fourside Post gibt es eine Werbeanzeige." next
+    "@<H[c9]her als alles andere!" linebreak
+    " (Das ist H[c9]he, nicht Preis)" linebreak
+    " Monotoli Grand Hotel>" next
+    "@Hey! Das ist unser Hotel!" end
+
+l_0xc85ad8:
+    call(l_0xc856fc) "  Auf Seite 13 der Fourside Post..." next
+    "@<Morgenzeitungen werden nicht nur in Fourside vorgelesen" next
+    "@Lassen Sie sich nicht von Hotelpagen hereinlegen" next
+	"@Die meisten wollen nur Trinkgeld haben>" next
+    "@...Das ist mir jetzt aber peinlich..." end
+
+l_0xc85b55:
+    call(l_0xc856fc) call(l_0xc8574a) "@<Die beste Zeitung der Welt" next
+    "@Alle lesen jeden Morgen die Fourside Post>" next
+    "@...Ist das wirklich die Schlagzeile auf der Titelseite?" end
+
+l_0xc85bab:
+    call(l_0xc856fc) call(l_0xc8574a) "@<Die Metropole Fourside hat einen weiteren arbeitsreichen Tag>" end
+
+l_0xc85bd4:
+    call(data_37.l_0xc841de) "{ctoarg}{swap}[1F C0 1D {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85cd3)} {e(l_0xc85d13)} {e(l_0xc85d45)} {e(l_0xc85de3)} {e(l_0xc85e27)} {e(l_0xc85e65)} {e(l_0xc85eb1)} {e(l_0xc85f32)}]" eob
+
+l_0xc85c55:
+    "@Ah, Sir..." linebreak
+    "  Sind Sie schon auf dem Weg" linebreak
+	"  zum Strand?" next
+    eob
+
+l_0xc85c76:
+    "@Hier sind die heutigen Schlagzeilen von" linebreak
+	"  Daily Summers..." next
+    eob
+
+l_0xc85c99:
+    call(l_0xc85c55) call(l_0xc85c76) "@<In Winters, unsere Partnerstadt," next
+	"@wurden Personen, eine nach dem anderen vermisst gemeldet>" end
+
+l_0xc85cd3:
+    call(l_0xc85c55) call(l_0xc85c76) "@<Gestern gleich wie Vorgestern" next
+    "@Heute ist genau wie gestern>" end
+
+l_0xc85d13:
+    call(l_0xc85c55) call(l_0xc85c76) "@<Prinz [1C 02 04] von Dalaam besucht heimlich Summers?>" end
+
+l_0xc85d45:
+    call(l_0xc85c55) "@In der heutigen Daily Summers steht..." next
+    "@Oooh la la,{pause(10)} Ich habe versehentlich die falsche Zeitung gekauft." next
+	"@Die Zeitung hei[b8]t Sommerforscher." next
+    "@H[c9]ren Sie sich mal diese Schlagzeile an..." next
+    "@<Riesige lebendige Ratte in der Kanalisation gefunden>" next
+    "@...Ich glaube das nicht..." end
+
+l_0xc85de3:
+    call(l_0xc85c55) call(l_0xc85c76) "@<Eindringlinge in Scaraba Pyramide!{pause(10)} Summers bleibt ein friedliches Paradies>" end
+
+l_0xc85e27:
+    call(l_0xc85c55) call(l_0xc85c76) "@<Leichte Briese wehte letzte Nacht durch die Palmen>" next
+    "@...{pause(10)} So etwas sind hier gro[b8]e Neuigkeiten." end
+
+l_0xc85e65:
+    call(l_0xc85c55) call(l_0xc85c76) "@<Aus Krakenflosse wird wunderbare Suppe gemacht!" next
+    "@Das neue Gericht schl[c0]gt gro[b8]e Wellen am Strand>" end
+
+l_0xc85eb1:
+    call(l_0xc85c55) "@In der heutigen Daily Summers gibt es eine gro[b8]e Werbeanzeige" next
+    "@<Vergiss die komplizierten Dinge." next
+    "@H[c9]r auf, R[c0]tsel zu l[c9]sen und Level abzuschlie[b8]en!" next
+    "@Willkommen im leichten Leben in Summers!>" end
+
+l_0xc85f32:
+    call(l_0xc85c55) call(l_0xc85c76) "@<Gestern war genau wie Vorgestern" next
+    "@Heute wird genau wie Gestern werden>" end
+
+l_0xc85f76:
+    call(data_37.l_0xc841de) "{ctoarg}{swap}[1F C0 1D {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86088)} {e(l_0xc860b9)} {e(l_0xc860e4)} {e(l_0xc86112)} {e(l_0xc86147)} {e(l_0xc86186)}]" eob
+
+l_0xc85ff7:
+    "@Guten Morgen, [19 10 01]"call(data_33.l_0xc7e6b3)"!" next
+    "@Bitte erlauben Sie mir Ihnen von der lokalen Zeitung vorzulesen," next
+    "@die Scaraba Papyrus..." next
+    eob
+
+l_0xc8603c:
+    "@...{pause(10)}Mal sehen... hier gibt es Neuigkeiten [cb]ber..." next
+	eob
+	
+rumor:
+//call(rumor)
+	"@...Laut verschiedenen Ger[cb]chten>"
+	eob
+	
+l_0xc86059:
+    call(l_0xc85ff7) call(l_0xc8603c) "@<Krake, das b[c9]se Seeungeheuer, ist jetzt f[cb]r immer fort!" next
+	call(rumor)
+    end
+
+l_0xc86088:
+    call(l_0xc85ff7) call(l_0xc8603c) "@<Pyramide [c9]ffnet sich das erste mal seit 300 Jahren" next
+	call(rumor)
+    end
+
+l_0xc860b9:
+    call(l_0xc85ff7) call(l_0xc8603c) "@<[1C 05 AF] von Pyramide in der W[cb]ste gestohlen!" next
+	call(rumor)
+    end
+
+l_0xc860e4:
+    call(l_0xc85ff7) call(l_0xc8603c) "@<Geheimnisvoller, bewegender Turm in der W[cb]ste gesehen!" next
+	call(rumor)
+    end
+
+l_0xc86112:
+    call(l_0xc85ff7) call(l_0xc8603c) "@<Bezwinger der Krake waren eigentlich Kinder aus dem Ausland!" next
+	call(rumor)
+    end
+
+l_0xc86147:
+    call(l_0xc85ff7) call(l_0xc8603c) "@<Kinder, die los sprinten und sofort verschwinden wurden gesichtet," next
+	"@aber nur f[cb]r einen Augenblick" next
+	call(rumor)
+    end
+
+l_0xc86186:
+    call(l_0xc85ff7) call(l_0xc8603c) "@<Grausame Ger[c0]usche neulich zu h[c9]ren." next
+    "@M[c9]glicherweise ein b[c9]ses Gesch[c9]pf," next
+	"@welches jenseits unserer Zeit und Raum zerst[c9]rt wurde" next
+	call(rumor)
+    end
+
+l_0xc861dd:
+    "@Guten Morg...{pause(10)} [b0]hhh... nicht Morgen.{pause(10)}" next
+    "@Hier{pause(5)} in Moonside ist es immer mitten in der Nacht." next
+    "@Das ist die Schlagzeile der heutigen Moonside Press..." next
+    "@<Mani Mani ist {pause(10)} immer Mani Mani {pause(10)} bei Mani Mani mit allen{pause(10)} Mani Mani{pause(10)} Mani>" end
+
+l_0xc86279:
+    "[06 4F 00 {e(l_0xc86320)}][06 84 00 {e(l_0xc862b8)}]@(Achtung!{pause(30)} Hier und da brennt es noch immer.{pause(20)} Es ist HEI[c8]!)" end
+
+l_0xc862b8:
+    "@Dort ist etwas gl[c0]nzendes." next
+    "@M[c9]chtest du versuchen es zu herauszunehmen?" linebreak
+    "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc862f8)} {e(l_0xc862f7)}]" goto(l_0xc862f7)
+
+l_0xc862f7:
+    eob
+
+l_0xc862f8:
+    "[1D 03 FF][1B 02 {e(l_0xc86311)}][1D 0E 00 C1][1B 05]" call(data_33.l_0xc7dcb6) "{set(flag 79)}" end
+
+l_0xc86311:
+    "@Du hast nicht genug Platz." end
+
+l_0xc86320:
+    "@(Schein, als w[c0]re hier vor nicht allzu langer Zeit ein Meteorit gelandet.)" end
+
+l_0xc8634c:
+    "@Selbst f[cb]r arme Leute ist es einfach einen luxuri[c9]sen Zweitwohnsitz zu besitzen!" next
+    "@<Schnabel Stelle Immobilien>" end
+
+l_0xc86399:
+    "@<Busch Krankenhaus>" next
+    "@Das beste Krankenhaus in Onett!" next
+	"@Wir geben unser Leben, um Sie zu operieren!" end
+
+l_0xc863da:
+    "@(Die Blumen im Garten repr[c0]sentieren die, die in deinem Herzen sind." next
+    "@Behandle beide gut.)" end
+
+l_0xc86419:
+    "@H[cb]tte der Animateure." end
+
+l_0xc86431:
+    "@<Riesen Tritt>" next
+    "@N[c9]rdlich, auf der Spitze" linebreak
+	"  des Berges." linebreak
+    "  Gefahr! Betreten verboten!" end
+
+l_0xc86467:
+    "@Onett Rathaus" end
+
+l_0xc86477:
+    "@Stra[b8]e nach Twoson." end
+
+l_0xc86483:
+    "@Wie von Mutter gekocht. <Hausgemachte Hamburger>" end
+
+l_0xc864a7:
+    "@Zerschmetter den Strom der Gewalt. Zerbreche nicht den Wind der Ver[c0]nderung." next
+    "@<Frische Brise Bewegung>" end
+
+l_0xc864e6:
+    "@<Onett B[cb]cherei>{pause(20)}" linebreak
+    "  Geht [c9]fter in die B[cb]cherei!" end
+
+l_0xc86511:
+    "@Stadtrand von Onett." linebreak
+    "  S[cb]dlich: Onett Zentrum." end
+
+l_0xc8652a:
+    "@Bitte nicht so weit von der Stadt entfernt herumlaufen." linebreak
+    "  <Frische Brise Bewegung>" end
+
+l_0xc86554:
+    "@Willkommen im Gl[cb]cklich Gl[cb]cklich Dorf!" end
+
+l_0xc86568:
+    "@<Kleine Magere Farm>" linebreak
+    "  (Unterk[cb]nfte vorhanden)" end
+
+l_0xc86591:
+    "@<Eingang zum Gauner Park>" next
+    "@Kein Zutritt f[cb]r brave Kinder und Polizisten." end
+
+l_0xc865cb:
+    "@Die zweite Stadt." linebreak
+    "  Wir hei[b8]en Twoson, weil wir nicht die ersten waren." end
+
+l_0xc865f3:
+    "@Wenn du einen verd[c0]chtigen Typ siehst,{pause(15)} dann tu so, als w[cb]rdest du ihn nicht sehen." end
+
+l_0xc8661b:
+    "@Wenn du genug Zeit hast, dies zu lesen, dann geh schleunigst ins Chaos Theater." end
+
+l_0xc86646:
+    "@<Secret Entrance to Burglin Park>" end
+
+l_0xc86663:
+    "@Bist du jetzt Gl[cb]cklich?{pause(20)}" linebreak
+    "  <Gl[cb]cklich Gl[cb]cklich Religionsgemeinschaft>" end
+
+l_0xc86689:
+    "@<Two-Three Tunnel>{pause(20)}" linebreak
+    "  Tunnel von Twoson nach Threed." end
+
+l_0xc866ab:
+    "@(Haus von Orangen Kind, Erfinder)" end
+
+l_0xc866c4:
+    "@(Haus von Apfel Kind, Erfinder)" end
+
+l_0xc866dd:
+    "@Hinweise schon seit 40 Jahren." linebreak 
+	"@       -Hinweisladen <Erkenntnis>" end
+
+l_0xc866f3:
+    "@(Diese Informationstafel" linebreak
+    "  begr[cb][b8]t dich heute Abend." linebreak
+    "  Alles ist gut. Gute Nacht.)" end
+
+l_0xc8672b:
+    end
+
+l_0xc8672d:
+    "@(Sie m[c9]chten zum Strand fliehen?{pause(15)} Wenn das Ihr gro[b8]er Wunsch ist..." next
+    "@Kommen Sie zum Glockenspiel Strand in Summers!{pause(20)}" linebreak
+    "  Summers Touristencenter.)" end
+
+l_0xc86787:
+    "@Wenn Sie Ihr sch[c9]nes, kuscheliges Bett vermissen, gehen Sie Richtung Westen..." next
+	"@Wir sind genau dort!" linebreak
+    "  <Threed Sonnenuntergang Hotel>" end
+
+l_0xc867c5:
+    "@(<Ein Esel antwortet nur <I-Ah> auf Ihre Fragen," next
+	"@aber der Hinweisladen sagt <I-Ja> dazu, Ihnen die besten Tipps zu geben.>" next
+    "@Eagleland Hinweisgewerkschaft)" end
+
+l_0xc86813:
+    "@Das Aufstellen von Zelten ohne Genehmigung ist an diesem Ort untersagt." end
+
+l_0xc8683d:
+    "[19 10 01]{swap}@[1C 02 00] pr[cb]ft die Schubladen." next
+    "[06 F3 02 {e(l_0xc8688e)}][19 10 01]{swap}@In der Schublade lag ein [1C 05 CE]." next
+    "[1D 03 FF][1B 02 {e(l_0xc8689c)}][1D 0E 00 CE]" call(data_33.l_0xc7dccf) "{set(flag 755)}" end goto(l_0xc8688e)
+
+l_0xc8688e:
+    "@Aber sie sind leer." end
+
+l_0xc8689c:
+    "@Aber du hast nicht genug Platz." end
+
+l_0xc868ad:
+    "@(Genau wie diese Informationstafel," next
+	"@gibt es auch eine Menge Schrott, im Tr[c9]delladen <Totalschaden>." next
+    "@Er befindet sich in der Hintergasse des Kaufhauses.)" end
+
+l_0xc86900:
+    "@(Meeting f[cb]r EarthBound 2 geplant." next
+    "@Nur Personal, die in Verbindung zum Projekt stehen, d[cb]rfen eintreten." next
+    "@APE Softwareentwicklungsteam)" end
+
+l_0xc86961:
+    "@Erdgeschoss <Fourside B[c0]ckerei>" next
+    "@Obergeschoss <Obergeschoss der B[c0]ckerei>" end
+
+l_0xc86995:
+    "@(Ich kann sp[cb]ren..." linebreak
+    "  dass... du einen Controller... in deinen... H[c0]nden h[c0]ltst...)" end
+
+l_0xc869be:
+    "@Hey! Das ist Magicant!" end
+
+l_0xc869cb:
+    "@Komm hinein in Magicant!" end
+
+l_0xc869dd:
+    "@Scaraba Kulturmuseum" next
+    "@(Hieroglyphenausstellung wird derzeitig renoviert.)" end
+
+l_0xc86a25:
+    "@(Neuerdings l[c0]uft ein seltsamer Kauz im Krankenhaus herum und sagt," next
+    "@er k[c9]nne alle deine Beschwerden heilen, die wir nicht behandeln k[c9]nnen." next
+    "@Bitte seien Sie sich im Klaren, dass er nicht in Verbindung mit dem Krankenhaus steht." next
+    "@Fourside Krankenhaus Management)" end
+
+l_0xc86ab2:
+    eob
+

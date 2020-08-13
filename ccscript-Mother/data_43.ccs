@@ -1,0 +1,525 @@
+/*
+ * EarthBound Text Dump
+ * Time: 22:14:19 - 03/04/2018
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+command e(label) "{long label}"
+
+// Text Data
+l_0xc8f450:
+    "@Ich bin von Fourside per Bus hierher gefahren." next
+    "@B[cb]ffel?{pause(15)} Oh ja, ich habe eine Menge von denen gesehen.{pause(20)} Sie sind wirklich beeindruckend." end
+
+l_0xc8f48a:
+// https://legendsoflocalization.com/earthbound/threed-3/#bras-before-bros
+    "[06 92 00 {e(l_0xc8f4d8)}]@Ein M[c0]dchen aus Fourside hat mich angerufen." next
+    "@Anscheinend ist dort eine richtig ber[cb]hmte Band dort." next
+    "@Ich glaube sie hei[b8]en <Stayaway Br[cb]der>." end
+
+l_0xc8f4d8:
+    "@Ich habe dir letztens den falschen Bandnamen gesagt." next
+	"@Ich glaube ich hatte sie die <Stayaway Br[cb]der> genannt." next
+    "@Ihr wahrer Name ist aber <Runaway Br[cb]der>." next
+    "@Meine Freundin hat mich korrigiert..." end
+
+l_0xc8f535:
+    "[06 49 00 {e(l_0xc8f590)}]@Ich habe geh[c9]rt, dass ein Typ in der Wilden Windigen W[cb]ste nach vergrabenden Sch[c0]tzten gr[c0]bt." next
+    "@Ein St[cb]ckchen von einem Schatz zu haben w[c0]re echt toll." end
+
+l_0xc8f590:
+    "@Hey! Ich habe geh[c9]rt, dass du ein St[cb]ck vom Schatz in der W[cb]ste bekommen hast." next
+    "@Sieht so aus, als w[c0]re dir das aber nicht zu Kopf gestiegen." end
+
+l_0xc8f5d0:
+    "@Ich bin ein Detektiv aus Twoson." next
+    "@Die Statue namens Mani Mani, oder wie sie auch hei[b8]t," next
+    "@wurde vom Hauptsitz des Gl[cb]cklich-Gl[cb]cklichismus gestohlen." next
+    "@Hast du vielleicht ein paar Hinweise f[cb]r mich?" linebreak
+    "[19 02]Ja[02] [19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc8f656)} {e(l_0xc8f64d)}]" goto(l_0xc8f64d)
+
+l_0xc8f64d:
+    "@Oh, ich verstehe..." end
+
+l_0xc8f656:
+    "@Versuch nicht mich mit deinen L[cb]gen zu f[cb]ttern!" end
+
+l_0xc8f66a:
+    "@Wenn ich versuche abzuhauen, w[cb]rde mein K[c9]rper einfach auseinanderfallen." next
+    "@Ich bin halt ein Zombie..." end
+
+l_0xc8f69d:
+    "@Ich werde die den Rest meines <Lebens> hassen." end
+
+l_0xc8f6b5:
+    "@Ich werde dich auch nach meinem <Tod> noch hassen." end
+
+l_0xc8f6ca:
+    "@Du bist der Feind aller Zombies!" next
+    "@Du Monster!" end
+
+l_0xc8f6e2:
+    "@K[c9]nntest... du... mir..helfen?{pause(20)} ...Wahrscheinlich nicht." end
+
+l_0xc8f701:
+    "@Ihr Menschen seid richtige Feiglinge!" end
+
+l_0xc8f715:
+    "@*Keuch* *Keuch*" end
+
+l_0xc8f725:
+//https://legendsoflocalization.com/earthbound/threed-2/#zombie-death
+    "@Ich bin bereit zu sterben..." next
+    "@Oh, warte,{pause(20)} ups, technisch gesehen bin ich schon tot, oder?" end
+
+l_0xc8f748:
+//Unbenutzt?
+    "Nachricht vom kaputten Sky Walker." goto(l_0xc8f75e)
+
+l_0xc8f75e:
+    "@(Zurzeit ist es unm[c9]glich es zu reparieren.)" end
+
+l_0xc8f77d:
+    newline
+    "@Der Angriff von {target}" linebreak
+    "  steigt um {delta}!{sound(40)}[03]" eob
+
+l_0xc8f79a:
+    newline
+    "@Die Verteidigung von {target}" linebreak
+    "  steigt um {delta}!{sound(40)}[03]" eob
+
+l_0xc8f7b8:
+    newline
+    "@Der IQ von {target}" linebreak
+    "  steigt um {delta}!{sound(40)}[03]" eob
+
+l_0xc8f7d2:
+    newline
+    "@Der Mut von {target}" linebreak
+    "  steigt um {delta}!{sound(40)}[03]" eob
+
+l_0xc8f7ee:
+    newline
+    "@Der Mut von {target}" linebreak
+    "  sinkt um {delta}!{sound(41)}[03]" eob
+
+l_0xc8f80a:
+    newline
+    "@Erstaunlicherweise wurde" linebreak
+    "  der Mut von {target}: {delta}!{sound(40)}[03]" eob
+
+l_0xc8f82f:
+    newline
+    "@Die Geschwindigkeit von {target}" linebreak
+    "  steigt um {delta}!{sound(40)}[03]" eob
+
+l_0xc8f84c:
+    newline
+    "@Die Vitalit[c0]t von {target}" linebreak
+    "  steigt um {delta}!{sound(40)}[03]" eob
+
+l_0xc8f86b:
+    newline
+    "@Das Gl[cb]ck von {target}" linebreak
+    "  steigt um {delta}!{sound(40)}[03]" eob
+
+l_0xc8f885:
+    newline
+    "@Der Angriff von {target}" linebreak
+    "  sinkt um {delta}!{sound(41)}[03]" eob
+
+l_0xc8f8a2:
+    newline
+    "@Die Verteidigung von {target}" linebreak
+    "  sinkt um {delta}!{sound(41)}[03]" eob
+
+l_0xc8f8c0:
+    newline
+    "@{user} [c9]ffnet" linebreak
+    "  das Glas <Fliegenhonig>!" next
+    "@Meister R[cb]lps greift nach" linebreak
+    "  dem <Fliegenhonig>![03]" eob
+
+l_0xc8f8fd:
+    newline
+    "@{user} [c9]ffnet" linebreak
+    "  das Glas <Fliegenhonig>!" next
+    "@Es roch nicht nach etwas," linebreak
+    "  dass " call(data_33.l_0xc7e602) " m[c9]gen w[cb]rde![03]" eob
+
+l_0xc8f935:
+    newline
+    "@Ein mysteri[c9]ses Licht umgibt" linebreak
+    "  " call(data_33.l_0xc7e6d7) "![03]" eob
+
+l_0xc8f956:
+    newline
+    "@Ein warmes Licht umgibt" linebreak
+    "  " call(data_33.l_0xc7e6d7) "![03]" eob
+
+l_0xc8f973:
+    newline
+    "@Ein grelles Licht umgibt" linebreak
+    "  " call(data_33.l_0xc7e6d7) "![03]" eob
+
+l_0xc8f992:
+    newline
+    "@Etwas schwere Luft flie[b8]t" linebreak
+    "  in das Gebiet![03]" eob
+
+l_0xc8f9b3:
+    newline
+    "@Das grelle Licht verfolgt" linebreak
+    "  den Gegner![03]" eob
+
+l_0xc8f9ce:
+    newline
+    "@Ein sehr feines Licht verschlingt" linebreak
+    "  " call(data_33.l_0xc7e6d7) "![03]" eob
+
+l_0xc8f9f0:
+    newline
+    "@Ein goldenes Licht flie[b8]t" linebreak
+    "  [cb]ber das Gebiet![03]" eob
+
+l_0xc8fa0d:
+    newline
+    "@Regenbogenfarbendes Licht" linebreak
+    "  scheint in das Gebiet![03]" eob
+
+l_0xc8fa2f:
+    newline
+    "@Ein mysteri[c9]ser Duft weht" linebreak
+    "  in das Gebiet![03]" eob
+
+l_0xc8fa51:
+    newline
+    "@Ein schrecklicher, himmelzerrei[b8]ender Ton," linebreak
+    "  hallt in dem Gebiet![03]" eob
+
+l_0xc8fa7b:
+//TODO	OK?
+    newline
+	"{unset(flag 980)}"
+    "@" call(data_33.l_0xc7e6d7)
+	if flag 980{
+	" verloren ihre"
+	}
+	else {
+	" verlor " 	call(objekte.KampfSI)	//Call getestet
+	}
+	" PP![03]" eob
+
+l_0xc8fa90:
+    newline
+	"{unset(flag 980)}"
+    "@" call(data_33.l_0xc7e6d7)
+	if flag 980{
+	" erholten sich" linebreak
+	}
+	else {
+	" erholte sich" linebreak
+	}
+    "  komplett![03]" eob
+
+l_0xc8faaa:
+    //call(data_43.l_0xc8fa7b) //(Zum Testen)
+	newline
+    "@Nicht genug PP![03]" eob
+
+l_0xc8fab8:
+    newline
+    "[1F 41 08][1B 02 {e(l_0xc8faca)}]{sound(55)}" goto(l_0xc8facd)
+
+l_0xc8faca:
+    "{sound(29)}" goto(l_0xc8facd)
+
+l_0xc8facd:
+    "@{user}[19 1F]{swap} probiert" linebreak
+    "  [1C 12 00]!" next
+    "@Aber, " call(data_33.l_0xc7e602) " hatte nicht genug PP.[03]" eob
+
+l_0xc8faf6:
+//CCS-BUG	
+	newline
+    "@Es hat niemanden getroffen![03]" eob
+
+l_0xc8fb05:
+    newline
+    "@{target} hat" linebreak
+    "  keine PP![03]" eob
+
+l_0xc8fb1b:
+//https://legendsoflocalization.com/earthbound/giygas/#old-demons
+    "{window_closetop}{pause(40)}{window_open(1)}" newline
+	title(1, Porky)
+    "[1F 62 00]@Ich wei[b8], dass ihr euch bereits f[cb]r Helden haltet,{prompt}" linebreak
+    "@aber ihr seid Zillionen Jahre zu fr[cb]h, wenn ihr denkt Giygas besiegen zu k[c9]nnen!{prompt}" linebreak
+    "@Ihr m[cb]sst euch ziemlich bescheuert f[cb]hlen. Ihr k[c0]mpft immer weiter,{prompt}" linebreak
+    "@ohne [cb]berhaupt zu wissen wie Giygas aussieht!{prompt}" linebreak
+    "@Wenn ihr jemals Giygas sehen solltet w[cb]rdet ihr vor Angst zu Stein erstarren.{prompt}" linebreak
+    "@Ihr k[c9]nntet ihm nicht mehr entkommen!{prompt}" linebreak
+    "@...So gruselig ist er!{prompt}" linebreak
+    "@Also, soll ich die <Teufelsmaschine> deaktivieren?{prompt}" linebreak
+    "@Nun gut, seht zu und staunt!{sound(74)}{pause(150)}{window_closetop}" eob
+
+l_0xc8fc2e:
+    newline
+    "{pause(80)}{window_open(1)}[1F 62 00]"
+	title(1, Porky)
+	"@Ist das nicht absolut Furcht einfl[c9][b8]end?{pause(30)}" linebreak
+    "  Ich habe auch etwas Angst.{prompt}" linebreak
+    "@Giygas ist nicht mehr in der Lage rational zu denken,{prompt}" linebreak
+    "@Ihm ist nicht mal bewusst, was er gerade tut.{prompt}" linebreak
+    "@Sein eigener Verstand wurde von seiner unsagbaren Kraft zerst[c9]rt.{prompt}" linebreak
+    "@Was f[cb]r ein allm[c0]chtiger Idiot!{pause(30)}{prompt}" linebreak
+    "@Jap, genau das ist er!{prompt}" linebreak
+    "@Heh heh heh heh...{pause(30)}" linebreak
+    "  und ihr... ihr werdet... nur{pause(30)}" linebreak
+    "  eine weitere kleine Mahlzeit f[cb]r ihn sein![03]{pause(80)}{window_closetop}{window_open(14)}" eob
+
+l_0xc8fd11:
+//https://legendsoflocalization.com/earthbound/giygas/#taunty-pokey
+//TODO Frage Mother3 Übersetzer
+    "{window_closetop}{pause(60)}{window_open(1)}[1F 62 00]" newline
+	title(1, Porky)
+    "@Heh heh heh heh.{pause(30)}" linebreak
+    "  Ihr m[cb]sst mit eurer Geduld bestimmt am Ende sein.{prompt}" linebreak
+    "@Ihr seid die einzigen, die in dieser skurrilen Dimension f[cb]r die Gerechtigkeit k[c0]mpft...{prompt}" linebreak
+    "@Und hier steht ihr nun vor uns,{prompt}" linebreak
+    "@und wartet darauf, zusammen mit dem restlichen M[cb]ll dieses Universums{prompt}" linebreak
+	"@endg[cb]ltig vom Feuer verzehrt zu werden...{prompt}" linebreak
+    "@Haaaaah!{prompt}" linebreak
+    "@Das ist ja so traurig.{pause(30)}" linebreak
+	"  Ich kann nicht anders," linebreak
+    "  als eine Tr[c0]ne zu vergie[b8]en.{prompt}" linebreak
+    "@Wisst ihr, mein Herz klopft wie verr[cb]ckt,{pause(30)}" linebreak
+    "{prompt}" linebreak
+    "@...Ich glaube, ich erlebe gerade den absoluten Terror!{prompt}" linebreak
+    "@M[c9]chtet ihr hier im dunkeln" linebreak
+    "  nach Hilfe rufen?!{prompt}" linebreak
+    "@Ha ha ha ha ha!{prompt}" linebreak
+    "@Warum rufst du nicht nach deiner Mami, [1C 01 08]?!{prompt}" linebreak
+    "@Schrei, <Mami! Papi!" linebreak
+    "  Ich habe Angst! {pause(30)}Ich glaube ich mache mir in die Hose!>{prompt}" linebreak
+    "@Ich wei[b8], ihr habt telepathische Kr[c0]fte, oder so.{prompt}" linebreak
+	"@Versucht doch nach Hilfe zu rufen!{prompt}" linebreak
+    "@Ihr erb[c0]rmlichen, stinkenden" linebreak								// Kommt in Mother3 vor
+    "  Helden, dieser sogenannten Gerechtigkeit!{prompt}" linebreak
+    "@Niemand wird euch helfen!{prompt}" linebreak
+    "@Ha ha ha haah...{prompt}" linebreak
+    "@Keine Angst, euer bemitleidenswertes Leiden wird bald vor[cb]ber sein!{pause(150)}{window_closetop}{window_open(14)}" eob
+
+l_0xc8ff31:
+    "{window_closetop}{pause(60)}{window_open(1)}[1F 62 00]"
+	title(1, Porky)
+	"@[1C 01 08]!{pause(30)} Jetzt, werde ich..." linebreak
+    "  nun ja... {pause(20)}Sieht so aus," linebreak
+    "  als sollte ich abhauen.{prompt}" linebreak
+    "@Aber vielleicht sollte ich mich einfach in eine andere Epoche verziehen und{prompt}" linebreak
+	"@dort [cb]ber meinen n[c0]chsten Plan nachdenken.{prompt}" linebreak
+    "@Ihr k[c9]nnt darauf wetten, dass wir uns dort noch wiedersehen werden...{prompt}{pause(30)}" linebreak
+    "@Alles klar! Wir werden uns nochmal begegnen!{prompt}" linebreak
+    "@Wer von uns ist also jetzt der coole?!{pause(150)}{sound(65)}{window_closetop}" eob
+
+l_0xc90000:
+    "{counter(20)}" call(data_44.l_0xc90fec) eob
+
+l_0xc90008:
+    "{counter(30)}" call(data_44.l_0xc90fec) eob
+
+l_0xc90010:
+    "{counter(35)}[06 44 00 {e(l_0xc90025)}]@Blau... blau." next
+    goto(l_0xc90025)
+
+l_0xc90025:
+    call(data_44.l_0xc90fec) eob
+
+l_0xc9002b:
+    "{counter(40)}" call(data_44.l_0xc90fec) eob
+
+l_0xc90033:
+//Unbenutzt?
+    "{counter(45)}@Ich bin ein wandernder Doktor." linebreak
+    "  Lass es mich wissen, wenn es dir nicht gut geht." next
+    call(data_44.l_0xc90fec) eob
+
+l_0xc90067:
+    "{counter(60)}" call(data_44.l_0xc90fec) eob
+
+l_0xc9006f:
+    "{counter(70)}" call(data_44.l_0xc90fec) eob
+
+l_0xc90077:
+    "{counter(80)}" call(data_44.l_0xc90fec) eob
+
+l_0xc9007f:
+    "{counter(60)}{set(flag 659)}" call(data_44.l_0xc90fec) "{unset(flag 659)}" eob
+
+l_0xc9008d:
+    "{counter(50)}" call(data_44.l_0xc9128d) eob
+
+l_0xc90095:
+    "{counter(100)}" call(data_44.l_0xc9128d) eob
+
+l_0xc9009d:
+    "{set(flag 10)}{counter(110)}[06 44 00 {e(l_0xc900b7)}]@Blau... blau..." next
+    goto(l_0xc900b7)
+
+l_0xc900b7:
+    call(data_44.l_0xc9128d) eob
+
+l_0xc900bd:
+    "{counter(120)}" call(data_44.l_0xc9128d) eob
+
+l_0xc900c5:
+    "{counter(135)}" call(data_44.l_0xc9128d) eob
+
+l_0xc900cd:
+    "{counter(150)}" call(data_44.l_0xc9128d) eob
+
+l_0xc900d5:
+    "{counter(180)}" call(data_44.l_0xc9128d) eob
+
+l_0xc900dd:
+    "{set(flag 10)}{counter(200)}" call(data_44.l_0xc9128d) eob
+
+l_0xc900e8:
+    "{set(flag 10)}{set(flag 659)}{counter(150)}" call(data_44.l_0xc9128d) "{unset(flag 659)}" eob
+
+l_0xc900f9:
+    "@Humm die dum dum dum." linebreak
+    "  Ich suche Pilze!" next
+    call(data_45.l_0xc91a91) "[1B 02 {e(l_0xc901a8)}]@Hey! W[cb]rdest du mir den Pilz auf deinem Kopf f[cb]r $50 verkaufen?" next
+    call(data_33.l_0xc7dd4b) "[11]{clearline}[09 02 {e(l_0xc9017f)} {e(l_0xc90165)}]" goto(l_0xc90165)
+
+l_0xc90165:
+    "@Ohhh..." linebreak
+    "  Das ist dein Lieblingspilz." end
+
+l_0xc9017f:
+    call(data_45.l_0xc91b6f) newline
+    "@Danke." linebreak
+    "  So ein toller Pilz." next
+    "@Ich bin froh ihn gekauft zu haben." end
+
+l_0xc901a8:
+    "@Ich werde einen ganzen Haufen sammeln!" end
+
+l_0xc901bb:
+    newline
+    "{font_saturn}[06 02 00 {e(l_0xc9029f)}]@Ich bin" linebreak
+    "  Dr. Saturn." linebreak
+    "  Zoom!" next
+    "@und ich kann" linebreak
+    "  reparieren" linebreak
+    "  dein K[c9]rper." next
+    "@Boing!" next
+    "@Willst du" linebreak
+    "  ich deinen" next
+    "@K[c9]rper" linebreak
+    "  operiere?" linebreak
+    "  Ding?" next
+    "{font_normal}[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc9026f)} {e(l_0xc9023d)}]" goto(l_0xc9023d)
+
+l_0xc9023d:
+    "{font_saturn}@Bist du" linebreak
+    "  kay-o?" next
+    "@Wenn du" linebreak
+    "  Alles Gut," linebreak
+    "  dann super." next
+    "@zoomer!{wait}{font_normal}" eob
+
+l_0xc9026f:
+    call(data_44.l_0xc9162c) "{font_saturn}@Du gaaaaaanz" linebreak
+    "  heile." next
+    "@Toll!" linebreak
+    "  Boing!{wait}{font_normal}{set(flag 2)}" eob
+
+l_0xc9029f:
+    "@Gesund," linebreak
+    "  Gesund.{wait}{font_normal}" eob
+
+l_0xc902b5:
+    "@<Gute Nacht Bank>" next
+    "@Deine M[cb]digkeit wird dich verlassen und deine Kraft wird wiederkehren.{wait}" call(data_45.l_0xc91693) eob
+
+l_0xc902f2:
+    "@Hi! Wie f[cb]hlst du dich heute?" next
+    "@Oh, dir geht es nicht so gut?" linebreak
+    "  Werde gesund!" end
+
+l_0xc90322:
+//TODO Kontext herausfinden
+    "@(Das ist ein $Heilstein.){wait}" call(data_44.l_0xc915e1) eob
+
+l_0xc90339:
+    "[06 7F 01 {e(l_0xc9038d)}][1D 15 23 00]{swap}@Willkommen im Hotel von Onett." next
+    call(data_44.l_0xc90f3b) "[11]{clearline}[09 02 {e(l_0xc9036b)} {e(l_0xc90365)}]" goto(l_0xc90365)
+
+l_0xc90365:
+    call(data_44.l_0xc90fb2) eob
+
+l_0xc9036b:
+    "[1D 14 00 00 00 00][1B 03 {e(l_0xc90387)}]" call(data_44.l_0xc90f67) "{music_resume}[1F 21 0B]" call(data_44.l_0xc91582) eob
+
+l_0xc90387:
+    call(data_44.l_0xc90fbe) eob
+
+l_0xc9038d:
+    call(data_44.l_0xc90fd4) eob
+
+l_0xc90393:
+    "[06 7F 01 {e(l_0xc903e7)}][1D 15 32 00]{swap}@Willkommen im Hotel von Twoson." next
+    call(data_44.l_0xc90f3b) "[11]{clearline}[09 02 {e(l_0xc903c5)} {e(l_0xc903bf)}]" goto(l_0xc903bf)
+
+l_0xc903bf:
+    call(data_44.l_0xc90fb2) eob
+
+l_0xc903c5:
+    "[1D 14 00 00 00 00][1B 03 {e(l_0xc903e1)}]" call(data_44.l_0xc90f67) "{music_resume}[1F 21 13]" call(data_44.l_0xc91582) eob
+
+l_0xc903e1:
+    call(data_44.l_0xc90fbe) eob
+
+l_0xc903e7:
+    call(data_44.l_0xc90fd4) eob
+
+l_0xc903ed:
+    "[1D 15 32 00]{swap}[06 44 00 {e(l_0xc9058d)}][06 7F 01 {e(l_0xc90554)}]@Wir vom Gl[cb]cklich Gl[cb]cklich Dorf sind alle wie eine gro[b8]e, gl[cb]ckliche Familie!" next
+    "@Laut unserern Regeln d[cb]rfen eigentlich nur Familienmitglieder im Dorf [cb]bernachten." next
+    "@Wenn du aber am Gl[cb]cklich-Gl[cb]cklichismus interessiert bist," next
+    "@k[c9]nnten wir f[cb]r $[1C 0A 00 00 00 00] m[c9]glicherweise eine Ausnahme machen." next
+    call(data_33.l_0xc7dd4d) "[11]{clearline}[09 02 {e(l_0xc904e3)} {e(l_0xc904ba)}]" goto(l_0xc904ba)
+
+l_0xc904ba:
+    "@Noch nie habe ich so etwas respektloses geh[c9]rt!" linebreak
+    "  Hau ab und komm nie wieder!" end
+
+l_0xc904e3:
+    "[1D 14 00 00 00 00][1B 03 {e(l_0xc9052e)}][1D 09 00 00]{open_wallet}{sound(118)}@Sehr wohl..." next
+	"@Achte darauf, dass du dein <Blau... blau...> Lobgesang noch vor dem Schlafengehen singst."
+    "{wait}" call(data_45.l_0xc91693) "[1F 21 27]" eob
+
+l_0xc9052e:
+    "@Kein Glauben..." linebreak
+    "  Kein Geld..." linebreak
+    "  Du bist ein hoffnungsloser Fall." end
+
+l_0xc90554:
+    "@Bist du jetzt dazu bereit" linebreak
+	"  Mr. Carpainter angemessen zu respektieren?" next
+    "@Blau... Blau...{wait}{unset(flag 383)}" eob
+
+l_0xc9058d:
+    "[06 7F 01 {e(data_44.l_0xc90663)}][19 10 01]{swap}@Gr[cb][b8] dich, [1C 02 00]." linebreak
+    "  Bitte vergib mein Verhalten neulich." next
+    "@Du darfst hier nat[cb]rlich kostenlos [cb]bernachten." next
+    "@M[c9]chtest du hier [cb]bernachten?" linebreak
+    call(data_33.l_0xc7dd4f) "[11]{clearline}[09 02 {e(data_44.l_0xc90615)} {e(l_0xc905fd)}]" goto(l_0xc905fd)
+
+l_0xc905fd:
+    "@Sehr wohl. Du kannst jederzeit wiederkommen." end goto(data_44.l_0xc90615)
+

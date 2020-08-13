@@ -1,0 +1,517 @@
+/*
+ * EarthBound Text Dump
+ * Time: 22:14:19 - 03/04/2018
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+command e(label) "{long label}"
+
+// Text Data
+l_0xc72a76:
+    "[06 50 00 {e(l_0xc72ab6)}]@Seitdem du die Haie besiegt hast,{pause(15)} bist du das Gespr[c0]chsthema der Stadt." next
+    "@B[cb]rgermeister Pirkle wartet auf dich." end
+
+l_0xc72ab6:
+    "@Du siehst aus wie jemand, der etwas Gro[b8]es vollbringen wird.[06 49 00 {e(l_0xc72ad6)}]" end
+
+l_0xc72ad6:
+    next
+    "@Was sage ich denn da--{pause(15)} du hast etwas Gro[b8]es vollbracht!" end
+
+l_0xc72af8:
+    "[06 49 00 {e(l_0xc72e08)}][06 50 00 {e(l_0xc72dd0)}]@Hey{pause(10)} hey{pause(10)} hey!{pause(15)}  Ich bin B[cb]rgermeister G.K. Pirkle.{pause(15)}  Es ist sch[c9]n dich kennenzulernen." next
+    title(1, Pirkle)
+    "@Du hast die Raufbolde der Stadt besiegt, du hast sie" next
+    "@geschlagen,{pause(10)} in ihre Hintern getreten,{pause(10)} ihre K[c9]pfe abge-"linebreak
+	"  bissen,{pause(10)} in ihre Augen gespuckt," next
+	"@bis sie sich in die Hose gemacht haben." next
+    "@Dann hast du sie gezwungen zu versprechen, dass sie keinen [b0]rger mehr verursachen" next
+	"@werden.{pause(15)} Vielen Dank!" next
+    "@Was?{pause(15)}" linebreak
+    "  Du willst den Schl[cb]ssel f[cb]r die H[cb]tte der Animateure?" next
+	"@Ich denke es k[c9]nnte dem Frieden der Stadt helfen,{pause(15)} wenn ich den" next
+	"@Schl[cb]ssel einer so gro[b8]artige Person wie dir gebe." next
+	"@Wenn du aber auf Gefahren st[c9][b8]t, erwarte nicht, dass ich die Verantwortung [cb]bernehme." next
+    //"@Wie auch immer,{pause(15)} wenn du auf Gefahren st[c9][b8]t," next
+    //"@dann bitte mich nicht, Verantwortung zu [cb]bernehmen." next
+    "@Ich werde alle Verantwortung umgehen k[c9]nnen, richtig?" next
+    "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc72d2f)} {e(l_0xc72cac)}]" goto(l_0xc72cac)
+
+l_0xc72cac:
+    "@Ich bin ein sehr wichtiger Mann in diesen Bereichen." next
+    "@Glaubst du, dass ich wichtig bin?" linebreak
+    "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc72d2f)} {e(l_0xc72cee)}]" goto(l_0xc72cee)
+
+l_0xc72cee:
+    "@Du verstehst nicht.{pause(10)} Ich bin hier der gro[b8]e K[c0]se" next
+    "@und ein Bengel wie du sollte erkennen, wenn jemand versucht nett zu sein." end
+
+l_0xc72d2f:
+    "@Du bist ein kluges Kind...{pause(20)}  Hier ist der Schl[cb]ssel zur H[cb]tte." next
+    "[1D 03 FF][1B 02 {e(l_0xc72d6e)}][1D 0E 00 AA][1B 05]" call(data_33.l_0xc7dcb6) "{set(flag 80)}" end
+
+l_0xc72d6e:
+    "{sound(5)}" newline
+    title(1, Pirkle)
+    "@Obwohl er klein ist,{pause(15)} ist der Schl[cb]ssel wirklich wichtig." next
+    "@Du scheinst zu viel zu tragen." next
+    "@Wirf das Zeugs weg, das du nicht mehr brauchst{pause(15)} und hol den Schl[cb]ssel sp[c0]ter ab." end
+
+l_0xc72dd0:
+    title(1, Pirkle)
+    "@Hey,{pause(30)} wie hei[b8]t du!" next
+    "@Ich bin mit meiner Wahl besch[c0]ftigt. Ich habe keine Zeit mich mit dir zu treffen" end
+
+l_0xc72e08:
+    title(1, Pirkle)
+    "@Oh,{pause(15)} [1C 01 08]" next
+    "@Ich habe in der internationalen Zeitug" next
+	"@ein Bild von jemanden gesehen, der dir [c0]hnelt." next
+    "@Aber das kannst unm[c9]glich du gewesen sein." next
+    "@Vielleicht m[c9]chtest du meine Stadtverwaltungstechniken lernen," next
+    "@damit du sp[c0]ter auch mal B[cb]rgermeister werden kannst?  Wa ha ha!" next
+    "@Seit ich wieder Frieden in Onett gebracht habe, wurde ich wiedergew[c0]hlt" next
+    "@Bist du hier um zu feiern?" linebreak
+    "  [19 02]Ja[02]  [19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc72f18)} {e(l_0xc72ef1)}]" goto(l_0xc72ef1)
+
+l_0xc72ef1:
+    "@Sei nicht so sch[cb]chtern!{pause(20)} Ein Kind sollte nicht so befangen sein." end
+
+l_0xc72f18:
+    "@Vielen Dank." next
+    "@Von diesem Tag an...{pause(20)} bis zu dem Tag, an dem ich sterbe... *schnief*" next
+    "@werde ich mein Leben *schnief* dem Frieden in Onett widmen... *buu huu*" end
+
+l_0xc72f7b:
+    "[06 49 00 {e(l_0xc72fbe)}]"
+	"@Bitte halte bei der n[c0]chsten Wahl eine Rede, die B[cb]rger-" linebreak
+	"  meister Pirkle unterst[cb]tzt." next
+    "@Hee hee hee." end
+
+l_0xc72fbe:
+    "@Schon vor langer,{pause(10)} langer Zeit,{pause(15)} waren du und ich eng befreundet." next
+    "@Kumpel sozusagen. Ja ha ha ha ha." end
+
+l_0xc72ff8:
+    "@Das Rathaus ist im Osten.{pause(20)} Du wei[b8]t schon,{pause(10)} da wo die Sonne aufgeht!" end
+
+l_0xc73024:
+    "[06 7E 02 {e(l_0xc73039)}][06 0C 00 {e(l_0xc730cf)}][06 0D 00 {e(l_0xc730cf)}]" goto(l_0xc73039)
+
+l_0xc73039:
+    "@Ich bin von der weit,{pause(15)} weit,{pause(15)} weit entfernte Nachbarstadt hergezogen." next
+    "@In der Stadt, ist die... wie war nochmal der Name?{pause(20)}..." next
+    //"@[b0]h... Polarstern Vorschule." next
+    "@[b0]h... Paulastern Vorschule?" next	//Polarstern (ポーラスター) Paula (ポーラ)
+    "@Die Vorschule ist im Haus von [1C 01 1E]." next
+    "@[1C 01 1E] benutzt... wie nennt man das?{pause(15)}... [c0]h... Magie." end
+
+l_0xc730cf:
+    "[06 08 03 {e(l_0xc73039)}]{counter(2)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc73039)}]@Ich wollte dich sehen, [1C 01 1E]!" next
+    eob
+
+l_0xc730f6:
+    "@Glaubst du,{pause(15)} du k[c9]nntest einen Hinweis gebrauchen, wenn" next
+	"@du mal in der Klemme steckst?" linebreak
+    "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc73159)} {e(l_0xc73138)}]" goto(l_0xc73138)
+
+l_0xc73138:
+    "@Alles klar,{pause(15)} dann bist du auf dich allein gestellt.{pause(15)} Viel Gl[cb]ck!" end
+
+l_0xc73159:
+    "@Dann hol dir doch einen Tipp vom Haus nebenan." end
+
+l_0xc7316f:
+    "[06 D2 00 {e(l_0xc731bc)}]@Der Schatzsucher,{pause(15)} Lier [bb]. Bertreibung, hat endlich etwas interessantes gefunden." next
+    "@Ich habe geh[c9]rt, dass er es nur dir zeigt." end
+
+l_0xc731bc:
+    "@Das Hotel befindet sich im Westen." next
+    "@Ich bin traurig, weil ich nur so wenig Text bekommen habe." end
+
+l_0xc731f0:
+    "[06 49 00 {e(l_0xc73217)}]@Ich frage mich, ob <EarthBound> schon ver[c9]ffentlicht wurde." end
+
+l_0xc73217:
+    "@H[c9]r dir das mal an!{pause(20)} Ich habe EarthBound durchgespielt!" end
+
+l_0xc73236:
+    "@Hi!" next
+    "[06 97 02 {e(l_0xc733ee)}][06 FF 01 {e(l_0xc733ee)}][06 59 00 {e(l_0xc73420)}]@Kinder k[c9]nnen in dieser B[cb]cherei nur Karten ausleihen." next
+    "@M[c9]chtest du eine ausleihen?" linebreak
+    "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc732e1)} {e(l_0xc73296)}]" goto(l_0xc73296)
+
+l_0xc73296:
+    "@M[c0]nner ohne Karte werden nie eine Chance bei den Frauen haben." next
+    "@M[c9]chtest du jetzt eine haben?" linebreak
+    "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc732e1)} {e(l_0xc73296)}]" goto(l_0xc73296)
+
+l_0xc732e1:
+    "[1D 03 FF][1B 02 {e(l_0xc733a7)}]@Hier hast du eine Karte." next
+    "@Onett ist nicht die einzige Stadt auf der Karte." next
+    "@Alle Infos sind da, au[b8]er die Infos, die nicht da sind." next
+    "@Durch Dr[cb]cken des X-Knopfes kannst du die Karte jederzeit angucken.{pause(15)} " next
+	"@Wie praktisch!" next
+    "@Du wei[b8]t doch, der X-Knopf...{pause(10)} das ist der Blaue.{pause(15)}" linebreak
+    "  Ha ha ha." next
+    "[1D 0E 00 CA]" call(data_33.l_0xc7dccf) "{set(flag 511)}" end
+
+l_0xc733a7:
+    "@Ich rate dir eine Karte mitzunehmen," next
+	"@auch wenn du daf[cb]r etwas zur[cb]cklassen musst." next
+    "@Du scheinst jedoch viele nutzlose Gegenst[c0]nde zu tragen." end
+
+l_0xc733ee:
+    "@Du brauchst die Karte noch nicht zur[cb]ckgeben." next
+    "@Du darfst sie noch bis 2001 behalten." end
+
+l_0xc73420:
+    "@Bitte gib unser Buch <Sch[cb]chternheit [cb]berwinden> sp[c0]ter wieder!" end
+
+l_0xc7343f:
+    "[19 19 00 00]{swap}{result_is(164)}[1B 02 {e(data_32.l_0xc7c6b6)}][06 49 00 {e(l_0xc73470)}]@Dieses Buch ist gro[b8]artig!{pause(20)}  Studiere es flei[b8]ig." end goto(l_0xc73470)
+
+l_0xc73470:
+    "@...Endlich,{pause(15)} du bist gekommen um das Buch zur[cb]ckgeben.{pause(20)} " next
+	"@Sieht aus, als h[c0]ttest du es durchgelesen." next
+    "@Du bist so ein braver Junge.{pause(20)} Als Belohnung{pause(15)} werde ich dir einen Kuss geben.{pause(30)} Schmatz!{sound(116)}{wait}[1D 01 FF A4]{set(flag 663)}" eob
+
+l_0xc734de:
+    "@Am <Riesen Tritt> gibt es ein Monster, dass den Ort vor der Au[b8]enwelt bewacht." next
+    "@Niemand wei[b8], wann der Riesen Tritt zum Territorium des Monsters wurde." next
+    "@Ich frage mich, ob es st[c0]rker als meine Frau ist..." end
+
+l_0xc73550:
+    "[06 7E 00 {e(l_0xc73590)}]@....." linebreak
+    "       ....." linebreak
+    "            ....." next
+    "@(Ein Mann weniger Worte.{pause(15)}" linebreak
+	"  Es ist sinnlos, jetzt mit ihm zu reden.)" end
+
+l_0xc73590:
+    "[06 59 00 {e(l_0xc7363a)}]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc73628)}]@Oh,{pause(10)} hi [1C 01 08]." next
+    goto(l_0xc735b3)
+
+l_0xc735b3:
+//https://legendsoflocalization.com/earthbound/onett-2/#case-the-place
+    "@Heute ist ein weiterer sch[c9]ner Tag." next
+	"@Was?{pause(15)} Du h[c0]ttest gerne das Buch <Sch[cb]chternheit [cb]berwinden>?" next
+    "@Ich habe es gelesen.{pause(10)} Es ist ein gutes Buch.{pause(10)} " next
+	"@Du m[c9]chtest also auch deine Sch[cb]chternheit [cb]berwinden?" next
+    "@Du solltest es im B[cb]cherregal finden k[c9]nnen," next
+	"@wenn du das Regal gr[cb]ndlich <pr[cb]fst>.{wait}{set(flag 102)}" eob
+
+l_0xc73628:
+    "@Bist du ein Freund von [1C 01 08]?" linebreak
+    linebreak
+    goto(l_0xc735b3)
+
+l_0xc7363a:
+    "@Hi!{pause(20)} Sch[c9]n dich kennenzulernen!" next
+    "@Ich w[cb]rde mich freuen, wenn wir uns mal treffen, um uns zu unterhalten." next
+    "@Ich k[c9]nnte dir von meinen Abenteuern erz[c0]hlen" next
+    "@und du kannst mir von deinen Fehlern im Leben erz[c0]hlen." end
+
+l_0xc73698:
+    "[06 02 00 {e(l_0xc736a6)}]@.....{wait}{set(flag 2)}" eob
+
+l_0xc736a6:
+    "@Psst!{pause(30)} Du st[c9]rst die Leute!{wait}{unset(flag 2)}" eob
+
+l_0xc736c0:
+    "[19 19 00 00]{swap}{result_is(164)}[1B 02 {e(data_32.l_0xc7c6b6)}]@Die Wahrheit ist,{pause(15)} ich w[cb]rde gerne reden!" next
+    "@Aber da ich in der B[cb]cherei bin,{pause(15)} versuche ich leise zu sein. Oh mann!" end goto(l_0xc7370e)
+
+l_0xc7370e:
+    "[06 49 00 {e(l_0xc73750)}]@Neulich{pause(15)} habe ich die Pr[c0]senz von UFOs gesp[cb]rt..." next
+    "@oder tr[c0]ume ich das nur?" end
+
+l_0xc73750:
+    "@Die letzten Tagen waren echt friedlich." next
+    "@Ich vermisse die UFOs und Monster.{pause(15)} Sie scheinen nicht mehr da zu sein." end
+
+l_0xc73796:
+    "[06 03 00 {e(l_0xc737a4)}]@.....{wait}{set(flag 3)}" eob
+
+l_0xc737a4:
+    "@Ruhe!{wait}{unset(flag 3)}" eob
+
+l_0xc737b0:
+    "[19 19 00 00]{swap}{result_is(164)}[1B 02 {e(data_32.l_0xc7c6b6)}]@Psst!{pause(15)} Psst!" next
+    "@Du bist zu laut!{pause(20)} Versuch etwas leiser zu laufen,{pause(15)} Mr. Nervens[c0]ge." end goto(l_0xc737fc)
+
+l_0xc737fc:
+    "[06 49 00 {e(l_0xc73849)}]@Ich erforsche den" linebreak
+	"  <Riesen Tritt>." next
+    "@Er befindet sich nordwestlich von Onett." next
+    "@Ich habe geh[c9]rt, der Ort besitzt eine besondere Kraft!" end
+
+l_0xc73849:
+    "@Klatsch,{pause(10)} klatsch,{pause(10)} klatsch." next
+    "@Wenn ich dich sehe,{pause(15)} bekomme ich den Drang, dir unter die Arme zu greifen." end
+
+l_0xc73882:
+    call(data_43.l_0xc9008d) eob
+
+l_0xc73888:
+    call(data_43.l_0xc90000) eob
+
+l_0xc7388e:
+    "@Ich habe geh[c9]rt, dass unser Doktor hier die Nr. 1 ist." linebreak
+	"  Hii hii hii..." end
+
+l_0xc738b6:
+    "@Als ich gekommen bin, um meinen Freund im Krankenhaus zu besuchen," next
+    "@bin ich irgendwie ausgerutscht und im Flur hingefallen." next
+    "@Jetzt bleiben wir beide im Krankenhaus." next
+    "@Das k[c9]nnte die Basis f[cb]r eine tolle, tragische Schnulze werden." next
+	"@Nun ja,{pause(20)} vielleicht auch nicht...!" end
+
+l_0xc73940:
+    "[06 49 00 {e(l_0xc73ab9)}][06 D2 00 {e(l_0xc73a03)}]"
+    title(1, Lier)
+    "@Ich tue das, weil ich dir vertraue." next
+    "@Ok,{pause(15)} lass uns erstmal in den Keller gehen.[03]{window_closeall}{pause(60)}{window_open(1)}"
+    title(1, Lier)
+    "@Ah!{pause(15)} Dein Gesichtsausdruck sagt mir, dass du nicht mit mir rumh[c0]ngen willst,{pause(10)} stimmt das?" next
+    "@Das ist in Ordnung.{pause(20)} Wir sind ja nicht mal miteinander verwandt." next
+    "@Ich wei[b8], du denkst ich bin ein L[cb]gner, aber vielleicht werde ich dich ja [cb]berraschen!{wait}{window_closeall}" call(data_15.l_0xc5f639) "{unset(flag 31)}{set(flag 32)}" eob
+
+l_0xc73a03:
+    "{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc73bcc)}]"
+    title(1, Lier)
+    "@Ich tue das, weil ich dir vertraue." next
+    "@Ok,{pause(15)} lass uns erstmal in den Keller gehen." next
+    "@Ah!{pause(15)} Dein Gesichtsausdruck sagt mir, dass du nicht mit mir rumh[c0]ngen willst,{pause(10)} stimmt das?" next
+    "@Das ist in Ordnung.{pause(20)} Wir sind ja nicht mal miteinander verwandt." next
+    "@Jemand wie du sollte einfach mit diesem Tr[c0]umer Gerardo Montague herumh[c0]ngen." end
+
+l_0xc73ab9:
+    title(1, Lier)
+    "@Du bist eitel, [1C 01 08]." next
+    "@Das Leben ist...{pause(20)}  Nicht so einfach." next
+    "@Du hast die Erde blo[b8] vor eine Krise gerettet...{pause(15)} Sei nicht so hochn[c0]sig." next
+    "@...Als ich noch jung war, habe ich die Erde auch mehrmals gerettet." next
+    "@Ich lebe ein schlichtes Leben.{pause(20)} So sollte es auch sein." next
+    "@Glaubst du, ein echter Held ist jemand wie ich?" linebreak
+    "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc73b9d)} {e(l_0xc73b87)}]" goto(l_0xc73b87)
+
+l_0xc73b87:
+    "@[1C 01 08]," linebreak
+    "@Sei nicht so ein Snob!" end
+
+l_0xc73b9d:
+    "@Werde doch mein Partner,{pause(15)} wenn du [c0]lter bist." next
+	"@Wir werden eine Menge Geld verdienen." end
+
+l_0xc73bcc:
+    title(1, Lier)
+    "@Du h[c0]lst mich vielleicht f[cb]r einen Idioten," next
+	"@aber wenn ich meine Arbeit mache,{pause(15)} dann mache ich sie richtig." next
+    "@Ich bin ein{pause(15)} wahrer Mann.  Ich werde ein gro[b8]er Held sein." next
+    "@Ignoriere mich nur, wenn du willst..." end
+
+l_0xc73c28:
+    "[06 49 00 {e(l_0xc73cfa)}][06 02 00 {e(l_0xc73ca6)}]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc73cb3)}]@Du bist gewachsen, seit ich dich das letzte Mal gesehen habe.{pause(20)} " next
+	"@Du siehst langsam wie ein richtiger Mann aus." next
+    "@Du bist so cool!" next
+    "@Ich...{pause(15)} Ich glaube ich mag dich wirklich gerne." next
+    "@{pause(15)}Du wei[b8]t schon was ich meine.{wait}{set(flag 2)}" eob
+
+l_0xc73ca6:
+    "@Du wei[b8]t schon was ich meine." end
+
+l_0xc73cb3:
+    "@Bist du nicht der Freund von [1C 01 08]?" next
+    "@Woher ich das wusste?{pause(20)}  Ich hatte so ein Gef[cb]hl!" next
+    "@Du w[cb]sstest vielleicht, dass [1C 01 08] in der N[c0]he ist." end
+
+l_0xc73cfa:
+    "@Hi, [1C 01 08]!{pause(20)}  Langsam wird es echt eng in diesem Versteck." next
+    "@Ich habe mir schon [cb]berlegt zur Schnabel Stelle umzuziehen." next
+    "@Glaubst du, das w[c0]re eine gute Idee?" linebreak
+    "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc73d85)} {e(l_0xc73d5e)}]" goto(l_0xc73d5e)
+
+l_0xc73d5e:
+    "@Du hast recht.{pause(30)}  Dieser Ort k[c9]nnte genau die richtige Gr[c9][b8]e f[cb]r uns haben." end
+
+l_0xc73d85:
+    "@Stimmst du wirklich zu?{pause(20)}  Lasst uns eine starke,{pause(15)} stabile H[cb]tte bauen." end
+
+l_0xc73db0:
+    "[06 49 00 {e(l_0xc73e7d)}][06 0D 00 {e(l_0xc73e2a)}][06 0C 00 {e(l_0xc73e2a)}]@Ich habe von dir getr[c0]umt,{pause(20)} du bist mit einem s[cb][b8]en M[c0]dchen gereist." next
+    "@Wenn dieser Traum wahr wird,{pause(15)} dann sag ihr hi von mir." next
+    "@Ich bin ja noch immer Single..." end
+
+l_0xc73e2a:
+    "{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc73ee9)}]{counter(2)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc73e4b)}]@Liebe!" end
+
+l_0xc73e4b:
+    "@Ich k[c9]nnte mich irren,{pause(15)} aber ich glaube," next
+	"@du wirst von einem s[cb][b8]en M[c0]dchen begleitet." end
+
+l_0xc73e7d:
+    "@Du...{pause(20)} scheinst Selbstvertrauen oder so etwas zu gewinnen..." next
+    "@W[c0]hrend der Reise,{pause(15)} warst du da [cb]berall so beliebt?" next
+    "@...Ich bin eifers[cb]chtig.{pause(15)}  Ich w[cb]nschte ich w[c0]re genauso beliebt..." end
+
+l_0xc73ee9:
+    "@Wie hast du dieses Versteck gefunden?" next
+    "@[1C 01 08] muss dir davon erz[c0]hlt haben." end
+
+l_0xc73f0f:
+    "[06 49 00 {e(l_0xc740ad)}]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc73fe9)}][06 4D 00 {e(l_0xc73fbc)}]@Ich gebe dir meine [1C 05 4C]," next
+    "@Ich wei[b8], dass du sie schon lange haben wolltest." next
+    "@Sie ist die beste Kappe f[cb]r jemanden, der so tapfer ist wie du." next
+    goto(l_0xc73f6c)
+
+l_0xc73f6c:
+    "[1D 03 FF][1B 02 {e(l_0xc73f83)}][1D 0E 00 4C]" call(data_33.l_0xc7dccf) "{set(flag 77)}" end
+
+l_0xc73f83:
+    newline
+    "{sound(5)}@Ah!{pause(20)}  Du kannst nichts mehr tragen." next
+    "@Du solltest entweder dein Zeugs verkaufen oder wegwerfen." end
+
+l_0xc73fbc:
+    "@Ich w[cb]rde gerne mit dir auf ein Abenteuer gehen, sobald ich ein bisschen st[c0]rker bin." end
+
+l_0xc73fe9:
+    "[06 4D 00 {e(l_0xc74046)}]@Ich gebe dir meine [1C 05 4C]," next
+    "@Ich wei[b8], dass [1C 01 08] sie schon lange haben will." next
+    "@Wenn du sie anziehst wirst du st[c0]rker.{pause(15)}  Ja,{pause(5)} ja,{pause(5)} ja!" next
+    goto(l_0xc73f6c)
+
+l_0xc74046:
+    "@Bist du ein Freund von [1C 01 08]?" next
+    "@Hat er dir jemals von mir erz[c0]hlt?" next
+    "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc74096)} {e(l_0xc7407e)}]" goto(l_0xc7407e)
+
+l_0xc7407e:
+    "@Vielleicht redet er nicht so viel [cb]ber seine Freunde." end
+
+l_0xc74096:
+    "@Oh!{pause(20)}  Das ist der [1C 01 08], den ich kenne...!" end
+
+l_0xc740ad:
+    "@[1C 01 08],{pause(15)} Ich habe mir Gedanken [cb]ber unseren Bandennamen gemacht." next
+    "@Wir hei[b8]en <Wir werden morgen dar[cb]ber lachen>." next
+    "@Magst du den Namen?" linebreak
+    "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc74141)} {e(l_0xc7410c)}]" goto(l_0xc7410c)
+
+l_0xc7410c:
+    "@...Okay.{pause(30)} Mit lachen meinen wir nicht wirklich <lachen>." next
+    "@Es bedeutet eher <kichern>." end
+
+l_0xc74141:
+    "@Meine Philosophie ist <Friede sei mit allen Menschen>!" next
+    "@Wirklich? Du magst ihn?{pause(20)}  Ich wusste du w[cb]rdest ihn verstehen." end
+
+l_0xc74180:
+    "{isset(flag 469)}[1B 02 {e(l_0xc74207)}][06 14 00 {e(l_0xc7436c)}]"
+    title(1, Lier)
+    "@Hey,{pause(10)} [1C 01 08]!" next
+    "@Ich war zu besch[c0]ftigt um nachzuforschen,{pause(15)}" next
+	"@aber ich habe auf der Bergspitze eine Kinderstimme geh[c9]rt." next
+    "@Ich bin ein besch[c0]ftigter Mann,{pause(15)} " next
+	"@aber wenn ich meine Arbeit mache,{pause(15)} dann mache ich sie richtig.{pause(20)}" next
+	"@Ich bin ein{pause(15)} wahrer Mann." end
+
+l_0xc74207:
+    title(1, Lier)
+    "[06 0A 00 {e(l_0xc7434d)}]@Hey [1C 01 08],{pause(15)} hiya Kumpel!" next
+    "@Ein Meteorit ist runter gefallen und hat buumm gemacht!{pause(20)} " next
+	"@Das war ein echtes Durcheinander f[cb]r eine Weile." next
+    "@Mir hat das nichts ausgemacht," next
+	"@weil ich immer Knoblauch esse und trainiere, um meinen K[c9]rper zu st[c0]rken." next
+    "@Naja,{pause(15)} die schw[c0]cheren Einwohner sind wahrscheinlich ohnm[c0]chtig geworden." next
+    "@Ich m[c9]chte dir au[b8]erdem noch sagen, dass...{pause(15)} ups!" next
+    "@Ich habe dir fast von meiner..." next
+    "@[b0]h,{pause(15)} [cb]brigends [1C 01 08],{pause(15)} hast du meine Werbetafel gesehen?" next
+    "@Ich habe sie selber beschrieben." next
+    "@Das ist mein wahrer Job,{pause(15)}... Ich bin der Werbetafel Typ." next
+    "@Warum pr[cb]fst du nicht meine Arbeit?{wait}{set(flag 10)}" eob
+
+l_0xc7434d:
+    title(1, Lier)
+    "@Seufz.{pause(20)}  Ich frage mich, wann die Polizisten abhauen..." end
+
+l_0xc7436c:
+    title(1, Lier)
+    "@[1C 01 08], Kumpel... Ich muss dir etwas sagen{pause(15)} und zwar dir allein." next
+    "@Kannst du sp[c0]ter vorbeikommen,{pause(15)} alleine?{sound(114)}" end
+
+l_0xc743b0:
+    "{unset(flag 36)}{set(flag 39)}{window_open(1)}@Hey du,{pause(15)} auf dem Schild steht{pause(15)} <KEIN Zutritt>.{pause(20)}" linebreak
+	"  Kannst du nicht lesen?" next
+    "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc74431)} {e(l_0xc74403)}]" goto(l_0xc74403)
+
+l_0xc74403:
+    "@Was f[cb]r ein rebellisches Kind!{pause(15)}  Komm sp[c0]ter in Onetts Polizeistation!{wait}{window_closeall}" eob
+
+l_0xc74431:
+    "@Also du wolltest einfach nicht lesen, hmm [19 10 01]"
+	if (result_is(2)){
+		"Kleine"
+	} else{
+		"Kleiner"
+	}
+	"..." next
+    "@Schwing deinen Hintern sp[c0]ter in Onetts Polizeistation!{wait}{window_closeall}" eob
+
+l_0xc74475:
+    "[06 49 00 {e(l_0xc74578)}]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc74509)}][19 10 01]{rtoarg}@[1C 02 00],{pause(15)} Ich habe Wachdienst f[cb]r das Versteck." next
+    "@Kannst du kurz [cb]bernehmen?" linebreak
+    "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc744e6)} {e(l_0xc744d7)}]" goto(l_0xc744d7)
+
+l_0xc744d7:
+    "@Du bist besch[c0]ftigt.{pause(15)}  Ich verstehe." end
+
+l_0xc744e6:
+    "@Ich mache nur Spa[b8].{pause(15)}  Der Wachdienst ist mein Job." end
+
+l_0xc74509:
+    "@Ah!" next
+    "@Du hast also erkannt, dass dies unser Versteck ist?" linebreak
+    "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc74565)} {e(l_0xc74545)}]" goto(l_0xc74545)
+
+l_0xc74545:
+    "@(Oh!...{pause(20)}  Hmmm)" next
+    "@Das ist kein Versteck!" end
+
+l_0xc74565:
+    "@Ich muss wohl total herausstechen..." end
+
+l_0xc74578:
+    "@[1C 01 08], das rockt!" next
+    "@Gestern,{pause(15)} bin ich endlich ein Bandenmitglied geworden.{pause(20)} " next
+	"@Bitte komm uns mal wieder besuchen." end
+
+l_0xc745b9:
+    "[06 6C 00 {e(l_0xc7460b)}]@Ich habe geh[c9]rt, dass sich auf der Bergspitze hinter dieser H[cb]tte ein riesiger Fu[b8]abdruck" next
+	"@befindet." next
+    "@Ich selbst habe ihn noch nicht gesehen...{pause(15)}" linebreak
+	"  Es ist nur ein Ger[cb]cht." end
+
+l_0xc7460b:
+    "@[b0]h, hmm.{pause(15)}  Der gro[b8]e Fu[b8]abdruck hei[b8]t Riesen Tritt.{pause(20)}  Was f[cb]r ein coller Name!" end
+
+l_0xc74646:
+    "[19 19 00 00]{swap}{result_is(170)}[1B 02 {e(data_32.l_0xc7c6b6)}][19 23 80 00 01 01 00][1F 16 80 00 00][19 23 A2 00 01 01 00][1F 16 A2 00 00]@Jup,{pause(15)} das ist der Schl[cb]ssel!{pause(20)}  Beeile dich und [c9]ffne die T[cb]r." end goto(l_0xc74690)
+
+l_0xc74690:
+    "[06 6C 00 {e(l_0xc7472f)}]@Diese H[cb]tte wurde von jemanden im Rathaus verschlossen.{pause(15)}" next
+	"@Deswegen k[c9]nnen wir nicht mehr hinein." next
+    "@Der Grund daf[cb]r ist der Dreckskerl namens Frank." next
+	"@Er hat anscheinend diesen Ort verw[cb]stet." next
+    "@Was f[cb]r eine Sauerei." next
+    "@Wir k[c9]nnen uns nicht mal umziehen{pause(15)} und die Hotels" linebreak
+	"  sind zu teuer..." end
+
+l_0xc7472f:
+    "[06 4E 00 {e(data_28.l_0xc747dc)}]@Wow.{pause(15)}  Du hast die T[cb]r ge[c9]ffnet!{pause(15)} Super!" next
+    "@Hier hast du einen Gl[cb]cksanh[c0]nger.{pause(15)}" linebreak
+	"  Es ist ein [1C 05 36]!" next
+    "[1D 03 FF][1B 02 {e(data_28.l_0xc74787)}][1D 0E 00 36]" call(data_33.l_0xc7dccf) "{set(flag 78)}" end
+

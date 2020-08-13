@@ -1,0 +1,490 @@
+/*
+ * EarthBound Text Dump
+ * Time: 22:14:19 - 03/04/2018
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+import give2
+
+Droge:
+"@Die Schublade hat ein Schloss." next
+"@Geheimzahl:"
+input(3) store_registers
+if (result_is(255)){
+	goto(Richtig)
+}
+load_registers
+if (result_is(0)){
+	if flag 985 {set(flag 987)}
+	eob
+}
+else{
+	linebreak
+	if flag 985 {set(flag 987)}
+	"@Das Schloss r[cb]hrt sich nicht." end
+}
+
+Richtig:
+if not flag 979{
+	newline
+	"@In der Schublade liegt etwas." next
+	give2(203, Droge_noroom)
+	set(flag 979)
+	unset(flag 987)
+	linebreak
+	"@Au[b8]erdem liegt dort noch eine Bedingungsanleitung." next
+	"@Auf ihr steht geschrieben:[03]"
+	goto(Anleitung)
+}
+else {
+newline
+	"@In der Schublade liegt eine Bedingungsanleitung." next
+	"@M[c9]chtest du sie lesen." newline
+	menu {
+      "Ja" : {goto(Anleitung)}
+      "Nein" : {
+		"[02]"
+	  }
+	}
+	eob
+}
+
+Droge_noroom:
+	"@Du hast aber kein Platz daf[cb]r..." end
+
+Anleitung:
+	newline
+	"{diam}(ACHTUNG!" linebreak
+	"  Dieses Item gew[c0]hrt dir Zugriff auf das Debug Men[cb]." pause(120) next
+	"{diam}Damit kannst du die einzelnen Szenen aus Mother 2" linebreak
+	"  nochmals spielen." next
+	"{diam}Gehe dazu auf <Event> und gib eine Zahl von 1 bis 70 an." next
+	"{diam}Der Rest ist eigentlich ziemlich selbsterkl[c0]rend, aber manche Funktionen lassen die Welt" next
+	"{diam}einfrieren!" next
+	"{diam}Pass also auf, dass du keinen Bl[c9]dsinn machst, wie z.B. deine Bankkarte zu vernichten und" next
+	"{diam}danach dein Spiel zu speichern." next
+	"{diam}Lass dich davon, aber nicht abschrecken und hab Spa[b8]." next
+	"{diam}[bb]brigends, wenn du zum Zeitpunkt, kurz bevor du dein Abenteuer beendet hattest," next
+	"{diam}willst, dann solltest du dir das <Event> Nr. 70 anschauen." end
+
+
+// Text Data
+l_0xc575f8:
+    "@Ich bin die ganze Zeit hier oben geblieben." next
+    "@Aber ich wei[b8] nicht wieso." end
+
+l_0xc5762c:
+    "[06 50 01 {e(l_0xc576e0)}]"
+	title(1, Warrior)
+	"@Ich wei[b8] nicht, ob es der <Dungeon Man> war, aber..." next
+    "@nordwestlich von hier steht ein komischer Turm." next
+    "@...Dieser Schl[cb]ssel, den ich vorhin aufgehoben habe, k[c9]nnte ihn [c9]ffnen." next
+    "@Du darfst den Schl[cb]ssel mitnehmen. Ich brauche ihn nicht.[1D 03 FF][1B 02 {e(l_0xc57718)}][03][1D 0E 00 C0][1B 05]" call(data_33.l_0xc7dcb6) "{set(flag 336)}{wait}{window_closeall}{isset(flag 691)}[1B 02 {e(data_50.l_0xc9992f)}]{pause(60)}" call(data_22.l_0xc692f7) eob
+
+l_0xc576e0:
+	title(1, Warrior)
+    "@Ich wei[b8] nicht, ob es der <Dungeon Man> war..." next
+    "@Nordwestlich von hier steht ein komischer Turm." end
+
+l_0xc57718:
+    next
+    "@...Aber du hast schon zu viele Sachen." end
+
+l_0xc57730:
+//Dungeon Man
+    "[06 5E 02 {e(l_0xc57753)}]@(Es sieht aus, als k[c9]nntest du hinein, aber er ist verschlossen.)" end
+
+l_0xc57753:
+    "{window_closeall}{pause(1)}[1F 21 9F]" call(data_52.l_0xc9b112) eob
+
+l_0xc57760:
+    "{store_registers}[06 5E 02 {e(l_0xc577c5)}]{load_registers}" call(data_33.l_0xc7dd2c) "{result_is(192)}[1B 02 {e(l_0xc577b2)}]{load_registers}" call(data_33.l_0xc7dd37) newline
+    "@(Der Schl[cb]ssel hat die T[cb]r ge[c9]ffnet." next
+    "@Du kannst eintreten.){wait}{wait}{set(flag 606)}{sound(119)}{window_closeall}[1F 21 9F]" call(data_52.l_0xc9b112) eob
+
+l_0xc577b2:
+    "@(Der Schl[cb]ssel passt nicht!)" end
+
+l_0xc577c5:
+    "@(Die T[cb]r ist bereits ge[c9]ffnet.)" end
+
+l_0xc577d8:
+    "[06 DA 00 {e(l_0xc57911)}]"
+    title(1, Warrior)
+	"@Auf der anderen Seite des Flusses ist ein gruseliger Ort." next
+	"@Er wird Tiefe Dunkelheit genannt." next
+    "@Die[cf]Monster[cf]sind[cf]ziemlich[cf]stark," next
+    "@und du erleidest Schaden, selbst wenn du einfach nur durch den Sumpf l[c0]ufst." next
+    "@M[c9]chtest du den Fluss [cb]berqueren,{pause(15)} auch wenn es eine dumme Idee ist?" next
+    "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc578b3)} {e(l_0xc57878)}]" goto(l_0xc57878)
+
+l_0xc57878:
+    "@Es war dumm von mir zu fragen." next
+    "@Lass uns den Sonnenuntergang [cb]ber der Tiefen Dunkelheit von hier aus angucken." end
+
+l_0xc578b3:
+    "@Der Sumpf hat keinen Boden." next
+    "@Selbst wenn du schwimmst wirst du hineingezogen." next
+    "@H[c0]ttest du ein U-Boot, dann w[cb]rde die Sache schon ganz anders aussehen.{wait}{set(flag 151)}{set(flag 762)}" eob
+
+l_0xc57911:
+	title(1, Warrior)
+    "@Du bist von deiner Erkundungstour aus der Tiefen Dunkelheit zur[cb]ckgekehrt?" next
+    "@Ich kann nicht glauben, dass du da lebend rausgekommen bist." end
+
+l_0xc57947:
+    "[06 DA 00 {e(l_0xc57955)}][06 97 00 {e(l_0xc57a26)}]" goto(l_0xc57955)
+
+l_0xc57955:
+	title(1, Brickroad)
+    "@Willkommen![03]{window_closeall}" call(data_44.l_0xc915f4) "{sound(37)}{pause(90)}{window_open(1)}"
+	title(1, Brickroad)
+	"[06 DA 00 {e(l_0xc57ad9)}]@Wir haben uns lange nicht mehr gesehen." next
+    "@Mr. [1C 02 03], wir haben uns vor langer Zeit in Winters getroffen." next
+    "@Ich bin Steinweg." next
+    "@Dr. Andonuts hat aus mir endlich den Dungeon Man gemacht." next
+	title(1, Dungeon)
+    "@Wenn du m[c9]chtest, begleite ich euch f[cb]r eine Weile." next
+    "@Das <R[cb]ckkehr Loch> ist dort dr[cb]ben." next
+    "@Spring einfach hinein und geh nach drau[b8]en.{wait}{set(flag 24)}{set(flag 445)}[1F 66 01 09 81 33 C9 00]{set(flag 507)}" eob
+
+l_0xc57a26:
+	title(1, Dungeon)
+    "@Im hinteren Bereich vom Dungeon ist noch ein altes U-Boot." next
+    "@Damit kann man den Fluss [cb]berqueren." next
+    "@Dort dr[cb]ben ist ein <Auf Wiedersehen Ausgang>..." next
+    "@Er wird dich zum U-Boot bringen." next
+    "@Vertausch aber nicht den Ausgang." next
+    "@Du musst den <Auf Wiedersehen Ausgang> nehmen!" next
+	"@Ich hoffe wir sehen uns bald wieder." end
+
+l_0xc57ad9:
+	title(1, Dungeon)
+    "@Ich wei[b8] zwar nicht genau wie, aber mein selbstgemachter Dungeon hat die weitergeholfen." next
+    "@Ich bin echt froh.{wait}{window_closeall}" eob
+
+l_0xc57b04:
+    "[06 DA 00 {e(l_0xc57b3e)}]@<Auf Wiedersehen Ausgang>" next
+    "@Eines Tages solltest du voller Mut hinunterspringen." next
+    "@                      ...Steinweg" end
+
+l_0xc57b3e:
+    "@Der Weg ist gesperrt." next
+    "@                      ...Steinweg{wait}" linebreak
+    eob
+
+l_0xc57b5c:
+    call(l_0xc57bdc) call(data_44.l_0xc90f7d) call(l_0xc57c10) call(data_44.l_0xc915d6) call(data_44.l_0xc91582) "[1F 21 38]{unset(flag 383)}" eob
+
+l_0xc57b7c:
+    call(l_0xc57bdc) call(data_44.l_0xc90f7d) call(l_0xc57c10) call(data_44.l_0xc915d6) call(data_44.l_0xc91582) "[1F 21 37]{unset(flag 383)}" eob
+
+l_0xc57b9c:
+    call(l_0xc57bdc) call(data_44.l_0xc90f7d) call(l_0xc57c10) call(data_44.l_0xc915d6) call(data_44.l_0xc91582) "[1F 21 39]{unset(flag 383)}" eob
+
+l_0xc57bbc:
+    call(l_0xc57bdc) call(data_44.l_0xc90f7d) call(l_0xc57c10) call(data_44.l_0xc915d6) call(data_44.l_0xc91582) "[1F 21 3A]{unset(flag 383)}" eob
+
+l_0xc57bdc:
+    "@<Gute Nacht Bank>." next
+    "@Auf dass du dich entspannst und K[c9]rper und Seele sich erholen." end
+
+l_0xc57c10:
+	unset(flag 980)
+    "{window_open(1)}@" call(data_33.l_0xc7e6d7) " "
+	if (flag 980){
+		"stellten ihre"
+	}
+	else{
+		"stellt [19 10 01]"
+		if (result_is(2)){"ihre"}
+		else {"seine"}
+	}
+	" Leben wieder her.{wait}{window_closeall}" eob
+
+l_0xc57c2c:
+    "{counter(3)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc57c6f)}]@([1C 02 03] pr[cb]ft das kaputte U-Boot.)" next
+	title_jeff(1)	//nicht in 1.0
+    "@Ja!{pause(20)} Es kann noch immer funktionieren.{wait}{window_closeall}" goto(data_46.l_0xc934ed)
+
+l_0xc57c6f:
+    "@(Niemand au[b8]er [1C 02 03] kann das U-Boot reparieren.)" end
+
+l_0xc57c96:
+    "@Oh, pass auf, wo du hintrittst. Dort ist es dreckig." next
+    "@Ein pummeliges Kind hat dort auf den Boden gekackt..." end
+
+l_0xc57cd4:
+    "@(Porkys Gestank liegt noch in der Luft...)" end
+
+l_0xc57cf3:
+    "@Du musst in der Lage sein die Hieroglyphen zu lesen, um das R[c0]tsel der Pyramide zu l[c9]sen." next
+    "@...Ich konnte es nicht l[c9]sen, obwohl ich sie gelesen habe." next
+    "@Hast du nicht die Hieroglyphen im Museum von Summers gelesen?" next
+    "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc57da9)} {e(l_0xc57d85)}]" goto(l_0xc57d85)
+
+l_0xc57d85:
+    "@Nun, dann musst du zur[cb]ck, die Hieroglyphen lesen, und dann wiederkommen." end
+
+l_0xc57da9:
+    "@Dann solltest du das R[c0]tsel irgendwie l[c9]sen k[c9]nnen." end
+
+l_0xc57dc6:
+    "@Hassans Laden" next
+    "@($ Dollar werden angenommen.)" end
+
+l_0xc57dea:
+    "@Das Gesicht geh[c9]rt mir.{pause(20)}" linebreak
+	"  (Du kannst es gerne ansprechen.)" next
+    "@                      ...Steinweg" end
+
+l_0xc57e1c:
+//https://legendsoflocalization.com/earthbound/giygas/#predict-this
+	title(1, Porky)
+    "@[1C 02 01]!{pause(20)} Bist du [cb]berrascht?" next
+    "@Ich bin's, Porky." next
+    "@Du kennst mich, Porky, der Verb[cb]ndete der Starken!" next
+    "@Ihr Schrotthaufen seht echt armselig aus, wisst ihr das?!" next
+    "@Der Apfel der Weisheit hat bereits Vorhergesagt, dass ihr hier auftauchen werdet." next
+    "@...Aber die Dinge werden nicht weiterhin so verlaufen, wie der Apfel der Weisheit meint." next
+    "@Ihr werdet verlieren und Meister Giygas wird" next
+	"@noch m[c0]chtiger und gruseliger werden." next
+    "@Warum?" next
+    "@Na wegen mir nat[cb]rlich." next
+    "@Dank der Leitung von Meister Giygas steht der gro[b8]e Porky nun hier." next
+    "@Der Apfel der Weisheit hat das nicht vorhergesagt." next
+    "@Meister Giygas.{pause(20)}  Nein,{pause(15)} Giygas ist nicht mehr F[cb]hrer des B[c9]ses." next
+    "@Er wurde zu das B[c9]se in Person..." next
+    "@Er hat keine Kontrolle mehr [cb]ber sich." next
+    "@Er ist die B[c9]se Energie.[03]" eob
+	
+vDroge:
+	goto(l_0xc58000)
+	
+
+l_0xc58000:
+    "{window_open(1)}" newline
+    "{diam}Debug an. W[c0]hle Funktion[18 02]{open_hp}{open_wallet}{window_open(2)}[19 02]Team[02][19 02]Item[02][19 02]Status[02][19 02]Zum Ort bewegen[02][19 02]Geld[02][19 02]Level-UP[02][19 02]Unbenutzte Skript[02][19 02]Event[02][19 02]Tipp Laden[02][19 02]Musik[02][19 02]Beschreibungen[02][19 02]Teleport[02][19 02]Tipp Karte[02][19 02]Gegner Spawn[02][1C 0C 02][11][1B 05]{window_closetop}{window_switch(1)}{clearline}" newline
+    "[1B 06][09 0E {e(l_0xc58103)} {e(l_0xc58262)} {e(l_0xc58718)} {e(data_07.l_0xc588cd)} {e(data_07.l_0xc58afb)} {e(data_07.l_0xc58a36)} {e(data_07.l_0xc58c88)} {e(data_08.l_0xc59895)} {e(data_07.l_0xc58e13)} {e(data_07.l_0xc58d09)} {e(data_09.l_0xc5a57f)} {e(data_07.l_0xc58e73)} {e(l_0xc580da)} {e(data_07.l_0xc58dbf)}]{diam}Debug aus" linebreak
+	"  Viel Spa[b8]." end
+
+l_0xc580da:
+    newline
+    "{diam}The hint shop has been marked in your map." next
+    "{set(flag 681)}{set(flag 682)}{set(flag 683)}{set(flag 684)}{set(flag 685)}{set(flag 686)}" goto(l_0xc58000)
+
+l_0xc58103:
+    "{diam}Was soll gemacht werden?" linebreak
+    "[19 02]Dazu[02][19 02]Entfernen[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc5812f)} {e(l_0xc581ee)}]" goto(l_0xc58000)
+
+l_0xc5812f:
+    "{open_hp}{diam}Welcher" linebreak
+    "  Partner?" goto(l_0xc58148)
+
+l_0xc58148:
+    "{window_open(8)}[19 02]Ness[02][19 02]Paula[02][19 02]Jeff[02][19 02]Poo[02][19 02]Porky[02][19 02]Picky[02][19 02]King[02][19 02]Tony[02][19 02]Ballon Affe[02][19 02]Dungeon Man[02][19 02]Flying Man #1[02][19 02]Flying Man #2[02][19 02]Flying Man #3[02][19 02]Flying Man #4[02][19 02]Flying Man #5[02][1C 0C 03][11][1B 05][19 04]{window_closetop}{window_switch(1)}[1B 06][1B 02 {e(l_0xc581e7)}]{swap}[1F 11 00]{open_hp}" goto(l_0xc58148)
+
+l_0xc581e7:
+    "{window_closetop}" goto(l_0xc58000)
+
+l_0xc581ee:
+    "[19 10 02][1B 02 {e(l_0xc58250)}]{diam}Wer soll entfernt werden?" linebreak
+    " Mitglied:" linebreak
+    goto(l_0xc58214)
+
+l_0xc58214:
+    "[19 10 02][1B 02 {e(l_0xc5824b)}]  [1F 52 01][1B 02 {e(l_0xc5824b)}]{clearline}{swap}[19 10 00][1B 02 {e(l_0xc58214)}]{swap}[1F 12 00]{diam}[1C 02 00] was removed." linebreak
+    goto(l_0xc58214)
+
+l_0xc5824b:
+    goto(l_0xc58000)
+
+l_0xc58250:
+    "{diam}You can't have a party of zero!" next
+    "{diam}The game will freeze if you do so.{wait}" goto(l_0xc58000)
+
+l_0xc58262:
+    newline
+    "{diam}Welche Funktion?[18 02]{open_hp}{open_wallet}{window_open(7)}[19 02]Item geben[02][19 02]Wichtige Items[02][19 02]Auff[cb]llen[02][19 02]Leeren[02][19 02]Lager F[cb]llen[02][19 02]Lager Leeren[02][19 02]Starke Waffen[02][1C 0C 01][11][1B 05]{window_closetop}[19 04]{window_switch(1)}" newline
+    "[1B 06][09 07 {e(l_0xc582f8)} {e(l_0xc58369)} {e(l_0xc58539)} {e(l_0xc58568)} {e(l_0xc585dc)} {e(l_0xc58614)} {e(l_0xc5863c)}]" goto(l_0xc58000)
+
+l_0xc582f8:
+    "{diam}Welche Item Nummer?" linebreak
+    "   [1F 52 03]{clearline}[1B 02 {e(l_0xc58364)}]{swap}[1D 03 FF][1B 02 {e(l_0xc58358)}]{store_registers}{diam}[1C 05 00]." linebreak
+    " Wer?" call(data_14.l_0xc5e52e) linebreak
+    "[1B 02 {e(l_0xc582f8)}][1D 0E 00 00]" newline
+    "{diam}Item gegeben." next
+    goto(l_0xc582f8)
+
+l_0xc58358:
+    "{diam}Inventory full." linebreak
+    "{diam}Can't add more items.{wait}" goto(l_0xc58364)
+
+l_0xc58364:
+    goto(l_0xc58000)
+
+l_0xc58369:
+    "[18 02]{window_open(12)}[19 02]H[cb]ttenschl[cb]ssel[02][19 02]Empfang-O-phon[02][19 02]Bleistift Radierer[02][19 02]Franklin Orden[02][19 02]Zellenschl[cb]ssel[02][19 02]Geldkoffer[02][19 02]Schl[cb]sselmaschine[02][19 02]Zombie Papier[02][19 02]Diamant[02][19 02]Joghurtspender[02][19 02]Hyroglyphen Kopie[02][19 02]Falkenauge[02][19 02]Kaugummipackung[02][19 02]Anti Sch[cb]chtern Buch[02][19 02]Meteoritensplitter[02][19 02]Bananogramm[02][19 02]Radierer Radierer[02][19 02]Gummikraut[02][19 02]Karottenschl[cb]ssel[02][19 02]Fahrstuhlschl[cb]ssel[02][1C 0C 01][11][1B 05]{window_closetop}[19 04]{window_switch(1)}" newline
+    "[1B 06][1B 02 {e(l_0xc58364)}]{swap}{diam}DRNSMSK." call(data_14.l_0xc5e52e) "[1B 02 {e(l_0xc58369)}]{swap}[1F C0 14 {e(l_0xc584b4)} {e(l_0xc584bb)} {e(l_0xc584c2)} {e(l_0xc584c9)} {e(l_0xc584d0)} {e(l_0xc584d7)} {e(l_0xc584de)} {e(l_0xc584e5)} {e(l_0xc584ec)} {e(l_0xc584f3)} {e(l_0xc584fa)} {e(l_0xc58501)} {e(l_0xc58508)} {e(l_0xc5850f)} {e(l_0xc58516)} {e(l_0xc5851d)} {e(l_0xc58524)} {e(l_0xc5852b)} {e(l_0xc58532)} {e(tempGoodDebug)}]" goto(l_0xc58369)
+
+tempGoodDebug:
+    "{swap}[1D 0E 00 AD]" eob
+
+l_0xc584b4:
+    "{swap}[1D 0E 00 AA]" eob
+
+l_0xc584bb:
+    "{swap}[1D 0E 00 B5]" eob
+
+l_0xc584c2:
+    "{swap}[1D 0E 00 B8]" eob
+
+l_0xc584c9:
+    "{swap}[1D 0E 00 01]" eob
+
+l_0xc584d0:
+    "{swap}[1D 0E 00 AB]" eob
+
+l_0xc584d7:
+    "{swap}[1D 0E 00 B4]" eob
+
+l_0xc584de:
+    "{swap}[1D 0E 00 AC]" eob
+
+l_0xc584e5:
+    "{swap}[1D 0E 00 AE]" eob
+
+l_0xc584ec:
+    "{swap}[1D 0E 00 B6]" eob
+
+l_0xc584f3:
+    "{swap}[1D 0E 00 8B]" eob
+
+l_0xc584fa:
+    "{swap}[1D 0E 00 B9]" eob
+
+l_0xc58501:
+    "{swap}[1D 0E 00 AF]" eob
+
+l_0xc58508:
+    "{swap}[1D 0E 00 68]" eob
+
+l_0xc5850f:
+    "{swap}[1D 0E 00 A4]" eob
+
+l_0xc58516:
+    "{swap}[1D 0E 00 C1]" eob
+
+l_0xc5851d:
+    "{swap}[1D 0E 00 B7]" eob
+
+l_0xc58524:
+    "{swap}[1D 0E 00 D2]" eob
+
+l_0xc5852b:
+    "{swap}[1D 0E 00 D3]" eob
+
+l_0xc58532:
+    "{swap}[1D 0E 00 FD]" eob
+
+l_0xc58539:
+    "{diam}Inventory maxed out with Skip Sandwiches DX." next
+    call(l_0xc58555) goto(l_0xc58000)
+
+l_0xc58555:
+    "[1D 03 FF][1B 02 {e(l_0xc58567)}][1D 0E 00 E1]" goto(l_0xc58555)
+
+l_0xc58567:
+    eob
+
+l_0xc58568:
+    "{diam}What items do you want to remove?" linebreak
+    "[19 02]Alle[02][19 02]W[c0]hlen[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc58597)} {e(l_0xc585c5)}]" goto(l_0xc58364)
+
+l_0xc58597:
+    "{counter(1)}" goto(l_0xc58599)
+
+l_0xc58599:
+    "{ctoarg}[1D 19 00][1B 03 {e(l_0xc585c4)}][19 10 00]" goto(l_0xc585a7)
+
+l_0xc585a7:
+    "[19 19 00 01]{swap}[1B 02 {e(l_0xc585be)}]{swap}[1D 0F 00 01]" goto(l_0xc585a7)
+
+l_0xc585be:
+    "{inc}" goto(l_0xc58599)
+
+l_0xc585c4:
+    eob
+
+l_0xc585c5:
+    "{open_hp}" goto(l_0xc585c7)
+
+l_0xc585c7:
+    call(data_14.l_0xc5e456) "[1B 02 {e(l_0xc585db)}][1D 0F 00 00]" goto(l_0xc585c7)
+
+l_0xc585db:
+    eob
+
+l_0xc585dc:
+    "{diam}Storage filled with" linebreak
+    "  upper tier weapons.{counter(20)}" goto(l_0xc585f2)
+
+l_0xc585f2:
+    "{ctoarg}[1D 0C 01 01][18 07 02 00 00 00 00][1B 03 {e(l_0xc5860e)}][1D 18 00]{inc}" goto(l_0xc585f2)
+
+l_0xc5860e:
+    "{wait}" goto(l_0xc58000)
+
+l_0xc58614:
+    "{diam}Storage cleared." goto(l_0xc58624)
+
+l_0xc58624:
+    "[19 1A 01][1B 02 {e(l_0xc58636)}][19 1C FF 01]" goto(l_0xc58624)
+
+l_0xc58636:
+    "{wait}" goto(l_0xc58000)
+
+l_0xc5863c:
+    "{diam}You now have been equipped" linebreak
+    "  with the ultimate weapons.[03]" call(l_0xc58659) goto(l_0xc58000)
+
+l_0xc58659:
+    "{counter(1)}" goto(l_0xc5865b)
+
+l_0xc5865b:
+    "{ctoarg}[1D 19 00][1B 03 {e(l_0xc5869b)}][19 10 00]" goto(l_0xc58669)
+
+l_0xc58669:
+    "[19 19 00 07]{swap}[1B 02 {e(l_0xc58680)}]{swap}[1D 0F 00 07]" goto(l_0xc58669)
+
+l_0xc58680:
+    "{swap}[1F C0 04 {e(l_0xc5869c)} {e(l_0xc586bd)} {e(l_0xc586de)} {e(l_0xc586ff)}]{inc}" goto(l_0xc5865b)
+
+l_0xc5869b:
+    eob
+
+l_0xc5869c:
+    "[1D 0E 01 19][1F 83 00 00][1D 0E 01 3D][1F 83 00 00][1D 0E 01 48][1F 83 00 00][1D 0E 01 56][1F 83 00 00]" eob
+
+l_0xc586bd:
+    "[1D 0E 02 22][1F 83 00 00][1D 0E 02 C2][1F 83 00 00][1D 0E 02 47][1F 83 00 00][1D 0E 02 DC][1F 83 00 00]" eob
+
+l_0xc586de:
+    "[1D 0E 03 2F][1F 83 00 00][1D 0E 03 3C][1F 83 00 00][1D 0E 03 46][1F 83 00 00][1D 0E 03 55][1F 83 00 00]" eob
+
+l_0xc586ff:
+    "[1D 0E 04 3F][1F 83 00 00][1D 0E 04 49][1F 83 00 00][1D 0E 04 57][1F 83 00 00]" eob
+
+l_0xc58718:
+    newline
+    "{diam}Auf wen?[1A 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01][1B 02 {e(l_0xc587ee)}]{store_registers}" linebreak
+    "{diam}Und was?" linebreak
+    "[18 02]{window_open(12)}[19 02]Heilen[02][19 02]Bewusstlos[02][19 02]Diamantisieren[02][19 02]Paralysieren[02][19 02]Ekeln[02][19 02]Vergiften[02][19 02]Sonnenstich[02][19 02]Schnupfen[02][19 02]Pilzen[02][19 02]Besessen[02][19 02]Heimweh[02][19 02]LP senken[02][19 02]PP senken[02][1C 0C 02][11][1B 05]{window_closetop}{window_switch(1)}[1B 06][09 0D {e(l_0xc587f3)} {e(data_07.l_0xc58813)} {e(data_07.l_0xc5882f)} {e(data_07.l_0xc58841)} {e(data_07.l_0xc5884e)} {e(data_07.l_0xc5885b)} {e(data_07.l_0xc58868)} {e(data_07.l_0xc58875)} {e(data_07.l_0xc58882)} {e(data_07.l_0xc5888f)} {e(data_07.l_0xc5889c)} {e(data_07.l_0xc588a9)} {e(data_07.l_0xc588bb)}]" goto(l_0xc58718)
+
+l_0xc587ee:
+    goto(l_0xc58000)
+
+l_0xc587f3:
+    "{load_registers}[19 05 00 01 01][19 05 00 02 01][19 05 00 06 01]{swap}[1E 00 00 64][1E 04 00 64]" goto(l_0xc58718)
+

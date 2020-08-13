@@ -1,0 +1,510 @@
+/*
+ * EarthBound Text Dump
+ * Time: 22:14:19 - 03/04/2018
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+command e(label) "{long label}"
+
+// Text Data
+l_0xef78f7:
+    newline
+    "@Hier kommt der Er[c9]ffnungsangriff von " call(l_0xef798f) "![03]" eob
+
+l_0xef790b:
+    "[1C 14 02][09 03 {e(l_0xef792b)} {e(l_0xef792e)} {e(l_0xef793c)}]{user} und Gefolgsleute{set(flag 980)}" eob
+
+l_0xef792b:
+    "{user}" eob
+
+l_0xef792e:
+	"{set(flag 980)}"
+    "{user} und Gefolgsleute" eob
+
+l_0xef793c:
+	"{set(flag 980)}"
+    "{user} und Gefolgsleute" eob
+
+l_0xef794b:
+    "[1C 14 02][09 03 {e(l_0xef796c)} {e(l_0xef7970)} {e(l_0xef797f)}]{user} und Gefolgsleute.{set(flag 980)}" eob
+
+l_0xef796c:
+    "{user}." eob
+
+l_0xef7970:
+	"{set(flag 980)}"
+    "{user} und Gefolgsleute." eob
+
+l_0xef797f:
+	"{set(flag 980)}"
+    "{user} und Gefolgsleute." eob
+
+l_0xef798f:
+    "[1C 14 02][09 03 {e(l_0xef79b1)} {e(l_0xef79b6)} {e(l_0xef79c6)}]{user} und Gefolgsleute{set(flag 980)}" eob
+
+l_0xef79b1:
+    "{user}" eob
+
+l_0xef79b6:
+	"{set(flag 980)}"
+    "{user} und Gefolgsleute" eob
+
+l_0xef79c6:
+	"{set(flag 980)}"
+    "{user} und Gefolgsleute" eob
+
+l_0xef79d7:
+    "{window_clear}{music(5)}" linebreak
+    "              [1C 08 02]" linebreak
+    "{pause(120)}" goto(l_0xef79e6)
+
+l_0xef79e6:
+    "[1F 41 11][1B 03 {e(l_0xef7a0a)}]" goto(l_0xef79ef)
+
+l_0xef79ef:
+	"{unset(flag 980)}"
+    next
+    "@" call(data_33.l_0xc7e6d7) 
+	if flag 980{
+	" erhalten " linebreak
+	"  jeder "
+	}
+	else {
+	" erh[c0]lt "
+	}
+	"{delta} Erf" call(data_60.l_0xef8fad) "{prompt}" eob
+
+l_0xef7a0a:
+    "[19 05 01 06 02]" goto(l_0xef79ef)
+
+l_0xef7a14:
+    "{window_clear}{music(184)}" linebreak
+    "              [1C 08 02]" linebreak
+    "{pause(120)}" goto(l_0xef79e6)
+
+l_0xef7a28:
+    "{window_clear}" linebreak
+    "              [1C 08 02]" linebreak
+    "{pause(90)}" linebreak
+	"{unset(flag 980)}"
+    "@" call(data_33.l_0xc7e6d7) 
+	if flag 980{
+	" erhalten " linebreak
+	"  jeder "
+	}
+	else {
+	" erh[c0]lt "
+	}
+	"{delta} Erf" call(data_60.l_0xef8fad) "{prompt}" eob
+
+l_0xef7a4d:
+    newline
+	"{unset(flag 980)}"
+    "{pause(10)}{music(7)}@" call(data_33.l_0xc7e6d7) 
+	if flag 980{
+	" haben"
+	}
+	else {
+	" hat"
+	}
+	" den Kampf verloren...{prompt}" eob
+
+l_0xef7a66:
+    newline
+    "@Das Level von {target}" linebreak
+    "  ist jetzt {delta}!{prompt}" eob
+
+l_0xef7a7d:
+    newline
+    "@" call(l_0xef7bbf) "Angriff steigt um {delta}!{prompt}" eob
+
+l_0xef7a97:
+    newline
+    "@" call(l_0xef7bbf) "Verteidigung steigt um {delta}!{prompt}" eob
+
+l_0xef7ab1:
+    newline
+    "@" call(l_0xef7bbf) "Geschwindigkeit steigt um {delta}!{prompt}" eob
+
+l_0xef7ac9:
+    newline
+    "@" call(l_0xef7bbf) "Mut steigt um {delta}!{prompt}" eob
+
+l_0xef7ae0:
+    newline
+    "@" call(l_0xef7bbf) "Vitalit[c0]t steigt um {delta}!{prompt}" eob
+
+l_0xef7afb:
+    newline
+    "@" call(l_0xef7bbf) "IQ steigt um {delta}!{prompt}" eob
+
+l_0xef7b11:
+    newline
+    "@" call(l_0xef7bbf) "Gl[cb]ck steigt um {delta}!{prompt}" eob
+
+l_0xef7b28:
+    newline
+    "@" call(l_0xef7b83) "Maximale LP steigen um {delta}!{prompt}" eob
+
+l_0xef7b46:
+    newline
+    "@" call(l_0xef7ba0) "Maximale PP steigen um {delta}!{prompt}" eob
+
+l_0xef7b64:
+    newline
+    "{sound(103)}@{target} erkannte die Kraft von" linebreak
+    "[19 1F]{swap}  [1C 12 00].{prompt}" eob goto(l_0xef7b83)
+
+l_0xef7b83:
+    "{store_registers}[19 1E][18 07 14 00 00 00 00][1B 02 {e(l_0xef7b9d)}]Krass!" linebreak
+    "  " goto(l_0xef7b9d)
+
+l_0xef7b9d:
+    "{load_registers}" eob goto(l_0xef7ba0)
+
+l_0xef7ba0:
+    "{store_registers}[19 1E][18 07 08 00 00 00 00][1B 02 {e(l_0xef7bbc)}]Das rockt!" linebreak
+    "  " goto(l_0xef7bbc)
+
+l_0xef7bbc:
+    "{load_registers}" eob goto(l_0xef7bbf)
+
+l_0xef7bbf:
+    "{store_registers}[19 1E][18 07 03 00 00 00 00][1B 02 {e(l_0xef7bdc)}]Oh, baby!" linebreak
+    "  " goto(l_0xef7bdc)
+
+l_0xef7bdc:
+    "{load_registers}" eob goto(l_0xef7c42)
+
+l_0xef7bdf:
+    newline
+    "@Der Gegner hinterl[c0]sst ein Geschenk!{prompt}" linebreak
+    "{sound(16)}{pause(1)}@Im Geschenk findest" linebreak
+    "[19 1F]{swap}  du {call(data_gender.item_article)}!{prompt}" linebreak
+    "[1D 03 FF][1B 02 {e(l_0xef7c73)}]{store_registers}" call(data_33.l_0xc7dc85) "[1B 03 {e(l_0xef7c42)}]{load_registers}{swap}@[1C 02 00]{swap} nimmt den Gegenstand mit.[1D 0E 00 00]{sound(116)}{prompt}" eob
+
+l_0xef7c42:
+    "[19 10 01]{swap}" newline
+    "@[1C 02 00] legt{load_registers} {swap}{rtoarg}{call(data_ItemText.WennDefArtikel)} zu" linebreak
+    "  {load_registers}{swap}den Sachen von [1C 02 00].{swap}[1D 0E 00 00]{sound(116)}{prompt}" eob
+
+l_0xef7c73:
+	"{unset(flag 980)}"
+    "@Aber " call(data_33.l_0xc7e6d7) 
+	if flag 980{
+	" k[c9]nnen"
+	}
+	else {
+	" kann"
+	}
+	" nichts mehr tragen.{prompt}" linebreak
+    goto(l_0xef7c89)
+
+l_0xef7c89:
+    "@M[c9]chtest du etwas" linebreak
+    "  wegwerfen?{prompt}" linebreak
+    "[19 02]Ja[02]  [19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xef7d0f)} {e(l_0xef7cb4)}]" goto(l_0xef7cb4)
+
+l_0xef7cb4:
+    "[19 1F]{swap}@L[c0]sst du dann" linebreak
+    "  {store_registers}{swap}{rtoarg}{call(data_ItemText.WennDefArtikel)}{load_registers} zur[cb]ck?{prompt}" linebreak
+    "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xef7cf8)} {e(l_0xef7ced)}]" goto(l_0xef7ced)
+
+l_0xef7ced:
+    "@Also,{prompt}" linebreak
+    goto(l_0xef7c89)
+
+l_0xef7cf8:
+	"{unset(flag 980)}"
+    "@" call(data_33.l_0xc7e74e) 
+	if flag 980{
+	" lassen"
+	}
+	else {
+	" l[c0]sst"
+	}
+	linebreak
+    "  {swap}{rtoarg}{call(data_ItemText.WennDefArtikel)}{load_registers} zur[cb]ck.{prompt}" eob
+
+l_0xef7d0f:
+    newline
+    "@Was m[c9]chtest du wegwerfen?{prompt}" call(data_14.l_0xc5e4c3) newline
+    "[1B 02 {e(l_0xef7cb4)}]{store_registers}[19 19 00 00][1D 0B 00][1B 02 {e(l_0xef7dbe)}]{load_registers}[19 19 00 00]@Du willst also" linebreak
+    "  {swap}{rtoarg}{call(data_ItemText.WennDefArtikel)}{load_registers} wegwerfen?{prompt}" linebreak
+    "[19 02]Wegwerfen[02][19 02]Tu es nicht[02][1C 07 02][11]{clearline}[09 02 {e(l_0xef7d83)} {e(l_0xef7cb4)}]" goto(l_0xef7cb4)
+
+l_0xef7d83:
+    "{load_registers}[1D 0F 00 00]{swap}@[1C 02 00]{swap} wirft {swap}{rtoarg}{call(data_ItemText.WennDefArtikel)}{load_registers} weg{prompt}" linebreak
+    "{swap}[19 1F]{swap}@und nimmt {store_registers}{swap}{rtoarg}{call(data_ItemText.WennDefArtikel)}{load_registers}.[1D 0E 00 00]{sound(116)}{pause(1)}[03]" eob goto(l_0xef7dbe)
+
+l_0xef7dbe:
+    "@Wirf {swap}{rtoarg}{call(data_ItemText.WennDefArtikel)}{load_registers} nicht weg.{prompt}" goto(l_0xef7d0f)
+
+l_0xef7dd5:
+    newline
+    "@{user} sieht" linebreak
+    "  ein Geschenk hinter dem Gegner." next
+    "{sound(16)}@Im Geschenk findest" linebreak
+    "[19 1F]{swap}  du {store_registers}{swap}{rtoarg}{call(data_ItemText.WennArtikel)}{load_registers}." next
+    "@[1C 02 03] nimmt den Gegenstand mit.[1D 0E 03 00]{sound(116)}[03]" eob goto(l_0xef7e25)
+
+l_0xef7e25:
+//TODO
+    newline
+    "{sound(25)}@{user} hat etwas" linebreak
+    "  herumgewirbelt![03]" eob
+
+l_0xef7e3e:
+    newline
+    "{sound(25)}@{user} hat sein" linebreak
+    "  Temperament verloren![03]" eob
+
+l_0xef7e55:
+    newline
+    "{sound(25)}@{user} hat etwas" linebreak
+    "  fieses gesagt!{sound(84)}[03]{pause(1)}" eob
+
+l_0xef7e70:
+    newline
+    "{sound(25)}@{user} f[cb]hrt einen" linebreak
+    "  Saugangriff aus![03]" eob
+
+l_0xef7e88:
+    newline
+    "{sound(25)}@{user} f[cb]llt eine Kraftstoffversorgung auf!{sound(89)}[03]{pause(1)}" eob
+
+l_0xef7eac:
+    newline
+    "{sound(25)}@{user} bei[b8]t mit" linebreak
+    "  giftigen Fangz[c0]hnen![03]" eob
+
+l_0xef7ed5:
+    newline
+    "{sound(25)}@{user} feuert eine" linebreak
+    "  Rakete und wird dadurch schwindelig.{sound(70)}[03]{pause(1)}" eob
+
+l_0xef7f02:
+    newline
+    "{sound(25)}@{user} startet einen" linebreak
+    "  fortlaufenden Angriff![03]" eob
+
+l_0xef7f1e:
+    newline
+    "{sound(25)}@{user} versucht" linebreak
+    "  Angriffe abzublocken.[03]" eob
+
+l_0xef7f32:
+    newline
+    "{sound(25)}@{user} speit einen" linebreak
+    "  brennenden Feuerball!{sound(75)}[03]{pause(1)}" eob
+
+l_0xef7f5a:
+//TODO
+    newline
+    "{sound(25)}@{user} st[cb]rzt rein" linebreak
+    "  und verflechtet sich mit dir![03]" eob
+
+l_0xef7f7b:
+    newline
+    "{sound(25)}@{user} greift mit einem" linebreak
+    "  vernichtenden Hieb an![03]" eob
+
+l_0xef7f9a:
+    newline
+    "{sound(25)}@{user} f[c0]ngt an zu ringen und{pause(10)} benutzt seinen Submissionen-Griff![03]" eob
+
+l_0xef7fc3:
+    newline
+    "{sound(25)}@{user} l[c0]sst den Motor heulen und beschleunigt![03]" eob
+
+l_0xef7fe0:
+    newline
+    "{sound(25)}@{user} schwingt mit" linebreak
+    "  einem Messer![03]" eob
+
+l_0xef7ffc:
+    newline
+    "{sound(25)}@{user} prescht" linebreak
+    "  gegen dich![03]" eob
+
+l_0xef8010:
+    newline
+    "{sound(25)}@{user} f[cb]hrt einen" linebreak
+    "  Bei[b8]angriff aus![03]" eob
+
+l_0xef8026:
+    newline
+    "{sound(25)}@{user} kratzt" linebreak
+    "  mit " call(objekte.SeinenIhren) " scharfen N[c0]geln![03]" eob
+
+l_0xef804b:
+    newline
+    "{sound(25)}@{user} schwingt" linebreak
+    "  " call(objekte.SeinenIhren) " Schwanz sehr heftig herum![03]" eob
+
+l_0xef806d:
+    newline
+    "{sound(25)}@{user} knurrt und" linebreak
+    "  st[cb]rzt sich nach vorne![03]" eob
+
+l_0xef808d:
+    newline
+    "{sound(25)}@{user} schwingt" linebreak
+    "  eine Einkaufst[cb]te![03]" eob
+
+l_0xef80ac:
+    newline
+    "{sound(25)}@{user} schwingt" linebreak
+    "  eine Keule![03]" eob
+
+l_0xef80c4:
+    newline
+    "{sound(25)}@{user} erzeugt" linebreak
+    "  einen Tornado!{sound(90)}[03]" eob
+
+l_0xef80e4:
+    newline
+    "{sound(25)}@{user} verspr[cb]ht einen gigantischen Wasserstrahl![03]" eob
+
+l_0xef8109:
+    newline
+    "{sound(25)}@{user} entbl[c9][b8]t" linebreak
+    "  ein bedrohliches L[c0]cheln![03]" eob
+
+l_0xef812b:
+    newline
+    "{sound(25)}@{user} f[c0]ngt an" linebreak
+    "  hysterisch zu lachen![03]" eob
+
+l_0xef814f:
+    newline
+    "{sound(25)}@{user} n[c0]hert" linebreak
+    "  sich schlagartig![03]" eob
+
+l_0xef8167:
+    newline
+    "{sound(25)}@{user} murmelt" linebreak
+    "[1F 04 02]  <1...>[1F 04 01][03]" eob
+
+l_0xef8186:
+    newline
+    "{sound(25)}@{user} murmelt" linebreak
+    "[1F 04 02]  <2...>[1F 04 01][03]" eob
+
+l_0xef81a5:
+    newline
+    "{sound(25)}@{user} fl[cb]stert" linebreak
+    "[1F 04 02]  <3...>[1F 04 01][03]" eob
+
+l_0xef81c4:
+    newline
+    "{sound(25)}@{user} f[c0]llt hin!{sound(34)}[03]" eob
+
+l_0xef81d7:
+    newline
+    "{sound(25)}@{user} ist total" linebreak
+    "  geistesabwesend.[03]" eob
+
+l_0xef81f1:
+    newline
+    "{sound(25)}@{user} erzeugt eine" linebreak
+    "  Dampfexplosion![03]" eob
+
+l_0xef8211:
+    newline
+    "{sound(25)}@{user} verh[c0]lt sich" linebreak
+    "  ganz wabbelig.[03]" eob
+
+l_0xef8226:
+    newline
+    "{sound(25)}@{user} ist ganz" linebreak
+    "  taumelig.[03]" eob
+
+l_0xef8239:
+    newline
+    "{sound(25)}@{user} hat ein" linebreak
+    "  breites Grinsen auf " call(objekte.SeinemIhrem) " Gesicht.[03]" eob
+
+l_0xef825c:
+    newline
+    "{sound(25)}@{user} atmet tief ein, f[cb]r den n[c0]chsten Angriff.[03]" eob
+
+l_0xef8281:
+    newline
+    "{sound(25)}@{user} spricht" linebreak
+    "  ein paar Gru[b8]worte![03]" eob
+
+l_0xef8299:
+    newline
+    "{sound(25)}@{user} jault mit einer" linebreak
+    "  lauten, durchbohrenden Stimme.[03]" eob
+
+l_0xef82bc:
+    newline
+    "{sound(25)}@{user} sagt" linebreak
+    "  <tick-tack>.[03]" eob
+
+l_0xef82d7:
+    newline
+    "{sound(25)}@{user} strahlt ein" linebreak
+    "  pr[c0]chtiges Licht aus![03]" eob
+
+l_0xef82f7:
+    newline
+    "{sound(25)}@{user} f[cb]hrt einen" linebreak
+    "  Elektroschockangriff aus![03]" eob
+
+l_0xef8317:
+    newline
+    "{sound(25)}@{user} verstreut" linebreak
+    "  "call(data_33.l_0xc7e66e)" Pollen herum!{sound(82)}[03]{pause(1)}" eob
+
+l_0xef833e:
+    newline
+    "{sound(25)}@{user} streckt" linebreak
+    "  "call(data_33.l_0xc7e66e)" eisige Hand aus.[03]" eob
+
+l_0xef835c:
+    newline
+    "{sound(25)}@{user} spielt" linebreak
+    "  eine Fl[c9]te mit " call(objekte.SeinemIhrem) " giftigen Atem![03]" eob
+
+l_0xef838a:
+    newline
+    "{sound(25)}@{user} spuckt" linebreak
+    "  Abgase![03]" eob
+
+l_0xef83a8:
+    newline
+    "{sound(25)}@{user} f[c0]ngt an" linebreak
+    "  wie wahnsinnig zu lachen![03]" eob
+
+l_0xef83ca:
+    newline
+    "{sound(25)}@{user} atmet" linebreak
+    "  durch " call(data_33.l_0xc7e66e) " Fl[c9]te ein![03]" eob
+
+l_0xef83ed:
+    newline
+    "{sound(25)}@{user} springt nach" linebreak
+    "  vorne und breitet "call(data_33.l_0xc7e66e)" Fl[cb]gel aus![03]" eob
+
+l_0xef8413:
+    newline
+    "{sound(25)}@{user} verh[c0]llt sich" linebreak
+    "  freundlich und liebevoll!" next
+    "@Du h[c0]ltst dich zur[cb]ck." linebreak
+    "[03]" eob
+
+l_0xef843f:
+    goto(data_57.l_0xef71df)
+
+l_0xef8444:
+    eob
+
+l_0xef8445:
+    newline
+    "@{target} verh[c0]llt sich" linebreak
+    "  ein bisschen seltsam.[03]" eob
+

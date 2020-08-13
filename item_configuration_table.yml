@@ -808,7 +808,7 @@
   - ness can use
   - paula can use
   - poo can use
-  Name: Kristall Armulett
+  Name: Kristallarmulett
   Type: 20
 57:
   Action: 240
@@ -840,7 +840,7 @@
   - ness can use
   - paula can use
   - poo can use
-  Name: Flammen Anh[c0]nger
+  Name: Flammenanh[c0]nger
   Type: 20
 59:
   Action: 240
@@ -856,7 +856,7 @@
   - ness can use
   - paula can use
   - poo can use
-  Name: Regen Anh[c0]nger
+  Name: Regenanh[c0]nger
   Type: 20
 60:
   Action: 240
@@ -872,7 +872,7 @@
   - ness can use
   - paula can use
   - poo can use
-  Name: Nacht Anh[c0]nger
+  Name: Nachtanh[c0]nger
   Type: 20
 61:
   Action: 240
@@ -888,7 +888,7 @@
   - ness can use
   - paula can use
   - poo can use
-  Name: Meeres Anh[c0]nger
+  Name: Meeresanh[c0]nger
   Type: 20
 62:
   Action: 240
@@ -1930,7 +1930,7 @@
   - ness can use
   - paula can use
   - poo can use
-  Name: Backstage-Pass
+  Name: Backstagepass
   Type: 59
 126:
   Action: 249

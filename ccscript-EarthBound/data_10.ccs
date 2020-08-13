@@ -1,0 +1,451 @@
+/*
+ * EarthBound Text Dump
+ * Time: 22:14:19 - 03/04/2018
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+command e(label) "{long label}"
+
+// Text Data
+l_0xc5bc0d:
+    "@Uuups! Sie tragen schon zu viel." end
+
+l_0xc5bc23:
+    "@Vielen Dank." next
+    eob
+
+l_0xc5bc2d:
+    "@Danke, dass Sie hier einkaufen." next
+    eob
+
+l_0xc5bc3c:
+    "@Brauchen Sie sonst noch etwas?" linebreak
+    eob
+
+l_0xc5bc4c:
+    "@[1C 02 00] tr[c0]gt schon zu viele Sachen." next
+    "@Will jemand anderes den Gegenstand tragen?" linebreak
+    eob
+
+l_0xc5bc70:
+    "@Ich mag es mein Geb[c0]ck auf der Stra[b8]e zu verkaufen." next
+    "@Klar, Fliegen landen darauf, aber meiner Meinung nach schmeckt es dann viel besser!" next
+    eob
+
+l_0xc5bcc2:
+    "@Vielen Dank." end
+
+l_0xc5bcca:
+    "@Komm blad wieder." end
+
+l_0xc5bcd2:
+    "@Was wollen Sie haben?[03]" eob
+
+l_0xc5bcdd:
+    "@[1C 05 00]?" next
+    eob
+
+l_0xc5bce5:
+    "@Wer soll den Gegenstand tragen?[03]" eob
+
+l_0xc5bcf4:
+    "@Bitte komm bald wieder." next
+    eob
+
+l_0xc5bcfd:
+    "@Sieht aus, als h[c0]tten Sie nicht genug Geld." next
+    eob
+
+l_0xc5bd0c:
+    "@Sie tragen zu viele Sachen." next
+    "@Sie solten etwas verkaufen, wegwerfen, oder einfach irgendwo liegen lassen." end
+
+l_0xc5bd49:
+    "@Vielen Dank." next
+    eob
+
+l_0xc5bd53:
+    "@Danke." next
+    eob
+
+l_0xc5bd59:
+    "@M[c9]chten Sie noch etwas anderes kaufen?" linebreak
+    eob
+
+l_0xc5bd62:
+    "@[1C 02 00] tr[c0]gt schon zu viele Sachen." next
+    "@Kann wer anderes den Gegenstand f[cb]r {swap}" call(data_33.l_0xc7e6a4) " tragen?" linebreak
+    eob
+
+l_0xc5bd92:
+    "@Also, wo ist deine Mama, oder dein Papa?" next
+    "@Ihr Kinder seid alleine den ganzen Weg hierher gegangen...?" next
+    "@Nun ja, ich kann die Bestellung zu Mitnehmen anbieten." next
+    eob
+
+l_0xc5bde0:
+    "@Dankesch[c9]n." next
+    "@Sei vorsichtig und lass es nicht fallen." end
+
+l_0xc5be00:
+    "@Wir freuen uns Sie wiederzusehen." end
+
+l_0xc5be16:
+    "@Was kann ich Ihnen servieren?[03]" eob
+
+l_0xc5be24:
+    "@[1C 05 00]?" next
+    eob
+
+l_0xc5be34:
+    "@F[cb]r wem ist die Bestellung?[03]" eob
+
+l_0xc5be45:
+    "@Bitte besuchen Sie uns bald wieder." next
+    eob
+
+l_0xc5be4e:
+    "@Entschuldigung, aber Sie k[c9]nnen die Rechnung nicht bezahlen." next
+    eob
+
+l_0xc5be6f:
+    "@Sie tragen leider schon zu viel." next
+    "@Sie k[c9]nnten einige Sachen verkaufen, oder wegwerfen." next
+    "@Kommen Sie dann bitte wieder." end
+
+l_0xc5beb3:
+    "@Danke." next
+    eob
+
+l_0xc5beba:
+    "@Danke." next
+    eob
+
+l_0xc5bec1:
+    "@Wollen Sie etwas weiteres bestellen?" linebreak
+    eob
+
+l_0xc5becd:
+    "@[1C 02 00] tr[c0]gt bereits zu viele Sachen." next
+    "@W[cb]rde jemand anderes den Gegenstand tragen?" linebreak
+    eob
+
+l_0xc5bef9:
+    "@Hallo! W[cb]rdest du gerne Gew[cb]rze f[cb]r dein Essen in der Mittagspause haben?" next
+    "@Sie sind wirklich ziemlich wunderbar!" next
+    "@Wenn du etwas essen tust, werden die Gew[cb]rze automatisch mit dem Essen" next
+	"@kombiniert." next
+    "@Sie kommen in diesen s[cb][b8]en kleinen Verpackungen und Gl[c0]sern." next
+    eob
+
+l_0xc5bf87:
+    "@Komm bald wieder." end
+
+l_0xc5bf8e:
+    "@Komm bald wieder." end
+
+l_0xc5bf95:
+    "@Welche Art von Gew[cb]rzt m[c9]chtest du?[03]" eob
+
+l_0xc5bfa1:
+    "@[1C 05 00]?" next
+    eob
+
+l_0xc5bfb0:
+    "@Wer soll den Gegenstand tragen?" next
+    eob
+
+l_0xc5bfbf:
+    "@Komm bald wieder." next
+    eob
+
+l_0xc5bfc7:
+    "@Oh, dir fehlt das Geld daf[cb]r." next
+    eob
+
+l_0xc5bfd3:
+    "@Du tr[c0]gst schon zu viele Sachen." next
+    "@Du m[cb]sstest etwas verkaufen, oder wegwerfen." next
+    "@Komm dann bitte wieder." end
+
+l_0xc5c025:
+    "@Danke." next
+    eob
+
+l_0xc5c02c:
+    "@Danke." next
+    eob
+
+l_0xc5c033:
+    "@M[c9]chtest du noch etwas kaufen?" linebreak
+    eob
+
+l_0xc5c03c:
+    "@[1C 02 00] tr[c0]gt schon zu viele Sachen." next
+    "@Kann wer anderes den Gegenstand tragen?" linebreak
+    eob
+
+l_0xc5c05f:
+//https://legendsoflocalization.com/earthbound/scaraba/#snake-snake-snake
+    title(1, Snake)
+	"@Hissss, ich bin Red Snake... C'mon!" next
+    "@Kissss of Fire!" linebreak
+	"  Achselhaaren D[cb]nger!" linebreak
+    "  Yesssssss!" next
+    eob
+
+l_0xc5c0ad:
+	title(1, Snake)
+    "@Yesssss, du hasst good sssstuff!" end
+
+l_0xc5c0cb:
+	title(1, Snake)
+    "@Oh, no..." next
+    "@Du dissssappointessst mich..." end
+
+l_0xc5c0e3:
+	title(1, Snake)
+    "@Was willst du kaufen," linebreak
+	"[19 10 01]  "
+	if (result_is(2)){"gn[c0]dige Frau"}
+	else{"guter Herr"}
+	"?[03]" eob
+
+l_0xc5c0f3:
+	title(1, Snake)
+    "@[1C 05 00]!" linebreak
+    "  Bitte sehr!" next
+    eob
+
+l_0xc5c10f:
+    title(1, Snake)
+    "@Wer wird thissss tragen?[03]" eob
+
+l_0xc5c125:
+    title(1, Snake)
+    "@Oh, no..." next
+    "@Du dissssappointessst mich..." next
+    eob
+
+l_0xc5c13e:
+    title(1, Snake)
+    "@Oh, no..." next
+    "@Du dissssappointessst mich..." next
+	"@Du hast nicht genug Geld..." next
+    eob
+
+l_0xc5c161:
+    title(1, Snake)
+    "@Du tr[c0]gssssst zu viel stuff" next
+    "@Verkauf your stuff, oder wirf ihn away!" end
+
+l_0xc5c192:
+    title(1, Snake)
+    "@Thankssssss!" next
+    eob
+
+l_0xc5c19d:
+    title(1, Snake)
+    "@Thanksssss!" next
+    eob
+
+l_0xc5c1a7:
+    title(1, Snake)
+    "@Kann ich dir etwasss weiteress anbieten?" linebreak
+    eob
+
+l_0xc5c1be:
+    title(1, Snake)
+    "@Du tr[c0]gssssst zu viel stuff." next
+    "@Can wer anderessss deine Lassst tragen?" linebreak
+    eob
+
+l_0xc5c1e5:
+    "@Komm n[c0]her!" linebreak
+    "  Ich hab das Zeugs, G!" next
+    eob
+
+l_0xc5c203:
+    "@Danke, bro!" end
+
+l_0xc5c210:
+    "@Mistkerl!" linebreak
+    "  Wie kannst du mir so etwas antun!" end
+
+l_0xc5c22e:
+    "@Wonach suchst du?!" next
+    eob
+
+l_0xc5c23b:
+    "@[1C 05 00]?" linebreak
+    "  Okay, Mann." next
+    eob
+
+l_0xc5c252:
+    "@Hey wer wird das tragen?" next
+    eob
+
+l_0xc5c268:
+    "@Alles klar, "
+	if (result_is(2)){"Schwester"}
+	else{"Bruder"}
+	"." linebreak
+    "  Willst du was anderes?" next
+    eob
+
+l_0xc5c27f:
+    "@Hey homie!" linebreak
+    "  Du hast nicht genug Knete daf[cb]r![03]" eob
+
+l_0xc5c2a5:
+    "@Ziemlich schade f[cb]r dich, aber du tr[c0]gst zu viel." end
+
+l_0xc5c2c6:
+    "@Danke, danke." next
+    eob
+
+l_0xc5c2d2:
+    "@Danke, danke." next
+    eob
+
+l_0xc5c2de:
+    "@Brauchst du noch was anderes?" linebreak
+    eob
+
+l_0xc5c2e7:
+    "@Sorry, Kumpel!" linebreak
+    "  [1C 02 00] tr[c0]gt schon zu viel." next
+    "@Will jemand anderes helfen, und das Teil tragen?" linebreak
+    eob
+
+l_0xc5c32a:
+    "@Du musst eine lange Reise vor dir haben, nicht wahr?" next
+    "@Nein, es besteht kein Grund f[cb]r Erkl[c0]rungen." next
+	"@Ich wei[b8] es bereits..." linebreak
+	"  Du musst hungrig sein." next
+    "@Da hast du aber ein gutes Timing erwischt, ich habe gerade etwas dabei." next
+    eob
+
+l_0xc5c39e:
+    "@Wenn du dich komplett erholen m[c9]chtest, kannst du dr[cb]ben zum Dorf gehen." next
+    "@Das Dorf ist voller...{pause(20)} interessanten Leuten." next
+	"@Ruh dich dort gut aus." next
+    "@Der Name des Dorfes soll wohl Saturn Tal sein," next
+    "@aber das Dorf kann nirgends auf der Karte gefunden werden." next
+    "@Ich freue mich Leuten in der Not helfen zu k[c9]nnen." next
+    "@...jedoch verlange ich einen Preis f[cb]r meine Arbeit." end
+
+l_0xc5c456:
+    "@Kommt auf jeden Fall wieder. ... Ah, mir f[c0]llt gerade ein..." next
+    "@Dr[cb]ben ist ein Dorf voller...{pause(20)} interessanten Leuten." next
+    "@Du solltest es besuchen gehen." next
+    "@Der Name des Dorfes soll wohl Saturn Tal sein," next
+    "@aber das Dorf kann nirgends auf der Karte gefunden werden." end
+
+l_0xc5c4e3:
+    "@Was m[c9]chtest du?[03]" eob
+
+l_0xc5c4ee:
+    "@[1C 05 00]?" next
+    eob
+
+l_0xc5c4fd:
+    "@Wer wird den Gegenstand tragen?" next
+    eob
+
+l_0xc5c50d:
+    "@Ich verstehe. Das ist... schade.[03]" eob
+
+l_0xc5c521:
+    "@Du... hast nicht genug Geld." next
+    eob
+
+l_0xc5c536:
+    "@Du tr[c0]gst schon zu viel." next
+    "@Verkauf, oder wirf etwas weg." end
+
+l_0xc5c564:
+    "@Danke." next
+    eob
+
+l_0xc5c56b:
+    "@Danke." next
+    eob
+
+l_0xc5c572:
+    "@M[c9]chtest du noch etwas kaufen?" linebreak
+    eob
+
+l_0xc5c57b:
+    "@[1C 02 00] tr[c0]gt schon zu viel." next
+    "@Kann wer anderes den Gegenstand tragen?" linebreak
+    eob
+
+//Scaraba Blaues Tuch Typ
+l_0xc5c59e:
+    "@Hall[c9]chen! Willkommen in meinem bescheidenen Laden!" next
+    "@Wie w[c0]re es mit ein paar ber[cb]hmten Scaraba Delikatessen?" next
+    eob
+
+l_0xc5c5dd:
+    "@Ach ja, bitte findet einen Weg mich nochmal zu besuchen." end
+
+l_0xc5c5f3:
+    "@Die Sonne ist heute gnadenlos, also passt bitte auf Euch auf." end
+
+l_0xc5c61a:
+    "@Wir haben eine Vielzahl von Dingen. Was h[c0]tten Sie gerne?[03]" eob
+
+l_0xc5c63a:
+    "@[1C 05 00]!" linebreak
+	"  Bitte sehr." next
+    eob
+
+l_0xc5c64d:
+    "@Wer wird diesen Gegenstand tragen?[03]" eob
+
+l_0xc5c65c:
+    "@Oh? Sie kaufen doch nichts? Stimmt das?" next
+    eob
+
+l_0xc5c67a:
+    "@Oh, meine G[cb]te! Sie haben nicht genug Geld." next
+    eob
+
+l_0xc5c68a:
+    "@Um Himmels willen! Sie tragen schon zu viel." next
+    "@Verkaufen Sie etwas, oder werfen Sie es einfach weg." end
+
+l_0xc5c6c3:
+    "@Vielen, vielen Dank!" next
+    eob
+
+l_0xc5c6d2:
+    "@Danke, dass Sie hier einkaufen!" next
+    eob
+
+l_0xc5c6e3:
+    "@Wollen Sie noch etwas anderes kaufen?" linebreak
+    eob
+
+l_0xc5c6ec:
+    "@Um Himmels willen!" linebreak
+    "  [1C 02 00] tr[c0]gt schon zu viel!" next
+    "@Kann wer anderes den Gegenstand tragen?" linebreak
+    eob
+
+l_0xc5c71f:
+    "@Drau[b8]en in der W[cb]ste zu wandern muss Sie wirklich hungrig und durstig machen!" next
+    eob
+
+l_0xc5c74c:
+    "@Vielen Dank." end
+
+l_0xc5c755:
+    "@Sie wollen also nichts kaufen? " end
+
+l_0xc5c765:
+    "@Was brauchen Sie?" next
+    eob
+

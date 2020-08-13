@@ -1,0 +1,572 @@
+/*
+ * EarthBound Text Dump
+ * Time: 22:14:19 - 03/04/2018
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+command e(label) "{long label}"
+
+// Text Data
+l_0xc9720d:
+    "@69{pause(15)}  68{pause(15)}  67{pause(15)}  66{pause(15)}  65{pause(15)}  64{pause(15)}  63..." next
+    "@Was?{pause(15)} Ist das ein komisches Hobby von dir?" next
+	"@Mangst du es Leuten zuzusehen, wie sie r[cb]ckw[c0]rts z[c0]hlen?" next
+    "@62{pause(15)}  61{pause(15)}  60{pause(15)}  59...{wait}{set(flag 167)}" eob
+
+l_0xc97289:
+    "@9{pause(5)}  8{pause(5)}  7{pause(1)}  6  5  4  3  2  1  0..." linebreak
+    "  Kaboooooooom!!" next
+    "@Wow!{pause(20)} Ich habe mich selbst erschrocken.{wait}{set(flag 168)}" eob
+
+l_0xc972d8:
+    "@Ich bin echt [cb]berrascht." end
+
+l_0xc972e7:
+//https://legendsoflocalization.com/earthbound/moonside/#al-la
+    "@Ich ersp[c0]he es mit meinem kleinen Auge...{pause(15)}" linebreak
+    "  Abrakadabra!" next
+    "@Ich sehe ein Land im Sommer und eine gro[b8]e silberne Kugel." next
+    "@Du hast dich verbrannt,{pause(15)} aber dir geht es gut." next
+    "@...Das ist, was ich sehe." end
+
+l_0xc9734a:
+    "@Ha! Jeder ist irgendwer!" next
+    "@Glaubst du nicht auch?" linebreak
+    "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc97394)} {e(l_0xc9737f)}]" goto(l_0xc9737f)
+
+l_0xc9737f:
+    "@Wa ha ha!" next
+    "@...He he he...!" end
+
+l_0xc97394:
+    "@Moo{pause(5)} nsi{pause(5)} dem{pause(1)} oons{pause(1)} ide." end
+
+l_0xc973b1:
+    "@Erst verhaue ich dich und dann auch dich..." next
+    "@und zwar krankenhausreif.[03]{window_closeall}{pause(1)}[1F 21 08]" eob
+
+l_0xc973e4:
+    "@Die LP von [1C 01 08] fallen runter auf 0!" next
+    "@Die LP von [1C 01 34] fallen runter auf 0!" end
+
+l_0xc9740a:
+    "@Willkommen in Moonside." next
+    "@Willkommen in Soonmide." next
+    "@Moonwill ni cosidme." end
+
+l_0xc9743d:
+    "@Soll ich dich anspitzen?" next
+    "@Ich liebe es einfach" linebreak
+	"  anzuspitzen." next
+    "@Du m[c9]chtest nicht, dass ich anspitze?" next
+    "@Sidem{pause(5)} oonsi{pause(5)} demoon." linebreak
+    "  Wilk wilk ommenwillk ommeomme." end
+
+l_0xc9749e:
+//https://legendsoflocalization.com/earthbound/moonside/#no-parking
+	"@Hey sieh mal!" "{unset(flag 980)}" call(anzParty.anz) 
+	if flag 980{
+	" Ihr seid ja Briefk[c0]sten!" linebreak
+    "  Und ihr l[c0]uft hier herum!" next
+	}
+	else {
+	" Du bist ja ein Briefkasten!" linebreak
+    "  Und du l[c0]ufst hier herum!" next
+	}
+    "@Ha ha ha... Das ist voll witzig." next
+    "@Wwwwiiillkommen kommen in Mmmmmoooonsiddeee." end
+
+l_0xc974f4:
+    "[06 A5 00 {e(l_0xc97554)}]"
+	"@Ich bin sehr besch[c0]ftigt damit nichts zu tun, also habe ich" next
+	"@auch keine Zeit f[cb]r Unterhaltungen." next
+    "@Wenn du etwas brauchst, dann sprich mit meinem Partner." next
+    "@Er ist dort dr[cb]ben...siehst du?" next
+    "@Du sagst, du kannst ihn nicht sehen?" end
+
+l_0xc97554:
+    "@Was...?" linebreak
+    "  Du suchst nach einer Art T[cb]r?" next
+    "@Du wirst aber keine finden!" next
+    "@Also verzieh dich, Loser..." next
+    "@Ich habe keine Geduld, wenn Leute mich beim Nichtstun st[c9]ren.[03]{window_closeall}{pause(1)}[1F 21 07]" eob
+
+l_0xc975cc:
+    "@Kannst du mich sehen?" linebreak
+    "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc9763a)} {e(l_0xc975f1)}]" goto(l_0xc975f1)
+
+l_0xc975f1:
+    "@Ha ha." linebreak
+    "  Du siehst mich, hmm?" next
+    "@He he. Du bist ein richtiger Moonsider geworden, nicht wahr?{wait}{set(flag 165)}[1F 66 01 20 89 76 C9 00][1F 41 05]{set(flag 11)}" eob
+
+l_0xc9763a:
+    "@Ha ha." linebreak
+    "  Kannst du nicht?" next
+    "@Du kommst definitiv nicht von hier." next
+    "@Hee hee. Mach dich auf den Weg.{pause(20)} Hier ist dein Hut, warum so eilig..." end
+
+l_0xc97689:
+    "{window_open(1)}@He he ha! Ich bin's!{pause(20)} Du kannst mich sehen, richtig?" next
+    "@Irgendwas an dir ist interessant, also werde ich dir folgen." next
+    "@Aber keine Sorge... Heh heh..." next
+    "@Wenn du in einen Kampf ger[c0]tst,{pause(20)} halte ich mich da einfach raus...{wait}[1F 66 01 21 05 77 C9 00]{window_closetop}" eob
+
+l_0xc97705:
+    "{window_open(1)}@Heh heh." linebreak
+    "  Du kannst mich nicht sehen... richtig?{wait}[1F 66 01 22 28 77 C9 00]{window_closetop}" eob
+
+l_0xc97728:
+    "{window_open(1)}@Hyuk huyk." linebreak
+    "  Hey!" next
+    "@H[c0]ttest du nicht auch gerne so einen Goldzahn wie ich?" next
+    "@Gib mir ein L[c0]cheln! Heh heh{wait}[1F 66 01 23 80 77 C9 00][1F 66 02 24 A8 77 C9 00]{window_closetop}" eob
+
+l_0xc97780:
+    "{window_open(1)}@*Grins*Grins*." next
+    "@Heh heh.{wait}[1F 67 02][1F 66 01 25 D1 77 C9 00]{window_closetop}" eob
+
+l_0xc977a8:
+    "{window_open(1)}@*L[c0]chel*L[c0]chel*" next
+    "@Heh heh.{wait}[1F 67 01][1F 66 01 26 D1 77 C9 00]{window_closetop}" eob
+
+l_0xc977d1:
+    "{window_open(1)}@[b0]h... Heh heh...{pause(20)}" linebreak
+    "  Yo!" next
+    "@Glaubst du nicht, dass meine Augenbrauen voll abgehen?" next
+    "@Pass mal auf... sie sind zusammengewachsen!{wait}{window_closetop}[1F 41 06]{unset(flag 11)}" eob
+
+l_0xc97823:
+    "[06 A5 00 {e(l_0xc978aa)}]@Die Mani Mani Statue ist dort vorne,{pause(15)} aber ich muss dich hier aufhalten." next
+    "@Denk nicht mal daran an mir vorbeizukommen." next
+    "@Weil wenn du nicht mit einem Typen mit zusammen- gewachsenen Augenbrauen" next
+	"@und Goldzahn ankommst, dann kannst du nat[cb]rlich auch nicht durch.{wait}{set(flag 774)}" eob
+
+l_0xc978aa:
+//https://legendsoflocalization.com/earthbound/moonside/#sailor-man
+    "@Die Mani Mani Statue ist dort vorne, aber ich muss dich hier aufhalten." next
+    "@Juhu!{pause(20)}" linebreak
+    "  Das [cb]berrascht mich[cf]jetzt[cf]aber!" next
+    "@Du bist ein Mann mit zusam-" linebreak
+	"  mengewachsenen Augenbrauen und du hast einen Goldzahn!" next
+    "@Hast du Lust diese G[c9]ren sitzenzulassen und einen Bourbon zu trinken!?[03][1F F1 74 05 62 01][1F 61]{set(flag 63)}" eob
+
+l_0xc9794b:
+    "@(Es ist eine goldene Statue, die du schonmal gesehen hast.)[03]" call(data_21.l_0xc68583) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}" call(data_22.l_0xc69082) "[1F F1 7E 05 7B 02]{set(flag 59)}{set(flag 75)}[1F 21 9A][1F 41 05][1F E5 FF]{pause(20)}" goto(l_0xc97990)
+
+l_0xc97990:
+    "{window_open(1)}@(Die Mani Mani Statue war in Wirklichkeit ein Ger[c0]t, dass Illusionen erschaffen hat." next
+    "@Das Illusionger[c0]t wurde zerst[c9]rt.){wait}{window_closeall}[19 26 05][1F E8 FF]" eob goto(l_0xc979e5)
+
+l_0xc979e5:
+    "@Knochen sind super!{pause(20)} Findest du Knochen auch super?" linebreak
+    "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc97a35)} {e(l_0xc97a1d)}]" goto(l_0xc97a1d)
+
+l_0xc97a1d:
+    "@Du magst Knochen?{pause(20)}" linebreak
+    "  Knochen Knochen Knochen." end
+
+l_0xc97a35:
+    "@Du magst keine Knochen?{pause(20)}" linebreak
+    "  Knochen Knochen Knochen." end
+
+l_0xc97a51:
+	title(1, Spoon)
+    "@Wei[b8]t du wessen Knochen hier zur Schau gestellt werden?" next
+    "@Die Antwort ist...{pause(30)} deine Knochen." next
+    "@Meine Knochen." next
+    "@Knochens Knochen." next
+    "@Knochen Knochen Knochen." end
+
+l_0xc97aa4:
+    call(data_21.l_0xc680e2) eob
+
+l_0xc97aaa:
+    "[19 10 01]{rtoarg}@M[c9]chten Sie zur Nacht bleiben?" next
+	"@Danke, dass Sie immer gro[b8]z[cb]giges Trinkgeld hinterlassen!" next
+    "@...Oh, Entschuldigung,{pause(15)} ich habe ja garkein Trinkgeld von Ihnen bekommen." end goto(l_0xc97b06)
+
+l_0xc97b06:
+    call(data_43.l_0xc900e8) eob
+
+l_0xc97b0c:
+    call(data_43.l_0xc9007f) eob
+
+l_0xc97b12:
+	title(1, Monotoly)
+    "@Tu mir nichts an!" linebreak
+    "  Ich bin... Ich bin nicht Monotoli![03][1F 1E 73 05 09]{pause(120)}{set(flag 631)}" eob
+
+l_0xc97b35:
+    "@Willkommen in Moonside!" next
+    "@Warum bist du nach Moonside gekommen?" next
+    "@Wie lange bleibst du in Moonside?" end
+
+l_0xc97b6b:
+    "[19 1F]{swap}[19 21 00]{result_is(2)}[1B 03 {e(l_0xc97c30)}][19 25 00][1B 03 {e(l_0xc97bc4)}][1D 20][1B 03 {e(l_0xc97bab)}]" newline
+    "@{user} nimmt" linebreak
+    "  {store_registers}{swap}{rtoarg}{call(data_ItemText.WennDefArtikel)}{load_registers} raus und" next
+    "@{target} isst den Gegenstand auf.{sound(68)}[03]" eob goto(l_0xc97bab)
+
+l_0xc97bab:
+    newline
+    "@{user}[19 1F]{swap} isst" linebreak
+    "  {store_registers}{swap}{rtoarg}{call(data_ItemText.WennDefArtikel)}{load_registers} auf.{sound(68)}[03]{pause(1)}" eob goto(l_0xc97bc4)
+
+l_0xc97bc4:
+    "{swap}{store_registers}[1D 20][1B 03 {e(l_0xc97c06)}]" newline
+    "{store_registers}@{user} nimmt" linebreak
+    "  {store_registers}{swap}{rtoarg}{call(data_ItemText.WennDefArtikel)}{load_registers}," next
+    "[19 1F]{swap}  benutzt es auf" linebreak
+    "  [1C 05 00] und" next
+    "@{target} isst den Gegenstand auf.{sound(68)}{pause(1)}[03]" eob goto(l_0xc97c06)
+
+l_0xc97c06:
+    newline
+    "@{user} nimmt" linebreak
+    "  {store_registers}{swap}{rtoarg}{call(data_ItemText.WennDefArtikel)}{load_registers}" next
+    "[19 1F]{swap}@und benutzt es auf" linebreak
+    "  {store_registers}{swap}{rtoarg}{call(data_ItemText.WennDefArtikel)}{load_registers}.{sound(68)}{pause(1)}[03]" eob goto(l_0xc97c30)
+
+l_0xc97c30:
+    "[1D 20][1B 03 {e(l_0xc97c5f)}]" newline
+    "@{user}[19 1F]{swap} nimmt" linebreak
+    "  {store_registers}{swap}{rtoarg}{call(data_ItemText.WennDefArtikel)}{load_registers}" next
+    "@und {target} trinkt den Gegenstand aus.{sound(68)}{pause(1)}[03]" eob goto(l_0xc97c5f)
+
+l_0xc97c5f:
+    newline
+    "@{user}[19 1F]{swap} trinkt" linebreak
+    "  {store_registers}{swap}{rtoarg}{call(data_ItemText.WennDefArtikel)}{load_registers}.{sound(68)}{pause(1)}[03]" eob goto(l_0xc97c7b)
+
+l_0xc97c7b:
+    newline
+    "@" call(data_33.l_0xc7e6d7) "[19 1F]{swap}{store_registers} " call(together) linebreak
+    "  {load_registers}{call(data_gender.item_def_article)} auf.{sound(68)}{pause(1)}[03]" eob
+
+together:
+    "[19 10 01]{swap}{counter(1)}" goto(tog1)
+
+tog1:
+    "{inc}{ctoarg}[1D 19 00][1B 03 {e(tog2)}][19 10 00][1D 0D 00 01 02][1B 03 {e(tog2)}][19 10 00][1D 0D 00 01 03][1B 03 {e(tog2)}]" goto(tog1)
+
+tog2:
+    "{ctoarg}{swap}[09 05 {e(tog3)} {e(tog3)} {e(tog4)} {e(tog5)} {e(tog5)}]" eob
+
+tog3:
+    "isst" eob
+
+tog4:
+    "essen" eob
+
+tog5:
+    "essen" eob
+
+l_0xc97c9d:
+    "[1D 20][1B 02 {e(l_0xc97cb0)}]" newline
+    "@Es war sehr lecker.[03]" goto(l_0xc97cb0)
+
+l_0xc97cb0:
+    eob
+
+l_0xc97cb1:
+    "[1D 20][1B 02 {e(l_0xc97cc9)}]" newline
+    "@Es hat nicht gut geschmeckt.[03]" goto(l_0xc97cc9)
+
+l_0xc97cc9:
+    eob
+
+l_0xc97cca:
+    newline
+    "@{user}[19 1F]{swap} streut" linebreak
+    "  {call(data_gender.item_def_article)} auf "call(objekte.SeinenIhren)" Kopf." next //call(data_33.l_0xc7e66e)
+    "@Schwups!! {user} verwandelt sich" linebreak
+    "  in einen gigantischen, feuer- spuckenden Drachen![03]" eob
+
+l_0xc97d21:
+    newline
+    "@{user}[19 1F]{swap} verspr[cb]ht etwas" linebreak
+    "  [1C 05 00]!{sound(71)}[03]" eob
+
+l_0xc97d43:
+    newline
+    "@{user}[19 1F]{swap} benutzt" linebreak
+    "  {call(data_gender.item_def_article)}!" next
+    "@Pl[c9]tzlich platzt etwas unbekanntes aus der Box.[03]" eob
+
+l_0xc97d75:
+    newline
+    "@{user}[19 1F]{swap} benutzt" linebreak
+    "  {call(data_gender.item_def_article)}!" next
+    "@Etwas klebriges" linebreak
+    "  sitzt jetzt am Gegner fest![03]" eob
+
+l_0xc97da3:
+    newline
+    "@{user}[19 1F]{swap} benutzt" linebreak
+    "  {call(data_gender.item_def_article)}!" next
+    "@Pl[c9]tzlich wurde etwas Forellen Joghurt" linebreak
+    "  produziert![03]" eob 
+
+l_0xc97ddc:
+    newline
+    "@{user}[19 1F]{swap} feuert" linebreak
+    "  {call(data_gender.item_def_article)}!{sound(70)}[03]" eob 
+
+l_0xc97df5:
+    newline
+    "@{user}[19 1F]{swap} feuert" linebreak
+    "  {call(data_gender.item_def_article)}!{sound(70)}{pause(8)}{sound(70)}{pause(8)}{sound(70)}{pause(8)}{sound(70)}{pause(8)}{sound(70)}{pause(8)}[03]" eob 
+
+l_0xc97e24:
+    newline
+    "@{user}[19 1F]{swap} feuert" linebreak
+    "  {call(data_gender.item_def_article)}!{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}[03]" eob
+
+l_0xc97e9e:
+    newline
+    "@{user}[19 1F]{swap} feuert" linebreak
+    "  {call(data_gender.item_def_article)}!{sound(70)}[03]" eob
+
+l_0xc97eb7:
+    newline
+    "@{user}[19 1F]{swap} wirft" linebreak
+    "  {call(data_gender.item_def_article)}!{sound(70)}[03]" eob
+
+l_0xc97ed1:
+// TODO testen
+//out of the [1C 05 00]
+    "[19 1F]{swap}" newline
+    "@{user} nimmt eine Schlange" linebreak
+    "  aus dem Schlangenbeutel" next 
+    "  und wirft sie![03]" eob
+
+l_0xc97efa:
+    newline
+    "@{user}[19 1F]{swap} benutzt {call(data_gender.item_def_article)} und " call(data_33.l_0xc7e66e) " Z[c0]hne" next
+    "@gl[c0]nzen Wei[b8] und "call(objekte.SeinIhr)" Atem ist frisch!" next
+    "@Der Glanz von "call(objekte.SeinenIhren)" Z[c0]hnen" linebreak
+    "  hat den Gegnern Angst eingejagt![03]" eob
+	
+l_0xc97f56:
+//TODO testen Mumienwickel/Handtaschengurt
+    newline
+    "[19 1F]{swap}@{user} schl[c0]gt mit" linebreak
+    "  dem [1C 05 00] um sich![03]" eob
+
+l_0xc97f72:
+    newline
+    "[19 10 02]{result_is(9)}[1B 02 {e(l_0xc97f84)}]" call(data_39.l_0xc88000) eob goto(l_0xc97f84)
+
+l_0xc97f84:
+    goto(data_39.l_0xc8807d)
+
+l_0xc97f89:
+    eob
+
+l_0xc97f8a:
+//TODO testen Schlange/Viper
+    newline
+    "@{user}[19 1F]{swap} wirft" linebreak
+    "  {call(data_gender.item_def_article)}!" next
+    "@Die [1C 05 00] beist" linebreak
+    "  den Gegner!" next
+    eob
+
+l_0xc98000:
+    "@(Die Mani Mani Statue leuchtet seltsam...){wait}{sound(113)}" eob
+
+l_0xc98024:
+//https://legendsoflocalization.com/earthbound/happy-happy-village/#power-mad
+	title(1, Carpainter)
+    "[06 7A 00 {e(l_0xc981c6)}][06 44 00 {e(l_0xc982b3)}]{set(flag 744)}"
+	"@Danke, dass du gekommen bist!{pause(15)} Ich habe schon auf dich gewartet." next
+    "@Ich brauche deine Hilfe, um diese Welt blau zu f[c0]rben" next
+    "@und sie in eine friedliche und Gl[cb]ckliche Gesellschaft zu verwandeln." next
+    "@Wirst du zusammen mit [1C 02 02] meine rechte Hand werden?" linebreak
+    "  [19 02]Ja[02]  [19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc98148)} {e(l_0xc980c1)}]" goto(l_0xc980c1)
+
+l_0xc980c1:
+    "@Wenn du nicht meine rechte Hand sein willst,{pause(15)} meine linke w[c0]re auch in Ordnung..." next
+    "@Ich mache nur Spa[b8]!{pause(20)} Deine Existenz ist ein Problem f[cb]r meine Religion." next
+    "@Trotze mir{pause(15)} und ich werde dein j[c0]mmerliches Spiel beenden![03]" call(data_21.l_0xc6847a) "[1B 03 {e(data_21.l_0xc683de)}][1D 05 FF 01][1B 03 {e(l_0xc9817a)}]" eob
+
+l_0xc98148:
+    "@Du Narr,{pause(20)} ich habe dich in meine Falle gezogen.{wait}" call(data_21.l_0xc6847a) "[1B 03 {e(data_21.l_0xc683de)}][1D 05 FF 01][1B 03 {e(l_0xc9817a)}]" eob
+
+l_0xc9817a:
+//https://legendsoflocalization.com/earthbound/happy-happy-village/#mani-mania
+    "{window_open(1)}" newline
+	title(1, Carpainter)
+    "@Siehst du diese goldene Statue hinter mir?..." next
+    "@Seit ich sie besitze,{pause(15)} kann ich absonderliche Taten vollbringen." next
+    "{set(flag 44)}" goto(l_0xc981c6)
+
+l_0xc981c6:
+    "@Bitte vergib mir, falls du es kannst...{pause(20)} Ich wollte nur ein normales Leben f[cb]hren." next
+    "@Ich entschuldige mich{pause(20)} bei jedem." next
+    "@Hier ist der Schl[cb]ssel zum Gef[c0]ngnis in der Bergh[cb]tte, wo [1C 02 02] gefangen ist." next
+    "@Nimm ihn und geh." next
+    "{set(flag 68)}{unset(flag 175)}{unset(flag 45)}{set(flag 351)}{set(flag 352)}{set(flag 353)}{set(flag 354)}{set(flag 355)}{set(flag 356)}[1D 03 FF][1B 02 {e(l_0xc9827c)}][1D 0E 00 AB]" call(data_33.l_0xc7dcb6) "{wait}{window_closeall}{unset(flag 122)}" eob
+
+l_0xc9827c:
+    "{set(flag 122)}@Dein Rucksack ist voll..." next
+    "@Du solltest ihn nehmen, auch wenn du etwas wegwerfen musst." end
+
+l_0xc982b3:
+    title(1, Carpainter)
+    "@Bitte vergib mir, falls du es kannst...{pause(20)} Ich wollte nur ein normales Leben f[cb]hren." next
+    "@Ich entschuldige mich bei jedem." end
+
+l_0xc982f2:
+    "[06 44 00 {e(l_0xc9833f)}]@<Eindringling>!" next
+    "@Ich habe geschrien,...{pause(10)} aber ich wei[b8] nicht, was ich danach machen soll!" end
+
+l_0xc9833f:
+    "@Du bist also der Junge, der... der..." next
+    "@Du hast Mr. Carpainter angegriffen und...{pause(20)} du bist gro[b8]artig!" end
+
+l_0xc98374:
+    "[06 02 00 {e(l_0xc983de)}]@Blau, blau." next
+    "@Oh, du m[c9]chtest einer von uns werden?" next
+    "@Dann gib alles auf, was du gerade tust" next
+    "@und triff den gro[b8]en Mr. Carpainter so schnell wie m[c9]glich.[03][1F F1 7A 01 15 01][1F 61]{set(flag 2)}" eob
+
+l_0xc983de:
+    "@Blau, blau." next
+    "@Gib alles auf, was du gerade tust" next
+    "@und triff den gro[b8]en Mr. Carpainter so schnell wie m[c9]glich." end
+
+l_0xc98424:
+    "[06 03 00 {e(l_0xc98465)}]@Blau, blau." next
+    "@...Was? Ich bin im Weg?{pause(20)} Okay, dann gehe ich zur Seite.[03][1F F1 7B 01 15 01][1F 61]{set(flag 3)}" eob
+
+l_0xc98465:
+    "@Blau, blau." next
+    "@Ich bin dir aus dem Weg gegangen." end
+
+l_0xc9847f:
+    "[06 04 00 {e(l_0xc984e3)}]@Blau, blau." next
+    "@...St[c9]r uns nicht.{pause(20)} Wir sind gerade am beten." next
+    "@Okay, ich gehe dir aus dem Weg. Los schnell![03][1F F1 7C 01 15 01][1F 61][1F F1 7C 01 2A 00]{set(flag 4)}" eob
+
+l_0xc984e3:
+    "@Blau, blau." next
+    "@...Ist das einer Hobbys, andere beim beten zu st[c9]ren?!" end
+
+l_0xc98517:
+    "[06 05 00 {e(l_0xc98571)}]@Blau, blau." next
+    "@...Was? Sagst du mir, dass ich es nur schaffe auf der Stelle zu laufen?" next
+    "@Das stimmt nicht, guck![03][1F F1 7D 01 16 01][1F 61][1F F1 7D 01 2A 00]{set(flag 5)}" eob
+
+l_0xc98571:
+    "@Blau, blau." next
+    "@Du scheinst Hilfe zu brauchen, weil du nur herumstehst!" end
+
+l_0xc98598:
+    "[06 06 00 {e(l_0xc985e0)}]@Gr[cb]n, gr[cb]n." next
+    "@Uuups, das ist nicht richtig...{pause(20)} Ich bin noch neu hier.[03][1F F1 7E 01 15 01][1F 61][1F F1 7E 01 2A 00]{set(flag 6)}" eob
+
+l_0xc985e0:
+    "@Blau, blau." next
+    "@Jetzt habe ich es raus.{pause(20)}" linebreak
+    "  Blau, blau." end
+
+l_0xc98602:
+    "[06 07 00 {e(l_0xc98631)}]@Blau, blau." next
+    "@Ich stelle mich wo anders hin.[03][1F F1 7F 01 16 01][1F 61]{set(flag 7)}" eob
+
+l_0xc98631:
+//Blaue Lagune
+    "@Blau, blau" next
+    "@Barsch Blau, blau." end
+
+l_0xc9864b:
+//https://legendsoflocalization.com/earthbound/happy-happy-village/#buru-blew
+    "[06 08 00 {e(l_0xc986b0)}]"
+	"@Grau, grau." next
+	"@Ich bin Farbenblind." next
+	"@Bist auch blau gef[c0]rbt?" newline
+	menu {
+      "Ja" : {
+			"@Dann musst du einer von uns sein.{pause(20)} Warte, ich lasse dich durch."
+			"[03][1F F1 80 01 15 01][1F 61][1F F1 80 01 2A 00]{set(flag 8)}" eob
+		}
+      "Nein" : {}
+	}	
+	"@Dann bist du offensichtlich" linebreak
+	"  kein Mitglied vom Gl[cb]cklich-Gl[cb]cklichismus." next
+	"@Hau ab![03]" eob
+
+	
+	
+	/*
+	"@B[cb]hlau, b[cb]hlau." next
+    "@Ich habe Verwandte, die in B[cb]hlau wohnen." next
+    "@Wie, du wei[b8]t nicht wo das ist?" next
+	"@Dann will ich mit dir auch nicht weiter reden.[03][1F F1 80 01 15 01][1F 61][1F F1 80 01 2A 00]{set(flag 8)}" eob
+	*/
+
+l_0xc986b0:
+	"@Grau, grau." next
+	"@Ich frage mich, ob die Farbe blau [cb]berhaupt existiert..." end
+	
+	/*
+    "@B[cb]hlau, b[cb]hlau." next
+    "@Das ist echt weit weg..." end
+	*/
+	
+l_0xc986cc:
+    "[06 5F 01 {e(data_32.l_0xc7c588)}]@Blau, blau." next
+    "@Ich sage,{pause(15)} <Torpedos scharf machen und volle Kraft voraus!>..." next
+    "@oder so etwas in der Art.{pause(20)}" linebreak
+	"  Also werde ich dich jetzt zerquetschen![03]" call(data_21.l_0xc68500) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}[1F F1 81 01 7B 02]{set(flag 351)}" eob
+
+l_0xc9873b:
+    "[06 60 01 {e(data_32.l_0xc7c588)}]@Blau, blau." next
+    "@St[c9]r unsere Versammlung nicht!{pause(15)} Ich werde dich zerstampfen![03]" call(data_21.l_0xc68507) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}[1F F1 82 01 7B 02]{set(flag 352)}" eob
+
+l_0xc98785:
+//https://legendsoflocalization.com/earthbound/happy-happy-village/#hell
+    "[06 61 01 {e(data_32.l_0xc7c588)}]@Blau, blau." next
+    "@Du seltsamer, unmaskierter Bursche. Fahr nicht zum Himmel![03]" call(data_21.l_0xc6850e) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}[1F F1 83 01 7B 02]{set(flag 353)}" eob
+
+l_0xc987cf:
+    "[06 62 01 {e(data_32.l_0xc7c588)}]@Blau, blau." next
+    "@Hey du! Anti-blau Junge!{pause(15)} Du gehst mir auf die Nerven![03]" call(data_21.l_0xc68515) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}[1F F1 84 01 7B 02]{set(flag 354)}" eob
+
+l_0xc9881e:
+    "[06 63 01 {e(data_32.l_0xc7c588)}]@Blau, blau." next
+    "@Es gibt keine Rettung f[cb]r die Nichtgl[c0]ubigen!{pause(15)}" linebreak
+	"  Zur H[c9]lle mit dir![03]" call(data_21.l_0xc6851c) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}[1F F1 85 01 7B 02]{set(flag 355)}" eob
+
+l_0xc9886f:
+    "[06 64 01 {e(data_32.l_0xc7c588)}]@Blau, blau." next
+    "@Das sollte dich aufwecken!{pause(15)}" linebreak
+    "  Aa{pause(5)}a{pause(5)}a{pause(5)}a{pause(5)}a{pause(5)}g{pause(5)}g{pause(5)}h{pause(5)}h{pause(5)}h!!![03]" call(data_21.l_0xc68523) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}[1F F1 86 01 7B 02]{set(flag 356)}" eob
+
+l_0xc988cb:
+    "@Blau, blau." next
+    "@Dein Outfit...{pause(20)} die Farben sind b[c9]se." end
+
+l_0xc988f1:
+    "@Blau, blau." next
+    "@Warum sollte jemand hier sein, der nicht blau ist?" end
+
+l_0xc98913:
+    "@Blau, blau." next
+    "@Man kann nicht gl[cb]cklich sein, ohne zum Gl[cb]cklich Gl[cb]cklichismus zu geh[c9]ren." end
+
+l_0xc98940:
+    "@Danke im Voraus." end
+
+l_0xc9894e:
+    "[06 44 00 {e(data_50.l_0xc98b07)}]{window_open(1)}@Entschuldigen Sie bitte, Tourist." next
+    "@Ich sammle Spenden, um die Welt vor Verschmutzung zu sch[cb]tzen." next
+    "@Spenden Sie so viel Sie m[c9]chten." linebreak
+    "{open_wallet}[19 02]Ja[02]  [19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(data_50.l_0xc98a27)} {e(l_0xc989c5)}]" goto(l_0xc989c5)
+
+l_0xc989c5:
+    "[1D 14 01 00 00 00][1B 03 {e(data_50.l_0xc989ea)}]@Ich werde dann Ihr Schatten sein.{wait}{window_closeall}" goto(data_30.l_0xc79081)
+

@@ -1,0 +1,149 @@
+/*
+ * This is an adapted version of Mr. A's ASM for the latin translation of EarthBound
+ */
+
+import asm65816
+
+
+
+
+
+//-----------------------------------------------------------------------------
+// First, we'll define a command that emits a custom table-based printing
+// function. This is just a convenience, since we have more than one such
+// function to create, but they'll all be the same except for the little
+// details like table address and entry size.
+//-----------------------------------------------------------------------------
+
+command generate_table_printer(address, size)
+{
+	REP		(0x31)
+	PHD
+	PHA
+	TDC
+	ADC_i	(0xffec)
+	TCD
+	PLA
+	STA_d	(0x12)
+	LDA_i	(short[0] address)
+	STA_d	(0x06)
+	LDA_i	(short[1] address)
+	STA_d	(0x08)
+	LDA_d	(0x12)
+	LDY_i	(size)
+	JSL		(0xC08FF7)		// $C0/8FF7 is a multiplication function often
+	CLC						// used for computing table entry addresses
+	ADC_d	(0x06)
+	STA_d	(0x06)
+	STA_d	(0x0E)
+	LDA_d	(0x08)
+	STA_d	(0x10)
+	LDA_i	(size)
+	JSL		(0xC4487C)		// $C4/487C is a truncating text-printer
+	PLD
+	RTL
+}
+
+
+
+// Very conveniently for us, there are two control codes that
+// do nothing at all -- 1F 18 and 1F 19. I don't think they're
+// even used anywhere, so we can safely hijack them.
+
+//-----------------------------------------------------------------------------
+// Next we'll allocate some space for the tables. We start running into some
+// CCScript limitations here, since the only way to "reserve" space is to
+// write something out -- so if we want to allocate a table, we pretty much
+// have to dump the desired number of zeroes into the ROM.
+//
+// We have to do some weird hacks to _conveniently_ print out lots of stuff;
+// the alternative would be to type out 6400 null bytes for each table. :P
+//-----------------------------------------------------------------------------
+
+
+// 5 null bytes
+define name_blank		= "[00 00 00 00 00 00 00]"
+define name_placeholder = "TARA[00 00 00]"
+
+
+// Just some crappy commands to easily multiply output size
+command two(s)		{ s s }
+command four(s)		{ s s s s}
+command eight(s)	{ s s s s s s s s }
+command acht(s)		{ s s s s s s s s }
+command lots(s)		four(acht(eight(s)))	// amounts to 256 times s
+
+//
+// TODO: eight(s) should really be expressible as two(two(two(s))), but CCScript
+// is still hamstrung by its idiotic attempt to prevent command recursion. Maybe
+// I should fix that sometime.
+//
+
+
+
+//
+// Item tables:
+//
+art_table:	lots(name_placeholder)
+def_art_table:	lots(name_placeholder)
+
+
+//
+// Now we emit the two functions for indefinite article and definite article printing
+//
+print_art: 	generate_table_printer(art_table, 7)
+print_def_art:  generate_table_printer(def_art_table, 7)
+
+
+//-----------------------------------------------------------------------------
+// Now, to make these functions actually usable! Fortunately for us, there
+// are two control codes in the game that do nothing at all -- 1F 18 and
+// 1F 19. So we can just hijack their place in code, overwriting them with
+// custom assembly that calls the printing functions.
+//-----------------------------------------------------------------------------
+
+// 1F 18
+ROM[0xC16582] = {
+	TXA
+	BNE		(5)
+	JSR		(0x03DC)	// get_result_register
+	LDA_d	(0x06)
+	JSL		(print_art)
+	LDA_i	(0)
+	RTS
+}
+
+// 1F 19
+ROM[0xC165AA] = {
+	TXA
+	BNE		(5)
+	JSR		(0x03DC)	// get_result_register
+	LDA_d	(0x06)
+	JSL		(print_def_art)
+	LDA_i	(0)
+	RTS
+}
+
+//-----------------------------------------------------------------------------
+// Next we define the commands for modifying the custom tables
+//-----------------------------------------------------------------------------
+
+//
+// Sets the indefinite article of the given item number
+//
+command article(item, string) {
+	ROMTBL[art_table, 7, item] = name_blank
+	ROMTBL[art_table, 7, item] = string
+}
+
+//
+// Sets the definite article of the given item number
+//
+command def_article(item, string) {
+	ROMTBL[def_art_table, 7, item] = name_blank
+	ROMTBL[def_art_table, 7, item] = string
+}
+
+// Printing
+command article_item(item)	"[1F 18 {byte item}]"
+command def_article_item(item)	"[1F 19 {byte item}]"

@@ -1,0 +1,428 @@
+/*
+ * EarthBound Text Dump
+ * Time: 22:14:19 - 03/04/2018
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+command e(label) "{long label}"
+
+// Text Data
+l_0xc8dc4f:
+    "[06 D6 00 {e(l_0xc8dd12)}][06 47 00 {e(l_0xc8dcf9)}][06 7C 00 {e(l_0xc8dcb2)}][06 28 02 {e(l_0xc8dc8d)}]"
+	"@Ich bin froh, dass du uns helfen willst,{pause(20)} aber du bist doch noch ziemlich jung." end
+
+l_0xc8dc8d:
+    "@Naja, ein Versuch ist es wert.{pause(20)} Es ist besser als nichts." end
+
+l_0xc8dcb2:
+    "@Hier, Zombie, Zombie, Zombie... Ich habe einen sch[c9]nen Knochen f[cb]r dich..." end
+
+l_0xc8dcd6:
+    "@Du verstehst vielleicht nicht, warum ich so etwas sage,{pause(10)} aber,{pause(10)} arme Zombies..." end
+
+l_0xc8dcf9:
+    "@Jetzt kannst du durch den Tunnel wann immer du willst!" end
+
+l_0xc8dd12:
+    "@In Wirklichkeit bin ich irgendwie froh, dass ich echte Zombies sehen konnte." end
+
+l_0xc8dd35:
+    "[06 D6 00 {e(l_0xc8df28)}][06 47 00 {e(l_0xc8de88)}][06 7C 00 {e(l_0xc8de2c)}][06 28 02 {e(l_0xc8de13)}][06 0E 00 {e(l_0xc8dd98)}]@Die Zombies marschieren langsam aber sicher in Richtung Zelt." next
+    "@Jedermann, ich wiederhole--{pause(15)}die Zombies sind in Bewegung!" end
+
+l_0xc8dd98:
+    "@Also, da war dieses komische Ding, dass herumgeflogen und im Friedhof abgest[cb]rzt ist..." next
+    "@Es sah so aus, als k[c0]me es{pause(20)} direkt aus einem Samstagmorgen-Cartoon!" next
+    "@Wow! Seid ihr mit diesem Apparat hierher gekommen?" end
+
+l_0xc8de13:
+    "@Ihr werdet also dieses Zelt als Falle benutzen..." end
+
+l_0xc8de2c:
+    "@Hey, hey, hey! ...dumme Zombies... kommt schon her!" end
+
+l_0xc8de4a:
+    "@Wir haben es geschafft!{pause(15)} Hast du schon ins Zelt geschaut?" next
+    "@Ja ha! Wir haben diese bl[c9]den Zombies eine Lektion erteilt!" end
+
+l_0xc8de88:
+    "@Dieses runde fliegende Ding... ein Kind mit Brille war am Bord." next
+    "@Das Fahrzeug ist in der N[c0]he vom Friedhof gelandet, richtig?" next
+    "@Kannst du es reparieren?" linebreak
+    "[19 02]Ja[02] [19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc8def6)} {e(l_0xc8df0d)}]" goto(l_0xc8df0d)
+
+l_0xc8def6:
+    "@Es war aber sehr schwer besch[c0]digt, richtig?" end
+
+l_0xc8df0d:
+    "@Das ist zwar solch eine Verschwendung, aber da k[c9]nnen wir nichts machen..." end
+
+l_0xc8df28:
+    "@Ich mochte es nicht die Zombies zu bek[c0]mpfen," next
+	"@aber diese Tage waren nie langweilig!" end
+
+l_0xc8df51:
+//https://legendsoflocalization.com/earthbound/threed-4/#paint-fixes-things
+    "@Wir haben versucht die kaputten Stellen vom Sky Walker zu [cb]bermalen." next
+    "@Ich frage mich aber, wie man dieses Ding jetzt startet." end
+
+l_0xc8df8a:
+	"@Ihr seid die Retter von Threed." next
+    "@Ich m[c9]chte, dass ihr noch bleibt,{pause(15)} aber wenn das nicht m[c9]glich ist, dann..." next
+	"@Auf Wiedersehen!" pause(10) linebreak
+    "  Danke f[cb]r alles." end
+
+l_0xc8dfbb:
+    call(data_21.l_0xc680e2) eob
+
+l_0xc8dfc1:
+    "[06 47 00 {e(l_0xc8dff7)}]"
+	"@Sei vorsichtig, wenn du drau[b8]en ruml[c0]ufst.{pause(15)} Das gilt ganz besonders f[cb]r den Friedhof." end
+
+l_0xc8dff7:
+    "@Beim Friedhof ist es besonders gef[c0]hrlich." next
+    "@Aber jetzt ist dort alles sauber, also ist es sicher, {pause(20)}nur damit du Bescheid wei[b8]t." end
+
+l_0xc8e044:
+    call(data_43.l_0xc900bd) eob
+
+l_0xc8e04a:
+    "[06 47 00 {e(l_0xc8e07c)}]@Ich bin st[c0]rker als ein Zombie," linebreak
+	"  aber ein ganzer Haufen Zombies ist auf mich los gegangen." end
+
+l_0xc8e07c:
+    "@Wenn du mich mitgenommen h[c0]ttest, um Zombies oder so zu jagen," next
+    "@dann w[c0]re ich dir eine gro[b8]e Hilfe gewesen." end
+
+l_0xc8e0ad:
+    "[06 47 00 {e(l_0xc8e0d8)}]@Die Zombies haben mich erwischt..." next
+    "@Ich h[c0]tte die Zombieversicherung doch abschlie[b8]en sollen." end
+
+l_0xc8e0d8:
+    "@Mir macht kein dummer Zombie Angst." next
+    "@Wenn ich rausgehe, verpr[cb]gle ich sie ganz alleine." next
+    "@Wenn ich's mir genau [cb]berlege,{pause(20)} m[c9]chte ich gar nicht raus." next
+	"@Die Zombies sind viel zu gruselig." end
+
+l_0xc8e132:
+    call(data_43.l_0xc9002b) eob
+
+l_0xc8e138:
+    call(data_12.l_0xc5d317) eob
+
+l_0xc8e13e:
+    call(data_12.l_0xc5d323) eob
+
+l_0xc8e144:
+    call(data_12.l_0xc5d341) eob
+
+l_0xc8e14a:
+    "[06 47 00 {e(l_0xc8e176)}]@Zombies und Geister spuken hier herum.{pause(20)} Willkommen in Threed." end
+
+l_0xc8e176:
+    "@Zombies und Geister spuken hier{pause(20)} nicht mehr herum." next
+    "@Oh ja, ihr habt die Monster beseitigt. Uuups! He he." end
+
+l_0xc8e1bd:
+    "[06 47 00 {e(l_0xc8e251)}][06 7D 00 {e(l_0xc8e218)}]@Zombies und Geister spuken[cf]hier herum, deswegen kann ich nicht nach Twoson oder Fourside." next
+    "@Vielleicht ist der versteckte Weg im Friedhof sicher..." end
+
+l_0xc8e218:
+    "@Ihr habt die Zombies beseitigt." next
+    "@Nur die Geister im Tunnel sind noch so gruselig wie immer!" end
+
+l_0xc8e251:
+    "@Wenn ihr nicht gewesen w[c0]rt,{pause(15)} h[c0]tte ich vielleicht freundlich zu den Zombies sein m[cb]ssen!" end
+
+l_0xc8e275:
+    "[06 47 00 {e(l_0xc8e2c7)}]@Scheint als w[c0]re diese Stadt ziemlich d[cb]ster, oder?" next
+    "@Die Menschen leben hier haupts[c0]chlich im Zentrum der Stadt." next
+    "@Ich frage mich, wie wir die Stadt von den Zombies zur[cb]ckgewinnen k[c9]nnen." end
+
+l_0xc8e2c7:
+    "@Diese Stadt war mal d[cb]ster,{pause(15)} aber nur dank euch ist sie jetzt am strahlen." end
+
+l_0xc8e2ea:
+    "[06 47 00 {e(l_0xc8e33b)}]@Hey, du siehst so betr[cb]bt aus.{pause(15)} Wenn das so weitergeht wirst du noch ein Zombie." next
+    "@Einige sind schon zu Werkzeugen der Zombies geworden." end
+
+l_0xc8e33b:
+    "[19 10 01]{result_is(2)}@Ich bin so froh, dass du die Zombies vernichtet hast.{pause(15)}" linebreak
+	"  Lass mich dir einen Kuss geben." next
+    "@*knutsch* {pause(15)} Ti hi hi... Ich werde schon ganz rot." end goto(l_0xc8e388)
+
+l_0xc8e388:
+    "[06 47 00 {e(l_0xc8e42a)}][06 7D 00 {e(l_0xc8e3fb)}]@Das Hauptquartier der Zombie Befreiungstruppe befindet sich im Zirkuszelt." next
+    "@Wir wollen die Zombies zerquetschen," next
+	"@aber ich denke wir werden diejenigen sein, die zerquetscht werden..." end
+
+l_0xc8e3fb:
+    "@Ich dachte die Zombies seien verschwunden... Aber sieh dich mal um..." next
+    "@Es ist noch immer d[cb]ster!" end
+
+l_0xc8e42a:
+    "@Wir haben gewonnen wegen unserem Verstand,{pause(15)} Mut{pause(15)} und Zusammenhalt." next
+    "@Wow!{pause(15)} Was f[cb]r ein Adrenalinschub!" end
+
+l_0xc8e467:
+    "[06 47 00 {e(l_0xc8e501)}]"
+	"@Laut einem Ger[cb]cht gibt es einen unterirdischen Weg im Friedhof der dich angeblich" next
+	"@irgendwo hinf[cb]hren soll." next
+    "@Wenn du diesen Weg entlang gehst," next
+    "@wirst du ein dreckiges,{pause(15)} stinkendes,{pause(15)} h[c0]ssliches und{pause(15)} starkes Monster finden." next
+    "@Nur weil ich daran gedacht habe, habe mir schon in die Hose gemacht..." end
+
+l_0xc8e501:
+    "@Du hast einige harte K[c0]mpfe [cb]berstanden!" end
+
+l_0xc8e515:
+    "[06 47 00 {e(l_0xc8e5a4)}][06 45 00 {e(l_0xc8e576)}]@?{pause(5)}?{pause(5)}? Das Zirkuszelt im Zentrum der Stadt gibt es schon eine halbe Ewigkeit." next
+    "@Ich habe aber ein anderes Zelt im S[cb]den gesehen. Wann es wohl aufgestellt wurde?" end
+
+l_0xc8e576:
+    "@Dieses komische Zelt...{pause(20)} Es war ein Monster!" next
+    "@Ich bin froh, dass ich nicht hineingegangen bin!" end
+
+l_0xc8e5a4:
+    "@Komm Threed mal wieder besuchen!" end
+
+l_0xc8e5b1:
+    "[06 47 00 {e(l_0xc8e5f7)}][06 7D 00 {e(l_0xc8e5f7)}]@Ich habe riesige Angst vor Zombies." next
+	"@Ich verbringe meine ganze Zeit nur damit von ihnen wegzulaufen." next
+    "@Ich kann nicht mal nach Hause kommen!" end
+
+l_0xc8e5f7:
+    "@Ich musste gef[cb]hlt um die ganze Welt rennen, um den Zombies zu entkommen." next
+    "@Jetzt kann ich mich nicht mehr erinnern, wo mein Haus ist..." end
+
+l_0xc8e62c:
+    "@Hey, erinnerst du dich an mich?" next
+    "@Ich musste gef[cb]hlt um die ganze Welt rennen, um den Zombies zu entkommen." next
+    "@Jetzt kann ich mich nicht mehr erinnern, wo mein Haus ist.." next
+    "@Ich habe dir das schonmal erz[c0]hlt, wei[b8]t du noch?" next
+    "@H[c0]? Ich habe dich doch noch nie gesehen?" next
+    "@Ich sch[c0]tze ich kann mir wirklich nichts richtig merken." end
+
+l_0xc8e6a9:
+    "@(Du bist echt nett, wenn du dir sogar die Zeit nimmst, um eine Maus anzusprechen." next
+	"@Diese Maus liebt dich!)" end
+
+l_0xc8e6e3:
+    "@Awuuuh![03]" eob
+
+l_0xc8e6ed:
+    "[06 47 00 {e(l_0xc8e715)}]@Wie kannst du in solch einem gef[c0]hrlichen Ort l[c0]cheln?" end
+
+l_0xc8e715:
+    "@Ich dachte mir schon, dass du mehr zu bieten hast, als nur zu l[c0]cheln." end
+
+l_0xc8e734:
+//https://legendsoflocalization.com/earthbound/threed-3/#hidden-character-2
+    "[06 47 00 {e(l_0xc8e7b3)}]@Ich habe einen Tourbus mit aufgedrehter Musik nach Fourside fahren sehen." next 
+	"@Wir k[c9]nnen aber nicht durch den Tunnel." next
+    "@Die Band war wirklich laut,{pause(15)} deswegen haben die Geister den Bus gemieden." next
+    "@Es muss toll sein, so sorglos zu leben, hm!" end
+
+l_0xc8e7b3:
+    "@Ich wollte einen Geist aus dem Tunnel fangen und als Haustier behalten." next
+    "@Ich nehme dich doch nur auf den Arm." next
+	"@Jetzt wo sie weg sind kann ich wieder die Leute piesacken." end
+
+l_0xc8e804:
+//https://legendsoflocalization.com/earthbound/threed-2/#feed-your-face
+    "[06 49 00 {e(l_0xc8e9e8)}][06 47 00 {e(l_0xc8e95d)}]@Du scheinst nicht von hier zu sein, also erz[c0]hle ich dir mal was." next
+    "@In Wahrheit{pause(15)} arbeite ich f[cb]r die Monster." next
+    "@Es sieht doch so aus, als w[cb]rden die Menschen verlieren, oder?" next
+    "@Also habe ich mich den Zombies angeschlossen, um mich zu sch[cb]tzen." next
+    "@Ihr Anf[cb]hrer liebt Fliegenhonig und sendet uns aus, um es zu sammeln." next
+    "@Du wei[b8]t schon--Bienen machen Bienenhonig und Fliegen machen Fliegenhonig." next
+    "@Anscheinend ist ihr Anf[cb]hrer super stark, weil er dieses Zeug isst.[06 45 00 {e(l_0xc8e95b)}]" next
+    "@Wir haben eine ganze Ladung davon in diesem Zelt hier unten gelagert." next
+    "@Wir werden es ihm schon sehr bald liefern." end
+
+l_0xc8e95b:
+    end
+
+l_0xc8e95d:
+    "@Ich h[c9]rte, dass du den Anf[cb]hrer der Zombies besiegt hast, nachdem ich dir meine" next
+	"@wichtigen Informationen gegeben habe." next
+    "@Heh heh heh..." next
+    "@Du solltest mir wenigstens danke sagen... oder wie w[c0]re es mit einer Massage..." next
+    "@Was guckst du mich so dreckig an, du G[c9]re!{pause(10)} *spuck* Pfui!" end
+
+l_0xc8e9e8:
+    "@...Ich bin echt erwachsener geworden, im Vergleich zu fr[cb]her." next
+    "@Ich bin gerade sehr erfolgreich mit meinem <Gesundheitsessen> Gesch[c0]ft." next
+    "@Damit kann man jede Krankheit [cb]berwinden, die man nur bekommen k[c9]nnte." next
+    "@Glaubst du nicht, dass das ein tolles Gesch[c0]ft ist?" linebreak
+    "[19 02]Ja[02] [19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc8ea79)} {e(l_0xc8ea6a)}]" goto(l_0xc8ea6a)
+
+l_0xc8ea6a:
+    "@Okay... das ist also nichts f[cb]r dich." end
+
+l_0xc8ea79:
+    "@Ich k[c9]nnte dir echt alles erz[c0]hlen und du w[cb]rdest es glauben..." end
+
+l_0xc8ea8b:
+	"@Nachdem die Busse wieder den Betrieb aufgenommen haben," next
+    "@hatte ich mich entschieden meinen Freund zu besuchen..." next
+	"@Das h[c0]tte ich lieber nicht machen sollen." end
+
+l_0xc8eace:
+    "@Woah! Digga!{pause(15)} Alter,{pause(15)} meine alte Freundin aus Twoson hat mich bis hierher gejagt, ey." next
+    "@Ich bin jetzt mega depri, weil ich 'ne andere Freundin in Threed hab, Mann." end
+
+l_0xc8eb2c:
+    "@Ha ha ha ...guck dir den mal an." next
+    "@Ich finde ihn echt scharf,{pause(15)} ups, ich meine cool.{pause(20)} Er hat mal in einer Band gespielt." end
+
+l_0xc8eb75:
+    "{window_open(1)}@Ga{pause(5)}a{pause(5)}o{pause(5)}o{pause(1)}o{pause(1)}o{pause(1)}r{pause(1)}r{pause(1)}g{pause(1)}g!!![03]{window_closeall}{pause(1)}{unset(flag 49)}" call(data_21.l_0xc68538) "[1B 03 {e(l_0xc8ebdd)}][1F 1E 13 02 09][1F 1E 14 02 09][1F 1E 15 02 09]{pause(120)}{set(flag 669)}{set(flag 69)}{unset(flag 373)}{pause(1)}[1F 21 A0]{pause(1)}[1F E5 FF]" call(data_40.l_0xc88761) "{unset(flag 11)}" goto(data_31.l_0xc7a2f7)
+
+l_0xc8ebdd:
+    "{unset(flag 11)}{set(flag 49)}" eob
+
+l_0xc8ebe4:
+    "{window_open(1)}@(Er starrt in deine Seele.)[03]{window_closeall}[06 0E 00 {e(data_50.l_0xc9992f)}]{set(flag 46)}{set(flag 433)}{set(flag 588)}" eob
+
+l_0xc8ec0f:
+    "[19 23 16 02 01 FF 00][1F 16 16 02 00][1F 1A 16 02 03]{pause(30)}[1F 1B 16 02]{window_open(1)}@(Er starrt in deine Seele.)[03]{window_closeall}{sound(114)}{pause(60)}[1F F1 17 02 F7 02][1F 61][1F E6 17 02][19 23 17 02 01 01 00][1F 16 17 02 00][1F 1A 17 02 03]{pause(30)}[1F 1B 17 02]{window_open(1)}@(Er schaut an dir vorbei.)[03]{window_closeall}[1F E9 17 02][06 0E 00 {e(data_50.l_0xc9992f)}]{set(flag 46)}{set(flag 433)}{set(flag 588)}" eob goto(l_0xc8ec90)
+
+l_0xc8ec90:
+    "{window_open(1)}@(Er schaut an dir vorbei.)[03]{window_closeall}[06 0E 00 {e(data_50.l_0xc9992f)}]{set(flag 46)}{set(flag 433)}{set(flag 588)}" eob
+
+l_0xc8ecb4:
+    call(data_12.l_0xc5d32f) eob
+
+l_0xc8ecba:
+    "@Sieh dir diese geile Schnecke vor dem Hotel an." next
+    "@Sie sieht ziemlich blass aus," linebreak
+    "@aber man ist die hei[b8]...!" end
+
+l_0xc8ed1e:
+    "[06 D6 00 {e(l_0xc8edcc)}][06 47 00 {e(l_0xc8ed87)}]"
+	"@Ich habe die geh[c9]rt, wie die Zombies <Meister R[cb]lps wird" next
+	"@uns wieder lebendig machen> gefl[cb]stert haben." next
+    "@...Meister R[cb]lps ist der Anf[cb]hrer der Zombies.{pause(15)}" linebreak
+	"  Er muss wirklich ekelhaft sein." end
+
+l_0xc8ed87:
+    "@Wie ich schon sagte, es gab diesen kotzigen B[c9]sewicht namens R[cb]lps." next
+    "@Danke, dass du ihn ordentlich poliert hast." end
+
+l_0xc8edcc:
+    "@Diese Stadt hat sich komplett ver[c0]ndert seit du das erste Mal hier warst." next
+    "@Kannst du die Liebe sp[cb]ren?" end
+
+l_0xc8ee02:
+    "[06 49 00 {e(l_0xc8eeb4)}][06 47 00 {e(l_0xc8ee6e)}]@Genau, es gibt dieses Ger[cb]cht, dass ein Monster namens R[cb]lps die Stadt verunstaltet." next
+    "@R[cb]lps!{pause(20)} Das ist ein ekelhafter,{pause(15)} verdorbener Name,{pause(20)} selbst f[cb]r ein Monster!" end
+
+l_0xc8ee6e:
+    "@R[cb]{pause(5)}[cb]{pause(5)}[cb]{pause(5)}[cb]{pause(5)}lps!" next
+    "@Uups... jetzt wird wohl <R[cb]lps> mein neuer Spitzname sein." linebreak
+	"  Hee hee hee... [c0]h... Mist." end
+
+l_0xc8eeb4:
+    "@Ist dein Rucksack nicht schon total abgenutzt?{pause(20)} Oh,wenn diese Gurte nur reden k[c9]nnten..." end //Kein Leerzeichen gewollt!
+
+l_0xc8eee5:
+    "@Ja, ich habe f[cb]r die Zombies gearbeitet," next
+    "@aber ich habe sie auch verraten.{pause(20)} Ich bin ein Betr[cb]ger, also wei[b8] ich was dort abgeht." next
+    "@R[cb]lps schenkt den Zombies neues Leben, aber er arbeitet f[cb]r Giygas," next
+    "@die angeblich weiblich sein soll." next
+    "@Naja, so genau wei[b8] ich auch nicht, was das Geschlecht von Giygas ist." next
+    "@Ich bin ein sehr n[cb]tzlicher Betr[cb]ger, nicht wahr?" end
+
+l_0xc8ef99:
+    "@Ich habe eine verd[c0]chtige Frau mit den Zombies hier in der N[c0]he reden sehen." end
+
+l_0xc8efb9:
+    "[06 47 00 {e(l_0xc8f0d2)}][06 7D 00 {e(l_0xc8f086)}][06 7C 00 {e(l_0xc8f066)}][06 28 02 {e(l_0xc8f031)}]@Ehrlich gesagt, ich bin schon ganz krank vor Sorge." next
+    "@Nein, ich bin nicht wirklich krank.{pause(20)} Ich meine ich habe riesige Angst." next
+    "@Die Umst[c0]nde in der Stadt werden immer schlimmer." end
+
+l_0xc8f031:
+    "@Dieser Typ vom Pizzaservice hat mir von dieser neuen Maschine namens" next
+	"@<Zombie Papier> erz[c0]hlt." end
+
+l_0xc8f066:
+    "@<Zombie Papier> was f[cb]r ein dummer Name." end
+
+l_0xc8f086:
+    "@Zombie Papier ja funktioniert wirklich!" next
+	"@Ich hoffe jemand erfindet als n[c0]chstes <h[cb]bsches M[c0]dchen Papier>." next
+    "@Ups,{pause(15)} das h[c0]tte ich lieber nicht sagen sollen." end
+
+l_0xc8f0d2:
+    "@Du hast wieder Frieden in unser Leben gebracht. Ich kann endlich wieder ruhig schlafen." next
+    "@Es ist so, als h[c0]ttest du ein Haufen <Frieden Papier> benutzt, oder? Ha ha ha." end
+
+l_0xc8f11b:
+    "[06 47 00 {e(l_0xc8f208)}][06 7D 00 {e(l_0xc8f1b5)}][06 28 02 {e(l_0xc8f193)}]"
+	"@Die Leute fanden mich schon schlimm, aber diese Zombies sind viel gruseliger." next
+    "@Ich habe meine Frau und Kinder zu Hause gelassen, um hierher zu fliehen." next
+    "@Daran sieht man wie gruselig die Zombies sind." end
+
+l_0xc8f193:
+    "@Du darfst tun und lassen, was du m[c9]chtest--" next
+    "@stelle nur sicher, dass du mein Leben rettest." end
+
+l_0xc8f1b5:
+    "@Diese Zombies, die am Boden kleben..." next
+    "@Ich frage mich, ob sie mich trotzdem schnappen k[c9]nnten." next
+    "@Mir ist es egal, was mit den anderen passiert,{pause(15)} ich will nur meine eigene Haut retten!" end
+
+l_0xc8f208:
+    "@In der Stadt herrscht Frieden,{pause(15)} aber meine Frau und Kinder reden nicht mehr mit mir." next
+    "@Was ist denn ihr Problem?" end
+
+l_0xc8f240:
+    "@Vor ein paar Tagen haben die Zombies zwei Kinder im Hotel geschnappt." next
+    "{unset(flag 589)}{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 02 {e(l_0xc8f296)}]@Der Junge hatte eine rote Kappe...{pause(30)} oder war sie blau?" end
+
+l_0xc8f296:
+    "@Der Junge hatte eine rote Kappe...{pause(30)} Hey!{pause(15)} Das warst du!" end
+
+l_0xc8f2b7:
+    "@Danke, dass du Frieden und Freude zur[cb]ck nach Threed gebracht hast. Vielen Dank!" next
+    "@Frieden! Und{pause(20)} Liebe!" end
+
+l_0xc8f2ef:
+    "@Ich h[c0]tte echt nicht gedacht, dass ihr Kinder wirklich die Stadt retten w[cb]rdet." next
+    "@Wer h[c0]tte das ahnen k[c9]nnen?" end
+
+l_0xc8f324:
+    "@Ich werde dich niemals vergessen." next
+    "@Kommst du Threed hin und wieder mal besuchen?" end
+
+l_0xc8f344:
+    "@Seit der Anf[cb]hrer der Monster verschwunden ist," next
+    "@sind auch die Geister im Tunnel nicht mehr zu sehen." next
+    "@Die Busse k[c9]nnen jetzt endlich wieder durch den Tunnel fahren." end
+
+l_0xc8f392:
+    "@Ich m[c9]chte die W[cb]ste durchqueren und in der Gro[b8]stadt ankommen." next
+    "@Ich m[c9]chte die Stadt sehen," linebreak
+    "  und ich m[c9]chte nach Gro[b8]stadt riechen." next
+    "@Ich bin einfach ein Gro[b8]stadt Fanatiker." end
+
+l_0xc8f3eb:
+    "@Von der Bushaltestelle beim Hotel bis ganz nach Fourside..." linebreak
+    "  kostet nochmal wie viel?" next
+	"@Wei[b8]t du das noch?" end
+
+l_0xc8f41f:
+    "[19 10 01]{rtoarg}@Vielen Dank!" end
+
+l_0xc8f42a:
+    "@Ihr seid echte Helden.{pause(20)}" linebreak
+	"  Das rockt!" end
+
+l_0xc8f43f:
+    "@Astrein!" end
+
+l_0xc8f448:
+    "@Alles klaro!" end
+

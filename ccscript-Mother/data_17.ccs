@@ -1,0 +1,565 @@
+/*
+ * EarthBound Text Dump
+ * Time: 22:14:19 - 03/04/2018
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+import asm65816
+
+// Text Data
+l_0xc6279f:
+    "[06 13 01 {e(l_0xc62819)}][06 2A 02 {e(l_0xc627ca)}]@Kyakyakyaa Kya" next
+    "@(Ich habe schon auf dich gewartet.)" end
+
+l_0xc627ca:
+    "@Kyakyekyai kya" next
+    "@(Ich werde dir Teleportation beibringen.)" next
+    "@Kyakyakya" next
+    "@(Lass uns nach drau[b8]en gehen.){wait}{window_closeall}[1F F1 3C 03 9C 02][1F 61]{set(flag 764)}{set(flag 613)}{set(flag 614)}" eob
+
+l_0xc62819:
+    "@Kyakya kyekyi?" next
+    "@(So... wie geht's dir so?)" end
+
+l_0xc6283d:
+    "@Hikikki." linebreak
+    "  (Folge mir,{pause(15)} hier entlang.){wait}{window_closeall}[1F F1 04 03 9D 02]" eob
+
+l_0xc62865:
+    "[1F 1E 04 03 06][1F 17 05 03 08 00 01]{unset(flag 614)}{set(flag 615)}{pause(1)}[19 23 05 03 01 FF 00][1F 16 05 03 00]" eob goto(l_0xc62886)
+
+l_0xc62886:
+    "[06 13 01 {e(l_0xc62b6f)}]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc62a9b)}][06 02 00 {e(l_0xc62a30)}]" goto(l_0xc628a1)
+
+l_0xc628a1:
+    "@Kyakya Kyokyo" linebreak
+    "  (Ok,{pause(15)} ich f[cb]hre es einmal vor.)" next
+    "@Kyakyakya Kyakkya" linebreak
+    "  (Wenn du es schaffst dies zu erlernen,{pause(15)} dann kannst du" next
+	"@[cb]berall hin, wo du bereits warst.)" next
+    "@Kyakkyaki kiki" linebreak
+    "  (Du kannst augenblicklich dorthin gelangen.)" next
+    "@Kyakki Kyaki" linebreak
+    "  (Diese Technick kann aber nicht in Geb[c0]uden, oder" next
+	"@im Untergrund verwendet werden.)[03]{window_closeall}[1F F1 05 03 9E 02][1F 61][1F E6 05 03]{music(13)}[1F E9 05 03][1F 61][1F E6 05 03]{music_resume}[1F E9 05 03][1F 61][1F F1 05 03 08 00][19 23 05 03 01 FF 00][1F 16 05 03 00]{pause(30)}{window_open(1)}"
+	"@Ukkie" linebreak
+    "  (Ich bin nach Fourside und wieder zur[cb]ck gereist.)" next
+    "@Kyaakyakkya" next
+    "@(Ich habe es dir mit einer einfachen geraden Strecke gezeigt, aber" next
+    "@wenn du genug Platz hast, kannst du auch genug Geschwindigkeit aufbauen," next
+	"@wenn du die Richtung wechselst.)" next
+    "@Ukkikie" linebreak
+    "  (Ok!{pause(15)} Versuch es doch mal, junger Mann!){wait}{window_closeall}{set(flag 2)}" eob goto(l_0xc62a30)
+
+l_0xc62a30:
+    "{window_open(1)}@Kyakyakyakya" next
+    "@(Versuch es doch nochmal, und diesmal vertraust du deinem Affen Lehrer.)" next
+    "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc628a1)} {e(l_0xc62a75)}]" goto(l_0xc62a75)
+
+l_0xc62a75:
+    "@Kyakyakya" linebreak
+    "  (Du magst deinen Affen Lehrer nicht?...){wait}{window_closeall}" eob
+
+l_0xc62a9b:
+    "@Uki? Kyakikie" linebreak
+    "  (Was ist mit dem Jungen mit der Roten Kappe passiert?" next
+    "@Ich wollte ihm etwas beibringen.)" next
+    "@Kyakyo" linebreak
+    "  (Aber er ist nicht hier...)" end
+
+l_0xc62ae7:
+    "{window_open(1)}@[1C 02 01] lernte, wie man PSI Teleportation benutzt.{wait}{window_closeall}[1F 71 01 01]{set(flag 275)}[19 23 05 03 01 FF 00][1F 16 05 03 00][1F 1A 05 03 03]{pause(60)}[1F 1B 05 03][1F F1 05 03 80 02][1F 61]{window_open(1)}"
+	"@Kyaho!" linebreak
+    "  (Klasse!{pause(20)} Okay,{pause(15)} der Lehrer geht jetzt nach Hause.){wait}{window_closeall}[1F F1 05 03 9F 02]{unset(flag 2)}{unset(flag 615)}{unset(flag 613)}" eob goto(l_0xc62b6f)
+
+l_0xc62b6f:
+    "@Kyai Kyai" linebreak
+    "  (Bye bye.)" end
+
+l_0xc62b87:
+    "@Kukkukukku" linebreak
+    "  (Willkommen!)" next
+    "@Kikikiykki" linebreak
+    "  (Unser Paradies existiert unterhalb dieses Loches.)" next
+    "@Kuykku kikki..." linebreak
+    "  (Talah Rama ist gro[b8]artig und nett...)" next
+    "@Kikki Kuykku" linebreak
+    "  (und er wei[b8] alles," linebreak
+	"  das stimmt wirklich...)" next
+    "@Kikku Kuekki" linebreak
+    "  (Er hat uns diese unterirdische R[c0]ume gebaut...)" end
+
+l_0xc62c50:
+    "@Kyakkyekyaekya Kyikkya" linebreak
+    "  (Talah[cf]Rama fastet gerade und)" next
+    "@Kyakkyakyekyakya" linebreak
+    "  ([cb]bt stille Meditation," next
+    "@er verzichtet auch aufs Sprechen, Rauchen und auf Alkohol.)" next
+    "@Kyapi Kyapi" linebreak
+    "@(Bitte st[c9]r ihn nicht.)" end
+
+l_0xc62cf5:
+    "@....." end
+
+l_0xc62cf9:
+    "@(Wilde W[cb]ste Zentrale f[cb]r vergrabenes Gold finden.)" end
+
+l_0xc62d23:
+    "@(Fourside immer weiter [c9]stlich.)" end
+
+l_0xc62d30:
+    "{counter(0)}{ctoarg}@Willkommen beim Bankautomaten." next
+    "@Bitte w[c0]hlen Sie Ihre gew[cb]nschte T[c0]tigung:" linebreak
+    "[19 02]Abheben[02][19 02]Einzahlen[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc62e6d)} {e(l_0xc62d93)}]" goto(l_0xc62d8a)
+
+l_0xc62d8a:
+    "@Vielen Dank." goto(l_0xc62d91)
+
+l_0xc62d91:
+    end
+
+l_0xc62d93:
+    "[1D 17 7F 96 98 00][1B 02 {e(l_0xc62e3b)}]" call(l_0xc62fd6) "[1B 02 {e(l_0xc62d8a)}]{rtoarg}[1D 14 00 00 00 00][1B 03 {e(l_0xc62df3)}][1D 09 00 00][1D 06 00 00 00 00]{open_wallet}{sound(118)}{pause(10)}"
+	"@Auf Ihrem Konto werden" linebreak
+    "  $[1C 0A 00 00 00 00] gutgeschrieben." next
+    "@Vielen Dank." goto(l_0xc62d91)
+
+l_0xc62df3:
+    "@Ung[cb]ltige Eingabe." linebreak
+	"  Bitte versuchen Sie es nochmal." next
+    goto(l_0xc62d93)
+
+l_0xc62e1b:
+    "@Sie haben nicht gen[cb]gend Geld f[cb]r eine Einzahlung." next
+    goto(l_0xc62d93)
+
+l_0xc62e3b:
+    "@Diese Maschine kann keine Einzahlung," linebreak
+    "  die gr[c9][b8]er als $9,999,999 ist bearbeiten." next
+    goto(l_0xc62d8a)
+
+l_0xc62e6d:
+    "[1D 17 01 00 00 00][1B 03 {e(l_0xc62f49)}][1D 14 9F 86 01 00][1B 02 {e(l_0xc62f72)}]" call(l_0xc62f99) "[1B 02 {e(l_0xc62d8a)}]{rtoarg}[1D 17 00 00 00 00][1B 03 {e(l_0xc62eef)}]{store_registers}[1D 07 00 00 00 00][1D 08 00 00][1D 14 A0 86 01 00][1B 02 {e(l_0xc62f1a)}]"
+	"@Ihr Konto wurde mit" linebreak
+    "  $[1C 0A 00 00 00 00] belastet." next
+    "@Bitte entnehmen Sie Ihr Bargeld.[03]{open_wallet}{sound(116)}{pause(20)}" eob
+
+l_0xc62eea:
+    goto(l_0xc62d91)
+
+l_0xc62eef:
+    "@Der gew[cb]nschte Betrag [cb]bersteigt Ihren Kontostand." next
+    goto(l_0xc62e6d)
+
+l_0xc62f1a:
+    "{load_registers}[1D 06 00 00 00 00]@Dir ist es nicht erlaubt," linebreak
+    "  mehr als $99.999 zu tragen." next
+    goto(l_0xc62e6d)
+
+l_0xc62f49:
+    "@Ihr Kontostand betr[c0]gt derzeit $0." next
+    goto(l_0xc62d8a)
+
+l_0xc62f72:
+    "@Dir ist es nicht erlaubt," linebreak
+    "  mehr als $99.999 zu tragen." next
+    goto(l_0xc62d8a)
+
+l_0xc62f99:
+    call(l_0xc63004) "@Bitte geben Sie den Betrag Ihrer Abhebung an." next
+    "@Kontostand: $[1C 01 07]" linebreak
+    goto(l_0xc62fc5)
+
+l_0xc62fc5:
+    "{open_wallet}[18 05 0A 02]&[18 05 04 02]$[1F 52 05]{clearline}" eob
+
+l_0xc62fd6:
+    call(l_0xc63004) "@Bitte geben Sie den Betrag Ihrer Einzahlung an." next
+    "@Kontostand: $[1C 01 07]" linebreak
+    goto(l_0xc62fc5)
+
+l_0xc63004:
+    "@Ihr Kontostand betr[c0]gt derzeit $[1C 01 07]." next
+    eob
+
+l_0xc63029:
+    "[1A 0A][1B 03 {e(l_0xc63032)}]" newline
+    goto(l_0xc63032)
+
+l_0xc63032:
+    eob
+
+l_0xc63033:
+    "[1A 0A][1B 03 {e(l_0xc63042)}]" newline
+    "[1D 08 01 00]{open_wallet}" goto(l_0xc63042)
+
+l_0xc63042:
+    eob
+
+l_0xc63043:
+    "@BEFEHL EINGEBEN." linebreak
+    "{open_hp}[06 74 01 {e(l_0xc63089)}][19 02]Heilen[02][19 02]Kommunizieren[02][1C 07 02]" goto(l_0xc6307c)
+
+l_0xc6307c:
+    "[11]{clearline}[09 02 {e(data_44.l_0xc915e1)} {e(l_0xc630a8)}]" eob
+
+l_0xc63089:
+    "[19 02]Reparieren[02][19 02]Kommunizieren[02][1C 07 02]" goto(l_0xc6307c)
+
+l_0xc630a8:
+    call(l_0xc63229) eob
+
+l_0xc630ae:
+    "[06 58 00 {e(l_0xc630c7)}]@(Piep-piep-piep...)" end
+
+l_0xc630c7:
+    "{ctoarg}[1B 05]@Hallo! Hallo!" linebreak
+    "  Gau[b8] Labor hier." next
+	title(1, Gauss)
+    "@Oh, hallo [1C 01 34]!" next
+    "@M[c9]chtest du, dass ich deine Reise aufzeichne?" linebreak
+    call(data_33.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc6314c)} {e(l_0xc6311e)}]" goto(l_0xc6311e)
+
+l_0xc6311e:
+    "@Du wolltest nur meine Stimme h[c9]ren?" linebreak
+    "  Gwahahahahahahah!" next
+    goto(l_0xc63146)
+
+l_0xc63146:
+    goto(l_0xc634ea)
+
+l_0xc6314b:
+    eob
+
+l_0xc6314c:
+    "[1B 06][19 26 00][06 0C 03 {e(l_0xc6315a)}]{save}" goto(l_0xc6315a)
+
+l_0xc6315a:
+    "@Alles klar, ich habe alles aufgeschrieben." next
+    "@M[c9]chtest du jetzt eine Pause machen?" linebreak
+    "[19 02]Fortfahren[02][19 02]Beenden[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc631a1)} {e(l_0xc631e3)}]" goto(l_0xc631a1)
+
+l_0xc631a1:
+    "@Du bist so flei[b8]ig geworden!" next
+    "@Ich muss jetzt wieder ran an meine Arbeit!" next
+    "@Gib dein Bestes, du schlimmer Finger!" next
+    goto(l_0xc63146)
+
+l_0xc631e3:
+    "@Ich wei[b8] nicht, wo du planst zu schlafen, aber erhol dich gut!" next
+    "@Bet[c0]tige jetzt den POWER Schalter und schlaf sch[c9]n.[1F 50]" end
+
+l_0xc63229:
+    "[06 04 03 {e(data_28.l_0xc75929)}][06 49 00 {e(l_0xc635bd)}]{ctoarg}[1B 05]" newline
+    "[19 10 01]{result_is(1)}[1B 03 {e(l_0xc632c7)}]"
+	title(1, Dad)
+	"@Hallo?" next
+    "@...Bist du das, [1C 01 08]{pause(10)}?" next
+    "@Warum verstellst du deine Stimme so?" next
+    "@Wen versuchst du vorzugeben?" next
+    "@Oh, naja. Das ist kein Problem." next
+    "@Ich sch[c0]tze mal, in solchen Zeiten brauchst du einen Sinn f[cb]r Humor." next
+    goto(l_0xc632e2)
+
+l_0xc632c7:
+	title(1, Dad)
+    "@[1C 02 01]? Hier spricht dein Papa." next
+    "{isset(flag 372)}[1F C0 01 {e(l_0xc6354b)}]" goto(l_0xc632e2)
+
+l_0xc632e2:
+    "[1D 24 01][1B 02 {e(l_0xc6333c)}]{swap}"
+	"@Ich habe $[1C 0A 00 00 00 00]" linebreak
+    "  auf dein Bankkonto [cb]berwiesen." next
+    "@Wenn wir abziehen, was du ausgegeben hast, sollte dein Kontostand..." next
+    "@$[1C 01 07] betragen." next
+    "[1D 24 02]" goto(l_0xc6333c)
+
+l_0xc6333c:
+    "{counter(1)}@Nun, die ben[c9]tigten Erfahrungspunkte bis zu n[c0]chsten Level sind...[03]" goto(l_0xc63352)
+
+l_0xc63352:
+    "{ctoarg}[1D 19 00][1B 03 {e(l_0xc633c9)}][19 10 00][1B 02 {e(l_0xc633c9)}]{rtoarg}[19 18 00][1B 02 {e(l_0xc63388)}]" newline
+    "@[1C 02 00]...{swap}[1C 0A 00 00 00 00].[03]" goto(l_0xc63382)
+
+l_0xc63382:
+    "{inc}" goto(l_0xc63352)
+
+l_0xc63388:
+    newline
+    "@[1C 02 00]..." linebreak
+    "  hat bereits {swap}" call(objekte.SeinIhr) " maximales Level erreicht." next
+    "@Das ist auch gut so, aber..." next
+    next
+    next
+    goto(l_0xc63382)
+
+l_0xc633c9:
+    newline
+    "@Wie dem auch sei, was brauchst du?" linebreak
+    "[19 02]Aufzeichnen[02][19 02]Nichts[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc63415)} {e(l_0xc63407)}]" goto(l_0xc63407)
+
+l_0xc63407:
+    "@Viel Gl[cb]ck!" next
+    goto(l_0xc634ea)
+
+l_0xc63415:
+    "[1B 06][19 26 00]{save}@Alles fertig." next
+    "@Dein lieber, alter Vater hat auch schon [cb]berlegt sich f[cb]r heute auf Ohr zu hauen." next
+    "@Ich habe dein Abenteuer bis hierher aufgeschrieben." next
+    "@Gute Nacht, schlaf gut." linebreak
+    "[19 10 01]{result_is(1)}[1B 02 {e(l_0xc63494)}]{isset(flag 372)}[1F C0 01 {e(l_0xc63593)}]" goto(l_0xc63494)
+
+l_0xc63494:
+    "[19 02]Fortfahren[02][19 02]Beenden[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc634b4)} {e(l_0xc63506)}]" goto(l_0xc634b4)
+
+l_0xc634b4:
+    "@[1C 01 08], du magst es flei[b8]ig zu arbeiten, genau wie deine Mutter." next
+    "@Aber ich glaube es ist nicht, dass es gesund ist zu [cb]bertreiben." next
+    goto(l_0xc634ea)
+
+l_0xc634ea:
+    newline
+    "{sound(11)}@(Klick! Piep-piep-piep...)" end
+
+l_0xc63506:
+    "@Wir sind ein tolles Team," linebreak
+	"  nicht wahr?" next
+    "@Du solltest den POWER Schalter bet[c0]tigen, anstatt nur RESET zu dr[cb]cken. Alles klar?[1F 50]" end
+
+l_0xc6354b:
+    title(1, Dad)
+    "@Wer ist das?! [1C 01 08]?!" linebreak
+    "  Bist du erk[c0]ltet?" next
+    "@Deine Stimme h[c9]rt sich etwas seltsam an." next
+    "@Oh, naja. Das ist okay." next
+    eob
+
+l_0xc63593:
+    "@Ich hoffe dir geht es bald wieder besser." linebreak
+    "[1D 0D 01 06 02][1B 03 {e(l_0xc635b4)}]" eob
+
+l_0xc635b4:
+    "[19 05 01 06 01]{sound(37)}" eob
+
+l_0xc635bd:
+	title(1, Dad)
+    "@Hi, hier spricht dein Papa!" linebreak
+    "  Die ben[c9]tigten Erfahrungspunkte bis..." next
+    "@Ha hah ha hah!" linebreak
+    "  Ich vermute mal, ich brauch dir das nicht mehr erz[c0]hlen!" next
+    "@... N[c0]chste Woche ist schon dein Geburtstag, [1C 01 08]." next
+    "@Ich gebe mein Bestes, damit ich f[cb]r diesen gro[b8]en Tag zu Hause bin!" next
+    "@Ich werde dir auf jeden Fall ein tolles Geschenk besorgen!" next
+    "@Ich habe deine Abenteuer aufmerksam verfolgt," next
+    "@aber ich m[c9]chte, dass du mir sie pers[c9]nlich erz[c0]hlst." next
+    "@Du h[c9]rst dich [cb]ber das Telefon viel... erwachsener an." next
+    "@...Naja, wir werden uns dann zu Hause treffen." next
+    "@Bye!" linebreak
+    "{sound(11)}  (Klick!" linebreak
+    "  Piep-piep-piep...){wait}{set(flag 772)}" eob
+
+l_0xc636e5:
+	title(1, Escargo)
+    "[06 02 03 {e(data_28.l_0xc75929)}][06 49 00 {e(l_0xc639ca)}][06 B5 00 {e(l_0xc63958)}][06 85 02 {e(l_0xc63958)}][06 B6 02 {e(l_0xc63958)}][06 B7 02 {e(l_0xc63958)}]" call(data_33.l_0xc7dd8d) "[1B 03 {e(l_0xc63958)}][06 B4 02 {e(data_18.l_0xc64946)}][06 B5 02 {e(data_18.l_0xc649b7)}]" call(l_0xc63963) goto(l_0xc6372d)
+
+l_0xc6372d:
+    call(l_0xc63ba1) "[19 02]Abholen[02][19 02]Liefern[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc63761)} {e(l_0xc63790)}]" goto(l_0xc63756)
+
+l_0xc63756:
+    call(l_0xc63bc1) call(data_18.l_0xc645f2) eob
+
+l_0xc63761:
+    "[1D 0C 01 01][18 07 02 00 00 00 00][1B 03 {e(l_0xc63786)}]" call(l_0xc63bec) "{set(flag 645)}[1F D3 03]" call(data_18.l_0xc645f2) "{set(flag 754)}" eob
+
+l_0xc63786:
+    call(l_0xc63c59) goto(l_0xc63756)
+
+l_0xc63790:
+    "{counter(1)}[19 14][1B 02 {e(l_0xc6390c)}]" call(l_0xc63ca8) goto(l_0xc6379f)
+
+l_0xc6379f:
+    "[18 02][1A 07]{window_switch(13)}{window_closetop}{window_switch(1)}" newline
+    "[1B 02 {e(l_0xc63756)}]{swap}{store_registers}[19 1A 00]{swap}"
+	"@[1C 05 00]?" linebreak
+	if flag 983{
+	"  Brauchst du noch etwas?"
+	}
+	else{
+	"  Brauchen Sie noch etwas?" 
+	}
+    linebreak
+    "{load_registers}[19 1C FF 00]" call(data_33.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc637e8)} {e(l_0xc63888)}]" goto(l_0xc63888)
+
+l_0xc637e8:
+    "{counter(1)}[19 14][1B 02 {e(l_0xc63916)}]"
+	"@W[c0]hle einen Gegenstand.[03][18 02][1A 07]{window_switch(13)}{window_closetop}{window_switch(1)}" newline
+    "[1B 02 {e(l_0xc63888)}]{swap}{store_registers}[19 1A 00]{swap}@[1C 05 00]?" linebreak
+    if flag 983{
+	"  Brauchst du noch etwas?"
+	}
+	else{
+	"  Brauchen Sie noch etwas?" 
+	} linebreak
+    "{load_registers}[19 1C FF 00]" call(data_33.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc63848)} {e(l_0xc63888)}]" goto(l_0xc63888)
+
+l_0xc63848:
+    "{counter(1)}[19 14][1B 02 {e(l_0xc63916)}]@W[c0]hle einen Gegenstand.[03][18 02][1A 07]{window_switch(13)}{window_closetop}{window_switch(1)}" newline
+    "[1B 02 {e(l_0xc63888)}]{swap}{store_registers}[19 1A 00]{swap}@[1C 05 00]?" next
+    "{load_registers}[19 1C FF 00]" goto(l_0xc63888)
+
+l_0xc63888:
+    "@Nur zur Best[c0]tigung, "
+	if flag 983{
+	"du m[c9]chtest"
+	}
+	else{
+	"Sie m[c9]chten"
+	}
+	" folgendes geliefert bekommen:" next
+    "[19 1D 01 00]@[1C 05 00][19 1D 02 00][1B 02 {e(l_0xc638d4)}]" linebreak
+    "  [1C 05 00][19 1D 03 00][1B 02 {e(l_0xc638d4)}]" linebreak
+    "  und [1C 05 00]." goto(l_0xc638d4)
+
+l_0xc638d4:
+    "[03]" newline
+    "@Ist das richtig?" linebreak
+    call(data_33.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc638f8)} {e(l_0xc6393e)}]" goto(l_0xc6393e)
+
+l_0xc638f8:
+    call(l_0xc63d25) "{set(flag 181)}[1F D3 02]" call(data_18.l_0xc645f2) "{set(flag 754)}" eob
+
+l_0xc6390c:
+    call(data_18.l_0xc63d54) goto(l_0xc63756)
+
+l_0xc63916:
+    "[19 10 01]{swap}@Derzeit bewahren wir keine Gegenst[c0]nde von [1C 02 00] auf." next
+    goto(l_0xc63888)
+
+l_0xc6393e:
+    call(data_18.l_0xc64650) "@Na dann, fang bitte von vorne an." next
+    goto(l_0xc6379f)
+
+l_0xc63958:
+    call(data_18.l_0xc63de3) call(data_18.l_0xc645f2) eob
+
+l_0xc63963:
+	{unset(flag 983)}
+	title(1, Escargo)
+    "@Hallo! Hier spricht die Schnecken Post." next
+    "{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc639c9)}]" newline
+    "@Oh, bist du das, [1C 01 08]?" linebreak
+    "  Gro[b8]er Bruder!" next
+    "@Ich bin's, Tracy." next
+	title(1, Tracy)
+    "@Ich arbeite Teilzeit f[cb]r die Schnecken Post." next
+	{set(flag 983)}
+    goto(l_0xc639c9)
+
+l_0xc639c9:
+    eob
+
+l_0xc639ca:
+	title(1, Escargo)
+    "@Hallo! Das ist die" linebreak
+	"  Schnecken Post." next
+    "@Tracy arbeitet hier nicht mehr. Genau, sie hatte hier halbtags gearbeitet." next
+    "@Hmm? Du bist [1C 01 08]?" linebreak
+    "  Tracys gro[b8]er Bruder?" next
+    "@Ich habe von Ihren gro[b8]en Taten geh[c9]rt." next
+    "@Es ist eine Ehre mit Ihnen zu sprechen, Sir!" next
+    "@Oh, Sie rufen wegen einer Lieferung an?" linebreak
+    "  Es tut mir leid." next
+    "@Meine Frau ist auf Mutterschaftsurlaub, ich passe auf mein anderes Kind auf." next
+    "@Ich habe mich entschieden eine Pause vom Lieferdienst zu machen." next
+    "@...Es ist neben dem K[cb]hlschrank! Stell es in die Mikrowelle...  ...Ja, das ist es." next
+    "@...Entschuldigung." next
+    "@Wie Sie schon h[c9]ren bin ich etwas besch[c0]ftigt." next
+    "@Ich w[cb]rde wirklich gerne einige Ihrer Geschichten h[c9]ren." next
+    "@Argh! Das war das Hundefutter!" next
+    "@*Krach!* Hey, hey! Guck mal, was du angerichtet hast!" next
+    "@...Tut mir leid." linebreak
+    "  Ich muss jetzt auflegen." linebreak
+	"  Auf Wiederh[c9]ren."
+    "{sound(11)}  (Klick!){wait}{set(flag 770)}" eob
+
+l_0xc63ba1:
+	if flag 983{
+	"[06 49 00 {e(l_0xc63bb7)}]@Was kann ich f[cb]r dich tun?" linebreak
+	}
+	else{
+    newline
+    "[06 49 00 {e(l_0xc63bb7)}]@Was kann ich f[cb]r Sie tun?" linebreak
+	}
+    eob
+
+l_0xc63bb7:
+    "@Was brauchst du?" linebreak
+    eob
+	
+l_0xc63bb7_Sie:
+	"@Was brauchen Sie?" linebreak
+    eob
+
+l_0xc63bc1:
+    "[06 49 00 {e(l_0xc63be4)}]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc63bdc)}]@Tschau.[03]" eob
+
+l_0xc63bdc:
+    "@Bitte beehren Sie uns wieder.[03]" eob
+
+l_0xc63be4:
+    "@Nun, beehren Sie uns wieder.[03]" eob
+
+l_0xc63bec:
+	if flag 983{
+	"[06 49 00 {e(l_0xc63c2a)}]@Du willst, dass wir etwas f[cb]r dich aufbewahren?" next
+    "@Wir senden sofort jemanden" linebreak
+	"  zu dir![03]"
+	}
+	else{
+	"[06 49 00 {e(l_0xc63c2a)}]@Sie m[c9]chten, dass wir etwas f[cb]r Sie aufbewahren?" next
+    "@Wir senden sofort jemanden" linebreak
+	"  zu Ihnen![03]"
+	}
+	eob
+
+l_0xc63c2a:
+    "@Nun, ich werde es pers[c9]nlich abholen." linebreak
+    "  Wer ich bin?" linebreak
+    "  Ich bin der Pr[c0]sident![03]" eob
+
+l_0xc63c59:
+    "[06 49 00 {e(l_0xc63c86)}]@Es tut mir wirklich leid." linebreak
+    "  Unser Lager ist momentan voll." next
+    eob
+
+l_0xc63c86:
+    "@Es tut mir leid." linebreak
+    "  Unser Lager ist momentan voll." next
+    eob
+
+l_0xc63ca8:
+	if flag 983{
+	"[06 49 00 {e(l_0xc63cea)}]@Du willst, dass wir etwas f[cb]r dich liefern? Wir k[c9]nnen bis zu drei Sachen liefern." next
+    "@Bitte such dir die Gegenst[c0]nde aus, die du brauchst.[03]"
+	}
+	else {
+    "[06 49 00 {e(l_0xc63cea)}]@Sie m[c9]chten, dass wir etwas f[cb]r Sie liefern? Wir k[c9]nnen bis zu drei Sachen liefern." next
+    "@Bitte w[c0]hlen Sie die G[cb]ter aus, die Sie ben[c9]tigen.[03]"
+	}
+	eob
+
+l_0xc63cea:
+    "@Du willst, dass wir etwas f[cb]r dich liefern? Wir k[c9]nnen bis zu drei Sachen liefern." next
+    "@Bitte w[c0]hlen Sie die G[cb]ter, die Sie brauchen.[03]" eob
+
+l_0xc63d25:
+    "[06 49 00 {e(data_18.l_0xc63d40)}]@Wir senden sofort jemanden" linebreak
+	if flag 983{
+	"  zu dir![03]"
+	}
+	else{
+	"  zu Ihnen![03]"
+	}
+	eob
+

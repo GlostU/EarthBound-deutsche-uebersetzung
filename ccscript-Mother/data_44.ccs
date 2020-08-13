@@ -1,0 +1,407 @@
+/*
+ * EarthBound Text Dump
+ * Time: 22:14:19 - 03/04/2018
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+command e(label) "{long label}"
+
+// Text Data
+l_0xc90615:
+    "@Hervorragend. Mach es dir unter deiner blauen Bettdecke gem[cb]tlich..." next
+    "@Nein, nein, ich mache doch nur Spa[b8]! Ha ha hah!{wait}" call(data_45.l_0xc91693) "[1F 21 27]" eob
+
+l_0xc90663:
+    "@Guten Morgen." linebreak
+    "  Mach's gut und viel Gl[cb]ck auf deiner Reise." end
+
+l_0xc9067d:
+    "[06 7F 01 {e(l_0xc906e0)}][1D 15 3C 00]{swap}@Willkommen in Threeds Sonnenuntergang Hotel." next
+    call(l_0xc90f3b) "[11]{clearline}[09 02 {e(l_0xc906b6)} {e(l_0xc906b0)}]" goto(l_0xc906b0)
+
+l_0xc906b0:
+    call(l_0xc90fb2) eob
+
+l_0xc906b6:
+    "[1D 14 00 00 00 00][1B 03 {e(l_0xc906d9)}]" call(l_0xc90f67) "[06 7C 00 {e(l_0xc906e6)}]{music_resume}[1F 21 11]" call(l_0xc91582) eob
+
+l_0xc906d9:
+    call(l_0xc90fbe) end
+
+l_0xc906e0:
+    call(l_0xc90fd4) eob
+
+l_0xc906e6:
+    call(l_0xc91582) goto(data_40.l_0xc88772)
+
+l_0xc906f0:
+    eob
+
+l_0xc906f1:	// TODO im Kontext angucken (Typ in DDD)
+    "[06 7F 01 {e(l_0xc907be)}][1D 15 46 00]{swap}@Wir betreiben au[b8]erdem noch ein Gasthaus, Mister." next
+    "@Eine [bb]bernachtung w[cb]rde Sie" linebreak
+	"  $[1C 0A 00 00 00 00] kosten." next
+    "@M[c9]chten Sie [cb]bernachten?" linebreak
+    call(data_33.l_0xc7dd4d) "[11]{clearline}[09 02 {e(l_0xc90774)} {e(l_0xc90748)}]" goto(l_0xc90748)
+
+l_0xc90748:
+    "@Das ist wohlm[c9]glich die beste Entscheidung." next
+    "@Sie m[cb]ssen wissen... unsere Betten sind sehr alt und staubig." end
+
+l_0xc90774:
+    "[1D 14 00 00 00 00][1B 03 {e(l_0xc907b0)}][1D 09 00 00]{open_wallet}{sound(118)}@Ich w[cb]nsche Ihnen eine sch[c9]ne Nacht." next
+	"@Sie werden wieder voller Energie in den neuen Tag starten k[c9]nnen!{wait}" call(data_45.l_0xc91693) "[1F 21 2B]" eob
+
+l_0xc907b0:
+    "@Sie... haben nicht genug Geld." end
+
+l_0xc907be:
+    "@Wenn du durch die W[cb]ste l[c0]ufst, kann es sein, dass du einen Sonnenstich bekommst." next
+    "@Wenn du pl[c9]tzlich komische, blinkende Lichter siehst, hast du bestimmt einen Sonnenstich!" next
+    "@Aber keine Angst." next
+	"@Wenn du ein nasses Handtuch besitzt, dann brauchst du dir keine Sorgen machen." end
+
+l_0xc9083a:
+    "[06 7F 01 {e(l_0xc908b6)}][1D 15 4B 00]{swap}[06 49 00 {e(l_0xc90878)}]@Willkommen im Monotoli Grand Hotel." next
+    goto(l_0xc90861)
+
+l_0xc90861:
+    call(l_0xc90f3b) "[11]{clearline}[09 02 {e(l_0xc90894)} {e(l_0xc90872)}]" goto(l_0xc90872)
+
+l_0xc90872:
+    call(l_0xc90fb2) eob
+
+l_0xc90878:
+    "@Willkommen im Enrich Grand Hotel." next
+    goto(l_0xc90861)
+
+l_0xc90894:
+    "[1D 14 00 00 00 00][1B 03 {e(l_0xc908b0)}]" call(l_0xc90f67) "{music_resume}[1F 21 02]" call(l_0xc91582) eob
+
+l_0xc908b0:
+    call(l_0xc90fbe) eob
+
+l_0xc908b6:
+    call(l_0xc90fd4) eob
+
+l_0xc908bc:
+//https://legendsoflocalization.com/earthbound/summers/#resort-man
+    "[06 7F 01 {e(l_0xc90a62)}][1D 15 96 00]{swap}@Willkommen im" linebreak
+    "  L'hotel de Summers." next
+    "@Mein Name ist" linebreak
+    "  Reso'cha Richmond," next
+    title(1, Richmond)
+    "@und ich bin der Direktionsassistent." next
+    "@Es tut mir sehr leid [19 10 01]" call(data_33.l_0xc7e6b3) ", aber ich bef[cb]rchte," next
+    "@dass wir zurzeit keine Buchung unter Ihrem Namen haben." next
+    "@Wir k[c9]nnen Ihnen jedoch einen Raum f[cb]r $[1C 0A 00 00 00 00] pro Nacht zur Verf[cb]gung stellen." next
+    "@Sind Sie daran interessiert?" linebreak
+    call(l_0xc90f61) "[11]{clearline}[09 02 {e(l_0xc909d3)} {e(l_0xc90999)}]" goto(l_0xc90999)
+
+l_0xc90999:
+    "@Das ist bedauernswert, [19 10 01]" call(data_33.l_0xc7e6b3) "." next
+    "@Bitte behalten Sie uns im Hinterkopf," next
+	"@wenn Sie das n[c0]chste Mal in den Ferien vorbeikommen." end goto(l_0xc909d3)
+
+l_0xc909d3:
+    "[1D 14 00 00 00 00][1B 03 {e(l_0xc90a31)}][1D 09 00 00]{open_wallet}{sound(118)}@Vorz[cb]gliche Wahl, [19 10 01]" call(data_33.l_0xc7e6b3) "!" next
+    "@Wir hoffen Sie genie[b8]en den wundervollen Ausblick auf das Meer.{wait}" call(l_0xc90f7d) "{music_resume}[1F 21 0E]" call(l_0xc91582) eob goto(l_0xc90a31)
+
+l_0xc90a31:
+    "@Wenn Sie nicht genug Bargeld parat haben," next
+    "@k[c9]nnen Sie ruhig den Bankautomaten dort dr[cb]ben benutzen." end
+
+l_0xc90a62:
+    "@Hatten Sie eine entspannte Nacht?" next
+    "@Ich hoffe doch, dass das Rauschen der Wellen Sie nicht gest[c9]rt hat." end
+
+l_0xc90a9b:
+    "[06 7F 01 {e(l_0xc90c03)}]@Willkommen im <Gro[b8]en S[cb]dlichen Internationalen Ferienhotel>." next
+    "@Unsere Preise schwanken" linebreak
+    "  von[1D 15 0F 00]{swap}  $[1C 0A 00 00 00 00][1D 15 64 00]{swap} bis $[1C 0A 00 00 00 00]" linebreak
+    "  pro Nacht." next
+    "@Zurzeit ist nur unsere Super-Deluxe-Suite verf[cb]gbar." next
+    "@M[c9]chten Sie die Nacht bleiben?" linebreak
+    call(l_0xc90f61) "[11]{clearline}[09 02 {e(l_0xc90b90)} {e(l_0xc90b53)}]" goto(l_0xc90b53)
+
+l_0xc90b53:
+    "@Es tut uns wirklich leid," next
+    "@dass wir zurzeit keine billigeren R[c0]ume verf[cb]gbar haben." end
+
+l_0xc90b90:
+    "[1D 14 00 00 00 00][1B 03 {e(l_0xc90bfd)}][1D 09 00 00]{open_wallet}{sound(118)}@Bitte rufen Sie uns, falls Sie Skorpione finden..." next
+    "@Es ist zwar sehr unwahrschein-" linebreak
+	"  lich, dass sie hereinkrabbeln," linebreak
+	"  aber man wei[b8] ja nie...{wait}{window_closeall}{pause(1)}" call(l_0xc90f7d) "{music_resume}[1F 21 0D]" call(l_0xc91582) eob
+
+l_0xc90bfd:
+    call(l_0xc90b53) eob
+
+l_0xc90c03:
+    "@Guten Morgen!" next
+    "@In letzter Zeit haben wir wirklich sch[c9]nes Wetter in Scaraba." end
+
+l_0xc90c38:
+    "[06 7F 01 {e(l_0xc90d1e)}][1D 15 4B 00]{swap}@Das ist das Dunkel Mond Hotel." next
+    "@Eine Schlafperiode kostet" linebreak
+	"  $[1C 0A 00 00 00 00]." next
+    "@M[c9]chten Sie schlafen?" linebreak
+    call(l_0xc90f61) "[11]{clearline}[09 02 {e(l_0xc90c90)} {e(l_0xc90cb4)}]" goto(l_0xc90cb4)
+
+l_0xc90c90:
+    "@Sie versuchen wirklich wach zu bleiben...?  Hah hah hah!" end
+
+l_0xc90cb4:
+    "[1D 14 00 00 00 00][1B 03 {e(l_0xc90ce8)}][1D 09 00 00]{open_wallet}{sound(118)}@Alles klar. Los geht's!{wait}" call(l_0xc90f7d) "{music_resume}[1F 21 A2]" call(l_0xc91582) eob
+
+l_0xc90ce8:
+    "@Geld regiert die Welt auch in Moonside." next
+    "@Und du scheinst gerade keins zu haben." end
+
+l_0xc90d1e:
+    "@Danke." end
+
+l_0xc90d23: // TODO im Kontext ansehen
+    "[06 7F 01 {e(l_0xc90dba)}]@Die Affen betreiben das Gasthaus hier im Wald. Du kannst kostenlos [cb]bernachten!" next
+    "@M[c9]chtest du [cb]bernachten?" linebreak
+    call(data_33.l_0xc7dd4d) "[11]{clearline}[09 02 {e(l_0xc90d87)} {e(l_0xc90d6d)}]" goto(l_0xc90d6d)
+
+l_0xc90d6d:
+    "@Ich schw[c9]re, es riecht dort nicht nach Affen." end
+
+l_0xc90d87:
+    "@Nach deinem kleinen Ausflug wirst du sicherlich" next
+	"@tolle Erinnerungen vom Affengasthaus haben...{wait}" call(data_45.l_0xc91693) "[1F 21 31]{unset(flag 383)}" goto(l_0xc90dba)
+
+l_0xc90dba:
+    "[1F E5 FF]{window_open(1)}@Das war doch richtig gem[cb]tlich, oder? Mach's gut und auf Wiedersehen.{wait}{window_closeall}[1F E8 FF]" eob
+
+l_0xc90dea:
+    "[06 7F 01 {e(l_0xc90e3d)}]@Wir haben ein Gasthaus. Im Loch." next
+    "@Es ist Kostenlos. [bb]bernachten?" linebreak
+    call(data_33.l_0xc7dd4d) "[11]{clearline}[09 02 {e(l_0xc90e26)} {e(l_0xc90e22)}]" goto(l_0xc90e22)
+
+l_0xc90e22:
+    "@....." end
+
+l_0xc90e26:
+    "@Okay. Du [cb]bernachtest.{wait}" call(data_45.l_0xc91693) "[1F 21 32]" eob
+
+l_0xc90e3d:
+    "@Gut [cb]bernachtet?{wait}{unset(flag 383)}" eob
+
+l_0xc90e4a: // TODO im kontext angucken
+    "[1D 15 64 00]{swap}@Danke, dass Sie den ganzen Weg bis in dieses primitive Land gekommen sind." next
+    "@Sie m[cb]ssen ersch[c9]pft sein." linebreak
+    "  Eine Nacht wird Sie $[1C 0A 00 00 00 00] kosten." next
+    "@Sie werden [cb]bernachten, nicht wahr?" linebreak
+    call(l_0xc90f61) "[11]{clearline}[09 02 {e(l_0xc90ed4)} {e(l_0xc90ebf)}]" goto(l_0xc90ebf)
+
+l_0xc90ebf:
+    "@Kommen Sie wieder..." linebreak
+    "  Mr. Reisender." end
+
+l_0xc90ed4:
+    "[1D 14 00 00 00 00][1B 03 {e(l_0xc90f0b)}][1D 09 00 00]{open_wallet}{sound(118)}@Machen Sie es sich gem[cb]tlich.{wait}{window_closeall}" call(data_45.l_0xc91693) "[1F 21 36]{unset(flag 383)}" eob
+
+l_0xc90f0b:
+    "@Geld regiert die Welt, selbst wenn es am Ende der Welt ist." next
+    "@Wir k[c9]nnen keine G[c0]ste akzeptieren, die kein Geld haben." end
+
+l_0xc90f3b:
+    "@Eine [bb]bernachtung wird Sie" linebreak
+	"  $[1C 0A 00 00 00 00] kosten." next
+    "@M[c9]chten Sie hier [cb]bernachten?" linebreak
+    goto(l_0xc90f61)
+
+l_0xc90f61:
+    call(data_33.l_0xc7dd4d) eob
+
+l_0xc90f67:
+    "[1D 09 00 00]{open_wallet}{sound(118)}@Wir w[cb]nschen Ihnen einen angenehmen Aufenthalt.{wait}" goto(l_0xc90f7d)
+
+l_0xc90f7d:
+    "{window_closeall}{pause(1)}{set(flag 383)}[1F 07 03][1F 15 6A 00 79 02 01][1F 61]" goto(l_0xc90f90)
+
+l_0xc90f90:
+    "[06 7A 02 {e(data_22.l_0xc68c3f)}][06 7B 02 {e(data_22.l_0xc68cc3)}][06 7C 02 {e(data_22.l_0xc68d5a)}][06 7C 00 {e(l_0xc90fb1)}]" call(data_21.l_0xc685da) goto(l_0xc90fb1)
+
+l_0xc90fb1:
+    eob
+
+l_0xc90fb2:
+    "@Bis zum n[c0]chsten Mal." end
+
+l_0xc90fbe:
+    "@Ich f[cb]rchte, Sie haben keine" linebreak
+    "  $[1C 0A 00 00 00 00]..." end
+
+l_0xc90fd4:
+    "@Guten Morgen." linebreak
+    "  Hatten Sie eine erholsame Nacht?" end
+
+l_0xc90fec:
+    "{ctoarg}{store_registers}@Ich kann dich f[cb]r $[1C 0A 00 00 00 00] untersuchen." linebreak
+    "[18 02]{open_hp}{open_wallet}[19 02]Ja, bitte[02][19 02]Nein, danke[02][1C 07 02]" call(data_33.l_0xc7dd5e) "[09 02 {e(l_0xc9105f)} {e(l_0xc91041)}]" goto(l_0xc91041)
+
+l_0xc91041:
+    "@Du brauchst keine Behandlung?" linebreak
+    "  In Ordnung." goto(l_0xc91058)
+
+l_0xc91058:
+    call(l_0xc9115d) end
+
+l_0xc9105f:
+    "[1D 14 00 00 00 00][1B 03 {e(l_0xc910c9)}][1D 19 02][1B 03 {e(l_0xc910c1)}]@Wer ist krank?{open_hp}[1A 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01]" linebreak
+    "[1B 02 {e(l_0xc91041)}]" goto(l_0xc91099)
+
+l_0xc91099:
+    "{store_registers}[19 16 00 01][09 08 {e(l_0xc910e7)} {e(l_0xc91113)} {e(l_0xc91140)} {e(l_0xc91140)} {e(l_0xc91245)} {e(l_0xc91233)} {e(l_0xc91222)} {e(l_0xc91214)}]" goto(l_0xc910c1)
+
+l_0xc910c1:
+    "[19 10 01]" goto(l_0xc91099)
+
+l_0xc910c9:
+    "@Du hast nicht genug Geld." linebreak
+    "  Geh nach Hause und komm dann wieder." goto(l_0xc91058)
+
+l_0xc910e7:
+    "{load_registers}[19 16 00 02][09 03 {e(l_0xc910fb)} {e(l_0xc91140)} {e(l_0xc91140)}]" goto(l_0xc910fb)
+
+l_0xc910fb:
+    "@Ich glaube nicht, dass mir dir etwas nicht stimmt." goto(l_0xc91058)
+
+l_0xc91113: // TODO text abaendern vielleicht hinweisen, dass man besuchen muss (wenn bewusstlos)
+    "@Ich glaube niemand hat etwas derartiges." next
+    "@Oder verstehe ich das nur falsch?" goto(l_0xc91058)
+
+l_0xc91140:
+    "@Ich kann nur Krankheiten heilen." linebreak
+    "  Entschuldigung." call(l_0xc91058) goto(l_0xc9115d)
+
+l_0xc9115d:
+    "[1D 0D 01 06 02][1B 02 {e(l_0xc91213)}]" next
+    "@{pause(15)}...{pause(15)}Ganz nebenbei," next
+    "@Was f[cb]r ein traurigen Blick du doch hast... Du, der Junge mit roter Kappe." next
+    "@Du hast bestimmt Heimweh." next
+    "@Deshalb musst du dich nicht sch[c0]men." next
+    "@Jeder, der auf einer langer Reise ist wird sein zu Hause vermissen." next
+    "@Wenn das der Fall ist, dann ist die Stimme deiner Mutter die beste Medizin." next
+    "@Du solltest mal zu Hause anrufen.{wait}" goto(l_0xc91213)
+
+l_0xc91213:
+    eob
+
+l_0xc91214:
+    "@Du hattest eine Erk[c0]ltung." goto(l_0xc91259)
+
+l_0xc91222:
+    "@Du hattest einen Sonnenstich." goto(l_0xc91259)
+
+l_0xc91233:
+    "@Du wurdest vergiftet." goto(l_0xc91259)
+
+l_0xc91245:
+    "@Du musstest dich bestimmt [bb]bel f[cb]hlen." goto(l_0xc91259)
+
+l_0xc91259:
+    "{load_registers}[19 05 00 01 01]{load_registers}[1D 09 00 00]{open_wallet}{sound(37)}{pause(50)}" next
+    "@Jetzt geht es wir wieder besser." next
+    "@Was bin ich doch f[cb]r ein toller Doktor!" goto(l_0xc91058)
+
+l_0xc9128d:
+    "{ctoarg}" call(l_0xc9155b) "[1B 02 {e(l_0xc9142c)}]@Wen m[c9]chtest du besuchen?{open_hp}[1A 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01]" linebreak
+    "[1B 02 {e(l_0xc913dd)}]{store_registers}[1D 0D 00 01 02][1B 02 {e(l_0xc913a4)}]{load_registers}{swap}@[1C 02 00] wurde gerade eingeliefert und ist noch immer bewusstlos." next
+    "{swap}@Bitte zahle $[1C 0A 00 00 00 00] f[cb]r das Arzthonorar." linebreak
+    "[19 02]Ja[02][19 02]Nein[02]{open_wallet}[1C 07 02]" call(data_33.l_0xc7dd5e) "[09 02 {e(l_0xc91345)} {e(l_0xc9132e)}]" goto(l_0xc9132e)
+
+l_0xc9132e:
+	"@Es geht um {load_registers}{result_is(2)}[1B 03 {e(l_0xc9132eFreundin)}]deinen Freund" goto(l_0xc9132eRest)
+	
+l_0xc9132eFreundin:
+	"deine Freundin" goto(l_0xc9132eRest)
+	
+l_0xc9132eRest:
+	", oder?... Es ist sehr ernst." end
+	
+l_0xc91345:
+    "[1D 14 00 00 00 00][1B 03 {e(l_0xc913c4)}][1D 09 00 00]{open_wallet}{load_registers}[19 05 00 01 01]{load_registers}[19 05 00 02 01]{load_registers}[19 05 00 06 01]{load_registers}{swap}[1E 00 00 64][1E 04 00 64]{sound(37)}{pause(50)}@Ich bin so froh, dass es dir besser geht, [1C 02 00]." next
+    "@Komm wieder, wenn unsere Hilfe ben[c9]tigt wird." end goto(l_0xc913a4)
+
+l_0xc913a4:
+    "{load_registers}{swap}@Wir haben niemanden namens [1C 02 00] in unserem Krankenhaus." end
+
+l_0xc913c4:
+    "@Du hast nicht genug Geld...?" linebreak
+    "  Das ist ja schade." end
+
+l_0xc913dd:
+    "[06 0A 00 {e(l_0xc91401)}]@Wenn du der Patient bist, komm bitte in das Hinterzimmer." end
+
+l_0xc91401:
+    "@Du musst untersucht werden?" next
+    "@Dann musst du mit dem Doktor sprechen... nicht mit mir." end
+
+l_0xc9142c:
+    "@Ich bin gerade nicht besch[c0]ftigt." next
+    "@Soll ich dir unser System hier im Krankenhaus erkl[c0]ren?" linebreak
+    call(data_33.l_0xc7dd4f) call(data_33.l_0xc7dd5e) "[09 02 {e(l_0xc91486)} {e(l_0xc9146d)}]" goto(l_0xc9146d)
+
+l_0xc9146d:
+    "@Genau, naja eigentlich bin ich gerade doch ziemlich besch[c0]ftigt." end
+
+l_0xc91486:
+    "@Wenn ein guter Freund von dir bewusstlos wird," next
+    "@dann komm so schnell du kannst in das Krankenhaus." next
+    "@Solange du gen[cb]gend Geld f[cb]r das Arzthonorar hast," next
+    "@wirst du deinen Freund in null Komma nichts wieder gesund vor dir stehen sehen." next
+    "@Wenn du nicht bewusstlos bist, aber dich nicht so gut f[cb]hlst," next
+    "@dann kannst du mit dem Doktor dar[cb]ber sprechen." next
+    "@Alles, was ich dir erkl[c0]rt habe, gilt weltweit f[cb]r alle Krankenh[c0]user." end
+
+l_0xc9155b:
+    "[1D 0D 01 01 02][1B 03 {e(l_0xc91581)}][1D 0D 02 01 02][1B 03 {e(l_0xc91581)}][1D 0D 03 01 02][1B 03 {e(l_0xc91581)}][1D 0D 04 01 02]" goto(l_0xc91581)
+
+l_0xc91581:
+    eob
+
+l_0xc91582:
+    "{counter(1)}" goto(l_0xc91584)
+
+l_0xc91584:
+    "{ctoarg}[1D 19 00][1B 03 {e(l_0xc915be)}][19 10 00]{store_registers}[1D 0D 00 01 02][1B 03 {e(l_0xc915b8)}]{load_registers}[1D 0D 00 01 03][1B 03 {e(l_0xc915b8)}]{load_registers}{swap}[1E 00 00 64][1E 04 00 64]" goto(l_0xc915b8)
+
+l_0xc915b8:
+    "{inc}" goto(l_0xc91584)
+
+l_0xc915be:
+    call(l_0xc915c7) "{unset(flag 169)}" eob
+
+l_0xc915c7:
+    "[06 60 02 {e(l_0xc915cf)}]" eob
+
+l_0xc915cf:
+    "{set(flag 174)}{unset(flag 608)}" eob
+
+l_0xc915d6:
+    "{music(12)}{pause(200)}{music_resume}{pause(1)}" eob
+
+l_0xc915e1:
+    call(l_0xc915f4) call(l_0xc915d6) call(l_0xc915c7) "{unset(flag 169)}" eob
+
+l_0xc915f4:
+    "{counter(1)}" goto(l_0xc915f6)
+
+l_0xc915f6:
+    "{ctoarg}{swap}{store_registers}{result_is(5)}[1B 03 {e(l_0xc9162b)}]{load_registers}[19 05 00 01 01][1B 02 {e(l_0xc91625)}][19 05 00 02 01][19 05 00 06 01]{swap}[1E 00 00 64][1E 04 00 64]" goto(l_0xc91625)
+
+l_0xc91625:
+    "{inc}" goto(l_0xc915f6)
+
+l_0xc9162b:
+    eob
+
+l_0xc9162c:
+    "{counter(1)}" goto(data_45.l_0xc9162e)
+

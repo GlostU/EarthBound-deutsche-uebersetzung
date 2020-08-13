@@ -12712,7 +12712,7 @@
   Movement: 9
   Show Sprite: always
   Sprite: 195
-  Text Pointer 1: data_32.l_0xc7d84f
+  Text Pointer 1: data_ItemText.BruchigerSchlager
   Text Pointer 2: $11
   Type: item
 1413:
@@ -12757,7 +12757,7 @@
   Movement: 9
   Show Sprite: always
   Sprite: 195
-  Text Pointer 1: data_32.l_0xc7d84f
+  Text Pointer 1: data_ItemText.TeddyPaula
   Text Pointer 2: $2
   Type: item
 1418:
@@ -12883,7 +12883,7 @@
   Movement: 9
   Show Sprite: always
   Sprite: 214
-  Text Pointer 1: data_32.l_0xc7d85b
+  Text Pointer 1: data_ItemText.TeddyThreed
   Text Pointer 2: $2
   Type: item
 1432:
@@ -13540,7 +13540,7 @@
   Movement: 9
   Show Sprite: always
   Sprite: 195
-  Text Pointer 1: data_32.l_0xc7d84f
+  Text Pointer 1: data_ItemText.TeddyGoldMine
   Text Pointer 2: $2
   Type: item
 1505:

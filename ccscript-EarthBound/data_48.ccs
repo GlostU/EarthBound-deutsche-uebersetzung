@@ -1,0 +1,484 @@
+/*
+ * EarthBound Text Dump
+ * Time: 22:14:19 - 03/04/2018
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+command e(label) "{long label}"
+
+// Text Data
+l_0xc95a5f:
+    "@Die Runaway Br[cb]der d[cb]rfen gehen." next
+    "@Ich habe keine Beschwerden, jetzt wo ich mein Geld habe." end
+
+l_0xc95a8d:
+    "[19 19 00 00]{swap}{result_is(180)}[1B 03 {e(l_0xc95aa0)}]" goto(data_32.l_0xc7c6b6)
+
+l_0xc95aa0:
+    "{isset(flag 319)}[1B 02 {e(l_0xc95ba0)}][19 10 01][19 22 00 02 FD 00]{swap}{store_registers}{result_is(1)}[1B 03 {e(l_0xc95b64)}]{load_registers}{result_is(2)}[1B 03 {e(l_0xc95b64)}]{load_registers}{result_is(8)}[1B 03 {e(l_0xc95b64)}]{sound(118)}[19 23 FD 00 01 01 00][1F 16 FD 00 00]"
+	title(1, Poochyfud)
+	"@Oh!{pause(60)} Das hat mich echt [cb]berrascht.{pause(20)} Jetzt bin ich mir nicht sicher, was ich tun soll." next
+    "[1D 01 FF B4]@Jetzt habe ich nat[cb]rlich das Geld{pause(15)} und die Runaway Br[cb]der d[cb]rfen gehen." next
+    "@Ich habe keine Beschwerden, jetzt wo ich mein Geld habe.[03]{set(flag 119)}{set(flag 309)}{unset(flag 624)}" goto(data_31.l_0xc799d7)
+
+l_0xc95b63:
+    eob
+
+l_0xc95b64:
+//https://legendsoflocalization.com/earthbound/twoson-2/#i-have-bad-eyesight
+	title(1, Poochyfud)
+    "@W-was ist das?{pause(15)} Kann ich das mal n[c0]her betrachten?{pause(20)} Direkt{pause(5)} vor{pause(5)} meinem{pause(5)} Gesicht{pause(5)}!" end
+
+l_0xc95ba0:
+	title(1, Poochyfud)
+    "[06 3F 01 {e(data_47.l_0xc959e2)}]"
+	"@Pardon?{pause(30)} Du m[c9]chtest [cb]ber Geld sprechen?" next
+    "@Wie sieht es mit sp[c0]ter nach der Show aus?" next
+	"@Selbst wenn wir [cb]ber gro[b8]e Summen sprechen," next
+    "@ich habe feste Regeln, wie ich meine Geldangelegenheiten regle..." end
+
+l_0xc95c0e:
+    "[06 55 00 {e(l_0xc960d7)}][06 0C 00 {e(l_0xc95f0a)}][06 0D 00 {e(l_0xc95df9)}][06 42 00 {e(l_0xc95dc6)}]"
+	"@Wah ha ha ha ha!" next
+    "@Unterhalten wir uns doch nachdem wir unsere Kr[c0]fte gemessen haben![03]" call(data_21.l_0xc6846b) "[1B 03 {e(data_21.l_0xc683de)}]{window_open(1)}"
+	"@Ja, ich bin Everdred, der Boss vom Gaunerpark." next
+	title(1, Everdred)
+    "@Als ich eben vom Dach gesprungen bin,{pause(15)} habe ich mir meinen Fu[b8] verknackst." next
+    "@Wie auch immer, ich habe verloren und nichts wird dies [c0]ndern." next
+    "@Wei[b8]t du,{pause(15)} du bist wirklich stark." next
+    "@Ja, ich wei[b8] du m[c9]chtest mehr [cb]ber [1C 02 02] herausfinden." next
+    "@Sie ist in einem geheimen Versteck im Tal der friedvollen Ruhe gefangen." next
+    "@Ein pummeliger Junge und ein komischer Typ in Blau haben sie jedoch gefangen genommen." next
+    "@Sie wollen [1C 02 02] wohl als eine Art menschliches Schlachtopfer benutzen." next
+    "@Die sind auf jeden Fall Hardcore-Seltsam." next
+    "@Wei[b8]t du, sie k[c9]nnte schon ermordet worden sein,{pause(20)} also los beeil dich und geh dorthin." next
+    goto(l_0xc95dc6)
+
+l_0xc95dc6:
+	title(1, Everdred)
+    "@Wenn du [1C 02 02] rettest,{pause(15)} komm wieder hierher, okay?{pause(15)}" linebreak
+	"  Nicht{pause(20)} vergessen!{wait}{window_closeall}{set(flag 66)}" eob
+
+l_0xc95df9:
+    "{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc95e73)}]{counter(2)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc95ea5)}]"
+	title(1, Everdred)
+	"@Als erstes solltest du sie zu ihren Eltern bringen.{pause(20)} Sie sind wirklich besorgt." next
+    "@Au[b8]erdem habe ich etwas, dass ich dir geben will,{pause(15)} also komm unbedingt wieder." next
+    "@Versprochen?{pause(20)} Alles klar." end
+
+l_0xc95e73:
+	title(1, Everdred)
+    "@[1C 01 1E]!" next
+    "@Ich dachte du w[c0]rst mit deinem keinen Helden mit roter M[cb]tze unterwegs." next
+    "@Du siehst aus, als w[cb]rdest du frieren." end
+
+l_0xc95ea5:
+	title(1, Everdred)
+    "@Ich habe geh[c9]rt, dass du ziemlich stolz auf dich" next
+	"@bist seitdem du [1C 02 02] gerettet hast." next
+    "@Denk mal dar[cb]ber nach,{pause(15)} du hast sie eigentlich gar nicht gerettet." next
+    "@Komm wieder, wenn du etwas geleistet hast." end
+
+l_0xc95f0a:
+//https://legendsoflocalization.com/earthbound/twoson-2/#more-evedred-speech
+    "{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc960ab)}]"
+	title(1, Everdred)
+	"@Ich wollte dich eigentlich fragen, ob du dich mir anschlie[b8]en willst," next
+    "@aber ich wei[b8] schon, dass du ablehnen wirst.{pause(20)} Es steht dir im Gesicht geschrieben." next
+    "@Ich wollte dir das Geld hier geben, wenn du mein Lakai geworden bist." next
+    "@Genau genommen kann ich das Geld jetzt sowieso nicht mehr behalten.{pause(20)} Nimm diesen Koffer." next
+    "@Dort sind 10.000 Dollar drinne." next
+    "@Benutze das Geld wie du willst,{pause(20)} sei es f[cb]r einen guten Zweck, oder f[cb]r schlechte Dinge." next
+	"@Es bringt nichts zu versuchen mir es wiederzugeben.{pause(20)} Gib auf und nimm es an." next
+    "@Ich plane jetzt nach der b[c9]sen Mani Mani Statue zu suchen." next
+    "@Lier [bb]. Bertreibung aus Onett hatte sie ausgegraben." next
+    "@Wir werden uns zu einer anderen Zeit, an einem anderen Ort wiedersehen.[03][1D 03 FF][1B 02 {e(l_0xc9605d)}][1D 0E 00 B4]" call(data_33.l_0xc7dcb6) "{set(flag 85)}" end
+
+l_0xc9605d:
+    "{pause(60)}" linebreak
+	title(1, Everdred)
+    "{sound(5)}@Dein Rucksack ist vollgestopft mit M[cb]ll.{pause(20)} Wirf etwas weg!" next
+    "@Ich verstaue das Geld an einem sicheren Platz bis du wiederkommst." end
+
+l_0xc960ab:
+	title(1, Everdred)
+    "@Ich muss mit [1C 02 01] sprechen." next
+    "@Auch wenn du sein Freund bist,{pause(15)} ich werde nicht mit dir reden." end
+
+l_0xc960d7:
+    "{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc960ab)}]"
+	title(1, Everdred)
+	"@Bitte verwende die 10.000 Dollar wie du m[c9]chtest." next
+    "@Es bringt nichts zu versuchen mir es wiederzugeben.{pause(20)} Gib auf und nimm es an." end
+
+l_0xc96124:
+    "[06 49 00 {e(l_0xc96267)}][06 CA 00 {e(l_0xc961d1)}]"
+	"@Willkommen bei Mach Pizza!" next
+	title(1, Mach)
+    "@Wir verkaufen hier keine Pizza.{pause(20)} Wir liefern sie nur." next
+    "@Lass mir dir unsere Nummer geben, damit du irgendwann bestellen kannst." next
+    "@Die besten Pizzen kommen von Mach Pizza.{pause(20)} Die Nummer ist... *psst psst psst*." next
+    "@Alles klar?{wait}{sound(116)}{set(flag 202)}" eob
+
+l_0xc961d1:
+	title(1, Mach)
+    "[06 0A 00 {e(l_0xc9623f)}]"
+	"@*Kau*{pause(30)}kau*{pause(30)}schluck*" next
+    "@[b0]h... nein,{pause(15)} ich habe doch kein st[cb]ck Pizza genommen." next
+	"@Ich w[cb]rde nicht mal daran denken so etwas zu tun!" next
+    "@Es war aber k[c9]stlich.{pause(20)}" linebreak
+	"  Genie[b8] es!" next
+    goto(l_0xc9623f)
+
+l_0xc9623f:
+    "@Das wei[b8]t wahrscheinlich schon,{pause(15)} aber du musst per Telefon bestellen, okay?{wait}{set(flag 10)}" eob
+
+l_0xc96267:
+    "@Ich frage mich, ob wir dicht machen m[cb]ssen?" next
+    "@Ich dachte immer das Gesch[c0]ft l[c0]uft gut." next
+    "@Oh na ja,{pause(15)} ich denke ich w[cb]rde keine Pizza liefern wollen.{pause(20)} Ich w[cb]rde einfach zu m[cb]de werden..." end
+
+l_0xc962c2:
+    call(data_21.l_0xc680e2) eob
+
+l_0xc962c8:
+    "@Du musst ein ziemlich" call(junge) "sein, um in einem" next
+	"@Luxushotel [cb]bernachten zu k[c9]nnen." end
+
+junge:
+	"[19 10 01]{result_is(2)}[1B 03 {e(madchen)}] reicher Junge " eob
+	
+madchen:
+	" reiches M[c0]dchen " eob
+
+l_0xc96304:
+    "[06 01 00 {e(l_0xc963ce)}]@Habe ich einen Pilz auf dem Kopf?" linebreak
+    "  [19 02]Ja[02]  [19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc9633e)} {e(l_0xc9639f)}]" goto(l_0xc9639f)//goto(l_0xc9633e)
+
+l_0xc9633e:
+    newline
+    "{set(flag 1)}@Das habe ich mir schon gedacht..." next
+    "@Neulich konnte ich nicht mehr vern[cb]nftig laufen.{pause(20)} Der Pilz ist schuld daran." next
+    "@Es macht aber eigentlich irgendwie Spa[b8], also behalte ich ihn einfach." end
+
+l_0xc9639f:
+    newline
+    "@Du bist einer dieser Menschen, die sofort <nein> auf jede Frage antworten, richtig?" end
+
+l_0xc963ce:
+    "@Sehe ich nicht stylish mit dem Pilz aus?" end
+
+l_0xc963ea:
+    call(data_43.l_0xc90095) eob
+
+l_0xc963f0:
+    call(data_43.l_0xc90008) eob
+
+l_0xc963f6:
+    "@Meine Impfungen tuen gar nicht weh." next
+    "@Ich bin mir sicher, dass jeder dar[cb]ber redet,{pause(20)} aber mach dir keine Gedanken deswegen." end
+
+l_0xc96425:
+    "[06 47 00 {e(l_0xc96479)}]@Ich denke dar[cb]ber nach den Bus nach Threed zu nehmen." next
+	"@Ich habe geh[c9]rt, dass Geister auf dem Weg dahin herumspuken sollen." next
+    "@K[c9]nnte es sein, dass der Bus deswegen umdrehen und wieder zur[cb]ckkommen muss?" end
+
+l_0xc96479:
+    "@Wenn man nach Threed m[c9]chte,{pause(15)} dann ist der Bus am praktischsten." end
+
+l_0xc9649a:
+    "[06 47 00 {e(l_0xc964d9)}]@Den Bus nehmen, oder den Bus nicht nehmen... hmmm." next
+    "@Ich bekomme es sehr schnell mit der Angst zu tun..." end
+
+l_0xc964d9:
+    "@Den Bus nehmen, oder den Bus nicht nehmen... hmm." next
+    "@Mir wird sehr schnell [cb]bel..." end
+
+l_0xc9650f:
+    "@Ich war beim letzten Krieg dabei,{pause(20)} also habe ich auch keine Angst vor Geister." next
+    "@In Wirklichkeit habe ich mehr Angst vor meiner alten Frau, ha!" end
+
+l_0xc96552:
+    "@Das Bussystem in dieser Stadt ist wirklich seltsam." next
+    "@Man soll einfach die Schilder an den Bushaltestellen <pr[cb]fen>." next
+	"@Wer sich wohl dieses System ausgedacht hat?" end
+
+l_0xc965a4:
+    "@Das stimmt,{pause(15)} ich bin der Busfahrer.{pause(20)} Ich mache gerade Pause." next
+    "@Das Leben ist lang... entspann dich,{pause(15)}[19 10 01][1F C0 04 {e(l_0xc96650)} {e(l_0xc96657)} {e(l_0xc96661)} {e(l_0xc96667)}]" next
+    "[1D 05 FF CA][1B 02 {e(l_0xc96625)}]@Guck dir doch die Stadtkarte an und erkunde die Gegend." end goto(l_0xc96625)
+
+l_0xc96625:
+    "@Du hast keine Stadtkarte?{pause(15)} Hast du dir keine aus der Onett B[cb]cherei geliehen?" end
+
+l_0xc96650:
+// TODO Herausfinden, was chubs im kontext bedeutet
+    " Moppel." eob
+
+l_0xc96657:
+    " M[c0]uschen." eob
+
+l_0xc96661:
+    " Brillenschlange." eob
+
+l_0xc96667:
+    " Pyjamajunge." eob
+
+l_0xc96675:
+    "[06 5B 00 {e(l_0xc966d6)}]"
+	"@Meine Tochter ist in die Gro[b8]stadt gezogen, um ein Superstar zu werden." next
+    "@Sie benutzt einen K[cb]nstlername--{pause(20)}Vein... oh, vein irgendwas..." next
+	"@Sie ist schwer am arbeiten." end
+
+l_0xc966d6:
+//https://legendsoflocalization.com/earthbound/ending/#twoson-nudical
+    "@Ich habe einen Brief von meiner Tochter bekommen." next
+	"@Sie m[c9]chte, dass ich bei ihrer n[c0]chsten Show dabei bin." next
+    "@Anscheinend posiert sie auch f[cb]r Fotos f[cb]r ein Fotobuch." next
+    "@Es ist ein Fotobuch mit Nacktbildern...{pause(30)} Die Zeiten haben sich wirklich ver[c0]ndert..." end
+
+l_0xc9675a:
+    "[06 49 00 {e(l_0xc9680e)}][06 44 00 {e(l_0xc967aa)}]"
+	"@Papa und Mama sind ins Gl[cb]cklich-Gl[cb]cklich Dorf gegangen." next
+    "@Sie m[c9]chten dort den Gr[cb]nder der Religion kennenlernen." end
+
+l_0xc967aa:
+    "@Papa und Mama wollen doch nicht ins Gl[cb]cklich-Gl[cb]cklich Dorf ziehen." next
+    "@Ich wei[b8] nicht warum, aber ich bin gl[cb]cklich." end
+
+l_0xc967e7:
+    "@Du hast mich von diesem Alptraum geweckt." end
+
+l_0xc967fb:
+    "@Es tut mir leid, dass ich dir Sorgen bereitet habe..." end
+
+l_0xc9680e:
+    "@Jetzt verstehe ich es.{pause(20)} Du kommst nicht aus dieser Stadt." next
+    "@Also, von wo kommst du?{pause(15)} Kannst du irgendwann wieder mit mir spielen?" end
+
+l_0xc9684f:
+    "[06 53 00 {e(l_0xc9688a)}]"
+	"@Wusstest du, dass zwei junge Erfinder in dieser Stadt leben?" next
+    "@Ich m[c9]chte auch etwas erfinden." end
+
+l_0xc9688a:
+    "@Hast du die Tage mal mit einem Jungen gesprochen, der Sachen erfindet?" end
+
+l_0xc968ae:
+    "@Miau." end
+
+l_0xc968b6:
+    call(data_18.l_0xc64dd0) eob
+
+l_0xc968bc:
+    "[06 77 00 {e(l_0xc969b2)}]@M[c9]chten Sie ein Ticket f[cb]r die Runaway Br[cb]der Show kaufen?" linebreak
+    "  [19 02]Ja[02]  [19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc9690d)} {e(l_0xc968f6)}]" goto(l_0xc968f6)
+
+l_0xc968f6:
+    "@Oh, ich habe Sie f[cb]r einen Kunden gehalten." end
+
+l_0xc9690d:
+    "@Das ganze Erdgeschoss und der Balkon ist ausverkauft." next
+    "@Wir haben nur noch Logenpl[c0]tze, die 20 Dollar kosten.{pause(20)} W[c0]re das okay?" next
+    "@Oh, warte... die Logenpl[c0]tze sind schon seit einer ganze Weile ausverkauft." next
+	"@Uups.{pause(20)} Mein Fehler." linebreak
+    "  Die Logenpl[c0]tze sind am beliebtesten." end
+
+l_0xc969b2:
+    "@Sorry.{pause(15)} Das Chaos Theater wird umgestaltet.{pause(20)} Es findet kein Konzert statt." end
+
+l_0xc969e5:
+    "[06 02 00 {e(l_0xc969ff)}][06 72 00 {e(l_0xc96a1f)}]" call(l_0xc969ff) "{set(flag 114)}{set(flag 2)}" eob
+
+l_0xc969ff:
+    "@Dieses Kaufhaus ist nicht [cb]berf[cb]llt.{pause(20)} Ich mag das." end
+
+l_0xc96a1f:
+    "@Haben wir uns nicht schonmal unterhalten?{pause(20)} Ich glaube ich hatte," next
+    "@<Dieses Kaufhaus ist nicht [cb]berf[cb]llt.{pause(20)} Ich mag das> gesagt..." next
+    "@oder vielleicht war es auch etwas [c0]hnliches." end
+
+l_0xc96a72:
+    call(data_12.l_0xc5d287) eob
+
+l_0xc96a78:
+    call(data_12.l_0xc5d293) eob
+
+l_0xc96a7e:
+    "[06 26 02 {e(l_0xc96aff)}]"
+	"@Ich glaube mein Enkel ist etwas [c0]lter als du.{pause(20)} Er ist ein ber[cb]hmter Erfinder." next
+    "@Er lebt hier und alle nennen ihn Orangen Kind." next
+    "@Er scheit sehr beliebt bei den M[c0]dchen zu sein,{pause(15)} weil er so... groovy ist?" end
+
+l_0xc96aff:
+    "@Wir haben uns schonmal zuf[c0]llig getroffen.{pause(20)} Du scheinst Kaufh[c0]user zu lieben." next
+    "@Ich liebe sie auch." end
+
+l_0xc96b37:
+    "[06 D7 00 {e(l_0xc96b79)}]"
+	"@Ich habe geh[c9]rt, dass ein Meteorit in einer Bergspitze in der n[c0]he von Onett" next
+	"@eingeschlagen ist.{pause(20)}" linebreak
+    "  Das muss echt aufregend gewesen sein!" end
+
+l_0xc96b79:
+    "@Ich habe dich vor langer Zeit schonmal gesehen..." next
+    "@Vielleicht als der Meteorit in Onett eingeschlagen ist?..." end
+
+l_0xc96baf:
+    call(data_12.l_0xc5d29f) eob
+
+l_0xc96bb5:
+    call(data_12.l_0xc5d2ab) eob
+
+l_0xc96bbb:
+    "@Ich will meinen Freund in Threed besuchen, aber der Bus f[c0]hrt nicht mehr." next
+    "@Ich frage mich warum." end
+
+l_0xc96bf2:
+    "[06 49 00 {e(l_0xc96cd4)}][06 D3 00 {e(l_0xc96c57)}][06 44 00 {e(l_0xc96c35)}]"
+	"@Gl[cb]cklich-Gl[cb]cklich Dorf wird immer blauer und blauer.{pause(20)} Verstehst du das?" end
+
+l_0xc96c35:
+    "@Irgendwann wird das Gl[cb]cklich-Gl[cb]cklich Dorf wirklich gl[cb]cklich sein." end
+
+l_0xc96c57:
+    "@Du tr[c0]gst immer die selben Kleider..." next
+    "@W[c0]scht du sie, oder was?" linebreak
+    "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc96cba)} {e(l_0xc96c9c)}]" goto(l_0xc96c9c)
+
+l_0xc96c9c:
+    "@Naja, sie sehen sauber genug aus,{pause(15)} aber wer wei[b8]?" end
+
+l_0xc96cba:
+    "@Hmm.{pause(30)} Das h[c0]tte ich nicht geglaubt..." end
+
+l_0xc96cd4:
+    "@Hey, du bist der Junge, der immer die gleichen Kleider tr[c0]gt!" next
+    "@Du siehst gl[cb]cklich genug aus,{pause(15)} aber wer wei[b8]?" end
+
+l_0xc96d10:
+//https://legendsoflocalization.com/earthbound/moonside/#welc-ome
+    "@Willkommen in Moonside." next
+    "@Will{pause(15)}  kommen{pause(15)}  in Moo{pause(20)}   nsi{pause(15)}  ns{pause(15)}  dem{pause(5)} oons{pause(5)} ide." end
+
+l_0xc96d4f:
+    "@Nein, das ist richtig.{pause(20)}" linebreak
+    "  Ich bin der Wirt hier." end
+
+l_0xc96d6a:
+    "@Ja, das ist falsch.{pause(20)}" linebreak
+    "  Ich bin die Wirtin hier." end
+
+l_0xc96d8a:
+    "@Was?{pause(20)}" linebreak
+    "  Fourside?{pause(20)}" linebreak
+    "  Schl[c0]fst du noch?" next
+    "@Das ist Moonside." end
+
+l_0xc96db2:
+    "@<Ja> ist <Nein> und" linebreak
+    "  <Nein> ist <Ja>." next
+    "@In Moonside macht das vollkommen Sinn." end
+
+l_0xc96dec:
+//TODO Animation fixen
+    "@Hallo!" next
+    "@Und...{pause(20)} auf Wiedersehen![03]{window_closeall}{pause(1)}[1F 21 6A]" eob
+
+l_0xc96e07:
+    "@Hallo!" next
+    "@Und...{pause(20)} auf Wiedersehen![03]{window_closeall}{pause(1)}[1F 21 6B]" eob
+
+l_0xc96e22:
+    "@Hallo!" next
+    "@Und...{pause(20)} auf Wiedersehen![03]{window_closeall}{pause(1)}[1F 21 6C]" eob
+
+l_0xc96e3d:
+    "@Hallo!" next
+    "@Und...{pause(20)} auf Wiedersehen![03]{window_closeall}{pause(1)}[1F 21 6F]" eob
+
+l_0xc96e58:
+    "@Hallo!" next
+    "@Und...{pause(20)} auf Wiedersehen![03]{window_closeall}{pause(1)}[06 06 03 {e(l_0xc96e7a)}][1F 21 E8]" eob
+
+l_0xc96e7a:
+    "[1F 21 70]" eob
+
+l_0xc96e7e:
+    "@Hallo!" next
+    "@Und...{pause(20)} auf Wiedersehen![03]{window_closeall}{pause(1)}[1F 21 71]" eob
+
+l_0xc96e99:
+    "@Hallo!" next
+    "@Und...{pause(20)} auf Wiedersehen![03]{window_closeall}{pause(1)}[1F 21 72]" eob
+
+l_0xc96eb4:
+    "@Bevor die Suppe kalt wird,{pause(15)} m[cb]ssen wir uns um Mani Mani k[cb]mmern." next
+    "@Bevor das Messer rostet,{pause(15)} m[cb]ssen wir uns um Mani Mani k[cb]mmern." end
+
+l_0xc96f0a:
+    "@Ich sag dir mal, was ich [cb]ber alles hasse." next
+    "@Ich hasse [1C 01 04]." next
+    "@Die Farbe,{pause(15)} der Geruch,{pause(15)} der Geschmack,{pause(15)} die Textur..." next
+    "@Hey, du sabberst ja!" end
+
+l_0xc96f5d:
+    "@<Ja> bedeutet <Nein>" linebreak
+    "  <Nein> bedeutet <Ja>." next
+    "@Oder wusstest du das schon?" linebreak
+    "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc96fd1)} {e(l_0xc96faa)}]" goto(l_0xc96faa)
+
+l_0xc96faa:
+    "@Ah! Du wusstest es.{pause(20)} Das ist gut.{pause(20)} Ich war mir nicht ganz sicher." end
+
+l_0xc96fd1:
+    "@Oh ja?" linebreak
+    "  Du wusstest das noch nicht?" end
+
+l_0xc96fe2:
+    "@Hallo!" next
+    "@Und...{pause(20)} auf Wiedersehen..." next
+    "@Soll ich...?" linebreak
+    "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc97033)} {e(l_0xc9701a)}]" goto(l_0xc9701a)
+
+l_0xc9701a:
+    "@Dann...{pause(20)}" linebreak
+    "  auf Wiedersehen![03]{window_closeall}{pause(1)}[1F 21 09]" eob
+
+l_0xc97033:
+    "@Willkommen in Moonside." next
+    "@Willkommen in Moo{pause(20)}   Moo{pause(15)}  Moo{pause(15)}  nsi{pause(20)}   nsi{pause(20)}   nsi{pause(20)}   nsi... nside." end
+
+l_0xc9707c:
+    "@Ich bin ziemlich vergesslich. Ich habe sogar vergessen, warum ich hier bin." next
+    "@Hmm..." next
+    "@Warte,{pause(20)} was habe ich eben vergessen?" next
+    "@Wer bin ich nochmal?" next
+    "@Bin ich ein Mann?" end
+
+l_0xc970c8:
+    "@Verstehst du das alles?" linebreak
+    "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc97100)} {e(l_0xc970ec)}]" goto(l_0xc970ec)
+
+l_0xc970ec:
+    "@Gut,{pause(20)}" linebreak
+    "  Ich bin froh, dass du es verstehst." end
+
+l_0xc97100:
+    "@Nein?{pause(20)} Tust du nicht?{pause(20)}" linebreak
+    "  Um die Wahrheit zu sagen,{pause(15)} ich auch nicht." end
+
+l_0xc9712e:
+    "@Wenn du hier zu lange bleibst,{pause(15)} wirst du letztendlich dein Gehirn durchbraten." next
+    "@Ja, das wirst du.{pause(20)}" linebreak
+    "  Nein, das wirst du{pause(15)}... nicht.{pause(20)}" linebreak
+    "  Jein, wirst du werden nicht." end
+
+l_0xc97187:
+    "[06 A8 00 {e(data_49.l_0xc972d8)}][06 A7 00 {e(data_49.l_0xc97289)}][06 A6 00 {e(data_49.l_0xc9720d)}]"
+	"@257{pause(15)}  256{pause(15)}  255{pause(15)}  254{pause(15)}  253..." next
+    "@Also, was ist dein Problem?{pause(20)} Wenn du nichts m[c9]chtest, dann verschwinde." next
+    "@Ich z[c0]hle r[cb]ckw[c0]rts." next
+    "@252{pause(15)}  251{pause(15)}  250...{wait}{set(flag 166)}" eob
+

@@ -1,0 +1,458 @@
+/*
+ * EarthBound Text Dump
+ * Time: 22:14:19 - 03/04/2018
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+command e(label) "{long label}"
+
+// Text Data
+l_0xc86ab3:
+    "@Dies ist kein Hotel." linebreak
+    "  [bb]bernachten ist nicht erlaubt." end
+
+l_0xc86ad7:
+    "@(Kommst du nicht weiter?{pause(20)} Wenn du einen Tipp brauchst, dann komm und hol ihn dir!" next
+    "@Eagleland Hinweisgewerkschaft)" end
+
+l_0xc86b10:
+    "@(<Grabstein Schlussverkauf>" linebreak
+    "  Wir haben besondere Rabatte f[cb]r diejenigen, die in diesem" next
+	"@Krankenhaus von uns gegangen sind." next
+    "@Was m[c9]chten Sie auf Ihrem Grabstein geschrieben haben?" next
+    "@Onett Krankenhaus Chirurgenteam)" end
+
+l_0xc86b8f:
+    "@(<Mitglieder gesucht>" linebreak
+    "  Beliebter Musikclub." next
+    "@Leute, die eine Gitarre, ein Bass oder ein Schlagzeug besitzen, sofort bewerben." next
+    "@Caracas Cathedral," linebreak
+    "  Napalm wound," linebreak
+    "  Minky Cadillac," next
+    "@Sun Bunnies," linebreak
+    "  the Creeps," next
+    "@Run Around TownKinky Kids," linebreak
+    "  Bjork," next
+    "@Takashi Hosokawa" linebreak
+    "  oder Horenso." next
+    "@Wir hei[b8]en jeden Willkommen, der diese Bands h[c9]rt." next
+    "@Nur seri[c9]se, erwachsene Fans sollen sich bewerben." next
+    "@Bitte kontaktiere Lou." end
+
+l_0xc86cb4:
+    "@(Entspann dich!" linebreak
+    "  Es ist alles nur in deinem Kopf..." next
+    "@Ein gesunder Verstand ist ein gesunder K[c9]rper.)" end
+
+l_0xc86cf4:
+    "@(Es gibt eine bekannte Theorie, die besagt, dass wenn Sie von einem Zombie gebissen werden," next
+    "@einfach zur[cb]ck bei[b8]en k[c9]nnen und Sie werden geheilt." next
+    "@Nat[cb]rlich gibt es keine wissenschaftliche Belege, die diese Theorie unterst[cb]tzen.)" end
+
+l_0xc86d59:
+    "@(Wieder zu genesen oder nicht h[c0]ngt allein vom Gl[cb]ck ab." next
+    "@Glaube an dein Gl[cb]ck. Glaube auch an deinen Arzt." next
+    "@Dein Arzt glaubt an sein Gl[cb]ck.)" end
+
+l_0xc86da8:
+    "@(Die Dinosaurierknochen stammen wahrscheinlich aus S[cb]d-Scaraba." next
+    "@Frangen Sie nicht nach Details." linebreak
+    "  Unsere Forschung l[c0]uft noch.)" end
+
+l_0xc86dfb:
+    "[06 4B 00 {e(l_0xc86e2f)}][06 91 00 {e(l_0xc86e14)}]@Hier ist alles okay." end
+
+l_0xc86e14:
+    call(data_22.l_0xc69082) "[19 10 01]{swap}@?{pause(30)}?{pause(30)}?{wait}{wait}[1F 21 99][19 26 00]" eob goto(l_0xc86e2f)
+
+l_0xc86e2f:
+    "@Hier ist alles okay.{wait}[19 26 05]" eob goto(l_0xc86e3d)
+
+l_0xc86e3d:
+    "{counter(4)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc8709d)}][06 49 00 {e(l_0xc870a4)}][06 11 00 {e(l_0xc8709d)}]" goto(l_0xc86e58)
+
+l_0xc86e58:
+    "@([1C 01 4A] [cb]bersetzt die Hieroglyphen!)" next
+	title_poo(1)
+    "@<Wir bauten diese Pyramidenfestung," next
+	"@um gegen den Angreifer aus dem Himmel zu k[c0]mpfen." next
+    "@Allerdings waren unsere Anstrengungen vergeblich," linebreak
+	"  und wir haben verloren." next
+    "@Nichtsdestotrotz wurde unsere Pyramide von den G[c9]ttern Scarabas besch[cb]tzt." next
+    "@Es wird gesagt, dass der Angreifer aus dem Himmel" next
+	"@alle tausend Jahre wieder-" linebreak
+	"  geboren wird und erneut angreift." next
+    "@Versteckt in den Tiefen von Raum und Zeit," next
+	"@baut der Angreifer eine" linebreak
+	"  Festung des B[c9]sen." next
+    "@Diese Festung ist weit von der Tiefen Dunkelheit entfernt" next
+	"@und ist noch weiter jenseits der Verlorenen Unterwelt." next
+    "@Die Tiefe Dunkelheit ist komplett eingeh[cb]llt," linebreak
+	"  in ihr gibt es kein Licht." next
+    "@Nur jemand mit dem [1C 05 AF] kann die Dunkelheit durchstechen." next
+    "@Die Sphinx wacht jetzt" linebreak
+	"  [cb]ber alles," next
+    "@sie wartet auf das Kommen eines wahrlich tapferen Helden." next
+    "@   #" linebreak
+    "  4   3" linebreak
+    "   2 5" next
+    "@Tanze vor der Sphinx>![06 94 00 {e(l_0xc87099)}][03]{window_closeall}{pause(120)}[1F 1C 04 04]{pause(10)}[19 22 01 01 04 00][1F 13 01 00][19 22 02 01 04 00][1F 13 02 00][19 22 03 01 04 00][1F 13 03 00]{pause(50)}[1F 1D 04]{pause(30)}{window_open(1)}"
+    title_poo(1)
+    "[19 10 01]{rtoarg}@[1C 02 00]! Lasst uns nach Scaraba gehen.{pause(15)} Die Pyramide ist der Schl[cb]ssel!{wait}{set(flag 148)}[1F 66 01 31 6F AC C8 00]" eob goto(l_0xc87099)
+
+l_0xc87099:
+    end
+
+l_0xc8709b:
+    end
+
+l_0xc8709d:
+    "[06 14 01 {e(l_0xc86e58)}]" goto(l_0xc870a4)
+
+l_0xc870a4:
+    "@(Es wird vermutet, dass diese Hieroglyphentafel" next
+	"@c.a. 4000 v.Chr geschrieben wurde." next
+    "@Niemand hat jemals ihren Inhalt verstanden," next
+    "@weil sie in einer ungew[c9]hnlicher Schrift geschrieben wurde." next
+    "@Wollen Sie nicht versuchen das R[c0]tsel dieser antiken Steintafel zu l[c9]sen?)" end
+
+l_0xc87155:
+    "@(Das T[c9]pfchen von Rum Rrosin der f[cb]nfte.)" end
+
+l_0xc87176:
+    "@(Der Sarg von Rum Rrosin der vierte.)" end
+
+l_0xc87194:
+    "@(Der Sarg von Rum Rrosin der dritte.)" end
+
+l_0xc871b2:
+    "@(Toten Karmens Brotdose.)" end
+
+l_0xc871cd:
+    "@(Toten Karmens Etui.)" end
+
+l_0xc871e9:
+    "@(Toten Karmens Sarg.)" end
+
+l_0xc87202:
+    "[06 5C 01 {e(data_50.l_0xc9992f)}][06 56 01 {e(l_0xc87280)}][06 94 00 {e(l_0xc87220)}]{window_open(1)}@.....{wait}{window_closeall}" eob
+
+l_0xc87220:
+    "{window_open(1)}@Bist du ein Dieb, ein Krieger, oder jemand, der meine Majest[c0]t sehen will?" next
+    "@Du musst entscheiden, wer du wirklich bist. Also, was wirst du tun?{wait}{window_closeall}{set(flag 7)}{set(flag 152)}" eob
+
+l_0xc87280:
+    "{window_open(1)}@Krieger, tretet ein.{pause(20)}" linebreak
+    "  Sucht das [1C 05 AF].[03]{window_closeall}" eob
+
+l_0xc872a6:
+    "@Kaputtes, altes U-Boot. Die gelbe Farbe ist reiner Zufall." next
+    "@                      ...Steinweg" end
+
+l_0xc872e6:
+    "@Rostiges Fahrrad." linebreak
+    "  Rost ist die perfekte Bremse." next
+    "@                      ...Steinweg" end
+
+l_0xc87313:
+    "@Taxi ohne Motor." linebreak
+    "  Wundersch[c9]n, auch wenn es nicht mehr fahren kann." next
+    "@                      ...Steinweg" end
+
+l_0xc8734b:
+    "@Sammlung alter Fahrzeuge." linebreak
+    "  Das ist mein geheimes Hobby." next
+    "@                      ...Steinweg" end
+
+l_0xc8737f:
+    "@Ich habe eine Informationstafel ohne Nachricht platziert." next
+    "@                      ...Steinweg" end
+
+l_0xc873ab:
+    "@Das andere Seil sieht verd[c0]chtig aus..." linebreak
+	"  Ich frage mich warum..." next
+    "@                      ...Steinweg" end
+
+l_0xc873dd:
+    "@Ich habe eine Informationstafel aufgestellt," next
+	"@sie ist aber wahrscheinlich nutzlos." linebreak
+    "                        ...Steinweg" end
+
+l_0xc87411:
+    "@Du findest in der Sackgasse einen n[cb]tzlichen Gegenstand," next
+	"@aber der Weg dahin ist noch sehr lang." next
+    "@                      ...Steinweg" end
+
+l_0xc87444:
+    "@Vor einer Dungeonwanderung sollte sowohl der K[c9]rper," next
+	"@als auch der Geist gereinigt werden." linebreak
+    "                        ...Steinweg" end
+
+l_0xc87474:
+    "@Scheue keine Anstrengungen." next
+	"@Beachte diesen Rat und vortreffliche Gegenst[c0]nde sollen dein Eigentum sein." next
+    "@                      ...Steinweg" end
+
+l_0xc874a2:
+    "@Ich stimme der linken Informationstafel voll und ganz zu." next
+    "@                      ...Steinweg" end
+
+l_0xc874d4:
+    "@Eine Telefonleitung geh[c9]rt einfach in einen Dungeon." next
+	"@Ich bin mir sicher, das hat seine Vor- und Nachteile" linebreak
+    "                        ...Steinweg" end
+
+l_0xc87511:
+    "@Du hast einen langen Weg vor dir." next
+	"@Etwas Ruhe und Entspannung k[c9]nnte dir das Leben retten." next
+    "@                      ...Steinweg" end
+
+l_0xc87546:
+    "@Wenn ein Dungeon erstmal gebaut wurde, dann fangen die Monster an einzuziehen." next
+    "@                      ...Steinweg" end
+
+l_0xc8757d:
+    "@Lege einen Gegenstand in die Sackgasse. Du kannst ihn jederzeit wieder mitnehmen." next
+    "@                      ...Steinweg" end
+
+l_0xc875b0:
+    "@Gegenst[c0]nde, die einfach zu bekommen sind, sind meistens entt[c0]uschend." next
+    "@                      ...Steinweg" end
+
+l_0xc875db:
+    "@Dungeonbesitzer sind dazu verpflichtet einen Arzt" next
+	"@und eine Krankenschwester einzustellen." linebreak
+    "                        ...Steinweg" end
+
+l_0xc87617:
+    "@Behalte dir diese Informationstafel[cf]im[cf]Hinterkopf." next
+    "@                      ...Steinweg" end
+
+l_0xc87632:
+    "@Laut meinen Statistiken gehen ungef[c0]hr 70% aller Leute zu erst nach rechts." next
+    "@                      ...Steinweg" end
+
+l_0xc87664:
+    "@Dein erstes Ziel sind die vier Seile." next
+    "@                      ...Steinweg" end
+
+l_0xc8768c:
+    "@Manchmal gibt es Orte, die du im Moment nicht erreichen kannst, sondern erst sp[c0]ter." next
+    "@                      ...Steinweg" end
+
+l_0xc876b6:
+    "@Willkommen." linebreak
+    "  Du bist im Inneren meines K[c9]rpers." next
+    "@                      ...Steinweg" end
+
+l_0xc876d6:
+    "@Wenn du nur hart genug arbeitest, fehlt dir die Zeit f[cb]r ein Burnout." next
+    "@                      ...Steinweg" end
+
+l_0xc876f9:
+    "@Lerne aus deinen Fehlern." next
+    "@Folge dieser Regel und dein Erfolg ist praktisch vorprogrammiert." next
+    "@                      ...Steinweg" end
+
+l_0xc8773b:
+    "@Du hast einen starken K[c9]rper. M[c9]chtest du nicht ein Dungeonarbeiter werden?" next
+    "@                      ...Steinweg" end
+
+l_0xc8776e:
+    "@Oben gibt es eine Menge Monster, aber mach dir keinen Stress." next
+    "@                      ...Steinweg" end
+
+l_0xc87798:
+    "@Dungeon erkunden ist harte Arbeit, aber es macht auch Spa[b8]." next
+    "@                      ...Steinweg" end
+
+l_0xc877c4:
+    "@Dort unten ist ein Loch. Dar[cb]ber musst du dir vorerst keine Gedanken machen." next
+    "@                      ...Steinweg" end
+
+l_0xc877f1:
+    "@Das ist der erste Stock meines K[c9]rpers." next
+    "@                      ...Steinweg" end
+
+l_0xc87811:
+    "@Was ist ein Dungeon? Das ist meine ewig w[c0]hrende Frage." next
+    "@                      ...Steinweg" end
+
+l_0xc8783f:
+    "@In dieser Sackgasse liegt ein Gegenstand," next
+    "@aber ich bin bekannt daf[cb]r manchmal falsch zu liegen." linebreak
+	"  Tut mir leid." next
+    "@                      ...Steinweg" end
+
+l_0xc87881:
+    "@Hier drinnen riecht es nach Blumen." next
+	"@Wenn du nichts riechen kannst, dann muss deine Nase wohl zu sein." next
+    "@                      ...Steinweg" end
+
+l_0xc878b9:
+    "@Diese Musik ist eine meiner gr[c9][b8]ten Errungenschaften." next
+    "@                      ...Steinweg" end
+
+l_0xc878e2:
+    "@Im Inneren des Dungeons sind Fotos mit Blitzlicht verboten." next
+    "@                      ...Steinweg" end
+
+l_0xc8791a:
+    "@Du stehst in der N[c0]he meines Bauchnabels." next
+    "@                      ...Steinweg" end
+
+l_0xc87941:
+    "@Das ist der zweite Stock meines K[c9]rpers." next
+    "@                      ...Steinweg" end
+
+l_0xc87961:
+    "@<Kriminelle Ente>" next
+    "@Wenn du weit genug entfernt bist, k[c9]nnen sie gute Haustiere sein." next
+    "@                      ...Steinweg" end
+
+l_0xc87995:
+    "@<Gewaltt[c0]tige Ziege>" linebreak
+	"  Die Gewaltt[c0]tigste Art von Ziege." next
+    "@                      ...Steinweg" end
+
+l_0xc879c5:
+    "@<Gute Arbeit, du hast es endlich geschafft>!" next
+    "@Oben gibt es eine Informationstafel, auf der dies geschrieben steht." next
+    "@                      ...Steinweg" end
+
+l_0xc879fe:
+    "@Warum legst du hier nicht eine sch[c9]ne, kleine Pause ein?" next
+    "@                      ...Steinweg" end
+
+l_0xc87a1d:
+    "@<Schleimiges H[c0]ufchen>" linebreak
+	"  Es hat die schlechte Angewohnheit zu r[cb]lpsen." next
+    "@                      ...Steinweg" end
+
+l_0xc87a50:
+    "@Gute Arbeit," linebreak
+    "  du hast es endlich geschafft." next
+    "@                      ...Steinweg" end
+
+l_0xc87a6f:
+    "@<R[cb]ckkehr Loch>" linebreak
+    "  Nimm all deinen Mut zusammen und spring." next
+    "@                      ...Steinweg" end
+
+l_0xc87a9a:
+    "@Willkommen in meinem bescheidenen Dungeon!" next
+    "@                      ...Steinweg" end
+
+l_0xc87aba:
+    "@Pass auf fallendes Material auf!" next
+    "@                      ...Steinweg" linebreak
+    "{wait}{window_closeall}[06 C1 02 {e(data_50.l_0xc9992f)}]{pause(60)}" call(data_21.l_0xc68851) eob
+
+l_0xc87aeb:
+    "@Gut gemacht." linebreak
+    "  Bitte beehren Sie uns wieder." next
+    "@                      ...Steinweg" end
+
+l_0xc87b0b:
+    "@(<Sicherheit geht vor>" linebreak
+    "  Verletzen Sie sich nicht! R[cb]lpsen Sie lieber!)" end
+
+l_0xc87b33:
+    "@(Gegenstand Laden.)" end
+
+l_0xc87b40:
+    "@(Hei[b8]e Quellen. [bb]berall gut)" end
+
+l_0xc87b56:
+    "@(Hotel.)" end
+
+l_0xc87b60:
+    "@(Seltsamer Schrott.)" end
+
+l_0xc87b70:
+    "@(Willkommen im wundersch[c9]nen Onett, die Wildblume von Eagleland.)" end
+
+l_0xc87b9e:
+    "@(Sauber, ruhig und wundersch[c9]n" next
+	"@Onett-- geleitet von B[cb]rgermeister Pirkle...)" end
+
+l_0xc87bcf:
+    "@(Wenn Sie Probleme haben, fragen Sie Ihren g[cb]tigen B[cb]rgermeister!)" end
+
+l_0xc87bf5:
+    "@(Gutherzig und stark, die Kinder Onetts..." linebreak
+    "  G.K. Pirkle)" end
+
+l_0xc87c1d:
+    "@(Die B[cb]rger Onetts sind stolz auf G.K. Pirkle!" next
+    "@Der B[cb]rgermeister ist stolz auf die B[cb]rger Onetts.)" end
+
+l_0xc87c57:
+    "@(Aushilfen gesucht - Polizei, Abteilung Stra[b8]ensperren." linebreak
+    "  Onett Polizei)" end
+
+l_0xc87c8c:
+    "@(Twoson unterscheidet sich von Onett. Wir haben den Gauner Park.)" end
+
+l_0xc87cb8:
+    "@(Heute abends kehrt der Groove zur[cb]ck!" next
+    "@Die Nacht geh[c9]rt den Runaway Br[cb]dern!)" end
+
+l_0xc87cd9:
+    "@(Treiben Sie Sport? ...Wenn ja, dann ist uns das recht." next
+    "@<Twoson Athletikzentrum>)" end
+
+l_0xc87d1f:
+    "@(Ich schreibe Erwachsenen nichts vor," next
+    "@aber junge Kinder sollten nicht mehr als zwei Stunden spielen." next
+    "@Es sollte nichts [cb]bertrieben werden, das ist nicht gut f[cb]r euch." next
+    "@Eltern gegen Sucht)" end
+
+l_0xc87d94:
+    "@Die Informationstafel ist mit Graffiti bespr[cb]ht." next
+    "@(...Nintendo, I want it all!)" end
+
+l_0xc87db4:
+    "@Die Informationstafel ist mit Graffiti bespr[cb]ht." next
+    "@(Software Entwicklungs Geb[c0]ude, Mt. Fuji ist zu sehen - HAL Laboratory)" end
+
+l_0xc87dff:
+    "[06 59 00 {e(data_32.l_0xc7c59e)}][06 7E 00 {e(l_0xc87e13)}]" call(data_32.l_0xc7c59e) eob
+
+l_0xc87e13:
+    "@(Dort ist das Buch <Sch[cb]chternheit [cb]berwinden> nicht zu finden.)" end
+
+l_0xc87e37:
+    "[06 59 00 {e(data_32.l_0xc7c59e)}][06 7E 00 {e(l_0xc87e4c)}]" call(data_32.l_0xc7c59e) end
+
+l_0xc87e4c:
+    "@(Du hast das Buch" linebreak
+    "  <Sch[cb]chternheit [cb]berwinden> gefunden!)" next
+    "[1D 03 FF][1B 02 {e(l_0xc87e8e)}][1D 0E 00 A4][1B 05]" call(data_33.l_0xc7dcb6) "{wait}{set(flag 89)}{unset(flag 766)}{unset(flag 51)}" eob
+
+l_0xc87e8e:
+    "@(Aber schau mal, in diesem glorreichen Moment hast du kein Platz mehr.)" next
+    eob
+
+l_0xc87eb2:
+    "@Hier ist alles okay." eob
+
+l_0xc87ebc:
+    "@Dies ist ein Geschenk von Dr. Andonuts. Sei bei der Benutzung vorsichtig." next
+    "@                      ...Steinweg" end
+
+l_0xc87eee:
+    "@Du kannst bei dieser Bank genau wie im Hotel einchecken." next
+    "@                      ...Steinweg" end
+
+l_0xc88000:
+    "{isset(flag 22)}[1B 02 {e(l_0xc8807d)}]@(Der Blasen Affe nimmt ein St[cb]ck Kaugummi," next
+    "@kaut es und f[c0]ngt an, eine Blasen zu machen.)[03]{window_closeall}[06 52 01 {e(data_40.l_0xc8824a)}][1F EB 09 06][1F 15 31 00 FD 00 01][1F 61]{sound(14)}[1F 1F 31 00 06][1F 15 32 00 FE 00 01][1F 15 58 01 FF 00 01][1F 61][1F 1F 32 00 06][1F 1F 58 01 06][1F EC 09 01]" eob
+
+l_0xc8807d:
+    "[19 10 01]{rtoarg}@[1C 02 00] kaut ein St[cb]ck Kaugummi,{pause(15)} aber es war nicht zufriedenstellend." end goto(l_0xc880b9)
+
+l_0xc880b9:
+    "[1F 11 09][1F EB 09 06][1F 1E 61 02 06][1F 15 31 00 FC 00 01][1F 61]{sound(14)}[1F 1F 31 00 06][1F 15 32 00 FE 00 01][1F 15 58 01 FF 00 01][1F 61][1F 1F 58 01 06][1F 1F 32 00 06][1F 15 2E 00 31 00 01][1F 61][1F 1F 2E 00 06][1F EC 09 01]" eob
+

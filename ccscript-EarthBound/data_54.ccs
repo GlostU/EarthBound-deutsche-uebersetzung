@@ -1,0 +1,506 @@
+/*
+ * EarthBound Text Dump
+ * Time: 22:14:19 - 03/04/2018
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+command e(label) "{long label}"
+
+// Text Data
+l_0xc9e252:
+    "@Ich ben[c9]tige keine Worte mehr." next
+    "@Ich verwandle mich wieder in einen simplen Stein.{wait}{set(flag 423)}" eob
+
+l_0xc9e27b:
+    "[06 C4 00 {e(data_32.l_0xc7c588)}]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(data_22.l_0xc690a6)}]{music(155)}@Du bist endlich angekommen." next
+    "@Das ist das siebte deiner <Heiligt[cb]mer>.{pause(20)} Aber jetzt geh[c9]rt es mir." next
+    "@Nimm es von mir,{pause(30)} wenn du dich traust...[03]" call(data_21.l_0xc68433) "[1B 03 {e(data_21.l_0xc683de)}][1F 1E DE 04 08]{pause(120)}{set(flag 196)}" eob
+
+l_0xc9e2f5:
+    "@Guten Abend." next
+    "@Ich bin ein sprechender Stein." next
+    "@Aber die Steine hier in der Gegend sprechen nicht so viel." next
+    "@Der Stein, der am meisten Spricht, liegt tief im Labyrinth dort vorne..." next
+    "@in der <Verlorenen Unterwelt>." next
+    "@Vergiss nicht mit dem Stein zu sprechen!{pause(20)} Es ist wichtig!{wait}{set(flag 649)}" eob
+
+l_0xc9e37e:
+    "[06 8A 02 {e(l_0xc9e567)}][06 0A 00 {e(l_0xc9e4eb)}]"
+	"@Ich habe geh[c9]rt, dass einige Affen, die in irgendeiner W[cb]ste leben," next
+	"@sich teleportieren k[c9]nnen." next
+    "@Oh, du hast von den Affen das Teleportieren gelernt?" next
+    "{pause(60)}" linebreak
+    "@...Ich m[c9]chte es auch versuchen!" next
+    "@Erkl[c0]rst du mir wie es funktioniert?!" linebreak
+    "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc9e421)} {e(l_0xc9e406)}]" goto(l_0xc9e406)
+
+l_0xc9e406:
+    "@Du m[c9]chtest keinen Affen als Sch[cb]ler haben, nicht wahr?" end
+
+l_0xc9e421:
+    "{window_closeall}{pause(30)}{window_open(1)}"
+	"@Okay...{pause(20)} Ich versuche es.[03]{window_closeall}[1F F1 CA 04 D1 01][1F 61][1F E6 CA 04]{pause(60)}[1F E9 CA 04]{music(13)}[1F 61][1F 1E CA 04 06][1F 15 0D 00 08 00 01]{music(14)}{pause(120)}{music_resume}[1F 1F 0D 00 06][1F 17 CA 04 D2 01 01][1F 61][1F E6 CA 04][19 10 01]{rtoarg}[19 23 CA 04 01 00 00][1F 16 CA 04 00]{window_open(1)}"
+	"@Ich werde niemals aufgeben!{pause(20)} Ich m[c9]chte es nochmal versuchen.[03]{window_closeall}[1F E9 CA 04][1F 61]{music(13)}[1F 61]{music_resume}[19 10 01]{rtoarg}[19 23 CA 04 01 00 00][1F 16 CA 04 00]{window_open(1)}"
+	"@Ich hab's geschafft!" next
+    "@Hast du es gesehen?{pause(20)} Das ist der Wahnsinn!" next
+    goto(l_0xc9e4eb)
+
+l_0xc9e4eb:
+    "@Hier ist ein kleines Geschenk, als Dankesch[c9]n." next
+    "[1D 03 FF][1B 02 {e(l_0xc9e51f)}][1D 0E 00 D1][1B 05]" call(data_33.l_0xc7dccf) "{set(flag 650)}{unset(flag 10)}" end goto(l_0xc9e51f)
+
+l_0xc9e51f:
+    "@Bist du sicher, dass du es nicht annehmen kannst?" next
+    "@...Ich wei[b8], du hast nicht genug Platz,{pause(15)} aber..." next
+    "@...Ich wollte dir" linebreak
+    "  die <[1C 05 D1]> schenken.{wait}{set(flag 10)}" eob
+
+l_0xc9e567:
+    "@Hast du die" linebreak
+    "  <[1C 05 D1]>?" end
+
+l_0xc9e578:
+    "[06 20 01 {e(l_0xc9e5c9)}]@Hier in der Tiefen Dunkelheit ist es wirklich dunkel." next
+    "@Es ist auch ziemlich unheimlich hier, glaubst du nicht auch?" next
+    "@Wenn du hier kein [1C 05 AF] hast, bist du aufgeschmissen." end
+
+l_0xc9e5c9:
+    "@Ich wurde in dieser dunklen, gruseligen Gegend geboren." next
+    "@Ich lebe, wachse... und sterbe hier." next
+    "@Das ist mein ganzes Leben als Affe!..." end
+
+l_0xc9e613:
+    call(data_44.l_0xc90d23) eob
+
+l_0xc9e619:
+//https://legendsoflocalization.com/earthbound/deep-darkness/#breathe-deep
+	title(1, Belch)
+    "[06 14 01 {e(data_32.l_0xc7c588)}]{music(134)}"
+	"@Du hast es vielleicht schon vergessen, aber *R[cb][cb][cb][cb]lps!*..." next
+    "@Ich bin die R[cb]ckkehr von R[cb]lps!{sound(78)}{pause(1)}" next
+	title(1, Belch2)
+    "@Ich habe dich schonmal bek[c0]mpft." next
+    "{sound(78)}{pause(1)}@Huuuuhhhhh!" next
+    "@Erinnerst du dich an meinen reifen Duft?" next
+    "@R[cb]lps hat trainiert und ist mit noch mehr Kraft zur[cb]ckgekehrt." next
+    "@Kotz!{pause(20)}{sound(78)}{pause(1)} R[cb]lps hat auch seinen Namen in Kotze ge[c0]ndert!..." next
+    title(1, Barf)
+    "@Spuck!  kotz!  spuck, spuck!  kotz! kotz!" next
+    "@Ertrinke in der Kotze und stirb!" next
+    "@Glaubst du nicht auch, dass das ein unglaublich m[c0]nnlicher Spruch ist?[03]" call(data_21.l_0xc68570) "[1B 03 {e(data_21.l_0xc683de)}][1F 11 04][1F 71 04 02]{set(flag 276)}{pause(1)}[1F F1 CD 04 7B 02]" eob
+
+l_0xc9e763:
+    "@Quiieeek!" next
+    "@Dorf Gummis Niemand kommt" next
+    "@Weit deswegen.  Quiek." end
+
+l_0xc9e79f:
+    call(l_0xc9e81c) "[1B 02 {e(l_0xc9e843)}]" call(l_0xc9e838) "{set(flag 439)}[1F 1E D8 04 06]" eob
+
+l_0xc9e7b8:
+    call(l_0xc9e81c) "[1B 02 {e(l_0xc9e843)}]" call(l_0xc9e838) "{set(flag 440)}[1F 1E D9 04 06]" eob
+
+l_0xc9e7d1:
+    call(l_0xc9e81c) "[1B 02 {e(l_0xc9e843)}]" call(l_0xc9e838) "{set(flag 441)}[1F 1E DA 04 06]" eob
+
+l_0xc9e7ea:
+    call(l_0xc9e81c) "[1B 02 {e(l_0xc9e843)}]" call(l_0xc9e838) "{set(flag 442)}[1F 1E DB 04 06]" eob
+
+l_0xc9e803:
+    call(l_0xc9e81c) "[1B 02 {e(l_0xc9e843)}]" call(l_0xc9e838) "{set(flag 443)}[1F 1E DC 04 06]" eob
+
+l_0xc9e81c:
+    "@Hey!" next
+    "@Dort liegt ein [1C 05 63] neben deinen F[cb][b8]en." next
+    "[1D 03 FF]" eob
+
+l_0xc9e838:
+    "[1D 0E 00 63]" call(data_33.l_0xc7dccf) end
+
+l_0xc9e843:
+    "@Aber du hast keinen Platz." next
+	"{unset(flag 980)}"
+    "@" call(data_33.l_0xc7e6d7)
+	if flag 980{
+	" verzichten"
+	}
+	else {
+	" verzichtet"
+	}	
+	" auf den Magischen Tr[cb]ffel." end //[1C 05 63]
+
+l_0xc9e865:
+    "@Ich glaube nicht, dass es erforderlich ist, dass wir reden." end
+
+l_0xc9e87d:
+    "@Hi, wie geht's dir?{pause(20)} Ich bin kein schlechter Kerl." next
+    "@Ich komme von einer der weltgr[c9][b8]ten Wirtschafts-" linebreak
+	"  m[c0]chten in dieses kleine," next
+	"@abgeschiedene Dorf." next
+    "@Ein Gesch[c0]fftsmann, der wirklich knallhart ist, muss" next
+    "@so weit f[cb]r die besten M[c9]glichkeiten reisen." next
+    "@...und ich bin ein knallharter Gesch[c0]fftsmann, Jawohl!" next
+    "@Ich repr[c0]sentiere auch den Arzt dort dr[cb]ben." next
+    "@A: M[c9]chtest du etwas kaufen...?" next
+    "@B: Brauchst du einen Arzt...?" next
+    "[19 02]A[02][19 02]B[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc9e985)} {e(l_0xc9e9c6)}]" goto(l_0xc9ea20)
+
+l_0xc9e985:
+    "@...Es ist zwar [cb]berfl[cb]ssig zu sagen, aber das ist ein abgeschiedenes Dorf." next
+    "@...Heh heh,{pause(15)} wir haben schlechte Gegenst[c0]nde." next
+    call(data_12.l_0xc5d54b) eob
+
+l_0xc9e9c6:
+    "@Wenn du mit dem Arzt sprechen musst,{pause(15)} bitte,{pause(15)} BITTE sprich erst mit mir." next
+    "@Willst du mit dem Arzt sprechen?" next
+    "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc9ea6f)} {e(l_0xc9ea20)}]" goto(l_0xc9ea20)
+
+l_0xc9ea20:
+    "@Okay." next
+    "@Wenn du versuchst mit dem Arzt zu reden, ohne mich anzusprechen," next
+    "@dann verst[c9][b8]t du gegen das Gesetz.{pause(20)} Pass also bitte auf." end
+
+l_0xc9ea6f:
+    "@Das ist eine besondere Behandlung." next
+    "@Nur eine dieser Behandlungen und[cf]du[cf]bist[cf]wieder[cf]ganz[cf]gesund." next
+    "@Die Geb[cb]hr f[cb]r eine Behandlung ist $500." next
+    "@Ist das in Ordnung?" linebreak
+    call(data_33.l_0xc7dd4b) "[11]{clearline}[09 02 {e(l_0xc9eadb)} {e(l_0xc9ea20)}]" goto(l_0xc9ea20)
+
+l_0xc9eadb:
+//TODO
+    "@Ich kann die Rechnung [cb]bernehmen, wenn du m[c9]chtest." next
+    "@Was willst du tun?" linebreak
+    "[19 02]Lass ihn bezahlen[02][19 02]Bargeld[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc9eb5d)} {e(l_0xc9eb28)}]" goto(l_0xc9ea20)
+
+l_0xc9eb28:
+    "[1D 14 F4 01 00 00][1B 03 {e(l_0xc9eb41)}][1D 09 F4 01]{sound(118)}" call(l_0xc9eb76) eob
+
+l_0xc9eb41:
+    "@Oh,{pause(10)} Oh...{pause(20)} Du hast nicht genug Geld." next
+    goto(l_0xc9eb5d)
+
+l_0xc9eb5d:
+    "{set(flag 654)}@Ich kann dann f[cb]r dich bezahlen." next
+    "{sound(118)}" call(l_0xc9eb76) eob
+
+l_0xc9eb76:
+    "[19 23 D1 04 02 D2 04][1F 16 D1 04 00]{pause(10)}@Doc,{pause(15)} bitte behandle den n[c0]chsten Patienten!" next
+    "@...Behandle " call(l_0xc9ec62) " vern[cb]nftig, ok!?{wait}{window_closeall}[1F F1 D2 04 A9 02][1F 61][1F E6 D2 04][19 10 01]{rtoarg}{window_open(1)}"
+	"@(Der gute Doktor fl[cb]sterte in jedes Ohr,{pause(15)} erst das rechte, dann das linke,{pause(15)} <sei Gesund>.){wait}" call(data_44.l_0xc9162c) "{window_closeall}[1F E9 D2 04][1F 61][1F F1 D2 04 5D 02]{pause(1)}[1F 16 D2 04 03]{pause(30)}[19 23 D1 04 01 FF 00][1F 16 D1 04 00]{pause(10)}{window_open(1)}"
+	"@Ich bin froh Gesch[c0]fte mit Menschen au[b8]erhalb des Affenk[c9]nigreichs gemacht" next
+	"@zu haben." next
+    "@Bitte bald komm wieder.{wait}{window_closeall}" eob goto(l_0xc9ec62)
+
+l_0xc9ec62:
+    "[19 10 01]{result_is(2)}[1B 03 {e(l_0xc9ec71)}]ihn" eob goto(l_0xc9ec71)
+
+l_0xc9ec71:
+    "sie" eob
+
+l_0xc9ec74:
+    call(data_19.l_0xc65243) eob
+
+l_0xc9ec7a:
+    "[06 49 00 {e(l_0xc9ecfe)}]{counter(3)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc9ecfe)}][19 22 01 01 03 00][1F 13 01 00][19 22 02 01 03 00][1F 13 02 00]{window_open(1)}{pause(20)}"
+	title_jeff(1)
+	"@Er ist komplett zerst[c9]rt." next
+    "@Ich dachte, ich k[c9]nnte ihn reparieren,{pause(15)} aber auf dem zweiten Blick..." next
+    "@...konnte ich sehen, dass der Motor fehlt.{pause(20)} Hmmm.{wait}{window_closeall}" eob goto(l_0xc9ecfe)
+
+l_0xc9ecfe:
+    "@(Er ist komplett zerst[c9]rt." next
+    "@Niemand sitzt im Pilotensitz.)" end
+
+l_0xc9ed29:
+    "@*Klingel* *klingel*" next
+    call(data_17.l_0xc63029) eob
+
+l_0xc9ed3c:
+    "@Das ist die Tiefe Dunkelheit." next
+    "@Wenn du durch den Sumpf l[c0]ufst,{pause(15)} gef[c0]rdest du deine Gesundheit." next
+    "@Du kannst daran nichts [c0]ndern.{pause(20)} Darum hei[b8]t der Ort auch Tiefe Dunkelheit." end
+
+l_0xc9ed95:
+    "@Ich m[c9]chte ein Schwein werden." next
+    "@Wenn ich ein Schwein bin, dann kann ich Magische Tr[cb]ffel finden." next
+    "@Diese Pilze befinden sich im Sumpf und k[c9]nnen nur per Duft gefunden werden." next
+    "@Wei[b8]t du, selbst eine Schweinenase w[cb]rde schon ausreichen, um" next
+    "@diese gro[b8]artigen Tr[cb]ffel nur durch ihren Duft zu finden." end
+
+l_0xc9ee2f:
+    "[1D 21 0D][09 0D {e(l_0xc9ee7f)} {e(l_0xc9ee9f)} {e(l_0xc9eec7)} {e(l_0xc9eede)} {e(l_0xc9ef00)} {e(l_0xc9efb9)} {e(l_0xc9efe1)} {e(l_0xc9eff6)} {e(l_0xc9f020)} {e(l_0xc9f042)} {e(l_0xc9f052)} {e(l_0xc9f074)} {e(l_0xc9f090)}]" goto(l_0xc9ee68)
+
+l_0xc9ee68:
+    newline
+    "[1F 04 02]@<.....[1C 01 08]{pause(1)}...>[1F 04 01][03]" eob
+
+l_0xc9ee7f:
+    newline
+    "[1F 04 02]@<Es tut weh,{pause(30)}" linebreak
+    "  [1C 01 08]{pause(1)}...>[1F 04 01][03]" eob
+
+l_0xc9ee9f:
+    newline
+    "[1F 04 02]@<...Ich" linebreak
+	"  g...{pause(10)} l...{pause(10)} [cb]...{pause(10)} c...{pause(10)} k...{pause(10)} l...{pause(10)} i...{pause(10)} c...{pause(10)} h...>[1F 04 01][03]" eob
+
+l_0xc9eec7:
+    newline
+    "[1F 04 02]@<...{pause(20)}Freunde...>[1F 04 01][03]" eob
+
+l_0xc9eede:
+    newline
+    "[1F 04 02]@<...Es tut weh,{pause(20)} ...es tut weh...>[1F 04 01][03]" eob
+
+l_0xc9ef00:
+    "[1F 04 02]" newline
+    "@<[1C 01 08], {pause(1)}[1C 01 08], {pause(1)}[1C 01 08], {pause(1)}[1C 01 08], {pause(1)}[1C 01 08], {pause(1)}[1C 01 08], {pause(1)}[1C 01 08], {pause(1)}[1C 01 08], {pause(1)}[1C 01 08], {pause(1)}[1C 01 08], {pause(1)}[1C 01 08], {pause(1)}[1C 01 08], {pause(1)}[1C 01 08], {pause(1)}[1C 01 08], {pause(1)}[1C 01 08], {pause(1)}[1C 01 08], {pause(1)}[1C 01 08], {pause(1)}[1C 01 08], {pause(1)}[1C 01 08], {pause(1)}[1C 01 08], {pause(1)}[1C 01 08], {pause(1)}[1C 01 08], {pause(1)}[1C 01 08], {pause(1)}[1C 01 08]{pause(5)} {pause(15)}.....>[1F 04 01][03]" eob
+
+l_0xc9efb9:
+    newline
+    "[1F 04 02]@<...{pause(1)}geh... {pause(1)}w... {pause(1)}e... {pause(1)}g...>[1F 04 01][03]" eob
+
+l_0xc9efe1:
+    newline
+    "[1F 04 02]@<...[1C 01 08]{pause(1)}...>[1F 04 01][03]" eob
+
+l_0xc9eff6:
+    newline
+    "[1F 04 02]@<Ich {pause(15)}f[cb]hle... {pause(15)}mich... {pause(15)} g...{pause(15)} u...{pause(15)} t...>[1F 04 01][03]" eob
+
+l_0xc9f020:
+    newline
+    "[1F 04 02]@<...Ich bin so traurig..." linebreak
+    "  .....[1C 01 08]{pause(1)}.>[1F 04 01][03]" eob
+
+l_0xc9f042:
+    newline
+    "[1F 04 02]@<[1C 01 08]!>[1F 04 01][03]" eob
+
+l_0xc9f052:
+    newline
+    "[1F 04 02]@<Ah, {pause(20)} Grrr, {pause(15)} Ohhh...>[1F 04 01][03]" eob
+
+l_0xc9f074:
+    newline
+    "[1F 04 02]@<Aggh...  Jaaagh!...>[1F 04 01][03]" eob
+
+l_0xc9f090:
+    newline
+    "[1F 04 02]@<Das ist nicht richtig...{pause(20)} nicht richtig...{pause(20)} nicht richtig...>[1F 04 01][03]" eob
+
+l_0xc9f0b8:
+//https://legendsoflocalization.com/earthbound/giygas/#god
+    newline
+    "{sound(28)}@{user} betet" linebreak
+    "  aus tiefstem Herzen![03]{pause(60)}" newline
+    "[1F 04 02]@<...Bitte gib uns Kraft.{prompt}" linebreak
+    "@Wenn es m[c9]glich ist..." next
+    "@Bitte, Gott, wenn du uns h[c9]ren kannst...>{prompt}" linebreak
+    "@<................" linebreak
+    "  Irgendwer... hilf uns...>.[1F 04 01]{pause(150)}" eob
+
+l_0xc9f134:
+    newline
+    "{sound(28)}@{user} betet" linebreak
+    "  aus tiefstem Herzen![03]{pause(60)}" newline
+    "[1F 04 02]@<...Bitte gib uns Kraft!{prompt}" linebreak
+    "@Wer unsere Bitte auch h[c9]ren kann...." linebreak
+    "  Hilf uns...>.[1F 04 01]{pause(150)}" eob
+
+l_0xc9f196:
+    newline
+    "{sound(28)}@{user} betet" linebreak
+    "  aus tiefstem Herzen![03]{pause(60)}" newline
+    "[1F 04 02]@<...Bitte gib uns Kraft!{prompt}" linebreak
+    "@Bring dieses Gebet" linebreak
+    "  zu allen Menschen der Erde>.[1F 04 01]{pause(150)}" eob
+
+l_0xc9f1fd:
+    newline
+    "{sound(28)}@{user} betet" linebreak
+    "  aus tiefstem Herzen![03]{pause(60)}" newline
+    "[1F 04 02]@<...Bitte gib uns Kraft!{prompt}" linebreak
+    "@Wer unsere Bitte auch h[c9]ren kann...." linebreak
+    "  Hilf uns...>.[1F 04 01]{pause(150)}" eob
+
+l_0xc9f25e:
+    newline
+    "{sound(28)}@{user} betet" linebreak
+    "  aus tiefstem Herzen![03]{pause(60)}" newline
+    "[1F 04 02]@<...Bitte schenke uns Kraft!{prompt}" linebreak
+    "@Wer unsere Bitte auch h[c9]ren kann...." linebreak
+    "  Hilf uns...>.[1F 04 01]{pause(150)}" eob
+
+l_0xc9f2bc:
+    newline
+    "{sound(28)}@{user} betet" linebreak
+    "  aus tiefstem Herzen![03]{pause(60)}" newline
+    "[1F 04 02]@<...Bitte schenke uns Kraft!{prompt}" linebreak
+    "@Wer unsere Bitte auch h[c9]ren kann...." linebreak
+    "  Wir bitten darum...>.[1F 04 01]{pause(150)}" eob
+
+l_0xc9f325:
+    newline
+    "{sound(28)}@{user} betet" linebreak
+    "  aus tiefstem Herzen![03]{pause(60)}" newline
+    "[1F 04 02]@<...Bitte schenke uns Kraft!{prompt}" linebreak
+    "@Bring dieses Gebet" linebreak
+    "  zu allen Menschen der Erde...>.[1F 04 01]{pause(150)}" eob
+
+l_0xc9f389:
+    newline
+    "{sound(28)}@{user} betet" linebreak
+    "  aus tiefstem Herzen![03]{pause(60)}" newline
+    "[1F 04 02]@<Mir f[c0]llt niemand" linebreak
+    "  anderes mehr ein...{prompt}" linebreak
+    "@...Irgendwer, irgendjemand..." linebreak
+    "  ...bitte hilf uns.>.[1F 04 01]{pause(150)}{window_closeall}" eob
+
+l_0xc9f3ec:
+    newline
+    "{sound(28)}@{user} betet" linebreak
+    "  aus tiefstem Herzen![03]{pause(60)}" newline
+    "[1F 04 02]@<Irgendwer... kannst du mich h[c9]ren?!{prompt}" linebreak
+    "@Bitte, gib uns Kraft!>[1F 04 01]{pause(150)}" eob
+
+l_0xc9f442:
+//https://legendsoflocalization.com/earthbound/giygas/#runaway-who
+    "{window_open(1)}@(Pl[c9]tzlich wurde die Mutter von [1C 01 08] sehr besorgt,{prompt}" linebreak
+    "@und sie fing an f[cb]r die Sicherheit ihres Sohnes und seiner Freunde zu beten.){pause(150)}{window_closeall}" eob
+
+l_0xc9f4a2:
+    "{window_open(1)}@(Pl[c9]tzlich f[cb]hlte sich Nice von den Runaway Br[cb]dern so, als w[cb]rde ihn etwas aufhalten,{prompt}" linebreak
+    "@und er betete leidenschaftlich f[cb]r [1C 01 08] und seine Freunde.){pause(150)}{window_closeall}" eob
+
+l_0xc9f4f6:
+    "{window_open(1)}@(Der Vater von [1C 01 1E] dachte, er h[c0]tte irgendwie die Stimme seiner Tochter geh[c9]rt,{prompt}" linebreak
+    "@und er betete aufrichtig f[cb]r" linebreak
+    "  die Sicherheit von [1C 01 1E] und" linebreak
+    "  ihre Freunde.){pause(150)}{window_closeall}" eob
+
+l_0xc9f557:
+    "{window_open(1)}@(Pl[c9]tzlich" linebreak
+    "  wurde Tony unruhig, vor lauter Sorge um [1C 01 34]{prompt}" linebreak
+    "@und er betete mit ganzer Kraft f[cb]r [1C 01 34] und seine Freunde.){pause(150)}{window_closeall}" eob
+
+l_0xc9f5a8:
+//https://legendsoflocalization.com/earthbound/giygas/#deadpoo
+    "{window_open(1)}@(Eine junge Frau aus Dalaam wachte von einem Traum auf," linebreak
+	"  in dem Prinz [1C 01 4A] starb,{prompt}" linebreak
+    "@und sie begann f[cb]r das Wohl von [1C 01 4A] seinen Freunden zu beten.){pause(150)}{window_closeall}" eob
+
+l_0xc9f60d:
+    "{window_open(1)}@(Pl[c9]tzlich erinnerte sich Frank an das strahlende, junge Gesicht von [1C 01 08],{prompt}" linebreak
+    "@und er begann flei[b8]ig f[cb]r die Sicherheit von [1C 01 08] und seinen Freunden zu beten.){pause(150)}{window_closeall}" eob
+
+l_0xc9f66f:
+    "{window_open(1)}@(Alle Mr. Saturns f[cb]hlten ein neues, erstaunliches Gef[cb]hl.{prompt}" linebreak
+    "@Sie hatten dieses Gef[cb]hl noch nie zuvor erlebt,{prompt}" linebreak
+    "@und sie fingen alle an f[cb]r die Sicherheit von [1C 01 08] und seinen Freunden zu beten.){pause(150)}{window_closeall}" eob
+
+l_0xc9f6de:
+    "{pause(60)}{window_open(1)}@Die Stimme von{pause(30)}" linebreak
+    "  [1C 01 1E] wurde{pause(30)}" linebreak
+    "  von der Dunkelheit verschluckt.{pause(150)}{window_closeall}" eob
+
+l_0xc9f70c:
+    "{pause(60)}{window_open(1)}@Die Schreie von [1C 01 1E] und ihren Freunden ber[cb]hrten das Herz von {counter(1)}" goto(l_0xc9f72f)
+
+l_0xc9f72f:
+    "[19 28 02][1B 02 {e(l_0xc9f756)}]{swap}[1D 21 63][18 07 3C 00 00 00 00][1B 02 {e(l_0xc9f7af)}][1C 11 00][1C 03 00]" goto(l_0xc9f750)
+
+l_0xc9f750:
+    "{inc}" goto(l_0xc9f72f)
+
+l_0xc9f756:
+    ".{prompt}{pause(120)}{window_clear}@{counter(1)}" goto(l_0xc9f75f)
+
+l_0xc9f75f:
+    "[19 28 02][1B 02 {e(l_0xc9f786)}]{swap}[1D 21 63][18 07 3C 00 00 00 00][1B 02 {e(l_0xc9f7b5)}][1C 11 00][1C 03 00]" goto(l_0xc9f780)
+
+l_0xc9f780:
+    "{inc}" goto(l_0xc9f75f)
+
+l_0xc9f786:
+    "{pause(30)} betete f[cb]r die Kinder, ohne sie je getroffen zu haben.{pause(150)}{window_closeall}" eob
+
+l_0xc9f7af:
+    "#" goto(l_0xc9f750)
+
+l_0xc9f7b5:
+    "#" goto(l_0xc9f780)
+
+l_0xc9f7bb:
+    newline
+    "{pause(60)}{window_open(1)}@{counter(1)}" goto(l_0xc9f7c4)
+
+l_0xc9f7c4:
+    "[19 28 02][1B 02 {e(l_0xc9f7eb)}]{swap}[1D 21 63][18 07 28 00 00 00 00][1B 02 {e(l_0xc9f7fe)}][1C 11 00][1C 03 00]" goto(l_0xc9f7e5)
+
+l_0xc9f7e5:
+    "{inc}" goto(l_0xc9f7c4)
+
+l_0xc9f7eb:
+//https://legendsoflocalization.com/earthbound/giygas/#its-you
+    "{pause(30)} h[c9]rte nicht auf zu beten.{pause(150)}{window_closeall}" eob
+
+l_0xc9f7fe:
+    "#" goto(l_0xc9f7e5)
+
+l_0xc9f804:
+    newline
+    "{pause(60)}{window_open(1)}@{counter(1)}" goto(l_0xc9f80d)
+
+l_0xc9f80d:
+    "[19 28 02][1B 02 {e(l_0xc9f834)}]{swap}[1D 21 63][18 07 14 00 00 00 00][1B 02 {e(l_0xc9f847)}][1C 11 00][1C 03 00]" goto(l_0xc9f82e)
+
+l_0xc9f82e:
+    "{inc}" goto(l_0xc9f80d)
+
+l_0xc9f834:
+    "{pause(30)} h[c9]rte nicht auf zu beten.{pause(150)}{window_closeall}" eob
+
+l_0xc9f847:
+    "#" goto(l_0xc9f82e)
+
+l_0xc9f84d:
+//TODO
+    newline
+    "{pause(60)}{window_open(1)}@" call(data_33.l_0xc7e77d) " h[c9]rte nicht auf zu beten.{pause(150)}{window_closeall}" eob
+
+l_0xc9f86a:
+    newline
+    "@Die Verteidigung von Giygas" linebreak
+    "  wurde instabil.{sound(90)}{pause(70)}{sound(90)}{pause(65)}{sound(90)}{pause(74)}{sound(90)}" eob
+
+l_0xc9f897:
+    newline
+    "@{user}[19 1F]{swap} zieht" linebreak
+    "  die [1C 05 00] [cb]ber " call(data_33.l_0xc7e66e) " Nase!{sound(115)}" next
+    "@{user} sucht nach dem" linebreak
+    "  Geruch der Magischen Tr[cb]ffel." next
+    "[1F D1][1B 02 {e(l_0xc9f970)}]{store_registers}{result_is(1)}[1B 03 {e(l_0xc9f946)}]{load_registers}{result_is(10)}[1B 03 {e(l_0xc9f936)}]{load_registers}" newline
+    "@(Er muss ein wenig weiter [1F C0 09 {e(data_29.l_0xc77eff)} {e(l_0xc9f990)} {e(l_0xc9f995)} {e(data_55.l_0xc9f99e)} {e(data_55.l_0xc9f9a4)} {e(data_55.l_0xc9f9ad)} {e(data_55.l_0xc9f9b2)} {e(data_55.l_0xc9f9bd)} {e(data_55.l_0xc9f9c4)}]" 
+	"sein.)" end
+
+l_0xc9f936:
+    newline
+    "@(Er muss genau hier sein!)" end
+
+l_0xc9f946:
+    newline
+    "@(Er ist irgendwo hier, aber du kannst nicht die genaue Position lokalosieren.)" end
+
+l_0xc9f970:
+    newline
+    "@(Der Tr[cb]ffel scheint nicht hier zu sein.)" end
+
+l_0xc9f990:
+    "oben " eob
+
+l_0xc9f995:
+    "oben rechts " eob
+

@@ -1,0 +1,255 @@
+//data_ItemText
+BruchigerSchlagerNehmen:
+"{unset(flag 977)}"
+" einen Br[cb]chigen Schl[c0]ger![03]" eob
+
+TeddyNehmen:
+"{unset(flag 978)}"
+" einen Teddyb[c0]ren![03]" eob
+
+BruchigerSchlagerGeben:
+    "[19 10 01]{swap}" newline
+	"@[1C 02 00] f[cb]gte den Br[cb]chigen Schl[c0]ger "
+    "zu den Sachen von {swap}[1C 02 00] hinzu.{swap}" end goto(data_32.l_0xc7d991)
+// -------------------------------------------------------------------------------------------
+
+//Bug fix: Früher:goto(data_32.l_0xc7d84f) und ohne unset ||| aber: Geschenk leer --> Alle Geschenke haben Teddys
+
+//NPC 1412
+//data_32.l_0xc7d84f
+BruchigerSchlager:
+"{set(flag 977)}" call(data_32.l_0xc7d84f) "{unset(flag 977)}[02]"
+
+//NPC 1417
+//data_32.l_0xc7d84f
+TeddyPaula:
+"{set(flag 978)}" call(data_32.l_0xc7d84f) "{unset(flag 978)}[02]"
+
+//NPC 1431
+//data_32.l_0xc7d85b
+TeddyThreed:
+"{set(flag 978)}" call(data_32.l_0xc7d85b) "{unset(flag 978)}[02]"
+
+//NPC 1504
+//data_32.l_0xc7d84f
+TeddyGoldMine:
+"{set(flag 978)}" call(data_32.l_0xc7d84f) "{unset(flag 978)}[02]"
+// ------------------------------------------------------------------------------------------- 
+WennDefArtikel:
+	if result_is(17){
+	"den Br[cb]chigen Schl[c0]ger" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(2){
+	"den Teddyb[c0]ren" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(3){
+	"den Super Flausch B[c0]ren" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(5){
+	"das Zerbrochene Ding" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(8){
+	"den Kaputten Laser" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(9){
+	"das Zerbrochene Eisen" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(10){
+	"das Zerbrochene Rohr" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(26){
+	"den Mutigen Schl[c0]ger" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(27){
+	"den M[c0]chtigen Schl[c0]gr" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(46){
+	"den B[c9]sen Strahler" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(55){
+	"das Tolle Amulett" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(91){
+	"das Gekochte Ei" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(92){
+	"das Frische Ei" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(99){
+	"den Magischen Tr[cb]ffel" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(107){
+	"den K[c9]niglichen Eistee" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(127){
+	"das Nasse Handtuch" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(128){
+	"das Erfrischende Kraut" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(129){
+	"das Geheime Kraut" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(136){
+	"den Hungrigen LP-Sauger" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(152){
+	"die Dreckigen Socken" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(182){
+	"den Diamanten" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(206){
+	"das Bedeutungslose Ding" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(208){
+	"den Winzigen Rubin" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(233){
+	"den Doppelten Burger" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(239){
+	"das Trockene Br[c9]tchen" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(241){
+	"den Schlichten Joghurt" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(244){
+	"das Scharfe Trockenfleisch" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(247){
+	"den Magischen Pudding" eob
+	}
+	
+	// Geprüft bis 253
+	"{call(data_gender.item_def_article)}" eob	
+// ------------------------------------------------------------------------------------------- 	
+WennArtikel:
+
+	"{call(data_gender.item_article)}" eob
+
+// ------------------------------------------------------------------------------------------- 
+//My name Jeff
+
+ItemJeff:
+	"{swap}{rtoarg}"
+	if result_is(4){
+	"eine Konter-PSI Einheit." eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(5){
+	"ein Doppellaser." eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(6){
+	"ein Magnum Luftgewehr." eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(7){
+	"ein Verteidigungsspray." eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(8){
+	"eine Laser Pistole." eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(9){
+	"ein Schleimgenerator." eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(10){
+	"ein Schild T[c9]ter." eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(11){
+	"ein Spektralstrahler." eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(12){
+	"ein Hungriger LP-Sauger." eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(13){
+	"eine Schwere Bazooka." eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(14){
+	"eine Verteidigungsdusche." eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(15){
+	"eine Verteidigungsdusche." eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(16){
+	"ein Gaiastrahler." eob
+	}
+	
+	"ein anderer Gegenstand." eob	
+// ------------------------------------------------------------------------------------------- 

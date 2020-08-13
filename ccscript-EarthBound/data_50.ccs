@@ -1,0 +1,409 @@
+/*
+ * EarthBound Text Dump
+ * Time: 22:14:19 - 03/04/2018
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+command e(label) "{long label}"
+
+// Text Data
+l_0xc989e9:
+    eob
+
+l_0xc989ea:
+    "@Unglaublich!" next
+    "@Ich kann nicht glauben, dass Menschen ohne Geld existieren..." next
+    "@Blau, blau!{wait}{window_closeall}" goto(data_30.l_0xc7907a)
+
+l_0xc98a27:
+    "@Wie viel m[c9]chten Sie spenden?" linebreak
+    "    $[1F 52 02]{clearline}{swap}[18 07 01 00 00 00 01][1B 02 {e(data_49.l_0xc989c5)}][1D 14 00 00 00 00][1B 03 {e(l_0xc98ae8)}]{sound(118)}[1D 09 00 00]{open_wallet}"
+	"@Ihre gute Tat wird belohnt.{pause(20)} Hier ist eine Postkarte f[cb]r Sie." next
+    "[1D 03 FF][1B 02 {e(l_0xc98ab2)}][1D 0E 00 A5]" call(data_33.l_0xc7dccf) "[03]" newline
+    "@Geh und werde gl[cb]cklich!{wait}{window_closeall}" goto(data_30.l_0xc7907a)
+
+l_0xc98ab2:
+    "@Ich wollte Ihnen eine Postkarte geben.{pause(20)} Aber... Sie k[c9]nnen sie nicht akzeptieren." next
+    "@Sie tragen zu viele Gegenst[c0]nde.{wait}{window_closeall}" eob
+
+l_0xc98ae8:
+    "[1D 14 01 00 00 00][1B 03 {e(l_0xc989ea)}]@...Witze sind nicht erlaubt.{wait}{window_closeall}" eob
+
+l_0xc98b07:
+    "@Endlich habe ich die Gelegenheit mich zu entschuldigen." next
+	"@Es tut mir leid.{wait}{window_closeall}" eob
+
+l_0xc98b24:
+    "{font_saturn}[06 44 00 {e(l_0xc98b5a)}]@Ich dich nicht kennen." next
+    "@Meine Art sind im Tal dort dr[cb]ben." next
+    "@Bye-bye.{wait}{font_normal}" eob
+
+l_0xc98b5a:
+    "@Hi,{pause(15)} du." next
+    "{font_normal}" eob
+
+l_0xc98b68:
+    call(data_12.l_0xc5d30b) eob
+
+l_0xc98b6e:
+//https://legendsoflocalization.com/earthbound/happy-happy-village/#enough-already
+    "[06 49 00 {e(data_49.l_0xc98940)}][06 44 00 {e(l_0xc98be1)}]@Mr. Carpainter will ein M[c0]dchen." next
+    "@Nein, so meine ich das nicht." next
+    "@Ich meine er sucht ein M[c0]dchen, dass die G[c9]ttin des Gl[cb]cklich-Gl[cb]cklichismus" next
+	"@werden kann.{pause(20)} Er soll sie angeblich schon gefunden haben." end
+
+l_0xc98be1:
+    "@Es tut mir leid." end
+
+l_0xc98bef:
+    "[06 49 00 {e(data_49.l_0xc98940)}][06 44 00 {e(l_0xc98cc1)}][06 02 00 {e(l_0xc98cb2)}]@Psst psst Psst psst" next
+    "@Das [cb]bergewichtige Kind hat mir geholfen.{pause(20)} Wir haben [1C 02 02] entf[cb]hrt." next
+    "@Wei[b8]t du, sie ist in einer Bergh[cb]tte versteckt." next
+    "@Oh, {pause(20)}oh! {pause(20)}Ich habe echt Mist gebaut!" next
+    "@Ich dachte du w[c0]rst einer von uns!{pause(20)} Du wei[b8]t doch, dass ich nur Spa[b8] gemacht habe!" next
+    "@Ha ha ha!... Vergiss einfach, was ich gesagt habe...{sound(114)}{wait}{set(flag 2)}" eob
+
+l_0xc98cb2:
+    "@Ich werde dir nichts erz[c0]hlen." end
+
+l_0xc98cc1:
+    "@Glaubst du wirklich, dass ich ein schlechter Junge war?" end
+
+l_0xc98cd3:
+    "[1F F1 9B 01 6F 02] [1F 61][1F E6 9B 01]{window_open(1)}"
+	title(1, Porky)
+	"@Was f[cb]r ein schrecklicher Albtraum.{pause(20)} Ich bin irgendwie wieder aufgewacht." next
+    "@[1C 02 01],{pause(15)} lass uns wieder Freunde sein." next
+    "@Komm schon, antworte mir. Ich verspreche ein guter Kerl zu sein." next
+	"@Das ist dann wohl ein nein, hmm?" next
+    "{window_closeall}[1F E9 9B 01][1F 61][1F E6 9B 01]{window_open(1)}"
+	title(1, Porky)
+	"@Bl[c0][c0]hh! Ich habe gelogen!{pause(20)} Man sieht sich, Trottel![03]{window_closeall}[1F E9 9B 01]{unset(flag 44)}[1F 41 06]" eob
+
+l_0xc98d78:
+    "[06 49 00 {e(l_0xc98e5e)}][06 44 00 {e(l_0xc98e33)}][06 43 00 {e(l_0xc98df9)}]"
+	"@Ich kontrolliere, ob jemand am Essensstand nicht bezahlt.[06 78 00 {e(l_0xc98db4)}]" end
+
+l_0xc98db4:
+    "[03][06 79 00 {e(l_0xc98dd9)}]" newline
+    "@Du hast schon bezahlt?{pause(20)}" linebreak
+	"  Okay, okay.{wait}{unset(flag 120)}" eob
+
+l_0xc98dd9:
+    newline
+    "@Ich habe gemerkt, dass du nicht bezahlt hast![03]" call(data_21.l_0xc6852a) "[1B 03 {e(data_21.l_0xc683de)}]{window_open(1)}" newline
+    goto(l_0xc98df9)
+
+l_0xc98df9:
+    "@Du hast zwar diese Konfrontation gewonnen," next
+    "@aber die gute Seite von dir muss bestimmt voller Reue schmerzen. Ha ha ha.{wait}{set(flag 67)}" eob
+
+l_0xc98e33:
+    "@Es wird gesagt, dass irgendein Porky das ganze Essen vom Essensstand gestohlen hat." end
+
+l_0xc98e5e:
+    "@Mr. Carpainter ist ein guter Mensch geworden, aber auf einer anderen Weise als zuvor." end
+
+l_0xc98e8d:
+    "[06 44 00 {e(l_0xc98e9a)}]" call(data_19.l_0xc64eca) eob
+
+l_0xc98e9a:
+    "@(Danke f[cb]r Ihre Unterst[cb]tzung [cb]ber die Jahre." next
+    "@Aufgrund pers[c9]nlicher Gr[cb]nder schlie[b8]t der Essensstand.)" end
+
+l_0xc98ede:
+//https://legendsoflocalization.com/earthbound/happy-happy-village/#godliness
+    "[06 49 00 {e(data_49.l_0xc98940)}][06 44 00 {e(l_0xc98f27)}]"
+	"@Eines Tages hat Mr. Carpainter eine Offenbarung von Gott empfangen." next
+    "@Seine Worte sind Worte Gottes." end
+
+l_0xc98f27:
+    "@Ich bin von diesem Traum aufgewacht." end
+
+l_0xc98f37:
+    "[06 49 00 {e(data_49.l_0xc98940)}][06 44 00 {e(l_0xc99002)}]"
+	"@Du scheinst es nicht zu verstehen,{pause(15)} also erkl[c0]re ich es dir." next
+    "@Wenn die Welt in blau gef[c0]rbt wurde,{pause(15)} dann kann Gl[cb]cklichkeit ins Land gebracht werden." next
+    "@Verstehst du es jetzt?" linebreak
+    "  [19 02]Ja[02]  [19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc98fd3)} {e(l_0xc98fb9)}]" goto(l_0xc98fb9)
+
+l_0xc98fb9:
+    "@Obwohl du es jetzt nicht verstehst, eines Tages wirst du es." end
+
+l_0xc98fd3:
+    "@Ich kann an deinem Gesicht sehen, dass du nichts verstehst." next
+    "@Du m[c9]chtest nur etwas von uns haben!" end
+
+l_0xc99002:
+    "@Ich lag auch in mancherlei Hinsicht falsch." end
+
+l_0xc99018:
+//https://legendsoflocalization.com/earthbound/happy-happy-village/#da-vine
+    "[06 49 00 {e(l_0xc99088)}][06 44 00 {e(l_0xc99061)}]@Mr. Carpainter kann mit jeder Art von G[c9]ttern kommunizieren." next
+    "@Er [cb]berliefert ihre g[c9]ttlichen Nachrichten." end
+
+l_0xc99061:
+//https://legendsoflocalization.com/earthbound/happy-happy-village/#hi-and-welcome-to-devil-talk
+    "@Es mag sein, dass wir auf die Botschaft des Teufel geh[c9]rt haben, statt auf Gott..." end
+
+l_0xc99088:
+    "@Glaubst du nicht auch, dass sich die seelische Gesundheit vom ganzen Dorf verbessert hat?" end
+
+l_0xc990b3:
+    "[06 49 00 {e(data_49.l_0xc98940)}][06 44 00 {e(l_0xc99104)}]@Du k[c9]nntest mich vielleicht missverstehen," next
+    "@aber Mr. Carpainters Stimme beeinflusst den Verstand, wie ein Hypnotiseur." end
+
+l_0xc99104:
+    "@Scheint so, als w[c0]re ich nicht mehr hypnotisiert." end
+
+l_0xc99120:
+    "[06 49 00 {e(l_0xc9919b)}][06 44 00 {e(l_0xc99171)}]@Als ich alles blau gef[c0]rbt habe, wie Mr. Carpainter befohlen hat," next
+    "@ist meine Frau, die mich verlassen hatte, pl[c9]tzlich wiedergekommen!" end
+
+l_0xc99171:
+//https://legendsoflocalization.com/earthbound/happy-happy-village/#uh-oh
+    "@Meine Frau ist ein zweites Mal weggelaufen.{pause(20)} Mann, ich habe echt kein Gl[cb]ck!" end
+
+l_0xc9919b:
+    "@Wow, es ist schon lange her.{pause(20)} Deine M[cb]tze... W[c0]scht du sie auch irgendwann?" end
+
+l_0xc991c7:
+    "[06 D3 00 {e(l_0xc99260)}][06 44 00 {e(l_0xc9922d)}]"
+	"@Ich bin davon [cb]berzeugt, dass jeder, der nicht alles blau f[c0]rbt, gegen Gl[cb]cklichkeit ist." next
+    "@Ich will, dass sie alle zuh[c9]ren,{pause(15)} selbst wenn es bedeutet ihnen in den Hintern zu treten." end
+
+l_0xc9922d:
+    "@Wir m[cb]ssen dieses Dorf wieder in die urspr[cb]ngliche Farbe bringen." next
+	"@Ich werde sehr besch[c0]ftigt sein." end
+
+l_0xc99260:
+    "@Ich sollte nicht so verzweifelt nach Gl[cb]cklichkeit jagen." end
+
+l_0xc99282:
+    "[06 49 00 {e(l_0xc992d1)}][06 44 00 {e(l_0xc992b6)}]@Blau, blau!" next
+    "@Ich w[cb]nschte alles auf der Welt w[c0]re blau." end
+
+l_0xc992b6:
+    "@Es war echt nicht sch[c9]n anzuschauen, als alles blau war." end
+
+l_0xc992d1:
+    "@Hey,{pause(15)} lange nicht gesehen." next
+    "@Ich wusste gar nicht, dass du ein Freund der ber[cb]hmten Runaway Br[cb]der bist." next
+	"@Ich bin richtig neidisch." end
+
+l_0xc992fa:
+//https://legendsoflocalization.com/earthbound/happy-happy-village/#what-a-nice-lady
+    "[06 49 00 {e(l_0xc99389)}][06 44 00 {e(l_0xc99362)}]@Du m[c9]chtest pers[c9]nlich mit Mr. Carpainter sprechen?" next
+    "@Du denkst wohl, du bist ziemlich wichtig und oh Junge, bist du Unversch[c0]mt!" next
+    "@Ein Kind wie du verdient es von einem Blitz erschlagen zu werden." end
+
+l_0xc99362:
+    "@Mr. Carpainter war ziemlich seltsam.{pause(20)} Aber jeder andere war es auch." end
+
+l_0xc99389:
+    "@Hi!{pause(20)} Mir geht es gut.{pause(30)} Dir scheinbar auch." end
+
+l_0xc993a5:
+    "[06 49 00 {e(l_0xc9946f)}][06 44 00 {e(l_0xc99411)}][06 0A 00 {e(l_0xc99438)}][06 7B 00 {e(l_0xc99405)}]"
+	"@(Ich bin nur eine stinknormale Kuh,{pause(15)} aber Mr. Carpainters" next
+	"@Botschaften mu{pause(5)}u{pause(5)}uh{pause(5)}ss ich einfach mitbekommen.){wait}{set(flag 123)}" eob
+
+l_0xc99405:
+    "@(Muuh!){wait}{unset(flag 123)}" eob
+
+l_0xc99411:
+    "@(Die ganze Sache mit der blauen Kuh wahr wohl doch keine gute Idee, hmm.)" end
+
+l_0xc99438:
+    "@(Dank deinem Mu{pause(5)}u{pause(5)}u{pause(5)}uh{pause(5)}t konnte Mr. Carpainter sich ver[c0]ndern.)" end
+
+l_0xc9946f:
+    "@(Du mu{pause(5)}u{pause(5)}u{pause(5)}uh{pause(5)}st verstehen, wie sehr ich Mr. Carpainter respektiere." next
+    "@Selbst wenn ich in einem Steakhaus lande,{pause(15)} ich werde ihn trotzdem respektieren.)" end
+
+l_0xc994cb:
+    "@(Das Tal der friedvollen Ruhe liegt vorne.{pause(20)} Gehen Sie durch die H[c9]hle.)" end
+
+l_0xc994f5:
+    call(data_43.l_0xc903ed) eob
+
+l_0xc994fb:
+    "[06 49 00 {e(l_0xc99555)}]@Blau, blau..." next
+    "@Uups! Ja, ich werde damit aufh[c9]ren." next
+    "@Ich habe die Br[cb]cke, als Zeichen meiner Reue repariert.{pause(20)} Ich versuche nur zu helfen." end
+
+l_0xc99555:
+    "@Bist du das [1C 01 08]?{pause(15)} Du bist immer so fr[c9]hlich!" next
+    "@Danke f[cb]r deine Hilfe neulich." end
+
+l_0xc99582:
+    "[06 BF 00 {e(l_0xc99635)}][06 44 00 {e(l_0xc995e4)}]@Dort vorne ist ein Ort, der nicht blau gef[c0]rbt werden kann." next
+    "@Es ist ein komischer, anti-blauer Ort." next
+    "@Ich kann nicht aufh[c9]ren dar[cb]ber nachzudenken... und ich kann nicht mal in die N[c0]he des Ortes" next
+	"@gelangen." end
+
+l_0xc995e4:
+    "@Ich bin eine neue Person.{pause(20)} Ich glaube nicht mehr an den Gl[cb]cklich-Gl[cb]cklichismus." next
+    "@Wie auch immer, jetzt bin ich neugierig, was der Ort dort vorne verbirgt." end
+
+l_0xc99635:
+    "@Wie war der anti-blau Ort?" next
+    "@War er gruselig?" linebreak
+    "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc99686)} {e(l_0xc9966e)}]" goto(l_0xc9966e)
+
+l_0xc9966e:
+    "@Scheint, als w[c0]re der Ort wie f[cb]r dich gemacht." end
+
+l_0xc99686:
+    "@Hast du einen riesigen Maulwurf gesehen?" next
+	"@Ich habe geh[c9]rt dort soll einer leben." end
+
+l_0xc996aa:
+    "@Ich habe geh[c9]rt, dass es viele Fu[b8]spuren in der H[c9]hle im Osten gibt." next
+    "@Die Leute nennen diesen Ort die Liliput Schritte und sie f[cb]hlen sich dort unbehaglich." end
+
+l_0xc99703:
+    "@Sieht aus, als w[c0]re fast jeder aufgewacht und gegangen..." end
+
+l_0xc99720:
+    "@Es sind nur noch drei Leute [cb]brig..." next
+    "@Ich m[c9]chte nicht mehr bleiben.{pause(20)} Ich werde von hier abhauen..." end
+
+l_0xc99757:
+    "@Entschuldigung f[cb]r alles!{pause(15)} Lass uns Kumpels werden." end
+
+l_0xc99776:
+    "@Wir wollen Anh[c0]nger der Gl[cb]cklich-Gl[cb]cklich Religionsgemeinde werden." next
+    "@Wir sind ein verheiratetes P[c0]rchen aus Twoson." end
+
+l_0xc997ae:
+    "@Unser Kind wartet auf uns in Twoson." next
+    "@Wir wollen ihn als Souvenir etwas Gl[cb]cklichkeit mitbringen." end
+
+l_0xc997ee:
+    "@Das ist die ber[cb]hmte Gl[cb]cklich-Gl[cb]cklichismus Beratungsstelle." next
+    "@Wenn du Gl[cb]cklichkeit erlangst, solltest du das Gl[cb]cklich Gl[cb]ck-" linebreak
+	"  lichismus Hauptquartier" next
+	"@besuchen." next
+    "@Es befindet sich in der Mitte des Dorfes." end
+
+l_0xc9985a:
+	title(1, Carpainter)
+    "@Hey [1C 01 08], lang ist es her." next
+    "@Seit wir uns getroffen haben, ist mittlerweile das ganze Dorf aufgewacht." next
+    "@Die beste Gl[cb]cklichkeit kommt von der Freiheit..." next
+	"@Ihr Kinder habt mir geholfen dies zu realisieren." end
+
+l_0xc998c1:
+//https://legendsoflocalization.com/earthbound/happy-happy-village/#who-drew-blue-blue
+    "[06 44 00 {e(l_0xc998fd)}]@(All unsere Produkte sind gesegnet.{pause(20)}" linebreak
+    "                     --Blau-Blau Laden)" end
+
+l_0xc998fd:
+    "@(Nicht all unsere Produkte sind gesegnet." linebreak
+    "             --Nichts ist Blau Laden)" end
+
+l_0xc9992f:
+    eob
+
+l_0xc99930:
+    "[06 D1 00 {e(l_0xc9992f)}][06 05 02 {e(l_0xc9992f)}][1F 63 {e(l_0xc99945)}]" eob
+
+l_0xc99945:
+    "{pause(30)}{set(flag 517)}[1F E1 10 03 1E][06 D5 01 {e(l_0xc9992f)}]{set(flag 476)}{set(flag 11)}" eob
+
+l_0xc9995d:
+    "{set(flag 513)}{isset(flag 469)}[1B 02 {e(l_0xc9992f)}][06 1E 00 {e(l_0xc99991)}]{isset(flag 97)}[1B 02 {e(l_0xc9992f)}][06 25 03 {e(l_0xc99981)}]" eob
+
+l_0xc99981:
+    "{isset(flag 94)}[1B 02 {e(l_0xc9992f)}]{set(flag 310)}{unset(flag 301)}" eob
+
+l_0xc99991:
+    "{isset(flag 95)}[1B 02 {e(l_0xc9992f)}][1F 63 {e(data_14.l_0xc5e819)}]" eob
+
+l_0xc999a1:
+    "[06 78 02 {e(data_52.l_0xc9b20e)}]{isset(flag 469)}[1B 02 {e(l_0xc9992f)}][06 68 00 {e(l_0xc9992f)}][06 12 00 {e(l_0xc9992f)}]{window_open(1)}[06 02 00 {e(l_0xc99a3c)}]"
+	title(1, Porky)
+	"@Hey [1C 01 08]!" linebreak
+    "[19 22 01 01 05 00][1F 13 01 00]  Wie schon gesagt, mein Vater ist noch nicht zu Hause!" next
+    "@Du musst Picky zur[cb]ckbringen, bevor er wiederkommt!" next
+    "@Ich versuche dir ein bisschen zu helfen.[19 22 01 01 05 00][1F 13 01 00]{wait}{window_closeall}{set(flag 2)}" eob goto(l_0xc99a3c)
+
+l_0xc99a3c:
+	title(1, Porky)
+    "@[1C 01 08]!" next
+    "[19 22 01 01 05 00][1F 13 01 00]@Hast du echt keine Ahnung, was du tun musst?{wait}{window_closeall}{unset(flag 2)}" eob goto(l_0xc99a6b)
+
+l_0xc99a6b:
+    "{isset(flag 107)}[1B 02 {e(l_0xc9992f)}][1F 63 {e(l_0xc99a7b)}]" eob
+
+l_0xc99a7b:
+    "{music(122)}{pause(155)}[1F E1 01 00 FF]{set(flag 422)}{unset(flag 107)}{music_resume}" eob
+
+l_0xc99a8f:
+    "{unset(flag 103)}" eob
+
+l_0xc99a93:
+    "[06 78 02 {e(data_52.l_0xc9b20e)}][06 69 00 {e(l_0xc9992f)}]{unset(flag 38)}{set(flag 289)}{set(flag 290)}{set(flag 291)}{set(flag 292)}{set(flag 293)}[06 B6 00 {e(l_0xc99abb)}]" eob
+
+l_0xc99abb:
+    "{set(flag 39)}{unset(flag 36)}[06 69 00 {e(l_0xc9992f)}]{set(flag 449)}" eob
+
+l_0xc99acc:
+    "[06 D3 00 {e(l_0xc99ae3)}]{set(flag 43)}{isset(flag 309)}[1B 02 {e(l_0xc9992f)}][1F 67 01]" eob
+
+l_0xc99ae3:
+    "{window_open(1)}@(Wir werden f[cb]r einen kurzen Zeitraum geschlossen bleiben." next
+    "@Danke f[cb]r Ihre jahrelange Unterst[cb]tzung." next
+    "@Mr. Poochyfud, Manager, Chaos Theater.){wait}{window_closeall}" eob
+
+l_0xc99b3f:
+    "{set(flag 416)}{set(flag 417)}{set(flag 418)}{set(flag 419)}{set(flag 420)}{set(flag 421)}[06 0E 00 {e(l_0xc9992f)}]{set(flag 50)}" eob
+
+l_0xc99b5c:
+    "{unset(flag 51)}" eob
+
+l_0xc99b60:
+    call(data_52.l_0xc9b10b) eob
+
+l_0xc99b66:
+    "{set(flag 106)}" eob
+
+l_0xc99b6a:
+    "[06 78 02 {e(data_52.l_0xc9b20e)}]{set(flag 110)}" eob
+
+l_0xc99b75:
+    "{set(flag 750)}{unset(flag 383)}{isset(flag 533)}" call(l_0xc99bb2) "{isset(flag 469)}[1B 02 {e(l_0xc9992f)}][06 62 00 {e(l_0xc99c15)}][06 5F 00 {e(l_0xc99bb6)}]{isset(flag 30)}[1B 02 {e(l_0xc9992f)}][1F F1 15 00 29 00]{set(flag 95)}{set(flag 753)}{pause(120)}" eob
+
+l_0xc99bb2:
+    "{unset(flag 533)}" eob
+
+l_0xc99bb6:
+    "{window_open(1)}"
+	title(1, Porky)
+	"@Das Telefon klingelt!{pause(15)} Geh ran!" next
+    "@Mein Vater wird immer w[cb]tend, wenn ich nicht ans Telefon gehe..." next
+	"@wenn es schon mehr als drei mal geklingelt hat!{wait}{window_closeall}" eob
+
+l_0xc99c15:
+    "{set(flag 209)}{set(flag 200)}" call(l_0xc99c24) "{unset(flag 514)}" eob
+
+l_0xc99c24:
+    "{isset(flag 688)}[1B 02 {e(l_0xc9992f)}]{set(flag 201)}" eob
+
+l_0xc99c31:
+    "{set(flag 210)}[06 34 01 {e(l_0xc9992f)}]{set(flag 31)}{unset(flag 32)}{unset(flag 33)}{unset(flag 306)}{unset(flag 307)}" eob
+
+l_0xc99c4b:
+    "{unset(flag 315)}" eob
+
+l_0xc99c4f:
+    "{set(flag 213)}" eob
+
+l_0xc99c53:
+    "{set(flag 214)}{unset(flag 590)}[06 60 02 {e(l_0xc99c61)}]" eob
+
+l_0xc99c61:
+    "{unset(flag 608)}{set(flag 174)}" eob
+

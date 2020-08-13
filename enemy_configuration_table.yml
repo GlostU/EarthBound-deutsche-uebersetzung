@@ -881,7 +881,7 @@
   Money: 574
   Movement pattern: 23
   Music: 97
-  Name: Elektro-Schocker
+  Name: Elektroschocker
   Offense: 107
   Overworld Sprite: 324
   PP: 238
@@ -928,7 +928,7 @@
   Money: 804
   Movement pattern: 23
   Music: 97
-  Name: Elektro-Geist
+  Name: Elektro Geist
   Offense: 130
   Overworld Sprite: 324
   PP: 329
@@ -1445,7 +1445,7 @@
   Money: 53
   Movement pattern: 24
   Music: 98
-  Name: Muffeliger-Stinkemann
+  Name: Muffeliger Stinkemann
   Offense: 36
   Overworld Sprite: 285
   PP: 0
@@ -2526,7 +2526,7 @@
   Money: 756
   Movement pattern: 23
   Music: 97
-  Name: Wirbel-Wirbelboter
+  Name: Wirbel Wirbelboter
   Offense: 122
   Overworld Sprite: 306
   PP: 83
@@ -7226,7 +7226,7 @@
   Money: 349
   Movement pattern: 27
   Music: 98
-  Name: Robo-Pumpe
+  Name: Robo Pumpe
   Offense: 70
   Overworld Sprite: 279
   PP: 0
@@ -9717,7 +9717,7 @@
   Money: 349
   Movement pattern: 27
   Music: 98
-  Name: Robo-Pumpe
+  Name: Robo Pumpe
   Offense: 70
   Overworld Sprite: 279
   PP: 0

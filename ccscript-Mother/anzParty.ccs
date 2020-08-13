@@ -1,0 +1,24 @@
+command e(label) "{long label}"
+
+anz:
+    "[19 10 01]{swap}{counter(1)}" goto(l_0xc7e6e1)
+
+l_0xc7e6e1:
+    "{inc}{ctoarg}[1D 19 00][1B 03 {e(l_0xc7e70e)}][19 10 00][1D 0D 00 01 02][1B 03 {e(l_0xc7e70e)}][19 10 00][1D 0D 00 01 03][1B 03 {e(l_0xc7e70e)}]" goto(l_0xc7e6e1)
+
+l_0xc7e70e:
+    "{ctoarg}{swap}[09 05 {e(l_0xc7e729)} {e(l_0xc7e729)} {e(l_0xc7e72a)} {e(l_0xc7e735)} {e(l_0xc7e735)}]" eob
+
+l_0xc7e729:
+    eob
+
+l_0xc7e72a:
+	"{set(flag 980)}" //Vielleicht buggy
+	eob
+
+l_0xc7e735:
+	"{set(flag 980)}" //Vielleicht buggy
+	eob
+
+l_0xc7e748:
+    eob

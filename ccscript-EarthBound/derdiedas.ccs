@@ -1,0 +1,376 @@
+DerDieDasArtikel:
+"{swap}{rtoarg}"
+if result_is(1){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(2){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(3){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(8){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(17){
+"der Br[cb]chige Schl[c0]ger" eob
+}
+
+"{swap}{rtoarg}"
+if result_is(18){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(19){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(20){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(21){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(22){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(23){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(24){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(25){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(26){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(27){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(42){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(43){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(44){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(45){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(46){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(48){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(58){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(59){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(60){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(61){
+goto(der)
+}
+
+
+"{swap}{rtoarg}"
+if result_is(73){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(77){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(84){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(88){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(90){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(93){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(99){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(103){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(106){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(111){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(125){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(132){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(135){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(136){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(138){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(139){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(141){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(142){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(150){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(151){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(153){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(155){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(158){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(167){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(170){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(171){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(179){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(180){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(182){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(184){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(159){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(192){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(193){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(194){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(195){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(196){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(201){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(205){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(208){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(210){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(213){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(214){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(215){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(223){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(233){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(234){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(240){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(243){
+goto(der)
+}
+
+"{swap}{rtoarg}"
+if result_is(253){
+goto(der)
+}
+
+	
+	"{call(data_gender.item_def_article)}" eob
+der:
+	"der [1C 05 00]" eob

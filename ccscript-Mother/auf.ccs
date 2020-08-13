@@ -1,0 +1,5 @@
+import asm65816
+ROM[0xC120EF] = ASMLoadAddress0E (auf)
+
+auf:
+"Au[ce]"

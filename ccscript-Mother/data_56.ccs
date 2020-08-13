@@ -1,0 +1,505 @@
+/*
+ * EarthBound Text Dump
+ * Time: 22:14:19 - 03/04/2018
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+command e(label) "{long label}"
+
+// Text Data
+l_0xef58c7:
+    "[06 DF 00 {e(data_21.l_0xc685cb)}][19 10 01]{rtoarg}@[1C 02 00] pr[cb]ft den zerst[c9]rten Weltraumtunnel." next
+    "@Dort liegt ein [1C 05 82]." next
+    "[1D 03 FF][1B 02 {e(data_21.l_0xc685bb)}][1D 0E 00 82]" call(data_33.l_0xc7dccf) "{set(flag 223)}" end
+
+l_0xef5917:	
+	"{sound(99)}[1F 15 A9 00 6C 02 01][1F 61][1F 1F A9 00 06][1F 15 62 00 08 00 01][1F E4 62 00 07][1F E4 62 00 01][1F E4 62 00 03][1F E4 62 00 05][1F E4 62 00 07]{pause(1)}[1F E4 62 00 01]{pause(2)}[1F E4 62 00 03]{pause(3)}[1F E4 62 00 05]{pause(4)}[1F E4 62 00 07]{pause(5)}[1F E4 62 00 01]{pause(6)}[1F E4 62 00 03]{pause(7)}[1F E4 62 00 05]{pause(8)}[1F E4 62 00 07]{window_open(1)}"
+	title(1, Star)
+	"@Ich gr[cb][b8]e euch!{pause(20)} ihr seid also endlich hier angekommen![03]{window_closeall}" call(data_44.l_0xc915f4) "{sound(37)}{pause(90)}{window_open(1)}"
+	title(1, Star)
+	"@Hervorragend!{pause(20)} Ihr seid wahrlich hervorragend!" next
+    "@Es ist nur noch wenig Zeit [cb]brig!{pause(15)} Ich werde euch die letzte Kraft verleihen." next
+    "@Ich muss jetzt gehen...[03]{window_closeall}[1F 71 04 03][1F 1F 62 00 06]{sound(99)}[1F 15 A9 00 6D 02 01][1F 61][1F 71 04 03]{window_open(1)}"
+	"@([1C 01 4A] erkannte die Kraft" linebreak
+	"  von PK Meteorsturm _!){sound(103)}{wait}{window_closeall}" eob
+
+l_0xef5a3e:
+    "[06 A7 01 {e(l_0xef5a81)}]@Selbst nachdem ich der Geschichte des Geheimnisvollen Steins zugeh[c9]rt habe," next
+    "@kann ich nicht verstehen, wovon er redet." end
+
+l_0xef5a81:
+    "@Der Stein hat pl[c9]tzlich aufgeh[c9]rt zu sprechen." next
+    "@Mit anderen Worten..." next
+    "@Er sagt nichts mehr." end
+
+l_0xef5ab5:
+    "@...Du hast aber einen sch[c9]nen Gegenstand bei dir." next
+    "@Seit ich in die Verlorene Unterwelt gekommen bin, habe ich kein [1C 05 D3] gesehen, oder gerochen." end
+
+l_0xef5aed:
+    "[06 A7 01 {e(l_0xef5bc8)}][06 68 02 {e(l_0xef5b97)}]@Was machst du im Dinosaurierk[c0]fig?" next
+    "@Ich [c9]ffne mal die T[cb]r f[cb]r dich und du gehst schleunigst dort raus." next
+    "@Das ist ein Befehl vom Boss.{pause(15)} ...[bb]brigends,{pause(15)} danke f[cb]r das [1C 05 D3]." next
+    "[19 10 01]{rtoarg}@(Das [1C 05 D3] von [1C 02 00] wurde gestohlen.)" next
+    "@(Der scheu[b8]liche Gestank hat dich sofort verlassen!){wait}{set(flag 616)}" eob goto(l_0xef5b97)
+
+l_0xef5b97:
+    "@Warum besuchst du nicht den sprechenden Geheimnisvollen Stein?" next
+    "@Dieser Stein quasselt echt bis zum Gehtnichtmehr!!" end
+
+l_0xef5bc8:
+    "@Ein Stein, der nicht sprich, ist [cb]berhaupt nicht lustig." end
+
+l_0xef5be6:
+    "[06 49 00 {e(l_0xef5c46)}]@Wir sind die selben Gummis, wie die [cb]ber uns." next
+    "@...Wir wirken etwas anders?" next
+    "@Ja,{pause(15)} wei[b8]t du, die Gummis oben sind sch[cb]chtern und wollen nicht reden." end
+
+l_0xef5c46:
+    "@Es mag nur meine Einbildung sein,{pause(15)} aber ich glaube, ich" next
+	"@h[c9]re die anderen Gummis oben reden." next
+    "@Haben sie etwa ihre Sch[cb]chternheit [cb]berwunden?" end
+
+l_0xef5c98:
+    "[06 49 00 {e(l_0xef5ce4)}]@Glaubst du nicht auch, dass die Gummis oben einige ungew[c9]hn-" linebreak
+	"  lich h[cb]bsche Frauen haben?" next
+    "@Sie sind aber trotzdem sch[cb]chtern." end
+
+l_0xef5ce4:
+    "@Die Gummi Frauen von oben sind h[cb]bsch, aber die M[c0]nner sehen irgendwie schlapp aus." end
+
+l_0xef5d16:
+    "[06 FF 02 {e(l_0xef5df8)}]{set(flag 767)}@Du bist komisch, aber du riechst gut.{pause(20)} Deshalb erz[c0]hle ich dir ein Geheimnis." next
+    "@Hast du das Erdbeben von eben gesp[cb]rt?" next
+    "@...Du wei[b8]t schon, wir haben hier die ganze Zeit Erdbeben." next
+    "@Nach einem Erdbeben brechen die hei[b8]en Quellen aus." next
+    "@Die blauen Quellen sind sehr gut, um Leben wiederherzustellen." next
+    "@Die roten Quellen sind perfekt, um Paralyse, oder Vergiftungen zu heilen." end
+
+l_0xef5df8:
+//TODO Paula Text
+    "@Hey! Komischer Typ." next
+    "@Nach einem Erdbeben brechen die ganzen hei[b8]en Quellen aus." next
+    "@Hast du das schon bemerkt?" next
+    "@Die blauen Quellen sind sehr gut, um Leben wiederherzustellen." next
+    "@Die roten Quellen sind perfekt, um Paralyse, oder Vergiftungen zu heilen." end
+
+l_0xef5e94:
+    "[06 49 00 {e(l_0xef5f31)}]@Gummis, die gerne reden sind in die Verlorene Unterwelt gezogen," next
+    "@weil wir die ruhigen Gummis oben nicht mehr aushalten konnten." next
+    "@Also haben wir einen separaten Stamm etabliert." next
+    "@Ich hoffe wir k[c9]nnen uns eines Tages wieder vertragen." next
+    "@...Genau,{pause(20)} es war deutlich einfacher dort oben zu leben." end
+
+l_0xef5f31:
+    "@Ihr habt geholfen den oberen Stamm und den unteren Stamm wieder zu vereinen." next
+    "@Bald werden wir wieder ein gemeinsames Dorf sein!{pause(20)} Danke." end
+
+l_0xef5f7d:
+    "@Wir haben einen K[c0]fig f[cb]r die Dinosaurier gebaut und sie eingesperrt..." next
+    "@Das hat mein Bruder mir gesagt." next
+    "@Aber ich glaube das nicht...{pause(20)} Er spuckt nur hei[b8]e Luft aus seiner Fressluke." end
+
+l_0xef5fdf:
+    "[06 49 00 {e(l_0xef6038)}]@Ein pummeliges, unertr[c0]gliches Kind aus irgendeinem fremden" next
+	"@Land hat etwas herzzerrei[b8]endes gesagt..." next
+    "@Deshalb heile ich jetzt meine Wunden in der hei[b8]en Quelle." end
+
+l_0xef6038:
+    "@Hei[b8]e Quellen rocken!" end
+
+l_0xef6049:
+    call(data_19.l_0xc655b1) eob
+
+l_0xef604f:
+    "@Der Vogel dort dr[cb]ben sagt immer komische Sachen, wie <Hallo?> und <klick piep piep>." end
+
+l_0xef6084:
+    "[06 49 00 {e(l_0xef60c5)}]@Die Dinosaurier greifen mich hier nicht an. Also kann ich mich ausruhen." next
+    "@...Nur kann ich jetzt nicht mehr raus." end
+
+l_0xef60c5:
+    "@Ohne Dinosaurier fehlt hier etwas gro[b8]es." end
+
+l_0xef60f2:
+    "@Klingel, klingel, kliiiingel!!" next
+    call(data_17.l_0xc63029) eob
+
+l_0xef610c:
+    eob
+
+l_0xef610d:
+    "@(Die Dinosaurier im K[c0]fig nicht f[cb]ttern!" linebreak
+    "  {pause(20)}Der Boss)" end
+
+l_0xef6132:
+    "@(Sprich nicht mit dem Stein, wenn du nichts zu sagen hast.{pause(20)} Der Boss)" end
+
+l_0xef6157:
+    "@(Bei Gefahr hier evakuieren!{pause(20)} Der Boss)" end
+
+l_0xef617b:
+    "[06 6E 01 {e(data_32.l_0xc7c588)}]{window_open(1)}"
+	"@Hast du etwas <Fiegenhonig>?" next
+    "@Das ist die Lieblingsspeise von Meister R[cb]lps." linebreak
+    "[19 02]Ja[02] [19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xef61f3)} {e(l_0xef61cb)}]" goto(l_0xef61cb)
+
+l_0xef61cb:
+    "@Warum bist du dann hier?![03]{window_closeall}" call(data_21.l_0xc6853f) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}[1F F1 B0 02 7B 02]{set(flag 366)}" eob
+
+l_0xef61f3:
+    "[1D 05 FF 69][1B 03 {e(l_0xef6247)}]"
+	"@Du hast es aber nicht mitgebracht?{pause(20)} Du bist mir sehr verd[c0]chtig..." next
+    "@Du darfst hier nicht durch![03]{window_closeall}" call(data_21.l_0xc6853f) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}[1F F1 B0 02 7B 02]{set(flag 366)}" eob
+
+l_0xef6247:
+    "@Ok, du darfst eintreten." next
+    "@Hey, sei vorsichtig!{pause(20)} Pass auf, dass du es nicht fallen l[c0]sst![03]{window_closeall}" eob
+
+l_0xef6276:
+    "@[bb]rp!" next
+    "@...Es ist schwierig, die gleichen ekelhaften Ger[c0]usche von Meister R[cb]lps nachzumachen." next
+    "@Ich wei[b8], dass ich es niemals schaffen werde." end
+
+l_0xef62b1:
+    "@Meister R[cb]lps ist der schleimigste!" next
+    "@Er soll aber irgendeinem Typen namens Giygas dienen.{pause(15)}" linebreak
+	"  Ich kann das nicht glauben." end
+
+l_0xef62f5:
+    "[06 6F 01 {e(data_32.l_0xc7c588)}]{window_open(1)}@Bist du nicht [19 10 01]"
+	if result_is(2){
+	"das Liefer-" linebreak
+	"  m[c0]dchen"
+	}
+	else{
+	"der Lieferjunge"
+	}
+	" f[cb]r das Fiegenhonig?" linebreak
+	"  Was ist das Passwort?!" next
+    "@Das bedeutet nicht, dass ich dir nicht vertraue.{pause(15)} Sag es einfach!" next
+    "@Sag es jetzt!" next
+    "@Jemand, der so ruhig ist, ist entweder sehr sch[cb]chtern, oder extrem gef[c0]hrlich..." next
+    "@Was f[cb]r eine verd[c0]chtige Person![03]{window_closeall}" call(data_21.l_0xc68546) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}[1F F1 B3 02 7B 02]{set(flag 367)}" eob
+
+l_0xef63b5:
+    "[06 70 01 {e(data_32.l_0xc7c588)}]{window_open(1)}"
+	"@Ihr seid also diejenigen, die meine Zombies in Threed vernichtet habt!![03]{window_closeall}" call(data_21.l_0xc6854d) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}[1F F1 B4 02 7B 02]{set(flag 368)}" eob
+
+l_0xef6400:
+    "{font_saturn}@M[cb]de." next
+    "@Aber so gut. Ding!{wait}{font_normal}" eob
+
+l_0xef6419:
+    "{font_saturn}@Ah! So{pause(5)}o{pause(5)}o{pause(5)}o...  aufrichtig!" next
+    "@L[c0]chel. Boing!{wait}{font_normal}" eob
+
+l_0xef6446:
+    "[06 47 00 {e(data_32.l_0xc7c588)}]{music(134)}{sound(78)}"
+	title(1, Belch)
+	"@R[cb][cb]lps!" next
+    "@Du bist also [1C 02 01]?" next
+    "{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xef66ca)}]"
+	"@...Ich verstehe... Hyork!{pause(15)}" linebreak
+	"  Hyork!{pause(15)} Hyork!" next
+    "@Es gibt eine Prophezeiung, die besagt, dass ein junger Mann Meister Giygas besiegen wird." next
+    "@H[c0][c0]k! H[c0][c0]k! H[c0][c0]k !" linebreak
+    "  Du hast mich wirklich zum lachen gebracht..." next
+    "@Wenn Meister Giygas vor jemanden Angst haben sollte..." next
+    "{sound(78)}@dann w[c0]re derjenige schlimmer, als das gr[c9][b8]te B[c9]se..." next
+    "@Garg! Ga! Garg! Ga! Ga! Ga!" next
+    "@Ich werde dich richtig fertigmachen, stellt dich" linebreak
+	"  also auf den schlimmsten" next
+	"@Kampf deines Lebens ein!" next
+    "{sound(78)}{pause(40)}" linebreak
+    goto(l_0xef6569)
+
+l_0xef6569:
+    "@Gha Gha Gha!" linebreak
+    "  Mach dich bereit f[cb]r den Schmerz wahrer [bb]belkeit!" next
+    "{sound(78)}{pause(40)}@Ghe Ghe!" linebreak
+    "  Komm, fangen wir an![03]" call(data_21.l_0xc68554) "[1B 03 {e(data_21.l_0xc683de)}]{window_open(1)}{music(134)}"
+	title(1, Belch)
+	"@{sound(78)}{pause(40)}Scheint als w[c0]re es ein ausgeglichener Kampf...{pause(20)} R[cb][cb]lps!" next
+    "@Aber Meister Giygas hat es geschafft, die Mani Mani Statur nach Forside zu bringen.{pause(20)}{sound(78)}{pause(40)}" next
+    "@In der Stadt werden bald schlimmere Bedingungen herrschen, als wenn" next
+	"@du in deiner eigener Kotzte leben w[cb]rdest!" next
+    "@Leide!{pause(20)}{sound(78)}" linebreak
+    "  {pause(40)}Gha, Gha, Gha, Gha, Gha!" next
+    "@R[cb]{pause(5)}[cb]{pause(5)}[cb]{pause(5)}[cb]lps!{sound(78)}{pause(40)}" next
+    "{window_closeall}{pause(1)}[1F F1 B9 02 7B 02]{set(flag 71)}{set(flag 366)}{set(flag 367)}{set(flag 368)}{set(flag 590)}{set(flag 623)}{set(flag 629)}{set(flag 489)}{set(flag 490)}{unset(flag 125)}{unset(flag 773)}{unset(flag 761)}[19 26 04]{music_resume}" eob
+
+l_0xef66ca:
+    "@...Nein?..." linebreak
+    "  Hyork, Hyork, Hyork!" next
+    "@Ich habe geh[c9]rt, dass es eine Prophezeiung gibt, die besagt, dass er Meister Giygas" next
+	"@besiegen wird..." next
+    "@H[c0][c0]k H[c0][c0]k H[c0][c0]k" linebreak
+    "  Du hast mich wirklich zum lachen gebracht!" next
+    "@Wenn Meister Giygas vor jemanden Angst haben sollte...{sound(78)}" next
+    "@dann w[c0]re derjenige schlimmer, als das gr[c9][b8]te B[c9]se..." next
+    "@Ich werde dich richtig fertigmachen,{pause(15)} stell dich" next
+	"@also auf den schlimmsten Kampf deines Lebens ein!" next
+    goto(l_0xef6569)
+
+l_0xef679a:
+    "[06 C1 00 {e(data_32.l_0xc7c588)}]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(data_22.l_0xc690a6)}]{music(155)}@Du bist endlich angekommen." next
+    "@Das ist das dritte deiner <Heiligt[cb]mer>.{pause(20)} Aber jetzt geh[c9]rt es mir." next
+    "@Nimm es von mir,{pause(30)} wenn du dich traust...[03]" call(data_21.l_0xc6841e) "[1B 03 {e(data_21.l_0xc683de)}][1F 1E C1 02 08]{pause(120)}{set(flag 193)}" eob
+
+l_0xef6814:
+    call(data_12.l_0xc5d36b) eob
+
+l_0xef681a:
+    "[1D 05 FF 69][1B 03 {e(l_0xef6874)}]@Hyork Hyork!" next
+    "@Hey du einfacher B[cb]rger!{pause(20)} Du, der ohne <Fliegenhonig> heruml[c0]uft..." next
+    "@Ich bin der Erzfeind deiner Art.[03]" eob
+
+l_0xef6874:
+    "@Hyork! Hyork!" next
+    "@Da du <Fiegenhonig> bei dir tr[c0]gst, habe ich mir [cb]berlegt dein Freund zu sein." next
+    "@Aber in Wirklichkeit bist du nur ein gew[c9]hnlicher B[cb]rger!{pause(20)} Ich bin der Erzfeind deiner Art.[03]" eob
+
+l_0xef68d7:
+    "{window_open(1)}[1D 05 FF 69][1B 03 {e(l_0xef6954)}]@Du hast mich bezwungen..." next
+    "@Ich w[cb]nschte ich k[c9]nnte ein letztes Mal Fiegenhonig kosten..." next
+    "@Meister R[cb]lps verabscheut Leute wie dich." next
+    "@...Wei[b8]t du, diejenigen die keinen <Fliegenhonig> haben sind unsere Erzfeinde...[03]{window_closeall}" eob
+
+l_0xef6954:
+    "@Ich wollte dein Fliegenhonig schnappen und es verschlingen." next
+    "@Meister R[cb]lps und ich lieben Fliegenhonig.{pause(20)}" linebreak
+    "  Hyorg Hyorg!...[03]{window_closeall}" eob
+
+l_0xef69a1:
+    newline
+    "@Die LP von {target}" linebreak
+    "  wurden vollst[c0]ndig hergestellt!{sound(36)}[03]" eob
+
+l_0xef69ba:
+    newline
+    "@{target} stellt" linebreak
+    "  {delta} LP her!{sound(36)}[03]" eob
+
+l_0xef69d2:
+    newline
+    "@{target} stellt" linebreak
+    "  {delta} PP her!{sound(36)}[03]" eob
+
+l_0xef69ea:
+    newline
+    "@Der Angriff von {target}" linebreak
+    "  betr[c0]gt {delta}![03]" eob
+
+l_0xef69ff:
+    newline
+    "@Die Verteidigung betr[c0]gt {delta}![03]" eob
+
+l_0xef6a0d:
+    newline
+    "@Anf[c0]llig f[cb]r PK Feuer![03]" eob
+
+l_0xef6a24:
+    newline
+    "@Anf[c0]llig f[cb]r PK Frost![03]" eob
+
+l_0xef6a3c:
+    newline
+    "@Anf[c0]llig f[cb]r PK Blitz![03]" eob
+
+l_0xef6a54:
+    newline
+    "@Anf[c0]llig f[cb]r Paralyse![03]" eob
+
+l_0xef6a6c:
+    newline
+    "@Offen f[cb]r Hypnose![03]" eob
+
+l_0xef6a7f:
+    newline
+    "@Empfindlich gegen Gehirnschock.[03]" eob
+
+l_0xef6a99:
+    newline
+    "@Huch! {user} verwandelte sich" linebreak
+    "  in {target}![03]" eob
+
+l_0xef6ab3:
+    newline
+    "@{user} konnte sich nicht" linebreak
+    "  in {target} verwandeln![03]" eob
+
+l_0xef6ac7:
+    newline
+    "@{target} wurde" linebreak
+    "  diamantisiert!{sound(83)}[03]" eob
+
+l_0xef6ae0:
+    newline
+    "@Der K[c9]rper von {target}" linebreak
+    "  wurde taub!{sound(83)}[03]" eob
+
+l_0xef6afb:
+    newline
+    "@{target} f[cb]hlt sich" linebreak
+    "  etwas [cb]bel...{sound(83)}[03]" eob
+
+l_0xef6b18:
+    newline
+    "@{target} wurde" linebreak
+    "  vergiftet!{sound(83)}[03]" eob
+
+l_0xef6b2f:
+    newline
+    "@{target} holte sich eine Erk[c0]ltung!{sound(83)}[03]" eob
+
+l_0xef6b43:
+    "[1C 15 01][09 03 {e(l_0xef6b54)} {e(l_0xef6b59)} {e(l_0xef6b5f)}]" goto(l_0xef6b54)
+
+l_0xef6b54:
+    "(er)" eob
+
+l_0xef6b59:
+    "(sie)" eob
+
+l_0xef6b5f:
+    "(es)" eob
+
+l_0xef6b64:
+    "[1C 15 02][09 03 {e(l_0xef6b75)} {e(l_0xef6b79)} {e(l_0xef6b7d)}]" goto(l_0xef6b75)
+
+l_0xef6b75:
+    "(1)" eob
+
+l_0xef6b79:
+    "(2)" eob
+
+l_0xef6b7d:
+    "(3)" eob
+
+l_0xef6b81:
+    newline
+    "@{target} f[c0]ngt an" linebreak
+    "  sich seltsam zu f[cb]hlen!{sound(83)}[03]" eob
+
+l_0xef6b98:
+    newline
+    "@{target} wurde" linebreak
+    "  von einem Mini-Mini-Geist besessen!{sound(83)}[03]" eob
+
+l_0xef6bbb:
+    newline
+    "@{target} kann nicht" linebreak
+    "  aufh[c9]ren zu weinen!{sound(83)}[03]" eob
+
+l_0xef6bd3:
+    newline
+    "@{target} konnte sich" linebreak
+    "  pl[c9]tzlich nicht bewegen!{sound(83)}[03]" eob
+
+l_0xef6bef:
+    newline
+    "@Der K[c9]rper von {target}" linebreak
+    "  erstarrte!{sound(83)}[03]" eob
+
+l_0xef6c0b:
+    newline
+    "@{target} kann" linebreak
+    "  sich nicht konzentrieren!{sound(83)}" next
+    "@{target} kann" linebreak
+    "  keine PSI-Kr[c0]fte einsetzen![03]" eob
+
+l_0xef6c3a:
+    newline
+    "@{target} f[cb]hlt sich" linebreak
+    "  etwas seltsam...{sound(83)}[03]" eob
+
+l_0xef6c55:
+    newline
+    "@{target} schlief ein!{sound(83)}[03]" eob
+
+l_0xef6c6b:
+    newline
+    "@{target} wurde verletzt und brach zusammen...{sound(32)}[03]" eob
+
+l_0xef6c84:
+    newline
+    "@{target} wurde verletzt" linebreak
+    "  und brach zusammen...{sound(32)}{unset(flag 587)}" next
+    "[06 CF 00 {e(l_0xef6ce2)}][06 CE 00 {e(l_0xef6cd9)}][06 CD 00 {e(l_0xef6cd0)}][06 CC 00 {e(l_0xef6cc7)}]{set(flag 204)}" call(l_0xef6ceb) eob
+
+l_0xef6cc7:
+    "{set(flag 205)}" call(l_0xef6ceb) eob
+
+l_0xef6cd0:
+    "{set(flag 206)}" call(l_0xef6ceb) eob
+
+l_0xef6cd9:
+    "{set(flag 207)}" call(l_0xef6ceb) eob
+
+l_0xef6ce2:
+    "{set(flag 208)}" call(l_0xef6ceb) eob
+
+l_0xef6ceb:
+    "[19 10 02]{store_registers}{result_is(11)}[1B 02 {e(l_0xef6cfc)}][1F 12 0B]" eob goto(l_0xef6cfc)
+
+l_0xef6cfc:
+    "{load_registers}{result_is(12)}[1B 02 {e(l_0xef6d0a)}][1F 12 0C]" eob
+
+l_0xef6d0a:
+    "{load_registers}{result_is(13)}[1B 02 {e(l_0xef6d18)}][1F 12 0D]" eob
+
+l_0xef6d18:
+    "{load_registers}{result_is(14)}[1B 02 {e(l_0xef6d26)}][1F 12 0E]" eob
+
+l_0xef6d26:
+    "[1F 12 0F]" eob
+
+l_0xef6d2a:
+    newline
+    "@Aus dem Teddyb[c0]ren wurde" linebreak
+    "  ein Haufen Wolle...{sound(32)}" next
+    "[1D 01 FF 02]" eob
+//"@Aus {target} wurde" linebreak
+l_0xef6d4c:
+    newline
+    "@Aus {target} wurde" linebreak
+    "  ein gro[b8]er Haufen Wolle...{sound(32)}" next
+    "[1D 01 FF 03]" eob
+
+l_0xef6d71:
+    newline
+    "@{target}" linebreak
+	"  wurde besiegt!{sound(33)}" eob
+
+l_0xef6d83:
+    newline
+    "@{target}" linebreak
+	"  h[c9]rte auf sich zu bewegen!{sound(33)}" eob
+
+l_0xef6d96:
+    newline
+    "@{target}" linebreak
+	"  wurde wieder zahm!{sound(33)}" eob
+
+l_0xef6da7:
+    newline
+    "@{target}" linebreak
+	"  verschwand!{sound(33)}" eob
+
+l_0xef6db8:
+//TODO
+    newline
+    "@Die Form von {target} l[c9]ste sich in Luft auf!{sound(33)}" eob
+
+l_0xef6dd8:
+    newline
+    "@{target}" linebreak
+	"  zerbrach in Einzelteile!{sound(33)}" eob
+
+l_0xef6df0:
+    newline
+    "@{target}" linebreak
+	"  wurde zerst[c9]rt!{sound(33)}" eob
+

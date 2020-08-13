@@ -1,0 +1,547 @@
+/*
+ * EarthBound Text Dump
+ * Time: 22:14:19 - 03/04/2018
+ * Generated using CCScriptWriter.
+ */
+
+import asm65816
+//import ebpp
+//import Enemy_Articles
+command e(label) "{long label}"
+
+// Text Data
+l_0xef6e03:
+    newline
+    "@{target}" linebreak
+	"  wurde total verschrottet!{sound(33)}" eob
+
+l_0xef6e19:
+    newline
+    "@{target}" linebreak
+	"  wurde wieder normal!{sound(33)}" eob
+
+l_0xef6e31:
+    newline
+    "@{target}" linebreak
+	"  kehrte zum Staub der Erde zur[cb]ck!{sound(33)}" eob
+
+l_0xef6e4a:
+    newline
+    "@Der K[c9]rper von {target}" linebreak
+    "  wurde wieder normal!{sound(37)}[03]" eob
+
+l_0xef6e67:
+    newline
+    "@Das Taubheitsgef[cb]hl von {target}" linebreak
+    "  ist verschwunden!{sound(37)}[03]" eob
+
+l_0xef6e81:
+    newline
+    "@{target} f[cb]hlt sich" linebreak
+    "  schon viel besser!{sound(37)}[03]" eob
+
+l_0xef6e97:
+    newline
+    "@Das Gift wurde vom K[c9]rper" linebreak
+    "  von {target} entfernt!{sound(37)}[03]" eob
+
+l_0xef6ebc:
+    newline
+    "@{target} hat die" linebreak
+    "  Erk[c0]ltung [cb]berwunden!{sound(37)}[03]" eob
+
+l_0xef6ed1:
+    newline
+    "@{target} hat endlich" linebreak
+    "  aufgeh[c9]rt zu weinen...{sound(37)}[03]" eob
+
+l_0xef6eed:
+    newline
+    "@Der K[c9]rper von {target}" linebreak
+    "  ist wieder frei beweglich!{sound(37)}[03]" eob
+
+l_0xef6f0b:
+    newline
+    "@{target} kann sich wieder bewegen!{sound(37)}[03]" eob
+
+l_0xef6f1e:
+    newline
+    "@{target} verh[c0]lt sich wieder normal!{sound(37)}[03]" eob
+
+l_0xef6f38:
+    newline
+    "@Der Sonnenstich von {target}" linebreak
+    "  wurde geheilt!{sound(37)}[03]" eob
+
+l_0xef6f54:
+    newline
+    "@{target} wacht wieder auf!{sound(37)}[03]" eob
+
+l_0xef6f64:
+    newline
+    "@{target} konnte" linebreak
+    "  sich konzentrieren!{sound(37)}[03]" eob
+
+l_0xef6f7c:
+    newline
+    "@{target} wurde wiederbelebt!{sound(37)}[03]" eob
+
+l_0xef6f8e:
+    newline
+    "@Es hat nicht funktioniert...[03]" eob
+
+l_0xef6f9a:
+    newline
+    "@Der K[c9]rper von {target} wird von einem Schild aus Licht besch[cb]tzt![03]" eob
+
+l_0xef6fbd:
+    newline
+    "@Das Schild von {target} wurde st[c0]rker![03]" eob
+
+l_0xef6fd3:
+    newline
+    "@Der K[c9]rper von {target} wird vom Kraftschild besch[cb]tzt![03]" eob
+
+l_0xef6ff4:
+    newline
+    "@Das Kraftschild von {target} wurde st[c0]rker![03]" eob
+
+l_0xef700c:
+    newline
+    "@Der K[c9]rper von {target} wird vom PSI-Schild besch[cb]tzt![03]" eob
+
+l_0xef7032:
+    newline
+    "@Das PSI-Schild von {target} wurde st[c0]rker![03]" eob
+
+l_0xef7050:
+    newline
+    "@Der K[c9]rper von {target} wird vom PSI-Kraftschild besch[cb]tzt![03]" eob
+
+l_0xef707a:
+    newline
+    "@Das PSI-Kraftschild von {target} wurde st[c0]rker![03]" eob
+
+l_0xef7099:
+    newline
+    "@Der Schutzschild von {target}" linebreak
+    "  ist verschwunden![03]" eob
+
+l_0xef70b1:
+    newline
+    "@Das Kraftschild" linebreak
+    "  hat den Angriff reflektiert!{sound(93)}{pause(30)}[03]" eob
+
+l_0xef70d2:
+    newline
+    "@Das PSI-Kraftschild" linebreak
+    "[19 1F]{swap}  hat [1C 12 00] reflektiert!{sound(93)}[03]" eob
+
+l_0xef70fa:
+    newline
+    "@Das PSI-Schild von {target} hat[19 1F]{swap}" linebreak
+	"  [1C 12 00] verschwinden lassen![03]" eob
+
+l_0xef7123:
+    newline
+    "@Die PSI Effekte auf" linebreak
+    "  {target} sind verschwunden!{sound(41)}[03]" eob
+
+l_0xef7142:
+    newline
+    "@[1C 01 4A] kehrte in seine" linebreak
+    "  urspr[cb]ngliche Form zur[cb]ck![03]" eob
+
+l_0xef7160:
+    newline
+    "@Der Franklin Orden reflektiert" linebreak
+    "  den Blitz!{sound(93)}[03]" eob
+
+l_0xef7186:
+    newline
+    "@{user} kann sich nicht bewegen![03]" eob
+
+l_0xef7192:
+    newline
+    "@Der K[c9]rper von {user}" linebreak
+    "  ist taub und " call(data_33.l_0xc7e602) " kann sich nicht bewegen![03]" eob
+
+l_0xef71b4:
+    newline
+    "@{user} f[cb]hlt sich" linebreak
+    "  zu krank, um sich zu bewegen...[03]" eob
+
+l_0xef71cc:
+    newline
+    "@{target} ist" linebreak
+    "  vergiftet![03]" eob
+
+l_0xef71df:
+    newline
+    "@{user} ist" linebreak
+    "  eingeschlafen![03]" eob
+
+l_0xef71f6:
+//TODO
+    newline
+    "@{user} kann" linebreak
+    "  sich nicht bewegen![03]" eob
+
+l_0xef720c:
+    newline
+    "[1F 41 08][1B 02 {e(l_0xef721e)}]{sound(55)}" goto(l_0xef7221)
+
+l_0xef721e:
+    "{sound(29)}" goto(l_0xef7221)
+
+l_0xef7221:
+    "@{user}[19 1F]{swap} versucht" linebreak
+    "  [1C 12 00]!{sound(87)}" next
+    "@Aber es hat nicht richtig funktioniert![03]" eob
+
+l_0xef7249:
+    newline
+    "@{target} versucht gegnerische Angriffe abzublocken![03]" eob
+
+l_0xef725a:
+    newline
+    "@{user} verschlingt das <Fliegenhonig> wie ein Verr[cb]ckter![03]" eob
+
+l_0xef727f:
+    "[1D 21 03][09 03 {e(l_0xef72a0)} {e(l_0xef72b9)} {e(l_0xef72db)}]" newline
+    "@{user} vermisst sein zu Hause.[03]" eob
+
+l_0xef72a0:
+    newline
+    "@{user} musste pl[c9]tzlich an seine Mutter denken.[03]" eob
+
+l_0xef72b9:
+    newline
+    "@{user} dachte daran, etwas [1C 01 04] zu essen hat Sehnsucht danach.[03]" eob
+
+l_0xef72db:
+    newline
+    "@{user} hat all seine Motivation" linebreak
+    "  f[cb]r den Kampf verloren.[03]" eob
+
+l_0xef72f6:
+    eob
+
+l_0xef72f7:
+    newline
+    "@Schwarzer Rauch steigt vom K[c9]rper des Fahrl[c0]ssigen Roboters empor!{prompt}" linebreak
+    "@" call(data_33.l_0xc7e6d7) call(together) linebreak
+    "  vom Rauch [cb]berw[c0]ltigt!{prompt}" linebreak
+    "@Du kannst die Hand vor den Augen nicht sehen!{prompt}" eob
+	
+together:
+    "[19 10 01]{swap}{counter(1)}" goto(tog1)
+
+tog1:
+    "{inc}{ctoarg}[1D 19 00][1B 03 {e(tog2)}][19 10 00][1D 0D 00 01 02][1B 03 {e(tog2)}][19 10 00][1D 0D 00 01 03][1B 03 {e(tog2)}]" goto(tog1)
+
+tog2:
+    "{ctoarg}{swap}[09 05 {e(tog3)} {e(tog3)} {e(tog4)} {e(tog5)} {e(tog5)}]" eob
+
+tog3:
+    " wurde" eob
+
+tog4:
+    " wurden" eob
+
+tog5:
+    " wurden" eob
+
+l_0xef733d:
+    newline
+    "@Ganz pl[c9]tzlich st[cb]rmen ein paar M[c0]nner in den Raum!{prompt}{music(149)}{pause(60)}" newline
+    "@Es waren die Runaway Br[cb]der!{prompt}{window_closetop}{pause(30)}{window_open(1)}" newline
+    "[1F 62 00]@(Lucky schleicht sich schnell hinter den Roboter!){prompt}{sound(11)}{pause(60)}{window_clear}"
+	title(1, Lucky)	// Skinny guy
+	"@<Ich habe den Schalter umgelegt, der Roboter bewegt sich nicht mehr>." next
+    "@<Ha ha ha hah..." linebreak
+    "  Mann, was f[cb]r ein Looser.  Er war so leicht aufzuhalten>!{pause(20)}{prompt}{window_clear}"
+	title(1, Nice)
+	"@<Du hast echt schnell mitgedacht>!{prompt}{pause(60)}[1F 62 01]{window_closetop}{window_open(14)}{set(flag 318)}" eob
+
+l_0xef7415:
+    "[1F 71 04 02]" newline
+    "@Auf einmal st[cb]rzt [1C 02 04] vom Himmel!" eob
+
+l_0xef743b:
+    newline
+    "@[1C 02 04] benutzt seine neue F[c0]higkeit,{prompt}" linebreak
+    "  PK Meteorsturm!{prompt}" linebreak
+    eob
+
+l_0xef745f:
+    "[1D 21 08][09 08 {e(l_0xef749d)} {e(l_0xef74b0)} {e(l_0xef74c9)} {e(l_0xef74e6)} {e(l_0xef74fa)} {e(l_0xef7514)} {e(l_0xef7530)} {e(l_0xef7548)}]" newline
+    "@Porky benutzt [1C 01 08]" linebreak
+    "  als Schutzschild![03]" eob
+
+l_0xef749d:
+    newline
+    "@Porky stellt sich tot![03]" eob
+
+l_0xef74b0:
+    newline
+    "@Porky tut so, als" linebreak
+    "  w[cb]rde er weinen![03]" eob
+
+l_0xef74c9:
+    newline
+    "@Porky entschuldigt sich" linebreak
+    "  [cb]berm[c0][b8]ig![03]" eob
+
+l_0xef74e6:
+    newline
+    "@Porky versucht" linebreak
+    "  Reue zu zeigen![03]" eob
+
+l_0xef74fa:
+    newline
+    "@Porky spielt" linebreak
+    "  ganz unschuldig![03]" eob
+
+l_0xef7514:
+    newline
+    "@Porky setzt ein" linebreak
+    "  unechtes L[c0]cheln auf![03]" eob
+
+l_0xef7530:
+    newline
+    "@Porky beschwert sich" linebreak
+    "  bei [1C 01 08]![03]" eob
+
+l_0xef7548:
+    newline
+    "@Porky versucht sich" linebreak
+    "  lieber den Gegnern anzuschlie[b8]en![03]" eob
+
+l_0xef7569:
+    newline
+    "@{user} bellt![03]" eob
+
+l_0xef7579:
+    newline
+    "@{user} spricht einen" linebreak
+    "  Zauberspruch![03]" eob
+
+l_0xef7591:
+    newline
+    eob
+
+l_0xef7593:
+    newline
+    "@{user} kratzt sich am Kopf![03]" eob
+
+/*
+@{delta} Schadenspunkte" linebreak
+    "  auf {target}![03]" eob
+*/
+//{asmcall_long(PrintCapDefArticleTarget)}
+l_0xef75ab:
+    newline
+    "{sound(46)}@{target} erleidet" linebreak
+    "  {delta} LP Schaden![03]" eob
+
+l_0xef75c2:
+    newline
+    "{sound(30)}@{target} erleidet" linebreak
+    "  {delta} LP Schaden![03]" eob
+
+l_0xef75d9:
+    newline
+    "{sound(46)}@{target} erleidet" linebreak
+    "  {delta} LP Schaden![03]" eob
+
+l_0xef75f0:
+    newline
+    "{sound(30)}@{target} erleidet" linebreak
+    "  {delta} LP Schaden![03]" eob
+
+l_0xef7607:
+    newline
+    "{sound(47)}@{target} erleidet" linebreak
+    "  {delta} t[c9]dliche Schadenspunkte![03]" eob
+
+l_0xef7624:
+    newline
+    "{sound(31)}  [1C 08 01]" linebreak
+    "[03]" eob
+
+l_0xef7630:
+    newline
+    "  [1C 08 01]" linebreak
+    "{sound(47)}[03]" eob
+
+l_0xef763c:
+    newline
+    "{sound(35)}@{target} weicht" linebreak
+    "  schnell aus![03]" eob
+
+l_0xef7655:
+    newline
+    "{sound(35)}@{target} weicht" linebreak
+    "  schnell aus![03]" eob
+
+l_0xef766e:
+    newline
+    "@Es hat auf" linebreak
+    "  {target} nicht funktioniert![03]" eob
+
+l_0xef7682:
+    newline
+    "@Es hat auf" linebreak
+     "  {target} nicht funktioniert![03]" eob
+
+l_0xef7696:
+    newline
+    "@Es hat keinen sichtbaren" linebreak
+    "  Effekt auf {target}![03]" eob
+
+l_0xef76b3:
+    newline
+    "@Es hat auf" linebreak
+    "  {target} nicht funktioniert![03]" eob
+
+l_0xef76c7:
+    newline
+    "{sound(34)}@Knapp verfehlt![03]" eob
+
+l_0xef76d8:
+    newline
+    "{sound(34)}@...das Ziel wurde" linebreak
+    "  haarscharf verfehlt![03]" eob
+
+l_0xef76fd:
+    newline
+    "@Aber {target} war" linebreak
+    "  schon verschwunden...[03]" eob
+
+l_0xef7710:
+    newline
+    "@{user} absorbiert " call(data_33.l_0xc7e66e) " eigenen LP![03]" eob
+
+l_0xef7729:
+    newline
+    "@Absorbiert {delta} LP" linebreak
+    "  von {target}![03]" eob
+
+l_0xef773f:
+    newline
+    "@Absorbiert {delta} PP" linebreak
+    "  von {target}![03]" eob
+
+l_0xef7755:
+    newline
+    "@{target} verliert" linebreak
+    "  {delta} PP![03]" eob
+
+l_0xef7768:
+    newline
+    "@{user} f[cb]hlt sich krank" linebreak
+    "  und nimmt {delta} LP Schaden![03]" eob
+
+l_0xef7787:
+    newline
+    "@{target} versp[cb]hrt Schmerzen" linebreak
+    "  von dem Gift" next
+    "  und nimmt {delta} LP Schaden.[03]" eob
+
+l_0xef77b1:
+    newline
+    "@{target} f[cb]hlt schich schwindelig und schwach und erleidet {delta} LP Schaden![03]" eob
+
+l_0xef77db:
+    newline
+    "@{target} niest" linebreak
+    "  und erleidet {delta} LP Schaden![03]" eob
+
+l_0xef77fd:
+    newline
+    "@{target} schlie[b8]t sich" linebreak
+    "  dem Kampf an.[03]" eob
+
+l_0xef7810:
+    newline
+    "@{target} f[c0]ngt an zu wachsen.[03]" eob
+
+l_0xef7824:
+    newline
+    "@Aber niemand kam.[03]" eob
+
+l_0xef7830:
+    newline
+    "@Aber der Samen sprie[b8]te nicht auf.[03]" eob
+
+l_0xef7843:
+    "{music(98)}" newline
+    "@Die Zeit verl[c0]uft wieder wie gewohnt.[03]" eob
+
+l_0xef7858:
+    newline
+	"{unset(flag 980)}"
+    "@" call(data_58.l_0xef790b) 
+	if flag 980{
+	" greifen"
+	}
+	else {
+	" greift"
+	}
+	
+	" an![03]" eob
+
+l_0xef7866:
+    newline
+	"{unset(flag 980)}"
+    "@" call(data_58.l_0xef790b) 
+	if flag 980{
+	" blockieren"
+	}
+	else {
+	" blockiert"
+	}
+	" den Weg![03]" eob
+
+l_0xef7879:
+    newline
+	"{unset(flag 980)}"
+    "@" call(data_58.l_0xef790b) 
+	if flag 980{
+	" jagen"
+	}
+	else {
+	" jagt"
+	}
+	" dir hinterher![03]" eob
+
+l_0xef788b:
+    newline
+	"{unset(flag 980)}"
+    "@" call(data_58.l_0xef790b) 
+	if flag 980{
+	" fangen"
+	}
+	else {
+	" f[c0]ngt"
+	}
+	" dich ein![03]" eob
+
+l_0xef789c:
+    "@Du begegnest " call(data_58.l_0xef794b) "[03]" eob
+
+l_0xef78ab:
+    "@Du triffst auf " call(data_58.l_0xef794b) "[03]" eob
+
+l_0xef78b8:
+    "@Du greifst " call(data_58.l_0xef790b) " an.[03]" eob
+
+l_0xef78c7:
+    "@Du stehst " call(data_58.l_0xef790b) " gegen[cb]ber.[03]" eob
+
+l_0xef78d8:
+    newline
+    "@Hier ist die Chance f[cb]r" linebreak
+    "  einen [bb]berraschungsangriff![03]" eob
+
