@@ -90,7 +90,7 @@ l_0xc9fc32:
 
 l_0xc9fc48:
     newline
-    "@{user}[19 1F]{swap} legt {call(data_gender.item_def_article)} auf dem Boden.{sound(115)}{pause(1)}" next
+    "@{user}[19 1F]{swap} legt {call(data_gender.item_def_article)} auf den Boden.{sound(115)}{pause(1)}" next
     "{set(flag 124)}[1D 01 FF AE]" eob goto(l_0xc9fc6f)
 
 l_0xc9fc6f:
@@ -173,7 +173,8 @@ l_0xe10000:
 	"den Schmerz des Kampfes[ 09 ][ 01 0C ]"
 	"erlebt hast.[ 09 ][ 09 ][ 09 ][ 09 ][ 09 ][ 01 0C ]"
 	"Du bist nicht mehr alleine auf deiner[ 09 ][ 01 0C ]"
-	"Reise, [ 08 02 ], ein unersch[cb]tterliches,[ 09 ][ 01 0C ]"
+	"Reise, [ 08 02 ],[ 09 ][ 01 0C ]"
+	"ein unersch[cb]tterliches,[ 09 ][ 01 0C ]"
 	"nettes und h[cb]bsches M[c0]dchen,[ 09 ][ 01 0C ]"
 	"ist immer an deiner Seite.[ 09 ][ 01 0C ]"
 	"[ 08 03 ] ist auch bei dir.[ 09 ][ 01 0C ]"

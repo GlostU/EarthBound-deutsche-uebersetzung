@@ -205,7 +205,7 @@ l_0xef7249:
 
 l_0xef725a:
     newline
-    "@{user} verschlingt das <Fliegenhonig> wie ein Verr[cb]ckter![03]" eob
+    "@{user} verschlingt den <Fliegenhonig> wie ein Verr[cb]ckter![03]" eob
 
 l_0xef727f:
     "[1D 21 03][09 03 {e(l_0xef72a0)} {e(l_0xef72b9)} {e(l_0xef72db)}]" newline

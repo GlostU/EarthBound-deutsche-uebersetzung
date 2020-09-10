@@ -121,7 +121,7 @@ l_0xc51b6a:
 
 l_0xc51b7e:
     "@M[c9]chten Sie, dass ich" linebreak
-    "  {call(data_gender.item_article)}" linebreak
+    "  <[1C 05 00]>" linebreak
     "  f[cb]r {swap}$[1C 0A 00 00 00 00] kaufe?" next
     eob
 

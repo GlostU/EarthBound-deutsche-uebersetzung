@@ -154,7 +154,7 @@ l_0xc70d2f:
 
 l_0xc70d5f:
 //21
-    "@Kennst du schon das mysteri[c9]se Zelt, dass am" next
+    "@Kennst du schon das mysteri[c9]se Zelt, das am" next
     "@s[cb]dlichen Ende der Stadt aufgetaucht ist?" next
     "@Ich wei[b8] nicht warum,..." linebreak
     "  aber es sieht..." linebreak

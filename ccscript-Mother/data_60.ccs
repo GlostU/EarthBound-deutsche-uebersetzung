@@ -248,7 +248,8 @@ l_0xef9a9e:
 
 l_0xef9abb:
     newline
-    "@{user}[19 1F][1B 02 {e(l_0xef9ae8)}]{swap} stiehlt {swap}{rtoarg}{call(data_ItemText.WennArtikel)}" next
+    "@{user}[19 1F][1B 02 {e(l_0xef9ae8)}]{swap} stiehlt" linebreak
+	"  {swap}{rtoarg}{call(data_ItemText.WennArtikel)}" next
     "  im Eifer des Gefechts![03]" eob
 
 l_0xef9ae8:

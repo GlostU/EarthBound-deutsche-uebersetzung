@@ -180,6 +180,81 @@ WennDefArtikel:
 // ------------------------------------------------------------------------------------------- 	
 WennArtikel:
 
+	if result_is(17){
+	"einen Br[cb]chigen Schl[c0]ger" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(2){
+	"einen Teddyb[c0]ren" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(3){
+	"einen Super Flausch B[c0]ren" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(8){
+	"einen Kaputten Laser" eob
+	}
+	
+	
+	"{swap}{rtoarg}"
+	if result_is(26){
+	"einen Mutigen Schl[c0]ger" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(27){
+	"einen M[c0]chtigen Schl[c0]gr" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(46){
+	"einen B[c9]sen Strahler" eob
+	}
+
+	"{swap}{rtoarg}"
+	if result_is(99){
+	"einen Magischen Tr[cb]ffel" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(107){
+	"einen K[c9]niglichen Eistee" eob
+	}
+
+	"{swap}{rtoarg}"
+	if result_is(136){
+	"einen Hungrigen LP-Sauger" eob
+	}
+
+	"{swap}{rtoarg}"
+	if result_is(182){
+	"einen Diamanten" eob
+	}
+
+	"{swap}{rtoarg}"
+	if result_is(208){
+	"einen Winzigen Rubin" eob
+	}
+	
+	"{swap}{rtoarg}"
+	if result_is(233){
+	"einen Doppelten Burger" eob
+	}
+
+	"{swap}{rtoarg}"
+	if result_is(241){
+	"einen Schlichten Joghurt" eob
+	}
+
+	"{swap}{rtoarg}"
+	if result_is(247){
+	"einen Magischen Pudding" eob
+	}
+
 	"{call(data_gender.item_article)}" eob
 
 // ------------------------------------------------------------------------------------------- 

@@ -381,7 +381,7 @@ l_0xc8514f:
 
 l_0xc8519e:
     call(l_0xc85059) "  Oh, Sie sind heute fr[cb]h aufgestanden." next
-    call(l_0xc85065) "@<Zwei Menschenkinder fl[cb]chtetet, indem sie irgendwie ihren K[c0]fig [c9]ffneten>" end
+    call(l_0xc85065) "@<Zwei Menschenkinder fl[cb]chteten, indem sie irgendwie ihren K[c0]fig [c9]ffneten>" end
 
 l_0xc851e9:
     call(l_0xc85059) "  Sie arbeiten hart, obwohl Sie noch so jung sind." next

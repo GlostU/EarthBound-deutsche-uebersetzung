@@ -141,7 +141,7 @@ l_0xef6157:
 
 l_0xef617b:
     "[06 6E 01 {e(data_32.l_0xc7c588)}]{window_open(1)}"
-	"@Hast du etwas <Fiegenhonig>?" next
+	"@Hast du etwas <Fliegenhonig>?" next
     "@Das ist die Lieblingsspeise von Meister R[cb]lps." linebreak
     "[19 02]Ja[02] [19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xef61f3)} {e(l_0xef61cb)}]" goto(l_0xef61cb)
 
@@ -176,7 +176,7 @@ l_0xef62f5:
 	else{
 	"der Lieferjunge"
 	}
-	" f[cb]r das Fiegenhonig?" linebreak
+	" f[cb]r den Fliegenhonig?" linebreak
 	"  Was ist das Passwort?!" next
     "@Das bedeutet nicht, dass ich dir nicht vertraue.{pause(15)} Sag es einfach!" next
     "@Sag es jetzt!" next
@@ -185,7 +185,7 @@ l_0xef62f5:
 
 l_0xef63b5:
     "[06 70 01 {e(data_32.l_0xc7c588)}]{window_open(1)}"
-	"@Ihr seid also diejenigen, die meine Zombies in Threed vernichtet habt!![03]{window_closeall}" call(data_21.l_0xc6854d) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}[1F F1 B4 02 7B 02]{set(flag 368)}" eob
+	"@Ihr seid also diejenigen, die meine Zombies in Threed vernichtet haben!![03]{window_closeall}" call(data_21.l_0xc6854d) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}[1F F1 B4 02 7B 02]{set(flag 368)}" eob
 
 l_0xef6400:
     "{font_saturn}@M[cb]de." next
@@ -209,7 +209,7 @@ l_0xef6446:
     "@Wenn Meister Giygas vor jemanden Angst haben sollte..." next
     "{sound(78)}@dann w[c0]re derjenige schlimmer, als das gr[c9][b8]te B[c9]se..." next
     "@Garg! Ga! Garg! Ga! Ga! Ga!" next
-    "@Ich werde dich richtig fertigmachen, stellt dich" linebreak
+    "@Ich werde dich richtig fertigmachen, stell dich" linebreak
 	"  also auf den schlimmsten" next
 	"@Kampf deines Lebens ein!" next
     "{sound(78)}{pause(40)}" linebreak
@@ -258,17 +258,17 @@ l_0xef681a:
 
 l_0xef6874:
     "@Hyork! Hyork!" next
-    "@Da du <Fiegenhonig> bei dir tr[c0]gst, habe ich mir [cb]berlegt dein Freund zu sein." next
+    "@Da du <Fliegenhonig> bei dir tr[c0]gst, habe ich mir [cb]berlegt dein Freund zu sein." next
     "@Aber in Wirklichkeit bist du nur ein gew[c9]hnlicher B[cb]rger!{pause(20)} Ich bin der Erzfeind deiner Art.[03]" eob
 
 l_0xef68d7:
     "{window_open(1)}[1D 05 FF 69][1B 03 {e(l_0xef6954)}]@Du hast mich bezwungen..." next
-    "@Ich w[cb]nschte ich k[c9]nnte ein letztes Mal Fiegenhonig kosten..." next
+    "@Ich w[cb]nschte ich k[c9]nnte ein letztes Mal Fliegenhonig kosten..." next
     "@Meister R[cb]lps verabscheut Leute wie dich." next
     "@...Wei[b8]t du, diejenigen die keinen <Fliegenhonig> haben sind unsere Erzfeinde...[03]{window_closeall}" eob
 
 l_0xef6954:
-    "@Ich wollte dein Fliegenhonig schnappen und es verschlingen." next
+    "@Ich wollte deinen Fliegenhonig schnappen und ihn verschlingen." next
     "@Meister R[cb]lps und ich lieben Fliegenhonig.{pause(20)}" linebreak
     "  Hyorg Hyorg!...[03]{window_closeall}" eob
 

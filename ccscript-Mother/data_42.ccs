@@ -44,7 +44,7 @@ l_0xc8de2c:
 
 l_0xc8de4a:
     "@Wir haben es geschafft!{pause(15)} Hast du schon ins Zelt geschaut?" next
-    "@Ja ha! Wir haben diese bl[c9]den Zombies eine Lektion erteilt!" end
+    "@Ja ha! Wir haben diesen bl[c9]den Zombies eine Lektion erteilt!" end
 
 l_0xc8de88:
     "@Dieses runde fliegende Ding... ein Kind mit Brille war am Bord." next
@@ -351,7 +351,7 @@ l_0xc8f066:
     "@<Zombie Papier> was f[cb]r ein dummer Name." end
 
 l_0xc8f086:
-    "@Zombie Papier ja funktioniert wirklich!" next
+    "@Zombie Papier funktioniert ja wirklich!" next
 	"@Ich hoffe jemand erfindet als n[c0]chstes <h[cb]bsches M[c0]dchen Papier>." next
     "@Ups,{pause(15)} das h[c0]tte ich lieber nicht sagen sollen." end
 

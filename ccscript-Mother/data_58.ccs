@@ -181,7 +181,7 @@ l_0xef7bdf:
     newline
     "@Der Gegner hinterl[c0]sst ein Geschenk!{prompt}" linebreak
     "{sound(16)}{pause(1)}@Im Geschenk findest" linebreak
-    "[19 1F]{swap}  du {call(data_gender.item_article)}!{prompt}" linebreak
+    "[19 1F]{swap}  du {store_registers}{swap}{rtoarg}{call(data_ItemText.WennArtikel)}{load_registers}!{prompt}" linebreak
     "[1D 03 FF][1B 02 {e(l_0xef7c73)}]{store_registers}" call(data_33.l_0xc7dc85) "[1B 03 {e(l_0xef7c42)}]{load_registers}{swap}@[1C 02 00]{swap} nimmt den Gegenstand mit.[1D 0E 00 00]{sound(116)}{prompt}" eob
 
 l_0xef7c42:

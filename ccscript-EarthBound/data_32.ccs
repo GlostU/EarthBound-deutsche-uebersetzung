@@ -430,7 +430,7 @@ l_0xc7d947:
 	if flag 978 {
 		goto(data_ItemText.TeddyNehmen)
 	}
-	" {call(data_gender.item_article)}![03]" eob
+	" {store_registers}{swap}{rtoarg}{call(data_ItemText.WennArtikel)}{load_registers}![03]" eob
 
 l_0xc7d958:
     newline

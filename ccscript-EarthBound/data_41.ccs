@@ -490,7 +490,7 @@ l_0xc8daee:
 
 l_0xc8db32:
     "[06 47 00 {e(l_0xc8dc2f)}][06 7C 00 {e(l_0xc8dbbe)}][06 28 02 {e(l_0xc8db92)}]@Warum wir nicht einfach alle Zombies ins Zelt locken und es dann in Flammen stecken?" next
-    "@Wir k[c9]nnten alle gefressen werden bevor wir etwas tun k[c9]nnen..." end
+    "@Wir k[c9]nnten alle gefressen werden, bevor wir etwas tun k[c9]nnen..." end
 
 l_0xc8db92:
     "@Es w[c0]re bestimmt eine gute Idee alle Zombies an einen Punkt zu locken." end
