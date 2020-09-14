@@ -290,7 +290,7 @@
   Help Text Pointer: data_02.l_0xc539d4
   Misc Flags:
   - ness can use
-  Name: 7er Eisen
+  Name: T-Ball Schl[c0]ger
   Type: 16
 19:
   Action: 239
@@ -303,7 +303,7 @@
   Help Text Pointer: data_02.l_0xc539e4
   Misc Flags:
   - ness can use
-  Name: 3er Holz
+  Name: '[bb]bungsschl[c0]ger'
   Type: 16
 20:
   Action: 239
@@ -329,7 +329,7 @@
   Help Text Pointer: data_02.l_0xc53a04
   Misc Flags:
   - ness can use
-  Name: M[c4]BaseballSchl[c0]ger
+  Name: Mr. Baseball[c3]
   Type: 16
 22:
   Action: 239
@@ -407,7 +407,7 @@
   Help Text Pointer: data_02.l_0xc53a9f
   Misc Flags:
   - ness can use
-  Name: M[c0]chtigerSchl[c0]ger
+  Name: M[c0]chtiger[cf]Schl[c0]ger
   Type: 16
 28:
   Action: 239
@@ -524,7 +524,7 @@
   Help Text Pointer: data_02.l_0xc53b76
   Misc Flags:
   - jeff can use
-  Name: Gummipistole
+  Name: Kinderpistole
   Type: 17
 37:
   Action: 239
@@ -537,7 +537,7 @@
   Help Text Pointer: data_03.l_0xc53b86
   Misc Flags:
   - jeff can use
-  Name: Bet[c0]ubungspistole
+  Name: Taserpistole
   Type: 17
 38:
   Action: 239
@@ -550,7 +550,7 @@
   Help Text Pointer: data_03.l_0xc53b96
   Misc Flags:
   - jeff can use
-  Name: Spielzeugpistole
+  Name: Luftpistole
   Type: 17
 39:
   Action: 239
@@ -576,7 +576,7 @@
   Help Text Pointer: data_03.l_0xc53bb6
   Misc Flags:
   - jeff can use
-  Name: Schockerpistole
+  Name: DIY-Pistole
   Type: 17
 41:
   Action: 239
@@ -615,7 +615,7 @@
   Help Text Pointer: data_03.l_0xc53be6
   Misc Flags:
   - jeff can use
-  Name: Annihilator
+  Name: Explosionsstrahler
   Type: 17
 44:
   Action: 239
@@ -667,7 +667,7 @@
   Help Text Pointer: data_03.l_0xc53c26
   Misc Flags:
   - jeff can use
-  Name: Mondlicht Pistole
+  Name: Mondlichtstrahler
   Type: 17
 48:
   Action: 239
@@ -808,7 +808,7 @@
   - ness can use
   - paula can use
   - poo can use
-  Name: Kristallarmulett
+  Name: Kristallamulett
   Type: 20
 57:
   Action: 240
@@ -1045,7 +1045,7 @@
   - ness can use
   - paula can use
   - poo can use
-  Name: Engelsband
+  Name: Engelsarmband
   Type: 24
 72:
   Action: 240
@@ -1061,7 +1061,7 @@
   - ness can use
   - paula can use
   - poo can use
-  Name: G[c9]ttinen Band
+  Name: G[c9]ttinenarmband
   Type: 24
 73:
   Action: 240

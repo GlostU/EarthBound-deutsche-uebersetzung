@@ -18,7 +18,7 @@ ROM[0xC37CD1] = "[07]"
 ROM[0xC292A0] = LDA_al (0xD57A6A)
 
 /* Fix the Clumsy Robot unused Smoke event to point to the new Fourside teleport entry (08).
- This one doesn't leave you outside of the Monotoly building, but rather in the Fourside Park, as if you used Teleport. This effectively frees up one teleport location to use for another one. Besides, the Smoke event is still unused in the main game, so no loss there. */
+ This one doesn't leave you outside of the Monotoli building, but rather in the Fourside Park, as if you used Teleport. This effectively frees up one teleport location to use for another one. Besides, the Smoke event is still unused in the main game, so no loss there. */
 ROM[0XC292DE] = "[08]"
 
 //EARTH BOUND GLOSTU

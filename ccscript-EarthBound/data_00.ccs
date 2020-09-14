@@ -158,11 +158,11 @@ l_0xc51c38:
     eob
 
 l_0xc51c41:
-    "@Ich glaube Sie haben nichts was Sie verkaufen k[c9]nnten." next
+    "@Ich glaube, Sie haben nichts, was Sie verkaufen k[c9]nnten." next
     eob
 
 l_0xc51c56:
-    "@Es tut mir leid aber wir k[c9]nnen den Gegenstand nicht kaufen." next
+    "@Es tut mir leid, aber wir k[c9]nnen den Gegenstand nicht kaufen." next
     eob
 
 l_0xc51c6e:
@@ -333,7 +333,7 @@ l_0xc51ff8:
 l_0xc5201d:
     "@Leute!" linebreak
     "  Ihr habt einfach zu viel Gep[c0]ck!" next
-    "@Aber kein Schwei[b8], ich kann etwas kaufen, was ihr nicht braucht." linebreak
+    "@Aber keine Panik, ich kann euch etwas abkaufen." linebreak
     eob
 
 l_0xc52059:
@@ -351,11 +351,11 @@ l_0xc5209b:
     eob
 
 l_0xc520a2:
-    "@Man, du hast nichts zum verkaufen!" next
+    "@Man, du hast nichts zu verkaufen!" next
     eob
 
 l_0xc520b9:
-    "@Sorry dude, aber ich kann das nicht kaufen." next
+    "@Sorry Dude, aber ich kann das nicht kaufen." next
     eob
 
 l_0xc520cf:
@@ -367,7 +367,7 @@ l_0xc520d5:
     eob
 
 l_0xc520e1:
-    "@Ist da noch etwas, was ich f[cb]r dich machen kann?" linebreak
+    "@Ist da noch etwas, was ich f[cb]r dich tun kann?" linebreak
     eob
 
 l_0xc520f1:
@@ -388,7 +388,7 @@ l_0xc52130:
     "@Ich danke Ihnen!" end
 
 l_0xc52139:
-    "@Bist du nur hier um <Hi> zu sagen?  Was f[cb]r ein Looser!" end
+    "@Bist du nur hier, um <Hi> zu sagen?  Was f[cb]r ein Looser!" end
 
 l_0xc52154:
     "@So, was wollen Sie kaufen?[03]" eob
@@ -420,12 +420,12 @@ l_0xc521d3:
     eob
 
 l_0xc521dc:
-    "@Es tut mir leid aber Sie haben nicht genug Geld." next
+    "@Es tut mir leid, aber Sie haben nicht genug Geld." next
     eob
 
 l_0xc521ec:
     "@Oh, wie planen Sie das zu tragen?  Sie haben zu viel Zeugs!" next
-    "@Gut, ich denke ich kann das Zeugs kaufen, dass Sie nicht mehr brauchen." next
+    "@Gut, ich denke, ich kann das Zeugs kaufen, das Sie nicht mehr brauchen." next
     "@Wollen Sie etwas verkaufen?" linebreak
     eob
 

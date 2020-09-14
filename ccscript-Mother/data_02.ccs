@@ -27,12 +27,13 @@ l_0xc52e24:
     "@Wer soll den Gegegenstand mit sich schleppen?[03]" eob
 
 l_0xc52e3a:
-    "@OK. Ich sch[c0]tze du willst ihn hier ausr[cb]sten?" linebreak
+    "@OK. Ich sch[c0]tze, du willst ihn hier ausr[cb]sten?" linebreak
     eob
 
 l_0xc52e59:
     "@[1C 05 00]?" linebreak
-    "  Ich kaufe den Gegenstand f[cb]r sagen wir {swap}$[1C 0A 00 00 00 00]." next
+    "  Ich kaufe den Gegenstand f[cb]r..." next
+	"@Sagen wir {swap}$[1C 0A 00 00 00 00]." next
     "@Ich verhandle nicht. Deal?" linebreak
     eob
 
@@ -70,8 +71,8 @@ l_0xc52f94:
 
 l_0xc52fb6:
     "@Was versuchst du hier zu tun?" next
-    "@Du sagst du willst verkaufen, aber hast nichts anzubieten?!" next
-    "@Du hast echt Nerfen, Freundchen!" next
+    "@Du sagst, du willst verkaufen, aber hast nichts anzubieten?!" next
+    "@Du hast echt Nerven, Freundchen!" next
     eob
 
 l_0xc52ffa:
@@ -85,7 +86,7 @@ l_0xc53018:
     eob
 
 l_0xc53037:
-    "@Danke.{pause(20)} Die Dinge m[cb]ssen echt hart sein, besonders f[cb]r ein Kind wie du." next
+    "@Danke.{pause(20)} Die Dinge m[cb]ssen echt hart sein, besonders f[cb]r ein Kind wie dich." next
     eob
 
 l_0xc53063:
@@ -98,7 +99,7 @@ l_0xc53072:
 
 l_0xc5307d:
     "@[1C 02 00] kann nichts mehr tragen." next
-    "@Ist jemand anderes bereit den Gegegenstand zu tragen?" linebreak
+    "@Ist jemand anderes bereit, den Gegegenstand zu tragen?" linebreak
     eob
 
 //Threed Waffen Typ ende
@@ -208,7 +209,7 @@ l_0xc532fa:
     "{font_normal}" eob
 
 l_0xc53312:
-    "{font_saturn}@Ha-tschie! Hi Hi Hi!" next
+    "{font_saturn}@Ha-tschi! Hi Hi Hi!" next
     "@versuchen" linebreak
     "  betr[cb]gen boing?" next
     "@Weil du" linebreak
@@ -274,7 +275,7 @@ l_0xc5346f:
     "  Lass uns das irgendwann nochmal spielen!" end
 
 l_0xc5348a:
-    "@Suchen Sie etwas bestimmtes?[03]" eob
+    "@Suchen Sie etwas Bestimmtes?[03]" eob
 
 l_0xc5349f:
     "@[1C 05 00]?" next
@@ -307,10 +308,10 @@ l_0xc5352c:
     eob goto(l_0xc53562)
 
 l_0xc53562:
-    "@Ich glaube wirklich nicht, dass Si weitere Eink[c0]ufe tragen k[c9]nnen." next
+    "@Ich glaube wirklich nicht, dass Sie weitere Eink[c0]ufe tragen k[c9]nnen." next
     "@Sie k[c9]nnen wiederkommen, nachdem Sie etwas verkauft haben," next
     "@oder nachdem Sie Ihre Ladung etwas entlastet haben." next
-    "@Oder, vielleicht wollen Sie ja Ihre Sachen direkt hier verkaufen!" next
+    "@Oder, vielleicht wollen Sie ja Ihre Sachen direkt hier verkaufen?" next
     eob
 
 l_0xc535d3:
@@ -318,13 +319,13 @@ l_0xc535d3:
 
 l_0xc535df:
     "@[1C 05 00]?" linebreak
-    "  Ich bin autorisiert daf[cb]r" linebreak
+    "  Ich bin autorisiert, daf[cb]r" linebreak
     "  bis zu {swap}$[1C 0A 00 00 00 00] zu bezahlen." next
     "@Wie sieht's aus?" linebreak
     eob
 
 l_0xc53615:
-    "@Das ist in Ordnung. Es ist das Privileg eines Kunden die Meinung zu wechseln." next
+    "@Das ist in Ordnung. Es ist das Privileg eines Kunden, die Meinung zu wechseln." next
     eob
 
 l_0xc53645:
@@ -377,14 +378,14 @@ l_0xc53761:
 l_0xc53772:
     newline
     " <[1C 05 04]>" next
-    "@Es gibt keinen Weg seinen fr[cb]heren Nutzen rauszufinden." next
+    "@Es gibt keinen Weg, seinen fr[cb]heren Nutzen rauszufinden." next
     "@Es ist einfach irgendein kaputtes Ger[c0]t." next
     call(data_05.l_0xc56b6f) end
 
 l_0xc537bc:
     newline
     " <[1C 05 05]>" next
-    "@Es gibt keinen Weg seinen fr[cb]heren Nutzen rauszufinden." next
+    "@Es gibt keinen Weg, seinen fr[cb]heren Nutzen rauszufinden." next
     "@Es ist einfach irgendein kaputter Mechanismus." next
     call(data_05.l_0xc56b6f) end
 
@@ -415,7 +416,7 @@ l_0xc53870:
 l_0xc53897:
     newline
     " <[1C 05 0A]>" next
-    "@Es sieht wie eine zerst[c9]rtes Wasserrohr aus." next
+    "@Es sieht wie ein zerst[c9]rtes Wasserrohr aus." next
     call(data_05.l_0xc56b6f) end
 
 l_0xc538bc:
@@ -445,7 +446,7 @@ l_0xc53929:
 l_0xc53960:
     newline
     " <[1C 05 0F]>" next
-    "@Ein kaputtes Ger[c0]t, dass wie eine Harmonika aussieht." next
+    "@Ein kaputtes Ger[c0]t, das wie eine Harmonika aussieht." next
     call(data_05.l_0xc56b6f) end
 
 l_0xc5398e:
@@ -504,13 +505,13 @@ l_0xc53a77:
     newline
     " <Mutiger Schl[c0]ger>" next
     call(data_05.l_0xc56b8e) next
-    "@Es st[c0]rkt dein Mut, wenn es ausger[cb]stet ist." end
+    "@Es st[c0]rkt deinen Mut, wenn es ausger[cb]stet ist." end
 
 l_0xc53a9f:
     newline
     " <M[c0]chtiger Schl[c0]ger>" next
     call(data_05.l_0xc56b8e) next
-    "@Du kannst nicht anders als diesen Schl[c0]ger mit voller Kraft zu schwingen." next
+    "@Du kannst nicht anders, als diesen Schl[c0]ger mit voller Kraft zu schwingen." next
     "@Es kann sein, dass du einfach daneben schl[c0]gst." end
 l_0xc53ae6:
     newline

@@ -318,7 +318,7 @@ ItemJeff:
 	
 	"{swap}{rtoarg}"
 	if result_is(15){
-	"eine Verteidigungsdusche." eob
+	"ein B[c9]ser Strahler." eob
 	}
 	
 	"{swap}{rtoarg}"

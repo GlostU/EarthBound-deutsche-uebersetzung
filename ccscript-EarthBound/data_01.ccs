@@ -19,7 +19,7 @@ l_0xc52261:
     eob
 
 l_0xc52272:
-    "@Oh, also Sie in Wirklichkeit nichts zu verkaufen?" next
+    "@Oh, also wollen Sie in Wirklichkeit nichts zu verkaufen?" next
     eob
 
 l_0xc52288:
@@ -113,7 +113,7 @@ l_0xc5244f:
 
 l_0xc52469:
     "@Komm schon!" linebreak
-    "  Du hast gar nichts zu Verkaufen, oder?!" next
+    "  Du hast gar nichts zu verkaufen, oder?!" next
     eob
 
 l_0xc52485:
@@ -121,7 +121,7 @@ l_0xc52485:
     eob
 
 l_0xc5249a:
-    "@Hey, es war sch[c9]n Gesch[c0]fte mit dir zu machen." next
+    "@Hey, es war sch[c9]n, Gesch[c0]fte mit dir zu machen." next
     eob
 
 l_0xc524b2:
@@ -144,7 +144,7 @@ l_0xc524d2:
 //Summers Laden
 l_0xc524f7:
     "@Wende r[cb]ber nach Scaraba willst, musste hier kaufen." next
-    "@Dort is allet nen Zacken teurer..." next
+    "@Dort is allet nen Tacken teurer..." next
     "@So, wat willste habe?" linebreak
     eob
 
@@ -190,7 +190,7 @@ l_0xc52622:
 l_0xc5264b:
     "@Du hast zu viel Zeugs." next
     "@Willste etwas loswerden?" next
-    "@Wennde willst kann ich Zeugs kaufen, das du nicht mehr brauchst." linebreak
+    "@Wennde willst, kann ich Zeugs kaufen, das du nicht mehr brauchst." linebreak
     eob
 
 l_0xc526a2:
@@ -270,7 +270,7 @@ l_0xc52885:
 l_0xc52893:
 	title(1, Hassan)
     "@[1C 05 00]?" linebreak
-    "  W[c0]ren Sie daran interessiert den Gegenstand f[cb]r {swap}$[1C 0A 00 00 00 00] zu verkaufen?." next
+    "  W[c0]ren Sie daran interessiert, den Gegenstand f[cb]r {swap}$[1C 0A 00 00 00 00] zu verkaufen?." next
     eob
 
 l_0xc528bf:
@@ -357,7 +357,7 @@ l_0xc52acc:
     eob
 
 l_0xc52b37:
-    "@Wenn Sie einige meine Waren brauchen, kommen Sie schnell zur[cb]ck, h[c9]ren Sie?" end
+    "@Wenn Sie einige meiner Waren brauchen, kommen Sie schnell zur[cb]ck, h[c9]ren Sie?" end
 
 l_0xc52b67:
     "@Wenn Sie meine Ware brauchen, kommen Sie bitte wieder." end
@@ -396,8 +396,8 @@ l_0xc52c1c:
     eob
 
 l_0xc52c3d:
-    "@Oh... [c0]h... sieht aus, als w[cb]rden Sie schon zu viel Tragen." next
-    "@Sind sie bereit, enige Gegenst[c0]nde zu verkaufen?" next
+    "@Oh... [c0]h... sieht aus, als w[cb]rden Sie schon zu viel tragen." next
+    "@Sind Die bereit, einige Gegenst[c0]nde zu verkaufen?" next
     eob
 
 l_0xc52c81:
@@ -405,7 +405,7 @@ l_0xc52c81:
 
 l_0xc52c9b:
     "@[1C 05 00]?" next
-    "@Ich w[cb]rde sagen der Gegenstand" linebreak
+    "@Ich w[cb]rde sagen, der Gegenstand" linebreak
     "  ist ungef[c0]hr... {swap}$[1C 0A 00 00 00 00] wert." next
     "@Wie finden Sie das?" linebreak
     eob
@@ -415,7 +415,7 @@ l_0xc52cd4:
     eob
 
 l_0xc52ced:
-    "@Was ist los? Sie habe nichts zu verkaufen.[03]" eob
+    "@Was ist los? Sie haben nichts zu verkaufen.[03]" eob
 
 l_0xc52d03:
     "@Schauen Sie, es tut mir wirklich leid, aber ich kann das nicht kaufen." next

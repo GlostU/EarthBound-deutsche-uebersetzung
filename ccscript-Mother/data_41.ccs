@@ -231,7 +231,7 @@ l_0xc8b008:
     "@Der Typ neben mir geht mir echt auf die Nerven.{pause(20)} Er l[c0]uft mir st[c0]ndig hinterher." end
 
 l_0xc8b038:
-    "@Ich frage mich , warum solch ernst aussehende Kinder in diese Ferienstadt kommen..." next
+    "@Ich frage mich, warum solch ernst aussehende Kinder in diese Ferienstadt kommen..." next
     "@Ihr verderbt echt die Atmosph[c0]re hier..." end
 
 l_0xc8b07f:

@@ -134,12 +134,12 @@ l_0xc53d8f:
 l_0xc53db8:
     newline
     " <[1C 05 3D]>" next
-    call(data_05.l_0xc56bdf) "@Es sch[cb]tzt dich vor Feuer-, Frost- und Blitzangriffe." end
+    call(data_05.l_0xc56bdf) "@Es sch[cb]tzt dich vor Feuer-, Frost- und Blitzangriffen." end
 
 l_0xc53de8:
     newline
     " <[1C 05 3E]>" next
-    call(data_05.l_0xc56bdf) "@Es sch[cb]tzt dich vor Feuer-, Frost-, Blitz-, und Paralyseangriffe." end
+    call(data_05.l_0xc56bdf) "@Es sch[cb]tzt dich vor Feuer-, Frost-, Blitz-, und Paralyseangriffen." end
 
 l_0xc53e23:
     newline
@@ -199,7 +199,7 @@ l_0xc53ef4:
     newline
     " <Armschutz der K[c9]nige>" next
     "@Ausr[cb]stung f[cb]r die <Arme> von [1C 02 04]." next
-    "@Hilft vor Hypnose zu sch[cb]tzen und dein Gl[cb]ck wird erh[c9]ht." next
+    "@Sch[cb]tzt seinen Tr[c0]ger vor Hypnose und gew[c0]hrt ihm Gl[cb]ck." next
     "@Nat[cb]rlich steigt auch die Verteidigung." end
 
 l_0xc53f58:
@@ -212,7 +212,7 @@ l_0xc53f89:
     newline
     " <[1C 05 4B]>" next
     call(data_05.l_0xc56c40) next
-    "@Wenn er ausger[cb]stet ist f[cb]hlst du dich wie der gro[b8]artige Detektiv" next
+    "@Wenn er ausger[cb]stet ist, f[cb]hlst du dich wie der gro[b8]artige Detektiv" next
 	"@namens Sherlock Holmes." end
 
 l_0xc53fc9:
@@ -316,7 +316,7 @@ l_0xc54197:
 l_0xc541cb:
     newline
     " <[1C 05 5E]>" next
-	"@Legenden zufolge ist dieses Nudelgericht die Leibspeise von K[c9]nig Summers der dritte," next
+	"@Legenden zufolge ist dieses Nudelgericht die Leibspeise von K[c9]nig Summers der Dritte," next
 	"@welcher im 16. Jahrhundert lebte." next
 	"@Damals gab es viele gro[b8]artige K[c9]che, die [cb]berzeugt von ihren Kochk[cb]nsten waren." next
 	"@Eines Tages sagte Anna Summers, die Frau von K[c9]nig Summers:" next
@@ -352,8 +352,8 @@ l_0xc543f5:
     newline
     " <[1C 05 63]>" next
     "@Eine traumhafte Delikatesse" linebreak
-    "  die am Boden unter B[c0]umen wachsen," next
-    "@die sich an nassen, schlammigen Orten befinden." next
+    "  die am Boden unter B[c0]umen w[c0]chst," next
+    "@und sich an nassen, schlammigen Orten befindet." next
     "@F[cb]llt 80 PP auf." end
 
 l_0xc54451:
@@ -365,7 +365,7 @@ l_0xc54471:
     newline
     " <[1C 05 65]>" next
     "@Wenn es verzehrt wird, steigt entweder deine Geschwindigkeit," next
-	"@Mut, Vitalit[c0]t, IQ, oder Gl[cb]ck." end
+	"@dein Mut, deine Vitalit[c0]t, dein IQ, oder dein Gl[cb]ck." end
 
 l_0xc544af:
     newline
@@ -411,7 +411,7 @@ l_0xc545b7:
 l_0xc54660:
     newline
     " <[1C 05 6C]>" next
-    "@Gut um einen st[c0]rkeren und gesunderen K[c9]rper aufzubauen." next
+    "@Gut, um einen st[c0]rkeren und gesunderen K[c9]rper aufzubauen." next
     "@Es gibt dir einen N[c0]hrstoffschub, wenn du schlapp bist." next
     call(data_05.l_0xc56cc5) "80" call(data_05.l_0xc56cd6) end
 
@@ -441,7 +441,7 @@ l_0xc54789:
 l_0xc547b0:
     newline
     " <[1C 05 71]>" next
-    "@Erh[c9]ht dein IQ, wenn sie eingenommen wird." end
+    "@Erh[c9]ht deinen IQ, wenn sie eingenommen wird." end
 
 l_0xc547cb:
     newline
@@ -508,8 +508,8 @@ l_0xc548fc:
     newline
     " <[1C 05 7E]>" next
     "@Benutze es, indem du es [cb]ber Essen sprenkelst." next
-    "@Es schmeckt gut mit jeder Art von Essen, somit" next
-    "@verst[c0]rkt es die Genesungskraft." end
+    "@Es schmeckt mit jeder Art von Essen gut." next
+    "@Somit verst[c0]rkt es die Genesungskraft." end
 
 l_0xc54952:
     newline
@@ -556,7 +556,7 @@ l_0xc54aa1:
     newline
     " <[1C 05 85]>" next
     call(data_05.l_0xc56db7) call(data_05.l_0xc56dc5) next
-    "@Wegen ihrer Sprengkraft," next
+    "@Wegen ihrer Sprengkraft" next
     "@k[c9]nnte sie auch andere Ziele treffen." next
     call(data_05.l_0xc56d9b) end
 
@@ -564,7 +564,7 @@ l_0xc54af5:
     newline
     " <[1C 05 86]>" next
     call(data_05.l_0xc56db7) "@Teilt w[c0]hrend eines Kampfes schweren Schaden aus." next
-    "@Wegen ihrer explosiven Kraft," next
+    "@Wegen ihrer explosiven Kraft" next
     "@k[c9]nnte sie auch andere Ziele treffen." next
     call(data_05.l_0xc56d9b) end
 

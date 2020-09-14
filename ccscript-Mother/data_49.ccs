@@ -194,7 +194,7 @@ l_0xc97b0c:
     call(data_43.l_0xc9007f) eob
 
 l_0xc97b12:
-	title(1, Monotoly)
+	title(1, Monotoli)
     "@Tu mir nichts an!" linebreak
     "  Ich bin... Ich bin nicht Monotoli![03][1F 1E 73 05 09]{pause(120)}{set(flag 631)}" eob
 

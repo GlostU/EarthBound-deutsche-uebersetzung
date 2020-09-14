@@ -103,7 +103,7 @@ l_0xc5678d:
     newline
     " <[1C 05 F6]>" next
     "@Sehr teures Wasser," next
-    "@aber es ist fast das gleiche Wasser, dass du in der Stadt trinkst." next
+    "@aber es ist fast das gleiche Wasser, das du in der Stadt trinkst." next
     "@Es stellt ein wenig PP wieder her." end
 
 l_0xc567dc:
@@ -120,7 +120,7 @@ l_0xc56804:
     newline
     " <[1C 05 F9]>" next
     call(l_0xc56c54) next
-    "@Es ist kein Geld, auch wenn es eine M[cb]nze genannt werden." end
+    "@Es ist kein Geld, auch wenn es eine M[cb]nze genannt wird." end
 
 l_0xc5682e:
     newline
@@ -213,7 +213,7 @@ l_0xc56b5d:
     "Ein s[cb][b8]er Teddyb[c0]r!" eob
 
 l_0xc56b6f:
-    "@Das Genie [1C 02 03] sollte in der Lage sein es irgendwann zu reparieren." eob
+    "@Das Genie [1C 02 03] sollte in der Lage sein den Gegenstand irgendwann zu reparieren." eob
 
 l_0xc56b8e:
     "@[1C 02 01]" goto(l_0xc56bb2)
@@ -338,7 +338,7 @@ l_0xc56eca:
 
 l_0xc56efd:
 //https://legendsoflocalization.com/earthbound/scaraba/#snakes-on-the-brain
-    "@Sollte ich eine eine Hauschlange holen?" next
+    "@Sollte ich eine Hauschlange holen?" next
     "@Mein Freund hat vorgeschlangen, dass ich einen Experten fragen sollte." end
 
 l_0xc56f32:
@@ -399,7 +399,7 @@ l_0xc571b9:
     "@Nein... Keine Sorge..." next
     "@Wenn du etwas dar[cb]ber erfahren m[c9]chtest, dann werde ich es dir verraten." next
     "@<Du sollst wiederkehren..." next
-    "@Nachdem du eine gef[c0]hrliche Situation begegnet bist.>" next
+    "@Nachdem du einer gef[c0]hrliche Situation begegnet bist.>" next
     "@Wie auch immer," linebreak
 	"  ich k[c9]nnte mich auch irren." next
 	"@Wenn dies der Fall ist, dann... entschuldige ich mich tausendfach." end
@@ -410,9 +410,9 @@ l_0xc5725a:
     "@Ich k[c9]nnte mich jedoch irren, da du dein Gesicht schon l[c0]nger nicht gewaschen hast." end
 
 l_0xc572a0:
-    "@In der gibt es versteckte Sch[c0]tze." next
+    "@In der Pyramide gibt es versteckte Sch[c0]tze." next
     "@Mein Ehemann hat nach ihnen gesucht." next
-    "@Bevor er sie gefunden hatte... ist er auf einer Bananenschale ausgerutscht." next
+    "@Aber bevor er sie gefunden hatte...{pause(15)} ist er auf einer Bananenschale ausgerutscht." next
     "@...Deshalb hat er seine Suche aufgegeben." end
 
 l_0xc5730d:

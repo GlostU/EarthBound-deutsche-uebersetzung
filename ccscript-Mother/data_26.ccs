@@ -223,18 +223,18 @@ l_0xc71140:
 l_0xc7117e:
 //31
     "@Im Topolla Theater in Fourside, haben die" next
-    "@Runaway Br[cb]der eine ganze Reihe von Konzertauftritte gebucht." next
-    "@Es ist zwar nur ein Ger[cb]cht, aber anscheinen haben sie es wieder verpatzt," next
-    "@und stecken in ziemliche Schwierigkeiten." next
+    "@Runaway Br[cb]der eine ganze Reihe von Konzertauftritten gebucht." next
+    "@Es ist zwar nur ein Ger[cb]cht, aber anscheinend haben sie es wieder verpatzt," next
+    "@und stecken in ziemlichen Schwierigkeiten." next
     "@Also... An deiner Stelle w[cb]rde ich mit ihnen reden." call(l_0xc726cb) eob
 
 l_0xc71208:
 //32
     "{isset(flag 137)}[1B 02 {e(l_0xc71140)}]"
 	"@Im Topolla Theater in Fourside, haben die" next
-    "@Runaway Br[cb]der eine ganze Reihe von Konzertauftritte gebucht." next
-    "@Es ist zwar nur ein Ger[cb]cht, aber anscheinen haben sie es wieder verpatzt," next
-    "@und stecken in ziemliche Schwierigkeiten." next
+    "@Runaway Br[cb]der eine ganze Reihe von Konzertauftritten gebucht." next
+    "@Es ist zwar nur ein Ger[cb]cht, aber anscheinend haben sie es wieder verpatzt," next
+    "@und stecken in ziemlichen Schwierigkeiten." next
     "@Also... An deiner Stelle w[cb]rde ich mit ihnen reden." call(l_0xc726cb) eob
 
 l_0xc71295:

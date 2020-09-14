@@ -267,7 +267,7 @@ l_0xc6d391:
     "[19 10 01][19 22 00 02 47 03]{swap}{store_registers}{result_is(1)}[1B 03 {e(l_0xc6d4d6)}]{load_registers}{result_is(2)}[1B 03 {e(l_0xc6d4d6)}]{load_registers}{result_is(8)}[1B 03 {e(l_0xc6d4d6)}][1D 01 FF B6][1F 41 05]{sound(118)}[19 23 47 03 01 01 00][1F 16 47 03 00]@Jaaaieeee!!" next
     "@Dieser dieser dieser [1C 05 B6]..." next
 	"@Du willst mit diesem Diamanten bezahlen?!" next //[1C 05 B6]
-    "@O... o... okay, da... das ist in Ordnung.{pause(20)} Ich werden den Vertrag zerrei[b8]en." next
+    "@O... o... okay, da... das ist in Ordnung.{pause(20)} Ich werde den Vertrag zerrei[b8]en." next
     "@*rei[b8]!*" next
     "@Erz[c0]hle niemanden von dem Diamanten..." next
     "@Jetzt sind die Runaway Br[cb]der frei!" next

@@ -175,20 +175,20 @@ l_0xc6ea0f:
 	"  Das ist echt s[cb][b8] von dir!" end
 	
 l_0xc6ea34:
-    title(1, Monotoly)
+    title(1, Monotoli)
     "[06 A0 02 {e(l_0xc6ee6f)}][06 0F 00 {e(l_0xc6ee2e)}]"
 	"@Schau dir mal meine mageren Arme,{pause(20)} meinen d[cb]nnen K[c9]rper{pause(20)} und meine grauen Haare an..." next
     "@Jetzt wo die Mani Mani Statue weg ist, habe ich gar keine Kraft mehr." next
     "@Es tut mir leid, dass ich [1C 02 02] entf[cb]hrt habe." next
     "@Ich habe ihr nichts getan." next
     "@...[1C 02 02] ist wirklich ein nettes M[c0]dchen.[03]{window_closeall}{pause(60)}[1F 16 68 03 03]{pause(10)}{window_open(1)}"
-    title(1, Monotoly)
+    title(1, Monotoli)
     "@[1C 02 02]." next
     "@Kehre wieder zu [1C 02 01] zur[cb]ck." next
     "@Es tut mir wirklich leid, dass ich euch so viele Probleme bereitet habe.[03]{window_closeall}{pause(60)}" call(data_21.l_0xc68253) "{set(flag 15)}{unset(flag 776)}[19 23 68 03 01 FF 00][1F 16 68 03 00]{music_resume}{pause(120)}{window_open(1)}" goto(l_0xc6eb2c)
 
 l_0xc6eb2c:
-    title(1, Monotoly)
+    title(1, Monotoli)
     "@....." next
     "@Ich erz[c0]hle euch alles, was ich wei[b8]." next
     "@Die Mani Mani Statue" linebreak
@@ -221,19 +221,19 @@ l_0xc6eb2c:
 l_0xc6ed74:
     "@Summers liegt auf der anderen Seite des Ozeans.{pause(20)} Nimm meinen Helikopter." next
     "@Ich werde die T[cb]r zum Hubschrauberlandeplatz [c9]ffnen.[03]{window_closeall}{pause(1)}[1F F1 68 03 BD 02][1F 61][1F F1 6C 03 BE 02][1F 61][1F F1 6C 03 2C 00][1F E6 68 03][1F 07 03]{pause(180)}{music(85)}[1F F1 6D 03 BF 02][1F 61][1F F1 6D 03 08 00][1F 07 02]{pause(30)}{sound(28)}{pause(60)}{music_resume}[1F E9 68 03][1F 61][1F F1 68 03 08 00]{window_open(1)}"
-    title(1, Monotoly)
+    title(1, Monotoli)
     "@Du musst weitermachen!" next
     "@[1C 02 01]!" next
     "@Das ist dein Schicksal." next
     "{set(flag 664)}{set(flag 741)}" goto(l_0xc6ee2e)
 
 l_0xc6ee2e:
-    title(1, Monotoly)
+    title(1, Monotoli)
     "@Auf Wiedersehen [1C 01 1E]." next
     "@Bitte sei vorsichtig auf deiner Reise.{wait}{window_closeall}{set(flag 357)}{set(flag 358)}{set(flag 359)}{set(flag 360)}{set(flag 361)}{set(flag 362)}{set(flag 11)}{set(flag 754)}{set(flag 779)}{unset(flag 759)}" eob
 
 l_0xc6ee6f:
-    title(1, Monotoly)
+    title(1, Monotoli)
     "@Porky hat den Helikopter genommen..." next
     "@Ich frage mich, ob es ihm gut geht..." end
 

@@ -302,7 +302,7 @@ l_0xc89922:
 
 l_0xc8995a:
     "[1F 41 05][1F E6 68 03]{window_open(1)}"
-    title(1, Monotoly)
+    title(1, Monotoli)
     "@Stopp!{pause(20)} Das ist genug!{pause(20)}" linebreak
 	"  Bitte h[c9]rt auf!" next
     "@Ich gebe auf!{pause(15)}" linebreak
