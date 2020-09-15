@@ -31,7 +31,7 @@ l_0xc54c6d:
     newline
     " <[1C 05 8B]>" next
     call(data_05.l_0xc56db7) "@Erfunden vom Apfel Kind." next
-    "@Wenn es im Kapf benutzt wird, erleiden die Gegner Schaden," next
+    "@Wenn es im Kampf benutzt wird, erleiden die Gegner Schaden," next
     "@jedoch ist nicht genau bekannt, warum dies passiert... es ist ja immerhin nur Joghurt..." next
     call(data_05.l_0xc56d9b) end
 
@@ -53,8 +53,8 @@ l_0xc54d99:
     newline
     " <[1C 05 8E]>" next
     "@Wenn du es w[c0]hrend eines Kampfes als Peitsche benutzt," next
-	"@wird der Gegner etwas Schaden nehmen," next
-    "@und f[cb]r eine Weile aufh[c9]ren sich zu bewegen." next
+	"@wird der Gegner etwas Schaden nehmen" next
+    "@und f[cb]r eine Weile aufh[c9]ren, sich zu bewegen." next
     call(data_05.l_0xc56dab) end
 
 l_0xc54ddc:
@@ -82,14 +82,14 @@ l_0xc54e54:
     newline
     " <[1C 05 92]>" next
     call(data_05.l_0xc56db7) "@M[c9]glicherweise die st[c0]rkste Waffe in der Gegend." next
-    "@Sie verursacht gewaltigen Schaden, wegen ihrem riesigen Sprengkopf." next
+    "@Sie verursacht gewaltigen Schaden wegen ihres riesigen Sprengkopfs." next
     call(data_05.l_0xc56dab) end
 
 l_0xc54ea7:
     newline
     " <[1C 05 93]>" next
     call(data_05.l_0xc56dc5) next
-    "@Wegen ihrer Sprengkraft," next
+    "@Wegen ihrer Sprengkraft" next
     "@k[c9]nnte sie auch andere Ziele treffen." next
     call(data_05.l_0xc56dab) end
 
@@ -97,7 +97,7 @@ l_0xc54ef7:
     newline
     " <[1C 05 94]>" next
     "@W[c0]hrend eines Kampfes verursacht sie ernsthafte Zerst[c9]rung." next
-    "@Wegen ihrer Sprengkraft," next
+    "@Wegen ihrer Sprengkraft" next
     "@k[c9]nnte sie auch andere Ziele treffen." next
     call(data_05.l_0xc56dab) end
 
@@ -124,7 +124,7 @@ l_0xc54ff0:
 l_0xc55057:
     newline
     " <[1C 05 98]>" next
-    "@Wenn sie w[c0]hrend eines Kampfes benutzt werden, wird den Gegnern," next
+    "@Wenn sie w[c0]hrend eines Kampfes benutzt werden, wird den Gegnern" next
     "@wegen dem starken Gestank [cb]bel und sie k[c9]nnen nicht mehr k[c0]mpfen." next
     call(data_05.l_0xc56dab) end
 
@@ -132,7 +132,7 @@ l_0xc5509e:
     newline
     " <[1C 05 99]>" next
     "@Wenn du ihn im Kampf auf einen Gegner wirfst," next
-    "@wird er so schockiert sein, dass er aufh[c9]rt sich zu bewegen." next
+    "@wird er so schockiert sein, dass er aufh[c9]rt, sich zu bewegen." next
     call(data_05.l_0xc56dab) end
 
 l_0xc550e3:
@@ -158,7 +158,7 @@ l_0xc5514f:
 l_0xc5519f:
     newline
     " <[1C 05 9D]>" next
-    "@Erh[c9]ht die Verteidigung von deiner gesamten Gruppe." next
+    "@Erh[c9]ht die Verteidigung deiner gesamten Gruppe." next
     call(data_05.l_0xc56b0dWithNext) next
     call(data_05.l_0xc56d9b) end
 
@@ -191,11 +191,11 @@ l_0xc5528d:
 l_0xc552c4:
     newline
     " <[1C 05 A2]>" next //162:
-    "@Wenn du sie [cb]ber deine Nase tr[c0]gst, kannst du Magische Tr[cb]ffel finden." next
+    "@Wenn du sie [cb]ber deiner Nase tr[c0]gst, kannst du Magische Tr[cb]ffel finden." next
     call(data_05.l_0xc56d9b) next
     "@...lass mich dir die Magischen Tr[cb]ffel etwas genauer erkl[c0]ren." next
     "@Sie sind eine Pilzart, die an feuchten Orten wachsen." next
-    "@Dort wachsen sie meist am Boden von gro[b8]en B[c0]umen." next
+    "@Dort wachsen sie meist am Boden neben gro[b8]en B[c0]umen." next
     "@Sie sind so gut wie immer vergraben," next
     "@also k[c9]nnen sie auch nicht gesehen werden." next
     "@Wenn du einen findest, kannst du ihn essen." next
@@ -206,8 +206,8 @@ l_0xc552c4:
 l_0xc553d7:
     newline
     " <[1C 05 A3]>" next
-    "@Es l[c0]dt Leute dazu ein zu dir zu kommen und deine [cb]berfl[cb]s-" linebreak
-	"  sige Gegenst[c0]nde abzukaufen." next
+    "@Es l[c0]dt Leute dazu ein, zu dir zu kommen und deine [cb]berfl[cb]s-" linebreak
+	"  sigen Gegenst[c0]nde abzukaufen." next
     call(data_05.l_0xc56d9b) end
 
 l_0xc55409:
@@ -215,7 +215,7 @@ l_0xc55409:
     " <[1C 05 A4]>" next
     "@Der Titel lautet <Sch[cb]chternheit [bb]berwinden>." next
 	"@Wie du sicherlich schon vermutet hast," next
-	"@hilft dieses Buch Leuten ihre Sch[cb]chternheit hinter sich zu lassen." end
+	"@hilft dieses Buch Leuten, ihre Sch[cb]chternheit hinter sich zu lassen." end
 
 l_0xc55433:
     newline
@@ -320,20 +320,20 @@ l_0xc55740:
 l_0xc5576a:
     newline
     " <[1C 05 B7]>" next
-    "@Eine Bananenschale die von Venus signiert wurde." end
+    "@Eine Bananenschale, die von Venus signiert wurde." end
 
 l_0xc55794:
     newline
     " <[1C 05 B8]>" next
     "@Erfunden vom Apfel Kind." next
-    "@Es l[c0]sst Dinge, die wie ein Bleistift aussehen" next
+    "@Es l[c0]sst Dinge, die wie ein Bleistift aussehen," next
     "@in nur wenigen Sekunden verschwinden." end
 
 l_0xc557e7:
     newline
     " <[1C 05 B9]>" next
     "@Eine Kopie einer Hieroglyphe." next
-    "@Etwas wichtiges wurde mit antiken Buchstaben auf ihr aufgezeichnet." end
+    "@Etwas Wichtiges wurde mit antiken Buchstaben auf ihr aufgezeichnet." end
 
 l_0xc55831:
     newline
@@ -351,7 +351,7 @@ l_0xc55897:
     newline
     " <[1C 05 BC]>" next
     "@Ein handgemachter <Wunden-Pflaster>." next
-    "@Er heilt deinen verwundeten K[c9]rper." next
+    "@Es heilt deinen verwundeten K[c9]rper." next
     call(data_05.l_0xc56dab) end
 
 l_0xc558ca:
@@ -379,8 +379,9 @@ l_0xc55943:
 l_0xc55957:
     newline
     " <[1C 05 C1]>" next
-    "@Er sieht wie ein stinknormaler Stein aus, aber es gibt jemanden," next
-    "@f[cb]r den es ein sehr wertvolles, ungew[c9]hnliches Bestandteil ist." end
+    "@Er sieht wie ein stinknormaler Stein aus, aber" next
+	"@f[cb]r Menschen, die sich damit auskennen, ist dieser Stein" next
+	"@ein sehr wertvolles und ungew[c9]hnliches Bauelement." end
 
 l_0xc559a8:
     newline
@@ -394,8 +395,8 @@ l_0xc559d9:
     "@setzt dieser Gegenstand alle F[c0]higkeiten deiner" next
     "@Freunde und Feinde zur[cb]ck auf die normale Stufe." next
     "@Alle [b0]nderungen, die durch PSI-Kr[c0]fte stattfanden, werden neutralisiert." next
-    "@Auch alle Schilde von Freund und Feind werden neutralisiert." next
-    "@(Vergiss nicht, die F[c0]higkeiten die ich meine" next
+    "@Alle Schilde von deinen Freunden und Feinden werden ebenso neutralisiert." next
+    "@(Vergiss nicht- die F[c0]higkeiten, die ich meine," next
     "@sind Angriff, Verteidigung, Mut, usw.)" end
 
 l_0xc55ad5:
@@ -407,8 +408,8 @@ l_0xc55ad5:
 l_0xc55b21:
     newline
     " <[1C 05 C5]>" next
-    "@Wenn du sie in einem Dungeon, oder an [c0]hnlichen Orten benutzt," next
-    "@bringt dich die Maus wieder zum Eingang, wo du hineingekommen bist." next
+    "@Wenn du sie in einem Dungeon oder an [c0]hnlichen Orten benutzt," next
+    "@bringt dich die Maus wieder zum Eingang, durch den du hineingekommen bist." next
     "@Sie ist eine sehr schlaue Maus." end
 
 l_0xc55b79:
@@ -420,13 +421,13 @@ l_0xc55b79:
 l_0xc55bc1:
     newline
     " <[1C 05 C7]>" next
-    "@Wird sie w[c0]hrend eines Kampfes benutzt bei[b8]t sie den Gegner und verschwindet." next
+    "@Wird sie w[c0]hrend eines Kampfes benutzt, bei[b8]t sie den Gegner und verschwindet." next
     "@Der Gegner k[c9]nnte dadurch vergiftet werden." end
 
 l_0xc55c03:
     newline
     " <[1C 05 C8]>" next
-    "@Wird sie w[c0]hrend eines Kampfes benutzt bei[b8]t sie den Gegner und verschwindet." next
+    "@Wird sie w[c0]hrend eines Kampfes benutzt, bei[b8]t sie den Gegner und verschwindet." next
     "@Der Gegner wird dadurch immer vergiftet." end
 
 l_0xc55c46:
@@ -485,14 +486,14 @@ l_0xc55e28:
     newline
     " <[1C 05 D2]>" next
     "@Erfunden vom Apfel Kind." next
-    "@Es l[c0]sst Dinge, die wie ein Radierer aussehen" next
+    "@Es l[c0]sst Dinge, die wie ein Radierer aussehen," next
     "@in nur wenigen Sekunden verschwinden." end
 
 l_0xc55e77:
     newline
     " <[1C 05 D3]>" next
     "@Ein stark riechendes Gericht." next
-    "@Diejenigen, die es m[c9]gen sind ganz verr[cb]ckt danach..." end
+    "@Diejenigen, die es m[c9]gen, sind ganz verr[cb]ckt danach..." end
 
 l_0xc55eab:
     newline
@@ -503,7 +504,7 @@ l_0xc55ebb:
     newline
     " <[1C 05 D5]>" next
     call(data_05.l_0xc56b8e) next
-    "@Wow! Sieh dir mal das ganze Holzteer an! Es verl[c0]uft fast bis zur Spitze!" end
+    "@Wow! Sieh dir mal den ganzen Holzteer an! Er verl[c0]uft fast bis zur Spitze!" end
 
 l_0xc55ef6:
     newline
@@ -558,7 +559,7 @@ l_0xc55fdc:
 l_0xc55fec:
     newline
     " <[1C 05 DF]>" next
-    "@Du wei[b8]t was das ist..." next
+    "@Du wei[b8]t, was das ist..." next
     call(data_05.l_0xc56cb5) "40" call(data_05.l_0xc56cd6) end
 
 l_0xc56011:
@@ -576,44 +577,44 @@ l_0xc56054:
 l_0xc56097:
     newline
     " <[1C 05 E2]>" next
-    "@Es hilft dir zu regenerieren..." next
-    "@Wie viel und was genau du regenerierst h[c0]ngt von deinem Gl[cb]ck ab!" end
+    "@Es hilft dir, zu regenerieren..." next
+    "@Wie viel und was genau du regenerierst, h[c0]ngt von deinem Gl[cb]ck ab!" end
 
 l_0xc560d3:
     newline
     " <[1C 05 E3]>" next
-    "@Es hilft dir zu regenerieren..." next
-    "@Wie viel und was genau du regenerierst h[c0]ngt von deinem Gl[cb]ck ab!" end
+    "@Es hilft dir, zu regenerieren..." next
+    "@Wie viel und was genau du regenerierst, h[c0]ngt von deinem Gl[cb]ck ab!" end
 
 l_0xc5610f:
     newline
     " <[1C 05 E4]>" next
-    "@Es hilft dir zu regenerieren..." next
-    "@Wie viel und was genau du regenerierst h[c0]ngt von deinem Gl[cb]ck ab!" end
+    "@Es hilft dir, zu regenerieren..." next
+    "@Wie viel und was genau du regenerierst, h[c0]ngt von deinem Gl[cb]ck ab!" end
 
 l_0xc5614b:
     newline
     " <[1C 05 E5]>" next
-	"@Es hilft dir zu regenerieren..." next
-    "@Wie viel und was genau du regenerierst h[c0]ngt von deinem Gl[cb]ck ab!" end
+	"@Es hilft dir, zu regenerieren..." next
+    "@Wie viel und was genau du regenerierst, h[c0]ngt von deinem Gl[cb]ck ab!" end
 
 l_0xc56187:
     newline
     " <[1C 05 E6]>" next
-	"@Es hilft dir zu regenerieren..." next
-    "@Wie viel und was genau du regenerierst h[c0]ngt von deinem Gl[cb]ck ab!" end
+	"@Es hilft dir, zu regenerieren..." next
+    "@Wie viel und was genau du regenerierst, h[c0]ngt von deinem Gl[cb]ck ab!" end
 
 l_0xc561c3:
     newline
     " <[1C 05 E7]>" next
-    "@Es hilft dir zu regenerieren..." next
-    "@Wie viel und was genau du regenerierst h[c0]ngt von deinem Gl[cb]ck ab!" end
+    "@Es hilft dir, zu regenerieren..." next
+    "@Wie viel und was genau du regenerierst, h[c0]ngt von deinem Gl[cb]ck ab!" end
 
 l_0xc561ff:
     newline
     " <[1C 05 E8]>" next
     call(data_05.l_0xc56cc5) "12" call(data_05.l_0xc56cd6) next
-    "@Ich sch[c0]tze Erwachsene m[c9]gen den Geschmack." end
+    "@Ich sch[c0]tze, Erwachsene m[c9]gen den Geschmack." end
 
 l_0xc56230:
     newline
@@ -625,6 +626,6 @@ l_0xc56253:
     newline
     " <[1C 05 EA]>" next
     "@Eines der Lieblingsspeisen der Mr. Saturns." next
-    "@Es schmeck ziemlich lecker." next
+    "@Es schmeckt ziemlich lecker." next
     call(data_05.l_0xc56cb5) "100" call(data_05.l_0xc56cd6) end
 

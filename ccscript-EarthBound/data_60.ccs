@@ -162,7 +162,7 @@ l_0xef95a3:
     "@Du kannst die T[cb]r nicht [c9]ffnen." next
     "@Du musst den Schl[cb]ssel von Carpainter besorgen. Er hat ihn irgendwo versteckt." next
     "@Ich habe geh[c9]rt, dass Carpainter Blitze kontrollieren kann." next
-    "@In diesem Fall{pause(15)} solltest du diesen [1C 05 01] tagen, okay?[03][1D 03 FF][1B 02 {e(l_0xef96d3)}][1D 0E 00 01]" call(data_33.l_0xc7dcb6) next
+    "@In diesem Fall{pause(15)} solltest du diesen [1C 05 01] tragen, okay?[03][1D 03 FF][1B 02 {e(l_0xef96d3)}][1D 0E 00 01]" call(data_33.l_0xc7dcb6) next
     "{set(flag 86)}{set(flag 45)}{unset(flag 634)}{unset(flag 635)}"
 	title_paula(1)
 	"@Ich werde hier warten, bis du wiederkommst." next
@@ -216,14 +216,14 @@ l_0xef98ad:
     "@(Nun, du scheinst schon einiges zu wissen, auch wenn du nicht so aussiehst.)" end
 
 l_0xef98d3:
-    "@(Du hast es vielleicht schon bemerkt,{pause(15)} auch wenn du im Kampf schwer verletzt wirst," next
+    "@(Du hast es vielleicht schon bemerkt.{pause(15)} Auch wenn du im Kampf schwer verletzt wirst," next
     "@k[c9]nntest du eine t[c9]dliche Attacke mit 1 LP [cb]berleben.{pause(20)} Wenn dies geschieht, war es" next
     "@wegen deines Mutes.{pause(20)} Dein [bb]berleben k[c9]nnte von deinem Mut abh[c0]ngen." next
     "@Mehr Mut hilft dir auch dabei, mehr Gegner zu SMAAAAASHen." next
     "@Dar[cb]ber hinaus hast du bestimmt bemerkt, dass es etwas dauert, bis dir" next
     "@die gesamten Schadenspunkte angerechnet werden." next
     "@Das ist, weil dein LP Z[c0]hler herunterrollen muss.{pause(15)} Uups!{pause(20)} Ich meine nat[cb]rlich deine Leben." next
-    "@Wen ein Gegner dich t[c9]dlich verwundet,{pause(15)} aber du alle Feinde besiegst, bevor" next
+    "@Wenn ein Gegner dich t[c9]dlich verwundet,{pause(15)} aber du alle Feinde besiegst, bevor" next
     "@dein Leben verschwindet,{pause(15)} dann [cb]berlebst du auch.{pause(30)} Das ist alles, was ich wei[b8].)" end
 
 l_0xef9a47:
@@ -306,7 +306,7 @@ l_0xef9c51:
 
 l_0xef9c7e:
     newline
-    "{sound(25)}@{user} streut etwas wohlriechendes Puder herum.{sound(82)}[03]{pause(1)}" eob
+    "{sound(25)}@{user} verstreut etwas wohlriechendes Puder.{sound(82)}[03]{pause(1)}" eob
 
 l_0xef9cad:
     newline
@@ -364,7 +364,7 @@ l_0xef9e05:
 
 l_0xef9e22:
     newline
-    "{sound(25)}@{user} versch[cb]ttet etwas" linebreak
+    "{sound(25)}@{user} versch[cb]ttet einen" linebreak
     "  kochend hei[b8]en Espresso![03]" eob
 
 l_0xef9e47:
@@ -409,7 +409,7 @@ l_0xefa002:
     "@Du solltest die Maus nicht gehen lassen, bis die Pizza angekommen ist." end
 
 l_0xefa029:
-    "@Wenn du die Maus jetzt freil[c0]sst, wird der kommende Kund vielleicht auf sie treten." next
+    "@Wenn du die Maus jetzt freil[c0]sst, wird der kommende Kunde vielleicht auf sie treten." next
     "@Also... Es ist keine gute Idee sie jetzt freizulassen." end
 
 l_0xefa07e:

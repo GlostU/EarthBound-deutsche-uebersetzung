@@ -11,7 +11,7 @@ command e(label) "{long label}"
 l_0xc5629b:
     newline
     " <[1C 05 EB]>" next
-    "@Eines der Lieblingsspeisen der Mr. Saturns." next
+    "@Eine der Lieblingsspeisen der Mr. Saturns." next
     "@Es schmeckt okay." next
     call(l_0xc56cb5) "300" call(l_0xc56cd6) end
 
@@ -26,8 +26,8 @@ l_0xc5630a:
     " <[1C 05 ED]>" next
     "@Eine Krokette Kichererbsen aus Scaraba" next
 	"@Die Kichererbsen wurden gestampft, paniert und frittiert." next
-    "@Salz und Oliven[c9]l geben es einen wundervollen Geschmack."
-	"@Gen-san aus Scaraba liebt es dieses Gericht zuzubereiten." next
+    "@Salz und Oliven[c9]l geben ihr einen wundervollen Geschmack."
+	"@Gen-san aus Scaraba liebt es, dieses Gericht zuzubereiten." next
     call(l_0xc56cb5) "40" call(l_0xc56cd6) end
 
 l_0xc563a9:
@@ -42,13 +42,13 @@ l_0xc56417:
     newline
     " <[1C 05 EF]>" next
     "@Dar[cb]ber gibt es nicht viel zu sagen." next
-    "@Ich sch[c0]tze es gibt ein paar Menschen, die es gut finden." next
+    "@Ich sch[c0]tze, es gibt ein paar Menschen, die es gut finden." next
     call(l_0xc56cb5) "80" call(l_0xc56cd6) end
 
 l_0xc5645d:
     newline
     " <[1C 05 F0]>" next
-    "@Gegrilltes Lammfleisch usw. alles am Spie[b8] serviert." next
+    "@Gegrilltes Lammfleisch usw. - alles am Spie[b8] serviert." next
     "@Manchmal wird auch anderes Fleisch hinzugef[cb]gt..." next
     "@Das wurde mir zumindest mal gesagt..."
     call(l_0xc56cb5) "120" call(l_0xc56cd6) end
@@ -65,7 +65,7 @@ l_0xc564ff:
     "@D[c9]rrfleisch Rezept." next
     "@Nimm dir etwas Fleisch," next
 	"@schneide es in kleine St[cb]ckchen, die etwa 1 cm dick sind." next
-    "@H[c0]ng die St[cb]cke auf eine W[c0]scheleine, oder [c0]hnliches" next
+    "@H[c0]ng die St[cb]cke auf eine W[c0]scheleine oder [b0]hnliches" next
     "@und lass sie f[cb]r ungef[c0]hr 6 Monate in der Sonne h[c0]ngen..." next
     "@Nun ja, das steht zumindest so in meinem Rezeptbuch." next
     call(l_0xc56cb5) "150" call(l_0xc56cd6) end
@@ -83,7 +83,7 @@ l_0xc565d4:
     "@Nimm dir etwas Fleisch," next
 	"@schneide es in kleine St[cb]ckchen, die etwa 1 cm dick sind." next
     "@W[cb]rze die St[cb]ckchen so stark wie nur m[c9]glich," next
-    "@h[c0]ng die St[cb]cke auf eine W[c0]scheleine, oder [c0]hnliches" next
+    "@h[c0]ng die St[cb]cke auf eine W[c0]scheleine oder [b0]hnliches" next
     "@und lass sie f[cb]r ungef[c0]hr 8 Monate in der Sonne h[c0]ngen..." next
     "@Nun ja, das steht zumindest so in meinem Rezeptbuch." next
     call(l_0xc56cb5) "250" call(l_0xc56cd6) end
@@ -93,8 +93,8 @@ l_0xc566b7:
     //" <[1C 05 F5]>" next
     " <Luxus Trockenfleisch>" next
     "@Eine Gourmet Variante von D[c9]rrfleisch, die als Delikatesse gilt." next
-    "@Es wurde von einem erfahrenen Fleischhandwerker hergestellt," next
-    "@der D[c9]rrfleisch schon [cb]ber 60 Jahre zubereitet." next
+    "@Sie wurde von einem erfahrenen Fleischhandwerker hergestellt," next
+    "@der D[c9]rrfleisch schon seit [cb]ber 60 Jahren zubereitet." next
     "@D[c9]rrfleisch Fans meinen, dies sei der Kaviar von allen Fleischsorten." next
     "@Selbst ich verstehe, dass sie dieses D[c9]rrfleisch nicht auf der W[c0]scheleine trocknen..." next
     call(l_0xc56cb5) "300" call(l_0xc56cd6) end
@@ -158,17 +158,17 @@ l_0xc56955:
     "@K[c9]nnte den Gegner vielleicht einfrieren." eob
 
 l_0xc5696c:
-    "@Hohe Wahrscheinlichkeit bei wenigen Gegnern zu verfehlen." linebreak
-    "@Eliminiert ein PSI Schild, oder PSI Kraftschild." eob
+    "@Hohe Wahrscheinlichkeit, bei wenigen Gegnern zu verfehlen." linebreak
+    "@Eliminiert einen PSI Schild, oder PSI Kraftschild." eob
 
 l_0xc569a9:
     "@Es generiert einen grellen Lichtblitz und l[c0]sst die Gegner" eob
 
 l_0xc569ca:
-    " anfangen unkontrolliert zu weinen" eob
+    " anfangen, unkontrolliert zu weinen" eob
 
 l_0xc569df:
-    "@Das Verfahren die <Sterne vom Himmel zu sch[cb]tteln>, welches [1C 02 04] w[c0]hrend seines Trainings erlernte." eob
+    "@Das Verfahren, die <Sterne vom Himmel zu sch[cb]tteln>, welches [1C 02 04] w[c0]hrend seines Trainings erlernte." eob
 
 l_0xc56a14:
     "@Vermindert um ein halb der Menge an Schaden, der der Gegner verursacht hat." eob
@@ -196,7 +196,7 @@ l_0xc56ad3:
     " L[c0]sst das Ziel sich komisch f[cb]hlen." eob
 
 l_0xc56ae4:
-    "@Erlaubt dir sofort an Orte, die du bereits besucht hast, wiederzukehren." eob
+    "@Erlaubt dir, sofort zu allen Orten, die du bereits besucht hast, zu reisen." eob
 
 l_0xc56b0d:
     "@Es ist am effektivsten, wenn diese Kraft mehrfach angewandt wird, um den Effekt" linebreak
@@ -213,7 +213,7 @@ l_0xc56b5d:
     "Ein s[cb][b8]er Teddyb[c0]r!" eob
 
 l_0xc56b6f:
-    "@Das Genie [1C 02 03] sollte in der Lage sein den Gegenstand irgendwann zu reparieren." eob
+    "@Das Genie [1C 02 03] sollte in der Lage sein, den Gegenstand irgendwann zu reparieren." eob
 
 l_0xc56b8e:
     "@[1C 02 01]" goto(l_0xc56bb2)
@@ -242,14 +242,14 @@ l_0xc56bf4:
     "@Es verst[c0]rkt deine Verteidigung." eob
 
 l_0xc56c16:
-    "@Hilft dir nicht hypnotisiert zu werden und erh[c9]ht dein Gl[cb]ck." eob
+    "@Hilft dir, nicht hypnotisiert zu werden und erh[c9]ht dein Gl[cb]ck." eob
 
 l_0xc56c40:
     "@Muss bei <Extras> ausger[cb]stet werden." eob
 
 l_0xc56c54:
     call(l_0xc56c40) next
-    "@Verst[c0]rkt deine Verteidigung und Gl[cb]ck." eob
+    "@Verst[c0]rkt deine Verteidigung und dein Gl[cb]ck." eob
 
 l_0xc56c6d:
     "@<Extras> Ausr[cb]stung, die nur von [1C 02 02] getragen werden kann." eob
@@ -273,8 +273,8 @@ l_0xc56cdb:
     eob
 
 l_0xc56d02:
-    "@Erk[c0]ltungen, Sonnenstiche, Schlafst[c9]rungen," next
-	"  unkontrolliertes Weinen, und seltsamen Gef[cb]hlen." eob
+    "@Erk[c0]ltungen, Sonnenstichen, Schlafst[c9]rungen," next
+	"  unkontrolliertem Weinen, und seltsamen Gef[cb]hlen." eob
 
 l_0xc56d36:
     eob
@@ -286,7 +286,7 @@ l_0xc56d38:
     "@Auch effektiv bei Paralyse, oder Diamantisierungen." eob
 
 l_0xc56d63:
-    "@Um es zu benutzten, kombiniere es mit Essen." next
+    "@Um es zu benutzen, kombiniere es mit Essen." next
     "@Eine gute Kombination verst[c0]rkt die Genesungskraft." eob
 
 l_0xc56d9b:
@@ -334,12 +334,12 @@ l_0xc56e67:
 
 l_0xc56eca:
     "@Schlangen sind unangenehm, aber so s[cb][b8]..." next
-    "@Oh, ich wei[b8] nicht wovon ich rede." end
+    "@Oh, ich wei[b8] nicht, wovon ich rede." end
 
 l_0xc56efd:
 //https://legendsoflocalization.com/earthbound/scaraba/#snakes-on-the-brain
     "@Sollte ich eine Hauschlange holen?" next
-    "@Mein Freund hat vorgeschlangen, dass ich einen Experten fragen sollte." end
+    "@Mein Freund meinte, ich solle einen Experten fragen." end
 
 l_0xc56f32:
     "@Giftige Schlangen kosten mehr." next
@@ -449,7 +449,7 @@ l_0xc573dc:
 	"@leben." next
     "@Verstehen Sie?" next
     "@...Es gibt nur eine Antwort." next
-    "@Ich muss Sie hier aufhalten, auch wenn dies gegen Ihren Willen ist." next
+    "@Ich muss Sie hier aufhalten, auch wenn das gegen Ihren Willen ist." next
     "@Leben Sie eine Weile mit mir?![03]{window_closeall}{pause(30)}" goto(data_46.l_0xc9329b)
 
 l_0xc5749a:
@@ -457,12 +457,12 @@ l_0xc5749a:
     title(1, Star)
 	"@Der Zeitpunkt eurer Wiedervereinigung h[c0]ngt ganz allein davon ab, wie sehr sich" next
 	"@Prinz [1C 02 04] anstrengt." next
-    "@Seid vertrauensvoll und wartet bis die Zeit reif ist!{wait}{window_closeall}" eob
+    "@Seid vertrauensvoll und wartet, bis die Zeit reif ist!{wait}{window_closeall}" eob
 
 l_0xc574f6:
     "[06 50 01 {e(data_06.l_0xc575f8)}]@Das hier ist mein Hobby.{pause(20)}" linebreak
 	"  Ist es nicht cool?" next
-    "@Ich habe mich neulich mit jemanden angefreundet.{pause(20)} Er war mal ein Dungeon Ersteller." next
+    "@Ich habe mich neulich mit jemanden angefreundet.{pause(20)} Er war einmal ein Dungeon Ersteller." next
     "@Und jetzt ist er der" linebreak
 	"  <Dungeon Man>." next
     "@M[c9]chtest du ihn mal kennenlernen?" linebreak
@@ -476,5 +476,5 @@ l_0xc5759d:
     "@Oh nein..." pause(10) linebreak
 	"  Ich habe ihn nicht mehr!" next
     "@Ich muss ihn wohl irgendwo verloren haben." next
-    "@Es tut mir leid, ich passe auf kleine Dinge nicht auf." end
+    "@Es tut mir leid. Ich passe auf kleine Dinge nicht auf." end
 

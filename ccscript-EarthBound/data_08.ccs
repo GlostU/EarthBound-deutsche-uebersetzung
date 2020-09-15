@@ -25,7 +25,7 @@ vDrogeElse:
 	call(data_14.l_0xc5e456) "[1B 02 {e(ok)}]{store_registers}[19 19 00 00][1D 0B 00][1B 02 {e(kannNichtWegwerfen)}]{load_registers}[1D 0F 00 00]" goto(give3)
 
 ok:
-	"@Wirklich nichts weggwerfen?" linebreak
+	"@Wirklich nichts wegwerfen?" linebreak
 	menu {
 		"Ja" : {"{unset(flag 979)}" eob}
 		"Nein" : {}

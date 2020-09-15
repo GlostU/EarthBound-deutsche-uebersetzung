@@ -64,15 +64,15 @@ Anleitung:
 	"{diam}einfrieren!" next
 	"{diam}Pass also auf, dass du keinen Bl[c9]dsinn machst, wie z.B. deine Bankkarte zu vernichten und" next
 	"{diam}danach dein Spiel zu speichern." next
-	"{diam}Lass dich davon, aber nicht abschrecken und hab Spa[b8]." next
-	"{diam}[bb]brigends, wenn du zum Zeitpunkt, kurz bevor du dein Abenteuer beendet hattest," next
+	"{diam}Lass dich davon aber nicht abschrecken und hab Spa[b8]." next
+	"{diam}[bb]brigens, wenn du zum Zeitpunkt, kurz bevor du dein Abenteuer beendet hattest," next
 	"{diam}willst, dann solltest du dir das <Event> Nr. 70 anschauen." end
 
 
 // Text Data
 l_0xc575f8:
     "@Ich bin die ganze Zeit hier oben geblieben." next
-    "@Aber ich wei[b8] nicht wieso." end
+    "@Aber ich wei[b8] nicht, warum." end
 
 l_0xc5762c:
     "[06 50 01 {e(l_0xc576e0)}]"
@@ -114,18 +114,18 @@ l_0xc577d8:
     title(1, Warrior)
 	"@Auf der anderen Seite des Flusses ist ein gruseliger Ort." next
 	"@Er wird Tiefe Dunkelheit genannt." next
-    "@Die[cf]Monster[cf]sind[cf]ziemlich[cf]stark," next
+    "@Die[cf]Monster[cf]sind[cf]ziemlich[cf]stark" next
     "@und du erleidest Schaden, selbst wenn du einfach nur durch den Sumpf l[c0]ufst." next
     "@M[c9]chtest du den Fluss [cb]berqueren,{pause(15)} auch wenn es eine dumme Idee ist?" next
     "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc578b3)} {e(l_0xc57878)}]" goto(l_0xc57878)
 
 l_0xc57878:
-    "@Es war dumm von mir zu fragen." next
+    "@Es war dumm von mir, zu fragen." next
     "@Lass uns den Sonnenuntergang [cb]ber der Tiefen Dunkelheit von hier aus angucken." end
 
 l_0xc578b3:
     "@Der Sumpf hat keinen Boden." next
-    "@Selbst wenn du schwimmst wirst du hineingezogen." next
+    "@Selbst wenn du schwimmst, wirst du hineingezogen." next
     "@H[c0]ttest du ein U-Boot, dann w[cb]rde die Sache schon ganz anders aussehen.{wait}{set(flag 151)}{set(flag 762)}" eob
 
 l_0xc57911:
@@ -157,7 +157,7 @@ l_0xc57a26:
     "@Er wird dich zum U-Boot bringen." next
     "@Vertausch aber nicht den Ausgang." next
     "@Du musst den <Auf Wiedersehen Ausgang> nehmen!" next
-	"@Ich hoffe wir sehen uns bald wieder." end
+	"@Ich hoffe, wir sehen uns bald wieder." end
 
 l_0xc57ad9:
 	title(1, Dungeon)
@@ -246,7 +246,7 @@ l_0xc57e1c:
     "@Ich bin's, Porky." next
     "@Du kennst mich, Porky, der Verb[cb]ndete der Starken!" next
     "@Ihr Schrotthaufen seht echt armselig aus, wisst ihr das?!" next
-    "@Der Apfel der Weisheit hat bereits Vorhergesagt, dass ihr hier auftauchen werdet." next
+    "@Der Apfel der Weisheit hat bereits vorhergesagt, dass ihr hier auftauchen werdet." next
     "@...Aber die Dinge werden nicht weiterhin so verlaufen, wie der Apfel der Weisheit meint." next
     "@Ihr werdet verlieren und Meister Giygas wird" next
 	"@noch m[c0]chtiger und gruseliger werden." next
@@ -254,7 +254,7 @@ l_0xc57e1c:
     "@Na wegen mir nat[cb]rlich." next
     "@Dank der Leitung von Meister Giygas steht der gro[b8]e Porky nun hier." next
     "@Der Apfel der Weisheit hat das nicht vorhergesagt." next
-    "@Meister Giygas.{pause(20)}  Nein,{pause(15)} Giygas ist nicht mehr F[cb]hrer des B[c9]ses." next
+    "@Meister Giygas.{pause(20)}  Nein,{pause(15)} Giygas ist nicht mehr F[cb]hrer des B[c9]sen." next
     "@Er wurde das B[c9]se in Person..." next
     "@Er hat keine Kontrolle mehr [cb]ber sich." next
     "@Er ist die B[c9]se Energie.[03]" eob
@@ -271,7 +271,7 @@ l_0xc58000:
 
 l_0xc580da:
     newline
-    "{diam}The hint shop has been marked in your map." next
+    "{diam}Der Hinweisladen wurde auf deiner Karte markiert." next
     "{set(flag 681)}{set(flag 682)}{set(flag 683)}{set(flag 684)}{set(flag 685)}{set(flag 686)}" goto(l_0xc58000)
 
 l_0xc58103:
@@ -294,15 +294,15 @@ l_0xc581ee:
     goto(l_0xc58214)
 
 l_0xc58214:
-    "[19 10 02][1B 02 {e(l_0xc5824b)}]  [1F 52 01][1B 02 {e(l_0xc5824b)}]{clearline}{swap}[19 10 00][1B 02 {e(l_0xc58214)}]{swap}[1F 12 00]{diam}[1C 02 00] was removed." linebreak
+    "[19 10 02][1B 02 {e(l_0xc5824b)}]  [1F 52 01][1B 02 {e(l_0xc5824b)}]{clearline}{swap}[19 10 00][1B 02 {e(l_0xc58214)}]{swap}[1F 12 00]{diam}[1C 02 00] wurde entfernt." linebreak
     goto(l_0xc58214)
 
 l_0xc5824b:
     goto(l_0xc58000)
 
 l_0xc58250:
-    "{diam}You can't have a party of zero!" next
-    "{diam}The game will freeze if you do so.{wait}" goto(l_0xc58000)
+    "{diam}Du kannst leere Gruppe haben!" next
+    "{diam}as Spiel wird einfrieren, wenn du das tust.{wait}" goto(l_0xc58000)
 
 l_0xc58262:
     newline
@@ -318,8 +318,8 @@ l_0xc582f8:
     goto(l_0xc582f8)
 
 l_0xc58358:
-    "{diam}Inventory full." linebreak
-    "{diam}Can't add more items.{wait}" goto(l_0xc58364)
+    "{diam}Inventar voll." linebreak
+    "{diam}Kann keine weiteren Items hinzuf[cb]gen.{wait}" goto(l_0xc58364)
 
 l_0xc58364:
     goto(l_0xc58000)
@@ -389,7 +389,7 @@ l_0xc58532:
     "{swap}[1D 0E 00 FD]" eob
 
 l_0xc58539:
-    "{diam}Inventory maxed out with Skip Sandwiches DX." next
+    "{diam}Inventar wurde voll aufgef[cb]llt mit <[1C 05 E1]>." next
     call(l_0xc58555) goto(l_0xc58000)
 
 l_0xc58555:
@@ -399,7 +399,7 @@ l_0xc58567:
     eob
 
 l_0xc58568:
-    "{diam}What items do you want to remove?" linebreak
+    "{diam}Welche Items m[c9]chtest du entfernen?" linebreak
     "[19 02]Alle[02][19 02]W[c0]hlen[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc58597)} {e(l_0xc585c5)}]" goto(l_0xc58364)
 
 l_0xc58597:
@@ -427,8 +427,7 @@ l_0xc585db:
     eob
 
 l_0xc585dc:
-    "{diam}Storage filled with" linebreak
-    "  upper tier weapons.{counter(20)}" goto(l_0xc585f2)
+    "{diam}Lager mit starken Waffen gef[cb]llt.{counter(20)}" goto(l_0xc585f2)
 
 l_0xc585f2:
     "{ctoarg}[1D 0C 01 01][18 07 02 00 00 00 00][1B 03 {e(l_0xc5860e)}][1D 18 00]{inc}" goto(l_0xc585f2)
@@ -437,7 +436,7 @@ l_0xc5860e:
     "{wait}" goto(l_0xc58000)
 
 l_0xc58614:
-    "{diam}Storage cleared." goto(l_0xc58624)
+    "{diam}Lager geleert." goto(l_0xc58624)
 
 l_0xc58624:
     "[19 1A 01][1B 02 {e(l_0xc58636)}][19 1C FF 01]" goto(l_0xc58624)
@@ -446,8 +445,7 @@ l_0xc58636:
     "{wait}" goto(l_0xc58000)
 
 l_0xc5863c:
-    "{diam}You now have been equipped" linebreak
-    "  with the ultimate weapons.[03]" call(l_0xc58659) goto(l_0xc58000)
+    "{diam}Du bist jetzt mit den ultimativen Waffen ausger[cb]stet.[03]" call(l_0xc58659) goto(l_0xc58000)
 
 l_0xc58659:
     "{counter(1)}" goto(l_0xc5865b)
