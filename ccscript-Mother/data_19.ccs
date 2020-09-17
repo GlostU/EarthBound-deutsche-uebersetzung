@@ -435,7 +435,7 @@ l_0xc65ea3:
 	"@Willst du ein paar aufs Maul haben,{pause(15)} oder was?[03]" call(data_21.l_0xc683df) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}[1F F1 8E 00 7B 02]{set(flag 363)}" eob
 
 l_0xc65edb:
-    "@Ich k[c0]mpfe nicht mit dir, weil du st[c0]rker als ich bist." end
+	"@Du bist viel st[c0]rker als ich, deshalb k[c0]mpfe ich nicht mit dir." end
 
 l_0xc65efc:
     "[06 6C 01 {e(data_32.l_0xc7c588)}][06 40 00 {e(data_20.l_0xc65f4b)}]"

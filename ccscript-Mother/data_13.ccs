@@ -160,7 +160,7 @@ l_0xc5d9b2:
 
 l_0xc5d9d1:
     "@Hahh, puhh, hahh... puhhhh!" linebreak
-	"  Ich bin so schnell ich nur konnte hierher gelaufen." next
+	"  Ich bin so schnell ich konnte hierher gelaufen." next
     "@Ich bin v[c9]llig ausgepowert." next
     "@Was hast du zum Verkauf?[03]" eob
 
@@ -173,7 +173,8 @@ l_0xc5da27:
 	"Kleiner"
 	}
 	"." next
-    "@Dank dir hat es sich echt gelohnt den ganzen Weg hierher zu kommen!" end
+    "@Dank dir hat es sich echt gelohnt, den ganzen Weg hierher zu kommen!" end
+    "@Dank dir hat es sich echt gelohnt, den ganzen Weg hierher zu kommen!" end
 
 l_0xc5da58:
     newline
@@ -182,7 +183,7 @@ l_0xc5da58:
 
 l_0xc5da85:
     "[1B 06]" newline
-    "@Du verkaust {store_registers}{swap}{rtoarg}{call(data_ItemText.WennArtikel)}{load_registers}?" next
+    "@Du verkaufst {store_registers}{swap}{rtoarg}{call(data_ItemText.WennArtikel)}{load_registers}?" next
     "@Ich gebe dir daf[cb]r {swap}$[1C 0A 00 00 00 00]." next
     "@Ist das ein fairer Preis?" linebreak
     eob
@@ -193,7 +194,7 @@ l_0xc5dab3:
 
 l_0xc5dacb:
     newline
-    "@Ach, du heiliger Bimbam! Ich glaube, ich kann das nicht kaufen." next
+    "@Ach du heiliger Bimbam! Ich glaube, ich kann das nicht kaufen." next
     "@Was kannst du mir noch verkaufen?[03]" eob
 
 l_0xc5db01:
@@ -221,12 +222,12 @@ l_0xc5dbbf:
     newline
     "@Hey, hey!" linebreak
     "  Das kannst du mir doch nicht antun!" next
-    "@Naja, hast du noch etwas anders zum Verkauf?[03]" eob
+    "@Naja, hast du noch etwas anderes zum Verkauf?[03]" eob
 
 l_0xc5dbeb:
     newline
     "@Davon habe ich schon welche." next
-    "@Gibt's noch etwas interessantes zum Verkauf?[03]" eob
+    "@Gibt's noch etwas Interessantes zum Verkauf?[03]" eob
 
 l_0xc5dc17:
     "@Hi! {pause(10)}Ist das ein Laden?" linebreak
@@ -260,7 +261,7 @@ l_0xc5dcdf:
     "@Hast du auch etwas anderes?[03]" eob
 
 l_0xc5dcf9:
-    "@Hi, wie geht's dir? Ist das ein Laden, oder so?" next
+    "@Hi, wie geht's dir? Ist das ein Laden oder so?" next
     "@Was verkaust du [cb]berhaupt?[03]" eob
 
 l_0xc5dd29:
@@ -300,7 +301,7 @@ l_0xc5ddf1:
     "@Ich habe gesucht und gesucht," linebreak
     "  (keuch... hechel...)" linebreak
     "  aber dich nicht gefunden." next
-    "@Ich glaube du solltest dein Gesch[c0]ft aufgeben und nach Hause gehen." next
+    "@Ich glaube, du solltest dein Gesch[c0]ft aufgeben und nach Hause gehen." next
     "@Wenn du dein Gesch[c0]ft ernster nehmen w[cb]rdest, dann w[c0]rst du auch " next
     "@r[cb]cksichtsvoller mit deinen Kunden![03]" call(data_33.l_0xc7de54) "{unset(flag 754)}" eob
 

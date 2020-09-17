@@ -256,7 +256,7 @@ l_0xc6b329:
     goto(l_0xc6b492)
 
 l_0xc6b492:
-    "@Lass uns in 10 Jahren wieder treffen, oder so.{wait}[1F F1 6F 02 89 00]{set(flag 127)}" eob
+    "@Lass uns in 10 Jahren wieder treffen oder so.{wait}[1F F1 6F 02 89 00]{set(flag 127)}" eob
 
 l_0xc6b4bb:
     title(1, Andonuts)

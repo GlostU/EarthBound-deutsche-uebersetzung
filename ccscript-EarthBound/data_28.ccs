@@ -425,7 +425,7 @@ l_0xc75f3b:
 l_0xc75f73:
     title(1, Porky)
     "[1D 04 01 11][1B 03 {e(l_0xc760b7)}][06 25 03 {e(l_0xc75fb6)}]@Du nimmst f[cb]r unser gro[b8]es Abenteuer nichts mit?" next
-    "@Warum suchst du nicht deinen Br[cb]chigen Schl[c0]ger, oder so?" end
+    "@Warum suchst du nicht deinen Br[cb]chigen Schl[c0]ger oder so?" end
 
 l_0xc75fb6:
     title(1, Porky)

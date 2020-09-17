@@ -311,7 +311,7 @@ l_0xc5e840:
     "[1F 1C 05 03]{pause(60)}[1F 1D 05]{window_open(1)}"
 	title(1, Porky)
 	"@Hey [1C 01 08]!{pause(20)}[19 22 01 01 05 00][1F 13 01 00]  Also, du l[c0]ufst nur dort hin, wo du auch hin willst?" next
-    "@Glaubst du nicht, wir sollten uns darauf konzentrieren Picky nach Hause zu bringen?[03]{window_closeall}" eob goto(l_0xc5e8a0)
+    "@Glaubst du nicht, wir sollten uns darauf konzentrieren, Picky nach Hause zu bringen?[03]{window_closeall}" eob goto(l_0xc5e8a0)
 
 l_0xc5e8a0:
     "[1F 1A 7C 00 03]{pause(60)}[1F 1B 7C 00][1F 1E 7C 00 06][1F 15 2D 00 08 00 01]"
@@ -325,9 +325,9 @@ l_0xc5e8a0:
     "@Nun ja, ich bin froh zu sehen, dass es dir wenigstens gut geht..." next
     "@Lasst uns jetzt nach" linebreak
 	"  Hause gehen.{pause(20)} " next
-	"@Ich wette Mama und Papa sind schon krank vor Sorge." next
+	"@Ich wette, Mama und Papa sind schon krank vor Sorge." next
     "@Meine G[cb]te!{pause(15)} " next
- 	"@Manchmal frage ich mich wer von uns in Wirklichkeit der gro[b8]e Bruder ist.[03]{sound(16)}" call(data_21.l_0xc681f0) "{set(flag 20)}{set(flag 37)}{set(flag 742)}[1F 66 01 0F 45 EA C5 00]{set(flag 100)}{unset(flag 466)}{unset(flag 468)}{set(flag 11)}[02]" eob
+ 	"@Manchmal frage ich mich, wer von uns in Wirklichkeit der gro[b8]e Bruder ist.[03]{sound(16)}" call(data_21.l_0xc681f0) "{set(flag 20)}{set(flag 37)}{set(flag 742)}[1F 66 01 0F 45 EA C5 00]{set(flag 100)}{unset(flag 466)}{unset(flag 468)}{set(flag 11)}[02]" eob
 	
 l_0xc5e9a8:
 	"[19 10 03]{result_is(7)}[1B 02 {e(data_50.l_0xc9992f)}]{window_open(1)}[19 22 01 01 07 00][1F 13 01 00][19 22 05 01 07 00][1F 13 05 00]"

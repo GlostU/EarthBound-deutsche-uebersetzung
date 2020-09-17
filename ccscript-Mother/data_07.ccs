@@ -159,7 +159,7 @@ l_0xc58a92:
 
 l_0xc58a93:
     newline
-    "{diam}Which party member will be leveled up?[1A 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01][1B 02 {e(l_0xc58ad7)}]{swap}" call(l_0xc58add) "[1B 02 {e(l_0xc58ad7)}]{swap}[1E 08 00 00]" goto(l_0xc58a93)
+    "{diam}Welches Teammitglied wird aufgelevelt?[1A 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01][1B 02 {e(l_0xc58ad7)}]{swap}" call(l_0xc58add) "[1B 02 {e(l_0xc58ad7)}]{swap}[1E 08 00 00]" goto(l_0xc58a93)
 
 l_0xc58ad7:
     goto(data_06.l_0xc58000)
@@ -169,7 +169,7 @@ l_0xc58adc:
 
 l_0xc58add:
     newline
-    "{diam}Select your level." linebreak
+    "{diam}W[c0]hle dein Level." linebreak
     "   [1F 52 02]{clearline}" eob
 
 l_0xc58afb:
@@ -178,8 +178,8 @@ l_0xc58afb:
     "[09 04 {e(l_0xc58b6c)} {e(l_0xc58bac)} {e(l_0xc58bd2)} {e(l_0xc58c30)}]" goto(data_06.l_0xc58000)
 
 l_0xc58b6c:
-    "{diam}You now have $9999999" linebreak
-    "  in the bank.{wait}{counter(1)}" goto(l_0xc58b88)
+    "{diam}Du hast jetzt $9999999" linebreak
+    "  auf der Bank.{wait}{counter(1)}" goto(l_0xc58b88)
 
 l_0xc58b88:
     "{ctoarg}{swap}{result_is(200)}[1B 03 {e(l_0xc58ba0)}][1D 06 50 C3 00 00]{inc}" goto(l_0xc58b88)
@@ -191,16 +191,16 @@ l_0xc58bab:
     eob
 
 l_0xc58bac:
-    "{diam}You now have $99999" linebreak
-    "  in your wallet.{wait}[1D 08 60 EA][1D 08 40 9C]{open_wallet}" goto(data_06.l_0xc58000)
+    "{diam}Du hast jetzt $99999" linebreak
+    "  bei dir.{wait}[1D 08 60 EA][1D 08 40 9C]{open_wallet}" goto(data_06.l_0xc58000)
 
 l_0xc58bd1:
     eob
 
 l_0xc58bd2:
-    "{diam}Input your amount:" linebreak
-    "[18 05 04 0A]&[18 05 04 02]$[1F 52 05]{clearline}[1B 02 {e(l_0xc58c2a)}]{store_registers}" call(l_0xc58c55) "{load_registers}{swap}[1D 08 00 00]{open_wallet}{diam}You now have" linebreak
-    " [1C 0A 00 00 00 00] in your wallet.{wait}" goto(l_0xc58c2a)
+    "{diam}Gebe die Menge ein:" linebreak
+    "[18 05 04 0A]&[18 05 04 02]$[1F 52 05]{clearline}[1B 02 {e(l_0xc58c2a)}]{store_registers}" call(l_0xc58c55) "{load_registers}{swap}[1D 08 00 00]{open_wallet}{diam}Du hast jetzt" linebreak
+    " [1C 0A 00 00 00 00] bei dir.{wait}" goto(l_0xc58c2a)
 
 l_0xc58c2a:
     goto(data_06.l_0xc58000)
@@ -209,8 +209,8 @@ l_0xc58c2f:
     eob
 
 l_0xc58c30:
-    call(l_0xc58c55) "{diam}You are now broke!" linebreak
-    "  Your wallet is empty!{wait}" goto(data_06.l_0xc58000)
+    call(l_0xc58c55) "{diam}Du bist jetzt pleite!" next
+    "{diam}Du hast kein Geld mehr bei dir!{wait}" goto(data_06.l_0xc58000)
 
 l_0xc58c54:
     eob
@@ -240,7 +240,7 @@ l_0xc58d09:
 
 l_0xc58d46:
     newline
-    "{diam}Which song would you like to hear?" linebreak
+    "{diam}Welches Lied m[c9]chtest du h[c9]ren?" linebreak
     goto(l_0xc58d58)
 
 l_0xc58d58:
@@ -248,7 +248,7 @@ l_0xc58d58:
 
 l_0xc58d70:
     newline
-    "{diam}Which sound effect would you like to hear?" linebreak
+    "{diam}Welchen Soundeffekt m[c9]chtest du h[c9]ren?" linebreak
     goto(l_0xc58d80)
 
 l_0xc58d80:
@@ -256,7 +256,7 @@ l_0xc58d80:
 
 l_0xc58d96:
     newline
-    "{diam}Which SPC effect would you like to hear?" linebreak
+    "{diam}Welchen SPC Effekt m[c9]chtest du h[c9]ren?" linebreak
     goto(l_0xc58da9)
 
 l_0xc58da9:
@@ -278,7 +278,7 @@ l_0xc58e13:
     goto(l_0xc58e31)
 
 l_0xc58e31:
-    "     [1F 52 02]{clearline}[1B 03 {e(l_0xc58e4a)}]{diam}Hint system off." next
+    "     [1F 52 02]{clearline}[1B 03 {e(l_0xc58e4a)}]{diam}Hinweissystem aus." next
     goto(data_06.l_0xc58000)
 
 l_0xc58e4a:
@@ -288,7 +288,7 @@ l_0xc58e4a:
     goto(l_0xc58e31)
 
 l_0xc58e73:
-    "{diam}Select your teleportation." linebreak
+    "{diam}W[c0]hle die Art der Teleportation." linebreak
     "  [1F 52 01]{clearline}[09 04 {e(l_0xc58e9f)} {e(l_0xc58ea6)} {e(l_0xc58ead)} {e(l_0xc58eb4)}]" goto(data_06.l_0xc58000)
 
 l_0xc58e9f:
@@ -304,13 +304,13 @@ l_0xc58eb4:
     "{window_closeall}[1F 20 01 04]" eob
 
 l_0xc58ebb:
-    "{diam}Add a Skip Sandwich.{wait}" call(data_06.l_0xc58555) eob
+    "{diam}F[cb]ge ein [1C 05 E0] hinzu.{wait}" call(data_06.l_0xc58555) eob
 
 l_0xc58ed1:
     /* ORIGINAL TEXT
     "@Can't do anything." end
     //"@NNMDKMSN." end //Debug option for Kirby Debug Menu - Option Banana */
-    "{diam}How far do you want to advance?" linebreak
+    "{diam}Wie weit m[c9]chtest du voranschreiten?" linebreak
     goto(l_0xc58edd)
 
 /*
@@ -320,27 +320,27 @@ l_0xc58edd:
 */
 
 l_0xc58edd:
-    "[18 02]{window_open(50)}{diam}Area:" linebreak
+    "[18 02]{window_open(50)}{diam}Ort:" linebreak
     "[19 02]Onett[02]"
     "[19 02]Twoson[02]"
-    "[19 02]Threek[02]"
+    "[19 02]Threed[02]"
     "[19 02]Fourside[02]"
     "[19 02]Summers [5F] Scarabia[02]"
-    "[19 02]The Rest[02]"
+    "[19 02]Der Rest[02]"
     "[1C 0C 01][11][09 06 {e(l_0xc58f07)} {e(l_0xc58f37)} {e(l_0xc58f61)} {e(l_0xc58f93)} {e(l_0xc58fc1)} {e(l_0xc58feb)}]{window_closetop}{window_switch(1)}" newline
-    "{diam}Finished." end
+    "{diam}Fertig." end
 
 /*
 l_0xc58f07:
     "{window_open(7)}[1C 0C 01]" call(data_08.l_0xc59070) "[1B 02 {e(l_0xc58f35)}][1F C0 05 {e(l_0xc59019)} {e(data_08.l_0xc5901c)} {e(data_08.l_0xc5901f)} {e(data_08.l_0xc59022)} {e(data_08.l_0xc59025)}]" call(data_08.l_0xc59082) eob
 */
 l_0xc58f07: // Onett
-    "{window_open(13)}{diam}Scene:" linebreak
-    "[19 02]1. Porky joined[02]"
-    "[19 02]2. Buzz buzz appeared[02]"
-    "[19 02]3. Buzz buzz died[02]"
-    "[19 02]4. Defeated Frank[02]"
-    "[19 02]5. Cleared Onett[02]"
+    "{window_open(13)}{diam}Szene:" linebreak
+    "[19 02]1. Porky ist beigetreten[02]"
+    "[19 02]2. Buzz buzz ist aufgetaucht[02]"
+    "[19 02]3. Buzz buzz starb[02]"
+    "[19 02]4. Frank besiegt[02]"
+    "[19 02]5. Onett abgeschlossen[02]"
     "[1C 0C 01]" call(data_08.l_0xc59070) "[1B 02 {e(l_0xc58f35)}][1F C0 05 {e(l_0xc59019)} {e(data_08.l_0xc5901c)} {e(data_08.l_0xc5901f)} {e(data_08.l_0xc59022)} {e(data_08.l_0xc59025)}]" call(data_08.l_0xc59082) eob
 
 

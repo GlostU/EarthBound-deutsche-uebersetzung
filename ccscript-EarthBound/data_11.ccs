@@ -25,7 +25,7 @@ l_0xc5c7ae:
 
 l_0xc5c7b9:
     "@Sie tragen schon zu viel." next
-    "@Verkaufen Sie etwas, oder werfen Sie es weg." end
+    "@Verkaufen Sie etwas oder werfen Sie es weg." end
 
 l_0xc5c7f1:
     "@Vielen Dank." next
@@ -36,7 +36,7 @@ l_0xc5c7fb:
     eob
 
 l_0xc5c804:
-    "@Brauchen Sie noch etwas ?" linebreak
+    "@Brauchen Sie noch etwas?" linebreak
     eob
 
 l_0xc5c80d:
@@ -56,7 +56,7 @@ l_0xc5c86c:
     "@Auf Wiedersehen." end
 
 l_0xc5c876:
-    "@Auf Wiedersehen. Bitte passt auf Euch auf." end
+    "@Auf Wiedersehen. Bitte passt auf euch auf." end
 
 l_0xc5c88a:
     "@Was m[c9]chten Sie?[03]" eob
@@ -119,7 +119,7 @@ l_0xc5c9c2:
     "@Wer soll den Gegenstand tragen?[03]" eob
 
 l_0xc5c9ce:
-    "@Du sagst als, du willst den Gegenstand doch nicht...?" next
+    "@Du sagst also, du willst den Gegenstand doch nicht...?" next
     eob
 
 l_0xc5c9e7:
@@ -149,9 +149,9 @@ l_0xc5ca1e:
 
 l_0xc5ca56:
     title(1, Gil)
-    "@Ich kann keine magische Kuchen mehr machen..." next
+    "@Ich kann keine Magische Kuchen mehr machen..." next
     "@Aber das ist nicht so schlimm, weil ich jetzt Magische Torten verkaufe." next
-    "@Sie schmecken sogar besser als Magische Kuchen!" next
+    "@Die schmecken sogar besser als Magische Kuchen!" next
     eob
 
 l_0xc5cab4:
@@ -316,7 +316,7 @@ l_0xc5cdf2:
 //Kaufhaus Frau
 l_0xc5ce22:
     "@Hall[c9]chen!" next
-    "@Wie w[cb]rde es Ihnen gefallen, wenn wir Ihr Essen mit Gew[cb]rzen aufzupeppen?" next
+    "@Wie w[cb]rde es Ihnen gefallen, wenn wir Ihr Essen mit Gew[cb]rzen aufpeppen?" next
     "@Das sind aber nicht Ihre normalen Gew[cb]rze!" next
     "@Wann immer Sie etwas essen, kombinieren sich die Gew[cb]rze automatisch mit Ihrer Speise." next
     "@Es ist fast schon wie Magie!" next

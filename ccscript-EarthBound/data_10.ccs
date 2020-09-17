@@ -29,7 +29,7 @@ l_0xc5bc4c:
     eob
 
 l_0xc5bc70:
-    "@Ich mag es mein Geb[c0]ck auf der Stra[b8]e zu verkaufen." next
+    "@Ich mag es, mein Geb[c0]ck auf der Stra[b8]e zu verkaufen." next
     "@Klar, Fliegen landen darauf, aber meiner Meinung nach schmeckt es dann viel besser!" next
     eob
 
@@ -37,7 +37,7 @@ l_0xc5bcc2:
     "@Vielen Dank." end
 
 l_0xc5bcca:
-    "@Komm blad wieder." end
+    "@Komm bald wieder." end
 
 l_0xc5bcd2:
     "@Was wollen Sie haben?[03]" eob
@@ -59,7 +59,7 @@ l_0xc5bcfd:
 
 l_0xc5bd0c:
     "@Sie tragen zu viele Sachen." next
-    "@Sie solten etwas verkaufen, wegwerfen, oder einfach irgendwo liegen lassen." end
+    "@Sie sollten etwas verkaufen, wegwerfen, oder einfach irgendwo liegen lassen." end
 
 l_0xc5bd49:
     "@Vielen Dank." next
@@ -79,9 +79,9 @@ l_0xc5bd62:
     eob
 
 l_0xc5bd92:
-    "@Also, wo ist deine Mama, oder dein Papa?" next
+    "@Also, wo ist deine Mama oder dein Papa?" next
     "@Ihr Kinder seid alleine den ganzen Weg hierher gegangen...?" next
-    "@Nun ja, ich kann die Bestellung zu Mitnehmen anbieten." next
+    "@Nun ja, ich kann die Bestellung zum Mitnehmen anbieten." next
     eob
 
 l_0xc5bde0:
@@ -89,7 +89,7 @@ l_0xc5bde0:
     "@Sei vorsichtig und lass es nicht fallen." end
 
 l_0xc5be00:
-    "@Wir freuen uns Sie wiederzusehen." end
+    "@Wir freuen uns, Sie wiederzusehen." end
 
 l_0xc5be16:
     "@Was kann ich Ihnen servieren?[03]" eob
@@ -99,7 +99,7 @@ l_0xc5be24:
     eob
 
 l_0xc5be34:
-    "@F[cb]r wem ist die Bestellung?[03]" eob
+    "@F[cb]r wen ist die Bestellung?[03]" eob
 
 l_0xc5be45:
     "@Bitte besuchen Sie uns bald wieder." next
@@ -111,7 +111,7 @@ l_0xc5be4e:
 
 l_0xc5be6f:
     "@Sie tragen leider schon zu viel." next
-    "@Sie k[c9]nnten einige Sachen verkaufen, oder wegwerfen." next
+    "@Sie k[c9]nnten einige Sachen verkaufen oder wegwerfen." next
     "@Kommen Sie dann bitte wieder." end
 
 l_0xc5beb3:
@@ -123,7 +123,7 @@ l_0xc5beba:
     eob
 
 l_0xc5bec1:
-    "@Wollen Sie etwas weiteres bestellen?" linebreak
+    "@Wollen Sie etwas Weiteres bestellen?" linebreak
     eob
 
 l_0xc5becd:
@@ -134,7 +134,7 @@ l_0xc5becd:
 l_0xc5bef9:
     "@Hallo! W[cb]rdest du gerne Gew[cb]rze f[cb]r dein Essen in der Mittagspause haben?" next
     "@Sie sind wirklich ziemlich wunderbar!" next
-    "@Wenn du etwas essen tust, werden die Gew[cb]rze automatisch mit dem Essen" next
+    "@Wenn du etwas isst, werden die Gew[cb]rze automatisch mit dem Essen" next
 	"@kombiniert." next
     "@Sie kommen in diesen s[cb][b8]en kleinen Verpackungen und Gl[c0]sern." next
     eob
@@ -146,7 +146,7 @@ l_0xc5bf8e:
     "@Komm bald wieder." end
 
 l_0xc5bf95:
-    "@Welche Art von Gew[cb]rzt m[c9]chtest du?[03]" eob
+    "@Welche Art von Gew[cb]rz m[c9]chtest du?[03]" eob
 
 l_0xc5bfa1:
     "@[1C 05 00]?" next
@@ -166,7 +166,7 @@ l_0xc5bfc7:
 
 l_0xc5bfd3:
     "@Du tr[c0]gst schon zu viele Sachen." next
-    "@Du m[cb]sstest etwas verkaufen, oder wegwerfen." next
+    "@Du m[cb]sstest etwas verkaufen oder wegwerfen." next
     "@Komm dann bitte wieder." end
 
 l_0xc5c025:
@@ -267,11 +267,11 @@ l_0xc5c1e5:
     eob
 
 l_0xc5c203:
-    "@Danke, bro!" end
+    "@Danke, Bro!" end
 
 l_0xc5c210:
     "@Mistkerl!" linebreak
-    "  Wie kannst du mir so etwas antun!" end
+    "  Wie kannst du mir so etwas antun?!" end
 
 l_0xc5c22e:
     "@Wonach suchst du?!" next
@@ -283,11 +283,11 @@ l_0xc5c23b:
     eob
 
 l_0xc5c252:
-    "@Hey wer wird das tragen?" next
+    "@Hey, wer wird das tragen?" next
     eob
 
 l_0xc5c268:
-    "@Alles klar, "
+    "@Alles klar, [19 10 01]"
 	if (result_is(2)){"Schwester"}
 	else{"Bruder"}
 	"." linebreak
@@ -295,7 +295,7 @@ l_0xc5c268:
     eob
 
 l_0xc5c27f:
-    "@Hey homie!" linebreak
+    "@Hey Homie!" linebreak
     "  Du hast nicht genug Knete daf[cb]r![03]" eob
 
 l_0xc5c2a5:
@@ -316,7 +316,7 @@ l_0xc5c2de:
 l_0xc5c2e7:
     "@Sorry, Kumpel!" linebreak
     "  [1C 02 00] tr[c0]gt schon zu viel." next
-    "@Will jemand anderes helfen, und das Teil tragen?" linebreak
+    "@Will jemand anderes helfen und das Teil tragen?" linebreak
     eob
 
 l_0xc5c32a:
@@ -329,16 +329,16 @@ l_0xc5c32a:
 
 l_0xc5c39e:
     "@Wenn du dich komplett erholen m[c9]chtest, kannst du dr[cb]ben zum Dorf gehen." next
-    "@Das Dorf ist voller...{pause(20)} interessanten Leuten." next
+    "@Das Dorf ist voller...{pause(20)} interessanter Leuten." next
 	"@Ruh dich dort gut aus." next
     "@Der Name des Dorfes soll wohl Saturn Tal sein," next
     "@aber das Dorf kann nirgends auf der Karte gefunden werden." next
-    "@Ich freue mich Leuten in der Not helfen zu k[c9]nnen." next
+    "@Ich freue mich, Leuten in der Not helfen zu k[c9]nnen." next
     "@...jedoch verlange ich einen Preis f[cb]r meine Arbeit." end
 
 l_0xc5c456:
     "@Kommt auf jeden Fall wieder. ... Ah, mir f[c0]llt gerade ein..." next
-    "@Dr[cb]ben ist ein Dorf voller...{pause(20)} interessanten Leuten." next
+    "@Dr[cb]ben ist ein Dorf voller...{pause(20)} interessanter Leuten." next
     "@Du solltest es besuchen gehen." next
     "@Der Name des Dorfes soll wohl Saturn Tal sein," next
     "@aber das Dorf kann nirgends auf der Karte gefunden werden." end
@@ -363,7 +363,7 @@ l_0xc5c521:
 
 l_0xc5c536:
     "@Du tr[c0]gst schon zu viel." next
-    "@Verkauf, oder wirf etwas weg." end
+    "@Verkauf oder wirf etwas weg." end
 
 l_0xc5c564:
     "@Danke." next
@@ -389,10 +389,10 @@ l_0xc5c59e:
     eob
 
 l_0xc5c5dd:
-    "@Ach ja, bitte findet einen Weg mich nochmal zu besuchen." end
+    "@Ach ja, bitte findet einen Weg, mich nochmal zu besuchen." end
 
 l_0xc5c5f3:
-    "@Die Sonne ist heute gnadenlos, also passt bitte auf Euch auf." end
+    "@Die Sonne ist heute gnadenlos, also passt bitte auf euch auf." end
 
 l_0xc5c61a:
     "@Wir haben eine Vielzahl von Dingen. Was h[c0]tten Sie gerne?[03]" eob

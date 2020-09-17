@@ -304,7 +304,7 @@ l_0xc8fd11:
     "@Warum rufst du nicht nach deiner Mami, [1C 01 08]?!{prompt}" linebreak
     "@Schrei, <Mami! Papi!" linebreak
     "  Ich habe Angst! {pause(30)}Ich glaube ich mache mir in die Hose!>{prompt}" linebreak
-    "@Ich wei[b8], ihr habt telepathische Kr[c0]fte, oder so.{prompt}" linebreak
+    "@Ich wei[b8], ihr habt telepathische Kr[c0]fte oder so.{prompt}" linebreak
 	"@Versucht doch nach Hilfe zu rufen!{prompt}" linebreak
     "@Ihr erb[c0]rmlichen, stinkenden" linebreak								// Kommt in Mother3 vor
     "  Helden, dieser sogenannten Gerechtigkeit!{prompt}" linebreak

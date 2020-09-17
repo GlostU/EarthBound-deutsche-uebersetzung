@@ -141,7 +141,7 @@ l_0xc80c31:
     "@So,{pause(15)} du m[c9]chtest also [1C 02 02] sehen?" next
     "@Viele kommen her um ihre [cb]bernat[cb]rlichen Kr[c0]fte zu bewundern," next
 	"@aber das sind nur Schmarotzer." next
-    "@Also... kommst du von einem Fernsehsender, oder so?" linebreak
+    "@Also... kommst du von einem Fernsehsender oder so?" linebreak
     "[19 02]Ja[02] [19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc80dab)} {e(l_0xc80cd4)}]" goto(l_0xc80cd4)
 
 l_0xc80cd4:
