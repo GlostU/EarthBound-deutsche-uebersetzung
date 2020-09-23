@@ -47,10 +47,10 @@ l_0xc60cd8:
 
 l_0xc60d31:
     next
-    "@(Wirklich?{pause(20)} Du hast ihn schon getroffen?  War er okay?{pause(20)}  ...Hmmm, I verstehe.){wait}{set(flag 138)}" eob
+    "@(Wirklich?{pause(20)} Du hast ihn schon getroffen?  War er okay?{pause(20)}  ...Hmmm, ich verstehe.){wait}{set(flag 138)}" eob
 
 l_0xc60d6c:
-    "[19 10 01]{rtoarg}@[1C 02 00] hat etwas gl[c0]nzendes entdeckt." next
+    "[19 10 01]{rtoarg}@[1C 02 00] hat etwas Gl[c0]nzendes entdeckt." next
     "@Es es sind Kontaktlinsen!" next
     "[1D 03 FF][1B 02 {e(l_0xc60db8)}][1D 0E FF BB][1F 1E 1A 03 06]" call(data_33.l_0xc7dccf) "{set(flag 385)}" end goto(l_0xc60db8)
 
@@ -60,7 +60,7 @@ l_0xc60db8:
 l_0xc60dc4:
     "@Genau wie Seeaffen auf der See leben,...{pause(20)} " next
 	"@leben W[cb]stenaffen in W[cb]rstchen." next
-    "@Oh, ich meine nat[cb]rlich W[cb]ste, nicht W[cb]rstchen!" next
+    "@Oh, ich meine nat[cb]rlich W[cb]sten, nicht W[cb]rstchen!" next
     "@Ich bin gl[cb]cklich, dass Tiere in der W[cb]ste leben." linebreak
 	"  Du nicht auch?" end
 
@@ -82,7 +82,7 @@ l_0xc60e30:
     "@wird der verdrehte Kosmos wieder ruhig Atmen." next
     "@Verstehst du das?" next
     "@Das ist nicht so wichtig.{pause(20)}" linebreak
-	"  Fahre fort wie dir beliebt." next
+	"  Fahre fort, wie dir beliebt." next
     "@[b9]ffne die Schatzkisten und nimm ihren Inhalt." next
     "{pause(60)}" linebreak
     "@...Bist du auf der Suche nach diesem Gegenstand hierher gelangt?" next
@@ -93,7 +93,7 @@ l_0xc60e30:
 l_0xc60ff3:
     "{window_open(1)}"
     title(1, Talah)
-    "@Die Abenteuer, die noch vor dir liegen werden nicht einfach sein." next
+    "@Die Abenteuer, die noch vor dir liegen, werden nicht einfach sein." next
     "@Ich werde dir eine besondere F[c0]higkeit geben," next
 	"@die dich nach belieben durch den Raum laufen l[c0]sst." next
     "@Lerne die F[c0]higkeit von dem Affen dort dr[cb]ben..." next
@@ -111,7 +111,7 @@ l_0xc610c1:
     "@Sprich mit dem Affen dort dr[cb]ben.{wait}{set(flag 2)}{window_closeall}[1F 07 03]{pause(20)}{music_resume}" eob
 
 l_0xc610f1:
-    "@Du kannst nichts weiteres tragen." next
+    "@Du kannst nichts Weiteres tragen." next
     "@Warum wirst du nicht etwas los?" next
     "@Du wirst sie brauchen, diese Gourmet Joghurtmaschine.{wait}[1F 07 03]{pause(20)}{music_resume}" eob
 
@@ -132,7 +132,7 @@ l_0xc611e2:
 
 l_0xc61228:
     title(1, Gerardo)
-    "@Ich hatte keine Probleme beim graben...{pause(20)} bis jetzt..." next
+    "@Ich hatte keine Probleme beim Graben...{pause(20)} bis jetzt..." next
 	"@Ich habe einen Dungeon gefunden." next
     "@Viele Monster sind aufgetaucht, deswegen konnte ich nicht weitermachen." next
     "@Da sind f[cb]nf gro[b8]e Maulw[cb]rfe...!" next
@@ -158,7 +158,7 @@ l_0xc61386:
 l_0xc613b3:
     "{music(155)}[06 09 02 {e(l_0xc614f2)}][06 08 02 {e(l_0xc614b1)}][06 07 02 {e(l_0xc6146d)}][06 06 02 {e(l_0xc61443)}]{window_open(1)}@Ich bin einer der Meister dieses Loches." next
     "@Es gibt insgesamt f[cb]nf Meister.{pause(20)}  Wir sind nat[cb]rlich alle Maulw[cb]rfe." next
-    "@Ich denke ich bin der drittst[c0]rkste von uns." next
+    "@Ich denke, ich bin der drittst[c0]rkste von uns." next
     "@Gib dein Bestes![03]{window_closeall}" eob
 
 l_0xc61443:
@@ -166,13 +166,13 @@ l_0xc61443:
     "@Ich werde dich jetzt zerst[c9]ren![03]{window_closeall}" eob
 
 l_0xc6146d:
-    "{window_open(1)}@Meine St[c0]rke f[c0]llt zwischen dem zweit- und viertst[c0]rksten Meister." next
+    "{window_open(1)}@Meine St[c0]rke f[c0]llt zwischen den zweit- und viertst[c0]rksten Meister." next
     "@Willst du mich testen?" next
     "{window_closeall}" eob
 
 l_0xc614b1:
     "{window_open(1)}@Ich bin in Wirklichkeit der drittst[c0]rkste Meister dieses Loches." next
-    "@Ich werde dir die Macht der Drittst[c0]rksten demonstrieren![03]{window_closeall}" eob
+    "@Ich werde dir die Macht der drittst[c0]rksten demonstrieren![03]{window_closeall}" eob
 
 l_0xc614f2:
     "{window_open(1)}@Ha ha ha." next
@@ -181,7 +181,7 @@ l_0xc614f2:
     "@den viertst[c0]rksten Meister des Loches bek[c0]mpft," next
     "@und den schw[c0]chsten Meister des Loches bek[c0]mpft!" next
     "@Ich bin wahrlich der drittst[c0]rkste Meister dieses Loches." next
-    "@Jetzt wirst du die Vorteile der Drittbesten kennenlernen![03]{window_closeall}" eob
+    "@Jetzt wirst du die Vorteile der drittbesten kennenlernen![03]{window_closeall}" eob
 
 l_0xc615a7:
     "{isset(flag 277)}[1B 02 {e(l_0xc615e8)}]{isset(flag 278)}[1B 02 {e(l_0xc615e8)}]{isset(flag 279)}[1B 02 {e(l_0xc615e8)}]{isset(flag 280)}[1B 02 {e(l_0xc615e8)}]{isset(flag 281)}[1B 02 {e(l_0xc615e8)}]{set(flag 282)}{set(flag 72)}" call(data_33.l_0xc7dd85) "{unset(flag 54)}{unset(flag 55)}{set(flag 492)}" goto(l_0xc615e8)
@@ -522,7 +522,7 @@ l_0xc6266c:
     "@Kyu?  Kyuikki?" next
     "@(Was?  Du hast mich das gar nicht gefragt?)" next
     "@Kyukyu Kyui kyukyu" next
-    "@(Ihr m[cb]sst echt Arbeitsmenschen sein)" next
+    "@(Ihr m[cb]sst echt Arbeitsmenschen sein.)" next
     "@Kyu ukyukyoi?" next
     "@(Ich ergebe keinen Sinn?{pause(20)} Aber ich bin attraktiv, nicht wahr?)" end
 
@@ -533,5 +533,5 @@ l_0xc6271a:
     "@([AC] Er ist ein Freund der" linebreak
 	"  Affen. [AC])" next
     "@...Uki Ukiukiukya" next
-    "@(...Das ist ein Lied, dass ich mir f[cb]r Talah Rama ausgedacht habe!)" end
+    "@(...Das ist ein Lied, das ich mir f[cb]r Talah Rama ausgedacht habe!)" end
 

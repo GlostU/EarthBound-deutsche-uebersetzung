@@ -307,7 +307,7 @@ l_0xc75717:
 
 l_0xc7576b:
     title_dog(1)
-    "@(Abgesehen von Menschen,{pause(15)} schlafen Nachts auch Hunde.{pause(20)} Warum schl[c0]fst du nicht?)" end
+    "@(Abgesehen von Menschen,{pause(15)} schlafen nachts auch Hunde.{pause(20)} Warum schl[c0]fst du nicht?)" end
 
 l_0xc7579e:
     title_dog(1)

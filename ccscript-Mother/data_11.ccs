@@ -224,7 +224,7 @@ l_0xc5cc35:
 	"  Ich warne dich!" end
 
 l_0xc5cc53:
-    "@Es ist aber ein wenig teuer!" next
+    "@Es ist aber etwas teuer!" next
     eob
 
 l_0xc5cc63:
@@ -309,7 +309,7 @@ l_0xc5cdd8:
     eob
 
 l_0xc5cdf2:
-    "@[1C 02 00] hat kein Platz mehr f[cb]r Bananen." next
+    "@[1C 02 00] hat keinen Platz mehr f[cb]r Bananen." next
     "@Will jemand die Banane f[cb]r {swap}" call(data_33.l_0xc7e6a4) " tragen?" linebreak
     eob
 

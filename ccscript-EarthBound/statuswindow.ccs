@@ -13,10 +13,10 @@ text_pos (8, 0)
 "Level:"
 
 text_pos (24, 3)
-"Lebens Punkte:"
+"Lebenspunkte:"
 
 text_pos (23, 4)
-"Psycho Punkte:"
+"Psychopunkte:"
 
 text_pos (11, 5)
 "Erfahrungspunkte:"

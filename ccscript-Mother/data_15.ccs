@@ -41,8 +41,8 @@ l_0xc5eb0b:
     "@Davon bin ich [cb]berzeugt..." next
     "@....." next
     "@Giygas b[c9]ser Plan muss auf der Erde schon in Gang gesetzt worden sein..." next
-    "@Wenn du sofort anf[c0]ngst den Gegner zu konfrontieren," next
-    "@dann hast du vielleicht Zeit, Giygas b[c9]se Absichten entgegen zu schlagen." next
+    "@Wenn du sofort anf[c0]ngst, den Gegner zu konfrontieren," next
+    "@dann hast du vielleicht Zeit, Giygas b[c9]sen Absichten entgegen zu schlagen." next
     "@Drei Dinge sind von gr[c9][b8]ter Wichtigkeit:{pause(30)} Weisheit,{pause(15)} Mut{pause(20)} und Freundschaft." next
     "@...Der Legende nach werden drei Jungs und ein M[c0]dchen Giygas besiegen." next
     "@...Ich werde dir sp[c0]ter mehr erz[c0]hlen." next
@@ -53,33 +53,34 @@ l_0xc5eb0b:
 
 l_0xc5edd4:
     "@Ich hasse es dir nochmal zu erkl[c0]ren,{pause(15)}" next
-	"@aber ich denke ich fange einfach von vorne an..." next
+	"@aber ich denke, ich fange einfach von vorne an..." next
     "@Wir werden hier bis zum n[c0]chsten Sonnenaufgang bleiben!" next
     goto(l_0xc5eb0b)
 
 l_0xc5ee13:
-    "@Danke, dass du diese lange Geschichte zugeh[c9]rt hast." next
-    "@Du bist genau so au[b8]ergew[c9]hnlich wie ich erwartet habe...[03]{window_closeall}{music(11)}{pause(120)}{pause(60)}{pause(120)}{pause(120)}{window_open(1)}@Buzz Buzz schlie[b8]t sich dir jetzt an.[03]{window_closeall}[1F EA 5B 01]{set(flag 18)}{music_resume}[1F EA 5B 01]{pause(60)}[1F 1C 05 03]{pause(60)}[1F 1D 05][1F E7 5B 01]{window_open(1)}"
+    "@Danke, dass du diese lange Geschichte angeh[c9]rt hast." next
+    "@Du bist genau so au[b8]ergew[c9]hnlich, wie ich erwartet habe...[03]{window_closeall}{music(11)}{pause(120)}{pause(60)}{pause(120)}{pause(120)}{window_open(1)}@Buzz Buzz schlie[b8]t sich dir jetzt an.[03]{window_closeall}[1F EA 5B 01]{set(flag 18)}{music_resume}[1F EA 5B 01]{pause(60)}[1F 1C 05 03]{pause(60)}[1F 1D 05][1F E7 5B 01]{window_open(1)}"
 	title(1, Porky)
 	"@[1C 02 01]!" next
-    "@Es sieht aus als h[c0]ttest du diesmal eine Menge [b0]rger..." next
+    "@Es sieht aus, als h[c0]ttest du diesmal eine Menge [b0]rger..." next
     "@Drei Jungs{pause(15)} hat er gesagt?  ...[b0]hhm..." next
     "@Ich geh[c9]re doch nicht dazu, oder?..." next
     "@...Weil... Ich bin kein Typ f[cb]r solche Sachen..." next
     "@Meine G[cb]te.{pause(20)}  Mein Herz schl[c0]gt mir bis zum Hals!...[03]{window_closeall}[1F 66 01 2B 01 75 C6 00]" eob
 
 l_0xc5ef3e:
+//https://legendsoflocalization.com/earthbound/onett/#loan-amount
     "[06 68 00 {e(l_0xc5f1d1)}]"
 	title(1, Aloysius)
 	"@Es tut mir leid, dass meine Kinder so viel [b0]rger verursacht haben..." next
     "@Ihr beide werdet jetzt was erleben![03]{window_closeall}[1F EA 5B 01][1F E9 2D 00][1F 12 05][1F 15 2C 00 51 00 01][1F 12 06][1F 15 2D 00 52 00 01][1F 61][1F F1 2C 00 53 00][1F 61][1F E6 2D 00][19 22 01 02 2C 00][1F 13 01 00]{window_open(1)}"
 	title(1, Aloysius)
-	"@Nebenbei, ich w[cb]rden mich freuen wenn du schon bald gehen w[cb]rdest." next
-    "@Ich bin es leid neben deiner Familie zu wohnen." next
+	"@Nebenbei, ich w[cb]rde mich freuen, wenn du schon bald gehen w[cb]rdest." next
+    "@Ich bin es leid, neben deiner Familie zu wohnen." next
     "@Wir haben deinem Vater eine Menge Geld geliehen." next
     "@Es d[cb]rften hundert Billionen Dollar oder mehr gewesen sein..." next
-    "@Nun ja, ich denke es k[c9]nnte auch wenieger gewesen sein," next
-    "@Aber wegen diesem Darlehen,{pause(15)} leben meine Familie und ich in Armut![03]{window_closeall}[1F EA 5B 01][1F F1 2C 00 0C 00][1F F1 2D 00 54 00][1F 61][1F E6 2C 00][19 22 01 02 2D 00][1F 13 01 00]{window_open(1)}"
+    "@Nun ja, ich denke, es k[c9]nnte auch wenieger gewesen sein." next
+    "@Aber wegen diesem Darlehen{pause(15)} leben meine Familie und ich in Armut![03]{window_closeall}[1F EA 5B 01][1F F1 2C 00 0C 00][1F F1 2D 00 54 00][1F 61][1F E6 2C 00][19 22 01 02 2D 00][1F 13 01 00]{window_open(1)}"
 	title(1, Lardna)
 	"@Mein Ehemann ist zu nachsichtig mit den Kindern." next
     "@Nun ja,{pause(15)} nette Leute ziehen immer den K[cb]rzeren.{pause(20)}" next
@@ -87,7 +88,7 @@ l_0xc5ef3e:
     "{window_closeall}[1F EA 5B 01][1F E9 2C 00][1F E9 2D 00][1F F2 5B 01 34 00]{unset(flag 2)}[1F 61]{pause(120)}[1F E7 5B 01][1F E6 2C 00][1F E6 2D 00]{window_open(1)}"
 	title(1, Lardna)
 	"@Aya{pause(5)}a{pause(5)}a{pause(5)}e{pause(5)}e{pause(5)}e!" next
-    "@Ich glaube das ist ein Mistk[c0]fer!{pause(15)} Ich hau deine Eingeweide raus![03]{window_closeall}[1F EA 5B 01][1F F1 2D 00 76 02][1F 61]{music(113)}{set(flag 2)}[1F 61]{set(flag 104)}[1F 1F 5B 01 06][1F 17 2E 00 08 00 01][1F E9 2C 00][1F F1 2D 00 0C 00]{set(flag 303)}{set(flag 31)}{set(flag 35)}{set(flag 34)}{set(flag 633)}{unset(flag 21)}{unset(flag 20)}{unset(flag 18)}{unset(flag 11)}{set(flag 107)}[1F 66 01 2A FB F1 C5 00]{set(flag 479)}{set(flag 480)}{set(flag 481)}{set(flag 487)}{set(flag 488)}{set(flag 493)}{set(flag 495)}{set(flag 496)}{set(flag 500)}{set(flag 501)}{set(flag 502)}{set(flag 503)}{set(flag 505)}{set(flag 506)}" eob goto(l_0xc5f1d1)
+    "@Ich glaube, das ist ein Mistk[c0]fer!{pause(15)} Ich hau deine Eingeweide raus![03]{window_closeall}[1F EA 5B 01][1F F1 2D 00 76 02][1F 61]{music(113)}{set(flag 2)}[1F 61]{set(flag 104)}[1F 1F 5B 01 06][1F 17 2E 00 08 00 01][1F E9 2C 00][1F F1 2D 00 0C 00]{set(flag 303)}{set(flag 31)}{set(flag 35)}{set(flag 34)}{set(flag 633)}{unset(flag 21)}{unset(flag 20)}{unset(flag 18)}{unset(flag 11)}{set(flag 107)}[1F 66 01 2A FB F1 C5 00]{set(flag 479)}{set(flag 480)}{set(flag 481)}{set(flag 487)}{set(flag 488)}{set(flag 493)}{set(flag 495)}{set(flag 496)}{set(flag 500)}{set(flag 501)}{set(flag 502)}{set(flag 503)}{set(flag 505)}{set(flag 506)}" eob goto(l_0xc5f1d1)
 
 l_0xc5f1d1:
 	title(1, Aloysius)
@@ -124,7 +125,7 @@ l_0xc5f2ad:
 
 l_0xc5f39d:
     "@...Ich verstehe." next
-    "@Es tut mir leid.{pause(20)}  Ich sch[c0]tze ich habe es nicht gut genug erkl[c0]rt..." next
+    "@Es tut mir leid.{pause(20)}  Ich sch[c0]tze, ich habe es nicht gut genug erkl[c0]rt..." next
     goto(l_0xc5f2ad)
 
 l_0xc5f3d2:
@@ -157,7 +158,7 @@ l_0xc5f564:
 l_0xc5f575:
     "@Was zum...?" next
     "@Es scheint als h[c0]ttest du schon zu viele Dinge zu tragen..." next
-    "@Da du nichts mehr tragen kannst,{pause(15)} gebe ich es deine Schwester." next
+    "@Da du nichts mehr tragen kannst,{pause(15)} gebe ich es deiner Schwester." next
     "@In einem Wimpernschlag,{pause(15)} wie Magie,{pause(15)} wird sie es bekommen." next
     "@Ge{pause(5)}nau!" next
     "@....." next
@@ -218,7 +219,7 @@ l_0xc5f859:
     title(1, Strong)
 	"@Zeig mir, was du drauf hast..." next
     "{pause(20)}" linebreak
-    "{set(flag 6)}{music_resume}@Mal sehen ob du an meinen f[cb]nf besten M[c0]nner vorbeikommst...[03]{window_closeall}[1F EA 4B 00][1F 61][1F F1 4D 00 E8 00][1F F1 4C 00 E7 00][1F F1 4B 00 E6 00][1F F1 4A 00 E5 00][1F F1 49 00 E4 00][1F 61]{pause(30)}[1F F1 49 00 E9 00][1F 61]{window_open(1)}" goto(l_0xc5f914)
+    "{set(flag 6)}{music_resume}@Mal sehen, ob du an meinen f[cb]nf besten M[c0]nnern vorbeikommst...[03]{window_closeall}[1F EA 4B 00][1F 61][1F F1 4D 00 E8 00][1F F1 4C 00 E7 00][1F F1 4B 00 E6 00][1F F1 4A 00 E5 00][1F F1 49 00 E4 00][1F 61]{pause(30)}[1F F1 49 00 E9 00][1F 61]{window_open(1)}" goto(l_0xc5f914)
 
 l_0xc5f914:
     "@Eeeeyah!" next
@@ -235,18 +236,18 @@ l_0xc5f9dd:
     "@Lass dir die Komplimente vom B[cb]rgermeister nicht zu Kopf steigen..." next
     "@Na los, fetter Junge![03]" call(data_21.l_0xc6844f) "[1B 03 {e(data_21.l_0xc683de)}]{window_open(1)}" newline
     "@Lass uns das irgendwann wiederholen..." next
-    "@N[c0]chstes mal erledige ich dich mit meinem nuklearen Suplexangriff!{wait}{set(flag 291)}{window_closeall}[1F F1 4B 00 EE 00][1F 61]{pause(30)}[1F F1 4C 00 EC 00][1F 61]{window_open(1)}" goto(l_0xc5fa72)
+    "@N[c0]chstes Mal erledige ich dich mit meinem nuklearen Suplexangriff!{wait}{set(flag 291)}{window_closeall}[1F F1 4B 00 EE 00][1F 61]{pause(30)}[1F F1 4C 00 EC 00][1F 61]{window_open(1)}" goto(l_0xc5fa72)
 
 l_0xc5fa72:
     "@Komm schon!" linebreak
-    "  Ich nehme dich hier auf der Stelle auseinander, baby![03]" call(data_21.l_0xc68456) "[1B 03 {e(data_21.l_0xc683de)}]{window_open(1)}" newline
+    "  Ich nehme dich hier auf der Stelle auseinander, Baby![03]" call(data_21.l_0xc68456) "[1B 03 {e(data_21.l_0xc683de)}]{window_open(1)}" newline
     "@Grrr..." linebreak
     "  Ich habe verloren...{wait}{set(flag 292)}{window_closeall}[1F F1 4C 00 EE 00][1F 61]{pause(30)}[1F F1 4D 00 ED 00][1F 61]{window_open(1)}@Das wars Freundchen..." next
     "@Du kannst mich vergessen." linebreak
 	"  Ich werde meinen Boss anrufen!" next
     "{set(flag 293)}{window_closeall}[1F F1 4D 00 EE 00][1F 61]{pause(30)}[1F F2 4B 00 EF 00][1F 61]{window_open(1)}"
 	title(1, Strong)
-	"@Ich werde dich niemals in einen fairen Wettbewerb besiegen, also..." next
+	"@Ich werde dich niemals in einem fairen Wettbewerb besiegen, also..." next
     "@Mach dich bereit f[cb]r meinen" next
 	"@<Super Ultra Mambo-Tango-Foxtrott Kampfstil!>{wait}" call(data_21.l_0xc68464) "[1B 03 {e(data_21.l_0xc683de)}][1F 01 00]{pause(60)}{window_open(1)}" newline
 	title(1, Strong)
@@ -261,7 +262,7 @@ l_0xc5fa72:
     "@...*Krrrr* ...Hey!..." next
     "@...Ich bin es," linebreak
 	"  Hauptmann Stark!..." next
-    "@Okay, h[c9]r zu, ein Kind namens [1C 02 01] wird in ein paar Minuten aufkreuzen..." next
+    "@Okay, h[c9]r zu! Ein Kind namens [1C 02 01] wird in ein paar Minuten aufkreuzen..." next
     "@Er ist das Kind mit der roten Kappe..." next
 	"@Ich will, dass du ihm die Stra[b8]e zu Twoson [c9]ffnest..." next
     "@Ich wei[b8]..." next
@@ -290,7 +291,7 @@ l_0xc5fe4b:
 
 l_0xc5feac:
     "@Aufgrund gef[c0]hrlichen Umst[c0]n-" linebreak
-	"  den, wurden die Busverbindun-" linebreak
+	"  den wurden die Busverbindun-" linebreak
 	"  gen[cf]in diesem Gebiet eingestellt." next
     "@(Zombie Befreiungstruppe.)" end
 
@@ -338,7 +339,7 @@ l_0xc6005f:
     "[1D 03 FF][1B 02 {e(l_0xc600a4)}][1D 0E 00 B6]{set(flag 90)}{unset(flag 757)}" call(data_33.l_0xc7dcb6) "{wait}{window_closeall}[1F E8 FF]" eob
 
 l_0xc600a4:
-    "{window_open(1)}@Komm schon!{pause(20)}  Du hast immer noch kein Platz!" next
+    "{window_open(1)}@Komm schon!{pause(20)} Du hast immer noch keinen Platz!" next
     "@Bitte erledige es sofort.{wait}{window_closeall}[1F E8 FF]" eob
 
 l_0xc600d5:
@@ -355,7 +356,7 @@ l_0xc60140:
 
 l_0xc60180:
     "@Ich wollte eigentlich meine Freundin in Fourside besuchen, aber..." next
-    "@Wenn das so weitergeht werde ich 100 Jahre alt sein bis ich sie sehe!" end
+    "@Wenn das so weitergeht, werde ich 100 Jahre alt sein, bis ich sie sehe!" end
 
 l_0xc601c0:
     "@Wir schlafen in der W[cb]ste, deswegen werden wir oft f[cb]r Leichen gehalten." next
@@ -423,7 +424,7 @@ l_0xc6050b:
 l_0xc6058f:
 	title(1, Gerardo)
     "@Wenn wir nur einen Diamanten finden w[cb]rden..." next
-    "@Es ist eine Schande, dass Goldgr[c0]ber wie ich kein Gold finden kann.." next
+    "@Es ist eine Schande, dass ein Goldgr[c0]ber wie ich kein Gold finden kann.." next
     "@Ich werde mir noch mehr M[cb]he geben." goto(l_0xc605d9)
 
 l_0xc605d9:
@@ -434,14 +435,14 @@ l_0xc605db:
 	"@Ich frage mich, was sie finden werden." end
 
 l_0xc6060c:
-    "@Sie haben nur einen Diamanten gefunden...{pause(15)} naja,{pause(15)} man nimmt, was man kriegen kann..." end
+    "@Sie haben nur einen Diamanten gefunden...{pause(15)} Naja,{pause(15)} man nimmt, was man kriegen kann..." end
 
 l_0xc60633:
     "[06 5A 00 {e(l_0xc6060c)}]@Wenn die Ausgrabung eine Live[cb]bertragung h[c0]tte, dann k[c9]nnte ich mir sie anschauen," next
 	"@w[c0]hrend ich auf dem Boden entspanne." end
 
 l_0xc60678:
-    "[06 5A 00 {e(l_0xc6060c)}]@Ich glaube sie sollten woanders graben." end
+    "[06 5A 00 {e(l_0xc6060c)}]@Ich glaube, sie sollten woanders graben." end
 
 l_0xc60696:
     "[06 5A 00 {e(l_0xc6060c)}]@Ich habe viel zu erledigen, aber ich kann mich einfach nicht bewegen." next
@@ -457,7 +458,7 @@ l_0xc606de:
 l_0xc6070c:
     "@(Ich bin ein kaputter Automat." next
     "@Aber, die Sanchez Br[cb]der und ihre Freunde ..." next
-    "@sie werden dich gl[cb]cklich machen.)" next
+    "@Sie werden dich gl[cb]cklich machen.)" next
     "@(W[cb]rdest du gerne einen Doller einwerfen?)" linebreak
     call(data_33.l_0xc7dd4d) "[11]{clearline}[09 02 {e(l_0xc6078b)} {e(l_0xc607a5)}]" goto(l_0xc607a5)
 
@@ -522,7 +523,7 @@ l_0xc6090b:
     "{pause(120)}[1F F1 FF 02 B4 02][1F 61][1F E6 FF 02]{window_open(1)}"
 	title(1, Tomas)
 	"@Amigo, du hast den gro[b8]en Jackpot gewonnen!" next
-    "@Hier ist ein gro[b8]er Preis f[cb]r dich, amigo!" next
+    "@Hier ist ein gro[b8]er Preis f[cb]r dich, Amigo!" next
     "[1D 03 FF][1B 02 {e(l_0xc60b13)}][1D 0E 00 A8]@" call(data_33.l_0xc7e6d7) 
 	call(gewonnen)
 	"ein [1C 05 A8] als Preis.{wait}{sound(116)}{window_closeall}[1F E9 FF 02][1F 61]" goto(data_16.l_0xc60b71)
@@ -532,7 +533,7 @@ l_0xc60985:
     "{pause(120)}[1F F1 FF 02 B4 02][1F 61][1F E6 FF 02]{window_open(1)}"
     title(1, Tomas)
     "@Amigo, du hast gewonnen!{pause(20)}  Ein sehr gro[b8]er Gewinn, glaube ich!" next
-    "@Hier ist ein sch[c9]ner Preis f[cb]r den wichtigen amigo!" next
+    "@Hier ist ein sch[c9]ner Preis f[cb]r den wichtigen Amigo!" next
     "[1D 03 FF][1B 02 {e(l_0xc60b13)}][1D 0E 00 E0]@" call(data_33.l_0xc7e6d7) 
 	call(gewonnen)
 	"ein [1C 05 E0] als Preis.{wait}{sound(116)}{window_closeall}[1F E9 FF 02][1F 61]" goto(data_16.l_0xc60b71)
@@ -560,9 +561,9 @@ l_0xc60a97:
 l_0xc60b13:
     newline
     "@Das habe ich vermutet." newline
-	"  Amigo,[cf]du[cf]hast kein Platz mehr." next
+	"  Amigo,[cf]du[cf]hast keinen Platz mehr." next
     "@Es tut mir leid, aber der Deal ist gelaufen." next
-    "@Dein Preis hat sich den Tag freigenommen, amigo.{wait}{window_closeall}[1F E9 FF 02][1F 61]" goto(data_16.l_0xc60b71)
+    "@Dein Preis hat sich den Tag freigenommen, Amigo.{wait}{window_closeall}[1F E9 FF 02][1F 61]" goto(data_16.l_0xc60b71)
 
 l_0xc60b69:
     "[1F F1 FF 02 B2 02][1F 61]" goto(data_16.l_0xc60b71)

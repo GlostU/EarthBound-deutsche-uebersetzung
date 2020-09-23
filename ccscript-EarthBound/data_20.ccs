@@ -311,7 +311,7 @@ l_0xc67026:
 
 l_0xc67089:
     "@Ein Meteorit ist eingeschlagen,{pause(15)} die Haie machen die Stadt unsicher," next
-    "@ihr Kinder l[c0]uft hier herum,{pause(15)} und,{pause(15)} ich bin hungrig...{pause(20)}" linebreak
+    "@ihr Kinder lauft hier herum,{pause(15)} und,{pause(15)} ich bin hungrig...{pause(20)}" linebreak
     "  Ich hasse meinen Job!" end
 
 l_0xc670e6:

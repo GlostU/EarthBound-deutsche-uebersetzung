@@ -130,7 +130,7 @@ l_0xc90b53:
     "@dass wir zurzeit keine billigeren R[c0]ume verf[cb]gbar haben." end
 
 l_0xc90b90:
-    "[1D 14 00 00 00 00][1B 03 {e(l_0xc90bfd)}][1D 09 00 00]{open_wallet}{sound(118)}@Bitte rufen Sie uns, falls Sie Skorpione finden..." next
+    "[1D 14 00 00 00 00][1B 03 {e(l_0xc90bfd)}][1D 09 00 00]{open_wallet}{sound(118)}@Bitte rufen Sie uns, falls Sie Skorpione finden sollten..." next
     "@Es ist zwar sehr unwahrschein-" linebreak
 	"  lich, dass sie hereinkrabbeln," linebreak
 	"  aber man wei[b8] ja nie...{wait}{window_closeall}{pause(1)}" call(l_0xc90f7d) "{music_resume}[1F 21 0D]" call(l_0xc91582) eob

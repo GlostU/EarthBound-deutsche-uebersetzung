@@ -102,7 +102,7 @@ l_0xc7eb16:
 
 l_0xc7eb25:
     newline
-    "@Du kein Platz." linebreak
+    "@Du keinen Platz." linebreak
     "  Tsch[cb]ss sp[c0]ter!" goto(l_0xc7eb38)
 
 l_0xc7eb38:

@@ -412,7 +412,7 @@ l_0xc5725a:
 l_0xc572a0:
     "@In der Pyramide gibt es versteckte Sch[c0]tze." next
     "@Mein Ehemann hat nach ihnen gesucht." next
-    "@Aber bevor er sie gefunden hatte...{pause(15)} ist er auf einer Bananenschale ausgerutscht." next
+    "@Aber bevor er welche finden konnte...{pause(20)} ist er auf einer Bananenschale ausgerutscht." next
     "@...Deshalb hat er seine Suche aufgegeben." end
 
 l_0xc5730d:

@@ -432,7 +432,7 @@ l_0xc87e4c:
     "[1D 03 FF][1B 02 {e(l_0xc87e8e)}][1D 0E 00 A4][1B 05]" call(data_33.l_0xc7dcb6) "{wait}{set(flag 89)}{unset(flag 766)}{unset(flag 51)}" eob
 
 l_0xc87e8e:
-    "@(Aber schau mal, in diesem glorreichen Moment hast du kein Platz mehr.)" next
+    "@(Aber schau mal, in diesem glorreichen Moment hast du keinen Platz mehr.)" next
     eob
 
 l_0xc87eb2:

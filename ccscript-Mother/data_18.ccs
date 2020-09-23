@@ -49,12 +49,12 @@ l_0xc63eb0:
 	title(1, Escargo)
 	"@Hallo, hier ist die Schnecken Post!" next
     "@Ihre Zustellgeb[cb]hr betr[c0]gt $18." next
-    "@Das k[c9]nnen sie bezahlen, oder?" linebreak
+    "@Das k[c9]nnen Sie bezahlen, oder?" linebreak
     call(data_33.l_0xc7dd4d) "[11]{clearline}[09 02 {e(l_0xc63f74)} {e(l_0xc63f1f)}]" goto(l_0xc63f1f)
 
 l_0xc63f1f:
     "@Oh, verstehe." linebreak
-    "  Bitte beehren Sie uns wieder.{wait}{window_closeall}" call(data_33.l_0xc7dde8) call(data_19.l_0xc659c8) eob
+    "  Bitte beehren Sie uns bald wieder.{wait}{window_closeall}" call(data_33.l_0xc7dde8) call(data_19.l_0xc659c8) eob
 
 l_0xc63f42:
 	title(1, Escargo)
@@ -128,7 +128,7 @@ l_0xc641b0:
     "@Entschuldigung." linebreak
     "  Wir haben Ihre Unterlagen gepr[cb]ft und herausgefunden," next
     "@dass Sie bereits Ihre maximale Lagerkapazit[c0]t erreicht haben." next
-    "@Wir k[c9]nnen derzeit keine weitere G[cb]ter von Ihnen annehmen." next
+    "@Wir k[c9]nnen derzeit keine weiteren G[cb]ter von Ihnen annehmen." next
     "@Bitte kontaktieren Sie uns, wenn wir gen[cb]gend Platz f[cb]r Ihre Gegenst[c0]nde haben.{wait}{window_closeall}" call(data_33.l_0xc7dde8) call(data_19.l_0xc659c8) eob
 
 l_0xc64240:
@@ -154,7 +154,7 @@ l_0xc642a3:
 l_0xc642fc:
     "." next
     "[06 49 00 {e(l_0xc643de)}]@Die Geb[cb]hr betr[c0]gt $18." linebreak
-    "  Das k[c9]nnen sie bezahlen, oder?" next
+    "  Das k[c9]nnen Sie bezahlen, oder?" next
     call(data_33.l_0xc7dd4d) "[11]{clearline}[09 02 {e(l_0xc643ce)} {e(l_0xc64339)}]" goto(l_0xc64339)
 
 l_0xc64339:
@@ -288,7 +288,7 @@ l_0xc647ef:
 
 l_0xc6480c:
     newline
-    "@Ich glaube, du hast nichts zum lagern.[03]" goto(l_0xc6491e)
+    "@Ich glaube, du hast nichts zu lagern.[03]" goto(l_0xc6491e)
 
 l_0xc64823:
     newline
@@ -305,7 +305,7 @@ l_0xc64865:
     "[1B 02 {e(l_0xc64916)}]{swap}{store_registers}[18 02]" call(data_14.l_0xc5e54a) "[1B 02 {e(l_0xc648da)}][1B 05]{window_switch(13)}{window_closetop}{window_switch(1)}[1B 06]{sound(116)}[1D 13 00 00][19 19 00 00]"
 	"@Du m[c9]chtest {store_registers}{swap}{rtoarg}{call(data_ItemText.WennDefArtikel)}{load_registers}?" linebreak
     "  Pass gut darauf auf." next
-    "@Gibt es noch etwas, dass du wiederhaben willst?" linebreak
+    "@Gibt es noch etwas, das du wiederhaben willst?" linebreak
     "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc6483c)} {e(l_0xc6491e)}]" goto(l_0xc6491e)
 
 l_0xc648da:
@@ -331,10 +331,10 @@ l_0xc6491e:
 
 l_0xc64930:
     newline
-    "@I think [1C 02 00] is carrying too many things.[03]" eob
+    "@Ich glaube [1C 02 00] tr[c0]gt schon zu viel.[03]" eob
 
 l_0xc64946:
-    "@Rufen Sie wegen der Lieferung vom <Bleistift Radierer> an?" linebreak
+    "@Rufen Sie wegen der Lieferung des <Bleistift Radierers> an?" linebreak
     "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc64996)} {e(l_0xc64983)}]" goto(l_0xc64983)
 
 l_0xc64983:
@@ -346,7 +346,7 @@ l_0xc64996:
     call(l_0xc645f2) "{set(flag 694)}[1F D3 09]{set(flag 754)}" eob
 
 l_0xc649b7:
-    "@Rufen Sie wegen der Lieferung vom <[1C 05 AF]> an?" linebreak
+    "@Rufen Sie wegen der Lieferung des <Falkenauges> an?" linebreak
     "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc649fb)} {e(l_0xc649e8)}]" goto(l_0xc649e8)
 
 l_0xc649e8:
@@ -383,7 +383,7 @@ l_0xc64acf:
     "{set(flag 179)}" goto(l_0xc64ae6)
 
 l_0xc64ae6:
-    "{rtoarg}  Wir liefern sie innerhalb 3 Minuten." next
+    "{rtoarg}  Wir liefern sie innerhalb von 3 Minuten." next
     "{set(flag 180)}[1F D3 01]{set(flag 754)}" goto(l_0xc64b0b)
 
 l_0xc64b0b:
@@ -391,13 +391,13 @@ l_0xc64b0b:
 
 l_0xc64b18:
     next
-    "@Unser Lieferanten sind gerade unterwegs." next
+    "@Unsere Lieferanten sind gerade unterwegs." next
     "@Wir k[c9]nnen solange keine Pizzen liefern." next
     goto(l_0xc64a92)
 
 l_0xc64b59:
     next
-    "@Unsere Lieferanten wurde es zu bl[c9]d, deshalb haben sie alle gek[cb]ndigt." next
+    "@Unseren Lieferanten wurde es zu bl[c9]d, deshalb haben sie alle gek[cb]ndigt." next
     "@Also haben wir uns dazu entschlossen, den Laden zu schlie[b8]en." next
     "@Vielen Dank, dass Sie unser Angebot f[cb]r Ihre Pizza Bed[cb]rfnisse verwendet haben." next
     "{sound(11)}  (Klick!)" end

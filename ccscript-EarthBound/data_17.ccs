@@ -36,17 +36,17 @@ l_0xc628a1:
     "@Kyakya Kyokyo" linebreak
     "  (Ok,{pause(15)} ich f[cb]hre es einmal vor.)" next
     "@Kyakyakya Kyakkya" linebreak
-    "  (Wenn du es schaffst dies zu erlernen,{pause(15)} dann kannst du" next
+    "  (Wenn du es schaffst, dies zu erlernen,{pause(15)} dann kannst du" next
 	"@[cb]berall hin, wo du bereits warst.)" next
     "@Kyakkyaki kiki" linebreak
     "  (Du kannst augenblicklich dorthin gelangen.)" next
     "@Kyakki Kyaki" linebreak
-    "  (Diese Technick kann aber nicht in Geb[c0]uden, oder" next
+    "  (Diese Technik kann aber nicht in Geb[c0]uden oder" next
 	"@im Untergrund verwendet werden.)[03]{window_closeall}[1F F1 05 03 9E 02][1F 61][1F E6 05 03]{music(13)}[1F E9 05 03][1F 61][1F E6 05 03]{music_resume}[1F E9 05 03][1F 61][1F F1 05 03 08 00][19 23 05 03 01 FF 00][1F 16 05 03 00]{pause(30)}{window_open(1)}"
 	"@Ukkie" linebreak
     "  (Ich bin nach Fourside und wieder zur[cb]ck gereist.)" next
     "@Kyaakyakkya" next
-    "@(Ich habe es dir mit einer einfachen geraden Strecke gezeigt, aber" next
+    "@(Ich habe es dir mit einer einfachen, geraden Strecke gezeigt, aber" next
     "@wenn du genug Platz hast, kannst du auch genug Geschwindigkeit aufbauen," next
 	"@wenn du die Richtung wechselst.)" next
     "@Ukkikie" linebreak
@@ -54,16 +54,16 @@ l_0xc628a1:
 
 l_0xc62a30:
     "{window_open(1)}@Kyakyakyakya" next
-    "@(Versuch es doch nochmal, und diesmal vertraust du deinem Affen Lehrer.)" next
+    "@(Versuch es doch nochmal, und diesmal vertraust du deinem Affen-Lehrer.)" next
     "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc628a1)} {e(l_0xc62a75)}]" goto(l_0xc62a75)
 
 l_0xc62a75:
     "@Kyakyakya" linebreak
-    "  (Du magst deinen Affen Lehrer nicht?...){wait}{window_closeall}" eob
+    "  (Du magst deinen Affen-Lehrer nicht?...){wait}{window_closeall}" eob
 
 l_0xc62a9b:
     "@Uki? Kyakikie" linebreak
-    "  (Was ist mit dem Jungen mit der Roten Kappe passiert?" next
+    "  (Was ist mit dem Jungen mit der roten Kappe passiert?" next
     "@Ich wollte ihm etwas beibringen.)" next
     "@Kyakyo" linebreak
     "  (Aber er ist nicht hier...)" end
@@ -88,7 +88,7 @@ l_0xc62b87:
     "  (und er wei[b8] alles," linebreak
 	"  das stimmt wirklich...)" next
     "@Kikku Kuekki" linebreak
-    "  (Er hat uns diese unterirdische R[c0]ume gebaut...)" end
+    "  (Er hat uns diese unterirdischen R[c0]ume gebaut...)" end
 
 l_0xc62c50:
     "@Kyakkyekyaekya Kyikkya" linebreak
@@ -103,7 +103,7 @@ l_0xc62cf5:
     "@....." end
 
 l_0xc62cf9:
-    "@(Wilde W[cb]ste Zentrale f[cb]r vergrabenes Gold finden.)" end
+    "@(Die Wilde W[cb]sten Zentrale f[cb]r vergrabenes Gold.)" end
 
 l_0xc62d23:
     "@(Fourside immer weiter [c9]stlich.)" end
@@ -121,7 +121,7 @@ l_0xc62d91:
 
 l_0xc62d93:
     "[1D 17 7F 96 98 00][1B 02 {e(l_0xc62e3b)}]" call(l_0xc62fd6) "[1B 02 {e(l_0xc62d8a)}]{rtoarg}[1D 14 00 00 00 00][1B 03 {e(l_0xc62df3)}][1D 09 00 00][1D 06 00 00 00 00]{open_wallet}{sound(118)}{pause(10)}"
-	"@Auf Ihrem Konto werden" linebreak
+	"@Auf ihr Konto werden" linebreak
     "  $[1C 0A 00 00 00 00] gutgeschrieben." next
     "@Vielen Dank." goto(l_0xc62d91)
 
@@ -136,7 +136,7 @@ l_0xc62e1b:
 
 l_0xc62e3b:
     "@Diese Maschine kann keine Einzahlung," linebreak
-    "  die gr[c9][b8]er als $9,999,999 ist bearbeiten." next
+    "  die gr[c9][b8]er als $9,999,999 ist, bearbeiten." next
     goto(l_0xc62d8a)
 
 l_0xc62e6d:
@@ -153,7 +153,7 @@ l_0xc62eef:
     goto(l_0xc62e6d)
 
 l_0xc62f1a:
-    "{load_registers}[1D 06 00 00 00 00]@Dir ist es nicht erlaubt," linebreak
+    "{load_registers}[1D 06 00 00 00 00]@Es ist dir nicht erlaubt," linebreak
     "  mehr als $99.999 zu tragen." next
     goto(l_0xc62e6d)
 
@@ -162,7 +162,7 @@ l_0xc62f49:
     goto(l_0xc62d8a)
 
 l_0xc62f72:
-    "@Dir ist es nicht erlaubt," linebreak
+    "@Es ist dir nicht erlaubt," linebreak
     "  mehr als $99.999 zu tragen." next
     goto(l_0xc62d8a)
 
@@ -305,7 +305,7 @@ l_0xc63407:
 
 l_0xc63415:
     "[1B 06][19 26 00]{save}@Alles fertig." next
-    "@Dein lieber, alter Vater hat auch schon [cb]berlegt sich f[cb]r heute auf Ohr zu hauen." next
+    "@Dein lieber, alter Vater hat auch schon [cb]berlegt, sich f[cb]r heute auf's Ohr zu hauen." next
     "@Ich habe dein Abenteuer bis hierher aufgeschrieben." next
     "@Gute Nacht, schlaf gut." linebreak
     "[19 10 01]{result_is(1)}[1B 02 {e(l_0xc63494)}]{isset(flag 372)}[1F C0 01 {e(l_0xc63593)}]" goto(l_0xc63494)
@@ -314,8 +314,8 @@ l_0xc63494:
     "[19 02]Fortfahren[02][19 02]Beenden[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc634b4)} {e(l_0xc63506)}]" goto(l_0xc634b4)
 
 l_0xc634b4:
-    "@[1C 01 08], du magst es flei[b8]ig zu arbeiten, genau wie deine Mutter." next
-    "@Aber ich glaube es ist nicht, dass es gesund ist zu [cb]bertreiben." next
+    "@[1C 01 08], du magst es, flei[b8]ig zu arbeiten. Genau wie deine Mutter." next
+    "@Aber ich glaube, es ist nicht gesund, zu [cb]bertreiben." next
     goto(l_0xc634ea)
 
 l_0xc634ea:
@@ -336,7 +336,7 @@ l_0xc6354b:
     eob
 
 l_0xc63593:
-    "@Ich hoffe dir geht es bald wieder besser." linebreak
+    "@Ich hoffe, dir geht es bald wieder besser." linebreak
     "[1D 0D 01 06 02][1B 03 {e(l_0xc635b4)}]" eob
 
 l_0xc635b4:
@@ -347,12 +347,12 @@ l_0xc635bd:
     "@Hi, hier spricht dein Papa!" linebreak
     "  Die ben[c9]tigten Erfahrungspunkte bis..." next
     "@Ha hah ha hah!" linebreak
-    "  Ich vermute mal, ich brauch dir das nicht mehr erz[c0]hlen!" next
+    "  Ich vermute mal, ich brauch' dir das nicht mehr erz[c0]hlen!" next
     "@... N[c0]chste Woche ist schon dein Geburtstag, [1C 01 08]." next
     "@Ich gebe mein Bestes, damit ich f[cb]r diesen gro[b8]en Tag zu Hause bin!" next
     "@Ich werde dir auf jeden Fall ein tolles Geschenk besorgen!" next
     "@Ich habe deine Abenteuer aufmerksam verfolgt," next
-    "@aber ich m[c9]chte, dass du mir sie pers[c9]nlich erz[c0]hlst." next
+    "@aber ich m[c9]chte, dass du sie mir pers[c9]nlich erz[c0]hlst." next
     "@Du h[c9]rst dich [cb]ber das Telefon viel... erwachsener an." next
     "@...Naja, wir werden uns dann zu Hause treffen." next
     "@Bye!" linebreak
@@ -467,14 +467,14 @@ l_0xc639ca:
     "@Hmm? Du bist [1C 01 08]?" linebreak
     "  Tracys gro[b8]er Bruder?" next
     "@Ich habe von Ihren gro[b8]en Taten geh[c9]rt." next
-    "@Es ist eine Ehre mit Ihnen zu sprechen, Sir!" next
+    "@Es ist eine Ehre, mit Ihnen zu sprechen, Sir!" next
     "@Oh, Sie rufen wegen einer Lieferung an?" linebreak
     "  Es tut mir leid." next
     "@Meine Frau ist auf Mutterschaftsurlaub, ich passe auf mein anderes Kind auf." next
-    "@Ich habe mich entschieden eine Pause vom Lieferdienst zu machen." next
+    "@Ich habe mich entschieden, eine Pause vom Lieferdienst zu machen." next
     "@...Es ist neben dem K[cb]hlschrank! Stell es in die Mikrowelle...  ...Ja, das ist es." next
     "@...Entschuldigung." next
-    "@Wie Sie schon h[c9]ren bin ich etwas besch[c0]ftigt." next
+    "@Wie Sie schon h[c9]ren, bin ich etwas besch[c0]ftigt." next
     "@Ich w[cb]rde wirklich gerne einige Ihrer Geschichten h[c9]ren." next
     "@Argh! Das war das Hundefutter!" next
     "@*Krach!* Hey, hey! Guck mal, was du angerichtet hast!" next
@@ -550,7 +550,7 @@ l_0xc63ca8:
 	eob
 
 l_0xc63cea:
-    "@Du willst, dass wir etwas f[cb]r dich liefern? Wir k[c9]nnen bis zu drei Sachen liefern." next
+    "@Sie m[c9]chten, dass wir etwas f[cb]r Sie liefern? Wir k[c9]nnen bis zu drei Sachen liefern." next
     "@Bitte w[c0]hlen Sie die G[cb]ter, die Sie brauchen.[03]" eob
 
 l_0xc63d25:
