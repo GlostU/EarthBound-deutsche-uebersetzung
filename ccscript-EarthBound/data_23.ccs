@@ -13,7 +13,7 @@ l_0xc6a77b:
     "@50 Dollar pro Nacht f[cb]r ein Einzelzimmer." end
 
 l_0xc6a7a5:
-    "@<Threed Sonnenuntergang  Hotel>" next
+    "@<Threed Sonnenuntergang Hotel>" next
     "@60 Dollar pro Nacht f[cb]r ein Einzelzimmer." end
 
 l_0xc6a7d2:
@@ -53,7 +53,7 @@ l_0xc6a937:
     "@Oma wird es wieder besser gehen, hmm." end
 
 l_0xc6a950:
-    "@Ich genie[b8]e es einfach mit meinen Enkelkindern zusammen zu sein." next
+    "@Ich genie[b8]e es einfach, mit meinen Enkelkindern zusammen zu sein." next
     "@Mir wird es bald besser gehen." next
     "@Hast du Enkelkinder?" linebreak
     "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc6a9c8)} {e(l_0xc6a9a9)}]" goto(l_0xc6a9a9)
@@ -109,7 +109,7 @@ l_0xc6abd5:
 
 l_0xc6acda:
     newline
-    "@Scheint so, als ob du versuchst zu viel zu tragen." next
+    "@Scheint so, als ob du versuchst, zu viel zu tragen." next
 	"@Du kannst den Schl[cb]ssel so nicht tragen." next
     "@Hah, ha, ha." linebreak
 	"  Was f[cb]r ein gieriger Kerl!" linebreak
@@ -145,7 +145,7 @@ l_0xc6ae77:
 
 l_0xc6aee1:
     "@Oh, oh,{pause(15)} du kannst nichts mehr tragen." next
-    "@Warum kommst du nicht zur[cb]ck, nachdem du etwas losgeworden bist." end
+    "@Warum kommst du nicht zur[cb]ck, nachdem du etwas losgeworden bist?" end
 
 l_0xc6af0b:
     "@Verzeihung, das Kaugummi ist ausverkauft." end
@@ -197,25 +197,25 @@ l_0xc6b0f9:
     eob
 
 l_0xc6b0fa:
-    "[06 34 00 {e(l_0xc6b161)}][06 81 00 {e(l_0xc6b144)}]@Glaubst du ich werde in der Zeitung sein, wenn ich Tessie finde?" next
+    "[06 34 00 {e(l_0xc6b161)}][06 81 00 {e(l_0xc6b144)}]@Glaubst du, ich werde in der Zeitung sein, wenn ich Tessie finde?" next
     "@Ich suche meine 15 Minuten Ruhm..." end
 
 l_0xc6b144:
     "@Glaubst du, mein Name wird es in die Zeitung schaffen?" end
 
 l_0xc6b161:
-    "@Glaubst du Sebastians Entf[cb]hrung wird morgen in der Zeitung sein?" end
+    "@Glaubst du, Sebastians Entf[cb]hrung wird morgen in der Zeitung sein?" end
 
 l_0xc6b18d:
     title(1, Andonuts)
-    "[06 0E 00 {e(l_0xc6b4bb)}][06 7F 00 {e(l_0xc6b492)}]@Mr. Steinweg, der Dungeonhersteller hat dich weitergeleitet, richtig?" next
+    "[06 0E 00 {e(l_0xc6b4bb)}][06 7F 00 {e(l_0xc6b492)}]@Mr. Steinweg, der Dungeonhersteller, hat dich weitergeleitet, richtig?" next
     "@Und nicht nur das...  Was?{pause(15)}  Wer?{pause(15)}  Mein Sohn?{pause(20)}  " next
 	"@Oh... ich... kann nicht... ich kann es nicht glauben..." next
     "@Du bist [1C 02 03], mein Sohn.{pause(15)} " next
 	"@Es ist vielleicht 10 Jahre her, seit ich dich das letzte Mal gesehen habe." next
     "@Ich bin so froh, dass du so ein gesunder Junge bist." next
     "@[b0]h, die Brille steht dir." next
-    "@M[c9]chtest du ein Donut?" linebreak
+    "@M[c9]chtest du einen Donut?" linebreak
     "[19 02]Ja[02] [19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc6b2a3)} {e(l_0xc6b28c)}]" goto(l_0xc6b28c)
 
 l_0xc6b28c:
@@ -244,15 +244,15 @@ l_0xc6b329:
     "@Oh, ich verstehe." next
     "@Das M[c0]dchen namens [1C 02 02] muss gesp[cb]rt haben, dass ich hier bin." next
     "@Ok, ich werde versuchen, dir zu helfen." next
-    "@Ich versuche einen Weltraumtunnel zu erschaffen." next
+    "@Ich versuche, einen Weltraumtunnel zu erschaffen." next
 	"@Er soll zwei Punkte in Raum und Zeit verbinden k[c9]nnen." next
     "@Er ist aber noch nicht fertig." next
-    "@Ich lasse dich eine andere Erfindung benutzen, ich nenne sie <Sky Walker>" next
+    "@Ich lasse dich eine andere Erfindung benutzen. Ich nenne sie:{pause(15)} <Sky Walker>" next
     "@Sie ist ein bisschen alt, aber sie wird sicherlich n[cb]tzlich sein" next
     "@Wenn du an Bord gehst, achte immer auf die Signale, die vom Ziel kommen." next
     "@Du wirst ganz sicher dort ankommen, wenn du die Signale beachtest." next
     "@Die runde Maschine dort dr[cb]ben ist der Sky Walker" next
-    "@Wie findest du es?  Ist es nicht toll?{pause(20)}  Einsteigen!" next
+    "@Wie findest du sie? Ist sie nicht toll?{pause(20)} Einsteigen!" next
     goto(l_0xc6b492)
 
 l_0xc6b492:
@@ -284,7 +284,7 @@ l_0xc6b56e:
     "@Nein, ich habe das noch nie probiert, oder, ich meine,{pause(15)} ich habe ihn noch nie getroffen..." end goto(l_0xc6b5b4)
 
 l_0xc6b5b4:
-    "@Ein Junge namens Apfel Kind hat angefufen." next
+    "@Ein Junge namens Apfel Kind hat angerufen." next
     "@Ich wei[b8] nicht, wie er meine Telefonnummer bekommen hat...{pause(15)}  Er klingt ziemlich schlau." next
     "@Keine Sorge, er ist auf dem Weg hierher." end
 
@@ -292,7 +292,7 @@ l_0xc6b60b:
     "[06 B8 00 {e(l_0xc6b75b)}]@Der Blasen Affe sagte, n[c9]rdlich von Stonehenge sei eine H[c9]hle." next
     "@Ich wusste schon lange davon." next
     "@Die Einwohner nennen das Gebiet <Regen Kreis>,{pause(15)} aber ich war noch nie dort." next
-    "@Ich frage mich, was in der H[c9]hle drinne ist... ich{pause(15)} [c0]h, hmm...{pause(20)}" linebreak
+    "@Ich frage mich, was in der H[c9]hle drinnen ist... ich{pause(15)} [c0]h, hmm...{pause(20)}" linebreak
     "  Ich verstehe..." next
     "@W[c0]hrend du diesen Ort besuchst, werde ich den Sky Walker umbauen.[06 06 00 {e(l_0xc6b759)}]" next
     "@Oh ja, ja,{pause(15)} der Big Foot dort kann Gewalt nicht leiden." next
@@ -307,7 +307,7 @@ l_0xc6b75b:
     "@Hmm..." next
     "@...Es sieht aus, als h[c0]ttest du etwas herausgefunden." next
     "@Ich habe den Umbau des Sky Walkers fertiggestellt." next
-    "@Du kannst wann immer du willst nach Summers aufbrechen" next
+    "@Du kannst, wann immer du willst, nach Summers aufbrechen." next
     "@Diesmal sollte er nicht zerbrechen...{pause(20)}  nun ja, vielleicht...{wait}[1F F1 6F 02 8A 00]" eob
 
 l_0xc6b7d0:
@@ -331,7 +331,7 @@ l_0xc6b871:
 
 l_0xc6b8eb:
     "[06 7E 00 {e(l_0xc6ba02)}][06 58 01 {e(l_0xc6b952)}][06 13 01 {e(l_0xc6b99f)}]@Du hast recht." next
-    "@Wir sind hier am <Tess See>{pause(15)} und warten um <Tessie> zu sehen." next
+    "@Wir sind hier am <Tess See>{pause(15)} und warten, um <Tessie> zu sehen." next
     "@Wir sind bekannt als der <Tessie-Beobachtungs Klub>..." end
 
 l_0xc6b952:
@@ -361,14 +361,14 @@ l_0xc6bac0:
 
 l_0xc6bad6:
 //https://legendsoflocalization.com/earthbound/winters-3/#poetry-on-the-shore
-    "@Wo bist du mein Freund?" next
+    "@Wo bist du, mein Freund?" next
     "@Sie kamen und nahmen dich." next
     "@Komm, Sebastian." next
     "@Hey, das ist ein Haiku!" end
 
 l_0xc6bb1d:
     "@Ich wartete lang" next
-    "@Ich bin froh dich zu sehen." next
+    "@Ich bin froh, dich zu sehen." next
     "@Sebi ist zur[cb]ck." next
     "@...Ich liebe es, Haiku zu schreiben." end
 
@@ -456,7 +456,7 @@ kid5:
 l_0xc6be74:
     "[06 C0 00 {e(data_32.l_0xc7c588)}][19 10 01]{result_is(1)}[1B 02 {e(data_22.l_0xc690a6)}]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(data_22.l_0xc690a6)}]{music(155)}"
 	"@Du bist endlich angekommen" next
-    "@Das ist das vierte deiner <Heiligt[cb]mer>.{pause(20)} Aber jetzt geh[c9]rt es mir." next
+    "@Das ist das Vierte deiner <Heiligt[cb]mer>.{pause(20)} Aber jetzt geh[c9]rt es mir." next
     "@Nimm es von mir,{pause(30)} wenn du dich traust...[03]" call(data_21.l_0xc68417) "[1B 03 {e(data_21.l_0xc683de)}][1F 1E A4 02 08]{pause(120)}{set(flag 192)}" eob goto(l_0xc6bef9)
 
 l_0xc6bef9:
@@ -472,7 +472,7 @@ l_0xc6bf0c:
     "@Was?" next
     "@Du suchst das Buch <Sch[cb]chternheit [cb]berwinden>?" next
     "@Ich habe es der Onett B[cb]cherei wiedergegeben." next
-    "@Bitte benutzt das Buch, um dem sch[cb]chternen Gummi Stamm zu helfen." next
+    "@Bitte benutze das Buch, um dem sch[cb]chternen Gummi Stamm zu helfen." next
     "@...Wie auch immer,{pause(15)} weil ich dich kenne, hatte ich eine unglaubliche Erfahrung... wow!" next
     "@Ich wurde von ein paar Handlangern von Giygas entf[cb]hrt!{wait}{unset(flag 766)}" eob
 
@@ -530,7 +530,7 @@ l_0xc6c1c3:
     "@Ich bin so froh, dass du mich letzen Endes doch gerettet hast." end
 
 l_0xc6c236:
-    "@Ich w[cb]rde entf[cb]hrt, als ich eine Kuh auf meiner Farm gemelkt habe." next
+    "@Ich wurde entf[cb]hrt, als ich eine Kuh auf meiner Farm gemelkt habe." next
     "@Ich h[c0]tte nicht gedacht, dass die L[c9]segeld f[cb]r jemanden wie mich bekommen." end
 
 l_0xc6c287:
@@ -568,4 +568,4 @@ l_0xc6c40b:
 l_0xc6c42c:
     "@Ich habe geh[c9]rt, dass eine Kreatur namens Tessie im s[cb]dlichen See lebt..." next
     "@Ich glaube das nicht!{pause(20)} " next
-	"@Ich denke jemand hat ein Modell erstellt und es im See platziert." end
+	"@Ich denke, jemand hat ein Modell erstellt und es im See platziert." end

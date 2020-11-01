@@ -56,12 +56,12 @@ l_0xc66175:
     "@Es...{pause(10)}" linebreak
     "  scheint..." next
     "@ein recht m[c0]chtiger Ort zu sein." next
-    "@Eine Art von besondere Kraft wird dort aufbewahrt." next
-    "@Diese erlaubt es bestimmten Menschen erstaunliche Leistungen zu vollbringen." next
+    "@Eine Art besondere Kraft wird dort aufbewahrt." next
+    "@Diese erlaubt es bestimmten Menschen, erstaunliche Leistungen zu vollbringen." next
     "@Allerdings... hat ein Monster die ganze Energie aufgesaugt." next
-    "@Es ist schwierig zum Riesen Tritt zu kommen.{pause(20)}" linebreak
-	"  Das ist alles was ich wei[b8]..." next
-    "@Ich rate dir noch mehr Informationen zu sammeln." next
+    "@Es ist schwierig, zum Riesen Tritt zu kommen.{pause(20)}" linebreak
+	"  Das ist alles, was ich wei[b8]..." next
+    "@Ich rate dir, noch mehr Informationen zu sammeln." next
     "@Der Eingang zum Weg zum Riesen Tritt ist hinter der H[cb]tte der Animateure." next
     "@Pirkle,{pause(15)} der B[cb]rgermeister von Onett,{pause(15)} hat einen Schl[cb]ssel zur H[cb]tte." next
     "@[1C 02 01],{pause(15)} du bist st[c0]rker als ich!{pause(20)} Aber dein Abenteuer f[c0]ngt erst an...{wait}{set(flag 64)}{set(flag 697)}{set(flag 363)}{set(flag 364)}{unset(flag 365)}{set(flag 2)}" eob
@@ -87,13 +87,13 @@ l_0xc663fe:
     "@Was?{pause(20)}  Du bist ein Freund von [1C 02 01]?" next
     "@[1C 02 01] ist mein Freund." linebreak
     "@Wie auch immer." next
-	"@Ich kann mich nicht erinnern ein Freund von einem Freund von [1C 02 01] zu sein." next
-    "@H[c9]r auf [cb]ber <Freundeskreise> zu scherzen und geh nach Hause!" end
+	"@Ich kann mich nicht erinnern, ein Freund von einem Freund von [1C 02 01] zu sein." next
+    "@H[c9]r auf, [cb]ber <Freundeskreise> zu scherzen und geh nach Hause!" end
 
 l_0xc66469:
 	title(1, Frank)
     "@Du schon wieder..." next
-    "@Glaubst du wirklich du k[c9]nntest Frankys <Frankystein Nr. II> besiegen?" next
+    "@Glaubst du wirklich, du k[c9]nntest Frankys <Frankystein Nr. II> besiegen?" next
     "[19 02]Ja[02] [19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc66523)} {e(l_0xc664ba)}]" goto(l_0xc664ba)
 
 l_0xc664ba:
@@ -115,7 +115,7 @@ l_0xc6653b:
 	"@Hallo, wie kann ich Ihnen helfen?{pause(30)} ...[b0]hm...{pause(20)} Bist du nicht [1C 02 01]?" next
     "@Nach unserem Kampf wurde ich ehrlich{pause(15)} und habe schwer gearbeitet." next
     "@Ich habe sogar etwas trainiert f[cb]r...{pause(15)} f[cb]r..." next
-    "@Nun ja,{pause(15)} ein bisschen Profi-Wrestling.{pause(20)}  Es ist der Ring f[cb]r mich,{pause(15)} baby..." next
+    "@Nun ja,{pause(15)} ein bisschen Profi-Wrestling.{pause(20)} Es ist der Ring f[cb]r mich,{pause(15)} baby..." next
     goto(l_0xc665e7)
 
 l_0xc665e7:
@@ -129,7 +129,7 @@ l_0xc665e7:
 l_0xc66670:
     "[06 BE 00 {e(data_32.l_0xc7c588)}]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(data_22.l_0xc690a6)}]{music(155)}"
 	"@Du bist endlich angekommen." next
-    "@Dies ist das erste deiner <Heiligt[cb]mer>.{pause(20)} Aber jetzt geh[c9]rt es mir." next
+    "@Dies ist das Erste deiner <Heiligt[cb]mer>.{pause(20)} Aber jetzt geh[c9]rt es mir." next
     "@Nimm es von mir,{pause(30)} wenn du dich traust...[03]" call(data_21.l_0xc68409) "[1B 03 {e(data_21.l_0xc683de)}][1F 1E D1 00 08]{pause(120)}{set(flag 190)}" eob
 
 l_0xc666ea:
@@ -137,7 +137,7 @@ l_0xc666ea:
 	title(1, Lier)
 	"@...Also [1C 02 01] Kumpel,{pause(15)} Ich habe ein Teil eines gigantischen Schatzes gefunden..." next
 	"@Es ist eine riesige Beute..." next
-    "@jah,{pause(15)} hah,{pause(10)} hah...{pause(20)}" linebreak
+    "@Jah,{pause(15)} hah,{pause(10)} hah...{pause(20)}" linebreak
     "  Ich zeige sie dir,{pause(15)} aber nur dir.{pause(20)} Komm schon.[03]{window_closeall}" call(data_15.l_0xc5f642) "{unset(flag 307)}{set(flag 308)}" eob
 
 l_0xc66762:
@@ -145,7 +145,7 @@ l_0xc66762:
 	title(1, Lier)
 	"@Wenn das ein Zeichen daf[cb]r ist, was hier unten liegt,{pause(15)} dann brau-" linebreak
 	"  che ich nur ein bisschen Zeit." next
-    "@Es ist mein Schicksal die vergrabenen Sch[c0]tze zu finden und zu bergen." next
+    "@Es ist mein Schicksal, die vergrabenen Sch[c0]tze zu finden und zu bergen." next
     "@Ich werde Knoblauch essen und trainieren, um mich zu st[c0]rken." next
     "@Geh jetzt nach Hause.{pause(20)} Du st[c9]rst mich bei der Arbeit." next
     "@Du k[c9]nntest gierige Gedanken bekommen..." end
@@ -154,26 +154,26 @@ l_0xc6681d:
     "{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc66a06)}][06 02 00 {e(l_0xc668e4)}][06 65 00 {e(l_0xc66980)}]"
 	title(1, Lier)
 	"@Hey [1C 02 01],{pause(15)} Kumpel." next
-    "@Da war ein Mann, der darauf bestand die goldene Statue zu kaufen.{pause(15)} Also habe ich sie verkauft." next
+    "@Da war ein Mann, der darauf bestand, die goldene Statue zu kaufen.{pause(15)} Also habe ich sie verkauft." next
     "@Es ist nicht so, als w[cb]rde ich das Geld brauchen..." next
-    "@Seine ungez[cb]gelte Manie mich einfach in den Bann gerissen." next
-    "@Wie du wei[b8]t habe ich{pause(15)} eine Schw[c0]che wenn es um Gef[cb]hle geht." next
-    "@Tsch[cb]ss, f[cb]rs erste.{wait}{set(flag 101)}{set(flag 2)}" eob
+    "@Seine ungez[cb]gelte Manie hat mich einfach in den Bann gerissen." next
+    "@Wie du wei[b8]t, habe ich{pause(15)} eine Schw[c0]che, wenn es um Gef[cb]hle geht." next
+    "@Tsch[cb]ss, f[cb]rs Erste.{wait}{set(flag 101)}{set(flag 2)}" eob
 
 l_0xc668e4:
 	title(1, Lier)
     "@Hey [1C 02 01],{pause(15)} Kumpel." next
-    "@Da war ein Mann, der darauf bestand die goldene Statue zu kaufen.{pause(15)} Also habe ich sie verkauft." next
+    "@Da war ein Mann, der darauf bestand, die goldene Statue zu kaufen.{pause(15)} Also habe ich sie verkauft." next
     "@Es ist nicht so, als w[cb]rde ich das Geld brauchen..." next
     "@Seine ungez[cb]gelte Manie mich einfach in den Bann gerissen." next
-    "@Wie du wei[b8]t habe ich{pause(15)} eine Schw[c0]che wenn es um Gef[cb]hle geht." next
-    "@Tsch[cb]ss, f[cb]rs erste." end
+    "@Wie du wei[b8]t, habe ich{pause(15)} eine Schw[c0]che, wenn es um Gef[cb]hle geht." next
+    "@Tsch[cb]ss, f[cb]rs Erste." end
 
 l_0xc66980:
 	title(1, Lier)
     "@Ich konnte den Schatz noch nicht in die Finger bekommen..." next
     "@Aber wenn ich meine Arbeit mache,{pause(15)} dann mache ich sie richtig.{pause(20)} " next 
-	"@Ich bin ein{pause(10)} Mann{pause(5)} ein wahrer Mann." next
+	"@Ich bin ein{pause(10)} Mann.{pause(5)} Nein, ein wahrer Mann." next
     "@Wenn das Spiel zu Ende ist,{pause(15)} k[c9]nnte ich sogar ein Held sein." next
     "@Du ignorierst micht jetzt vielleicht noch,{pause(15)} aber du wirst noch sehen..." end
 
@@ -181,7 +181,7 @@ l_0xc66a06:
 	title(1, Lier)
     "@Los, lach mich nur aus." next
     "@Aber wenn ich meine Arbeit mache,{pause(15)} dann mache ich sie richtig.{pause(20)} " next 
-	"@Ich bin ein{pause(10)} Mann{pause(5)} ein wahrer Mann." next
+	"@Ich bin ein{pause(10)} Mann.{pause(5)} Nein, ein wahrer Mann." next
     "@Wenn das Spiel zu Ende ist,{pause(15)} k[c9]nnte ich sogar ein Held sein." next
     "@Du ignorierst micht jetzt vielleicht noch,{pause(15)} aber du wirst noch sehen..." next
     eob
@@ -204,7 +204,7 @@ l_0xc66b33:
 	title(1, Tracy)
     "@Ich kann nur helfen, indem ich deine Gegenst[c0]nde aufbewahre..." next
     "@Ich unterst[cb]tze dich mit ganzem Herzen.{pause(20)}  Lass dich nicht runterziehen." next
-    "@...Ich werde stark sein w[c0]hrend du fort bist." next
+    "@...Ich werde stark sein, w[c0]hrend du fort bist." next
     goto(data_18.l_0xc64672)
 
 l_0xc66b97:
@@ -225,7 +225,7 @@ l_0xc66b97:
 				"{diam}3. Wird der Modulo 6 auf eine beliebige Ziffer angewendet, so ist[cf]das[cf]Ergebnis[cf]die[cf]Ziffer[cf]selbst." next
 				"{diam}4. Die gesamte Zahl [cb]bersteigt nicht den gr[c9][b8]tm[c9]glichen Integer eines 8 Bit Systems." next
 				"{diam}5. Die Geheimzahl ist 255.)" next
-				"@Das ist aber eine komische Art und Weise jemanden die Ge-" linebreak
+				"@Das ist aber eine komische Art und Weise, jemanden die Ge-" linebreak
 				"  heimnummer zu verraten." end
 			}
 		}
@@ -237,14 +237,14 @@ l_0xc66b97:
 
 l_0xc66bc0:
 	title(1, Tracy)
-    "@Hey Bruder... du bist wegen des [1C 05 B8]s hier,{pause(15)} nicht wahr?" linebreak
+    "@Hey Bruder... Du bist wegen dem [1C 05 B8] hier,{pause(15)} nicht wahr?" linebreak
     "[19 02]Ja[02] [19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc66c15)} {e(l_0xc66bf6)}]" goto(l_0xc66bf6)
 
 l_0xc66bf6:
-    "@Oh,{pause(15)} bist du nicht?{pause(20)}  ...Ich war bereit es dir zu geben..." end
+    "@Oh,{pause(15)} bist du nicht?{pause(20)} ...Ich war bereit, ihn dir zu geben..." end
 
 l_0xc66c15:
-    "[1D 03 FF][1B 02 {e(l_0xc66d2b)}]@Hier ist der [1C 05 B8].{pause(20)}  Wof[cb]r wirst du es benutzen?" next
+    "[1D 03 FF][1B 02 {e(l_0xc66d2b)}]@Hier ist der [1C 05 B8].{pause(20)}  Wof[cb]r wirst du ihn benutzen?" next
     "@Entschuldigung...{pause(15)} Ich sollte mit Kunden wirklich nicht [cb]ber Privatangelegenheiten sprechen.[03][1D 0E 00 B8]{sound(116)}{pause(60)}{unset(flag 692)}" eob
 
 l_0xc66c7d:
@@ -263,9 +263,9 @@ l_0xc66d3e:
 	title(1, Mom)
     "[06 EE 02 {e(l_0xc66e13)}][06 D7 01 {e(l_0xc66df2)}]@Was war das f[cb]r ein Ger[c0]usch?" next
     "@[1C 02 01],{pause(15)} du scheinst keine Angst zu haben.{pause(20)}  Bist du verr[cb]ckt?" next
-    "@Und du willst jetzt gehen um es zu [cb]berpr[cb]fen?{pause(15)}  ...oh{pause(15)} ...okay." next
+    "@Und du willst jetzt gehen, um es zu [cb]berpr[cb]fen?{pause(15)}  ...oh{pause(15)} ...okay." next
     "@Du w[cb]rdest dich sowieso wegschleichen,{pause(15)} selbst wenn ich es dir verbiete." next
-    "@Ziehe dich wenigstens um, bevor du gehst.[03]{window_closeall}{pause(1)}{set(flag 471)}{unset(flag 749)}[1F 21 C4]" eob
+    "@Zieh dich wenigstens um, bevor du gehst.[03]{window_closeall}{pause(1)}{set(flag 471)}{unset(flag 749)}[1F 21 C4]" eob
 
 l_0xc66df2:
     "@Sei vorsichtig!{pause(20)}  Bleib nicht zu lange drau[b8]en." end
@@ -277,18 +277,18 @@ l_0xc66e13:
 l_0xc66e40:
 	title(1, Mom)
     "@Willkommen daheim,{pause(15)} [1C 02 01]." next
-    "@Es ist nicht n[c9]tig heute Abend dar[cb]ber zu reden." next
+    "@Es ist nicht n[c9]tig, heute Abend dar[cb]ber zu reden." next
     "@Es ist sp[c0]t,{pause(20)} d[cb]se jetzt aber schnell ins Bett." linebreak
     "[19 02]Ja[02] [19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc66eca)} {e(l_0xc66e9f)}]" goto(l_0xc66e9f)
 
 l_0xc66e9f:
-    "@Oh,{pause(15)} [1C 02 01].{pause(20)}  Du verstehst nicht wie wichtig ein erholsamer Schlaf ist!" end
+    "@Oh,{pause(15)} [1C 02 01].{pause(20)} Du verstehst nicht, wie wichtig ein erholsamer Schlaf ist!" end
 
 l_0xc66eca:
     "{window_closeall}[1F 07 03]{set(flag 295)}{set(flag 469)}{set(flag 530)}{unset(flag 474)}{set(flag 473)}{set(flag 468)}{set(flag 749)}{unset(flag 11)}{unset(flag 517)}[1F 15 6A 00 79 02 01][1F 61]{pause(120)}[1F EB FF 06][1F 15 6A 00 FD 02 01][1F 61][1F 21 51]{pause(180)}[1F 15 B5 01 0B 03 FF][1F 21 C4][1F E5 FF]{pause(1)}[1F 1F B5 01 06][1F EC FF 01]" eob
 
 l_0xc66f20:
-    "@Wei[b8]t du nicht wie sp[c0]t es ist?!{pause(20)}  Schwing deinen Hintern nach Hause,{pause(15)} pronto!" end
+    "@Wei[b8]t du nicht, wie sp[c0]t es ist?!{pause(20)}  Schwing deinen Hintern nach Hause,{pause(15)} pronto!" end
 
 l_0xc66f4a:
     "@Ich m[c9]chte nach Hause,{pause(15)} aber die Stra[b8]e ist gesperrt." next
@@ -305,18 +305,18 @@ l_0xc66fe2:
 
 l_0xc67026:
     "@Hast du den Knall geh[c9]rt?{pause(20)}" linebreak
-    "  Ich glaube ein Meteorit ist eingeschlagen." next
+    "  Ich glaube, ein Meteorit ist eingeschlagen." next
     "@Ich will der Erste sein, der ihn sieht.{pause(15)}  Okay?" next
-    "@Ich versuche als Erster dort anzukommen..." end
+    "@Ich versuche, als Erster dort anzukommen..." end
 
 l_0xc67089:
     "@Ein Meteorit ist eingeschlagen,{pause(15)} die Haie machen die Stadt unsicher," next
-    "@ihr Kinder lauft hier herum,{pause(15)} und,{pause(15)} ich bin hungrig...{pause(20)}" linebreak
+    "@ihr Kinder lauft hier herum,{pause(15)} und{pause(15)} ich bin hungrig...{pause(20)}" linebreak
     "  Ich hasse meinen Job!" end
 
 l_0xc670e6:
     "[06 D8 01 {e(l_0xc67130)}]@Es ist gef[c0]hrlich, zur Bergspitze zu gehen." next
-    "@Selbst wenn ich dir rate nicht zu gehen,{pause(15)} wird es dich nicht stoppen,{pause(15)} oder?" end
+    "@Selbst wenn ich dir rate, nicht zu gehen,{pause(15)} wird es dich nicht stoppen,{pause(15)} oder?" end
 
 l_0xc67130:
     "@A{pause(5)}a{pause(5)}a{pause(5)}a{pause(5)}a{pause(5)}h{pause(15)}--h..." next
@@ -325,7 +325,7 @@ l_0xc67130:
     "  ...ja,{pause(15)} tut es..." end
 
 l_0xc67194:
-    "@Hey, du!{pause(15)}  Wei[b8]t du nicht wie sp[c0]t es ist?" end
+    "@Hey, du!{pause(15)} Wei[b8]t du nicht, wie sp[c0]t es ist?" end
 
 l_0xc671ad:
     "@Verschwinde." linebreak
@@ -379,7 +379,7 @@ l_0xc673f9:
     goto(l_0xc67412)
 
 l_0xc67412:
-    "@Mein Bruder,{pause(5)} Porky, rannte weg, um ein Polizeiauto nachzujagen." next
+    "@Mein Bruder,{pause(5)} Porky, rannte weg, um einem Polizeiauto nachzujagen." next
     "@Er hat zu mir gesagt{pause(5)} <Picky,{pause(15)} du solltest zu Hause bleiben>.{pause(15)} " next
 	"@Also bleibe ich hier und passe auf unser Haus auf." next
     "@Mama und Papa sind noch nicht Zuhause.{pause(20)}" next
@@ -388,7 +388,7 @@ l_0xc67412:
 l_0xc674aa:
     "@Ich bin so m[cb]de..." next
     "@Mama und Papa sind noch immer nicht von der Stadt zur[cb]ckgekommen." next
-    "@Porky ist weggerannt{pause(15)} und noch nicht wiedergekommen.{pause(20)}  Ich glaube ich lege mich ins Bett." end
+    "@Porky ist weggerannt{pause(15)} und noch nicht wiedergekommen.{pause(20)}  Ich glaube, ich lege mich ins Bett." end
 
 l_0xc67501:
     "{music(124)}[1F 15 2F 01 6E 02 01][1F 61]{pause(30)}{window_open(1)}{music(155)}"
@@ -412,7 +412,7 @@ l_0xc67501:
     "@Sie werden w[c0]hrend deines Abenteuers bestimmt viel [b0]rger verursachen!" next
     "@Tiere werden ebenfalls gewalt-" linebreak
 	"  t[c0]tig, da Giygas sie durch b[c9]se Gedanken beeinflusst!" next
-    "@Es ist die Wahrheit,{pause(15)} also nimm sie dir zu herzen!{wait}{window_closeall}" eob
+    "@Es ist die Wahrheit,{pause(15)} also nimm sie dir zu Herzen!{wait}{window_closeall}" eob
 
 l_0xc676d4:
     "@(Nimm bitte meinen Sohn mit." next
@@ -497,7 +497,7 @@ l_0xc67b67:
     "@(Schatzsucher!{pause(20)}  Das ist das Haus von Lier [bb]. Bertreibung!)" end
 
 l_0xc67b91:
-    "@(Sieht nach ein St[cb]ck Arbeit aus...)" end
+    "@(Sieht nach einem St[cb]ck Arbeit aus...)" end
 
 l_0xc67bad:
     "@Kein Zutritt" end

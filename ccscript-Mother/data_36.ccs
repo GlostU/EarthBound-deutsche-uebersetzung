@@ -540,7 +540,7 @@ l_0xc83d1e:
 l_0xc83d24:
     "[06 C2 00 {e(data_32.l_0xc7c588)}]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(data_22.l_0xc690a6)}]{music(155)}"
 	"@Du bist endlich angekommen." next
-    "@Das ist das f[cb]nfte deiner <Heiligt[cb]mer>.{pause(20)} Aber jetzt geh[c9]rt es mir." next
+    "@Das ist das F[cb]nfte deiner <Heiligt[cb]mer>.{pause(20)} Aber jetzt geh[c9]rt es mir." next
     "@Nimm es von mir,{pause(30)} wenn du dich traust...[03]" call(data_21.l_0xc68425) "[1B 03 {e(data_21.l_0xc683de)}][1F 1E E3 03 08]{pause(120)}{set(flag 194)}" eob
 
 l_0xc83d9e:

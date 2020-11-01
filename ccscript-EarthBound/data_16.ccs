@@ -70,7 +70,7 @@ l_0xc60e2a:
 l_0xc60e30:
     "[06 49 00 {e(l_0xc611e2)}][06 FC 02 {e(l_0xc61139)}][06 2A 02 {e(l_0xc60ff3)}]{music(119)}"
     title(1, Talah)
-    "@Die Wahrheit des Universums bewegt sich wie ein Korn." next
+    "@Die Wahrheit des Universums bewegt sich wie Getreide im Wind." next
 	"@Sie bewegt sich wellenartig durch den Kosmos..." next
     "@Wahrheit spricht mit dem Universum, besser bekannt als Mensch." next
     "@Ich habe auf dich gewartet,{pause(15)} und du bist gekommen.{pause(30)}" next
@@ -117,7 +117,7 @@ l_0xc610f1:
 
 l_0xc61139:
     title(1, Talah)
-    "@Die Wahrheit des Universums bewegt sich wie ein Korn." next
+    "@Die Wahrheit des Universums bewegt sich wie Getreide im Wind." next
 	"@Sie bewegt sich wellenartig durch den Kosmos..." next
     "@Wahrheit spricht zum Universum, das auch besser als Mensch bekannt ist." next
     "@Ich habe auf dich gewartet,{pause(15)} und du bist gekommen.{pause(20)} " next

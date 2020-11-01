@@ -11,28 +11,28 @@ command e(label) "{long label}"
 l_0xc7058d:
 //02
     "@So, hast du G. K. Pirkle, den B[cb]rgermeister von Onett, schon getroffen?" next
-    "@Sein B[cb]ro ist im ersten Stock vom Rathaus in Onett." call(l_0xc726cb) eob
+    "@Sein B[cb]ro ist im ersten Stock im Rathaus von Onett." call(l_0xc726cb) eob
 
 l_0xc705e4:
 //03
     "@Geh nach Nordwesten." linebreak
-    "  Ein Animateur hat Schwierigkeiten" next
+    "  Ein Animateur hat Schwierigkeiten," next
 	"@in eine verschlossene H[cb]tte zu kommen..." call(l_0xc726cb) eob
 
 l_0xc7062a:
 //04
     "@Du bist auf dem Weg zum Riesen Tritt, nicht wahr?" next
-    "@Sei nur vorsichtig, die Polizei ist ziemlich empfindlich gegen[cb]ber Menschen" next
-    "@geschweige denn Kinder, die dort hoch gehen..." call(l_0xc726cb) eob
+    "@Sei nur vorsichtig, die Polizei ist ziemlich empfindlich gegen[cb]ber Menschen," next
+    "@geschweige denn Kindern, die dort hoch gehen..." call(l_0xc726cb) eob
 
 l_0xc70688:
 //05
     "@Die Polizei hat hier nach dir gesucht." next
-	"@Hast du etwas illegales getan?" next
+	"@Hast du etwas Illegales getan?" next
     "@Geh die Stra[b8]e vor meinem Laden entlang nach S[cb]den." next
 	"@Dort wirst du die Polizeistation von Onett finden." next
-    "@Ich denke es w[c0]re das Beste, wenn du dich stellst..." next
-	"@Egal was du gemacht hast." call(l_0xc726cb) eob
+    "@Ich denke, es w[c0]re das beste, wenn du dich stellst..." next
+	"@Egal, was du gemacht hast." call(l_0xc726cb) eob
 
 l_0xc70711:
 //06
@@ -44,7 +44,7 @@ l_0xc70711:
 
 l_0xc70789:
 //07
-    "@Warst du schon beim Apfel Kind und Orangen Kind?" next
+    "@Warst du schon beim Apfel Kind und beim Orangen Kind?" next
     "@Sie wohnen s[cb]dlich von der Polarstern Vorschule." next
     "@Sie sind gro[b8]artige Erfinder..." linebreak
 	"  Naja, sie werden es noch." next
@@ -53,19 +53,19 @@ l_0xc70789:
     "@ganz sicher," next
     "@auf alle F[c0]lle," next
     "@zweifellos," next
-    "@etwas wundervolles passieren." next
-    "@Glaub mir, dieser Tipp ist mehr wert, als das, was du bezahlt hast." call(l_0xc726cb) eob
+    "@etwas Wundervolles passieren." next
+    "@Glaub mir. Dieser Tipp ist mehr wert, als das, was du bezahlt hast." call(l_0xc726cb) eob
 
 l_0xc70868:
 //08
     "@Wenn du vom Busbahnhof aus nach Osten gehst," next
     "@wirst du das Tal der friedvollen Ruhe betreten." next
     "@Wenn du weiter [c9]stlich l[c0]ufst, wirst du das Gl[cb]cklich Gl[cb]cklich Dorf finden." next
-    "@Du solltest dort mal vorbeischauen, oder hast du schon etwas besseres zu tun?" call(l_0xc726cb) eob
+    "@Du solltest dort mal vorbeischauen, oder hast du schon etwas Besseres zu tun?" call(l_0xc726cb) eob
 
 l_0xc708dd:
 //09
-    "@Du hast einen Anruf von Apfel Kind bekommen?" next
+    "@Du hast einen Anruf vom Apfel Kind bekommen?" next
     "@Was tust du dann hier, so weit von seinem Haus entfernt?" next
     "@Ich kann dir keinen Hinweis geben, aber du darfst deine $[1C 0A 00 00 00 00] behalten." call(l_0xc726cb) eob
 
@@ -95,13 +95,13 @@ l_0xc709e8:
 l_0xc70a4c:
 //12
     "@Kannst du dich noch daran erinnern, eine kleine Bergh[cb]tte auf dem Weg" next
-    "@durch dem Tal der friedvollen Ruhe gesehen zu haben?" next
+    "@durch das Tal der friedvollen Ruhe gesehen zu haben?" next
     "@Im Gl[cb]cklich Gl[cb]cklich Dorf muss es eine H[c9]hle geben, die dorthin f[cb]hrt." call(l_0xc726cb) eob
 
 l_0xc70ab5:
 //13
-    "@Das ist mein Gesch[c0]ft, deshalb bin ich auch gl[cb]cklich Kunden zu haben." next
-    "@Aber, wei[b8]t du nicht, dass wir mitten in einer Kriese stecken?" next
+    "@Das ist mein Gesch[c0]ft, deshalb bin ich auch froh, Kunden zu haben." next
+    "@Aber wei[b8]t du nicht, dass wir mitten in einer Krise stecken?" next
 	"@Du solltest deine Zeit nicht hier verschwenden." next
 	"@Hier hast du deine $[1C 0A 00 00 00 00] wieder." call(l_0xc726cb) eob
 
@@ -118,25 +118,25 @@ l_0xc70b59:
 
 l_0xc70bc4:
 //16
-    "@Geh zu Everdred, der Boss vom Gaunerpark." next
+    "@Geh zu Everdred, dem Boss vom Gaunerpark." next
     "@Vertrau mir einfach... besuch ihn mal." call(l_0xc726cb) eob
 
 l_0xc70bff:
 //17
-    "@Die Runaway Br[cb]der, die Band im Chaos Theater, steckt bis zum Hals voller Schulden." next
+    "@Die Runaway Br[cb]der, die Band im Chaos Theater, stecken bis zum Hals voller Schulden." next
     "@K[c9]nnte irgendwer ihre Schulden abbezahlen?" call(l_0xc726cb) eob
 
 l_0xc70c4d:
 //18
-    "@Ich glaube es gibt in dieser Stadt nichts mehr f[cb]r dich zu tun." next
+    "@Ich glaube, es gibt in dieser Stadt nichts mehr f[cb]r dich zu tun." next
     "@Es ist okay, wenn du bleibst, aber du kannst auch schon gehen..." call(l_0xc726cb) eob
 
 l_0xc70c8d:
 //19
     "@Nordwestlich dieser Stadt gibt es einen Tunnel." next
-    "@Am Eingang h[c0]ngen zwei Zombies herum und halten wache." next
+    "@Am Eingang h[c0]ngen zwei Zombies herum und halten Wache." next
     "@Das sind eigentlich ziemlich nette Kerle..." next
-    "@Es ist vielleicht eine gute Idee die beiden mal zu besuchen..." next
+    "@Es ist vielleicht eine gute Idee, die beiden mal zu besuchen..." next
     "@Aber es ist schon verst[c0]ndlich, wenn du nicht willst..." next
     "@Ich denke jedoch, du solltest sie besuchen." call(l_0xc726cb) eob
 
@@ -144,10 +144,10 @@ l_0xc70d2f:
 //20
     "@Also, wie geht's dir so, [19 10 01]"
 	if result_is(2){
-	"kleine"
+	"Kleine"
 	}
 	else{
-	"kleiner"
+	"Kleiner"
 	}
 	"?" next
     "@Wenn du m[cb]de bist, solltest du mal ins Hotel und dich ausruhen." call(l_0xc726cb) eob
@@ -173,7 +173,7 @@ l_0xc70db6:
 
 l_0xc70e26:
 //24
-    "@Nordwestlich von der Stadt gibt es einen unterirdischen Weg." next
+    "@Nordwestlich der Stadt gibt es einen unterirdischen Weg." next
     "@Die Zombie Wachen sollten mittlerweile schon verschwunden sein." call(l_0xc726cb) eob
 
 l_0xc70e61:
@@ -184,7 +184,7 @@ l_0xc70e61:
 l_0xc70e95:
 //26
     "@Es sieht so aus, als w[cb]sstest du nicht, was du im Saturn Tal machen sollst." next
-    "@Ein Mr. Saturn in der H[c9]hle sollte dir ein Passwort sagen k[c9]nnen, dass" next
+    "@Ein Mr. Saturn in der H[c9]hle sollte dir ein Passwort sagen k[c9]nnen, das" next
     "@dich in die Geheimbasis" linebreak
 	"  bringen k[c9]nnte." next
     "@Na, das war doch mal eine hilfreiche Information!" call(l_0xc726cb) eob
@@ -194,7 +194,7 @@ l_0xc70f16:
     "@Der Mr. Saturn hat dir bestimmt erz[c0]hlt, 3 Minuten vorm Wasserfall zu warten." next
     "@Was? Du wei[b8]t nicht, wo der Wasserfall ist?" next
     "@Er wird eigentlich Grapefruit Wasserfall genannt." next
-    "@Nachdem du den Tunnel im Friedhof vom Threed verl[c0]sst," next
+    "@Nachdem du den Tunnel im Friedhof von Threed verl[c0]sst," next
     "@gehst du einfach nach Norden." next
     "@Du kennst nat[cb]rlich schon den Tunnel rechts, der zum Saturn Tal f[cb]hrt." next
     "@Aber..." linebreak
@@ -205,7 +205,7 @@ l_0xc70f16:
 
 l_0xc7105d:
 //28
-    "[06 57 00 {e(l_0xc710bb)}]@Oh, du hast etwas sehr wichtiges vergessen." next
+    "[06 57 00 {e(l_0xc710bb)}]@Oh, du hast etwas sehr Wichtiges vergessen." next
     "@Hast du schon die M[cb]lltonne [cb]berpr[cb]ft, die das Monsterzelt hinterlassen hat?" call(l_0xc726cb) eob
 
 l_0xc710bb:
@@ -213,25 +213,25 @@ l_0xc710bb:
     "@Ich gebe dir mal einen speziellen Kampftipp, der sich" next
     "@sehr effektiv gegen R[cb]lps zeigen wird." next
     "@Ich habe geh[c9]rt, dass R[cb]lps Fliegenhonig [cb]ber alles liebt." next
-    "@Deshalb solltest du es auch im Kampf <Benutzen>." call(l_0xc726cb) eob
+    "@Deshalb solltest du ihn auch im Kampf <Benutzen>." call(l_0xc726cb) eob
 
 l_0xc71140:
 //30
-    "@In der Mitte der Wilden Windigen W[cb]ste ist jemand fast am verhungern." next
+    "@In der Mitte der Wilden Windigen W[cb]ste ist jemand fast am Verhungern." next
     "@...Ich kann es einfach f[cb]hlen." call(l_0xc726cb) eob
 
 l_0xc7117e:
 //31
-    "@Im Topolla Theater in Fourside, haben die" next
+    "@Im Topolla Theater in Fourside haben die" next
     "@Runaway Br[cb]der eine ganze Reihe von Konzertauftritten gebucht." next
-    "@Es ist zwar nur ein Ger[cb]cht, aber anscheinend haben sie es wieder verpatzt," next
+    "@Es ist zwar nur ein Ger[cb]cht, aber anscheinend haben sie es wieder verpatzt" next
     "@und stecken in ziemlichen Schwierigkeiten." next
     "@Also... An deiner Stelle w[cb]rde ich mit ihnen reden." call(l_0xc726cb) eob
 
 l_0xc71208:
 //32
     "{isset(flag 137)}[1B 02 {e(l_0xc71140)}]"
-	"@Im Topolla Theater in Fourside, haben die" next
+	"@Im Topolla Theater in Fourside haben die" next
     "@Runaway Br[cb]der eine ganze Reihe von Konzertauftritten gebucht." next
     "@Es ist zwar nur ein Ger[cb]cht, aber anscheinend haben sie es wieder verpatzt," next
     "@und stecken in ziemlichen Schwierigkeiten." next
@@ -251,7 +251,7 @@ l_0xc712e3:
 l_0xc712ec:
 //35
     "@Die Runaway Br[cb]der, die derzeit im Topolla Theater auftreten," next
-    "@stecken wieder in finanzielle Schwierigkeiten." next
+    "@stecken wieder in finanziellen Schwierigkeiten." next
     "@Wenn du ihnen helfen willst, ben[c9]tigst du ungeheuerlich viel Geld." next
     "@Hey, wenn wir schon von enormen Mengen an Geld sprechen," next
     "@kennst du schon die Wilde Windige W[cb]ste?" next
@@ -260,8 +260,8 @@ l_0xc712ec:
 
 l_0xc713cb:
 //36
-    "@Hast du den Schatzgr[c0]ber in der W[cb]ste berichtet, dass du die 5 Bosse besiegt hast?" next
-    "@Ich war mal ein Gesch[c0]ftsmann und ich kann dir aus Erfahrung sagen:" next
+    "@Hast du dem Schatzgr[c0]ber in der W[cb]ste berichtet, dass du die 5 Bosse besiegt hast?" next
+    "@Ich war einmal ein Gesch[c0]ftsmann und ich kann dir aus Erfahrung sagen:" next
     "@Lageberichte sind [c0]u[b8]erst wichtig." call(l_0xc726cb) eob
 
 l_0xc71435:
@@ -269,18 +269,18 @@ l_0xc71435:
     "@Also, bist du in letzter Zeit drau[b8]en Spazieren gegangen?" next
     "@Sparzierg[c0]nge sind super." next
     "@Wei[b8]t du, es ist nicht gut f[cb]r dich, wenn du immer den Bus nimmst. Das ist viel zu einfach." next
-    "@Lauf mal den Weg von der Wilden Windigen W[cb]ste nach Fourside entlang." next
+    "@Lauf mal den Weg der Wilden Windigen W[cb]ste nach Fourside entlang." next
     "@Pass besonders darauf auf, dass du auch [cb]ber die Br[cb]cke gehst." next
-    "@Es gibt nichts aufregenderes, als [cb]ber eine Br[cb]cke zu laufen," next
+    "@Es gibt nichts Aufregenderes, als [cb]ber eine Br[cb]cke zu laufen," next
     "@wenn man gerade sein Busticket vergessen hat..." call(l_0xc726cb) eob
 
 l_0xc7152c:
 //38
     "@Es ist wirklich bemitleidenswert..." next
-    "@Die Runaway Br[cb]der haben es geschafft im Topolla Theater festzustecken." next
+    "@Die Runaway Br[cb]der haben es geschafft, im Topolla Theater festzustecken." next
     "@Alles nur wegen ihren Problemen mit den Schulden." next
-    "@Warum sprichst du nicht mal mit Fr[c0]ulein L[cb]ge, die Managerin des Theaters?" next
-    "@Der Diamant, den du tr[c0]gst k[c9]nnte dabei n[cb]tzlich werden." call(l_0xc726cb) eob
+    "@Warum sprichst du nicht mal mit Fr[c0]ulein L[cb]ge, der Managerin des Theaters?" next
+    "@Der Diamant, den du tr[c0]gst, k[c9]nnte dabei n[cb]tzlich werden." call(l_0xc726cb) eob
 
 l_0xc715b7:
 //39
@@ -293,12 +293,12 @@ l_0xc7162b:
 //40
     "@Nun..." linebreak
     "  Ich bin mir nicht zu 100% sicher, aber..." next
-    "@das oberste Stockwerk vom Kaufhaus kommt mir irgendwie verd[c0]chtig vor..." call(l_0xc726cb) eob
+    "@das oberste Stockwerk des Kaufhauses kommt mir irgendwie verd[c0]chtig vor..." call(l_0xc726cb) eob
 
 l_0xc71677:
 //41
     "@Warst du schon bei Boris Bar?" next
-    "@Es ist nicht besonders schwer zu finden..." next
+    "@Sie ist nicht besonders schwer zu finden..." next
 	"@[bb]ber dem Eingang steht ganz gro[b8] <Bar> geschrieben." call(l_0xc726cb) eob
 
 l_0xc716b7:
@@ -313,7 +313,7 @@ l_0xc716b7:
 l_0xc7175b:
 //43
     "@Bist du zur[cb]ck zu Boris Bar gegangen?" next
-    "@Dort soll es etwas [c0]u[b8]erst verd[c0]chtiges hinter den Tresen geben..." call(l_0xc726cb) eob
+    "@Dort soll es etwas [c0]u[b8]erst Verd[c0]chtiges hinter den Tresen geben..." call(l_0xc726cb) eob
 
 l_0xc7179a:
 //??
@@ -339,12 +339,12 @@ l_0xc71837:
 l_0xc7188e:
 //47
     "@Es ist zwar schon eine Weile her, aber ich hatte geh[c9]rt, dass" next
-    "@ein silbernes, fliegendes Ding in dem Friedhof von Threed abgest[cb]rzt ist." call(l_0xc726cb) eob
+    "@ein silbernes, fliegendes Ding [cb]ber dem Friedhof von Threed abgest[cb]rzt ist." call(l_0xc726cb) eob
 
 l_0xc718e0:
 //48
     "@In Winters warst du schon in der H[c9]hle n[c9]rdlich von Stonehenge, richtig?" next
-    "@Ich wette dort ist einer deiner <Heiligt[cb]mer>." call(l_0xc726cb) eob
+    "@Ich wette, dort ist eines deiner <Heiligt[cb]mer>." call(l_0xc726cb) eob
 
 l_0xc7192c:
 //49
@@ -354,13 +354,13 @@ l_0xc7192c:
 l_0xc71973:
 //50
     "@Du musst eine Reservierung per Telefon t[c0]tigen, um in den Stoisch Klub zu kommen." next
-    "@Jemand in Toto, die Hafenstadt neben Summers," next
+    "@Jemand in Toto, der Hafenstadt neben Summers," next
     "@sollte die Telefonnummer kennen." call(l_0xc726cb) eob
 
 l_0xc719d7:
 //51
     "@Versuch mal" linebreak
-    "  den Strip... uuups! entschuldige," linebreak
+    "  den Strip... uuups! Entschuldige," linebreak
     "  Ich meine den Stoisch Klub anzurufen." call(l_0xc726cb) eob
 
 l_0xc71a14:
@@ -371,7 +371,7 @@ l_0xc71a14:
 
 l_0xc71a67:
 //53
-    "@Man sagt es g[c0]be beim Trottoir vorm Strand in Summers" next
+    "@Man sagt, es g[c0]be beim Trottoir vorm Strand in Summers" next
     "@eine Verk[c0]uferin, die einen Magischen Kuchen verkauft." next
     "@Oh ja, <Trottoir> bedeutet <B[cb]rgersteig>." next
     "@Naja, ich wollte dich nur testen..." next
@@ -414,7 +414,7 @@ l_0xc71cad:
 l_0xc71d08:
 //59
     "[1B 02 {e(l_0xc7244e)}]"
-	"@Ich wei[b8] nicht genau, ob er ein Feind von dir ist, oder nicht, aber" next
+	"@Ich wei[b8] nicht genau, ob er ein Feind von dir ist oder nicht, aber" next
     "@der Typ namens <Dungeon Man> scheint auf dich zu warten." next
     "@Hast du ihn schon einmal getroffen?" call(l_0xc726cb) eob
 
@@ -428,11 +428,11 @@ l_0xc71d65:
 l_0xc71dd2:
 //61
     "[1B 02 {e(l_0xc7244e)}]"
-	"@Wenn du Licht in einer dunklen Stra[b8]e brauchst, dann benutzt du..." next
+	"@Wenn du Licht auf einer dunklen Stra[b8]e brauchst, dann benutzt du..." next
     "@Genau, das ist richtig! Eine Taschenlampe!" next
     "@Oh... du hast keine?" linebreak
 	"  Genau genommen wusste ich das schon." next
-    "@Naja, da w[c0]re das Ding bestimmt n[cb]tzlich, dass du," next
+    "@Naja, da w[c0]re das Ding bestimmt n[cb]tzlich, das du," next
     "@du wei[b8]st schon, gefunden hast, du wei[b8]t schon, die Pyramide..." next
     "@Ich habe den Namen vergessen...  Es ist das wiehei[b8]tes... ohhh... Mist!" call(l_0xc726cb) eob
 
@@ -475,7 +475,7 @@ l_0xc72026:
     "@Wenn eine ganze Gruppe sch[cb]chtern ist," next
 	"@dann sollte der Leiter der Gruppe das Buch vorlesen." next
     "@Dann k[c9]nnte die gesamte Gruppe ihre Sch[cb]chternheit [cb]berwinden." next
-    "@Ein Teil der Gruppe wird auf jeden fall nicht mehr sch[cb]chtern sein." next
+    "@Ein Teil der Gruppe wird auf jeden Fall nicht mehr sch[cb]chtern sein." next
     "@Also, wie oft habe ich das Wort <sch[cb]chtern> benutzt?..." call(l_0xc726cb) eob
 
 l_0xc72139:
@@ -491,18 +491,18 @@ l_0xc72139:
 l_0xc721d9:
 //69
     "[1B 02 {e(l_0xc7244e)}]"
-	"@Unter dem Gumi Dorf befindet sich ein sehr wichtiger Ort." call(l_0xc726cb) eob
+	"@Unter dem Gummi Dorf befindet sich ein sehr wichtiger Ort." call(l_0xc726cb) eob
 
 l_0xc72205:
 //70
     "[1B 02 {e(l_0xc7244e)}]"
-	"@Kennst du schon den sprechenden Stein in der Verlorene Unterwelt?" next
+	"@Kennst du schon den sprechenden Stein in der Verlorenen Unterwelt?" next
     "@Du solltest dem Stein zuh[c9]ren und dann das Gesagte auch umsetzen." call(l_0xc726cb) eob
 
 l_0xc72258:
 //71
     "[1B 02 {e(l_0xc7244e)}]"
-	"@Kennst du schon den sprechenden Stein in der Verlorene Unterwelt?" next
+	"@Kennst du schon den sprechenden Stein in der Verlorenen Unterwelt?" next
     "@Du solltest h[c9]ren, was der Stein zu sagen hat." call(l_0xc726cb) eob
 
 l_0xc72296:
@@ -514,7 +514,7 @@ l_0xc72296:
 
 l_0xc722c1:
 //73
-    "@Eine sehr sonderbares Material ist notwendig," next
+    "@Ein sehr sonderbares Material ist notwendig," next
 	"@um den Weltraumtunnel zu vervollst[c0]ndigen." next
     "@Wei[b8]t du, ich frage mich, ob der Ort in Onett," next
     "@wo der Meteorit eingeschlagen ist, etwas damit zu tun hat?" next
@@ -530,11 +530,11 @@ l_0xc72348:
 
 l_0xc72398:
 //75
-    "@Ich m[c9]chte dir danken, dass du meinen Hinweis Service benutzt hast." next
-    "@Es ist eine Weile her, seit wir uns erstmal getroffen haben..." next
+    "@Ich m[c9]chte dir daf[cb]r danken, dass du meinen Hinweis Service benutzt hast." next
+    "@Es ist eine Weile her, seit wir uns erstmals getroffen haben..." next
     "@Dies ist mein letzter Tag in diesem Gesch[c0]ft." next
     "@{pause(10)}..{pause(10)}..{pause(10)}..{pause(10)}..{pause(30)}.." next
-    "@Nun dann, bis bald Kind," linebreak
+    "@Nun dann, bis bald, Kind." linebreak
     "  Nein, nein... Meister [1C 02 01]." next
     "@Wir treffen uns wieder," linebreak
     "  falls das Schicksal es erlaubt." end
@@ -555,8 +555,8 @@ l_0xc7246a:
 
 l_0xc724ab:
 //77
-    "@Wenn du Venus treffen m[c9]chtest, dann solltest du versuchen" next
-	"@in dem Backstage Bereich vom Topolla Theater zu gelangen." call(l_0xc726cb) eob
+    "@Wenn du Venus treffen m[c9]chtest, dann solltest du versuchen," next
+	"@in den Backstage Bereich vom Topolla Theater zu gelangen." call(l_0xc726cb) eob
 
 l_0xc724d7:
 //78
@@ -588,7 +588,7 @@ l_0xc72664:
     "@Oh, du hast kein Geld." next
     "@Verstehst du das nicht?{pause(20)}" linebreak
     "  So verdiene ich meinen Lebensunterhalt..." next
-	"@Ich kann dir nicht einfach kostenlose Hinweise geben,[19 10 01]{result_is(2)}[1B 03 {e(l_0xc726aa)}] Kleiner." end goto(l_0xc726aa)
+	"@Ich kann dir nicht einfach kostenlos meine Hinweise geben,[19 10 01]{result_is(2)}[1B 03 {e(l_0xc726aa)}] Kleiner." end goto(l_0xc726aa)
 
 l_0xc726aa:
     " Kleine." end
@@ -609,7 +609,7 @@ l_0xc726da:
 l_0xc72709:
     "@Es laufen viele Schlangen und Stra[b8]enhunde in Onett herum." next
     "@Wird der B[cb]rgermeister sie einfach herumlaufen lassen?" next
-    "@Ich bin hier um zu protestieren!" end
+    "@Ich bin hier, um zu protestieren!" end
 
 l_0xc72765:
     "@Ich arbeite f[cb]r das Rathaus,{pause(15)} aber irgendwie nervt B[cb]rgermeister Pirkle mich." next
@@ -625,13 +625,13 @@ l_0xc727cf:
 	"  Ich wollte dich nicht spoilern." end
 
 l_0xc72822:
-    "@In den n[c9]rdlichen W[c0]ldern, hinter der B[cb]cherei h[c0]ngen einige verd[c0]chtig aussehende" next
+    "@In den n[c9]rdlichen W[c0]ldern hinter der B[cb]cherei h[c0]ngen einige verd[c0]chtig aussehende" next
 	"@Kinder herum." next
     "@Ich frage mich, ob sie zu den Haien geh[c9]ren." next
     "@Um die Ausbreitung der Bande zu stoppen,{pause(15)} sollte jemand ihre Treffpunkte stilllegen." next
     "@Glaubst du nicht auch?" next
     "@Ich habe eine Bewegung ge-"linebreak
-	"  startet, die alle schlechte Einfl[cb]sse auf die Kinder von" next
+	"  startet, die alle schlechten Einfl[cb]sse auf die Kinder von" next
 	"@Onett stoppen wird." next
     "@Ich nenne sie die" linebreak
 	"  <Frische Brise Bewegung>.{pause(15)}  Hum di dum dum..." end
@@ -640,18 +640,18 @@ l_0xc72910:
     "@Ich habe wirklich schlechte Laune." next
     "@Warum?{pause(20)}  Weil der B[cb]rgermeister mich nicht mag." next
     "@Ich glaube, ich lehne mich eine Weile zur[cb]ck und entspanne etwas." next
-    "@Ich k[c9]nnte ein paar Stunden brauchen um die Papiere zu unterschreiben.*kicher**grunz*" end
+    "@Ich k[c9]nnte ein paar Stunden brauchen, um die Papiere zu unterschreiben.*kicher**grunz*" end
 
 l_0xc7298c:
     "[19 10 01]{rtoarg}@Oh,{pause(15)} bist du nicht [1C 02 00]?" next
     "@Ist heute schulfrei?{pause(15)}  Hast du deine Hausaufgaben fertig?" next
-    "@Vergiss nicht deine Z[c0]hne zu putzen, bevor du ins Bett gehst." next
+    "@Vergiss nicht, deine Z[c0]hne zu putzen, bevor du ins Bett gehst." next
     "@Hast du in letzter Zeit ins Bett gemacht?" end goto(l_0xc729ff)
 
 l_0xc729ff:
     "[06 02 00 {e(l_0xc72a63)}][06 40 00 {e(data_27.l_0xc72a76)}]@Das B[cb]ro des B[cb]rgermeisters befindet sich im ersten Stock." next
-    "@Du brauchst jedoch einen Termin um ihn zu besuchen." next
-    "@Ich werde dich stoppen m[cb]ssen, wenn du versuchst den B[cb]rgermeister zu treffen." end
+    "@Du brauchst jedoch einen Termin, um ihn zu besuchen." next
+    "@Ich werde dich stoppen m[cb]ssen, wenn du versuchst, den B[cb]rgermeister zu treffen." end
 
 l_0xc72a63:
     "@Siehst du.{pause(20)}" linebreak

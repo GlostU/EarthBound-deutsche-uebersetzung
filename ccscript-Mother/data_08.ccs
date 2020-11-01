@@ -136,194 +136,195 @@ l_0xc59894:
     eob
 
 l_0xc59895:
-    "@Gib die Event Nummer ein:" linebreak
+    "@Gib die Event Nummer (1-70) ein:" linebreak
     "  [1F 52 02]" newline
     "[09 46 {e(l_0xc599d0)} {e(l_0xc599f4)} {e(l_0xc59a15)} {e(l_0xc59a40)} {e(l_0xc59a72)} {e(l_0xc59aa4)} {e(l_0xc59ace)} {e(l_0xc59af5)} {e(l_0xc59b25)} {e(l_0xc59b45)} {e(l_0xc59b78)} {e(l_0xc59bb5)} {e(l_0xc59bd7)} {e(l_0xc59bfc)} {e(l_0xc59c39)} {e(l_0xc59c67)} {e(l_0xc59c84)} {e(l_0xc59cb5)} {e(l_0xc59cd9)} {e(l_0xc59d06)} {e(l_0xc59d30)} {e(l_0xc59d61)} {e(l_0xc59d7f)} {e(l_0xc59da0)} {e(l_0xc59dbd)} {e(l_0xc59de1)} {e(l_0xc59e01)} {e(l_0xc59e21)} {e(l_0xc59e40)} {e(l_0xc59e62)} {e(l_0xc59e84)} {e(l_0xc59eb2)} {e(l_0xc59f08)} {e(l_0xc59f44)} {e(l_0xc59f60)} {e(l_0xc59f80)} {e(l_0xc59fa0)} {e(l_0xc59fbd)} {e(l_0xc59ff1)} {e(l_0xc5a00c)} {e(l_0xc5a036)} {e(l_0xc5a05b)} {e(l_0xc5a07e)} {e(l_0xc5a0b3)} {e(l_0xc5a0db)} {e(l_0xc5a0fe)} {e(l_0xc5a11a)} {e(l_0xc5a154)} {e(l_0xc5a17d)} {e(l_0xc5a1ae)} {e(l_0xc5a1cd)} {e(l_0xc5a1ff)} {e(l_0xc5a232)} {e(l_0xc5a25e)} {e(l_0xc5a27a)} {e(l_0xc5a29c)} {e(l_0xc5a2c2)} {e(l_0xc5a2ec)} {e(l_0xc5a318)} {e(l_0xc5a342)} {e(l_0xc5a36c)} {e(l_0xc5a396)} {e(l_0xc5a3c0)} {e(l_0xc5a3ea)} {e(l_0xc5a414)} {e(l_0xc5a43e)} {e(l_0xc5a465)} {e(l_0xc5a48b)} {e(data_09.l_0xc5a4b4)} {e(data_09.l_0xc5a4cd)}]@YMMST." goto(data_06.l_0xc58000)
 
 l_0xc599d0:
-    "{diam}{name(7)} runs away.{wait}" linebreak
+    "{diam}{name(7)} l[c0]uft weg.{wait}" linebreak
     "{window_closeall}{counter(10)}" call(data_09.l_0xc5a4ec) "[1F 11 05][1F 11 07][1F 21 73]" call(give3) eob
 
 l_0xc599f4:
-    "{diam}Get the Minchs to their house.{wait}{window_closeall}{counter(11)}" call(data_09.l_0xc5a4ec) "[1F 11 05][1F 11 06][1F 21 74]" call(give3) eob
+    "{diam}Bringe die Minchs in ihr Haus.{wait}{window_closeall}{counter(11)}" call(data_09.l_0xc5a4ec) "[1F 11 05][1F 11 06][1F 21 74]" call(give3) eob
 
 l_0xc59a15:
-    "{diam}Beat Captain Strong.{wait}{window_closeall}{counter(13)}" call(data_09.l_0xc5a4ec) "{set(flag 190)}{set(flag 182)}{set(flag 450)}{set(flag 449)}{set(flag 39)}[1F 21 75]" call(give3) eob
+    "{diam}Besiege Hauptmann Stark.{wait}{window_closeall}{counter(13)}" call(data_09.l_0xc5a4ec) "{set(flag 190)}{set(flag 182)}{set(flag 450)}{set(flag 449)}{set(flag 39)}[1F 21 75]" call(give3) eob
 
 l_0xc59a40:
-    "{diam}Arriving to Twoson.{wait}" linebreak
+    "{diam}In Twoson angekommen.{wait}" linebreak
     "{window_closeall}{counter(14)}" call(data_09.l_0xc5a4ec) "{set(flag 210)}[1D 0E 01 B0][1D 0E 01 A4][1D 0E 01 A2][1D 0E 01 C5][1D 0E 01 CA]{set(flag 512)}[1F 21 1D]" call(give3) eob
 
 l_0xc59a72:
-    "{diam}First Runaway Show.{wait}" linebreak
+    "{diam}Die erste Runaway Show.{wait}" linebreak
     "{window_closeall}{counter(22)}" call(data_09.l_0xc5a4ec) "{set(flag 85)}{set(flag 553)}{set(flag 549)}{set(flag 43)}[1F 21 76]" call(give3) eob
 
 l_0xc59aa4:
-    "{diam}First encounter with Carpainter.{wait}" linebreak
+    "{diam}Erstes Aufeinandertreffen mit Carpainter.{wait}" linebreak
     "{window_closeall}{counter(20)}" call(data_09.l_0xc5a4ec) "{set(flag 175)}[1F 21 77]" call(give3) eob
 
 l_0xc59ace:
-    "{diam}Freeing {name(2)}.{wait}" linebreak
+    "{diam}Befreie {name(2)}.{wait}" linebreak
     "{window_closeall}{counter(21)}" call(data_09.l_0xc5a4ec) "{set(flag 68)}{unset(flag 175)}[1D 0E 01 AB][1F 21 78]" call(give3) eob
 
 l_0xc59af5:
-    "{diam}Freeing the Runaway Bros. from their debt.{wait}" linebreak
+    "{diam}Befreie die Runaway Br[cb]der von ihren Schulden.{wait}" linebreak
     "{window_closeall}{counter(22)}" call(data_09.l_0xc5a4ec) "[1F 11 02][1D 0E 01 B4]{set(flag 319)}[1F 21 79]" call(give3) eob
 
 l_0xc59b25:
-    "{diam}Be captured by zombies.{wait}" linebreak
+    "{diam}Von den Zombies gefangen genommen.{wait}" linebreak
     "{window_closeall}{counter(23)}" call(data_09.l_0xc5a4ec) "{set(flag 297)}[1F 11 02][1F 21 7A]" call(give3) eob
 
 l_0xc59b45:
-    "{diam}Join with Bubble Monkey.{wait}" linebreak
+    "{diam}Der Blasen Affe schlie[b8]t sich dir an.{wait}" linebreak
     "{window_closeall}{counter(30)}" call(data_09.l_0xc5a4ec) "[1F 11 03][1F 12 01]{set(flag 323)}[1D 0E 03 68][1F 21 7B]" call(give3) eob
 
 l_0xc59b78:
-    "{diam}Encounter with Tessie.{wait}" linebreak
+    "{diam}Tessie wurde gesichtet.{wait}" linebreak
     "{window_closeall}{counter(31)}" call(data_09.l_0xc5a4ec) "[1F 11 03][1F 12 01][1F 11 09][1D 0E 03 68]{set(flag 344)}{set(flag 696)}[1F 21 2E][1F 66 01 27 0F AE C9 00][1F 66 02 30 87 B0 C6 00]" call(give3) eob
 
 l_0xc59bb5:
-    "{diam}Ride the Sky Walker.{wait}" linebreak
+    "{diam}Fliege mit dem Sky Walker.{wait}" linebreak
     "{window_closeall}{counter(32)}" call(data_09.l_0xc5a4ec) "[1F 11 03][1F 12 01][1F 21 7D]" call(give3) eob
 
 l_0xc59bd7:
-    "{diam}Runaway show at Topollo Theater.{wait}" linebreak
+    "{diam}Die Runaway Show im Topollo Theater.{wait}" linebreak
     "{window_closeall}{counter(40)}" call(data_09.l_0xc5a4ec) "[1F 11 02][1F 11 03][1F 21 7E]" call(give3) eob
 
 l_0xc59bfc:
-    "{diam}George Montague gives you the Diamond.{wait}" linebreak
+    "{diam}George Montague gibt dir den Diamenten.{wait}" linebreak
     "{window_closeall}{counter(40)}" call(data_09.l_0xc5a4ec) "{set(flag 277)}{set(flag 278)}{set(flag 279)}{set(flag 280)}{set(flag 281)}{set(flag 72)}{unset(flag 54)}{set(flag 282)}{set(flag 272)}[1F 11 02][1F 11 03][1F 21 7F]" call(give3) eob
 
 l_0xc59c39:
-    "{diam}Freeing the Runaway again.{wait}" linebreak
+    "{diam}Befreie die Runaway Br[cb]der... nochmal.{wait}" linebreak
     "{window_closeall}{counter(41)}" call(data_09.l_0xc5a4ec) "{unset(flag 146)}{unset(flag 147)}[1F 11 02][1F 11 03][1D 0E 01 B6][1F 21 80]" call(give3) eob
 
 l_0xc59c67:
-    "{diam}Fight the Clumsy Robot.{wait}" linebreak
+    "{diam}K[c0]mpfe mit dem Fahrl[c0]ssigen Roboter.{wait}" linebreak
     "{window_closeall}{counter(43)}" call(data_09.l_0xc5a4ec) "{set(flag 142)}[1F 11 03][1F 21 81]" call(give3) eob
 
 l_0xc59c84:
-    "{diam}Inside the Monotoly building.{wait}" linebreak
+    "{diam}Im Monotoli Geb[c0]ude.{wait}" linebreak
     "{window_closeall}{counter(43)}" call(data_09.l_0xc5a4ec) "{set(flag 317)}{set(flag 142)}{set(flag 143)}[1F 11 03][1F 11 02][1F 21 82]" call(give3) eob
 
 l_0xc59cb5:
-    "{diam}Ride the Sky Walker again.{wait}" linebreak
+    "{diam}Fliege wieder mit dem Sky Walker.{wait}" linebreak
     "{window_closeall}{counter(44)}" call(data_09.l_0xc5a4ec) "{set(flag 48)}[1F 11 03][1F 11 02][1F 21 83]" call(give3) eob
 
 l_0xc59cd9:
-    "{diam}Eat the Magic cake.{wait}" linebreak
+    "{diam}Iss den Magischen Kuchen.{wait}" linebreak
     "{window_closeall}{counter(44)}" call(data_09.l_0xc5a4ec) "{set(flag 203)}{set(flag 617)}{set(flag 61)}[1F 11 03][1F 11 02][1F 21 84]" call(give3) eob
 
 l_0xc59d06:
-    "{diam}Start your Mu training.{wait}" linebreak
+    "{diam}Beginne dein Mu Training.{wait}" linebreak
     "{window_closeall}{counter(50)}" call(data_09.l_0xc5a4ec) "[1F 11 04][1F 12 01][1F 66 01 01 03 22 C9 00][1F 21 85]" call(give3) eob
 
 l_0xc59d30:
-    "{diam}See Venus performing.{wait}" linebreak
+    "{diam}Sieh dir Venus' Auff[cb]hrung an.{wait}" linebreak
     "{window_closeall}{counter(50)}" call(data_09.l_0xc5a4ec) "{set(flag 150)}{set(flag 273)}{set(flag 16)}{set(flag 140)}{set(flag 52)}" call(data_09.l_0xc5a526) "[1F 21 86]" call(give3) eob
 
 l_0xc59d61:
-    "{diam}Second encounter with Tessie.{wait}" linebreak
+    "{diam}Tessie ein weiteres Mal gesichtet.{wait}" linebreak
     "{window_closeall}{counter(51)}" call(data_09.l_0xc5a4ec) call(data_09.l_0xc5a526) "[1F 21 87]" call(give3) eob
 
 l_0xc59d7f:
-    "{diam}Confront Starman Deluxe.{wait}" linebreak
+    "{diam}Stelle dich den Starman Deluxe.{wait}" linebreak
     "{window_closeall}{counter(51)}" call(data_09.l_0xc5a4ec) "{set(flag 299)}" call(data_09.l_0xc5a526) "[1F 21 88]" call(give3) eob
 
 l_0xc59da0:
-    "{diam}Sail to Scarabia.{wait}" linebreak
+    "{diam}Segel nach Scaraba setzen.{wait}" linebreak
     "{window_closeall}{counter(52)}" call(data_09.l_0xc5a4ec) call(data_09.l_0xc5a526) "[1F 21 89]" call(give3) eob
 
 l_0xc59dbd:
-    "{diam}Arriving to the Lost Underworld.{wait}" linebreak
+    "{diam}In der Verlorenen Unterwelt angekommen.{wait}" linebreak
     "{window_closeall}{counter(61)}" call(data_09.l_0xc5a4ec) call(data_09.l_0xc5a526) "[1F 21 21][1D 0E 01 D3]" call(give3) eob
 
 l_0xc59de1:
-    "{diam}Solve the Sphinx's puzzle.{wait}" linebreak
+    "{diam}L[c9]se das R[c0]tsel der Sphinx.{wait}" linebreak
     "{window_closeall}{counter(52)}" call(data_09.l_0xc5a4ec) call(data_09.l_0xc5a526) "[1F 21 8B]" call(give3) eob
 
 l_0xc59e01:
-    "{diam}Get the Yellow submarine.{wait}" linebreak
+    "{diam}Hole dir das gelbe U-Boot.{wait}" linebreak
     "{window_closeall}{counter(54)}" call(data_09.l_0xc5a4ec) "[1F 11 02][1F 11 03]{set(flag 274)}[1F 21 8C]" call(give3) eob
 
 l_0xc59e21:
-    "{diam}Going to Lumine Hall.{wait}" linebreak
+    "{diam}Begib dich in die Licht Halle.{wait}" linebreak
     "{window_closeall}{counter(60)}" call(data_09.l_0xc5a4ec) call(data_09.l_0xc5a526) "{set(flag 196)}[1F 21 8D]" call(give3) eob
 
 l_0xc59e40:
-    "{diam}Get the final melody.{wait}" linebreak
+    "{diam}Hole dir die letzte Melodie.{wait}" linebreak
     "{window_closeall}{counter(61)}" call(data_09.l_0xc5a4ec) call(data_09.l_0xc5a526) "{set(flag 197)}[1F 21 8E]" call(give3) eob
 
 l_0xc59e62:
-    "{diam}Riding the Phase Distorter.{wait}" linebreak
+    "{diam}Reise mit dem Weltraumtunnel.{wait}" linebreak
     "{window_closeall}{counter(63)}" call(data_09.l_0xc5a4ec) call(data_09.l_0xc5a526) "[1F 21 8F]" call(give3) eob
 
 l_0xc59e84:
-    "{diam}Riding the Phase Distorter 2.{wait}" linebreak
+    "{diam}Reise mit dem Weltraumtunnel 2.{wait}" linebreak
     "{window_closeall}{counter(63)}" call(data_09.l_0xc5a4ec) call(data_09.l_0xc5a526) "{set(flag 79)}{set(flag 134)}{set(flag 133)}{set(flag 382)}[1F 21 8F]" call(give3) eob
 
 l_0xc59eb2:
-    "{diam}Going through the Monkey Caves.{wait}" linebreak
+    "{diam}Lauf durch die Affen H[c9]hle.{wait}" linebreak
     "{window_closeall}{counter(43)}" call(data_09.l_0xc5a4ec) "[1F 11 03][1D 0E 01 E0][1D 0E 01 5D][1D 0E 01 5A][1D 0E 01 5A][1D 0E 01 E9][1D 0E 01 5F][1D 0E 01 5F][1D 0E 01 61][1D 0E 01 7F][1D 0E 01 6C][1D 0E 01 5C][1D 0E 01 8C][1D 0E 01 B8]{set(flag 59)}{set(flag 745)}[1F 21 90]" call(give3) eob
 
 l_0xc59f08:
-    "{diam}{name(4)} obtains PK Starstorm.{wait}" linebreak
+    "{diam}{name(4)} erlernt PK Meteorsturm.{wait}" linebreak
     "{window_closeall}{counter(43)}" call(data_09.l_0xc5a4ec) call(data_09.l_0xc5a526) "{set(flag 132)}{set(flag 382)}[1F 66 01 07 3C BC C9 00][1F 66 02 29 17 59 EF 00][1F 21 91]" call(give3) eob
 
 l_0xc59f44:
-    "{diam}{name(2)}'s kidnap.{wait}" linebreak
+    "{diam}{name(2)} wurde entf[cb]hrt.{wait}" linebreak
     "{window_closeall}{counter(14)}" call(data_09.l_0xc5a4ec) "{set(flag 210)}[1F 21 92]" call(give3) eob
 
 l_0xc59f60:
-    "{diam}Meeting the Apple Kid.{wait}" linebreak
+    "{diam}Triff Apfel Kind.{wait}" linebreak
     "{window_closeall}{counter(14)}" call(data_09.l_0xc5a4ec) "{set(flag 210)}[1D 0E 01 5A][1F 21 93]" call(give3) eob
 
 l_0xc59f80:
-    "{diam}The Bought House.{wait}" linebreak
+    "{diam}Dein gekauftes Haus.{wait}" linebreak
     "{window_closeall}{counter(12)}" call(data_09.l_0xc5a4ec) "{set(flag 99)}[1F 21 94]" call(give3) eob
 
 l_0xc59fa0:
-    "{diam}Onett Library.{wait}" linebreak
+    "{diam}Onett B[cb]cherei.{wait}" linebreak
     "{window_closeall}{counter(12)}" call(data_09.l_0xc5a4ec) "[1F 21 95]" call(give3) eob
 
 l_0xc59fbd:
-    "{diam}{name(4)} leaves the party.{wait}" linebreak
+    "{diam}{name(4)} verl[c0]sst deine Gruppe.{wait}" linebreak
     "{window_closeall}{counter(52)}" call(data_09.l_0xc5a4ec) call(data_09.l_0xc5a526) "{set(flag 217)}[1F 66 01 10 58 32 C9 00][1D 0E 04 AF][1F 21 A6]" call(give3) eob
 
 l_0xc59ff1:
-    "{diam}Fight {name(1)}'s Demon.{wait}" linebreak
+    "{diam}Besiege den D[c0]mon von {name(1)}.{wait}" linebreak
     "{window_closeall}{counter(62)}" call(data_09.l_0xc5a4ec) "{set(flag 548)}[1F 21 A7]" call(give3) eob
 
 l_0xc5a00c:
-    "{diam}Face Carpainter with the Fraklin badge.{wait}" linebreak
+    "{diam}Konfrontiere Carpainter mit dem Fraklin Orden.{wait}" linebreak
     "{window_closeall}{counter(21)}" call(data_09.l_0xc5a4ec) "[1D 0E 01 01][1F 21 77]" call(give3) eob
 
 l_0xc5a036:
-    "{diam}Everdred's speech.{wait}" linebreak
+    "{diam}Everdreds Rede.{wait}" linebreak
     "{window_closeall}{counter(41)}" call(data_09.l_0xc5a4ec) "{set(flag 139)}{set(flag 60)}[1F 11 03][1D 0E 01 5A][1F 21 A8]" call(give3) eob
 
 l_0xc5a05b:
-    "{diam}Give the Strawberry tofu to Electra.{wait}" linebreak
+    "{diam}Gib Electra den" linebreak
+	"  [1C 05 8B].{wait}" linebreak
     "{window_closeall}{counter(43)}" call(data_09.l_0xc5a4ec) "[1F 11 03][1D 0E 01 8B][1F 21 A9]" call(give3) eob
 
 l_0xc5a07e:
-    "{diam}Give the banana to Mr. Spoon.{wait}" linebreak
+    "{diam}Gib Mr. L[c9]ffel die Banane.{wait}" linebreak
     "{window_closeall}{counter(50)}" call(data_09.l_0xc5a4ec) call(data_09.l_0xc5a526) "[1D 0E 01 B7]{set(flag 150)}{set(flag 273)}{set(flag 16)}{set(flag 140)}{set(flag 91)}[1F 21 AA]" call(give3) eob
 
 l_0xc5a0b3:
-    "{diam}Deep Darkness with Hawk eye.{wait}" linebreak
+    "{diam}In der Tiefen Dunkelheit mit dem [1C 05 AF].{wait}" linebreak
     "{window_closeall}{counter(53)}" call(data_09.l_0xc5a4ec) "[1F 11 02][1F 11 03][1D 0E 01 AF]{set(flag 218)}[1F 21 AB]" call(give3) eob
 
 l_0xc5a0db:
-    "{diam}Mani Mani defeated, inside Borges' bar storage.{wait}" linebreak
+    "{diam}Mani Mani besiegt.{wait}" linebreak
     "{window_closeall}{counter(42)}" call(data_09.l_0xc5a4ec) "{set(flag 59)}[1F 11 03][1F 21 9A]" call(give3) eob
 
 l_0xc5a0fe:
-    "{diam}Get the Shack key from Pirkle.{wait}" linebreak
+    "{diam}Hol dir den [1C 05 AA] von G. K. Pirkle.{wait}" linebreak
     "{window_closeall}{counter(12)}" call(data_09.l_0xc5a4ec) "{set(flag 64)}{set(flag 2)}{set(flag 40)}[1F 66 02 11 15 88 C6 00][1F 21 AD]" call(give3) eob
 
 l_0xc5a11a:
-    "{diam}Leave Snow Wood.{wait}" linebreak
+    "{diam}Verlasse Snow Wood.{wait}" linebreak
     "{window_closeall}{counter(30)}" call(data_09.l_0xc5a4ec) "[1F 11 03][1F 12 01][1F 11 08]{set(flag 212)}{set(flag 23)}{set(flag 88)}{set(flag 128)}[1D 0E 03 AC][1D 0E 03 24][1D 0E 03 4B][1F 21 B8]" call(give3) eob
 
 l_0xc5a154:
@@ -331,11 +332,11 @@ l_0xc5a154:
     "{window_closeall}{counter(51)}" call(data_09.l_0xc5a4ec) "{set(flag 201)}{set(flag 202)}" call(data_09.l_0xc5a526) "[1D 0E 01 A3][1F 21 7A]" call(give3) eob
 
 l_0xc5a17d:
-    "{diam}Tenda Village and Apple Kid's abduction.{wait}" linebreak
+    "{diam}Im Gummi Dorf vor Apfel Kinds Entf[cb]hrung.{wait}" linebreak
     "{window_closeall}{counter(60)}" call(data_09.l_0xc5a4ec) call(data_09.l_0xc5a526) "{set(flag 219)}{set(flag 154)}{set(flag 102)}{set(flag 89)}{set(flag 155)}{set(flag 430)}[1D 0E 01 A4][1F 21 16]" call(give3) eob
 
 l_0xc5a1ae:
-    "{diam}Saturn Village after Belch's base.{wait}" linebreak
+    "{diam}Im Saturn Dorf nach R[cb]lps Niederlage.{wait}" linebreak
     "{window_closeall}{counter(35)}" call(data_09.l_0xc5a4ec) "[1F 11 02][1F 11 03][1F 21 8F]" call(give3) eob
 
 l_0xc5a1cd:
@@ -343,70 +344,70 @@ l_0xc5a1cd:
     "{window_closeall}{counter(60)}" call(data_09.l_0xc5a4ec) call(data_09.l_0xc5a526) "[1D 0E 03 04][1D 0E 03 05][1D 0E 03 06][1D 0E 03 07][1D 0E 03 A1][1F 21 8A]" call(give3) eob
 
 l_0xc5a1ff:
-    "{diam}Final encounter with Porky and Giygas.{wait}" linebreak
+    "{diam}Letzes Treffen mit Porky und Giygas.{wait}" linebreak
     "{counter(65)}" call(data_09.l_0xc5a4ec) call(data_09.l_0xc5a526) call(data_06.l_0xc58659) "[1E 08 01 5A][1E 08 02 46][1E 08 03 46][1E 08 04 41][1F 21 D7]" call(give3) eob
 
 l_0xc5a232:
-    "{diam}Use the Zombie paper.{wait}" linebreak
+    "{diam}Benutze das [1C 05 AE].{wait}" linebreak
     "{window_closeall}{counter(33)}" call(data_09.l_0xc5a4ec) "[1F 11 02][1F 11 03]{set(flag 69)}{unset(flag 49)}{set(flag 87)}[1D 0E 01 AE][1F 21 1C]" call(give3) eob
 
 l_0xc5a25e:
-    "{diam}Get the Zombie paper.{wait}" linebreak
+    "{diam}Hol dir das [1C 05 AE].{wait}" linebreak
     "{window_closeall}{counter(33)}" call(data_09.l_0xc5a4ec) "[1F 11 02][1F 11 03][1F 21 1C]" call(give3) eob
 
 l_0xc5a27a:
-    "{diam}Go to the Lost Underworld.{wait}" linebreak
+    "{diam}Geh in die Verlorene Unterwelt.{wait}" linebreak
     "{window_closeall}{counter(61)}" call(data_09.l_0xc5a4ec) call(data_09.l_0xc5a526) "[1F 21 29]" call(give3) eob
 
 l_0xc5a29c:
-    "{diam}Learn Teleport.{wait}" linebreak
+    "{diam}Lerne Teleportation.{wait}" linebreak
     "{window_closeall}{counter(43)}" call(data_09.l_0xc5a4ec) "[1F 11 03]{set(flag 554)}{set(flag 613)}{set(flag 614)}[1F 21 90]" call(give3) eob
 
 l_0xc5a2c2:
-    "{diam}First trip to Dungeon man.{wait}" linebreak
+    "{diam}Erste Reise zum Dungeon Man.{wait}" linebreak
     "{window_closeall}{counter(53)}" call(data_09.l_0xc5a4ec) "[1F 11 02][1F 11 03]{set(flag 24)}[1F 21 9F][1F 66 01 09 81 33 C9 00]" call(give3) eob
 
 l_0xc5a2ec:
-    "{diam}Reach Monotoly.{wait}" linebreak
+    "{diam}Besuche Monotoli.{wait}" linebreak
     "{window_closeall}{counter(41)}" call(data_09.l_0xc5a4ec) "[1D 0E 02 B8][1F 11 02][1F 11 03][1F 21 50][1F 66 01 0B 5A 95 C8 00]" call(give3) eob
 
 l_0xc5a318:
-    "{diam}{name(1)}'s family prayer.{wait}" linebreak
+    "{diam}Das Gebet von der Familie von {name(1)}.{wait}" linebreak
     "{window_closeall}{counter(65)}" call(data_09.l_0xc5a4ec) call(data_09.l_0xc5a526) "{set(flag 372)}" call(data_31.l_0xc7b9a1) "[1F E8 FF]" call(give3) eob
 
 l_0xc5a342:
-    "{diam}Runaway Bros.' prayer.{wait}" linebreak
+    "{diam}Das Gebet der Runaway Br[cb]der.{wait}" linebreak
     "{window_closeall}{counter(65)}" call(data_09.l_0xc5a4ec) call(data_09.l_0xc5a526) "{set(flag 372)}" call(data_31.l_0xc7ba2c) "[1F E8 FF]" call(give3) eob
 
 l_0xc5a36c:
-    "{diam}{name(2)}'s family prayer.{wait}" linebreak
+    "{diam}Das Gebet von der Familie von {name(2)}.{wait}" linebreak
     "{window_closeall}{counter(65)}" call(data_09.l_0xc5a4ec) call(data_09.l_0xc5a526) "{set(flag 372)}" call(data_31.l_0xc7bac7) "[1F E8 FF]" call(give3) eob
 
 l_0xc5a396:
-    "{diam}{name(8)}'s prayer.{wait}" linebreak
+    "{diam}Das Gebet von {name(8)}.{wait}" linebreak
     "{window_closeall}{counter(65)}" call(data_09.l_0xc5a4ec) call(data_09.l_0xc5a526) "{set(flag 372)}" call(data_31.l_0xc7bb38) "[1F E8 FF]" call(give3) eob
 
 l_0xc5a3c0:
-    "{diam}Dalaam prayer.{wait}" linebreak
+    "{diam}Gebete in Dalaam.{wait}" linebreak
     "{window_closeall}{counter(65)}" call(data_09.l_0xc5a4ec) call(data_09.l_0xc5a526) "{set(flag 372)}" call(data_31.l_0xc7bbf3) "[1F E8 FF]" call(give3) eob
 
 l_0xc5a3ea:
-    "{diam}Frank's prayer.{wait}" linebreak
+    "{diam}Das Gebet von Frank.{wait}" linebreak
     "{window_closeall}{counter(65)}" call(data_09.l_0xc5a4ec) call(data_09.l_0xc5a526) "{set(flag 372)}" call(data_31.l_0xc7bc56) "[1F E8 FF]" call(give3) eob
 
 l_0xc5a414:
-    "{diam}Saturn Valley prayer.{wait}" linebreak
+    "{diam}Gebete im Saturn Dorf.{wait}" linebreak
     "{window_closeall}{counter(65)}" call(data_09.l_0xc5a4ec) call(data_09.l_0xc5a526) "{set(flag 372)}" call(data_31.l_0xc7bc96) "[1F E8 FF]" call(give3) eob
 
 l_0xc5a43e:
-    "{diam}Ride the Sky Walker to Summers.{wait}" linebreak
+    "{diam}Fliege den Sky Walker nach Summers.{wait}" linebreak
     "{window_closeall}{counter(44)}" call(data_09.l_0xc5a4ec) "[1F 11 03][1F 11 02]{set(flag 184)}{unset(flag 748)}[1F 21 7D]" call(give3) eob
 
 l_0xc5a465:
-    "{diam}Leave Summers.{wait}" linebreak
+    "{diam}Verlasse Summers.{wait}" linebreak
     "{window_closeall}{counter(50)}" call(data_09.l_0xc5a4ec) call(data_09.l_0xc5a526) "{set(flag 150)}{set(flag 273)}{set(flag 16)}[1F 21 1F]" call(give3) eob
 
 l_0xc5a48b:
-    "{diam}Meeting with Buzz Buzz.{wait}" linebreak
+    "{diam}Zusammen mit Buzz Buzz.{wait}" linebreak
     "{window_closeall}{counter(11)}" call(data_09.l_0xc5a4ec) "[1F 11 05][1F 11 06][1F 21 73][1F 66 01 2B 01 75 C6 00]" call(give3) eob
 

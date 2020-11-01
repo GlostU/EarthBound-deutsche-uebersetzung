@@ -9,7 +9,7 @@ import asm65816
 
 // Text Data
 l_0xc64eca:
-    "@(Wir vertrauen Ihnen. F[cb]hlen Sie sich frei hier zu kaufen.)" next
+    "@(Wir vertrauen Ihnen. F[cb]hlen Sie sich frei, hier zu kaufen.)" next
     "@Was m[c9]chtest du kaufen?[03]{open_wallet}{open_hp}[1A 06 30]" newline
     "[1B 02 {e(l_0xc64fb3)}]{swap}[1D 03 FF][1B 02 {e(l_0xc64fde)}]{store_registers}"
 	"@Wie viel m[c9]chtest du bezahlen?" linebreak
@@ -82,11 +82,11 @@ l_0xc65057:
     call(data_32.l_0xc7c59e) eob
 
 l_0xc6505d:
-//TODO Itemnamen anpassen
     "[06 AE 01 {e(l_0xc651cc)}]@Ich mag H[c9]rner des Lebens." next
-    "@Gib mir dein [1C 05 82]," next
-    "@ich gebe dir daf[cb]r auch etwas." next
-    "@Schau dir die Liste an.{window_open(7)}[06 A8 01 {e(l_0xc650ac)}][19 02]Trockenes Br[c9]tchen" eob
+    "@Gib mir dein [1C 05 82]." next
+    "@Ich gebe dir auch etwas." next
+    "@Schau dir Liste an." linebreak
+	"  Diese Gegenst[c0]nde kann geben:[03]{window_open(7)}[06 A8 01 {e(l_0xc650ac)}][19 02]Trockenes Br[c9]tchen" eob
 
 l_0xc650ac:
     "[06 A9 01 {e(l_0xc650c2)}][19 02]Schlichter Joghurt" eob
@@ -95,7 +95,7 @@ l_0xc650c2:
     "[06 AA 01 {e(l_0xc650d6)}][19 02]Trockenes Br[c9]tchen" eob
 
 l_0xc650d6:
-    "[06 AB 01 {e(l_0xc650eb)}][19 02]Scharfes Fleisch" eob
+    "[06 AB 01 {e(l_0xc650eb)}][19 02]Scharfes Tr.fleisch" eob
 
 l_0xc650eb:
     "[06 AC 01 {e(l_0xc65105)}][19 02]Dragonitpulver" eob
@@ -104,7 +104,7 @@ l_0xc65105:
     "[06 AD 01 {e(l_0xc6511c)}][19 02]Talisman M[cb]nze" eob
 
 l_0xc6511c:
-    "[19 02]Ruhmeshallenschl." eob
+    "[19 02]Ruhmeshallen[c3]" eob
 
 l_0xc6512f:	
 	"[1C 0C 01]{wait}{window_closetop}{window_switch(1)}" newline
@@ -156,7 +156,7 @@ l_0xc65243:
     "@Pschhhhh! Sei leise!" linebreak
     "  Ich sehe vielleicht wichtig aus, aber das bin ich nicht....." next
     "@Ich bin ein Bankautomatmann." next
-    "@Wenn du Geld abheben willst....." next
+    "@Wenn du Geld abheben willst,..." next
     "@musst du eine Bearbeitungsgeb[cb]hr bezahlen," next
     "@die so hoch wie dein abgehobenes Geld ist." next
     "@Also, m[c9]chtest du Geld abheben?" linebreak
@@ -218,7 +218,7 @@ l_0xc6550e:
     goto(l_0xc652f1)
 
 l_0xc65527:
-    "@Ich glaube, dass du nicht gen[cb]gend Geld auf dein Konto hast." next
+    "@Ich glaube, dass du nicht gen[cb]gend Geld auf deinem Konto hast." next
     goto(l_0xc653a5)
 
 l_0xc65544:
@@ -240,7 +240,7 @@ l_0xc6558c:
 l_0xc655b1:
     "[06 03 00 {e(l_0xc65962)}]{set(flag 3)}@Du bist ein Ausl[c0]nder, oder?" next
     "@Ich bin ein weltbewanderter Gummi." next
-    "@Ich war ein Austauschsch[cb]ler, der in ein Land gereist ist, dass" next
+    "@Ich war ein Austauschsch[cb]ler, der in ein Land gereist ist, das" next
     "@als eine wirtschaftliche Supermacht bekannt ist." next
     "@Mein Name ist E-go Trist." next
 	title(1, Ego)
@@ -264,10 +264,10 @@ l_0xc65694:
 
 l_0xc656f5:
 //https://legendsoflocalization.com/earthbound/lost-underworld/#making-a-deal
-    "@Ich w[cb]rde nie etwas machen, dass meine Kunden missfallen w[cb]rden." end
+    "@Ich w[cb]rde nie etwas machen, was meine Kunden missfallen w[cb]rden." end
 
 l_0xc65713:
-    "@Du hast darzeit $[1C 01 07] auf dein Konto." linebreak
+    "@Du hast derzeit $[1C 01 07] auf deinem Konto." linebreak
     "[19 02]Abheben[02][19 02]Einzahlen[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc657ac)} {e(l_0xc65751)}]" goto(l_0xc65671)
 
 l_0xc65751:
@@ -307,7 +307,7 @@ l_0xc658d4:
     goto(l_0xc65751)
 
 l_0xc658e8:
-    "@Du hast kein Geld auf dein Konto." next
+    "@Du hast kein Geld auf deinem Konto." next
     goto(l_0xc65671)
 
 l_0xc65900:
@@ -315,11 +315,11 @@ l_0xc65900:
     goto(l_0xc65671)
 
 l_0xc65923:
-    "@Du hast nicht gen[cb]gend Geld auf dein Konto." next
+    "@Du hast nicht gen[cb]gend Geld auf deinem Konto." next
     goto(l_0xc657ac)
 
 l_0xc6593e:
-    "[1D 06 00 00 00 00]@Ich glaube, du keinst meine Bearbeitungsgeb[cb]hr nicht zahlen." next
+    "[1D 06 00 00 00 00]@Ich glaube, du kannst meine Bearbeitungsgeb[cb]hr nicht zahlen." next
     goto(l_0xc657ac)
 
 l_0xc65962:
@@ -362,7 +362,7 @@ l_0xc65a4c:
 	"@Ger[cb]chten zufolge soll der Boss der Haie in der N[c0]he vom Riesen Tritt herumh[c0]ngen." end
 
 l_0xc65a8c:
-    "@Ich glaube Frank ist kein typischer verr[cb]ckter Schl[c0]gertyp." end
+    "@Ich glaube, Frank ist kein typischer verr[cb]ckter Schl[c0]gertyp." end
 
 l_0xc65ab6:
     "@Frank ist nicht in der Spielhalle." next
@@ -372,7 +372,7 @@ l_0xc65ae9:
     "[06 49 00 {e(l_0xc65b93)}][06 D2 00 {e(l_0xc65b66)}]@Diese Stadt ist au[b8]er Kontrolle." next
     "@Die wilden Jungs h[c0]ngen in der Stadt herum und die Polizei " next
     "@geht mit jedem hier sehr streng um." next
-    "@Ich [cb]berlege schon nach Twoson,{pause(15)} die Stadt im S[cb]den, zu ziehen." end
+    "@Ich [cb]berlege schon, nach Twoson,{pause(15)} die Stadt im S[cb]den, zu ziehen." end
 
 l_0xc65b66:
     "@Die wilden Punks haben sich beruhigt,{pause(15)} aber ich f[cb]hle mich noch immer nicht richtig sicher." end
@@ -393,7 +393,7 @@ l_0xc65c01:
 l_0xc65c89:
     "[06 D3 00 {e(l_0xc65ce1)}]@Wau-wuff!{pause(20)}" linebreak
 	"  (Glaubst du nicht, dass du eine Waffe brauchen wirst?" next
-    "@Wusstest du, dass der Supermarkt Sachen verkauft, die du benutzten kannst?" next
+    "@Wusstest du, dass der Supermarkt Sachen verkauft, die du benutzen kannst?" next
     "@...Ich wusste das schon.)" end
 
 l_0xc65ce1:
@@ -409,7 +409,7 @@ l_0xc65cec:
 
 l_0xc65d81:
     "@$7500 sind zu viel f[cb]r dich?" next
-	"@Das war pure Zeitverschwendung mit dir zu reden." end
+	"@Es war pure Zeitverschwendung, mit dir zu reden." end
 
 l_0xc65da6:
     "[1D 14 4C 1D 00 00][1B 03 {e(l_0xc65d81)}]{sound(118)}[1D 09 4C 1D]{open_wallet}"

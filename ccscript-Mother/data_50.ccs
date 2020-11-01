@@ -32,7 +32,7 @@ l_0xc98ae8:
 
 l_0xc98b07:
     "@Endlich habe ich die Gelegenheit mich zu entschuldigen." next
-	"@Es tut mir leid.{wait}{window_closeall}" eob
+	"@Es tut mir wirklich leid.{wait}{window_closeall}" eob
 
 l_0xc98b24:
     "{font_saturn}[06 44 00 {e(l_0xc98b5a)}]@Ich dich nicht kennen." next

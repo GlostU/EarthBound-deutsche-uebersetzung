@@ -8,6 +8,8 @@ import asm65816
 import give2
 
 Droge:
+//DEBUG TEST ENTFERNEN
+//goto(data_35.l_0xc805ba)
 "@Die Schublade hat ein Schloss." next
 "@Geheimzahl:"
 input(3) store_registers
@@ -62,7 +64,7 @@ Anleitung:
 	"{diam}Gehe dazu auf <Event> und gib eine Zahl von 1 bis 70 an." next
 	"{diam}Der Rest ist eigentlich ziemlich selbsterkl[c0]rend, aber manche Funktionen lassen die Welt" next
 	"{diam}einfrieren!" next
-	"{diam}Pass also auf, dass du keinen Bl[c9]dsinn machst, wie z.B. deine Bankkarte zu vernichten und" next
+	"{diam}Pass also auf, dass du keinen Bl[c9]dsinn machst, wie z.B. deine Bankkarte vernichten und" next
 	"{diam}danach dein Spiel zu speichern." next
 	"{diam}Lass dich davon aber nicht abschrecken und hab Spa[b8]." next
 	"{diam}[bb]brigens, wenn du zum Zeitpunkt, kurz bevor du dein Abenteuer beendet hattest," next
@@ -265,7 +267,7 @@ vDroge:
 
 l_0xc58000:
     "{window_open(1)}" newline
-    "{diam}Debug an. W[c0]hle Funktion[18 02]{open_hp}{open_wallet}{window_open(2)}[19 02]Team[02][19 02]Item[02][19 02]Status[02][19 02]Zum Ort bewegen[02][19 02]Geld[02][19 02]Level-UP[02][19 02]Unbenutzte Skript[02][19 02]Event[02][19 02]Tipp Laden[02][19 02]Musik[02][19 02]Beschreibungen[02][19 02]Teleport[02][19 02]Tipp Karte[02][19 02]Gegner Spawn[02][1C 0C 02][11][1B 05]{window_closetop}{window_switch(1)}{clearline}" newline
+    "{diam}Debug an. W[c0]hle Funktion[18 02]{open_hp}{open_wallet}{window_open(2)}[19 02]Team[02][19 02]Item[02][19 02]Status[02][19 02]Zum Ort bewegen[02][19 02]Geld[02][19 02]Level-UP[02][19 02]Unbenutzte Skripts[02][19 02]Event[02][19 02]Tipp Laden[02][19 02]Musik[02][19 02]Beschreibungen[02][19 02]Teleport[02][19 02]Tipp Karte[02][19 02]Gegner Spawn[02][1C 0C 02][11][1B 05]{window_closetop}{window_switch(1)}{clearline}" newline
     "[1B 06][09 0E {e(l_0xc58103)} {e(l_0xc58262)} {e(l_0xc58718)} {e(data_07.l_0xc588cd)} {e(data_07.l_0xc58afb)} {e(data_07.l_0xc58a36)} {e(data_07.l_0xc58c88)} {e(data_08.l_0xc59895)} {e(data_07.l_0xc58e13)} {e(data_07.l_0xc58d09)} {e(data_09.l_0xc5a57f)} {e(data_07.l_0xc58e73)} {e(l_0xc580da)} {e(data_07.l_0xc58dbf)}]{diam}Debug aus" linebreak
 	"  Viel Spa[b8]." end
 
@@ -283,7 +285,7 @@ l_0xc5812f:
     "  Partner?" goto(l_0xc58148)
 
 l_0xc58148:
-    "{window_open(8)}[19 02]Ness[02][19 02]Paula[02][19 02]Jeff[02][19 02]Poo[02][19 02]Porky[02][19 02]Picky[02][19 02]King[02][19 02]Tony[02][19 02]Ballon Affe[02][19 02]Dungeon Man[02][19 02]Flying Man #1[02][19 02]Flying Man #2[02][19 02]Flying Man #3[02][19 02]Flying Man #4[02][19 02]Flying Man #5[02][1C 0C 03][11][1B 05][19 04]{window_closetop}{window_switch(1)}[1B 06][1B 02 {e(l_0xc581e7)}]{swap}[1F 11 00]{open_hp}" goto(l_0xc58148)
+    "{window_open(8)}[19 02]Ness[02][19 02]Paula[02][19 02]Jeff[02][19 02]Poo[02][19 02]Porky[02][19 02]Picky[02][19 02]King[02][19 02]Tony[02][19 02]Blasen Affe[02][19 02]Dungeon Man[02][19 02]Flieg. Mann #1[02][19 02]Flieg. Mann #2[02][19 02]Flieg. Mann #3[02][19 02]Flieg. Mann #4[02][19 02]Flieg. Mann #5[02][1C 0C 03][11][1B 05][19 04]{window_closetop}{window_switch(1)}[1B 06][1B 02 {e(l_0xc581e7)}]{swap}[1F 11 00]{open_hp}" goto(l_0xc58148)
 
 l_0xc581e7:
     "{window_closetop}" goto(l_0xc58000)

@@ -200,7 +200,7 @@ l_0xc58bd1:
 l_0xc58bd2:
     "{diam}Gebe die Menge ein:" linebreak
     "[18 05 04 0A]&[18 05 04 02]$[1F 52 05]{clearline}[1B 02 {e(l_0xc58c2a)}]{store_registers}" call(l_0xc58c55) "{load_registers}{swap}[1D 08 00 00]{open_wallet}{diam}Du hast jetzt" linebreak
-    " [1C 0A 00 00 00 00] bei dir.{wait}" goto(l_0xc58c2a)
+    " $[1C 0A 00 00 00 00] bei dir.{wait}" goto(l_0xc58c2a)
 
 l_0xc58c2a:
     goto(data_06.l_0xc58000)
@@ -232,7 +232,7 @@ l_0xc58c7d:
 
 l_0xc58c88:
     "{diam}W[c0]hle ein" linebreak
-    " Skript.[18 02]{open_hp}{open_wallet}{window_open(7)}[19 02]Post Lieferung[02][19 02]Post Abholen[02][19 02]Pizza Lieferung[02][19 02]Geldspender Mann[02][19 02]Ay-go Stikke[02][1C 0C 01][11][1B 05]{window_closetop}{window_switch(1)}" newline
+    " Skript.[18 02]{open_hp}{open_wallet}{window_open(7)}[19 02]Post Lieferung[02][19 02]Post Abholen[02][19 02]Pizza Lieferung[02][19 02]Geldspender Mann[02][19 02]E-go Trist[02][1C 0C 01][11][1B 05]{window_closetop}{window_switch(1)}" newline
     "[1B 06][1F C0 05 {e(data_18.l_0xc642a3)} {e(data_18.l_0xc63eb0)} {e(data_18.l_0xc64bbf)} {e(data_19.l_0xc65243)} {e(data_19.l_0xc655b1)}]" eob
 
 l_0xc58d09:

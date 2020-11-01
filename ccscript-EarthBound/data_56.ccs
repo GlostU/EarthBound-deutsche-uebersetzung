@@ -245,7 +245,7 @@ l_0xef66ca:
 
 l_0xef679a:
     "[06 C1 00 {e(data_32.l_0xc7c588)}]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(data_22.l_0xc690a6)}]{music(155)}@Du bist endlich angekommen." next
-    "@Das ist das dritte deiner <Heiligt[cb]mer>.{pause(20)} Aber jetzt geh[c9]rt es mir." next
+    "@Das ist das Dritte deiner <Heiligt[cb]mer>.{pause(20)} Aber jetzt geh[c9]rt es mir." next
     "@Nimm es von mir,{pause(30)} wenn du dich traust...[03]" call(data_21.l_0xc6841e) "[1B 03 {e(data_21.l_0xc683de)}][1F 1E C1 02 08]{pause(120)}{set(flag 193)}" eob
 
 l_0xef6814:

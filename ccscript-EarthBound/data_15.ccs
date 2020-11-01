@@ -113,7 +113,7 @@ l_0xc5f1fb:
     "{music(119)}" goto(l_0xc5f2ad)
 
 l_0xc5f2ad:
-    "@Um Giygas zu besiegen muss deine eigene Kraft mit der von der Erde eins werden..." next
+    "@Um Giygas zu besiegen, muss deine eigene Kraft mit der von der Erde eins werden..." next
     "@Die Erde wird dann deine Kraft lenken und sie vervielfachen..." next
     "@Es gibt acht Orte, die du besuchen musst.{pause(20)} Mach dir diese Orte zu deinem Eigentum..." next
     "@Jeder dieser Orte ist" linebreak
@@ -130,7 +130,7 @@ l_0xc5f39d:
 
 l_0xc5f3d2:
     "@Alles klar." next
-    "@Du bist ein sehr inetlligenter junger Mann...{pause(15)} und..." next
+    "@Du bist ein sehr intelligenter junger Mann...{pause(15)} und..." next
     "@Oh!{pause(15)}  Der Schmerz!...{pause(20)} Alles wird schwarz..." next
     "@urgh!...{pause(15)} *Keuch*..." next
     "@Bevor ich heimgehe,{pause(15)} will ich dir etwas geben..." next

@@ -73,7 +73,7 @@ l_0xc6829f:
     "{window_closeall}[1F 11 0B][1F EB 0B 06][1F F1 21 05 2F 00][1F 61][1F 1E 21 05 06][1F EC 0B 01]{music(123)}{pause(120)}{pause(60)}{music_resume}{window_open(1)}@(Der Fliegende Mann schlie[b8]t sich dir an.)[03]{window_closeall}" eob
 
 l_0xc682dd:
-    "{window_closeall}[1F 11 0C][1F EB 0C 06][1F F1 22 05 2F 00][1F 61][1F 1E 22 05 06][1F EC 0C 01]{music(123)}{pause(120)}{pause(60)}{music_resume}{window_open(1)}@(Der Fliegende Mann schlie[b8]t sich dir an..)[03]{window_closeall}" eob
+    "{window_closeall}[1F 11 0C][1F EB 0C 06][1F F1 22 05 2F 00][1F 61][1F 1E 22 05 06][1F EC 0C 01]{music(123)}{pause(120)}{pause(60)}{music_resume}{window_open(1)}@(Der Fliegende Mann schlie[b8]t sich dir an.)[03]{window_closeall}" eob
 
 l_0xc6831b:
     "{window_closeall}[1F 11 0D][1F EB 0D 06][1F F1 23 05 2F 00][1F 61][1F 1E 23 05 06][1F EC 0D 01]{music(123)}{pause(120)}{pause(60)}{music_resume}{window_open(1)}@(Der Fliegende Mann schlie[b8]t sich dir an.)[03]{window_closeall}" eob
@@ -255,18 +255,18 @@ l_0xc685b4:
 
 l_0xc685bb:
     newline
-    "@Aber, du kannst nichts mehr tragen." end
+    "@Aber du kannst nichts mehr tragen." end
 
 l_0xc685cb:
     newline
-    "@Aber, es war leer.{wait}" goto(l_0xc685da)
+    "@Aber es war leer.{wait}" goto(l_0xc685da)
 
 l_0xc685da:
     "[1D 0D 03 01 02][1B 03 {e(l_0xc68650)}][1D 0D 03 01 03][1B 03 {e(l_0xc68650)}][06 B8 02 {e(l_0xc68651)}][1F D0 64]" goto(l_0xc685fa)
 
 l_0xc685fa:
     "[1B 02 {e(l_0xc68650)}][1B 05]{window_open(1)}" newline
-    "[1B 06]@W[c0]hrend der Nacht hat," linebreak
+    "[1B 06]@W[c0]hrend der Nacht hat" linebreak
     "  [1C 02 03] durchgearbeitet und {swap}{rtoarg}{call(data_ItemText.WennDefArtikel)} repariert." next
     "@Nachdem [1C 02 03] {swap}{rtoarg}{call(data_ItemText.WennDefArtikel)} reparierte," next
     "@wurde daraus {pause(10)}{call(data_ItemText.ItemJeff)}[03]{set(flag 696)}{window_closeall}" goto(l_0xc68650)
@@ -317,7 +317,7 @@ l_0xc687a5:
     "@*Klick*{wait}{window_closeall}{sound(11)}" eob goto(l_0xc687e4)
 
 l_0xc687e4:
-    "@Was f[cb]r ein tolles Abenteuer, dass wir zusammen hatten." next
+    "@Was f[cb]r ein tolles Abenteuer, das wir zusammen hatten." next
     "@Bitte schalte das Ger[c0]t aus.[1F 50]" eob
 
 l_0xc6880b:

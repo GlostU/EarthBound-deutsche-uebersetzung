@@ -56,7 +56,7 @@ l_0xc79a98:
 
 l_0xc79ab9:
     title(1, Okay)	// Drum guy
-    "@Ich bin ein toller Fahrer.{pause(15)} Ihr k[c9]nnt euch auf mich verlassen.[03]" eob
+    "@Ich bin ein toller Fahrer.{pause(15)} Ihr k[c9]nnt euch auf mich verlassen![03]" eob
 
 l_0xc79ad7:
     title(1, Groovy)	// Bass guy
@@ -124,7 +124,7 @@ l_0xc79e55:
     "@Ich rufe unseren Freund, dem wir noch nie begegnet sind..." next
     "@[1C 02 03]!{pause(30)}  [1C 02 03]!{pause(20)}" linebreak
     "  Wir brauchen deine Hilfe!" next
-    "@Ich bin [1C 02 02], und [1C 02 01],{pause(15)} ein anderer Freund, ist bei mir..." next
+    "@Ich bin [1C 02 02] und [1C 02 01],{pause(15)} ein anderer Freund, ist bei mir..." next
     "@Wir versuchen, Kontakt mit dir aufzunehmen...{wait}{pause(30)}{window_closeall}{pause(1)}[1F 1F 6A 00 06][1F EB FF 06][1F 21 C8][1F 15 6A 00 83 02 01]" call(data_52.l_0xc9b4b8) "[1F 21 C9][1F 15 6A 00 84 02 01]" call(data_52.l_0xc9b4b8) "{unset(flag 11)}[1F 41 06]" goto(l_0xc79f33)
 
 l_0xc79f32:
@@ -133,7 +133,7 @@ l_0xc79f32:
 l_0xc79f33:
     "[1F 21 42][1F E5 FF][1F 64][1F 11 03][1D 08 02 00][1F 12 01][1F 12 02]{unset(flag 298)}{unset(flag 433)}{set(flag 636)}{pause(180)}{window_open(1)}"
     title_paula(1)
-    "@Ich bin [1C 02 02],{pause(20)} und [1C 02 01],{pause(15)} ein anderer Freund, ist bei mir..." next
+    "@Ich bin [1C 02 02]{pause(20)} und [1C 02 01],{pause(15)} ein anderer Freund, ist bei mir..." next
     "@Wir versuchen, Kontakt mit dir aufzunehmen..." next
     "@Wenn du mich h[c9]ren kannst,{pause(15)} bitte wach auf und...{pause(20)} gehe Richtung S[cb]den!" next
     "@Du allein,{pause(15)} auch wenn du so weit entfernt bist,{pause(15)} kannst uns retten, [1C 02 03]..." next
@@ -152,8 +152,8 @@ l_0xc7a04a:
     "@W.{pause(5)}.{pause(5)}.{pause(5)} was ist los, [1C 02 03]?" next
     "[19 22 03 03 B6 00][1F 13 03 00]@{pause(20)}...Na gut." next
     "@Es muss einen Grund geben, den ich nicht verstehe.{pause(20)} Ich werde dich nicht aufhalten." next
-    "@Aber es ist gef[c0]hrlich rauszugehen ohne Ausr[cb]stung mitzunehmen." next
-    "@Hey,{pause(15)} Ich glaube, es gibt im Umkleideraum noch ein paar Sachen, die du holen solltest." next
+    "@Aber es ist gef[c0]hrlich rauszugehen, ohne Ausr[cb]stung mitzunehmen." next
+    "@Hey,{pause(15)} ich glaube, es gibt im Umkleideraum noch ein paar Sachen, die du holen solltest." next
     "@Ich werde dir hier raushelfen...[03]{window_closeall}[1F 11 08][1F EB 08 06][1F F2 B6 00 2F 00][1F 61][1F 1F B6 00 06][1F EC 08 01]{music(123)}{pause(120)}{pause(60)}{window_open(1)}@(Tony schlie[b8]t sich dir an.)[03]{window_closeall}{set(flag 23)}{music_resume}" eob
 	
 l_0xc7a1ba:	
@@ -167,10 +167,10 @@ l_0xc7a20c:
 
 l_0xc7a22a:
     title(1, Tony)
-    "@Okay,{pause(15)} benutze mich als Stufe und kletter [cb]ber den Zaun.[03]{window_closeall}[1F EB FF 06][1F 15 51 01 0B 01 01] [1F 15 58 01 0C 01 01]{pause(1)}[1F EF 58 01][1F E8 FF][1F 61][1F E7 51 01][1F E7 58 01]{window_open(1)}"
+    "@Okay,{pause(15)} benutze mich als Stufe und kletter [cb]ber den Zaun![03]{window_closeall}[1F EB FF 06][1F 15 51 01 0B 01 01] [1F 15 58 01 0C 01 01]{pause(1)}[1F EF 58 01][1F E8 FF][1F 61][1F E7 51 01][1F E7 58 01]{window_open(1)}"
     title(1, Tony)
     "@Nun...{pause(15)} wir m[cb]ssen uns jetzt wohl verabschieden." next
-    "@Ich wei[b8] nicht wohin du gehst und warum," next
+    "@Ich wei[b8] nicht, wohin du gehst und warum," next
     "@aber vergiss nicht,{pause(20)} wir sind beste Freunde,{pause(5)} f[cb]r immer.[03]{window_closeall}[1F EA 51 01][1F EA 58 01][1F 61][1F ED][1F EC FF 01][1F 1E 7A 02 06][1F 15 B6 00 0D 01 01][1F 67 01][19 26 06]{unset(flag 335)}[1F 07 03]{pause(120)}{set(flag 544)}{music_resume}{unset(flag 11)}" eob goto(l_0xc7a2f7)
 
 l_0xc7a2f7:
@@ -187,10 +187,10 @@ l_0xc7a300:
     "@Sie funktioniert wie ein Fliegenf[c0]nger..." next
     "@Du musst das Papier nur auf den Boden eines Zeltes oder dergleichen platzieren..." next
     "@Du hast bestimmt mindestens ein Zelt in der N[c0]he gesehen, oder?...." next
-    "@Die Zombies stecken dann einfach am Papier fest," next
+    "@Die Zombies kleben dann einfach am Papier fest," next
     "@wenn sie im Inneren des Zeltes herumlaufen." next
     "@Du kannst so eine Menge Zombies fangen..." next
-	"@Genau genommen, wette ich, dass du damit alle Zombies los wirst,[cf]die[cf]den[cf]Ort[cf]terrorisieren!" next
+	"@Genau genommen wette ich, dass du damit alle Zombies los wirst,[cf]die[cf]den[cf]Ort[cf]terrorisieren!" next
     "{pause(60)}" linebreak
     "@Wie auch immer. Ich habe Gonzales, den Mach Pizza Lieferanten, losgeschickt, um" next
     "@dir das Zombie Papier[cf]zu[cf]liefern." next
@@ -204,7 +204,7 @@ l_0xc7a542:
     "{window_open(1)}"
     title(1, Gonzales)
     "@Als ich Pizza geliefert habe, hat mich dieser komische Typ um Hilfe gebeten..." next
-    "@Er wollte, dass ich das Ding hier jemanden namens [1C 02 01] gebe." next
+    "@Er wollte, dass ich das Ding hier jemandem namens [1C 02 01] gebe." next
     "@...Er soll irgendwo in Threed herumlaufen." next
     "@Niemand sonst wei[b8] davon, richtig?" next
     "@Lass uns einfach so tun, als ob du [1C 02 01] w[c0]rst{pause(15)} und ich gebe das Ding einfach dir." next
@@ -279,12 +279,12 @@ l_0xc7a959:
     "@Puh!{pause(15)} Ich komme gerade aus der Wilden Windigen W[cb]ste." next
     "@Da war dieser sonnenbadende Kerl." next
     "@Er hat mir von einer H[c9]hle mit einer Menge Affen erz[c0]hlt... oder waren das Orang-Utans?" next
-    "@Jedenfalls,{pause(15)} hat er gesagt...{pause(5)} nun ja... [c0]h...{pause(20)} ich habe es vergessen." next
+    "@Jedenfalls{pause(15)} hat er gesagt...{pause(5)} nun ja... [c0]h...{pause(20)} ich habe es vergessen." next
     "@Jepp, ich habe es vergessen... " next
-	"@Tats[c0]chlich habe ich auch das Zeug vergessen, dass ich liefern sollte." next
+	"@Tats[c0]chlich habe ich auch das Zeug vergessen, das ich liefern sollte." next
     "@Ich glaube, es war irgendeine komische Maschine, die Forellen Joghurt herstellt." next
     "@Genau, ich habe sie in der W[cb]ste vergessen..." next
-    "@Ich gehe diesen Weg nicht nochmal zur[cb]ck, also denk nicht einmal daran zu fragen," next
+    "@Ich gehe diesen Weg nicht nochmal zur[cb]ck, also denk nicht einmal daran, zu fragen," next
 	"@ob ich das Paket holen kann..." next
     "@Ich meine,{pause(15)} das ist doch dein Paket, richtig?" next
     "@Also solltest DU es holen!" next
@@ -326,15 +326,15 @@ l_0xc7acb8:
     "@aber jetzt ist er pl[c9]tzlich verschwunden..." next
     "@Ich habe das Buch noch nicht gelesen, " next
 	"@deswegen bin ich noch nicht so gut im Sprechen... Tschuldigung." next
-    "@Ich arbeite auch schwer an meiner Erfindung,{pause(15)} ich hoffe du verstehst das." next
+    "@Ich arbeite auch schwer an meiner Erfindung,{pause(15)} ich hoffe, du verstehst das." next
     "@Sag deinen Freunden Hallo von mir!" next
     "@*Klick*{wait}{window_closeall}{sound(11)}{music_resume}" eob goto(l_0xc7ae41)
 
 l_0xc7ae41:
     "{music(115)}{pause(60)}{wait}[1F 01 00]{sound(11)}[19 10 01]{rtoarg}{window_open(1)}"
-    title(1, Apple)
     "@Hallo, es ist schon eine Weile her, seit wir miteinander gesprochen haben{pause(15)}..." next
 	"@Apfel Kind am Apparat." next
+	title(1, Apple)
     "@Wir haben sch[c9]nes Wetter hier..." next
     "@Ich bin gerade in Dr. Andonuts Labor in Winters." next
     "@Der Doktor scheint gerade nicht da zu sein," next
@@ -376,9 +376,9 @@ l_0xc7b146:
     "[19 02]Ja[02] [19 02]Nein[02]{open_wallet}[1C 07 02][11]{clearline}[09 02 {e(l_0xc7b2bd)} {e(l_0xc7b1d8)}]" goto(l_0xc7b1d8)
 
 l_0xc7b1d8:
-    "[1D 15 05 00]{swap}@Du kannst es dir nicht leisten" linebreak
-    "  $[1C 0A 00 00 00 00] auszugeben?," next
-    "@oder magst du einfach keine Dinosaurier?{pause(20)} Du bist doch verr[cb]ckt...{wait}{window_closeall}[1F F1 8A 03 64 02][1F 15 6A 00 65 02 01]{pause(1)}[1F EF 6A 00][1F E9 8A 03][1F E8 FF][1F 61][1F E5 FF][1F ED][1F E6 8A 03][19 10 01]{swap}[19 23 8A 03 01 00 00][1F 16 8A 03 00]{window_open(1)}[1D 15 05 00]{swap}@Du hast nicht einmal" linebreak
+    "[1D 15 05 00]{swap}@Du kannst es dir nicht leisten," linebreak
+    "  $[1C 0A 00 00 00 00] auszugeben?" next
+    "@Oder magst du einfach keine Dinosaurier?{pause(20)} Du bist doch verr[cb]ckt...{wait}{window_closeall}[1F F1 8A 03 64 02][1F 15 6A 00 65 02 01]{pause(1)}[1F EF 6A 00][1F E9 8A 03][1F E8 FF][1F 61][1F E5 FF][1F ED][1F E6 8A 03][19 10 01]{swap}[19 23 8A 03 01 00 00][1F 16 8A 03 00]{window_open(1)}[1D 15 05 00]{swap}@Du hast nicht einmal" linebreak
     "  $[1C 0A 00 00 00 00]?" next
     "@Ein so ungew[c9]hnliches Exemplar wie du sollte im Museum ausgestellt werden.[03]{window_closeall}[1F 1F 6A 00 06][1F F1 8A 03 66 02][1F 61][1F F1 8A 03 5D 02][1F 66 01 28 46 B1 C7 00]" eob goto(l_0xc7b2bd)
 
@@ -389,12 +389,12 @@ l_0xc7b2bd:
 
 l_0xc7b318:
     "[1F 1A 09 04 03]{pause(30)}[1F 1B 09 04]{window_open(1)}@Ts, ts, ts...{pause(20)}" linebreak
-    "  Das solltest du besser wissen...[03]{window_closeall}[1F F1 09 04 67 02][1F 61][1F E6 09 04][19 10 01]{swap}[19 23 09 04 01 00 00][1F 16 09 04 00]{window_open(1)}@Du kommst nicht rein ohne Eintritt zu bezahlen.{pause(20)} Der Preis ist $3 pro Person." next
+    "  Das solltest du besser wissen...[03]{window_closeall}[1F F1 09 04 67 02][1F 61][1F E6 09 04][19 10 01]{swap}[19 23 09 04 01 00 00][1F 16 09 04 00]{window_open(1)}@Du kommst nicht rein, ohne Eintritt zu bezahlen.{pause(20)} Der Preis ist $3 pro Person." next
     "@Du wirst bezahlen, nicht wahr?" linebreak
     "{open_wallet}[19 02]Ja[02] [19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc7b4a2)} {e(l_0xc7b3c0)}]" goto(l_0xc7b3c0)
 
 l_0xc7b3c0:
-    "[1D 15 03 00]{swap}@Ist $[1C 0A 00 00 00 00] wirklich zu teuer f[cb]r dich?" next
+    "[1D 15 03 00]{swap}@Sind $[1C 0A 00 00 00 00] wirklich zu teuer f[cb]r dich?" next
     "@Oder bist du einfach nicht an antiker Kultur interessiert?{wait}{window_closeall}[1F F1 09 04 68 02][1F 15 6A 00 69 02 01]{pause(1)}[1F EF 6A 00][1F E9 09 04][1F E8 FF][1F 61][1F E5 FF][1F ED][1F E6 09 04][19 10 01]{swap}[19 23 09 04 01 00 00][1F 16 09 04 00]{window_open(1)}[1D 15 03 00]{swap}@Du hast nicht einmal" linebreak
     "  $[1C 0A 00 00 00 00]?" next
     "@Wenn es nach mir ginge," next
@@ -424,7 +424,7 @@ l_0xc7b576:
     "@Kekoi kiko ukkeke" linebreak
     "  (in einer H[c9]hle mit vielen Affen.)" next
     "@Kokyu uke ku akki" linebreak
-    "  (Ich benutze meine Teleportation" linebreak
+    "  (Ich benutze meine Teleportationm" linebreak
     "  um...)" next
     "@Kya" linebreak
     "  (Tschau!)" next

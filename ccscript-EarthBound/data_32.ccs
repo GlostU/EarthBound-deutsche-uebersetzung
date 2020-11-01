@@ -73,7 +73,7 @@ l_0xc7c655:
 
 l_0xc7c669:
     "@Spuck dein Kaugummi nicht aus. " next
-    "@Auch wenn es kein Geschmack mehr hat..." end
+    "@Auch wenn es keinen Geschmack mehr hat..." end
 
 l_0xc7c693:
 	"{unset(flag 980)}"
@@ -92,13 +92,13 @@ l_0xc7c6b6:
     "  {swap}{rtoarg}{call(data_ItemText.WennDefArtikel)} nicht benutzen." end
 
 l_0xc7c6c9:	
-	"[19 19 00 00]{swap}@[1C 02 00] ist der einzige, der" linebreak
+	"[19 19 00 00]{swap}@[1C 02 00] ist der Einzige, der" linebreak
     "  {rtoarg}{call(data_ItemText.WennDefArtikel)} tragen sollte." end goto(l_0xc7c6f1)
 // edit
 l_0xc7c6f1:
     "[19 1F]{swap}@Du kannst {swap}{rtoarg}{call(data_ItemText.WennDefArtikel)} hier nicht benutzen." end
 	
-l_0xc7c705:	// TODO MUSS NOCH GEMACHT
+l_0xc7c705:
 	"{store_registers}[19 19 00 00]{swap}{result_is(104)}[1B 03 {e(l_0xc7c761)}]{load_registers}[19 19 00 00]@Warum w[cb]rdest du so etwas tun?" linebreak
     "  {call(derdiedas.DerDieDasArtikel)} w[cb]rde dich zum Kotzen bringen." end
 // edit
@@ -165,7 +165,7 @@ l_0xc7c9a8:
     "@Oh,{pause(15)} [1C 02 00], {swap}" call(data_33.l_0xc7e6b3) "!{pause(20)}" linebreak
     "  M[c9]chten Sie eine Reservierung t[c0]tigen? " next
     "@Nat[cb]rlich wollen Sie." next
-    "@Wir freuen uns, Sie bald begr[cb][b8]en zu k[c9]nnen.{pause(15)}  Danke." next
+    "@Wir freuen uns, Sie bald begr[cb][b8]en zu d[cb]rfen.{pause(15)}  Danke." next
     "@Klick!  Pieep-pieep-pieep... {wait}{sound(11)}{set(flag 337)}" eob goto(l_0xc7ca3c)
 
 l_0xc7ca3c:
@@ -179,7 +179,7 @@ l_0xc7ca3c:
 	"@Dieses langweilige alte Drecksloch hat vor Ewigkeiten dicht gemacht!" next
     "@Wir haben die Bude komplett umgebaut!" next
     "@Jetzt haben wir laute Musik, k[c9]stliches Essen und ein echt wildes Publikum..." next
-    "@H[c9]r mal zu, Freundchen, ich bin gerade zu besch[c0]ftigt zum reden! " next
+    "@H[c9]r mal zu, Freundchen, ich bin gerade zu besch[c0]ftigt zum Reden! " next
     "@Komm einfach vorbei!" linebreak
     "  Du wirst dich am[cb]sieren..." linebreak
 	"  Das verspreche ich dir! " next
@@ -192,8 +192,8 @@ l_0xc7cbba:
     title(1, Mom)
     "@[1C 01 08]?" next
     "@....." next
-    "@Sag kein Wort; ich wei[b8] genau, was du gerade denkst." next
-    "@Mein Sohn, wer h[c0]tte gedacht, dass er so ein tapferer Junge ist?" next
+    "@Sag kein Wort, ich wei[b8] genau, was du gerade denkst." next
+    "@Mein Sohn. Wer h[c0]tte gedacht, dass er so ein tapferer Junge ist?" next
     "@Oh, ja... du bist ein Held, mein Schatz!..." next
     "@Klick!  Pieep-pieep-pieep...{wait}{sound(11)}" eob goto(l_0xc7cc35)
 
@@ -225,9 +225,9 @@ l_0xc7cdae:
     "@Hallo, [1C 01 08]?" linebreak
     "  Was ist los?  Du h[c9]rst dich so traurig an..." next
     "@Hast du Heimweh?...  Ich wusste, dass Tage wie diese kommen w[cb]rden. " next
-    "@Du m[cb]sstest dich besser f[cb]hlen, wenn du die liebliche Stimmer deiner Mutter h[c9]rst." next
+    "@Du m[cb]sstest dich besser f[cb]hlen, wenn du die liebliche Stimme deiner Mutter h[c9]rst." next
     "@...Also, f[cb]hlst du dich schon besser?" next
-    "@Naja, ich sollte besser los.  Ich bin gerade am b[cb]geln.  Tschau!" next
+    "@Naja, ich sollte besser los.  Ich bin gerade am B[cb]geln.  Tschau!" next
     "{sound(11)}  Klick!  Pieep-pieep-pieep...[03]{window_closeall}" goto(l_0xc7ce73)
 
 l_0xc7ce73:
@@ -240,7 +240,7 @@ l_0xc7ce96:
     "@Erz[c0]hl mir doch sp[c0]ter mehr von ihr..." next
     "@Wei[b8]t du, ich werde das Gef[cb]hl nicht los, dass sie genau neben dir steht." next
     "@Naja, wenn sie bei dir ist, dann gr[cb][b8] sie von mir." next
-    "@Ich muss jetzt auch los... Ich bin gerade dabei die Toilette zu s[c0]ubern... Tschau!" next
+    "@Ich muss jetzt auch los... Ich bin gerade dabei, die Toilette zu s[c0]ubern... Tschau!" next
     "{sound(11)}  Klick!  Pieep-pieep-pieep...{wait}{unset(flag 689)}" eob
 
 l_0xc7cf6c:
@@ -274,7 +274,7 @@ l_0xc7d102:
     "@...Nein, nein... Ich mach nur Spa[b8]..." next
     "@Ich wollte nur gucken, ob du darauf reinf[c0]llst." next
     "@Hier ist alles super.  *uff*" next
-    "@Ich hoffe dir geht es auch gut." next
+    "@Ich hoffe, dir geht es auch gut." next
     "@Naja, ich sollte auflegen... Ich bin mitten in meiner Tanzgymnastik!" next
     "@Tschau!" linebreak
     "{sound(11)}  Klick!  Pieep-pieep-pieep..." end
@@ -300,7 +300,7 @@ l_0xc7d226:
 	"  Das bedeutet also..." next
     "@Oh, dem Himmel sei Dank!" next
     "@Du hast es geschafft und du bist unversehrt!" next
-	"@Ich bin mir nicht ganz sicher was du getan hast, aber..." next
+	"@Ich bin mir nicht ganz sicher, was du getan hast, aber..." next
     "@Wie auch immer, komm schnell nach Hause, dann mach ich dir etwas [1C 01 04]." next
     "@Komm so schnell du kannst." next
     "@Ich kann es kaum erwarten dein strahlendes Gesicht zu sehen!" next
@@ -369,14 +369,14 @@ l_0xc7d630:
     "[19 02]Ja[02]  [19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc7d748)} {e(l_0xc7d6aa)}]" goto(l_0xc7d6aa)
 
 l_0xc7d6aa:
-    "@Ahhh... und wer bist du...?  Also, ist das gar nicht [1C 01 08]." next
-    "@Ich wei[b8] nicht wer du bist, aber danke, dass du auf [1C 01 08] aufpasst." next
+    "@Ahhh... und wer bist du...?  Also ist das gar nicht [1C 01 08]." next
+    "@Ich wei[b8] nicht, wer du bist, aber danke, dass du auf [1C 01 08] aufpasst." next
     "@Arbeite auf deiner Reise nicht zu schwer." next
     "@Du musst ein flei[b8]iger Arbeiter sein, wenn du ein Freund von [1C 01 08] bist." next
     "@Vergiss nicht, ich stehe hinter euch![03]" call(data_33.l_0xc7de54) eob
 
 l_0xc7d748:
-    "@Ahhh... und wer bist du...?  Also, ist das gar nicht [1C 01 08]." next
+    "@Ahhh... und wer bist du...?  Also ist das gar nicht [1C 01 08]." next
     "@Wer auch immer du bist, danke, dass du auf [1C 01 08] aufpasst." next
     "@Ich w[cb]nschte nur, ihr w[cb]rdet mal eine Pause machen." next
     "@Ich w[cb]rdet euch viel erholter f[cb]hlen." next
@@ -384,7 +384,7 @@ l_0xc7d748:
     "@[bb]bernachtet in einer nahe gelegenen Stadt." next
     "@Wenn ihr ein Telefon seht, ruft bitte den Vater von [1C 01 08] an..." next
 	"@Naja, eigentlich, bin das ja ich." next
-    "@Und passt auf Ganoven auf.[03]" call(data_33.l_0xc7de54) eob
+    "@Und passt auf Ganoven auf![03]" call(data_33.l_0xc7de54) eob
 
 l_0xc7d84f:
     "{set(flag 226)}" call(l_0xc7d87f) "{unset(flag 226)}" eob
@@ -443,7 +443,7 @@ l_0xc7d967:
 
 l_0xc7d991:
     newline
-    "[19 10 01]@Aber, " call(data_33.l_0xc7e5f3) " hat schon zu viele Sachen." end goto(l_0xc7d9ae)
+    "[19 10 01]@Aber " call(data_33.l_0xc7e5f3) " hat schon zu viele Sachen." end goto(l_0xc7d9ae)
 
 l_0xc7d9ae:
 	"{unset(flag 980)}"

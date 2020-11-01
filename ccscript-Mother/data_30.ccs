@@ -34,7 +34,7 @@ l_0xc78166:
 
 l_0xc781ce:
     "@...Wenn du kein Geld hast,{pause(15)} solltest du einfach laufen." next
-    "@Au[b8]erdem k[c9]nnte das bisschen Laufen dir gut tun...{wait}{window_closeall}[1F 1F 52 00 06]" eob
+    "@Au[b8]erdem k[c9]nnte das bisschen Laufen dir guttun...{wait}{window_closeall}[1F 1F 52 00 06]" eob
 
 l_0xc78208:
     "[1D 14 00 00 00 00][1B 03 {e(l_0xc78240)}]{sound(118)}[1D 09 00 00]{open_wallet}@...Na dann,{pause(15)} an Bord mit dir!{wait}{window_closeall}[1F 1F 52 00 06]" goto(data_29.l_0xc78000)
@@ -44,7 +44,7 @@ l_0xc7823f:
 
 l_0xc78240:
     "@...Wenn du kein Geld hast,{pause(15)} solltest du einfach laufen." next
-    "@Au[b8]erdem{pause(15)} k[c9]nnte das bisschen Laufen dir gut tun...{wait}{window_closeall}[1F 1F 52 00 06]" eob
+    "@Au[b8]erdem{pause(15)} k[c9]nnte das bisschen Laufen dir guttun...{wait}{window_closeall}[1F 1F 52 00 06]" eob
 
 l_0xc7827c:
     "{set(flag 313)}[1F ED][1F 15 CD 00 43 00 FF][1F 21 3C][1F EF CD 00]" eob
@@ -70,9 +70,9 @@ l_0xc78360:
     "[1F 15 6A 00 48 00 01]{pause(1)}[1F EF 6A 00][1F EC FF 01][1F E8 FF][1F 61]{unset(flag 534)}{music_resume}[1F ED][1F E5 FF][1F EA CD 00][1F 61]{unset(flag 11)}[1F 41 06][1F 15 B9 01 0A 03 01]" eob
 
 l_0xc78394:
-    "{window_open(1)}@(Aus irgendeinem Grund,{pause(15)} kehrte der Bus nach Twoson zur[cb]ck.)[03]{window_closeall}{pause(30)}" newline
+    "{window_open(1)}@(Aus irgendeinem Grund{pause(15)} kehrte der Bus nach Twoson zur[cb]ck.)[03]{window_closeall}{pause(30)}" newline
     "[1F 15 52 00 C5 01 01] {window_open(1)}@...Jepp!{pause(20)} Genau wie ich dachte..." next
-    "@...Okay,{pause(15)} langsam f[c0]ngt es an gruselig zu werden..." next
+    "@...Okay,{pause(15)} langsam f[c0]ngt es an, gruselig zu werden..." next
     "@Wir fahren zur[cb]ck zum Busbahnhof." next
     "@M[c9]chtest du hier aussteigen?" linebreak
     "[19 02]Ja[02] [19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc78442)} {e(l_0xc78433)}]" goto(l_0xc78433)
@@ -162,7 +162,7 @@ l_0xc788c3:
     "[1D 14 00 00 00 00][1B 03 {e(l_0xc78240)}][1D 09 00 00]{open_wallet}{sound(118)}@Ok,{pause(15)} los geht's![03]{window_closeall}[1F 1F 52 00 06]   {set(flag 11)}[1F 41 05][1F 15 B9 01 09 03 01][1F 15 6A 00 49 00 01]{pause(1)}[1F EF 6A 00][1F E8 FF][1F 61]{unset(flag 71)}[1F F2 CD 00 CF 00][1F EB FF 06]{set(flag 534)}{music_resume}[1F EF CD 00]" eob
 
 l_0xc78926:
-    "@Oh...{pause(5)} okay...{pause(15)} see you!{wait}{window_closeall}[1F 1F 52 00 06]   " eob
+    "@Oh...{pause(5)} okay...{pause(15)} Auf Wiedersehen!{wait}{window_closeall}[1F 1F 52 00 06]   " eob
 
 l_0xc78943:
     "{set(flag 71)}[1F ED][1F 15 CD 00 D0 00 FF][1F 21 46][1F EF CD 00]" eob
@@ -296,7 +296,7 @@ l_0xc79081:
     "[1F F1 A4 01 87 00]" eob
 
 l_0xc79088:
-    "@(Aus irgendeinem seltsamen Grund verspeert eine bleistift-" linebreak
+    "@(Aus irgendeinem seltsamen Grund versperrt eine bleistift-" linebreak
 	"  f[c9]rmige, eiserne Figur den Weg)" end
 
 l_0xc790c4:
@@ -339,7 +339,7 @@ l_0xc792dc:
 l_0xc7930c:
 //https://legendsoflocalization.com/earthbound/twoson-2/#its-showtime
     "{window_open(1)}@Ja!{pause(20)} Das ist richtig!" next
-    "@Heute Abend,{pause(15)} kommen die Soul-Ikonen des Chaos Theaters zu euch!" next
+    "@Heute Abend{pause(15)} kommen die Soul-Ikonen des Chaos Theaters zu euch!" next
     "@Rock-and-roll hier auf der B[cb]hne und das nur f[cb]r eine begrenzte Zeit!" next
     "@Die weltbesten Bluesbr[cb]der," next
     "@die Runaway Br[cb]der!{pause(20)}" linebreak
@@ -359,7 +359,7 @@ l_0xc79413:
 
 l_0xc7944e:
     "[06 3F 01 {e(l_0xc79489)}]"
-	"@Wenn ich so nah an der B[cb]hne sitze, dann kriege ich manchmal etwas Schweis oder Spucke" next
+	"@Wenn ich so nah an der B[cb]hne sitze, dann kriege ich manchmal etwas Schwei[b8] oder Spucke" next
 	"@von den Runaway Br[cb]dern ab." end
 
 l_0xc79489:
@@ -414,7 +414,7 @@ l_0xc79796:
     "@Es passiert nicht jeden Tag, dass ein Vater zul[c0]sst," next
 	"@dass seine Tochter eine Reise bestreitet, um die Welt zu retten![03]{window_closeall}{set(flag 12)}[19 22 02 02 D9 00][1F 13 02 00][1F 1C 02 01]{pause(60)}[1F 1D 02]{window_open(1)}"
     title_paula(1)
-    "@Papa,{pause(15)} mach dir um mir keine Sorgen." next
+    "@Papa,{pause(15)} mach dir um mich keine Sorgen." next
     "@[1C 02 01] und ich werden auf uns selbst aufpassen k[c9]nnen." next
     "@In Threed werden wir einen anderen Freund treffen." next
     "@Wenn wir drei unsere Kr[c0]fte vereinen,{pause(15)} kann uns niemand schlagen." next

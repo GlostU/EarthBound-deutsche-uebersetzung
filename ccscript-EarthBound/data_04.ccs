@@ -350,7 +350,7 @@ l_0xc5587e:
 l_0xc55897:
     newline
     " <[1C 05 BC]>" next
-    "@Ein handgemachter <Wunden-Pflaster>." next
+    "@Mit dem Verband ist deine Wunde ganz rasant wieder im besten Zustand." next
     "@Es heilt deinen verwundeten K[c9]rper." next
     call(data_05.l_0xc56dab) end
 

@@ -310,7 +310,7 @@ l_0xc9a56a:
 
 l_0xc9a593:
     "{sound(111)}{pause(40)}{window_open(1)}@Ja, ich komme!{pause(20)}" linebreak
-    "  *Zisch!  Buumm{pause(5)} Bums{pause(5)} Bums{pause(5)} Bums{pause(5)} Bums... KRACH!!*" next
+    "  *Zisch!  Bumm{pause(5)} Bums{pause(5)} Bums{pause(5)} Bums{pause(5)} Bums... KRACH!!*" next
     "@[b0]hhhh... Ich bin eben die Treppen heruntergefallen... Ich kann gerade nicht zur T[cb]r kommen.{wait}{window_closetop}" eob
 
 l_0xc9a604:

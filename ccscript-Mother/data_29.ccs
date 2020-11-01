@@ -9,12 +9,12 @@ command e(label) "{long label}"
 
 // Text Data
 l_0xc765cf:
-    "@Ist es nicht sch[c9]n mit so vielen Menschen zu reden?[06 DA 02 {e(l_0xc765ef)}]" end
+    "@Ist es nicht sch[c9]n, mit so vielen Menschen zu reden?[06 DA 02 {e(l_0xc765ef)}]" end
 
 l_0xc765ef:
     next
     "@Ich habe dir einen Ratschlag gegeben," next
-	"@als wir das erste mal miteinander gesprochen haben,{pause(15)} oder?" end
+	"@als wir das erste Mal miteinander gesprochen haben,{pause(15)} oder?" end
 
 l_0xc7661b:
     "@Ich mag H[cb]ttenk[c0]se aufs Brot!" next
@@ -36,16 +36,16 @@ l_0xc766c5:
     "@Wie gewohnt{pause(15)}, du tr[c0]gst deine schlampigsten Klamotten!{pause(20)}" linebreak
 	"  Also,{pause(10)} was willst du?" next
     "@Wenn du meinen Schweinesohn suchst,{pause(20)} er ist nicht da." next
-	"@Wer wei[b8] wo er gerade herumlungert." next
+	"@Wer wei[b8], wo er gerade herumlungert." next
     "@Mein Mann ist auch weg.{pause(30)} " linebreak
 	"  Oh ja,{pause(15)} das ist Mr. H[cb]bschgesicht." next
     "@Er hat immer einen guten Rat.{pause(15)} Er ist ein richtiger Gentleman." next
-    "@Du kannst dich gl[cb]cklich sch[c0]tzen ihn getroffen zu haben." end
+    "@Du kannst dich gl[cb]cklich sch[c0]tzen, ihn getroffen zu haben." end
 
 l_0xc7678a:
     title(1, Prettyman)
-    "@Gr[cb][b8]e!{pause(20)} Du bist doch der Nachbarsunge." next
-    "@Frau. Minch erz[c0]hlte mir, dass deine Familie Schulden hat." next
+    "@Gr[cb][b8]e!{pause(20)} Du bist doch der Nachbarsjunge." next
+    "@Frau Minch erz[c0]hlte mir, dass deine Familie Schulden hat." next
     "@Nun,{pause(20)} auch aus solchen Situationen kann man lernen." next
 	"@Du musst nur hart arbeiten und nicht locker lassen." end
 
@@ -73,7 +73,7 @@ l_0xc7689e:
 
 l_0xc768f4:
     "@Du siehst aus, als w[cb]rdest du ein gutes Ziel f[cb]r die Haie abgeben." next
-    "@Du solltest besser vorsichtig sein." end
+    "@Du solltest besser vorsichtig sein!" end
 
 l_0xc76924:
     "@Kannst du es glauben?" next
@@ -89,13 +89,13 @@ l_0xc76980:
 l_0xc7699e:
     title(1, Strong)
     "[06 49 00 {e(l_0xc76b36)}][06 69 00 {e(l_0xc76b0b)}][06 B6 00 {e(l_0xc76a1f)}]@Die B[cb]rger der Stadt sind durcheinander." next
-    "@In Zeiten wie diesen,{pause(15)} gibt es oft Aufst[c0]nde,{pause(15)}" next
-	"@oder die Menschen fangen an wild zu werden." next
+    "@In Zeiten wie diesen{pause(15)} gibt es oft Aufst[c0]nde,{pause(15)}" next
+	"@oder die Menschen fangen an, wild zu werden." next
     "@Also m[cb]ssen wir von der Polizei besonders vorsichtig sein." end
 
 l_0xc76a1f:
-    "@Warum die Stra[b8]e nach Twoson gespeert ist?{pause(20)} Ein Notfall,{pause(10)} nat[cb]rlich." next
-    "@In Zeiten wie diesen,{pause(15)} sollten Kinder wie du lieber Nintendospiele spielen." next
+    "@Warum die Stra[b8]e nach Twoson gespeert ist?{pause(20)} Ein Notfall{pause(10)} nat[cb]rlich." next
+    "@In Zeiten wie diesen{pause(15)} sollten Kinder wie du lieber Nintendospiele spielen." next
     "@Wie auch immer,{pause(15)} bist du sicher, dass du nach Twoson willst?" linebreak
     "[19 02]Ja[02] [19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc76ad6)} {e(l_0xc76aa7)}]" goto(l_0xc76aa7)
 
@@ -140,7 +140,7 @@ l_0xc76ca1:
     "[06 02 00 {e(l_0xc76d3d)}]@Hier bist du also." next
     "@Du bist also der kleine Kriminelle, der beim Riesen Tritt war!" next
     "@Jetzt h[c9]r mal ganz deutlich zu..." next
-    "@<Kein Zutritt> bedeutet, dass du--{pause(30)} KEIN ZUTRITT hast!{pause(10)} Verstehst du das?" next
+    "@<Kein Zutritt> bedeutet, dass du--{pause(30)} KEINEN ZUTRITT hast!{pause(10)} Verstehst du das?" next
     "@Dar[cb]ber hinaus..." next
     "@Blah{pause(10)} blah" next
     "@Blah{pause(10)} blah" next
@@ -150,7 +150,7 @@ l_0xc76d3d:
     "@Es sind normalerweise diese Steuerhinterzieher die..." next
     "@Blah blah" next
     "@Blah blah" next
-    "@Uns macht es keinen Spa[b8] die Stra[b8]en zu sperren,{pause(15)} wei[b8]t du..." next
+    "@Uns macht es keinen Spa[b8], die Stra[b8]en zu sperren,{pause(15)} wei[b8]t du..." next
     "@Blah blah" next
     "@Blah blah" next
     "@Es sind normalerweise diese Jammerlappen," next
@@ -173,7 +173,7 @@ l_0xc76e92:
 
 l_0xc76ec5:
     "@Auf geht's{pause(15)} geht's{pause(10)} gehst!{pause(15)} Uups!{pause(15)} Mein Fehler,{pause(10)} geht's!{wait}" call(data_21.l_0xc6845d) "[1B 03 {e(data_21.l_0xc683de)}]{window_open(1)}" newline
-    "@Schuldigung!{pause(20)}  [b0][c0][c0][c0][c0]h... ja.{wait}{set(flag 293)}" eob
+    "@Schuldigung!{pause(20)}  [b0][c0][c0][c0][c0]h... Ja.{wait}{set(flag 293)}" eob
 
 l_0xc76f20:
     call(data_12.l_0xc5d581) eob
@@ -195,7 +195,7 @@ l_0xc76f96:
 
 l_0xc76fb2:
     "[06 CF 00 {e(l_0xc770b0)}][06 CE 00 {e(l_0xc7706a)}][06 CD 00 {e(l_0xc7703f)}][06 CC 00 {e(l_0xc77007)}]@Ich bin deine Tapferkeit." next
-    "@Ich begleit dich hier in Magicant." next
+    "@Ich begleite dich hier in Magicant." next
     "@...Mein Name?" next
     title(1, Flying)
     "@Sagen wir einfach Fliegender Mann.[03]" eob
@@ -262,7 +262,7 @@ l_0xc77251:
 
 l_0xc7728e:
     "@Ja, so ist es richtig." next
-    "@Du kannst nicht einmal daran denken in einer Zeit wie diese, m[cb]de zu werden." next
+    "@Du kannst nicht einmal daran denken, in einer Zeit wie dieser m[cb]de zu werden." next
     "@Sei stark![03][1F E1 1F 07 3C]" eob
 
 l_0xc772c8:
@@ -273,7 +273,7 @@ l_0xc772ff:
     title(1, Tracy)
     "@[1C 02 01], mein Bruder!" next
     "@Das <Meer von Eden> befindet sich am Ende von Magicant." next
-    "@Andere Personen k[c9]nnen es nicht zu nahe kommen.{pause(20)}  Es ist ein seltsamer Ort." next
+    "@Andere Personen k[c9]nnen ihm nicht zu nahe kommen.{pause(20)} Es ist ein seltsamer Ort." next
     "[1F E1 05 00 3C]@Kann ich dir irgendwie helfen?" linebreak
     goto(data_18.l_0xc64687)
 
@@ -290,7 +290,7 @@ l_0xc7739f:
 
 l_0xc773f4:
     //"@Das ist das Reich von Magicant, welches dein Verstand erschaffen hat." next
-    "@Das ist das Reich von Magicant, dass von deinem Verstand erschaffen wurde." next
+    "@Das ist das Reich von Magicant, das von deinem Verstand erschaffen wurde." next
     "@Erforsche doch deinen Verstand.{pause(20)} Nimm dir ruhig Zeit, [1C 02 01].{wait}[1F E1 1F 05 3C]" eob
 
 l_0xc7743d:
@@ -358,7 +358,7 @@ l_0xc77639:
     newline
     "@Ich bin so dumm!" next
     "@Zu so einer Zeit habe ich zu viel Kram im Rucksack." next
-    "@Warum schmei[b8]e ich nicht etwas unn[c9]tiges weg.{wait}[1F E1 05 00 3C]" eob
+    "@Warum schmei[b8]e ich nicht etwas unn[c9]tiges weg?{wait}[1F E1 05 00 3C]" eob
 
 l_0xc77683:
     title_ness(1)
@@ -416,7 +416,7 @@ l_0xc7786e:
 l_0xc7794c:
     "[06 4A 00 {e(data_32.l_0xc7c588)}]@(Ich bin das B[c9]se in deinem Herzen." next
     "@Du kannst mich nicht besiegen," linebreak
-    "  weil du derjenige bist, der mich gezwungen hat zu existieren...)[03]" call(data_21.l_0xc6857c) "[1B 03 {e(data_21.l_0xc683de)}]{set(flag 74)}{pause(1)}[1F F1 4E 05 7B 02]{pause(40)}[1F 15 6A 00 00 03 01][1F 61][1F E7 6A 00]{window_open(1)}@([1C 02 01] h[c9]rte eine vertraute Stimme in der Mitte des Meeres von Eden.)" next
+    "  weil du derjenige bist, der mich gezwungen hat, zu existieren...)[03]" call(data_21.l_0xc6857c) "[1B 03 {e(data_21.l_0xc683de)}]{set(flag 74)}{pause(1)}[1F F1 4E 05 7B 02]{pause(40)}[1F 15 6A 00 00 03 01][1F 61][1F E7 6A 00]{window_open(1)}@([1C 02 01] h[c9]rte eine vertraute Stimme in der Mitte des Meeres von Eden.)" next
     call(l_0xc77c50) "@Giygas Ziel ist es," linebreak
     "  dich zu zerst[c9]ren." next
     call(l_0xc77c50) "@H[c9]r gut zu!" next
@@ -450,7 +450,7 @@ l_0xc77c50:
 
 l_0xc77c5b:
     "@[1C 02 01]!" next
-    "@Hast du schon gelernt die Uhrzeit von mir abzulesen?" end
+    "@Hast du schon gelernt, die Uhrzeit von mir abzulesen?" end
 
 l_0xc77c84:
     "@Wir hatten an einem verschneiten Tag viel Spa[b8]." next
@@ -517,16 +517,16 @@ l_0xc77e33:
 
 l_0xc77e85:
 	newline
-    "[19 1F]{swap}@{user} versuchte" linebreak
+    "[19 1F]{swap}@{user} versuchte," linebreak
     "  {swap}{rtoarg}{call(data_ItemText.WennDefArtikel)} auszur[cb]sten." next
-    "@ aber dieser Gegenstand ist nicht f[cb]r " linebreak
+    "@Aber dieser Gegenstand ist nicht f[cb]r " linebreak
     "  {user} bestimmt.[03]" eob goto(l_0xc77eb6)
 
 l_0xc77eb6:
     newline
-    "[19 1F]{swap}@{user} versuchte" linebreak
+    "[19 1F]{swap}@{user} versuchte," linebreak
     "  {swap}{rtoarg}{call(data_ItemText.WennDefArtikel)} zu benutzen." next
-    "@aber {user} konnte" linebreak
+    "@Aber {user} konnte" linebreak
     "  diesen Gegenstand nicht benutzen.[03]" eob
 
 l_0xc77ee8:	

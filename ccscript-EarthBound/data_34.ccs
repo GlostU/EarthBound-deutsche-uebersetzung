@@ -32,7 +32,7 @@ l_0xc7e91b:
     "@Wir kein Name!" linebreak
     "  Boing!" next
     "@...Alle haben" linebreak
-    "  gleichen Name!{wait}{font_normal}" eob goto(l_0xc7e962)
+    "  gleicher Name!{wait}{font_normal}" eob goto(l_0xc7e962)
 
 l_0xc7e962:
     "@Zoom!{wait}{font_normal}" eob
@@ -317,15 +317,15 @@ l_0xc7f2b1:
 l_0xc7f34c:
     title(1, Andonuts)
     "[06 A9 00 {e(l_0xc7f5ec)}]@Endlich, es ist fertig! " next
-    "@Der Weltraumtunnel, Version Zwei," next
+    "@Der Weltraumtunnel, Version 2," next
     "@{pause(15)}ist mit zwei neuen Funktionen ausgestattet." next
     "@Erstens{pause(20)} kann er deine biologischen Funktionen reparieren." next
     "@Zweitens{pause(20)} kann er deinen Fortschritt speichern." next
     "@Keine Angst, geh einfach rein!" next
     "@...Aber eine Sache noch..." next
     "@Es k[c9]nnte sein, dass du nicht zur[cb]ckkommen kannst.{pause(20)}" next
-	"@Also, stell sicher, dass du optimal ausger[cb]stet bist." next
-    "@Bist du bereit zu gehen?" linebreak
+	"@Also stell sicher, dass du optimal ausger[cb]stet bist." next
+    "@Bist du bereit, zu gehen?" linebreak
     "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc7f459)} {e(l_0xc7f459)}]" goto(l_0xc7f459)
 
 l_0xc7f459:
@@ -367,7 +367,7 @@ l_0xc7f710:
 
 l_0xc7f71e:
     title(1, Gerardo)
-    "@Apfel Kind hatte sich verirrt und ist einach irgendwo herumgelaufen," next
+    "@Apfel Kind hatte sich verirrt und ist einfach irgendwo herumgelaufen," next
 	"@also habe ich ihn hierher gebracht." next
     "@Das war schon eine Weile her...{pause(20)} M[c9]chtest du etwas Tee? " next
     "@Ah,{pause(15)} du scheinst besch[c0]ftigt zu sein." next
@@ -385,9 +385,9 @@ l_0xc7f813:
     title(1, Gerardo)
     "@Unglaublich!{pause(20)}" linebreak
     "  Hervorragend!" next
-    "@Ich wei[b8] zwar nicht worum es geht, aber Gl[cb]ckwunsch f[cb]r deine gut geleistete Arbeit!" next
+    "@Ich wei[b8] zwar nicht, worum es geht, aber Gl[cb]ckwunsch f[cb]r deine gut geleistete Arbeit!" next
     "@Wenn wir uns jemals wieder [cb]ber den Weg laufen sollten," next
-    "@dann w[cb]rde ich gerne mit dir ein paar Drinks kippen." next
+    "@dann m[c9]chte ich gerne mit dir ein paar Drinks kippen." next
     "@Wir k[c9]nnten sogar Hufeisenwerfen spielen!" end
 
 l_0xc7f8ab:
@@ -432,7 +432,7 @@ l_0xc7f9f8:
     title_jeff(1)
     "@[1C 01 1E],{pause(20)}" linebreak
     "  [1C 01 08]..." next
-    "@Es war wirklich toll Zeit mit euch zu verbringen.{pause(20)}" linebreak
+    "@Es war wirklich toll, Zeit mit euch zu verbringen.{pause(20)}" linebreak
 	"  Das meine ich wirklich." next
     "@Ich bin froh, dass ich einige meiner[cf]Theorien[cf]testen konnte," linebreak
     "  die ich so lange studiert habe." next
@@ -460,7 +460,7 @@ l_0xc7fb56:
     "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc7fba1)} {e(l_0xc7fb89)}]" goto(l_0xc7fb89)
 
 l_0xc7fb89:
-    "@Na dann,{pause(15)} werde ich einfach dich begleiten!{wait}" linebreak
+    "@Na dann{pause(15)} werde ich einfach dich begleiten!{wait}" linebreak
     "{window_closeall}" eob
 
 l_0xc7fba1:
@@ -503,7 +503,7 @@ l_0xc7fd22:
 
 l_0xc7fd8e:
     "@Alles klar.{pause(20)} Lass uns zur[cb]ck zur Polarstern Vorschule in Twoson gehen..." next
-    "@Du wei[b8]t doch noch wo sie ist, nicht wahr?" next
+    "@Du wei[b8]t doch noch, wo sie ist, nicht wahr?" next
     "@Auf geht's...{wait}{window_closeall}" eob
 
 l_0xc7fdd6:
@@ -553,7 +553,7 @@ l_0xc80027:
     title(1, Charlie)
     "@Das ist der Fahrradladen{pause(5)} <Reifenpunke>!" next
     "@Fahrr[c0]der machen so viel Spa[b8] und sind richtig praktisch..." next
-    "@Damit ist man viel schneller, als zu Fu[b8]." next
+    "@Damit ist man viel schneller als zu Fu[b8]." next
     "@Du wirst damit richtig beliebt bei den Bikern." next
     "@M[c9]chtest du ein Fahrrad haben?" linebreak
     "[19 02]Ja[02] [19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc800f5)} {e(l_0xc800c1)}]" goto(l_0xc800c1)
@@ -577,7 +577,7 @@ l_0xc8015a:
     "@Wusstest du auch schon, dass du nicht Fahrrad fahren kannst, wenn dir etwas folgt?" next
     "@Teddyb[c0]ren zum Beispiel..." next
     "@Einen B[c0]ren halten und gleichzeitig Fahrrad fahren w[c0]re unm[c9]glich f[cb]r dich." next
-    "@Und denk nicht einmal daran das Fahrrad in einer H[c9]hle zu benutzen." end
+    "@Und denk nicht einmal daran, das Fahrrad in einer H[c9]hle zu benutzen!" end
 
 l_0xc80276:
     eob
@@ -593,8 +593,8 @@ l_0xc802b9:
 
 l_0xc802e6:
     newline
-    "[1D 01 FF B0]@Du bist hier um dein Fahrrad zur[cb]ckzugeben?" next
-    "{set(flag 113)}{unset(flag 81)}@Guck mal wie niedrig der Sitz ist!{pause(20)}  Alter,{pause(15)} du musst echt kurze Beine haben." next
+    "[1D 01 FF B0]@Du bist hier, um dein Fahrrad zur[cb]ckzugeben?" next
+    "{set(flag 113)}{unset(flag 81)}@Guck mal, wie niedrig der Sitz ist!{pause(20)}  Alter,{pause(15)} du musst echt kurze Beine haben." next
     "@Das ist es!{pause(20)} Ich nenne dich ab jetzt Stummelchen!{wait}{sound(118)}" eob
 
 l_0xc8034d:
@@ -609,21 +609,21 @@ l_0xc8037f:
 l_0xc803ac:
     "{counter(1)}@Du m[c9]chtest gerne Fahrrad fahren?" next
     "@Das wird nicht funktionieren..." next
-	"@Zwei Personen auf ein Fahrrad ist strengstens verboten.[03][1D 05 FF B0][1B 03 {e(l_0xc803f8)}]" end
+	"@Zwei Personen auf einem Fahrrad sind strengstens verboten.[03][1D 05 FF B0][1B 03 {e(l_0xc803f8)}]" end
 
 l_0xc803f8:
     next
-    "@Du bist hier um das Fahrrad zur[cb]ckzugeben?" linebreak
+    "@Du bist hier, um das Fahrrad zur[cb]ckzugeben?" linebreak
     "[19 02]Ja[02] [19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc802e6)} {e(l_0xc8042b)}]" goto(l_0xc8042b)
 
 l_0xc8042b:
-    "@Naja,{pause(15)} vergiss nur nicht es irgendwann zur[cb]ckzugeben...{pause(20)}" next
+    "@Naja,{pause(15)} vergiss nur nicht, es irgendwann zur[cb]ckzugeben...{pause(20)}" next
 	"@Fr[cb]her oder sp[c0]ter musst du es sowieso abgeben." end
 
 l_0xc8045b:
     title(1, Charlie)
     "@Du wei[b8]t, dass zwei Leute nicht gleichzeitig Rad fahren k[c9]nnen," next
-    "@aber wei[b8]t du, dass du auch kein Rad fahren kannst," next
+    "@aber wei[b8]t du, dass du auch nicht Rad fahren kannst," next
     "@wenn du die Gegenst[c0]nde eines bewusstlosen Freundes tr[c0]gst?" next
     "@So viele Gegenst[c0]nde zu tragen und Fahrrad fahren ist einfach unm[c9]glich f[cb]r dich." end
 
@@ -640,7 +640,7 @@ l_0xc804d1:
 	*/
 
 l_0xc80530:
-    ".{pause(20)} Ich bin gerade dabei auf die Kinder aufzupassen." next
+    ".{pause(20)} Ich bin gerade dabei, auf die Kinder aufzupassen." next
     goto(l_0xc8054d)
 
 l_0xc8054d:

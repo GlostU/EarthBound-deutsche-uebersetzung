@@ -56,7 +56,7 @@ l_0xc7dccf:
 l_0xc7dcda:
     "{store_registers}" call(l_0xc7dc85) "[1B 03 {e(l_0xc7dd03)}]{load_registers}{swap}" newline
     "@([1C 02 00] erh[c0]lt" linebreak
-    "  {swap}[19 19 00 00]{call(data_gender.item_article)}.)" eob goto(l_0xc7dd03) //"  den {swap}[19 19 00 00][1C 05 00].)" eob goto(l_0xc7dd03)
+    "  {swap}[19 19 00 00]{store_registers}{swap}{rtoarg}{call(data_ItemText.WennDefArtikel)}{load_registers}.)" eob goto(l_0xc7dd03) //"  den {swap}[19 19 00 00][1C 05 00].)" eob goto(l_0xc7dd03)
 
 l_0xc7dd03: //Vielleicht buggy
     "[19 10 01]{swap}@([1C 02 00] f[cb]gte den {load_registers}[19 19 00 00]Gegenstand" linebreak
@@ -147,8 +147,8 @@ l_0xc7dee0:
     "[19 02]Nein[02]  [19 02]Ja[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc7df3c)} {e(l_0xc7df78)}]" goto(l_0xc7df3c)
 
 l_0xc7df3c:
-    "@Nachdem [1C 02 00] all sein Mut und seine Kr[c0]fte gesammelt hatte," next
-	"@beschloss er zur[cb]ckzukehren." next
+    "@Nachdem [1C 02 00] all seinen Mut und seine Kr[c0]fte gesammelt hatte," next
+	"@beschloss er, zur[cb]ckzukehren." next
     "@Viel Gl[cb]ck!{wait}{window_closeall}{set(flag 475)}" eob
 /*
     "@[1C 02 00] beschloss zur[cb]ckzukehren," next
@@ -195,7 +195,7 @@ l_0xc7dfbe:
     "@In diesem Moment wurden die PSI-Kr[c0]fte von [1C 01 08] drastisch verst[c0]rkt!{sound(40)}{set(flag 74)}[03]{window_closeall}{pause(30)}{window_open(14)}@[1C 01 08] erhielt 200.000 Erf.[03][1E 09 01 40 0D 03]" linebreak
     "[1F 04 03]" newline
     "@Und schlussendlich erkannte er," next
-	"@{sound(103)}dass er die Kraft von Teleportation [8C] besitzt.[1F 71 01 01][1F 71 01 04]{prompt}[1F 04 01]{window_closeall}{pause(120)}{pause(180)}{pause(10)}[1F EB 01 06][1F E5 FF][1F 15 01 00 05 03 01]{pause(10)}[1F EA 6A 00][1F 61]{window_open(1)}@[1C 01 08] machte alle versteckte Kr[c0]fte zu seinem Eigen." next
+	"@{sound(103)}dass er die Kraft von Teleportation [8C] besitzt.[1F 71 01 01][1F 71 01 04]{prompt}[1F 04 01]{window_closeall}{pause(120)}{pause(180)}{pause(10)}[1F EB 01 06][1F E5 FF][1F 15 01 00 05 03 01]{pause(10)}[1F EA 6A 00][1F 61]{window_open(1)}@[1C 01 08] machte alle versteckten Kr[c0]fte zu seinem Eigen." next
     "@[1C 01 08] nahm die Kraft dieses Landes in sein Herz auf und Magicant verschwand.[03]{window_closeall}" goto(data_52.l_0xc9b4c9)
 
 l_0xc7e3f9:
@@ -206,13 +206,13 @@ l_0xc7e3fa:
 	"@{swap}{call(derdiedas.DerDieDasArtikel)} liegt jetzt unten." end
 	
 l_0xc7e42c:	//bug
-	"[19 19 00 00]{swap}@[1C 02 00] versuchte [1C 02 FF]" linebreak
+	"[19 19 00 00]{swap}@[1C 02 00] versuchte, [1C 02 FF]" linebreak
     "  {swap}{swap}{rtoarg}{call(data_ItemText.WennDefArtikel)}" linebreak
     "  zu geben," next
     "{load_registers}@aber " call(l_0xc7e5f3) " tr[c0]gt schon zu viele Sachen." end
 	
 l_0xc7e468:	//bug	
-	"[19 19 00 00]{swap}@[1C 02 00] versuchte {rtoarg}{call(data_ItemText.WennDefArtikel)} zu den Sachen von [1C 02 FF] zu legen," next
+	"[19 19 00 00]{swap}@[1C 02 00] versuchte, {rtoarg}{call(data_ItemText.WennDefArtikel)} zu den Sachen von [1C 02 FF] zu legen," next
     "@aber dort war kein Platz mehr." end
 	
 l_0xc7e4a4: //bug	
@@ -229,7 +229,7 @@ l_0xc7e4e9: //bug
 	"@{swap}{call(derdiedas.DerDieDasArtikel)} liegt jetzt unten." end
 	
 l_0xc7e51c: //bug	
-	"[19 19 00 00]@[1C 02 FF] versuchte" linebreak
+	"[19 19 00 00]@[1C 02 FF] versuchte," linebreak
     "  {swap}{rtoarg}{call(data_ItemText.WennDefArtikel)} zu nehmen," next
     "{load_registers}@aber " call(l_0xc7e5f3) " tr[c0]gt schon zu viele Sachen." end
 	
@@ -416,5 +416,5 @@ l_0xc7e819:
 l_0xc7e86c:
     "@Beeindruckt!" next
     "@Eines Tages" linebreak
-    "  Wir dir helfen.{wait}{font_normal}" eob
+    "  Wir dir helfen!{wait}{font_normal}" eob
 

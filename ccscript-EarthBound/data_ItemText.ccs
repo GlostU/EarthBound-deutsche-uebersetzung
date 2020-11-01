@@ -175,7 +175,7 @@ WennDefArtikel:
 	"den Magischen Pudding" eob
 	}
 	
-	// Geprüft bis 253
+	
 	"{call(data_gender.item_def_article)}" eob	
 // ------------------------------------------------------------------------------------------- 	
 WennArtikel:

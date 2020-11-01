@@ -10,11 +10,11 @@ command e(label) "{long label}"
 
 // Text Data
 l_0xc5a4b4:
-    "{diam}The battle against Giygas is over...{wait}" linebreak
+    "{diam}Der Krieg gegen Giygas ist vorbei...{wait}" linebreak
     "{window_closeall}{counter(11)}" call(l_0xc5a4ec) call(data_53.l_0xc9c7fa) call(data_08.give3) eob
 
 l_0xc5a4cd:
-    "{diam}The End... ?{wait}" linebreak
+    "{diam}Fortsetzung folgt.{wait}" linebreak
     "{window_closeall}{counter(66)}" call(l_0xc5a4ec) "[1F 11 02][1F 21 D8]" call(data_08.give3) eob
 
 l_0xc5a4ec:
