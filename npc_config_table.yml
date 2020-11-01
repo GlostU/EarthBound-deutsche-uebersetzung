@@ -1567,12 +1567,12 @@
 174:
   Direction: down
   Event Flag: 0x0
-  Movement: 8
+  Movement: 12
   Show Sprite: always
-  Sprite: 204
-  Text Pointer 1: $0
+  Sprite: 92
+  Text Pointer 1: data_05.l_0xc572a0
   Text Pointer 2: $0
-  Type: object
+  Type: person
 175:
   Direction: left
   Event Flag: 0x1a6
@@ -3258,13 +3258,13 @@
   Type: object
 362:
   Direction: down
-  Event Flag: 0x0
-  Movement: 8
-  Show Sprite: always
-  Sprite: 204
-  Text Pointer 1: $0
+  Event Flag: 0x94
+  Movement: 606
+  Show Sprite: when event flag unset
+  Sprite: 95
+  Text Pointer 1: data_06.l_0xc57cf3
   Text Pointer 2: $0
-  Type: object
+  Type: person
 363:
   Direction: down
   Event Flag: 0x0
