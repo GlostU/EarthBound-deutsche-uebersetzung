@@ -10,22 +10,22 @@ command e(label) "{long label}"
 // Text Data
 l_0xc85291:
     call(data_37.l_0xc850d8) call(data_37.l_0xc850e6) "@<Tessie existiert, Augenzeugen berichten!" next
-    "@Aber Tessie Beobachtungsgesellschafts Mitglied vergisst" next
+    "@Aber Tessie Beobachtungsgesellschafts Mitglied vergisst," next
 	"@Film in die Kamera zu legen!>" end
 
 l_0xc852f0:
-    call(data_37.l_0xc850d8) call(data_37.l_0xc850e6) "@<Kaufhaus Panik!" next
+    call(data_37.l_0xc850d8) call(data_37.l_0xc850e6) "@<Kaufhauspanik!" next
     "@Stromausfall im beliebten Kaufhaus am helllichten Tage>" end
 
 l_0xc8533a:
-    call(data_37.l_0xc850d8) call(data_37.l_0xc850e6) "@<Jemand versucht Maschine in der H[c9]hle von Threeds Friedhof zu reparieren>" end
+    call(data_37.l_0xc850d8) call(data_37.l_0xc850e6) "@<Jemand versucht, Maschine in der H[c9]hle von Threeds Friedhof zu reparieren>" end
 
 l_0xc85370:
-    call(data_37.l_0xc850d8) call(data_37.l_0xc850e6) "@<[1C 02 01] und Begleitung retten Threed" next
+    call(data_37.l_0xc850d8) call(data_37.l_0xc850e6) "@<[1C 02 01] und Begleitung retten Threed," next
     "@best[c0]tigt Chef der Zombie Befreiungstruppe>" end
 
 l_0xc853b0:
-    call(data_37.l_0xc850d8) "@In der heutigen Threed Journal steht..." next
+    call(data_37.l_0xc850d8) "@In dem heutigen Threed Journal steht..." next
     "@[b0]hh, ich habe versehentlich die Threed Star gekauft..." next
     "@Tja, lass mich sie trotzdem lesen..." next
     "@<Zombie geb[c0]rt Falken Baby>" next
@@ -47,13 +47,13 @@ l_0xc85507:
     "@Ist das ein gutes Omen?>" end
 
 l_0xc85548:
-    call(data_37.l_0xc850d8) "@Hier ist eine interessante Werbeanzeige in der heutigen Threed Journal..." next
+    call(data_37.l_0xc850d8) "@Hier ist eine interessante Werbeanzeige in dem heutigen Threed Journal..." next
     "@<Morgenzeitungen werden von einem h[cb]bschen, freundlichen Hotelpage gebracht." next
     "@Threed Sonnenuntergang Hotel>" next
     "@...[b0]hhh ...hey! ...Das ist unsere Werbung!" end
 
 l_0xc855d4:
-    call(data_37.l_0xc850d8) "@Hier ist die heutige Threed Journal!..." next
+    call(data_37.l_0xc850d8) "@Hier ist das heutige Threed Journal!..." next
     "@Oh... Hoppla... Heute gibt es keine Ausgabe..." end
 
 l_0xc85610:
@@ -83,12 +83,12 @@ l_0xc85791:
 
 l_0xc857bb:
     call(l_0xc856fc) call(l_0xc8574a) "@<[bb]ber 90% der B[cb]rger in Fourside unterst[cb]tzen Monotoli>" next
-    "@Dann auf Seite 17, " next
+    "@Dann auf Seite 17:" next
     "@<Mysteri[c9]ser Stromausfall im Kaufhaus von einer Maus ausgel[c9]st>" end
 
 l_0xc8581b:
     call(l_0xc856fc) call(l_0xc8574a) "@<[bb]ber 50% der B[cb]rger in Fourside unterst[cb]tzen jetzt die Anti-Monotoli Kampagne>" next
-    "@Und auf Seite 23 der Fourside Post." next
+    "@Und auf Seite 23 der Fourside Post:" next
     "@<Einsamer Tod in der Stadt. Mann mit langen Haaren, Bart," next
     "@Sonnenbrille und Aloha Shirt auf der Stra[b8]e gefunden>" end
 
@@ -99,7 +99,7 @@ l_0xc858f0:
     call(l_0xc856fc) "  Die Fourside Post sagt..." next
     "@Mist! Ich habe einen Fehler gemacht, und die Zeitung namens Fourside Star gekauft." next
     "@Lassen Sie mich sie trotzdem vorlesen..." next
-    "@<Lucky von den Runaway Br[cb]dern war ein ein Mitglied im Studentenrat>" next
+    "@<Lucky von den Runaway Br[cb]dern war ein Mitglied im Studentenrat>" next
     "@...Das muss eine L[cb]ge sein..." end
 
 l_0xc85985:
@@ -107,7 +107,7 @@ l_0xc85985:
 
 l_0xc859b5:
     call(l_0xc856fc) "  Auf Seite 25 der Fourside Post..." next
-    "@<Venus wird zur Ber[cb]hmtheit unter Fourside Autogrammj[c0]ger," next
+    "@<Venus wird zur Ber[cb]hmtheit unter Fourside Autogrammj[c0]gern," next
 	"  dies f[cb]hrt zu Problemen f[cb]r die bekannte S[c0]ngerin>" end
 
 l_0xc85a11:
@@ -152,8 +152,8 @@ l_0xc85c76:
     eob
 
 l_0xc85c99:
-    call(l_0xc85c55) call(l_0xc85c76) "@<In Winters, unsere Partnerstadt," next
-	"@wurden Personen, eine nach dem anderen vermisst gemeldet>" end
+    call(l_0xc85c55) call(l_0xc85c76) "@<In Winters, unserer Partnerstadt," next
+	"@wurde eine Person nach der anderen vermisst gemeldet>" end
 
 l_0xc85cd3:
     call(l_0xc85c55) call(l_0xc85c76) "@<Gestern gleich wie Vorgestern" next
@@ -178,8 +178,8 @@ l_0xc85e27:
     "@...{pause(10)} So etwas sind hier gro[b8]e Neuigkeiten." end
 
 l_0xc85e65:
-    call(l_0xc85c55) call(l_0xc85c76) "@<Aus Krakenflosse wird wunderbare Suppe gemacht!" next
-    "@Das neue Gericht schl[c0]gt gro[b8]e Wellen am Strand>" end
+    call(l_0xc85c55) call(l_0xc85c76) "@<Krakenflossen wurden an Strand geschwemmt!" next
+    "@Daraus werden nun neue Suppen und weitere Restaurantgerichte hergestellt>" end
 
 l_0xc85eb1:
     call(l_0xc85c55) "@In der heutigen Daily Summers gibt es eine gro[b8]e Werbeanzeige" next
@@ -196,7 +196,7 @@ l_0xc85f76:
 
 l_0xc85ff7:
     "@Guten Morgen, [19 10 01]"call(data_33.l_0xc7e6b3)"!" next
-    "@Bitte erlauben Sie mir Ihnen von der lokalen Zeitung vorzulesen," next
+    "@Bitte erlauben Sie mir, Ihnen aus der lokalen Zeitung vorzulesen," next
     "@die Scaraba Papyrus..." next
     eob
 
@@ -235,7 +235,7 @@ l_0xc86112:
     end
 
 l_0xc86147:
-    call(l_0xc85ff7) call(l_0xc8603c) "@<Kinder, die los sprinten und sofort verschwinden wurden gesichtet," next
+    call(l_0xc85ff7) call(l_0xc8603c) "@<Kinder, die los sprinten und sofort verschwinden, wurden gesichtet," next
 	"@aber nur f[cb]r einen Augenblick" next
 	call(rumor)
     end
@@ -257,8 +257,8 @@ l_0xc86279:
     "[06 4F 00 {e(l_0xc86320)}][06 84 00 {e(l_0xc862b8)}]@(Achtung!{pause(30)} Hier und da brennt es noch immer.{pause(20)} Es ist HEI[c8]!)" end
 
 l_0xc862b8:
-    "@Dort ist etwas gl[c0]nzendes." next
-    "@M[c9]chtest du versuchen es zu herauszunehmen?" linebreak
+    "@Dort ist etwas Gl[c0]nzendes." next
+    "@M[c9]chtest du versuchen, es herauszunehmen?" linebreak
     "[19 02]Ja[02][19 02]Nein[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc862f8)} {e(l_0xc862f7)}]" goto(l_0xc862f7)
 
 l_0xc862f7:
@@ -271,10 +271,10 @@ l_0xc86311:
     "@Du hast nicht genug Platz." end
 
 l_0xc86320:
-    "@(Schein, als w[c0]re hier vor nicht allzu langer Zeit ein Meteorit gelandet.)" end
+    "@(Scheint, als w[c0]re hier vor nicht allzu langer Zeit ein Meteorit gelandet.)" end
 
 l_0xc8634c:
-    "@Selbst f[cb]r arme Leute ist es einfach einen luxuri[c9]sen Zweitwohnsitz zu besitzen!" next
+    "@Selbst f[cb]r arme Leute ist es einfach, einen luxuri[c9]sen Zweitwohnsitz zu besitzen!" next
     "@<Schnabel Stelle Immobilien>" end
 
 l_0xc86399:
@@ -333,10 +333,10 @@ l_0xc86591:
 
 l_0xc865cb:
     "@Die zweite Stadt." linebreak
-    "  Wir hei[b8]en Twoson, weil wir nicht die ersten waren." end
+    "  Wir hei[b8]en Twoson, weil wir nicht die Ersten waren." end
 
 l_0xc865f3:
-    "@Wenn du einen verd[c0]chtigen Typ siehst,{pause(15)} dann tu so, als w[cb]rdest du ihn nicht sehen." end
+    "@Wenn du einen verd[c0]chtigen Typen siehst,{pause(15)} dann tu so, als w[cb]rdest du ihn nicht sehen." end
 
 l_0xc8661b:
     "@Wenn du genug Zeit hast, dies zu lesen, dann geh schleunigst ins Chaos Theater." end
@@ -345,7 +345,7 @@ l_0xc86646:
     "@<Secret Entrance to Burglin Park>" end
 
 l_0xc86663:
-    "@Bist du jetzt Gl[cb]cklich?{pause(20)}" linebreak
+    "@Bist du jetzt gl[cb]cklich?{pause(20)}" linebreak
     "  <Gl[cb]cklich Gl[cb]cklich Religionsgemeinschaft>" end
 
 l_0xc86689:
@@ -406,7 +406,7 @@ l_0xc868ad:
 
 l_0xc86900:
     "@(Meeting f[cb]r Mother 3 geplant." next
-    "@Nur Personal, die in Verbindung zum Projekt stehen, d[cb]rfen eintreten." next
+    "@Nur Personal, das in Verbindung zum Projekt steht, darf eintreten." next
     "@APE Softwareentwicklungsteam)" end
 
 l_0xc86961:
@@ -429,7 +429,7 @@ l_0xc869dd:
 
 l_0xc86a25:
     "@(Neuerdings l[c0]uft ein seltsamer Kauz im Krankenhaus herum und sagt," next
-    "@er k[c9]nne alle deine Beschwerden heilen, die wir nicht behandeln k[c9]nnen." next
+    "@er k[c9]nne all deine Beschwerden heilen, die wir nicht behandeln k[c9]nnen." next
     "@Bitte seien Sie sich im Klaren, dass er nicht in Verbindung mit dem Krankenhaus steht." next
     "@Fourside Krankenhaus Management)" end
 

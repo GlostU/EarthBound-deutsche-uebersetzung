@@ -9,7 +9,7 @@ import give2
 
 Droge:
 //DEBUG TEST ENTFERNEN
-//goto(data_35.l_0xc805ba)
+//goto(data_39.l_0xc87db4)
 "@Die Schublade hat ein Schloss." next
 "@Geheimzahl:"
 input(3) store_registers

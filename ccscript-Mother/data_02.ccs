@@ -498,7 +498,7 @@ l_0xc53a57:
 
 l_0xc53a67:
     newline
-    " <Legend[c0]rer Schl[c0]ger>" next
+    " <Legenden Schl[c0]ger>" next
     call(data_05.l_0xc56b8e) end
 
 l_0xc53a77:

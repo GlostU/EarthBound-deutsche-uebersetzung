@@ -87,7 +87,7 @@ l_0xc86e58:
 	"@baut der Angreifer eine" linebreak
 	"  Festung des B[c9]sen." next
     "@Diese Festung ist weit von der Tiefen Dunkelheit entfernt" next
-	"@und ist noch weiter jenseits der Verlorenen Unterwelt." next
+	"@und befindet sich noch weiter jenseits der Verlorenen Unterwelt." next
     "@Die Tiefe Dunkelheit ist komplett eingeh[cb]llt." linebreak
 	"  In ihr gibt es kein Licht." next
     "@Nur jemand mit dem [1C 05 AF] kann die Dunkelheit durchstechen." next
@@ -114,8 +114,10 @@ l_0xc870a4:
     "@(Es wird vermutet, dass diese Hieroglyphentafel" next
 	"@c.a. 4000 v.Chr geschrieben wurde." next
     "@Niemand hat jemals ihren Inhalt verstanden," next
-    "@weil sie in einer ungew[c9]hnlicher Schrift geschrieben wurde." next
-    "@Wollen Sie nicht versuchen das R[c0]tsel dieser antiken Steintafel zu l[c9]sen?)" end
+    "@weil sie in einer ungew[c9]hnlichen Schrift geschrieben wurde." next
+    "@Wollen Sie nicht n[c0]her kom-" linebreak
+	"  men und versuchen das R[c0]tsel dieser antiken Steintafel" next
+	"@zu l[c9]sen?)" end
 
 l_0xc87155:
     "@(Das T[c9]pfchen von Rum Rrosin der f[cb]nfte.)" end
@@ -139,7 +141,7 @@ l_0xc87202:
     "[06 5C 01 {e(data_50.l_0xc9992f)}][06 56 01 {e(l_0xc87280)}][06 94 00 {e(l_0xc87220)}]{window_open(1)}@.....{wait}{window_closeall}" eob
 
 l_0xc87220:
-    "{window_open(1)}@Bist du ein Dieb, ein Krieger, oder jemand, der meine Majest[c0]t sehen will?" next
+    "{window_open(1)}@Bist du ein Dieb, ein Krieger oder jemand, der meine Majest[c0]t sehen will?" next
     "@Du musst entscheiden, wer du wirklich bist. Also, was wirst du tun?{wait}{window_closeall}{set(flag 7)}{set(flag 152)}" eob
 
 l_0xc87280:
@@ -185,13 +187,13 @@ l_0xc87411:
     "@                      ...Steinweg" end
 
 l_0xc87444:
-    "@Vor einer Dungeonwanderung sollte sowohl der K[c9]rper," next
+    "@Vor einer Dungeonwanderung sollte sowohl der K[c9]rper" next
 	"@als auch der Geist gereinigt werden." linebreak
     "                        ...Steinweg" end
 
 l_0xc87474:
-    "@Scheue keine Anstrengungen." next
-	"@Beachte diesen Rat und vortreffliche Gegenst[c0]nde sollen dein Eigentum sein." next
+    "@Scheue dich der Anstrengung nicht." next
+	"@Beachte diesen Rat und vortreffliche Gegenst[c0]nde werden dein Eigentum sein." next
     "@                      ...Steinweg" end
 
 l_0xc874a2:
@@ -221,7 +223,7 @@ l_0xc875b0:
     "@                      ...Steinweg" end
 
 l_0xc875db:
-    "@Dungeonbesitzer sind dazu verpflichtet einen Arzt" next
+    "@Dungeonbesitzer sind dazu verpflichtet, einen Arzt" next
 	"@und eine Krankenschwester einzustellen." linebreak
     "                        ...Steinweg" end
 
@@ -230,7 +232,7 @@ l_0xc87617:
     "@                      ...Steinweg" end
 
 l_0xc87632:
-    "@Laut meinen Statistiken gehen ungef[c0]hr 70% aller Leute zu erst nach rechts." next
+    "@Laut meinen Statistiken gehen ungef[c0]hr 70% aller Leute zuerst nach rechts." next
     "@                      ...Steinweg" end
 
 l_0xc87664:
@@ -281,7 +283,7 @@ l_0xc87811:
 
 l_0xc8783f:
     "@In dieser Sackgasse liegt ein Gegenstand," next
-    "@aber ich bin bekannt daf[cb]r manchmal falsch zu liegen." linebreak
+    "@aber ich bin bekannt daf[cb]r, manchmal falsch zu liegen." linebreak
 	"  Tut mir leid." next
     "@                      ...Steinweg" end
 
@@ -313,7 +315,7 @@ l_0xc87961:
 
 l_0xc87995:
     "@<Gewaltt[c0]tige Ziege>" linebreak
-	"  Die Gewaltt[c0]tigste Art von Ziege." next
+	"  Die Gewaltt[c0]tigste Art der Ziegen." next
     "@                      ...Steinweg" end
 
 l_0xc879c5:
@@ -401,7 +403,7 @@ l_0xc87cb8:
 
 l_0xc87cd9:
     "@(Treiben Sie Sport? ...Wenn ja, dann ist uns das recht." next
-    "@<Twoson Athletikzentrum>)" end
+    "@<Twoson Sportausschuss>)" end
 
 l_0xc87d1f:
     "@(Ich schreibe Erwachsenen nichts vor," next
@@ -415,7 +417,8 @@ l_0xc87d94:
 
 l_0xc87db4:
     "@Die Informationstafel ist mit Graffiti bespr[cb]ht." next
-    "@(Software Entwicklungs Geb[c0]ude, Mt. Fuji ist zu sehen - HAL Laboratory)" end
+    "@(Ein Softwareentwicklungs-" linebreak
+	"  geb[c0]ude, wo auch Mt. Fuji zu sehen ist - HAL Laboratory)" end
 
 l_0xc87dff:
     "[06 59 00 {e(data_32.l_0xc7c59e)}][06 7E 00 {e(l_0xc87e13)}]" call(data_32.l_0xc7c59e) eob
@@ -432,7 +435,7 @@ l_0xc87e4c:
     "[1D 03 FF][1B 02 {e(l_0xc87e8e)}][1D 0E 00 A4][1B 05]" call(data_33.l_0xc7dcb6) "{wait}{set(flag 89)}{unset(flag 766)}{unset(flag 51)}" eob
 
 l_0xc87e8e:
-    "@(Aber schau mal, in diesem glorreichen Moment hast du keinen Platz mehr.)" next
+    "@(Aber in diesem glorreichen Moment hast du keinen Platz mehr.)" next
     eob
 
 l_0xc87eb2:

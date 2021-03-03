@@ -575,7 +575,7 @@ l_0xc7252b:
 l_0xc7259f:
 //80
     "@Wenn du den Karottenschl[cb]ssel hast, " next
-    "@dann solltest du nach Dalaam reisen und es dort den Hasen bei der <Rosa Wolke> geben." next
+    "@dann solltest du nach Dalaam reisen und ihn dort den Hasen bei der <Rosa Wolke> geben." next
     "@Wenn du den Schl[cb]ssel nicht besitzt, solltest du zum <Magnet H[cb]gel> gehen." next
     "@Du wirst den Karottenschl[cb]ssel dort finden." call(l_0xc726cb) eob
 

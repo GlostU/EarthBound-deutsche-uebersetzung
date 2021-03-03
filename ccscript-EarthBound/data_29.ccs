@@ -313,7 +313,7 @@ l_0xc774c6:
     "@AAaaaargh!{wait}[1F E1 1F 06 3C]" eob
 
 l_0xc774ec:
-    "@[1C 02 01]," next
+    "@[1C 02 01]." next
     "@Ich sp[cb]re noch immer den Schmerz, dort wo du mich verletzt hast.{wait}[1F E1 1F 06 3C]" eob
 
 l_0xc77511:

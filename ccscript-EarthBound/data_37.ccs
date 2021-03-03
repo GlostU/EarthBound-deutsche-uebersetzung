@@ -13,7 +13,7 @@ l_0xc83ecd:
     "@Ich hoffe, es gibt wieder spitzen Preise." end
 
 l_0xc83efd:
-    "@Es scheint so, als g[c0]be es hinter dieser Mauer seltsame Dinge." next
+    "@Anscheinend gibt es hinter dieser Mauer seltsame Dinge." next
     "@Ich glaube, das ist kein Ort f[cb]r mich..." next
     "@Vielleicht ist es ja ein Ort f[cb]r dich." end
 
@@ -39,7 +39,7 @@ l_0xc83fe6:
     "@Erinnerst du dich an mich?" next
     "@Ich habe Mr. Enrich Flavor das Geb[c0]ude zur[cb]ckgegeben." next
     "@Jetzt arbeite ich als Fahrstuhlmann." next
-    "@Ich bin gl[cb]cklich und es ist sch[c9]n am Leben zu sein." next
+    "@Ich bin gl[cb]cklich und es ist sch[c9]n, am Leben zu sein." next
     "@Ich habe von deinen Erfolgen geh[c9]rt.{pause(20)} Wundervoll." end
 
 l_0xc84079:
@@ -48,7 +48,7 @@ l_0xc84079:
     "@[1C 02 01]." next
     "@Porky hat mich, seinen eigenen Vater, verlassen." linebreak
 	"  Er ist einfach abgehauen." next
-    "@Wenn du diesen Idioten siehst, sag ihm er soll seinen Vater mehr wertsch[c0]tzen." next
+    "@Wenn du diesen Idioten siehst, sag ihm, er soll seinen Vater mehr wertsch[c0]tzen." next
     "@Erz[c0]hl meiner Frau in Onett nicht, dass ich hier meinen Kummer ertr[c0]nke." next
     "@Hick!{pause(15)} W[c0][c0][c0][c0]h!" end
 
@@ -58,12 +58,12 @@ l_0xc84111:
     "@Ich werde Toiletten f[cb]r den Rest meines Lebens hassen." end
 
 l_0xc84168:
-    "@Oh, ich kann hier die Runaway Br[cb]dern nicht mehr sehen...?" next
-    "@Ich sollte diese traurige Entschuldigung eines Mannes wegwerfen und ein Groupie" next
-	"@der Runaway Br[cb]der werden." end
+    "@Oh, ich kann hier die Runaway Br[cb]der nicht mehr sehen...?" next
+    "@Ich sollte diesen traurigen Jammerlappen verlassen und" next
+	"@ein Groupie der Runaway Br[cb]der werden." end
 
 l_0xc841b3:
-    "@Ich bin immer P[cb]nktlich und sehr vorsichtig mit Geld." next
+    "@Ich bin immer p[cb]nktlich und sehr vorsichtig mit Geld." next
     "@Jedoch sehe ich nicht so aus." end
 
 l_0xc841de:
@@ -166,7 +166,7 @@ l_0xc843a7:
     eob
 
 l_0xc843c8:
-    "@Eine Werbeanzeige in der heutigen Onett Times sieht interessant aus." next
+    "@Eine der Werbeanzeigen in der heutigen Onett Times sieht interessant aus." next
     eob
 
 l_0xc843f6:
@@ -179,13 +179,13 @@ l_0xc8444c:
     call(l_0xc8437a) call(l_0xc843a7) "@<Beschwerden [cb]ber Haie l[c9]sen sich in Luft auf>" end
 
 l_0xc84485:
-    call(l_0xc8437a) call(l_0xc843a7) "@<B[cb]rgermeister von Onett erteilt Haie eine Lektion und bringt Frieden in Onett>" end
+    call(l_0xc8437a) call(l_0xc843a7) "@<B[cb]rgermeister von Onett erteilt den Haien eine Lektion und bringt Frieden nach Onett>" end
 
 l_0xc844bd:
-    call(l_0xc8437a) call(l_0xc843a7) "@<B[c0]ndiger der Haie in Wirklichkeit ein Junge mit roter Kappe!>" end
+    call(l_0xc8437a) call(l_0xc843a7) "@<B[c0]ndiger der Haie ist in Wirklichkeit ein Junge mit roter Kappe!>" end
 
 l_0xc844ea:
-    call(l_0xc8437a) call(l_0xc843a7) "@<Viele B[cb]rger von Onett leiden unter korrupten Immobilienmakler>" end
+    call(l_0xc8437a) call(l_0xc843a7) "@<Viele B[cb]rger von Onett leiden unter korrupten Immobilienmaklern>" end
 
 l_0xc84525:
     call(l_0xc8437a) call(l_0xc843a7) "@<M[c0]dchen namens [1C 01 1E] aus der Nachbarstadt Twoson wird als vermisst gemeldet>" end
@@ -198,8 +198,8 @@ l_0xc8455f:
     "@Tja,{pause(10)} so ist halt die Onett Star." end
 
 l_0xc84608:
-    call(l_0xc8437a) call(l_0xc843c8) "@<Ist es nicht an der Zeit f[cb]r einen fantastischen Urlaub?" next
-	"@Ja? Dann gehen Sie nach Summers, der Ferienort ihrer Tr[c0]ume!" next
+    call(l_0xc8437a) call(l_0xc843c8) "@<Ist es nicht Zeit f[cb]r einen fantastischen Urlaub?" next
+	"@Ja? Dann gehen Sie nach Summers - der Ferienort ihrer Tr[c0]ume!" next
     "@Eines Tages werden wir auch Sie dort sehen...>" end
 
 l_0xc84657:
@@ -209,14 +209,14 @@ l_0xc84693:
     call(l_0xc8437a) call(l_0xc843a7) "@<Die Situation in der Stadt Threed ist gr[c0]sslich>" end
 
 l_0xc846b6:
-    call(l_0xc8437a) call(l_0xc843c8) "@<Selbst unsere Angestellte verirren sich im Laden!" next
-    "@Das gr[c9][b8]te Kaufhaus der Welt,  der Fourside Riese>" end
+    call(l_0xc8437a) call(l_0xc843c8) "@<Selbst unsere Angestellten verirren sich im Laden!" next
+    "@Das gr[c9][b8]te Kaufhaus der Welt, der Fourside Riese>" end
 
 l_0xc846fc:
-    call(l_0xc8437a) call(l_0xc843a7) "@<Meteorite north of Onett still burning hot>" end
+    call(l_0xc8437a) call(l_0xc843a7) "@<Meteorit im Norden von Onett ist noch immer gl[cb]hend hei[b8]>" end
 
 l_0xc84728:
-    call(l_0xc8437a) "@...{pause(10)}Oh,{pause(10)} heute gibt es keine Ausgabe... Entschuldigung." end
+    call(l_0xc8437a) "@...{pause(10)}Oh,{pause(10)} heute gibt es keine neue Ausgabe... Entschuldigung." end
 
 l_0xc8474d:
     call(l_0xc8437a) call(l_0xc843a7) "@<Neuste Entdeckung: [1C 01 04] ist f[cb]hrende Quelle f[cb]r Nahrung und Energie>" end
@@ -234,7 +234,7 @@ l_0xc8481a:
     call(l_0xc8437a) call(l_0xc843a7) "@<Prinz [1C 02 04] von Dalaam reist unerkannt nach Onett?>" end
 
 l_0xc8484c:
-    call(l_0xc8437a) call(l_0xc843c8) "@<Selbst ein bew[c0]hrter Weltreisender genie[b8]t es hier zu bleiben." next
+    call(l_0xc8437a) call(l_0xc843c8) "@<Selbst ein bew[c0]hrter Weltreisender genie[b8]t es, hier zu bleiben." next
     "@Hotel Onett im lieblichen Stadtzentrum von Onett.>" next
     "@...Hey, das ist ja unsere Werbung!" end
 
@@ -242,24 +242,25 @@ l_0xc848a4:
     call(l_0xc8437a) call(l_0xc843a7) "@<Internationale Neuigkeiten: Pyramide in Scaraba verw[cb]stet>" end
 
 l_0xc848db:
-    call(l_0xc8437a) call(l_0xc843a7) "@<Onett B[cb]cherei steht vor einer Krise" next
+    call(l_0xc8437a) call(l_0xc843a7) "@<Onetts B[cb]cherei steht vor einer Krise" next
     "@Viele Kunden verschenken die B[cb]chereib[cb]cher oder behalten sie>" end
 
 l_0xc84930:
     call(l_0xc8437a) call(l_0xc843a7) "@<Eine lokale Studie zeigt," next
-	"@dass der beliebteste Beruf unter Kindern in Onett Abenteurer ist.>" end
+	"@dass der beliebteste Beruf unter Kindern in Onett Abenteurer ist>" end
 
 l_0xc84973:
-    call(l_0xc8437a) call(l_0xc843a7) "@<Gelandeter Meteorit in Onett beginnt abzuk[cb]hlen>" end
+    call(l_0xc8437a) call(l_0xc843a7) "@<Meteorit Absturzstelle in Onett beginnt abzuk[cb]hlen>" end
 
 l_0xc849aa:
-    call(l_0xc8437a) call(l_0xc843a7) "@<Onett Polizeichef hat EarthBound durch, er fragt, <Wo bleibt EarthBound 2>?" end
+    call(l_0xc8437a) call(l_0xc843a7) "@<Onetts Polizeichef hat EarthBound durchgespielt, er fragt," linebreak
+	"  <Wo bleibt EarthBound 2>?>" end
 
 l_0xc849ed:
     call(l_0xc841de) "{ctoarg}{swap}[1F C0 1D {e(l_0xc84aad)} {e(l_0xc84aad)} {e(l_0xc84aad)} {e(l_0xc84aad)} {e(l_0xc84aad)} {e(l_0xc84aad)} {e(l_0xc84ad7)} {e(l_0xc84b3f)} {e(l_0xc84b5e)} {e(l_0xc84bbb)} {e(l_0xc84bee)} {e(l_0xc84bee)} {e(l_0xc84bee)} {e(l_0xc84bee)} {e(l_0xc84bee)} {e(l_0xc84c1b)} {e(l_0xc84c1b)} {e(l_0xc84cac)} {e(l_0xc84cfa)} {e(l_0xc84d38)} {e(l_0xc84d6b)} {e(l_0xc84d9c)} {e(l_0xc84dbc)} {e(l_0xc84deb)} {e(l_0xc84e1f)} {e(l_0xc84e64)} {e(l_0xc84f19)} {e(l_0xc84f55)} {e(l_0xc84f98)}]" eob
 
 l_0xc84a6e:
-    "@M[c9]chten Sie noch Zeitung lesen, bevor Sie gehen?" next
+    "@M[c9]chten Sie noch die Zeitung lesen, bevor Sie gehen?" next
     eob
 
 l_0xc84a8a:
@@ -271,25 +272,19 @@ l_0xc84aad:
 
 l_0xc84ad7:
     call(l_0xc84a6e) call(l_0xc84a8a) "@<Der mutige Held namens [1C 02 01], welcher die Haie aufl[c9]ste, hat Onett verlassen." next
-    "@Berichte, dass der B[cb]rgermeister die Haie stoppte sind falsch>" end
+    "@Berichte, dass der B[cb]rgermeister die Haie stoppte, sind falsch>" end
 
 l_0xc84b3f:
     call(l_0xc84a6e) call(l_0xc84a8a) "@<Vermisstes M[c0]dchen noch immer nicht gefunden>" end
 
 l_0xc84b5e:
     call(l_0xc84a6e) call(l_0xc84a8a) "@<Mr. Carpainter erkl[c0]rt:" next
-    "@Im Nachhinein kann ich sagen, Gl[cb]cklich-Gl[cb]cklichismus war ein Fehler." next
+    "@Im Nachhinein kann ich sagen: Der Gl[cb]cklich-Gl[cb]cklichismus war ein Fehler." next
     "@Ich war nicht ganz bei Sinnen. Ich kann mich nicht genug entschuldigen>" end
-	
-/*	
-    call(l_0xc84a6e) call(l_0xc84a8a) "@<Bez[cb]glich Mr. Carpainter" next
-    "@Anh[c0]nger erkl[c0]rt, Gl[cb]cklich-Gl[cb]cklichismus ist falsch" next
-    "@Anh[c0]nger behauptet tempor[c0]rer Wahnsinn...>" end
-*/
 
 l_0xc84bbb:
-    call(l_0xc84a6e) call(l_0xc84a8a) "@<[1C 02 02] unversehrt gefunden!" linebreak
-    "  Eltern [cb]bergl[cb]cklich sie wieder zu haben>" end
+    call(l_0xc84a6e) call(l_0xc84a8a) "@<[1C 02 02] unversehrt gefunden!" next
+    "@Eltern [cb]bergl[cb]cklich dar[cb]ber, sie wieder zu haben>" end
 
 l_0xc84bee:
     call(l_0xc84a6e) call(l_0xc84a8a) "@<Geister bewohnen weiterhin den Tunnel nach Threed>" end
@@ -298,19 +293,19 @@ l_0xc84c1b:
     call(l_0xc84a6e) "@Die heutige Twoson Today..." next
     "@...Uuups! Mein Fehler... Ich habe die Twoson Star gekauft..." next
     "@Tja, lass mich sie trotzdem lesen..." next
-    "@<Tessie im Tess See ist Cousin von Nessie>" next
+    "@<Tessie im Tess See ist Cousine von Nessie>" next
     "@...Das war's auch schon." end
 
 l_0xc84cac:
     call(l_0xc84a6e) call(l_0xc84a8a) "@<Neuliche Explosion wurde durch Absturz eines unbekannten Flugzeuges" next
-    "@im Friedhof von Threed verursacht>" end
+    "@[cb]ber dem Friedhof von Threed verursacht>" end
 
 l_0xc84cfa:
     call(l_0xc84a6e) call(l_0xc84a8a) "@<Runaway B[cb]der pr[c0]sentieren beliebte Show im Topolla Theater" next
     "@im Stadtzentrum von Fourside>" end
 
 l_0xc84d38:
-    call(l_0xc84a6e) call(l_0xc84a8a) "@<Everdred, Gauner Park Verbrecherboss, verschwunden>" end
+    call(l_0xc84a6e) call(l_0xc84a8a) "@<Der Gauner Park Verbrecherboss namens Everdred ist verschwunden>" end
 
 l_0xc84d6b:
     call(l_0xc84a6e) call(l_0xc84a8a) "@<Deb[cb]t der Runaway Br[cb]der in wenigen Minuten ausverkauft>" end
@@ -323,7 +318,7 @@ l_0xc84dbc:
 
 l_0xc84deb:
     call(l_0xc84a6e) call(l_0xc84a8a) "@<Ehemaliger Gl[cb]cklich-Gl[cb]cklichismus Anh[c0]nger" next
-	"@behauptet naiv gewesen zu sein>" end
+	"@behauptet, naiv gewesen zu sein>" end
 
 l_0xc84e1f:
     call(l_0xc84a6e) call(l_0xc84a8a) "@<Du! Mit dem Controller in der Hand!" next
@@ -331,21 +326,22 @@ l_0xc84e1f:
 
 l_0xc84e64:
     call(l_0xc84a6e) "@In der heutigen Twoson Today gibt es eine interessante Werbeanzeige." next
-    "@<Bist du sch[cb]chtern? F[c0]llt es dir schwer mit Leuten zu renden, die du nicht kennst?" next
+    "@<Bist du sch[cb]chtern? F[c0]llt es dir schwer, mit Leuten zu reden, die du nicht kennst?" next
     "@Wenn ja, dann ist das Buch <Sch[cb]chternheit [cb]berwinden>" next
 	"@dein Leitfaden, um kontaktfreudiger zu werden." next
-    "@Dieser Titel ist jetz in Ihrer lokalen Buchhandlung oder B[cb]cherei erh[c0]ltlich.>" end
+    "@Dieser Titel ist jetzt in deiner lokalen Buchhandlung oder B[cb]cherei erh[c0]ltlich.>" end
 
 l_0xc84f19:
-    call(l_0xc84a6e) call(l_0xc84a8a) "@<In Twoson, feiert Nintendos acht-bit System, die NES, ihr Comeback!>" end
+    call(l_0xc84a6e) call(l_0xc84a8a) "@<In Twoson feiert Nintendos 8-Bit Spielekonsole, die NES, ihr Comeback!>" end
 
 l_0xc84f55:
-    call(l_0xc84a6e) call(l_0xc84a8a) "@<Die Onett Times eine bessere Zeitung als wir von der Twoson Today uns vorgestellt haben>" end
+    call(l_0xc84a6e) call(l_0xc84a8a) "@<Die Onett Times ist eine bessere Zeitung, als wir, die von der Twoson Today, uns" next
+	"@vorgestellt haben>" end
 
 l_0xc84f98:
     call(l_0xc84a6e) call(l_0xc84a8a) "@<Monster verschwinden!" linebreak
-    " Tiere beruhigen sich!" linebreak
-    " Die Stadt hat Frieden!>" end
+    "  Tiere beruhigen sich!" linebreak
+    "  Die Stadt hat wieder Frieden!>" end
 
 l_0xc84fd8:
     call(l_0xc841de) "{ctoarg}{swap}[1F C0 1D {e(l_0xc850ff)} {e(l_0xc850ff)} {e(l_0xc850ff)} {e(l_0xc850ff)} {e(l_0xc850ff)} {e(l_0xc850ff)} {e(l_0xc850ff)} {e(l_0xc850ff)} {e(l_0xc850ff)} {e(l_0xc850ff)} {e(l_0xc850ff)} {e(l_0xc850ff)} {e(l_0xc8514f)} {e(l_0xc8519e)} {e(l_0xc851e9)} {e(l_0xc8522f)} {e(data_38.l_0xc85291)} {e(data_38.l_0xc852f0)} {e(data_38.l_0xc8533a)} {e(data_38.l_0xc85370)} {e(data_38.l_0xc853b0)} {e(data_38.l_0xc8544c)} {e(data_38.l_0xc8549d)} {e(data_38.l_0xc854cc)} {e(data_38.l_0xc85507)} {e(data_38.l_0xc85548)} {e(data_38.l_0xc855d4)} {e(data_38.l_0xc85610)} {e(data_38.l_0xc85651)}]" eob
@@ -358,7 +354,7 @@ l_0xc85065:
     "@Die G[c0]stezeitungen, die heute zum Hotel geliefert wurden..." next
     "@sind etwas anders als normalerweise." next
     "@Sie hei[b8]t Zombie Verk[cb]nder..." next
-    "@Ich habe Angst, aber lass mich Ihnen vorlesen, was geschrieben steht..." next
+    "@Ich habe Angst, aber lassen Sie mich Ihnen vorlesen, was geschrieben steht..." next
     eob
 
 l_0xc850d8:
@@ -366,7 +362,7 @@ l_0xc850d8:
     eob
 
 l_0xc850e6:
-    "@Hier ist Ihre Threed Journal." next
+    "@Hier ist Ihr Threed Journal." next
     eob
 
 l_0xc850ff:
@@ -388,8 +384,8 @@ l_0xc851e9:
     call(l_0xc85065) "@<Monster Zelt ist gefallen! Junger Mensch ist Schuld!>" end
 
 l_0xc8522f:
-    call(l_0xc850d8) "@Der Stolz der Threed Verlagsgemeinschaft," next
-    "@die Threed Journal ist wieder da und bringt Vergeltung!" next
+    call(l_0xc850d8) "@Der Stolz der Threed Verlagsgemeinschaft:" next
+    "@das Threed Journal ist wieder da und bringt Vergeltung!" next
     "@<Zombies bezwungen!" linebreak
     "  Tunnel jetzt offen!>" end
 
