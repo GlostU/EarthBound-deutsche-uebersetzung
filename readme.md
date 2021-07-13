@@ -1,6 +1,8 @@
 # EarthBound deutsche Übersetzung
 Eine deutsche Fan Übersetzung von EarthBound
-von GlostU/Mexos
+von GlostU/Mexos  
+
+Korrekturleser: [Maingron](https://maingron.com)
 
 # Lizenz
 Das Projekt ist unter der GNU General Public License v3.0 lizensiert.
